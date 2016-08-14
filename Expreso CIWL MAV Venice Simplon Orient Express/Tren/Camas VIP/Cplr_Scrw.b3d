@@ -1,0 +1,62 @@
+[MESHBUILDER]                           ;Scrw
+Cylinder 12,+0.024,+0.024,+0.440
+Color 111,079,063
+Rotate 1,0,0,+090.0
+Translate +0.000,+0.000,+0.000
+[MESHBUILDER]
+Cylinder 12,+0.025,+0.025,+0.015
+Color 063,031,015
+Rotate 1,0,0,+090.0
+Translate +0.000,+0.000,-0.214
+[MESHBUILDER]
+Cylinder 12,+0.025,+0.025,+0.015
+Color 063,031,015
+Rotate 1,0,0,+090.0
+Translate +0.000,+0.000,+0.214
+
+[MESHBUILDER]                           ;Pins
+Cylinder 12,+0.024,+0.024,+0.160
+Color 111,079,063
+Rotate 0,0,1,+090.0
+Translate +0.000,+0.000,-0.120
+[MESHBUILDER]
+Cube +0.025,+0.025,+0.025
+Color 063,031,015
+Translate +0.000,+0.000,-0.120
+[MESHBUILDER]
+Cylinder 12,+0.024,+0.024,+0.160
+Color 111,079,063
+Rotate 0,0,1,+090.0
+Translate +0.000,+0.000,+0.120
+[MESHBUILDER]
+Cube +0.025,+0.025,+0.025
+Color 063,031,015
+Translate +0.000,+0.000,+0.120
+
+[MESHBUILDER]                           ;Hndl
+Cylinder 12,+0.028,+0.028,+0.045
+Color 063,031,015
+Rotate 1,0,0,+090.0
+Translate +0.000,+0.000,+0.000
+[MESHBUILDER]
+Cylinder 12,+0.012,+0.012,+0.250
+Color 063,031,015
+Translate +0.000,-0.125,+0.000
+Rotate 0,0,1,-015.0
+[MESHBUILDER]
+Cylinder 12,+0.012,+0.045,+0.030
+Color 063,031,015
+Translate +0.000,-0.235,+0.000
+Rotate 0,0,1,-015.0
+[MESHBUILDER]
+Cylinder 12,+0.045,+0.045,+0.030
+Color 063,031,015
+Translate +0.000,-0.265,+0.000
+Rotate 0,0,1,-015.0
+[MESHBUILDER]
+Cylinder 12,+0.045,+0.012,+0.030
+Color 063,031,015
+Translate +0.000,-0.295,+0.000
+Rotate 0,0,1,-015.0
+
+ROTATEALL 1,0,0,+270.0

@@ -1,0 +1,102 @@
+﻿
+[MESHBUILDER]                           ;HUBS
+Vertex -1.501,+0.271,-0.271
+Vertex -1.501,+0.271,+0.271
+Vertex -1.501,-0.271,+0.271
+Vertex -1.501,-0.271,-0.271
+Face2 0,1,2,3
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+Rotate 1,0,0,+015.0
+Load Hubs.gif
+Transparent 000,255,000
+[MESHBUILDER]
+Vertex +1.501,+0.271,-0.271
+Vertex +1.501,+0.271,+0.271
+Vertex +1.501,-0.271,+0.271
+Vertex +1.501,-0.271,-0.271
+Face2 0,1,2,3
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+Rotate 1,0,0,-015.0
+Load Hubs.gif
+Transparent 000,255,000
+
+[MESHBUILDER]                           ;AXLE
+Cylinder 24,0.182,0.182,2.672
+Color 079,063,063
+Rotate 0,0,1,+90.0
+
+[MESHBUILDER]                           ;Whel_Back,Left
+Vertex -0.943,+1.042,+1.142
+Vertex -0.943,+1.042,-1.042
+Vertex -0.943,-1.042,-1.042
+Vertex -0.943,-1.042,+1.142
+Face2 0,1,2,3
+Load Whel_Back.gif
+Transparent 000,255,000
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+
+[MESHBUILDER]                           ;Whel_Back,Rght
+Vertex +0.943,+1.042,-1.042
+Vertex +0.943,+1.042,+1.042
+Vertex +0.943,-1.042,+1.042
+Vertex +0.943,-1.042,-1.042
+Face2 0,1,2,3
+Load Whel_Back.gif
+Transparent 000,255,000
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+
+[MESHBUILDER]                           ;WHEL_LEFT
+Cylinder 24,1.056,0.243,0.177           ;Flng~HubO
+Color 135,135,119
+Rotate 0,0,1,-90.0
+Translate -1.052,+0.000,+0.000
+[MESHBUILDER]
+Cylinder 24,1.000,0.989,0.157           ;Tred
+Color 139,139,127
+Rotate 0,0,1,-90.0
+Translate -1.052,+0.000,+0.000
+[MESHBUILDER]
+Cylinder 24,0.243,1.056,0.021           ;HubI~Flng
+Color 095,079,079
+Rotate 0,0,1,-90.0
+Translate -0.953,+0.000,+0.000
+[MESHBUILDER]
+Cylinder 24,0.243,0.877,0.198           ;Webs_Plat
+Color 111,095,095
+Rotate 0,0,1,-90.0
+Translate -1.036,+0.000,+0.000
+
+[MESHBUILDER]                           ;WHEL_RGHT
+Cylinder 24,1.056,0.243,0.177           ;Flng~HubO
+Color 135,135,119
+Rotate 0,0,1,+90.0
+Translate +1.052,+0.000,+0.000
+[MESHBUILDER]
+Cylinder 24,1.000,0.989,0.157           ;Tred
+Color 139,139,127
+Rotate 0,0,1,+90.0
+Translate +1.052,+0.000,+0.000
+[MESHBUILDER]
+Cylinder 24,0.243,1.056,0.021           ;HubI~Flng
+Color 095,079,079
+Rotate 0,0,1,+90.0
+Translate +0.953,+0.000,+0.000
+[MESHBUILDER]
+Cylinder 24,0.243,0.877,0.198           ;Webs_Plat
+Color 111,095,095
+Rotate 0,0,1,+90.0
+Translate +1.036,+0.000,+0.000
+
+SCALEALL 0.718,0.419,0.419              ;DimX=+0.5*Gaug,DimY=+0.5*Diam,DimZ=+0.5*Diam

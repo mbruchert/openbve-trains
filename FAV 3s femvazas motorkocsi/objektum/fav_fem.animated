@@ -1,0 +1,66 @@
+[Object]
+Position = 0, 0, 0
+States = fav_fem.b3d
+
+
+
+;Ajtók
+
+;bal oldali ajtók
+
+[Object]
+Position = 0,0,0
+States = ajto_bal_oldalt1.b3d
+TranslateZFunction = 0.6 * leftdoors[0]
+
+[Object]
+Position = 0,0,0
+States = ajto_bal_oldalt2.b3d
+TranslateZFunction = -0.6 * leftdoors[0]
+
+;jobb oldali ajtók
+
+[Object]
+Position = 0,0,0
+States = ajto_jobb_oldalt1.b3d
+TranslateZFunction = 0.6 * rightdoors[0]
+
+[Object]
+Position = 0,0,0
+States = ajto_jobb_oldalt2.b3d
+TranslateZFunction = -0.6 * rightdoors[0]
+
+;menetkar
+
+[object]
+states = fokozatkapcsolo.b3d
+position = -0.027,0.251,4.9
+rotatexfunction =  2.8 * (powerNotch/powerNotches - brakeNotchLinear/brakeNotchesLinear)
+rotatexdirection = 0, 1, 0
+rotatexdamping = 20, 0.7
+
+;irányváltókar
+
+[object]
+states = reverse.b3d
+position = 0.106,0.251,4.885
+rotatexfunction = 1.00 * reverserNotch
+rotatexdirection = 0, -1, 0
+rotatexdamping = 20, 0.5
+
+;Ajtók jelzése
+
+[Object]
+Position = 0,0.251,1.45
+States = ajtojelzo_zarva_nyitva.b3d, ajtojelzo_zarva.b3d
+StateFunction = floor[1-doors]
+
+[Object]
+Position = 0,0.251,-1.45
+States = ajtojelzo_zarva_nyitva2.b3d, ajtojelzo_zarva2.b3d
+StateFunction = floor[1-doors]
+
+[Object]; Lámpa 
+Position = 0,0,0
+States = Lampak/Lamph.b3d, Lampak/Lamp0.b3d,Lampak/Lampe.b3d
+StateFunction = if[pluginstate[0] == 1, 3, ReverserNotch + 1]

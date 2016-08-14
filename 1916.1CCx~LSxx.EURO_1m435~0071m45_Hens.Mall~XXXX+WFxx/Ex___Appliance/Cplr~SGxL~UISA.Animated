@@ -1,0 +1,58 @@
+;Coupler ~StandardGaug Frht|Psgr Loco, UnionInternatl Screw endA|B
+;Set@ *.ANIMATED [Include] Position=+0.000,+0.000,+|-0.5*CarLength
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;BVE|OBTS files have no registered copyrights|patents|trademarks,
+;are public domain, & free to copy|distribute|modify|use at will.
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+[OBJECT]                           ;CPLR_Hose
+States=Cplr~SGxL~UISx_Hose.B3D
+RotateYFunction=3.142
+[OBJECT]                           ;CPLR_Hook
+States=Cplr~SGxL~UISx_Hook.B3D
+Position=+0.000,+1.000,+0.130 ;DimX=Cntr/Rail=0.000m,DimY=Hgth/Rail=1.000m,DimZ=CplrSlack=0.260m/Car=0.130m/End
+
+
+[OBJECT]                           ;CPLR_IdledMode@CarsEndA,If 1stCar In Game,All Cars In ObjectViewer 
+States=Cplr~SGxL~UISx_Link.B3D
+Position=+0.000,+0.815,-0.330
+StateFunction=If[(Cars<2)|(Abs[Round[Distance[0]]]<1),0,1]
+[OBJECT]
+States=Cplr~SGxL~UISx_Loop.B3D
+Position=+0.000,+0.269,-0.330
+StateFunction=If[(Cars<2)|(Abs[Round[Distance[0]]]<1),0,1]
+[OBJECT]
+States=Cplr~SGxL~UISx_Scrw.B3D
+Position=+0.000,+0.511,-0.330
+StateFunction=If[(Cars<2)|(Abs[Round[Distance[0]]]<1),0,1]
+
+[OBJECT]                           ;CPLR_SlackMode@CarsEndA,If Not 1stCar & Not Accelerating In Game
+States=Cplr~SGxL~UISx_Link.B3D
+Position=+0.000,+0.975,-0.154
+StateFunction=If[(Cars>1)&(Abs[Round[Distance[0]]]>0)&((ReverserNotch<0&PowerNotch>0)|(Speed<0.0001|Acceleration<0.00001)),0,1]
+RotateXFunction=1.701
+[OBJECT]
+States=Cplr~SGxL~UISx_Loop.B3D
+Position=+0.000,+0.965,+0.383
+StateFunction=If[(Cars>1)&(Abs[Round[Distance[0]]]>0)&((ReverserNotch<0&PowerNotch>0)|(Speed<0.0001|Acceleration<0.00001)),0,1]
+RotateXFunction=4.583
+[OBJECT]
+States=Cplr~SGxL~UISx_Scrw.B3D
+Position=+0.000,+0.950,+0.146
+StateFunction=If[(Cars>1)&(Abs[Round[Distance[0]]]>0)&((ReverserNotch<0&PowerNotch>0)|(Speed<0.0001|Acceleration<0.00001)),0,1]
+RotateXFunction=1.571
+
+[OBJECT]                           ;CPLR_TenseMode@CarsEndA,If Not 1stCar & Accelerating In Game
+States=Cplr~SGxL~UISx_Link.B3D
+Position=+0.000,+1.000,-0.148
+StateFunction=If[(Cars>1)&(Abs[Round[Distance[0]]]>0)&(ReverserNotch>-1&Speed>0.0000&Acceleration>0.00000),0,1]
+RotateXFunction=1.571
+[OBJECT]
+States=Cplr~SGxL~UISx_Loop.B3D
+Position=+0.000,+1.000,+0.392
+StateFunction=If[(Cars>1)&(Abs[Round[Distance[0]]]>0)&(ReverserNotch>-1&Speed>0.0000&Acceleration>0.00000),0,1]
+RotateXFunction=4.713
+[OBJECT]
+States=Cplr~SGxL~UISx_Scrw.B3D
+Position=+0.000,+1.000,+0.152
+StateFunction=If[(Cars>1)&(Abs[Round[Distance[0]]]>0)&(ReverserNotch>-1&Speed>0.0000&Acceleration>0.00000),0,1]
+RotateXFunction=1.571

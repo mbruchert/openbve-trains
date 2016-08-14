@@ -1,0 +1,10 @@
+﻿[include]
+vagon.csv
+
+[include]
+Position = 0, 0, -4.6
+Enganche trasero.animated
+
+[include]
+tope trasero.b3d
+Position = 0, 0, -4.3

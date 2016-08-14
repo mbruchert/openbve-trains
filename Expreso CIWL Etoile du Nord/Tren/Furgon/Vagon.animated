@@ -1,0 +1,33 @@
+[object]
+States=vagon.b3d
+
+[INCLUDE]
+Enganche trasero.animated
+Position=0,0,-11.7
+
+[object]
+States=techo.csv
+Position=0,-0.01,0
+
+[object]
+States=techo curvo.csv
+Position=0,0.02,10.5
+[object]
+States=techo curvo 2.csv
+Position=0,0.02,-10.5
+
+;Domo
+
+[object]
+States=domo.b3d
+Position=0,-0.18,2.67
+
+;Escaleras
+
+[Object]
+States=Escaleras.b3d
+Position=0,0,10.56
+
+[Object]
+States=Escaleras.b3d
+Position=0,0,-10.56

@@ -1,0 +1,61 @@
+﻿;Ruedas Neumaticas-------------------------------------------------
+
+CreateMeshBuilder
+Addvertex, 0.73,  1.32, -1.32
+Addvertex, 0.73,  1.32,  1.32
+Addvertex, 0.73, -1.32,  1.32
+Addvertex, 0.73, -1.32, -1.32
+AddFace2, 0,1,2,3
+GenerateNormals
+loadtexture, Rueda interna.png
+SetTextureCoordinates, 0,0,0
+SetTextureCoordinates, 1,1,0
+SetTextureCoordinates, 2,1,1
+SetTextureCoordinates, 3,0,1
+setemissivecolor, 255,255,255
+setdecalTransparentcolor, 0,0,0
+
+CreateMeshBuilder
+Addvertex, -0.73,  1.32, -1.32
+Addvertex, -0.73,  1.32,  1.32
+Addvertex, -0.73, -1.32,  1.32
+Addvertex, -0.73, -1.32, -1.32
+AddFace2, 0,1,2,3
+GenerateNormals
+loadtexture, Rueda interna.png
+SetTextureCoordinates, 0,0,0
+SetTextureCoordinates, 1,1,0
+SetTextureCoordinates, 2,1,1
+SetTextureCoordinates, 3,0,1
+setemissivecolor, 255,255,255
+setdecalTransparentcolor, 0,0,0
+
+CreateMeshBuilder
+Addvertex, 0.8,  1.18, -1.18
+Addvertex, 0.8,  1.18,  1.18
+Addvertex, 0.8, -1.18,  1.18
+Addvertex, 0.8, -1.18, -1.18
+AddFace, 0,1,2,3
+GenerateNormals
+loadtexture, rueda 5.png
+SetTextureCoordinates, 0,0,0
+SetTextureCoordinates, 1,1,0
+SetTextureCoordinates, 2,1,1
+SetTextureCoordinates, 3,0,1
+setdecalTransparentcolor, 0,0,255
+
+CreateMeshBuilder
+Addvertex, -0.8, -1.18, -1.18
+Addvertex, -0.8, -1.18,  1.18
+Addvertex, -0.8,  1.18,  1.18
+Addvertex, -0.8,  1.18, -1.18
+AddFace, 0,1,2,3
+GenerateNormals
+loadtexture, rueda 5.png
+SetTextureCoordinates, 0,0,0
+SetTextureCoordinates, 1,1,0
+SetTextureCoordinates, 2,1,1
+SetTextureCoordinates, 3,0,1
+setdecalTransparentcolor, 0,0,255
+
+scaleall, 0.9999, 0.75, 0.75

@@ -1,0 +1,6590 @@
+;Milleniumi Földalatti vasút vezérlõpótkocsija (F.V:V:)
+;84-as psz kocsi
+;Gyártva: 1959-60, Füzesi Fõmûhely
+;Ütközõk közöttihossz:8300 mm
+;Szélesség:2270 mm
+;Vmax = 50 km/h
+;Csatolva:
+;1896, Schlick, Siemens&Haslke
+;Fémburolatú mororkocsi (F.V:V:)
+;4-as psz kocsi
+;Vmax = 50 km/h
+;Teljesítmény: 2*15 kw (20Le)
+;Hossza: 11.400 mm 
+;Saját tömeg: Nincs adat Kb 20t
+
+;A jármûvet csak saját célra lehet letölteni!
+;Minden más terjesztés és felhasználás illegális!
+;Készítette: BKVPLUS Ferencz Tamás "csuklo",Az animációt (ajtók, kerekek, karok) Harangozó László József"HLJ",motorkocsit, pótkocsit Csupor Csaba "CSUPA-CS".
+;Köszönet érte!
+
+;2006.03.25.
+;1010.10.09.
+
+;www.csuklo.atw.hu
+
+;Bõvebb infó: http://villamosok.hu/metro/jarmu/favold/favold.html
+
+       ;---- FUTÓMÛ-----
+
+[Meshbuilder]  ; jobb hátsó csapágyház  
+Cylinder 20, 0.150, 0.100, 0.10
+Rotate 0, 0, 1, 90
+Color 53,31,0
+Translate  0.86, 0.3, -1.65
+[Meshbuilder]  ; bal hátsó csapágyház  
+Cylinder 20, 0.100, 0.150, 0.10
+Rotate 0, 0, 1, 90
+Color 53,31,0
+Translate -0.86, 0.3, -1.65
+[Meshbuilder] ;jobb elsõ kerék csapágyház  
+Cylinder 20, 0.150, 0.100, 0.10
+Rotate 0, 0, 1, 90
+Color 53,31,0
+Translate 0.86, 0.3, 1.65
+[Meshbuilder] ; bal elsõ csapágyház   
+Cylinder 20, 0.100, 0.150, 0.10
+Rotate 0, 0, 1, 90
+Color 53,31,0
+Translate -0.86, 0.3, 1.65
+
+;Felfüggesztés hátsó jobb
+
+[Meshbuilder] 
+Cube 0.02, 0.06, 0.15,
+Rotate 0, 0, 1, 90
+Color 83,41,0
+Translate 0.92,0.13, -1.65
+[Meshbuilder] 
+Cube 0.20, 0.06, 0.02
+Rotate 0,0,1,85
+Color 83,41,0
+Translate 0.93,0.31, -1.5
+[Meshbuilder] 
+Cube 0.20, 0.06, 0.02
+Rotate 0,0,1,85
+Color 83,41,0
+Translate 0.93,0.31, -1.8
+[Meshbuilder]
+Cylinder 10,0.15, 0.15,0.3
+Rotate 0, 0, 1, 90
+Color 83,41,0
+Translate  0.50, 0.3,-1.65
+[Meshbuilder] ;tengelytartó
+Cube 0.12, 0.12, 0.12
+Color 83,41,0
+Translate  0.50, 0.38,-1.65
+
+;Felfüggesztés elsõ jobb
+
+[Meshbuilder] 
+Cube 0.02, 0.06, 0.15,
+Rotate 0, 0, 1, 90
+Color 83,41,0
+Translate 0.92,0.13, 1.65
+[Meshbuilder] 
+Cube 0.20, 0.06, 0.02
+Rotate 0,0,1,85
+Color 83,41,0
+Translate 0.93,0.31, 1.5
+
+[Meshbuilder] 
+Cube 0.20, 0.06, 0.02
+Rotate 0,0,1,85
+Color 83,41,0
+Translate 0.93,0.31,1.8
+[Meshbuilder]
+Cylinder 10,0.15, 0.15,0.3
+Rotate 0, 0, 1, 90
+Color 83,41,0
+Translate  0.50, 0.3,1.65
+[Meshbuilder] ;tengelytartó
+Cube 0.12, 0.12, 0.12
+Color 83,41,0
+Translate  0.50, 0.38,1.65
+
+;Felfüggesztés elsõ bal
+
+[Meshbuilder] 
+Cube 0.02, 0.06, 0.15,
+Rotate 0, 0, 1, 90
+Color 83,41,0
+Translate -0.92,0.13, 1.65
+[Meshbuilder] 
+Cube 0.20, 0.06, 0.02
+Rotate 0,0,1,-85
+Color 83,41,0
+Translate -0.93,0.31, 1.5
+[Meshbuilder] 
+Cube 0.20, 0.06, 0.02
+Rotate 0,0,1,-85
+Color 83,41,0
+Translate -0.93,0.31,1.8
+[Meshbuilder]
+Cylinder 10,0.15, 0.15,0.3
+Rotate 0, 0, 1, 90
+Color 83,41,0
+Translate  -0.50, 0.3,1.65
+[Meshbuilder] ;tengelytartó
+Cube 0.12, 0.12, 0.12
+Color 83,41,0
+Translate  -0.50, 0.38,1.65
+
+;Felfüggesztés hásó bal
+
+[Meshbuilder] 
+Cube 0.02, 0.06, 0.15,
+Rotate 0, 0, 1, 90
+Color 83,41,0
+Translate -0.92,0.13,-1.65
+[Meshbuilder] 
+Cube 0.20, 0.06, 0.02
+Rotate 0,0,1,-85
+Color 83,41,0
+Translate -0.93,0.31,-1.5
+[Meshbuilder] 
+Cube 0.20, 0.06, 0.02
+Rotate 0,0,1,-85
+Color 83,41,0
+Translate -0.93,0.31,-1.8
+[Meshbuilder]
+Cylinder 10,0.15, 0.15,0.3
+Rotate 0, 0, 1, 90
+Color 83,41,0
+Translate  -0.50, 0.3,-1.65
+[Meshbuilder] ;tengelytartó
+Cube 0.12, 0.12, 0.12
+Color 83,41,0
+Translate  -0.50, 0.38,-1.65
+[Meshbuilder] ;tengelytartó
+Cube 0.12, 0.12, 0.12
+Color 83,41,0
+Translate  -0.50, 0.38,-1.65
+
+;ütközõ hátsó
+
+[Meshbuilder]; tölcsér
+Cylinder 15, 0.05, 0.1, 0.1
+Rotate 1, 0, 0, 90
+Color 30,30,30
+Translate 0, 0.80, -4.1
+[Meshbuilder];rudazat
+Cylinder 15, 0.05, 0.05, 0.77
+Rotate 1, 0, 0, 90
+Color 30,30,30
+Translate 0, 0.80, -3.80
+[Meshbuilder] ;tányér
+Cylinder 15, 0.17, 0.17, 0.05
+Rotate 1, 0, 0, 90
+Color 30,30,30
+Translate 0, 0.80, -4.15
+
+;ütközõ elsõ
+
+[Meshbuilder]; tölcsér
+Cylinder 15, 0.1, 0.05, 0.1
+Rotate 1, 0, 0, 90
+Color 30,30,30
+Translate 0, 0.60, 4.1
+[Meshbuilder];rudazat
+Cylinder 15, 0.05, 0.05, 0.77
+Rotate 1, 0, 0, 90
+Color 30,30,30
+Translate 0, 0.60, 3.80
+[Meshbuilder] ;tányér
+Cylinder 15, 0.17, 0.17, 0.05
+Rotate 1, 0, 0, 90
+Color 30,30,30
+Translate 0, 0.60, 4.15
+
+[Meshbuilder] ;------------------------elsõ zászlótartó sárga Bal
+Cylinder 15,0.0080,0.0080,0.350
+Rotate 1,1,0,-90
+Rotate 1,0,0,-90
+Color 108,32,2
+Translate -0.26,1.31,3.85
+[Meshbuilder] ;elsõ zászlótartó sárga jobb
+Cylinder 15,0.0080,0.0080,0.350
+Rotate 1,1,0,90
+Rotate 1,0,0,-20
+Color 108,32,2
+Translate 0.26,1.31,3.85;------------------------------------
+
+;elsõ lámpatest --------------------------------------
+
+[Meshbuilder]
+
+Cylinder 25, 0.13, 0.13, 0.15
+Color 128,32,0
+Rotate 1,0,0,90
+Translate 0.13,1.07, 3.75
+
+[Meshbuilder]
+
+Cylinder 25, 0.13, 0.13, 0.15
+Color 128,32,0
+Rotate 1,0,0,90
+Translate -0.13,1.07, 3.75
+
+[Meshbuilder]
+
+Cube 0.13,0.13, 0.075
+Color 128,32,0
+Rotate 0,0,1,90
+Translate 0,1.07,3.75
+
+[Meshbuilder]
+
+Cylinder 15,0.12,0.12, 0.080
+Color 123,27,0
+Rotate 1,0,0,90
+Translate -0.13,1.07, 3.80
+
+[Meshbuilder]
+
+Cylinder 15,0.12,0.12, 0.080
+Color 123,27,0
+Rotate 1,0,0,90
+Translate 0.13,1.07, 3.80
+
+[Meshbuilder]
+
+Cylinder 15,0.03,0.03, 0.080
+Color 128,32,0
+Rotate 1,0,0,90
+Translate 0,1.16,3.80
+
+[Meshbuilder]
+
+Cylinder 15,0.03,0.03, 0.080
+Color 128,32,0
+Rotate 1,0,0,90
+Translate 0,0.98,3.80
+
+[Meshbuilder]
+
+Cylinder 15,0.0250,0.04,0.099
+Color 70,0,0
+Rotate 1,0,0,90
+Translate 0,1.16,3.795
+
+[Meshbuilder]
+
+Cylinder 15,0.0250,0.04,0.099
+Color 70,0,0
+Rotate 1,0,0,90
+Translate 0,0.98,3.80
+
+[Meshbuilder]
+
+Cylinder 15,0.105,0.105, 0.081
+EmissiveColor 200,200,200
+Rotate 1,0,0,90
+Translate -0.13,1.07, 3.80
+
+[Meshbuilder]
+
+Cylinder 15,0.105,0.105, 0.081
+EmissiveColor 200,200,200
+Rotate 1,0,0,90
+Translate 0.13,1.07, 3.80
+
+[Meshbuilder];-------------------takarólemez--------------
+Cube 0.15,0.0013, 0.095
+Color 128,32,0
+Translate 0,1.20, 3.805
+
+[Meshbuilder]
+Cube 0.015,0.0013, 0.095; ív 1 j
+Rotate 0,0,1,-15
+Color 128,32,0
+Translate 0.1635,1.1963, 3.805
+
+[Meshbuilder]
+Cube 0.015,0.0013, 0.095; ív 1 b
+Rotate 0,0,1,15
+Color 128,32,0
+Translate -0.1635,1.1963, 3.805
+
+[Meshbuilder]
+Cube 0.015,0.0013, 0.095; ív 2 j
+Rotate 0,0,1,-25
+Color 128,32,0
+Translate 0.191,1.1865, 3.805
+
+[Meshbuilder]
+Cube 0.015,0.0013, 0.095; ív 2 b
+Rotate 0,0,1,25
+Color 128,32,0
+Translate -0.191,1.1865, 3.805
+
+[Meshbuilder]
+Cube 0.015,0.0013, 0.095; ív 3 j
+Rotate 0,0,1,-40
+Color 128,32,0
+Translate 0.2155,1.171, 3.805
+
+[Meshbuilder]
+Cube 0.015,0.0013, 0.095; ív 3 b
+Rotate 0,0,1,40
+Color 128,32,0
+Translate -0.2155,1.171, 3.805
+
+[Meshbuilder]
+Cube 0.015,0.0013, 0.095; ív 4 j
+Rotate 0,0,1,-55
+Color 128,32,0
+Translate 0.2355,1.1495, 3.805
+
+[Meshbuilder]
+Cube 0.015,0.0013, 0.095; ív 4 b
+Rotate 0,0,1,55
+Color 128,32,0
+Translate -0.2355,1.1495, 3.805
+
+[Meshbuilder]
+Cube 0.015,0.0013, 0.095; ív 5 j
+Rotate 0,0,1,-65
+Color 128,32,0
+Translate 0.250,1.124, 3.805
+
+[Meshbuilder]
+Cube 0.015,0.0013, 0.095; ív 5 b
+Rotate 0,0,1,65
+Color 128,32,0
+Translate -0.250,1.124, 3.805
+
+[Meshbuilder]
+Cube 0.015,0.0013, 0.095; ív 6 j
+Rotate 0,0,1,-85
+Color 128,32,0
+Translate 0.2575,1.096, 3.805
+
+[Meshbuilder]
+Cube 0.015,0.0013, 0.095; ív 6 b
+Rotate 0,0,1,85
+Color 128,32,0
+Translate -0.2575,1.096, 3.805;---------------------------------
+
+; padlólemez --------------------------------------
+
+[Meshbuilder] 
+Vertex -0.4, 0.5,-3.75 ; p0
+Vertex  0.4, 0.5,-3.75 ; p1
+Vertex  0.95,0.5,-3.45 ; p2
+Vertex  1.135,0.5,-2.68 ;p3
+Vertex  1.135,0.5,-1.5  ;p4
+Vertex  1.135,0.32,-1.120;P5
+Vertex  1.135,0.32, 1.120;p6
+Vertex  1.135,0.5,1.5 ;p7
+Vertex  1.135,0.5,2.68;p8
+Vertex  0.95,0.5,3.45 ; p9 
+Vertex  0.4, 0.5,3.75 ; p10
+Vertex -0.4, 0.5,3.75 ; p11
+Vertex -0.95,0.5,3.45 ; p12
+Vertex -1.135,0.5,2.68 ;p13
+Vertex -1.135,0.5,1.5  ;p14
+Vertex -1.135,0.32,1.120;P15
+Vertex -1.135,0.32,-1.120;p16
+Vertex -1.135,0.5,-1.5;P17
+Vertex -1.135,0.5,-2.68  ;p18
+Vertex -0.95,0.5,-3.45 ;p19
+
+Face   0,1,2,3,4,17,18,19
+Face   7,8,9,10,11,12,13,14
+Face   5,6,15,16
+Face   4,5,16,17
+Face   6,7,14,15
+color 20,20,20
+
+; tetõ ---------------------------------------------
+ 
+Vertex -0.4, 2.5,-3.75 ; p20
+Vertex  0.4, 2.5,-3.75 ; p21
+Vertex  0.95,2.5,-3.45 ; p22
+Vertex  1.135,2.5,-2.68 ;p23
+Vertex  1.135,2.5,2.68;p24
+Vertex  0.95,2.5,3.45 ; p25 
+Vertex  0.4, 2.5,3.75 ; p26
+Vertex -0.4, 2.5,3.75 ; p27
+Vertex -0.95,2.5,3.45 ; p28
+Vertex -1.135,2.5,2.68 ;p29
+Vertex -1.135,2.5,-2.68  ;p30
+Vertex -0.95,2.5,-3.45 ;p31
+
+Face 20,21,22,23,24,25,26,27,28,29,30,31
+
+[Meshbuilder]  
+
+Vertex -0.4, 2.51,-3.8 ; p0
+Vertex  0.4, 2.51,-3.8 ; p1
+Vertex  1,2.51,-3.48 ; p2
+Vertex  1.185,2.51,-2.68 ;p3
+Vertex  1.185,2.51,2.68;p4
+Vertex  1,2.51,3.48 ; p5 
+Vertex  0.4, 2.51,3.8 ; p6
+Vertex -0.4, 2.51,3.8 ; p7
+Vertex -1,2.51,3.48 ; p8
+Vertex -1.185,2.51,2.68 ;p9
+Vertex -1.185,2.51,-2.68  ;p10
+Vertex -1,2.51,-3.48 ;p11
+Face 0,1,2,3,4,5,6,7,8,9,10,11
+Vertex -0.4, 2.56,-3.8 ; p12
+Vertex  0.4, 2.56,-3.8 ; p13
+Vertex  1,2.56,-3.48 ; p14
+Vertex  1.185,2.56,-2.68 ;p15
+Vertex  1.185,2.56,2.68;p16
+Vertex  1,2.56,3.48 ; p17 
+Vertex  0.4, 2.56,3.8 ; p18
+Vertex -0.4, 2.56,3.8 ; p19
+Vertex -1,2.56,3.48 ; p20
+Vertex -1.185,2.56,2.68 ;p21
+Vertex -1.185,2.56,-2.68  ;p22
+Vertex -1,2.56,-3.48 ;p23
+Face2  12,13,14,15,16,17,18,19,20,21,22,23
+Face2  0,1,13,12
+Face2  1,2,14,13
+Face2  2,3,15,14
+Face2  3,4,16,15
+Face2  4,5,17,16
+Face2  5,6,18,17
+Face2  6,7,19,18
+Face2  7,8,20,19
+Face2  8,9,21,20
+Face2  9,10,22,21
+Face2  10,11,23,22
+Face2  11,0,12,23
+Color 65,65,65
+
+; Villamos hátsó fal külsõ borítások--------------------------------     
+[Meshbuilder]
+Vertex -0.4, 0.5,-3.75
+Vertex  0.4, 0.5,-3.75
+Vertex  0.4, 2.5,-3.75
+Vertex -0.4, 2.5,-3.75
+Face2 3,2,1,0
+[Texture]
+Load hatso.png
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+Transparent 255,0,255
+
+; Villamos elsõ fal
+[Meshbuilder]
+Vertex -0.4, 0.5, 3.75
+Vertex  0.4, 0.5, 3.75
+Vertex  0.4, 2.5, 3.75
+Vertex -0.4, 2.5, 3.75
+Face2 0,1,2,3
+[Texture]
+Load elso.png
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+Transparent 255,0,255
+
+; Villamos jobb hátul törés
+[Meshbuilder]
+Vertex  0.4,0.5,-3.75
+Vertex  0.95,0.5,-3.45
+Vertex  0.95,2.5,-3.45
+Vertex  0.4,2.5,-3.75
+face2 3,2,1,0
+[Texture]
+Load tores.png
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+Transparent 255,0,255
+
+; Villamos jobb eleje törés
+[Meshbuilder]
+Vertex  0.4,0.5, 3.75
+Vertex  0.95,0.5, 3.45
+Vertex  0.95,2.5, 3.45
+Vertex  0.4,2.5, 3.75
+face2 0,1,2,3
+[Texture]
+Load tores2.png
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+Transparent 255,0,255
+
+; Villamos bal eleje törés
+[Meshbuilder]
+Vertex -0.4,0.5, 3.75
+Vertex -0.95,0.5, 3.45
+Vertex -0.95,2.5, 3.45
+Vertex -0.4,2.5, 3.75
+face2 3,2,1,0
+[Texture]
+Load tores.png
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+Transparent 255,0,255
+
+; Villamos jobb hátul törés
+[Meshbuilder]
+Vertex -0.4,0.5,-3.75
+Vertex -0.95,0.5,-3.45
+Vertex -0.95,2.5,-3.45
+Vertex -0.4,2.5,-3.75
+face2 0,1,2,3
+[Texture]
+Load tores2.png
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+Transparent 255,0,255
+
+; Villamos jobb oldal hátul törés
+[Meshbuilder]
+Vertex  0.95,0.5,-3.45
+Vertex  1.135,0.5,-2.68
+Vertex  1.135,2.5,-2.68
+Vertex  0.95,2.5,-3.45
+face2 3,2,1,0
+[Texture]
+Load tores.png
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+Transparent 255,0,255
+
+; Villamos jobb oldal elöl törés
+[Meshbuilder]
+Vertex  0.95,0.5, 3.45
+Vertex  1.135,0.5, 2.68
+Vertex  1.135,2.5, 2.68
+Vertex  0.95,2.5, 3.45
+face2 0,1,2,3
+[Texture]
+Load tores.png
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+Transparent 255,0,255
+
+; Villamos bal oldal elöl törés
+[Meshbuilder]
+Vertex -0.95,0.5, 3.45
+Vertex -1.135,0.5, 2.68
+Vertex -1.135,2.5, 2.68
+Vertex -0.95,2.5, 3.45
+face2 3,2,1,0
+[Texture]
+Load tores.png
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+Transparent 255,0,255
+
+; Villamos bal oldal hátul törés
+[Meshbuilder]
+Vertex -0.95,0.5,-3.45
+Vertex -1.135,0.5,-2.68
+Vertex -1.135,2.5,-2.68
+Vertex -0.95,2.5,-3.45
+face2 0,1,2,3
+[Texture]
+Load tores.png
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+Transparent 255,0,255
+
+; Villamos jobb oldal hátul 
+[Meshbuilder]
+Vertex  1.135,0.5,-2.68
+Vertex  1.135,0.5,-0.71
+Vertex  1.135,2.5,-0.71
+Vertex  1.135,2.5,-2.68
+face2 3,2,1,0
+[Texture]
+Load pot2.png
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+Transparent 255,0,255
+
+; Villamos jobb oldal elöl 
+[Meshbuilder]
+Vertex  1.135,0.5, 2.68
+Vertex  1.135,0.5, 0.71
+Vertex  1.135,2.5, 0.71
+Vertex  1.135,2.5, 2.68
+face2 0,1,2,3
+[Texture]
+Load pot.png
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+Transparent 255,0,255
+
+; Villamos bal oldal elöl 
+[Meshbuilder]
+Vertex -1.135,0.5, 2.68
+Vertex -1.135,0.5, 0.71
+Vertex -1.135,2.5, 0.71
+Vertex -1.135,2.5, 2.68
+face2 3,2,1,0
+[Texture]
+Load pot2.png
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+Transparent 255,0,255
+
+; Villamos bal oldal hátul 
+[Meshbuilder]
+Vertex -1.135,0.5,-2.68
+Vertex -1.135,0.5,-0.71
+Vertex -1.135,2.5,-0.71
+Vertex -1.135,2.5,-2.68
+face2 0,1,2,3
+[Texture]
+Load pot.png
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+Transparent 255,0,255;------eddik a külsõ borítások---------------------
+
+; Villamos jobb oldal hátsó ajtokeret
+;ajtó alatt
+[Meshbuilder]
+Vertex  1.135,0.32,0
+Vertex  1.135,0.5,0
+Vertex  1.135,0.5,-1.5
+Vertex  1.135,0.32,-1.120
+face 3,2,1,0
+[Texture]
+Load takaro.png
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+Transparent 255,0,255
+
+; Villamos jobb oldal eslõ ajtokeret
+;ajtó alatt
+[Meshbuilder]
+Vertex  1.135,0.32,0
+Vertex  1.135,0.5,0
+Vertex  1.135,0.5, 1.5
+Vertex  1.135,0.32,1.120
+face 0,1,2,3
+[Texture]
+Load takaro.png
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+Transparent 255,0,255
+
+; Villamos bal oldal eslõ ajtokeret
+;ajtó alatt
+[Meshbuilder]
+Vertex -1.135,0.32,0
+Vertex -1.135,0.5,0
+Vertex -1.135,0.5, 1.5
+Vertex -1.135,0.32,1.120
+face 3,2,1,0
+[Texture]
+Load takaro.png
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+Transparent 255,0,255
+
+; Villamos bal oldal hátso ajtokeret
+;ajtó alatt
+
+[Meshbuilder]
+Vertex -1.135,0.32,0
+Vertex -1.135,0.5,0
+Vertex -1.135,0.5,-1.5
+Vertex -1.135,0.32,-1.120
+face 0,1,2,3
+[Texture]
+Load takaro.png
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+Transparent 255,0,255;--------------------------------
+
+;  jobb hátsó ajtó belsõ de külsõ doboz 
+[Meshbuilder] ;      k  üveg lap
+Cube 0.39, 0.0001, 0.27,
+Rotate 0, 0, 1, 90
+Color 180,180,180,30
+Emissivecolor 70,70,70
+Translate 1.1345,1.89,-1.030
+
+[Meshbuilder]
+Vertex  1.134,0.5,-1.30
+Vertex  1.134,0.5,-0.71
+Vertex  1.134,2.5,-0.71
+Vertex  1.134,2.5,-1.30
+face  0,1,2,3
+[Texture]
+Load belsob.png
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+Transparent 255,0,255
+
+;  jobb hátsó ajtó belsõ de belsõ doboz 
+[Meshbuilder] ;      k  üveg lap
+Cube 0.39, 0.0001, 0.27,
+Rotate 0, 0, 1, 90
+Color 180,180,180,30
+Emissivecolor 70,70,70
+Translate 1.055,1.89,-1.030
+
+[Meshbuilder]
+Vertex  1.050,0.5,-1.30
+Vertex  1.050,0.5,-0.71
+Vertex  1.050,2.5,-0.71
+Vertex  1.050,2.5,-1.30
+face2 0,1,2,3
+Emissivecolor 70,70,70
+[Texture]
+Load belsob.png
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+Transparent 255,0,255
+
+;  jobb elsõ ajtó belsõ de külsõ doboz 
+[Meshbuilder] ;      k  üveg lap
+Cube 0.39, 0.0001, 0.27,
+Rotate 0, 0, 1, 90
+Color 180,180,180,30
+Emissivecolor 70,70,70
+Translate 1.1345,1.89, 1.030
+
+[Meshbuilder]
+Vertex  1.134,0.5, 1.30
+Vertex  1.134,0.5, 0.71
+Vertex  1.134,2.5, 0.71
+Vertex  1.134,2.5, 1.30
+face 3,2,1,0
+[Texture]
+Load belsob.png
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+Transparent 255,0,255
+
+;  jobb elsõ ajtó belsõ de belsõ doboz 
+[Meshbuilder] ;      k  üveg lap
+Cube 0.39, 0.0001, 0.27,
+Rotate 0, 0, 1, 90
+Color 180,180,180,30
+Emissivecolor 70,70,70
+Translate 1.055,1.89, 1.030
+
+[Meshbuilder]
+Vertex  1.050,0.5, 1.30
+Vertex  1.050,0.5, 0.71
+Vertex  1.050,2.5, 0.71
+Vertex  1.050,2.5, 1.30
+face2 3,2,1,0
+Emissivecolor 70,70,70
+[Texture]
+Load belsob.png
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+Transparent 255,0,255 ;----------------------------------------------
+
+;  bal elsõ ajtó belsõ de külsõ doboz 
+[Meshbuilder] ;      k  üveg lap
+Cube 0.39, 0.0001, 0.27,
+Rotate 0, 0, 1, 90
+Color 180,180,180,30
+Emissivecolor 70,70,70
+Translate -1.1345,1.89, 1.030
+
+[Meshbuilder]
+Vertex  -1.134,0.5, 1.30
+Vertex  -1.134,0.5, 0.71
+Vertex  -1.134,2.5, 0.71
+Vertex  -1.134,2.5, 1.30
+face 0,1,2,3
+[Texture]
+Load belsob.png
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+Transparent 255,0,255
+
+ ;  bal elsõ ajtó belsõ de belsõ doboz 
+
+[Meshbuilder] ;      k  üveg lap
+Cube 0.39, 0.0001, 0.27,
+Rotate 0, 0, 1, 90
+Color 180,180,180,30
+EmissiveColor 70,70,70
+Translate -1.055,1.89, 1.030
+
+[Meshbuilder]
+Vertex  -1.050,0.5, 1.30
+Vertex  -1.050,0.5, 0.71
+Vertex  -1.050,2.5, 0.71
+Vertex  -1.050,2.5, 1.30
+face2 0,1,2,3
+EmissiveColor 70,70,70
+[Texture]
+Load belsob.png
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+Transparent 255,0,255
+
+;  bal hátsó ajtó belsõ de külsõ doboz 
+[Meshbuilder] ;      k  üveg lap
+Cube 0.39, 0.0001, 0.27,
+Rotate 0, 0, 1, 90
+Color 180,180,180,30
+Emissivecolor 70,70,70
+Translate -1.1345,1.89,-1.030
+
+[Meshbuilder]
+Vertex  -1.134,0.5,-1.30
+Vertex  -1.134,0.5,-0.71
+Vertex  -1.134,2.5,-0.71
+Vertex  -1.134,2.5,-1.30
+face 3,2,1,0
+[Texture]
+Load belsob.png
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+Transparent 255,0,255
+
+ ;  bal hátsó ajtó belsõ de belsõ doboz 
+[Meshbuilder] ;      k  üveg lap
+Cube 0.39, 0.0001, 0.27,
+Rotate 0, 0, 1, 90
+Color 180,180,180,30
+Emissivecolor 70,70,70
+Translate -1.055,1.89,-1.030
+
+[Meshbuilder]
+Vertex  -1.050,0.5,-1.30
+Vertex  -1.050,0.5,-0.71
+Vertex  -1.050,2.5,-0.71
+Vertex  -1.050,2.5,-1.30
+face2 3,2,1,0
+Emissivecolor 70,70,70
+[Texture]
+Load belsob.png
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+Transparent 255,0,255 ;----------------------------------
+
+;lécek hátul
+[Meshbuilder] ;bal sárga léc
+Cube 0.0100,0.43,0.0100
+Color 159,100,0  
+Translate -0.4, 0.94,-3.74
+[Meshbuilder] ;viz közp diszléc hátul bordó
+Cube 0.0550,0.41,0.0100
+Rotate 0,0,1,90
+Color 108,32,2
+Translate 0,1.426,-3.75
+[Meshbuilder] ;bal fehér léc
+Cube 0.0100,0.51,0.0100
+Color 220,220,220 
+Translate -0.4,1.99,-3.745
+[Meshbuilder] ;diszléc közp hátul fent fehér
+Cube 0.0100,0.41,0.0100
+Rotate 0,0,1,90
+Color 220,220,220
+Translate 0,2.5,-3.745
+[Meshbuilder] ;fehér léc
+Cube 0.0100,0.51,0.0100
+Color 220,220,220
+Translate  0.4,1.99,-3.745
+[Meshbuilder] ;sárga léc
+Cube 0.0100,0.43,0.0100
+Color 159,100,0  
+Translate  0.4, 0.94,-3.74
+[Meshbuilder] ;sárga léc törés1
+Cube 0.0100,0.43,0.0100
+Color 159,100,0  
+Translate 0.95,0.94,-3.45
+[Meshbuilder] ;fehér léc törés
+Cube 0.0100,0.51,0.0100
+Color 220,220,220
+Translate 0.95,1.99,-3.45
+[Meshbuilder] ;sárga léc törés1
+Cube 0.0100,0.43,0.0100
+Color 159,100,0  
+Translate -0.95,0.94,-3.45
+[Meshbuilder] ;fehér léc fent törés1
+Cube 0.0100,0.51,0.0100
+Color 220,220,220 
+Translate -0.95,1.99,-3.45
+[Meshbuilder] ;diszléc jobb hátul törés1 bordó
+Cube 0.0100,0.0550,0.314
+Rotate 0,2,0,61.5
+Color 108,32,2
+Translate 0.680,1.426,-3.601
+[Meshbuilder] ;diszléc jobb hátul törés1 fent fehér
+Cube 0.0100,0.0100,0.313
+Rotate 0,2,0,61.8
+Color 220,220,220
+Translate 0.680,2.5,-3.598
+[Meshbuilder] ;diszléc bal hátul törés1 bordó
+Cube 0.0100,0.0550,0.314
+Rotate 0,2,0,-61.5
+Color 108,32,2
+Translate -0.680,1.426,-3.601
+[Meshbuilder] ;diszléc bal hátul törés1 fent fehér
+Cube 0.0100,0.0100,0.313
+Rotate 0,2,0,-61.8
+Color 220,220,220
+Translate -0.680,2.5,-3.598
+;---------------------------- az 1-es hátsó törésig ennyi -----------------------
+
+;lécek hátul törés2 jobb hátul
+[Meshbuilder] ;jobb hátsó sárga léc
+Cube 0.0100,0.43,0.0100
+Color 159,100,0  
+Translate  1.135,0.94,-2.68
+[Meshbuilder] ;jobb hátsó törés2 fehér léc
+Cube 0.0100,0.51,0.0100
+Color 220,220,220
+Translate  1.135,1.99,-2.68
+[Meshbuilder] ;diszléc jobb hátul törés2 bordó
+Cube 0.0100,0.0550,0.4
+Rotate 0,2,0,14
+Color 108,32,2
+Translate 1.048,1.426,-3.069
+[Meshbuilder] ;diszléc jobb hátul törés2 fent viz fehér
+Cube 0.0100,0.0100,0.401
+Rotate 0,2,0,13.5
+Color 220,220,220
+Translate 1.045,2.5,-3.067
+;lécek hátul törés2 bal hátul
+[Meshbuilder] ;bal hátsó sárga léc
+Cube 0.0100,0.43,0.0100
+Color 159,100,0  
+Translate  -1.135,0.94,-2.68
+[Meshbuilder] ;bal hátsó törés2 fehér léc
+Cube 0.0100,0.51,0.0100
+Color 220,220,220
+Translate  -1.135,1.99,-2.68
+[Meshbuilder] ;diszléc bal hátul törés2 bordó
+Cube 0.0100,0.0550,0.4
+Rotate 0,2,0,-14
+Color 108,32,2
+Translate -1.048,1.426,-3.069
+[Meshbuilder] ;diszléc bal hátul törés2 fent viz fehér
+Cube 0.0100,0.0100,0.401
+Rotate 0,2,0,-13.5
+Color 220,220,220
+Translate -1.045,2.5,-3.067
+
+; -------------------------eddig a hátfal---------------------------
+;lécek elsõk
+[Meshbuilder] ;jobb eleje sárga léc
+Cube 0.0100,0.43,0.0100
+Color 159,100,0  
+Translate  0.4, 0.94, 3.74
+[Meshbuilder] ;viz közp diszléc elõl bordó
+Cube 0.0550,0.41,0.0100
+Rotate 0,0,1,90
+Color 108,32,2
+Translate 0,1.426,3.75
+[Meshbuilder] ;jobb eleje függ fehér léc
+Cube 0.0100,0.51,0.0100
+Color 220,220,220 
+Translate 0.4,1.99,3.745
+[Meshbuilder] ;diszléc közp elõl fent fehér
+Cube 0.0100,0.41,0.0100
+Rotate 0,0,1,90
+Color 220,220,220
+Translate 0,2.5,3.745
+[Meshbuilder] ;bal elsõ függ fehér léc
+Cube 0.0100,0.51,0.0100
+Color 220,220,220
+Translate -0.4,1.99,3.745
+[Meshbuilder] ;bal elsõ sárga léc
+Cube 0.0100,0.43,0.0100
+Color 159,100,0  
+Translate -0.4, 0.94,3.74
+[Meshbuilder] ;bal elsõ sárga léc törés1
+Cube 0.0100,0.43,0.0100
+Color 159,100,0  
+Translate -0.95,0.94,3.45
+[Meshbuilder] ;bal elsõ fehér léc függ törés1
+Cube 0.0100,0.51,0.0100
+Color 220,220,220
+Translate -0.95,1.99,3.45
+[Meshbuilder] ;jobb elsõ sárga léc törés1
+Cube 0.0100,0.43,0.0100
+Color 159,100,0  
+Translate 0.95,0.94,3.45
+[Meshbuilder] ;jobb elsõ fehér léc függ fent törés1
+Cube 0.0100,0.51,0.0100
+Color 220,220,220 
+Translate 0.95,1.99,3.45
+[Meshbuilder] ;diszléc jobb elsõ törés1 bordó
+Cube 0.0100,0.0550,0.314
+Rotate 0,2,0,-61.5
+Color 108,32,2
+Translate 0.680,1.426,3.601
+[Meshbuilder] ;diszléc bal elsõ törés1 fent fehér
+Cube 0.0100,0.0100,0.313
+Rotate 0,2,0,61.8
+Color 220,220,220
+Translate -0.680,2.5,3.598
+[Meshbuilder] ;diszléc bal elõl törés1 bordó ----------Ajtó is
+Cube 0.0100,0.0550,0.314
+Rotate 0,2,0,61.5
+Color 108,32,2
+Translate -0.680,1.426,3.601
+[Meshbuilder] ;diszléc jobb elsõ viz törés1 fent fehér
+Cube 0.0100,0.0100,0.313
+Rotate 0,2,0,-61.8
+Color 220,220,220
+Translate 0.680,2.5,3.598
+ 
+;---------------------------- az egyes elsõ törésig ennyi -----------------------
+;lécek elõl törés2 jobb elsõ
+[Meshbuilder] ;jobb elsõ sárga léc
+Cube 0.0100,0.43,0.0100
+Color 159,100,0  
+Translate 1.135,0.94,2.68
+[Meshbuilder] ;jobb elsõ törés2 függ fehér léc
+Cube 0.0100,0.51,0.0100
+Color 220,220,220
+Translate  1.135,1.99,2.68
+[Meshbuilder] ;diszléc jobb elsõ törés2 bordó
+Cube 0.0100,0.0550,0.4
+Rotate 0,2,0,-14
+Color 108,32,2
+Translate 1.048,1.426,3.069
+[Meshbuilder] ;diszléc jobb elsõ törés2 fent viz fehér
+Cube 0.0100,0.0100,0.401
+Rotate 0,2,0,-13.5
+Color 220,220,220
+Translate 1.045,2.5,3.067
+[Meshbuilder] ;bal elsõ sárga léc
+Cube 0.0100,0.43,0.0100
+Color 159,100,0  
+Translate  -1.135,0.94,2.68
+[Meshbuilder] ;bal elsõ törés2 fehér függ léc
+Cube 0.0100,0.51,0.0100
+Color 220,220,220
+Translate  -1.135,1.99,2.68
+[Meshbuilder] ;diszléc bal elsõ törés2 bordó
+Cube 0.0100,0.0550,0.4
+Rotate 0,2,0,14
+Color 108,32,2
+Translate -1.048,1.426,3.069
+[Meshbuilder] ;diszléc bal törés2 fent viz fehér
+Cube 0.0100,0.0100,0.401
+Rotate 0,2,0,13.5
+Color 220,220,220
+Translate -1.045,2.5,3.0665
+
+;--------diszlécek oldalt----------------------- 
+[Meshbuilder] ;viz diszléc jobb hátul bordó ajtóig
+Cube 0.0100,0.0550,0.988
+Color 108,32,2
+Translate 1.143,1.426,-1.70
+[Meshbuilder] ;viz diszléc jobb elsõ bordó ajtóig
+Cube 0.0100,0.0550,0.988
+Color 108,32,2
+Translate 1.143,1.426,1.70
+[Meshbuilder] ;viz diszléc bal elsõ bordó ajtóig
+Cube 0.0100,0.0550,0.988
+Color 108,32,2
+Translate -1.143,1.426,1.70
+[Meshbuilder] ;viz diszléc bal hátsó bordó ajtóig
+Cube 0.0100,0.0550,0.988
+Color 108,32,2
+Translate -1.143,1.426,-1.70
+
+; jobb oldali ajtókeret
+[Meshbuilder] ;jobb hátsó függ barna
+Cube 0.0100,0.985,0.0100
+Color 89,51,28
+Translate 1.126,1.485,-0.71
+[Meshbuilder] ;jobb elsõ függ barna
+Cube 0.0100,0.985,0.0100
+Color 89,51,28
+Translate 1.126,1.485,0.71
+[Meshbuilder] ; ajtó felett diszléc beltér közp barna
+Cube 0.0100,0.0100,0.72
+Color 89,51,28
+Translate 1.126,2.480,0
+[Meshbuilder] ; ajtó felett diszléc külsõ közp fehér
+Cube 0.0100,0.0050,0.75
+Color 20,20,20
+Translate 1.148,2.482,0
+[Meshbuilder] ; tetõ alatti diszléc külsõ jobb fehér
+Cube 0.0100,0.0100,2.68
+Color 220,220,220
+Translate 1.138,2.5,0
+
+; felépõ az ajtó alatt jobb----------
+[Meshbuilder] 
+Cylinder 20, 0.100,0.100,0.040
+Color 128,128,128
+Translate 1.080,0.488,0.70
+[Meshbuilder] 
+Cube 0.0800,0.0200,0.70
+Color 128,128,128
+Translate 1.10,0.488,0
+[Meshbuilder] 
+Cylinder 20, 0.100,0.100,0.040
+Color 128,128,128
+Translate 1.080,0.488,-0.70
+
+; bal oldali ajtókeret
+[Meshbuilder] ;bal hátsó függ barna
+Cube 0.0100,0.985,0.0100
+Color 89,51,28
+Translate -1.126,1.485,-0.71
+[Meshbuilder] ;bal elsõ függ barna
+Cube 0.0100,0.985,0.0100
+Color 89,51,28
+Translate -1.126,1.485,0.71
+[Meshbuilder] ; ajtó felett bal diszléc beltér közp barna
+Cube 0.0100,0.0100,0.72
+Color 89,51,28
+Translate -1.126,2.480,0
+[Meshbuilder] ; ajtó felett bal diszléc külsõ közp fehér
+Cube 0.0100,0.0050,0.75
+Color 20,20,20
+Translate -1.148,2.482,0
+[Meshbuilder] ; tetõ alatti diszléc külsõ bal fehér
+Cube 0.0100,0.0100,2.68
+Color 220,220,220
+Translate -1.138,2.5,0
+; felépõ az ajtó alatt bal----------
+[Meshbuilder] 
+Cylinder 20, 0.100,0.100,0.040
+Color 128,128,128
+Translate -1.080,0.488,-0.70
+[Meshbuilder] 
+Cube 0.0800,0.0200,0.70
+Color 128,128,128
+Translate -1.10,0.488,0
+[Meshbuilder] 
+Cylinder 20, 0.100,0.100,0.040
+Color 128,128,128
+Translate -1.080,0.488,0.70;----------------------------------
+
+[Meshbuilder] ;       bels j hátúl   üveg lap
+Cube 0.39, 0.0001, 0.31,
+Rotate 0, 0, 1, 90
+Color 180,180,180,30
+EmissiveColor 70,70,70
+Translate 1.134,1.89,-2.322
+
+[Meshbuilder] ;          text bels j hátúl
+Vertex  1.105,0.5,-2.68
+Vertex  1.105,0.5,-2.0.80
+Vertex  1.105,2.5,-2.0.80
+Vertex  1.105,2.5,-2.68
+face2 0,1,2,3
+Emissivecolor 70,70,70
+[Texture]
+Load belsok.png
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+Transparent 255,0,255
+
+[Meshbuilder] ;       bels j elöl   üveg lap
+Cube 0.39, 0.0001, 0.31,
+Rotate 0, 0, 1, 90
+Color 180,180,180,30
+Emissivecolor 70,70,70
+Translate 1.134,1.89,2.322
+
+[Meshbuilder] ;          text bels j elöl
+Vertex  1.105,0.5, 2.68
+Vertex  1.105,0.5, 2.0.80
+Vertex  1.105,2.5, 2.0.80
+Vertex  1.105,2.5, 2.68
+face2 3,2,1,0
+Emissivecolor 70,70,70
+[Texture]
+Load belsok.png
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+Transparent 255,0,255
+
+[Meshbuilder] ;          b elöl  üveg lap
+Cube 0.39, 0.0001, 0.31,
+Rotate 0, 0, 1, 90
+Color 180,180,180,30
+Emissivecolor 70,70,70
+Translate -1.134,1.89, 2.322
+
+[Meshbuilder] ;          text bels b elöl
+Vertex  -1.105,0.5, 2.68
+Vertex  -1.105,0.5, 2.0.80
+Vertex  -1.105,2.5, 2.0.80
+Vertex  -1.105,2.5, 2.68
+face2 0,1,2,3
+Emissivecolor 70,70,70
+[Texture]
+Load belsok.png
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+Transparent 255,0,255
+
+[Meshbuilder] ;       bels b hátúl   üveg lap
+Cube 0.39, 0.0001, 0.31,
+Rotate 0, 0, 1, 90
+Color 180,180,180,30
+Emissivecolor 70,70,70
+Translate -1.134,1.89,-2.322
+
+[Meshbuilder] ;          text bels b hátul
+Vertex  -1.105,0.5,-2.68
+Vertex  -1.105,0.5,-2.0.80
+Vertex  -1.105,2.5,-2.0.80
+Vertex  -1.105,2.5,-2.68
+face2 3,2,1,0
+Emissivecolor 70,70,70
+[Texture]
+Load belsok.png
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+Transparent 255,0,255
+
+[Meshbuilder] ;       bels j hátúl   üveg lap
+Cube 0.39, 0.0001, 0.31,
+Rotate 0, 0, 1, 90
+Color 180,180,180,30
+Emissivecolor 70,70,70
+Translate 1.134,1.89,-1.64
+
+[Meshbuilder] ;          text bels j hátúl
+
+Vertex  1.105,0.5,-2.0.80
+Vertex  1.105,0.5,-1.3
+Vertex  1.105,2.5,-1.3
+Vertex  1.105,2.5,-2.0.80
+face2 0,1,2,3
+Emissivecolor 70,70,70
+[Texture]
+Load belsok.png
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+Transparent 255,0,255
+
+[Meshbuilder] ;       bels j elsö   üveg lap
+Cube 0.39, 0.0001, 0.31,
+Rotate 0, 0, 1, 90
+Color 180,180,180,30
+Emissivecolor 70,70,70
+Translate 1.134,1.89, 1.64
+
+[Meshbuilder] ;          text bels j elsõ
+Vertex  1.105,0.5, 2.0.80
+Vertex  1.105,0.5, 1.3
+Vertex  1.105,2.5, 1.3
+Vertex  1.105,2.5, 2.0.80
+face2 3,2,1,0
+Emissivecolor 70,70,70
+[Texture]
+Load belsok.png
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+Transparent 255,0,255
+
+[Meshbuilder] ;       bels bal elsö   üveg lap
+Cube 0.39, 0.0001, 0.31,
+Rotate 0, 0, 1, 90
+Color 180,180,180,30
+Emissivecolor 70,70,70
+Translate -1.134,1.89, 1.64
+
+[Meshbuilder] ;          text bels bal elsõ
+
+Vertex -1.105,0.5, 2.0.80
+Vertex -1.105,0.5, 1.3
+Vertex -1.105,2.5, 1.3
+Vertex -1.105,2.5, 2.0.80
+face2 0,1,2,3
+Emissivecolor 70,70,70
+[Texture]
+Load belsok.png
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+Transparent 255,0,255
+
+[Meshbuilder] ;       bels bal hátsó   üveg lap
+Cube 0.39, 0.0001, 0.31,
+Rotate 0, 0, 1, 90
+Color 180,180,180,30
+Emissivecolor 70,70,70
+Translate -1.134,1.89,-1.64
+
+[Meshbuilder] ;          text bels bal hátsó
+
+Vertex -1.105,0.5,-2.0.80
+Vertex -1.105,0.5,-1.3
+Vertex -1.105,2.5,-1.3
+Vertex -1.105,2.5,-2.0.80
+face2 3,2,1,0
+Emissivecolor 70,70,70
+[Texture]
+Load belsok.png
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+Transparent 255,0,255
+
+[Meshbuilder] ;       bels j hátúl üveg lap törés2
+Cube 0.000.1, 0.39, 0.31,
+Rotate 0,2,0,14
+Color 180,180,180,30
+Emissivecolor 70,70,70
+Translate 1.025,1.89,-3.050
+
+[Meshbuilder] ;          text bels j hátúl tör2
+Vertex  0.925,0.5,-3.45
+Vertex  1.105,0.5,-2.68
+Vertex  1.105,2.5,-2.68
+Vertex  0.925,2.5,-3.45
+face2 0,1,2,3
+Emissivecolor 70,70,70
+[Texture]
+Load belso.png
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+Transparent 255,0,255
+
+[Meshbuilder] ;       bels j elsõ üveg lap törés2
+Cube 0.000.1, 0.39, 0.31,
+Rotate 0,2,0,-14
+Color 180,180,180,50
+Translate 1.025,1.89, 3.050
+
+[Meshbuilder] ;          text bels j e tör2
+Vertex  0.925,0.5, 3.45
+Vertex  1.105,0.5, 2.68
+Vertex  1.105,2.5, 2.68
+Vertex  0.925,2.5, 3.45
+face2 3,2,1,0
+[Texture]
+Load belsob.png
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+Transparent 255,0,255
+
+[Meshbuilder] ;       bels bal elsõ üveg lap törés2
+Cube 0.000.1, 0.39, 0.31,
+Rotate 0,2,0,14
+Color 180,180,180,50
+Translate -1.025,1.89, 3.050
+
+[Meshbuilder] ;          text bels b e tör2
+
+Vertex -0.925,0.5, 3.45
+Vertex -1.105,0.5, 2.68
+Vertex -1.105,2.5, 2.68
+Vertex -0.925,2.5, 3.45
+face2 0,1,2,3
+[Texture]
+Load belsob.png
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+Transparent 255,0,255
+
+[Meshbuilder] ;       bels bal hátsó üveg lap törés2
+Cube 0.000.1, 0.39, 0.31,
+Rotate 0,2,0,-14
+Color 180,180,180,30
+Emissivecolor 70,70,70
+Translate -1.025,1.89,-3.050
+
+[Meshbuilder] ;          text bels b h tör2
+
+Vertex -0.925,0.5,-3.45
+Vertex -1.105,0.5,-2.68
+Vertex -1.105,2.5,-2.68
+Vertex -0.925,2.5,-3.45
+face2 3,2,1,0
+Emissivecolor 70,70,70
+[Texture]
+Load belso.png
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+Transparent 255,0,255
+
+[Meshbuilder] ;       bels j hátul üveg lap törés1
+Cube 0.000.1, 0.39, 0.31,
+Rotate 0,2,0,61.5
+Color 180,180,180,30
+Emissivecolor 70,70,70
+Translate 0.674,1.89,-3.5950
+
+[Meshbuilder] ;          text bels j hátul tör1
+Vertex  0.4,0.5,-3.72
+Vertex  0.95,0.5,-3.42
+Vertex  0.95,2.5,-3.42
+Vertex  0.4,2.5,-3.72
+face2 0,1,2,3
+Emissivecolor 70,70,70
+[Texture]
+Load belso.png
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+Transparent 255,0,255
+
+[Meshbuilder] ;       bels jobb elsõ üveg lap törés1
+Cube 0.000.1, 0.39, 0.31,
+Rotate 0,2,0,-61.5
+Color 180,180,180,50
+Translate 0.674,1.89, 3.5950
+
+[Meshbuilder] ;          text bels j elsõ tör1
+Vertex  0.4,0.5, 3.72
+Vertex  0.95,0.5, 3.42
+Vertex  0.95,2.5, 3.42
+Vertex  0.4,2.5, 3.72
+face2 3,2,1,0
+[Texture]
+Load belsob.png
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+Transparent 255,0,255
+
+[Meshbuilder] ;       bels bal elsõ üveg lap törés1
+Cube 0.000.1, 0.39, 0.31,
+Rotate 0,2,0, 61.5
+Color 180,180,180,50
+Translate -0.674,1.89, 3.5950
+
+[Meshbuilder] ;          text bels bal elsõ tör1
+Vertex -0.4,0.5, 3.72
+Vertex -0.95,0.5, 3.42
+Vertex -0.95,2.5, 3.42
+Vertex -0.4,2.5, 3.72
+face2 0,1,2,3
+[Texture]
+Load belsob.png
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+Transparent 255,0,255
+
+[Meshbuilder] ;       bels bal hátsó üveg lap törés1
+Cube 0.000.1, 0.39, 0.31,
+Rotate 0,2,0, -61.5
+Color 180,180,180,30
+Emissivecolor 70,70,70
+Translate -0.674,1.89, -3.5950
+
+[Meshbuilder] ;          text bels bal hátsó tör1
+
+Vertex -0.4,0.5,-3.72
+Vertex -0.95,0.5,-3.42
+Vertex -0.95,2.5,-3.42
+Vertex -0.4,2.5,-3.72
+face2 3,2,1,0
+Emissivecolor 70,70,70
+[Texture]
+Load belso.png
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+Transparent 255,0,255
+
+[Meshbuilder]       ; Villamos belsõ hátsó fal       
+Cube 0.000.1, 0.41, 0.33,
+Rotate 0,2,0, 90
+Color 180,180,180,30
+Emissivecolor 70,70,70
+Translate 0,1.89, -3.725
+       
+[Meshbuilder]    ; Villamos belsõ hátsó fal       
+Vertex -0.4, 0.680,-3.72
+Vertex  0.4, 0.680,-3.72
+Vertex  0.4, 2.5,-3.72
+Vertex -0.4, 2.5,-3.72
+Face2 0,1,2,3
+Emissivecolor 70,70,70
+[Texture]
+Load bh.png
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+Transparent 255,0,255
+
+[Meshbuilder]       ; Villamos belsõ elsõ fal       
+Cube 0.000.1, 0.41, 0.33,
+Rotate 0,2,0, 90
+Color 180,180,180,50
+Translate 0,1.89,  3.725
+
+[Meshbuilder]    ; Kép vezér ablakzáró    
+Vertex -0.36, 1.45, 3.685
+Vertex  0.36, 1.45, 3.685
+Vertex  0.36, 1.65, 3.685
+Vertex -0.36, 1.65, 3.685
+Face2 3,2,1,0
+[Texture]
+Load nyit.png
+Coordinates 1,1,1
+Coordinates 2,1,0
+Coordinates 3,0,0
+Coordinates 0,0,1
+Transparent 255,0,255
+
+[Meshbuilder]    ; Kép vezér feszmérõ
+Vertex  0.885,1,3.46
+Vertex  0.945,1,3.37
+Vertex  0.945,2.22,3.37
+Vertex  0.885,2.22,3.46
+Face  3,2,1,0
+[Texture]
+Load fesz.png
+Coordinates 1,1,1
+Coordinates 2,1,0
+Coordinates 3,0,0
+Coordinates 0,0,1
+Transparent 255,0,255
+       
+[Meshbuilder]    ; Villamos belsõ elsõ fal       
+Vertex -0.4, 0.680, 3.72
+Vertex  0.4, 0.680, 3.72
+Vertex  0.4, 2.5, 3.72
+Vertex -0.4, 2.5, 3.72
+Face2 3,2,1,0
+[Texture]
+Load bhb.png
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+Transparent 255,0,255;------------------eddig a belsõ borítás---------------
+
+[Meshbuilder] ; ajtó felett diszléc beltér közp bordó jobb
+Cube 0.0100,0.0800,0.72
+Color 64,0,0
+EmissiveColor 32,0,0
+Translate 1.060,2.420,0
+
+[Meshbuilder] ; ajtó felett diszléc beltér közp fekete jobb
+Cube 0.0100,0.0800,0.72
+Color 40,40,40
+Translate 1.080,2.420,0
+
+[Meshbuilder] ; ajtó felett diszléc beltér közp bordó bal
+Cube 0.0100,0.0800,0.72
+Color 64,0,0
+EmissiveColor 32,0,0
+Translate -1.060,2.420,0
+
+[Meshbuilder] ; ajtó felett diszléc beltér közp fekete bal
+Cube 0.0100,0.0800,0.72
+Color 40,40,40
+Translate -1.080,2.420,0 ;-------------------------------------
+
+[Meshbuilder] ;---------ajtótábla jobb--------------
+Vertex  1.0499,2.4,0.14   ;p0
+Vertex  1.0499,2.4,-0.14 ;p1
+Vertex  1.0499,2.45,-0.14  ;p2
+Vertex  1.0499,2.45,0.14 ;p3
+face 3,2,1,0
+Emissivecolor 70,70,70
+[Texture]
+Load onajt.png
+Coordinates 0,0,0
+Coordinates 1,0,1
+Coordinates 2,1,1
+Coordinates 3,1,0
+Transparent 255,0,255
+
+[Meshbuilder] ;---------ajtótábla bal--------------
+Vertex -1.0499,2.4,0.14   ;p0
+Vertex -1.0499,2.4,-0.14 ;p1
+Vertex -1.0499,2.45,-0.14  ;p2
+Vertex -1.0499,2.45,0.14 ;p3
+face 0,1,2,3
+Emissivecolor 70,70,70
+[Texture]
+Load onajt.png
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+Transparent 255,0,255
+
+; plafon utastér ---------------------------------------------
+
+[Meshbuilder] 
+Vertex -0.4, 2.499,-3.75  ;p0
+Vertex  0.4, 2.499,-3.75  ;p1
+Vertex  0.95,2.499,-3.45  ;p2
+Vertex  1.135,2.499,-2.68 ;p3
+Vertex  1.135,2.499, 2.68 ;p4
+Vertex -1.135,2.499, 2.68 ;p5
+Vertex -1.135,2.499,-2.68 ;p6
+Vertex -0.95,2.499,-3.45  ;p7
+Face2 7,6,5,4,3,2,1,0
+[Texture]
+Load plaf.png
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+EmissiveColor 70,70,70
+
+; plafon vezérállás ---------------------------------------------
+
+[Meshbuilder] 
+Vertex  1.135,2.498, 2.68 ;p0
+Vertex  0.95,2.498, 3.45  ;p1
+Vertex  0.4, 2.498, 3.75  ;p2
+Vertex -0.4, 2.498, 3.75  ;p3
+Vertex -0.95,2.498, 3.45  ;p4 
+Vertex -1.135,2.498, 2.68 ;p5
+Face  0,1,2,3,4,5
+Color 204,198,159
+
+; térelválasztó utastér  ------------------------------------------
+
+[Meshbuilder] 
+Vertex  1.135,0.5, 2.679  ;p0
+Vertex  1.135,2.5, 2.679  ;p1
+Vertex -1.135,2.5, 2.679  ;p2
+Vertex -1.135,0.5, 2.679  ;p3
+Face 3,2,1,0
+Emissivecolor 70,70,70
+[Texture]
+Load fal.png
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+
+[Meshbuilder] ;---------térelválasztó jobb elsõ függ szélen plakátig léc barna
+Cube 0.0080,1.010,0.0100
+Color 66,34,0
+Translate 1.094,1.506,2.679
+
+[Meshbuilder] ;jobb elsõ függ léc barna kapaszkodónál
+Cube 0.0080,1.010,0.0100
+Color 66,34,0
+Translate 0.370,1.506,2.679
+
+[Meshbuilder] ;jobb elsõ viz léc ajtó alatt
+Cube 0.354,0.0080,0.0100
+Color 66,34,0
+Translate 0.733,1.106,2.679
+
+[Meshbuilder] ;jobb elsõ viz léc ajtó felett
+Cube 0.354,0.0080,0.0100
+Color 66,34,0
+Translate 0.733,2.300,2.679
+
+[Meshbuilder] ;jobb elsõ függ szélen ajtó sötétebb ablaknál léc barna
+Cube 0.0100,0.588,0.0100
+Color 60,30,0
+Translate 1.075,1.703,2.679
+
+[Meshbuilder] ;jobb elsõ függ bal szélen ajtó sötétebb léc barna
+Cube 0.0100,0.588,0.0100
+Color 60,30,0
+Translate 0.389,1.703,2.679
+
+[Meshbuilder] ;jobb elsõ viz léc ajtó alatt
+Cube 0.340,0.0100,0.0100
+Color 60,30,0
+Translate 0.733,1.125,2.679
+
+[Meshbuilder] ;jobb elsõ viz léc ajtó felsõ
+Cube 0.340,0.0100,0.0100
+Color 60,30,0
+Translate 0.733,2.281,2.679
+
+[Meshbuilder] ;ajtó kilincs talp beltér 1
+Cube 0.0300,0.0800,0.0050
+Color 100,100,100
+EmissiveColor 50,50,50
+Translate 0.432,1.800,2.679
+
+[Meshbuilder] ;ajtó kilincs beltér 2
+Cube 0.0150,0.0500,0.0100
+Color 140,140,140
+EmissiveColor 70,70,70
+Translate 0.430,1.820,2.665
+
+[Meshbuilder] ;ajtó kilincs talp vezérállás 1
+Cube 0.0300,0.0800,0.0050
+Color 100,100,100
+Translate 0.432,1.800,2.689
+
+[Meshbuilder] ;ajtó kilincs csonk vezérállás 2
+Cylinder 20,0.0070,0.0090,0.025
+Rotate 1,0,0,90
+Color 120,120,120
+Translate 0.432,1.775,2.705
+
+[Meshbuilder] ;ajtó kilincs függ vezérállás 3
+Cylinder 20,0.0070,0.0075,0.068
+Rotate 0,1,0,90
+Color 120,120,120
+Translate 0.432,1.800,2.723
+
+[Meshbuilder] ;jobb elsõ viz léc képkeret felsõ ;---------
+Cube 0.320,0.0100,0.0020
+Color 60,60,60
+EmissiveColor 30,30,30
+Translate 0.733,2.255,2.677
+
+[Meshbuilder] ;jobb elsõ viz léc képkeret alsó
+Cube 0.320,0.0100,0.0020
+Color 60,60,60
+EmissiveColor 30,30,30
+Translate 0.733,1.895,2.677
+
+[Meshbuilder] ;bal elsõ függ b léc képkeret 
+Cube 0.0100,0.180,0.0020
+Color 60,60,60
+EmissiveColor 30,30,30
+Translate 0.423,2.068,2.679
+
+[Meshbuilder] ;jobb elsõ függ j léc képkeret 
+Cube 0.0100,0.180,0.0020
+Color 60,60,60
+EmissiveColor 30,30,30
+Translate 1.043,2.068,2.679;--------------------------------
+
+[Meshbuilder] ;bal elsõ viz léc képkeret felsõ ;---------
+Cube 0.320,0.0100,0.0020
+Color 60,60,60
+EmissiveColor 30,30,30
+Translate -0.733,2.255,2.677
+
+[Meshbuilder] ;bal elsõ viz léc képkeret alsó
+Cube 0.320,0.0100,0.0020
+Color 60,60,60
+EmissiveColor 30,30,30
+Translate -0.733,1.895,2.677
+
+[Meshbuilder] ;jobb elsõ függ b léc képkeret 
+Cube 0.0100,0.180,0.0020
+Color 60,60,60
+EmissiveColor 30,30,30
+Translate -0.423,2.068,2.679
+
+[Meshbuilder] ;jobb elsõ függ j léc képkeret 
+Cube 0.0100,0.180,0.0020
+Color 60,60,60
+EmissiveColor 30,30,30
+Translate -1.043,2.068,2.679;--------------------------------
+
+[Meshbuilder] ;----------------Kép jobb elsõ
+Vertex 1.040,1.9,2.678
+Vertex 1.040,2.250,2.678
+Vertex 0.430,2.250,2.678
+Vertex 0.430,1.9,2.678
+face 3,2,1,0
+EmissiveColor 70,70,70
+[Texture]
+Load kepj.png
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+Transparent 255,0,255
+
+[Meshbuilder] ;----------------Kép bal elsõ
+Vertex  -1.040,1.9,2.678
+Vertex  -1.040,2.250,2.678
+Vertex  -0.430,2.250,2.678
+Vertex  -0.430,1.9,2.678
+face 0,1,2,3
+EmissiveColor 70,70,70
+[Texture]
+Load kepb.png
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+Transparent 255,0,255
+
+[Meshbuilder] ;----------Vészfék----------------
+Cube 0.1150,0.0800,0.0350
+Color 30,30,30.0
+Translate 0,2.410,2.649
+
+[Meshbuilder] ;---------vészkép-----------
+Vertex  0.113,2.2,2.613
+Vertex  0.113,2.490,2.613
+Vertex -0.113,2.490,2.613
+Vertex -0.113,2.2,2.603
+face 3,2,1,0
+EmissiveColor 70,70,70
+[Texture]
+Load vesz.png
+Coordinates 0,1,1
+Coordinates 1,1,0
+Coordinates 2,0,0
+Coordinates 3,0,1
+Transparent 255,0,255
+
+[Meshbuilder] ;---------hangszoró-----------
+Vertex  0.170,2.0,2.668
+Vertex  0.170,2.350,2.625
+Vertex -0.170,2.350,2.625
+Vertex -0.170,2.0,2.668
+face 3,2,1,0
+EmissiveColor 70,70,70
+[Texture]
+Load hang.png
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+Transparent 255,0,255
+
+; térelválasztó vezérállás  ---------------------------------------------
+
+[Meshbuilder] 
+Vertex  1.135,0.5, 2.685
+Vertex  1.135,2.5, 2.685
+Vertex -1.135,2.5, 2.685
+Vertex -1.135,0.5, 2.685
+Face 0,1,2,3
+[Texture]
+Load falb.png
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+
+; plakát tartó fent hátsó fal -------------------
+[Meshbuilder] 
+Vertex  0.4, 2.290,-3.710
+Vertex  0.4, 2.5,-3.550
+Vertex -0.4, 2.5,-3.550
+Vertex -0.4, 2.290,-3.710
+Face 0,1,2,3
+Emissivecolor 70,70,70
+[Texture]
+Load plakat.png
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+
+[Meshbuilder]    ;jobb hátul törés1 
+Vertex  0.4,2.290,-3.710
+Vertex  0.4,2.5,-3.550
+Vertex  0.77,2.5,-3.350
+Vertex  0.94,2.290,-3.41
+Face 3,2,1,0
+Emissivecolor 70,70,70
+[Texture]
+Load plakat.png
+Coordinates 0,1,1
+Coordinates 1,1,0
+Coordinates 2,0,0
+Coordinates 3,0,1
+
+[Meshbuilder]    ;jobb hátul törés2 
+Vertex  0.94,2.290,-3.41
+Vertex  0.77,2.5,-3.350
+Vertex  0.950.135,2.5,-2.68
+Vertex  1.100,2.290,-2.68
+Face 3,2,1,0
+Emissivecolor 70,70,70
+[Texture]
+Load plakat.png
+Coordinates 0,1,1
+Coordinates 1,1,0
+Coordinates 2,0,0
+Coordinates 3,0,1
+
+[Meshbuilder]    ;jobb hátul oldala 
+Vertex  1.100,2.290,-2.68
+Vertex  0.950.135,2.5,-2.68
+Vertex  0.950.135,2.5,-1.3
+Vertex  1.100,2.290,-1.3
+Face 3,2,1,0
+Emissivecolor 70,70,70
+[Texture]
+Load plakat.png
+Coordinates 0,1,1
+Coordinates 1,1,0
+Coordinates 2,0,0
+Coordinates 3,0,1
+
+[Meshbuilder]    ;jobb elsõ oldala 
+Vertex  1.100,2.290, 2.68
+Vertex  0.950.135,2.5, 2.68
+Vertex  0.950.135,2.5, 1.3
+Vertex  1.100,2.290, 1.3
+Face 0,1,2,3
+Emissivecolor 70,70,70
+[Texture]
+Load plakat.png
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+
+[Meshbuilder]    ;bal hátul törés1 
+Vertex -0.4,2.290,-3.710
+Vertex -0.4,2.5,-3.550
+Vertex -0.77,2.5,-3.350
+Vertex -0.94,2.290,-3.41
+Face 0,1,2,3
+Emissivecolor 70,70,70
+[Texture]
+Load plakat.png
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+
+[Meshbuilder]    ;bal hátul törés2 
+Vertex -0.94,2.290,-3.41
+Vertex -0.77,2.5,-3.350
+Vertex -0.950.135,2.5,-2.68
+Vertex -1.100,2.290,-2.68
+Face 0,1,2,3
+Emissivecolor 70,70,70
+[Texture]
+Load plakat.png
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+
+[Meshbuilder]    ;bal hátul oldala 
+Vertex -1.100,2.290,-2.68
+Vertex -0.950.135,2.5,-2.68
+Vertex -0.950.135,2.5,-1.3 
+Vertex -1.100,2.290,-1.3
+Face 0,1,2,3
+Emissivecolor 70,70,70
+[Texture]
+Load plakat.png
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+
+[Meshbuilder]    ;bal elsõ oldala 
+Vertex -1.100,2.290, 2.68
+Vertex -0.950.135,2.5, 2.68
+Vertex -0.950.135,2.5, 1.3
+Vertex -1.100,2.290, 1.3
+Face 3,2,1,0
+Emissivecolor 70,70,70
+[Texture]
+Load plakat.png
+Coordinates 0,1,1
+Coordinates 1,1,0
+Coordinates 2,0,0
+Coordinates 3,0,1
+;---------------------------------------------------------
+
+[Meshbuilder] ;---------Tábla jobb hátsó--------------
+Vertex  1.1344,1.75,-1.21
+Vertex  1.1344,1.75,-0.80
+Vertex  1.1344,2.053,-0.80
+Vertex  1.1344,2.053,-1.21
+face 3,2,1,0
+[Texture]
+Load tab.png
+Coordinates 0,0,0
+Coordinates 1,0,1
+Coordinates 2,1,1
+Coordinates 3,1,0
+Transparent 255,0,255
+
+[Meshbuilder] ;---------Tábla jobb hátsó belsõ--------------
+Vertex  1.1343,1.75,-1.21
+Vertex  1.1343,1.75,-0.80
+Vertex  1.1343,2.053,-0.80
+Vertex  1.1343,2.053,-1.21
+face 0,1,2,3
+Emissivecolor 70,70,70
+[Texture]
+Load tab.png
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+Transparent 255,0,255
+
+[Meshbuilder] ;---------Tábla bal elsõ--------------
+Vertex -1.1344,1.75, 1.21
+Vertex -1.1344,1.75, 0.80
+Vertex -1.1344,2.053, 0.80
+Vertex -1.1344,2.053, 1.21
+face 3,2,1,0
+[Texture]
+Load tab.png
+Coordinates 0,0,0
+Coordinates 1,0,1
+Coordinates 2,1,1
+Coordinates 3,1,0
+Transparent 255,0,255
+
+[Meshbuilder] ;---------Tábla bal elsõ belsõ--------------
+Vertex -1.1343,1.75, 1.21
+Vertex -1.1343,1.75, 0.80
+Vertex -1.1343,2.053, 0.80
+Vertex -1.1343,2.053, 1.21
+face 0,1,2,3
+Emissivecolor 70,70,70
+[Texture]
+Load tab.png
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+Transparent 255,0,255
+
+;beugró fal jobb hátsó --------------------------------
+[Meshbuilder] ;bal hátsó függ fekete vékony
+Cube 0.100,0.999,0.0100
+Color 10,10,10
+Translate 1.030,1.500,-1.290
+
+[Meshbuilder] ;jobb hátsó függ fekete vastag
+Cube 0.100,0.600,0.0100
+Color 10,10,10
+Translate 0.830,1.110,-1.290
+
+[Meshbuilder]  ; kör fekete ív
+Cylinder 20,0.050,0.050,0.0199
+Rotate   1,0,0,90
+Color 10,10,10
+Translate  0.780,1.710,-1.290
+
+[Meshbuilder] ;jobb hátsó viz pici fekete 
+Cube 0.075,0.0255,0.0100
+Color 10,10,10
+Translate 0.855,1.735,-1.290
+
+[Meshbuilder] ;jobb hátsó belsöív1 fekete 
+Cube 0.075,0.0255,0.0100
+Color 10,10,10
+Rotate 0,0,1,15
+Translate 0.936,1.743,-1.290
+
+[Meshbuilder] ;jobb hátsó belsöív2 fekete 
+Cube 0.075,0.0255,0.0100
+Color 10,10,10
+Rotate 0,0,1,30
+Translate 0.936,1.746,-1.290
+
+[Meshbuilder] ;jobb hátsó belsöív3 fekete 
+Cube 0.075,0.0255,0.0100
+Color 10,10,10
+Rotate 0,0,1,45
+Translate 0.932,1.746,-1.290
+
+[Meshbuilder] ;jobb hátsó belsöív4 fekete 
+Cube 0.075,0.0255,0.0100
+Color 10,10,10
+Rotate 0,0,1,60
+Translate 0.936,1.745,-1.290
+
+[Meshbuilder] ;jobb hátsó belsöív5 fekete 
+Cube 0.075,0.0255,0.0100
+Color 10,10,10
+Rotate 0,0,1,75
+Translate 0.942,1.740,-1.290 ;-------------------------
+
+;beugró fal jobb elsõ --------------------------------
+[Meshbuilder] ;jobb elsõ függ fekete vékony
+Cube 0.100,0.999,0.0100
+Color 10,10,10
+Translate 1.030,1.500, 1.290
+
+[Meshbuilder] ;jobb elsõ függ fekete vastag
+Cube 0.100,0.600,0.0100
+Color 10,10,10
+Translate 0.830,1.110, 1.290
+
+[Meshbuilder]  ; kör fekete ív
+Cylinder 20,0.050,0.050,0.0199
+Rotate   1,0,0,90
+Color 10,10,10
+Translate  0.780,1.710, 1.290
+
+[Meshbuilder] ;jobb elsõ viz pici fekete 
+Cube 0.075,0.0255,0.0100
+Color 10,10,10
+Translate 0.855,1.735, 1.290
+
+[Meshbuilder] ;jobb elsõ belsöív1 fekete 
+Cube 0.075,0.0255,0.0100
+Color 10,10,10
+Rotate 0,0,1,15
+Translate 0.936,1.743, 1.290
+
+[Meshbuilder] ;jobb elsõ belsöív2 fekete 
+Cube 0.075,0.0255,0.0100
+Color 10,10,10
+Rotate 0,0,1,30
+Translate 0.936,1.746, 1.290
+
+[Meshbuilder] ;jobb elsõ belsöív3 fekete 
+Cube 0.075,0.0255,0.0100
+Color 10,10,10
+Rotate 0,0,1,45
+Translate 0.932,1.746, 1.290
+
+[Meshbuilder] ;jobb elsõ belsöív4 fekete 
+Cube 0.075,0.0255,0.0100
+Color 10,10,10
+Rotate 0,0,1,60
+Translate 0.936,1.745, 1.290
+
+[Meshbuilder] ;jobb elsõ belsöív5 fekete 
+Cube 0.075,0.0255,0.0100
+Color 10,10,10
+Rotate 0,0,1,75
+Translate 0.942,1.740, 1.290 ;-------------------------
+
+;beugró fal bal elsõ --------------------------------
+[Meshbuilder] ;bal elsõ függ fekete vékony
+Cube 0.100,0.999,0.0100
+Color 10,10,10
+Translate -1.030,1.500, 1.290
+
+[Meshbuilder] ;bal elsõ függ fekete vastag
+Cube 0.100,0.600,0.0100
+Color 10,10,10
+Translate -0.830,1.110, 1.290
+
+[Meshbuilder]  ; kör fekete ív
+Cylinder 20,0.050,0.050,0.0199
+Rotate   1,0,0,90
+Color 10,10,10
+Translate  -0.780,1.710, 1.290
+
+[Meshbuilder] ;bal elsõ viz pici fekete 
+Cube 0.075,0.0255,0.0100
+Color 10,10,10
+Translate -0.855,1.735, 1.290
+
+[Meshbuilder] ;bal elsõ belsöív1 fekete 
+Cube 0.075,0.0255,0.0100
+Color 10,10,10
+Rotate 0,0,1,-15
+Translate -0.936,1.743, 1.290
+
+[Meshbuilder] ;bal elsõ belsöív2 fekete 
+Cube 0.075,0.0255,0.0100
+Color 10,10,10
+Rotate 0,0,1,-30
+Translate -0.936,1.746, 1.290
+
+[Meshbuilder] ;bal elsõ belsöív3 fekete 
+Cube 0.075,0.0255,0.0100
+Color 10,10,10
+Rotate 0,0,1,-45
+Translate -0.932,1.746, 1.290
+
+[Meshbuilder] ;bal elsõ belsöív4 fekete 
+Cube 0.075,0.0255,0.0100
+Color 10,10,10
+Rotate 0,0,1,-60
+Translate -0.936,1.745, 1.290
+
+[Meshbuilder] ;bal elsõ belsöív5 fekete 
+Cube 0.075,0.0255,0.0100
+Color 10,10,10
+Rotate 0,0,1,-75
+Translate -0.942,1.740, 1.290 ;-------------------------
+
+;beugró fal bal hátsó --------------------------------
+[Meshbuilder] ;bal hátsó függ fekete vékony
+Cube 0.100,0.999,0.0100
+Color 10,10,10
+Translate -1.030,1.500,-1.290
+
+[Meshbuilder] ;bal hátsó függ fekete vastag
+Cube 0.100,0.600,0.0100
+Color 10,10,10
+Translate -0.830,1.110,-1.290
+
+[Meshbuilder]  ; kör fekete ív
+Cylinder 20,0.050,0.050,0.0199
+Rotate   1,0,0,90
+Color 10,10,10
+Translate  -0.780,1.710,-1.290
+
+[Meshbuilder] ;bal hátsó viz pici fekete 
+Cube 0.075,0.0255,0.0100
+Color 10,10,10
+Translate -0.855,1.735,-1.290
+
+[Meshbuilder] ;bal hátsó belsöív1 fekete 
+Cube 0.075,0.0255,0.0100
+Color 10,10,10
+Rotate 0,0,1,-15
+Translate -0.936,1.743,-1.290
+
+[Meshbuilder] ;bal hátsó belsöív2 fekete 
+Cube 0.075,0.0255,0.0100
+Color 10,10,10
+Rotate 0,0,1,-30
+Translate -0.936,1.746,-1.290
+
+[Meshbuilder] ;bal hátsó belsöív3 fekete 
+Cube 0.075,0.0255,0.0100
+Color 10,10,10
+Rotate 0,0,1,-45
+Translate -0.932,1.746,-1.290
+
+[Meshbuilder] ;bal hátsó belsöív4 fekete 
+Cube 0.075,0.0255,0.0100
+Color 10,10,10
+Rotate 0,0,1,-60
+Translate -0.936,1.745,-1.290
+
+[Meshbuilder] ;bal hátsó belsöív5 fekete 
+Cube 0.075,0.0255,0.0100
+Color 10,10,10
+Rotate 0,0,1,-75
+Translate -0.942,1.740,-1.290 ;-------------------------
+
+[Meshbuilder]    ; jobb hátsó beugró barn text bar      
+Vertex 1.105,0.5,-1.301
+Vertex 1.105,2.5,-1.301
+Vertex 0.730,2.5,-1.301
+Vertex 0.730,0.5,-1.301
+Face 3,2,1,0
+Emissivecolor 70,70,70
+[Texture]
+Load be.png
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+Transparent 255,0,255
+
+[Meshbuilder]    ; jobb hátsó beugró bord text bar      
+Vertex 1.105,0.5,-1.279
+Vertex 1.105,2.5,-1.279
+Vertex 0.730,2.5,-1.279
+Vertex 0.730,0.5,-1.279
+Face 0,1,2,3
+Emissivecolor 70,70,70
+[Texture]
+Load beb.png
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+Transparent 255,0,255
+
+[Meshbuilder]    ; jobb elsõ beugró barn text bar      
+Vertex 1.105,0.5, 1.301
+Vertex 1.105,2.5, 1.301
+Vertex 0.730,2.5, 1.301
+Vertex 0.730,0.5, 1.301
+Face 0,1,2,3
+Emissivecolor 70,70,70
+[Texture]
+Load be.png
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+Transparent 255,0,255
+
+[Meshbuilder]    ; jobb elsõ beugró bord text bar      
+Vertex 1.105,0.5, 1.279
+Vertex 1.105,2.5, 1.279
+Vertex 0.730,2.5, 1.279
+Vertex 0.730,0.5, 1.279
+Face 3,2,1,0
+Emissivecolor 70,70,70
+[Texture]
+Load beb.png
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+Transparent 255,0,255
+
+[Meshbuilder]    ; bal elsõ beugró barn text bar      
+Vertex -1.105,0.5, 1.301
+Vertex -1.105,2.5, 1.301
+Vertex -0.730,2.5, 1.301
+Vertex -0.730,0.5, 1.301
+Face 3,2,1,0
+Emissivecolor 70,70,70
+[Texture]
+Load be.png
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+Transparent 255,0,255
+
+[Meshbuilder]    ; bal elsõ beugró bord text bar      
+Vertex -1.105,0.5, 1.279
+Vertex -1.105,2.5, 1.279
+Vertex -0.730,2.5, 1.279
+Vertex -0.730,0.5, 1.279
+Face 0,1,2,3
+Emissivecolor 70,70,70
+[Texture]
+Load beb.png
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+Transparent 255,0,255
+
+[Meshbuilder]    ; bal hátsó beugró barn text bar      
+Vertex -1.105,0.5,-1.301
+Vertex -1.105,2.5,-1.301
+Vertex -0.730,2.5,-1.301
+Vertex -0.730,0.5,-1.301
+Face 0,1,2,3
+Emissivecolor 70,70,70
+[Texture]
+Load be.png
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+Transparent 255,0,255
+
+[Meshbuilder]    ; bal hátsó beugró bord text bar      
+Vertex -1.105,0.5,-1.279
+Vertex -1.105,2.5,-1.279
+Vertex -0.730,2.5,-1.279
+Vertex -0.730,0.5,-1.279
+Face 3,2,1,0
+Emissivecolor 70,70,70
+[Texture]
+Load beb.png
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+Transparent 255,0,255
+
+[Meshbuilder] ;jobb hátsó ajtó doboz takaró léc függ
+Cube 0.0300,1.000,0.0100
+Color 64,0,0
+EmissiveColor 32,0,0
+Translate 1.070,1.500,-0.71
+
+[Meshbuilder] ;jobb hátsó elsõ doboz takaró léc függ
+Cube 0.0300,1.000,0.0100
+Color 64,0,0
+EmissiveColor 32,0,0
+Translate 1.070,1.500,0.71
+
+[Meshbuilder] ;bal elsõ elsõ doboz takaró léc függ
+Cube 0.0300,1.000,0.0100
+Color 64,0,0
+EmissiveColor 32,0,0
+Translate -1.070,1.500,0.71
+
+[Meshbuilder] ;bal elsõ hátsó doboz takaró léc függ
+Cube 0.0300,1.000,0.0100
+Color 64,0,0
+EmissiveColor 32,0,0
+Translate -1.070,1.500,-0.71
+
+[Meshbuilder] ;------------------------ bel világítás vezérállás
+Cylinder 20,0.030,0.043, 0.050
+Rotate 1,0,0,90
+Color 60,60,60
+Emissivecolor 20,20,20
+Translate -0.90, 2.380, 2.750
+
+[Meshbuilder]
+Cylinder 20,0.055,0.060, 0.010
+Rotate 1,0,0,90
+Color 50,50,50
+Translate -0.90, 2.380, 2.721
+
+[Meshbuilder] ; bel világítás jobb hátsók :búra 1
+Cylinder 20, 0.025, 0.025, 0.025
+Rotate 1,0,0,90
+Color 180,180,180,50
+Translate -0.90, 2.380, 2.788
+
+[Meshbuilder] ; bel világítás jobb hátsók :búra 1
+Cylinder 20, 0.040, 0.025, 0.025
+Rotate 1,0,0,90
+Color 180,180,180,50
+Translate -0.90, 2.380, 2.813
+
+[Meshbuilder] ; bel világítás jobb hátsók :búra 2
+Cylinder 20, 0.030, 0.040, 0.025
+Rotate 1,0,0,90
+Color 180,180,180,50
+Translate -0.90, 2.380, 2.838
+
+[Meshbuilder] ; bel világítás jobb hátsók :búra 3
+Cylinder 20, 0.010, 0.030, 0.005
+Rotate 1,0,0,90
+Color 180,180,180,50
+Translate -0.90, 2.380, 2.853
+
+
+[Meshbuilder] ;------------------------ bel világítás közép
+Cylinder 20,0.043,0.030, 0.050
+Color 240,240,240
+Emissivecolor 20,20,20
+Translate 0.75, 2.450, 0
+
+[Meshbuilder]
+Cylinder 20,0.060,0.055, 0.010
+Color 240,240,240
+Emissivecolor 15,15,15
+Translate 0.75, 2.480, 0
+
+[Meshbuilder] ; bel világítás jobb hátsók :búra 1
+Cylinder 20, 0.025, 0.025, 0.025
+Color 0,0,0
+Emissivecolor 255,255,255
+Translate 0.75, 2.415, 0
+
+[Meshbuilder] ; bel világítás jobb hátsók :búra 1
+Cylinder 20, 0.025, 0.040, 0.025
+Color 0,0,0
+Emissivecolor 255,255,255
+Translate 0.75, 2.405, 0
+
+[Meshbuilder] ; bel világítás jobb hátsók :búra 2
+Cylinder 20, 0.040, 0.030, 0.025
+Color 0,0,0
+Emissivecolor 255,255,255
+Translate 0.75, 2.380, 0
+
+[Meshbuilder] ; bel világítás jobb hátsók :búra 3
+Cylinder 20, 0.030, 0.010, 0.005
+Color 0,0,0
+Emissivecolor 255,255,255
+Translate 0.75, 2.365, 0
+
+[Meshbuilder] ;------------------------ bel világítás közép
+Cylinder 20,0.043,0.030, 0.050
+Color 240,240,240
+Emissivecolor 20,20,20
+Translate -0.75, 2.450, 0
+
+[Meshbuilder]
+Cylinder 20,0.060,0.055, 0.010
+Color 240,240,240
+Emissivecolor 15,15,15
+Translate -0.75, 2.480, 0
+
+[Meshbuilder] ; bel világítás jobb hátsók :búra 1
+Cylinder 20, 0.025, 0.025, 0.025
+Color 0,0,0
+Emissivecolor 255,255,255
+Translate -0.75, 2.415, 0
+
+[Meshbuilder] ; bel világítás jobb hátsók :búra 1
+Cylinder 20, 0.025, 0.040, 0.025
+Color 0,0,0
+Emissivecolor 255,255,255
+Translate -0.75, 2.405, 0
+
+[Meshbuilder] ; bel világítás jobb hátsók :búra 2
+Cylinder 20, 0.040, 0.030, 0.025
+Color 0,0,0
+Emissivecolor 255,255,255
+Translate -0.75, 2.380, 0
+
+[Meshbuilder] ; bel világítás jobb hátsók :búra 3
+Cylinder 20, 0.030, 0.010, 0.005
+Color 0,0,0
+Emissivecolor 255,255,255
+Translate -0.75, 2.365, 0
+
+[Meshbuilder] ;------------------------ bel világítás közép hátsók
+Cylinder 20,0.043,0.030, 0.050
+Color 240,240,240
+Emissivecolor 20,20,20
+Translate -0.75, 2.450,-0.75
+
+[Meshbuilder]
+Cylinder 20,0.060,0.055, 0.010
+Color 240,240,240
+Emissivecolor 15,15,15
+Translate -0.75, 2.480,-0.75
+
+[Meshbuilder] ; bel világítás jobb hátsók :búra 1
+Cylinder 20, 0.025, 0.025, 0.025
+Color 0,0,0
+Emissivecolor 255,255,255
+Translate -0.75, 2.415,-0.75
+
+[Meshbuilder] ; bel világítás jobb hátsók :búra 1
+Cylinder 20, 0.025, 0.040, 0.025
+Color 0,0,0
+Emissivecolor 255,255,255
+Translate -0.75, 2.405,-0.75
+
+[Meshbuilder] ; bel világítás jobb hátsók :búra 2
+Cylinder 20, 0.040, 0.030, 0.025
+Color 0,0,0
+Emissivecolor 255,255,255
+Translate -0.75, 2.380,-0.75
+
+[Meshbuilder] ; bel világítás jobb hátsók :búra 3
+Cylinder 20, 0.030, 0.010, 0.005
+Color 0,0,0
+Emissivecolor 255,255,255
+Translate -0.75, 2.365,-0.75
+
+[Meshbuilder] ;------------------------ bel világítás közép hátsók
+Cylinder 20,0.043,0.030, 0.050
+Color 240,240,240
+Emissivecolor 20,20,20
+Translate 0.75, 2.450, -0.75
+
+[Meshbuilder]
+Cylinder 20,0.060,0.055, 0.010
+Color 240,240,240
+Emissivecolor 15,15,15
+Translate 0.75, 2.480, -0.75
+
+[Meshbuilder] ; bel világítás jobb hátsók :búra 1
+Cylinder 20, 0.025, 0.025, 0.025
+Color 0,0,0
+Emissivecolor 255,255,255
+Translate 0.75, 2.415, -0.75
+
+[Meshbuilder] ; bel világítás jobb hátsók :búra 1
+Cylinder 20, 0.025, 0.040, 0.025
+Color 0,0,0
+Emissivecolor 255,255,255
+Translate 0.75, 2.405, -0.75
+
+[Meshbuilder] ; bel világítás jobb hátsók :búra 2
+Cylinder 20, 0.040, 0.030, 0.025
+Color 0,0,0
+Emissivecolor 255,255,255
+Translate 0.75, 2.380, -0.75
+
+[Meshbuilder] ; bel világítás jobb hátsók :búra 3
+Cylinder 20, 0.030, 0.010, 0.005
+Color 0,0,0
+Emissivecolor 255,255,255
+Translate 0.75, 2.365, -0.75
+
+[Meshbuilder] ;------------------------ bel világítás közép elsõk
+Cylinder 20,0.043,0.030, 0.050
+Color 240,240,240
+Emissivecolor 20,20,20
+Translate 0.75, 2.450, 0.75
+
+[Meshbuilder]
+Cylinder 20,0.060,0.055, 0.010
+Color 240,240,240
+Emissivecolor 15,15,15
+Translate 0.75, 2.480, 0.75
+
+[Meshbuilder] ; bel világítás jobb hátsók :búra 1
+Cylinder 20, 0.025, 0.025, 0.025
+Color 0,0,0
+Emissivecolor 255,255,255
+Translate  0.75, 2.415, 0.75
+
+[Meshbuilder] ; bel világítás jobb hátsók :búra 1
+Cylinder 20, 0.025, 0.040, 0.025
+Color 0,0,0
+Emissivecolor 255,255,255
+Translate  0.75, 2.405, 0.75
+
+[Meshbuilder] ; bel világítás jobb hátsók :búra 2
+Cylinder 20, 0.040, 0.030, 0.025
+Color 0,0,0
+Emissivecolor 255,255,255
+Translate  0.75, 2.380, 0.75
+
+[Meshbuilder] ; bel világítás jobb hátsók :búra 3
+Cylinder 20, 0.030, 0.010, 0.005
+Color 0,0,0
+Emissivecolor 255,255,255
+Translate  0.75, 2.365, 0.75
+
+[Meshbuilder] ;------------------------ bel világítás közép elsõk
+Cylinder 20,0.043,0.030, 0.050
+Color 240,240,240
+Emissivecolor 20,20,20
+Translate -0.75, 2.450, 0.75
+
+[Meshbuilder]
+Cylinder 20,0.060,0.055, 0.010
+Color 240,240,240
+Emissivecolor 15,15,15
+Translate -0.75, 2.480, 0.75
+
+[Meshbuilder] ; bel világítás jobb hátsók :búra 1
+Cylinder 20, 0.025, 0.025, 0.025
+Color 0,0,0
+Emissivecolor 255,255,255
+Translate -0.75, 2.415, 0.75
+
+[Meshbuilder] ; bel világítás jobb hátsók :búra 1
+Cylinder 20, 0.025, 0.040, 0.025
+Color 0,0,0
+Emissivecolor 255,255,255
+Translate -0.75, 2.405, 0.75
+
+[Meshbuilder] ; bel világítás jobb hátsók :búra 2
+Cylinder 20, 0.040, 0.030, 0.025
+Color 0,0,0
+Emissivecolor 255,255,255
+Translate -0.75, 2.380, 0.75
+
+[Meshbuilder] ; bel világítás jobb hátsók :búra 3
+Cylinder 20, 0.030, 0.010, 0.005
+Color 0,0,0
+Emissivecolor 255,255,255
+Translate -0.75, 2.365, 0.75
+
+[Meshbuilder] ;------------------------ bel világítás hátsók
+Cylinder 20,0.043,0.030, 0.050
+Color 240,240,240
+Emissivecolor 20,20,20
+Translate -0.75, 2.450,-1.5
+
+[Meshbuilder]
+Cylinder 20,0.060,0.055, 0.010
+Color 240,240,240
+Emissivecolor 15,15,15
+Translate -0.75, 2.480,-1.5
+
+[Meshbuilder] ; bel világítás jobb hátsók :búra 1
+Cylinder 20, 0.025, 0.025, 0.025
+Color 0,0,0
+Emissivecolor 255,255,255
+Translate -0.75, 2.415,-1.5
+
+[Meshbuilder] ; bel világítás jobb hátsók :búra 1
+Cylinder 20, 0.025, 0.040, 0.025
+Color 0,0,0
+Emissivecolor 255,255,255
+Translate -0.75, 2.405,-1.5
+
+[Meshbuilder] ; bel világítás jobb hátsók :búra 2
+Cylinder 20, 0.040, 0.030, 0.025
+Color 0,0,0
+Emissivecolor 255,255,255
+Translate -0.75, 2.380,-1.5
+
+[Meshbuilder] ; bel világítás jobb hátsók :búra 3
+Cylinder 20, 0.030, 0.010, 0.005
+Color 0,0,0
+Emissivecolor 255,255,255
+Translate -0.75, 2.365,-1.5
+
+[Meshbuilder] ;------------------------ bel világítás hátsók
+Cylinder 20,0.043,0.030, 0.050
+Color 240,240,240
+Emissivecolor 20,20,20
+Translate 0.75, 2.450, -1.5
+
+[Meshbuilder]
+Cylinder 20,0.060,0.055, 0.010
+Color 240,240,240
+Emissivecolor 15,15,15
+Translate 0.75, 2.480, -1.5
+
+[Meshbuilder] ; bel világítás jobb hátsók :búra 1
+Cylinder 20, 0.025, 0.025, 0.025
+Color 0,0,0
+Emissivecolor 255,255,255
+Translate 0.75, 2.415, -1.5
+
+[Meshbuilder] ; bel világítás jobb hátsók :búra 1
+Cylinder 20, 0.025, 0.040, 0.025
+Color 0,0,0
+Emissivecolor 255,255,255
+Translate 0.75, 2.405, -1.5
+
+[Meshbuilder] ; bel világítás jobb hátsók :búra 2
+Cylinder 20, 0.040, 0.030, 0.025
+Color 0,0,0
+Emissivecolor 255,255,255
+Translate 0.75, 2.380, -1.5
+
+[Meshbuilder] ; bel világítás jobb hátsók :búra 3
+Cylinder 20, 0.030, 0.010, 0.005
+Color 0,0,0
+Emissivecolor 255,255,255
+Translate 0.75, 2.365, -1.5
+
+[Meshbuilder] ;------------------------ bel világítás hátsók
+Cylinder 20,0.043,0.030, 0.050
+Color 240,240,240
+Emissivecolor 20,20,20
+Translate -0.75, 2.450,-2.25
+
+[Meshbuilder]
+Cylinder 20,0.060,0.055, 0.010
+Color 240,240,240
+Emissivecolor 15,15,15
+Translate -0.75, 2.480,-2.25
+
+[Meshbuilder] ; bel világítás jobb hátsók :búra 1
+Cylinder 20, 0.025, 0.025, 0.025
+Color 0,0,0
+Emissivecolor 255,255,255
+Translate -0.75, 2.415,-2.25
+
+[Meshbuilder] ; bel világítás jobb hátsók :búra 1
+Cylinder 20, 0.025, 0.040, 0.025
+Color 0,0,0
+Emissivecolor 255,255,255
+Translate -0.75, 2.405,-2.25
+
+[Meshbuilder] ; bel világítás jobb hátsók :búra 2
+Cylinder 20, 0.040, 0.030, 0.025
+Color 0,0,0
+Emissivecolor 255,255,255
+Translate -0.75, 2.380,-2.25
+
+[Meshbuilder] ; bel világítás jobb hátsók :búra 3
+Cylinder 20, 0.030, 0.010, 0.005
+Color 0,0,0
+Emissivecolor 255,255,255
+Translate -0.75, 2.365,-2.25
+
+[Meshbuilder] ;------------------------ bel világítás hátsók
+Cylinder 20,0.043,0.030, 0.050
+Color 240,240,240
+Emissivecolor 20,20,20
+Translate 0.75, 2.450, -2.25
+
+[Meshbuilder]
+Cylinder 20,0.060,0.055, 0.010
+Color 240,240,240
+Emissivecolor 15,15,15
+Translate 0.75, 2.480, -2.25
+
+[Meshbuilder] ; bel világítás jobb hátsók :búra 1
+Cylinder 20, 0.025, 0.025, 0.025
+Color 0,0,0
+Emissivecolor 255,255,255
+Translate 0.75, 2.415, -2.25
+
+[Meshbuilder] ; bel világítás jobb hátsók :búra 1
+Cylinder 20, 0.025, 0.040, 0.025
+Color 0,0,0
+Emissivecolor 255,255,255
+Translate 0.75, 2.405, -2.25
+
+[Meshbuilder] ; bel világítás jobb hátsók :búra 2
+Cylinder 20, 0.040, 0.030, 0.025
+Color 0,0,0
+Emissivecolor 255,255,255
+Translate 0.75, 2.380, -2.25
+
+[Meshbuilder] ; bel világítás jobb hátsók :búra 3
+Cylinder 20, 0.030, 0.010, 0.005
+Color 0,0,0
+Emissivecolor 255,255,255
+Translate 0.75, 2.365, -2.25
+
+[Meshbuilder] ;------------------------ bel világítás hátsók
+Cylinder 20,0.043,0.030, 0.050
+Color 240,240,240
+Emissivecolor 20,20,20
+Translate -0.75, 2.450,-3
+
+[Meshbuilder]
+Cylinder 20,0.060,0.055, 0.010
+Color 240,240,240
+Emissivecolor 15,15,15
+Translate -0.75, 2.480,-3
+
+[Meshbuilder] ; bel világítás jobb hátsók :búra 1
+Cylinder 20, 0.025, 0.025, 0.025
+Color 0,0,0
+Emissivecolor 255,255,255
+Translate -0.75, 2.415,-3
+
+[Meshbuilder] ; bel világítás jobb hátsók :búra 1
+Cylinder 20, 0.025, 0.040, 0.025
+Color 0,0,0
+Emissivecolor 255,255,255
+Translate -0.75, 2.405,-3
+
+[Meshbuilder] ; bel világítás jobb hátsók :búra 2
+Cylinder 20, 0.040, 0.030, 0.025
+Color 0,0,0
+Emissivecolor 255,255,255
+Translate -0.75, 2.380,-3
+
+[Meshbuilder] ; bel világítás jobb hátsók :búra 3
+Cylinder 20, 0.030, 0.010, 0.005
+Color 0,0,0
+Emissivecolor 255,255,255
+Translate -0.75, 2.365,-3
+
+[Meshbuilder] ;------------------------ bel világítás hátsók
+Cylinder 20,0.043,0.030, 0.050
+Color 240,240,240
+Emissivecolor 20,20,20
+Translate 0.75, 2.450, -3
+
+[Meshbuilder]
+Cylinder 20,0.060,0.055, 0.010
+Color 240,240,240
+Emissivecolor 15,15,15
+Translate 0.75, 2.480, -3
+
+[Meshbuilder] ; bel világítás jobb hátsók :búra 1
+Cylinder 20, 0.025, 0.025, 0.025
+Color 0,0,0
+Emissivecolor 255,255,255
+Translate 0.75, 2.415, -3
+
+[Meshbuilder] ; bel világítás jobb hátsók :búra 1
+Cylinder 20, 0.025, 0.040, 0.025
+Color 0,0,0
+Emissivecolor 255,255,255
+Translate 0.75, 2.405, -3
+
+[Meshbuilder] ; bel világítás jobb hátsók :búra 2
+Cylinder 20, 0.040, 0.030, 0.025
+Color 0,0,0
+Emissivecolor 255,255,255
+Translate 0.75, 2.380, -3
+
+[Meshbuilder] ; bel világítás jobb hátsók :búra 3
+Cylinder 20, 0.030, 0.010, 0.005
+Color 0,0,0
+Emissivecolor 255,255,255
+Translate 0.75, 2.365, -3
+
+[Meshbuilder] ;------------------------ bel világítás elsõk
+Cylinder 20,0.043,0.030, 0.050
+Color 240,240,240
+Emissivecolor 20,20,20
+Translate -0.75, 2.450,1.5
+
+[Meshbuilder]
+Cylinder 20,0.060,0.055, 0.010
+Color 240,240,240
+Emissivecolor 15,15,15
+Translate -0.75, 2.480,1.5
+
+[Meshbuilder] ; bel világítás jobb hátsók :búra 1
+Cylinder 20, 0.025, 0.025, 0.025
+Color 0,0,0
+Emissivecolor 255,255,255
+Translate -0.75, 2.415,1.5
+
+[Meshbuilder] ; bel világítás jobb hátsók :búra 1
+Cylinder 20, 0.025, 0.040, 0.025
+Color 0,0,0
+Emissivecolor 255,255,255
+Translate -0.75, 2.405,1.5
+
+[Meshbuilder] ; bel világítás jobb hátsók :búra 2
+Cylinder 20, 0.040, 0.030, 0.025
+Color 0,0,0
+Emissivecolor 255,255,255
+Translate -0.75, 2.380,1.5
+
+[Meshbuilder] ; bel világítás jobb hátsók :búra 3
+Cylinder 20, 0.030, 0.010, 0.005
+Color 0,0,0
+Emissivecolor 255,255,255
+Translate -0.75, 2.365,1.5
+
+[Meshbuilder] ;------------------------ bel világítás elsõk
+Cylinder 20,0.043,0.030, 0.050
+Color 240,240,240
+Emissivecolor 20,20,20
+Translate 0.75, 2.450, 1.5
+
+[Meshbuilder]
+Cylinder 20,0.060,0.055, 0.010
+Color 240,240,240
+Emissivecolor 15,15,15
+Translate 0.75, 2.480, 1.5
+
+[Meshbuilder] ; bel világítás jobb hátsók :búra 1
+Cylinder 20, 0.025, 0.025, 0.025
+Color 0,0,0
+Emissivecolor 255,255,255
+Translate 0.75, 2.415, 1.5
+
+[Meshbuilder] ; bel világítás jobb hátsók :búra 1
+Cylinder 20, 0.025, 0.040, 0.025
+Color 0,0,0
+Emissivecolor 255,255,255
+Translate 0.75, 2.405, 1.5
+
+[Meshbuilder] ; bel világítás jobb hátsók :búra 2
+Cylinder 20, 0.040, 0.030, 0.025
+Color 0,0,0
+Emissivecolor 255,255,255
+Translate 0.75, 2.380, 1.5
+
+[Meshbuilder] ; bel világítás jobb hátsók :búra 3
+Cylinder 20, 0.030, 0.010, 0.005
+Color 0,0,0
+Emissivecolor 255,255,255
+Translate 0.75, 2.365, 1.5
+
+[Meshbuilder] ;------------------------ bel világítás elsõk
+Cylinder 20,0.043,0.030, 0.050
+Color 240,240,240
+Emissivecolor 20,20,20
+Translate -0.75, 2.450,2.25
+
+[Meshbuilder]
+Cylinder 20,0.060,0.055, 0.010
+Color 240,240,240
+Emissivecolor 15,15,15
+Translate -0.75, 2.480,2.25
+
+[Meshbuilder] ; bel világítás jobb hátsók :búra 1
+Cylinder 20, 0.025, 0.025, 0.025
+Color 0,0,0
+Emissivecolor 255,255,255
+Translate -0.75, 2.415,2.25
+
+[Meshbuilder] ; bel világítás jobb hátsók :búra 1
+Cylinder 20, 0.025, 0.040, 0.025
+Color 0,0,0
+Emissivecolor 255,255,255
+Translate -0.75, 2.405,2.25
+
+[Meshbuilder] ; bel világítás jobb hátsók :búra 2
+Cylinder 20, 0.040, 0.030, 0.025
+Color 0,0,0
+Emissivecolor 255,255,255
+Translate -0.75, 2.380,2.25
+
+[Meshbuilder] ; bel világítás jobb hátsók :búra 3
+Cylinder 20, 0.030, 0.010, 0.005
+Color 0,0,0
+Emissivecolor 255,255,255
+Translate -0.75, 2.365,2.25
+
+[Meshbuilder] ;------------------------ bel világítás elsõk
+Cylinder 20,0.043,0.030, 0.050
+Color 240,240,240
+Emissivecolor 20,20,20
+Translate 0.75, 2.450, 2.25
+
+[Meshbuilder]
+Cylinder 20,0.060,0.055, 0.010
+Color 240,240,240
+Emissivecolor 15,15,15
+Translate 0.75, 2.480, 2.25
+
+[Meshbuilder] ; bel világítás jobb hátsók :búra 1
+Cylinder 20, 0.025, 0.025, 0.025
+Color 0,0,0
+Emissivecolor 255,255,255
+Translate 0.75, 2.415, 2.25
+
+[Meshbuilder] ; bel világítás jobb hátsók :búra 1
+Cylinder 20, 0.025, 0.040, 0.025
+Color 0,0,0
+Emissivecolor 255,255,255
+Translate 0.75, 2.405, 2.25
+
+[Meshbuilder] ; bel világítás jobb hátsók :búra 2
+Cylinder 20, 0.040, 0.030, 0.025
+Color 0,0,0
+Emissivecolor 255,255,255
+Translate 0.75, 2.380, 2.25
+
+[Meshbuilder] ; bel világítás jobb hátsók :búra 3
+Cylinder 20, 0.030, 0.010, 0.005
+Color 0,0,0
+Emissivecolor 255,255,255
+Translate 0.75, 2.365, 2.25;--------------------------------------------
+
+[Meshbuilder] ;---------Padló ker----------
+Vertex  1.099,0.51,-0.7
+Vertex  1.099,0.51, 0.7
+Vertex -1.099,0.51, 0.7
+Vertex -1.099,0.51,-0.7
+face  3,2,1,0
+EmissiveColor 70,70,70
+[Texture]
+Load padlk.png
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+
+[Meshbuilder] ;---------Padló hossz----------
+Vertex  1.099,0.509,-1.3
+Vertex  1.099,0.509, 1.3
+Vertex -1.099,0.509, 1.3
+Vertex -1.099,0.509,-1.3
+face  3,2,1,0
+EmissiveColor 70,70,70
+[Texture]
+Load padlk.png
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+Coordinates 0,1,1
+
+[Meshbuilder] ;padló léc hátsó kereszt viz
+Cube 1.099,0.01,0.050
+Color 80,80,80
+EmissiveColor 40,40,40
+Translate 0,0.615,-1.3
+[Meshbuilder] ;padló léc hátsó kereszt függ
+Cube 1.099,0.050,0.01
+Color 64,0,0
+EmissiveColor 32,0,0
+Translate 0,0.555,-1.265
+[Meshbuilder] ;padló léc elsõ kereszt viz
+Cube 1.099,0.01,0.050
+Color 80,80,80
+EmissiveColor 40,40,40
+Translate 0,0.615, 1.3
+[Meshbuilder] ;padló léc elsõ kereszt függ
+Cube 1.099,0.050,0.01
+Color 64,0,0
+EmissiveColor 32,0,0
+Translate 0,0.555, 1.265
+
+[Meshbuilder] ;---------Padló----------
+Vertex  1.099,0.620,-3.72
+Vertex  1.099,0.620, 3.72
+Vertex -1.099,0.620, 3.72
+Vertex -1.099,0.620,-3.72
+face  3,2,1,0
+EmissiveColor 70,70,70
+[Texture]
+Load padl.png
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+Transparent 255,0,255
+
+[Meshbuilder] ;padló léc hátsó padnál szürke kereszt viz
+Cube 1.015,0.050,0.01
+Color 80,80,80
+EmissiveColor 40,40,40
+Translate 0,0.647,-3.061
+
+[Meshbuilder] ;padló léc elsõ térelválasztónál szürke kereszt viz
+Cube 1.099,0.050,0.0050
+Color 80,80,80
+EmissiveColor 40,40,40
+Translate 0,0.647, 2.671
+
+[Meshbuilder] ;---------------kerék dob jobb hátsó-----------
+Cube 0.22,0.03,0.05
+Rotate 1,0,0,30
+Color 64,0,0
+EmissiveColor 32,0,0
+Translate 0.910,0.590,-1.45
+
+[Meshbuilder] 
+Cube 0.22,0.03,0.05
+Rotate 1,0,0,15
+Color 64,0,0
+EmissiveColor 32,0,0
+Translate 0.910,0.6251,-1.534
+
+[Meshbuilder] 
+Cube 0.22,0.03,0.05
+Color 64,0,0
+EmissiveColor 32,0,0
+Translate 0.910,0.637,-1.625
+
+[Meshbuilder] 
+Cube 0.22,0.03,0.05
+Rotate 1,0,0,-15
+Color 64,0,0
+EmissiveColor 32,0,0
+Translate 0.910,0.6251,-1.715
+
+[Meshbuilder] 
+Cube 0.22,0.03,0.05
+Rotate 1,0,0,-30
+Color 64,0,0
+EmissiveColor 32,0,0
+Translate 0.910,0.590,-1.799
+
+[Meshbuilder] ;---------------kerék dob jobb elsõ-----------
+Cube 0.22,0.03,0.05
+Rotate 1,0,0,-30
+Color 64,0,0
+EmissiveColor 32,0,0
+Translate 0.910,0.590,1.45
+
+[Meshbuilder] 
+Cube 0.22,0.03,0.05
+Rotate 1,0,0,-15
+Color 64,0,0
+EmissiveColor 32,0,0
+Translate 0.910,0.6251,1.534
+
+[Meshbuilder] 
+Cube 0.22,0.03,0.05
+Color 64,0,0
+EmissiveColor 32,0,0
+Translate 0.910,0.637,1.625
+
+[Meshbuilder] 
+Cube 0.22,0.03,0.05
+Rotate 1,0,0,15
+Color 64,0,0
+EmissiveColor 32,0,0
+Translate 0.910,0.6251,1.715
+
+[Meshbuilder] 
+Cube 0.22,0.03,0.05
+Rotate 1,0,0,30
+Color 64,0,0
+EmissiveColor 32,0,0
+Translate 0.910,0.590,1.799
+
+[Meshbuilder] ;---------------kerék dob bal elsõ-----------
+Cube 0.22,0.03,0.05
+Rotate 1,0,0,-30
+Color 64,0,0
+EmissiveColor 32,0,0
+Translate -0.910,0.590,1.45
+
+[Meshbuilder] 
+Cube 0.22,0.03,0.05
+Rotate 1,0,0,-15
+Color 64,0,0
+EmissiveColor 32,0,0
+Translate -0.910,0.6251,1.534
+
+[Meshbuilder] 
+Cube 0.22,0.03,0.05
+Color 64,0,0
+EmissiveColor 32,0,0
+Translate -0.910,0.637,1.625
+
+[Meshbuilder] 
+Cube 0.22,0.03,0.05
+Rotate 1,0,0,15
+Color 64,0,0
+EmissiveColor 32,0,0
+Translate -0.910,0.6251,1.715
+
+[Meshbuilder] 
+Cube 0.22,0.03,0.05
+Rotate 1,0,0,30
+Color 64,0,0
+EmissiveColor 32,0,0
+Translate -0.910,0.590,1.799
+
+[Meshbuilder] ;---------------kerék dob bal hátsó-----------
+Cube 0.22,0.03,0.05
+Rotate 1,0,0,30
+Color 64,0,0
+EmissiveColor 32,0,0
+Translate -0.910,0.590,-1.45
+
+[Meshbuilder] 
+Cube 0.22,0.03,0.05
+Rotate 1,0,0,15
+Color 64,0,0
+EmissiveColor 32,0,0
+Translate -0.910,0.6251,-1.534
+
+[Meshbuilder] 
+Cube 0.22,0.03,0.05
+Color 64,0,0
+EmissiveColor 32,0,0
+Translate -0.910,0.637,-1.625
+
+[Meshbuilder] 
+Cube 0.22,0.03,0.05
+Rotate 1,0,0,-15
+Color 64,0,0
+EmissiveColor 32,0,0
+Translate -0.910,0.6251,-1.715
+
+[Meshbuilder] 
+Cube 0.22,0.03,0.05
+Rotate 1,0,0,-30
+Color 64,0,0
+EmissiveColor 32,0,0
+Translate -0.910,0.590,-1.799;------------------------------
+
+[Meshbuilder] ; kalaptartó------------------------
+Vertex -0.4, 1.480,-3.75
+Vertex  0.4, 1.480,-3.75
+Vertex  0.95,1.480,-3.45
+Vertex -0.95,1.480,-3.45
+Face 3,2,1,0
+Emissivecolor 70,70,70
+[Texture]
+Load kalapt.png
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+
+[Meshbuilder] ; Hátsó pad fal------------------------
+Vertex -1.020, 0.650,-3.070
+Vertex  1.020, 0.650,-3.070
+Vertex  1.020, 1.050,-3.070
+Vertex -1.020, 1.050,-3.070
+Face 0,1,2,3
+Emissivecolor 70,70,70
+[Texture]
+Load padfal.png
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+
+[Meshbuilder] ; ülés pad hátsó
+Cube 1.020,0.03,0.05
+Color 64,0,0
+EmissiveColor 32,0,0
+Translate 0,1.050,-3.070
+
+[Meshbuilder] ; ülés pad hátsó
+Cube 1.005,0.03,0.05
+Color 64,0,0
+EmissiveColor 32,0,0
+Translate 0,1.050,-3.170
+
+[Meshbuilder] ; ülés pad hátsó
+Cube 0.980,0.03,0.05
+Color 64,0,0
+EmissiveColor 32,0,0
+Translate 0,1.050,-3.270
+
+[Meshbuilder] ; ülés pad hátsó
+Cube 0.955,0.03,0.05
+Color 64,0,0
+EmissiveColor 32,0,0
+Translate 0,1.050,-3.370
+
+[Meshbuilder] ; üléstámla pad hátsó
+Cube 0.950,0.03,0.225
+Rotate 1,0,0,88
+Color 64,0,0
+EmissiveColor 32,0,0
+Translate 0,1.300,-3.418
+
+[Meshbuilder] ; ülés jobb hátsó 2
+Cube 0.230,0.03,0.230
+Color 64,0,0
+EmissiveColor 32,0,0
+Translate 0.86,1.050,-2.45
+
+[Meshbuilder] ; üléstámla hátsó 2
+Cube 0.230,0.03,0.230
+Rotate 1,0,0,88
+Color 64,0,0
+EmissiveColor 32,0,0
+Translate 0.86,1.350,-2.68
+
+[Meshbuilder] ; ülés jobb hátsó 1
+Cube 0.230,0.03,0.230
+Color 64,0,0
+EmissiveColor 32,0,0
+Translate 0.86,1.050,-1.77
+
+[Meshbuilder] ; üléstámla hátsó 1
+Cube 0.230,0.03,0.230
+Rotate 1,0,0,90
+Color 64,0,0
+EmissiveColor 32,0,0
+Translate 0.86,1.350,-1.99 ;---------------------
+
+[Meshbuilder] ; ülés bal hátsó 2
+Cube 0.230,0.03,0.230
+Color 64,0,0
+EmissiveColor 32,0,0
+Translate -0.86,1.050,-2.45
+
+[Meshbuilder] ; üléstámla hátsó 2
+Cube 0.230,0.03,0.230
+Rotate 1,0,0,88
+Color 64,0,0
+EmissiveColor 32,0,0
+Translate -0.86,1.350,-2.68
+
+[Meshbuilder] ; ülés bal hátsó 1
+Cube 0.230,0.03,0.230
+Color 64,0,0
+EmissiveColor 32,0,0
+Translate -0.86,1.050,-1.77
+
+[Meshbuilder] ; üléstámla hátsó 1
+Cube 0.230,0.03,0.230
+Rotate 1,0,0,90
+Color 64,0,0
+EmissiveColor 32,0,0
+Translate -0.86,1.350,-1.99 ;-----------------------
+
+[Meshbuilder] ; ülés bal elsõ 2
+Cube 0.230,0.03,0.230
+Color 64,0,0
+EmissiveColor 32,0,0
+Translate -0.86,1.050,2.45
+
+[Meshbuilder] ; üléstámla elsõ 2
+Cube 0.230,0.03,0.230
+Rotate 1,0,0,-90
+Color 64,0,0
+EmissiveColor 32,0,0
+Translate -0.86,1.350,2.649
+
+[Meshbuilder] ; ülés bal elsõ 1
+Cube 0.230,0.03,0.230
+Color 64,0,0
+EmissiveColor 32,0,0
+Translate -0.86,1.050, 1.77
+
+[Meshbuilder] ; üléstámla elsõ 1
+Cube 0.230,0.03,0.230
+Rotate 1,0,0,-90
+Color 64,0,0
+EmissiveColor 32,0,0
+Translate -0.86,1.350, 1.99 ; -----------------------
+
+[Meshbuilder] ; ülés jobb elsõ 2
+Cube 0.230,0.03,0.230
+Color 64,0,0
+EmissiveColor 32,0,0
+Translate  0.86,1.050,2.45
+
+[Meshbuilder] ; üléstámla elsõ 2
+Cube 0.230,0.03,0.230
+Rotate 1,0,0,-90
+Color 64,0,0
+EmissiveColor 32,0,0
+Translate  0.86,1.350,2.649
+
+[Meshbuilder] ; ülés jobb elsõ 1
+Cube 0.230,0.03,0.230
+Color 64,0,0
+EmissiveColor 32,0,0
+Translate  0.86,1.050,1.77
+
+[Meshbuilder] ; üléstámla elsõ 1
+Cube 0.230,0.03,0.230
+Rotate 1,0,0,-90
+Color 64,0,0
+EmissiveColor 32,0,0
+Translate  0.86,1.350,1.99 ; --------------------
+;--------------------------------szék láb---------------------------------
+[Meshbuilder]  ; szék láb jobb hátsó b h függ
+Cylinder 20, 0.014, 0.014, 0.46
+Color 70,35,0
+EmissiveColor 35,16,0
+Translate  0.65,0.900,-2.67
+
+[Meshbuilder]  ; szék láb jobb hátsó b viz
+Cylinder 20, 0.014, 0.014, 0.27
+Rotate 1, 0, 0, 90
+Color 70,35,0
+EmissiveColor 35,16,0
+Translate  0.65,0.624,-2.489
+
+[Meshbuilder]  ; szék láb jobb hátsó b hátsó 45fok
+Cylinder 20, 0.014, 0.014, 0.08
+Rotate 1, 0, 0,-45
+Color 70,35,0
+EmissiveColor 35,16,0
+Translate  0.65,0.651,-2.646
+
+[Meshbuilder]  ; szék láb jobb hátsó b elsõ 45fok
+Cylinder 20, 0.014, 0.014, 0.08
+Rotate 1, 0, 0, 45
+Color 70,35,0
+EmissiveColor 35,16,0
+Translate  0.65,0.651,-2.336
+
+[Meshbuilder]  ; szék láb jobb hátsó b elsõ 80fok
+Cylinder 20, 0.014, 0.014, 0.36
+Rotate 1, 0, 0, 10
+Color 70,35,0
+EmissiveColor 35,16,0
+Translate  0.65,0.850,-2.280;------------------------------------
+
+[Meshbuilder]  ; szék láb jobb hátsó belsõ h függ
+Cylinder 20, 0.014, 0.014, 0.46
+Color 70,35,0
+EmissiveColor 35,16,0
+Translate  1.08,0.900,-2.67
+
+[Meshbuilder]  ; szék láb jobb hátsó belsõ viz
+Cylinder 20, 0.014, 0.014, 0.27
+Rotate 1, 0, 0, 90
+Color 70,35,0
+EmissiveColor 35,16,0
+Translate  1.08,0.624,-2.489
+
+[Meshbuilder]  ; szék láb jobb hátsó belsõ hátsó 45fok
+Cylinder 20, 0.014, 0.014, 0.08
+Rotate 1, 0, 0,-45
+Color 70,35,0
+EmissiveColor 35,16,0
+Translate  1.08,0.651,-2.646
+
+[Meshbuilder]  ; szék láb jobb hátsó belsõ elsõ 45fok
+Cylinder 20, 0.014, 0.014, 0.08
+Rotate 1, 0, 0, 45
+Color 70,35,0
+EmissiveColor 35,16,0
+Translate  1.08,0.651,-2.336
+
+[Meshbuilder]  ; szék láb jobb hátsó belsõ elsõ 80fok
+Cylinder 20, 0.014, 0.014, 0.36
+Rotate 1, 0, 0, 10
+Color 70,35,0
+EmissiveColor 35,16,0
+Translate  1.08,0.850,-2.280;------------------------------------
+
+[Meshbuilder]  ; --------------szék kapaszkodó tartó fal jobb hátsó viz----------
+Cylinder 20, 0.018, 0.018, 0.020
+Rotate 0,0,1,90
+Color 100,100,100
+EmissiveColor 50,50,50
+Translate  1.09,1.7,-2.69
+
+[Meshbuilder]  ; szék kapaszkodó tartó fal jobb hátsó viz
+Cylinder 20, 0.030, 0.030, 0.010
+Rotate 0,0,1,90
+Color 60,60,60
+EmissiveColor 30,30,30
+Translate  1.10,1.7,-2.69
+
+[Meshbuilder]  ; szék kapaszkodó jobb hátsó viz
+Cylinder 20, 0.014, 0.014, 0.50
+Rotate 0,0,1,90
+Color 140,140,140
+EmissiveColor 70,70,70
+Translate  0.83,1.7,-2.69
+
+[Meshbuilder]  ; szék kapaszkodó jobb hátsó felsõ -60fok
+Cylinder 20, 0.014, 0.014, 0.05
+Rotate 0,0,1,-60
+Color 140,140,140
+EmissiveColor 70,70,70
+Translate  0.565,1.689,-2.69
+
+[Meshbuilder]  ; szék kapaszkodó jobb hátsó felsõ -30fok
+Cylinder 20, 0.014, 0.014, 0.05
+Rotate 0,0,1,-30
+Color 140,140,140
+EmissiveColor 70,70,70
+Translate  0.536,1.6595,-2.69
+
+[Meshbuilder]  ; szék kapaszkodó jobb hátsó felsõ 3függ
+Cylinder 20, 0.014, 0.014, 0.05
+Color 140,140,140
+EmissiveColor 70,70,70
+Translate  0.5256,1.620,-2.69
+
+[Meshbuilder]  ; szék kapaszkodó jobb hátsó alsó 30fok
+Cylinder 20, 0.014, 0.014, 0.05
+Rotate 0,0,1,30
+Color 140,140,140
+EmissiveColor 70,70,70
+Translate  0.536,1.580,-2.69
+
+[Meshbuilder]  ; szék kapaszkodó jobb hátsó alsó 60fok
+Cylinder 20, 0.014, 0.014, 0.05
+Rotate 0,0,1,60
+Color 140,140,140
+EmissiveColor 70,70,70
+Translate  0.565,1.551,-2.69
+
+[Meshbuilder]  ; szék kapaszkodó jobb hátsó alsó 
+Cylinder 20, 0.014, 0.014, 0.05
+Rotate 0,0,1,90
+Color 140,140,140
+EmissiveColor 70,70,70
+Translate  0.605,1.540,-2.69
+
+[Meshbuilder]  ; szék kapaszkodó jobb hátsó alsó 
+Cylinder 20, 0.018, 0.018, 0.020
+Rotate 0,0,1,90
+Color 100,100,100
+EmissiveColor 50,50,50
+Translate  0.622,1.540,-2.69
+
+[Meshbuilder]  ; szék kapaszkodó jobb hátsó alsó 
+Cube 0.004,0.040,0.020
+Color 60,60,60
+EmissiveColor 30,30,30
+Translate  0.627,1.530,-2.69 ;-------------------------------------------------
+
+;--------------------------------szék láb---------------------------------
+[Meshbuilder]  ; szék láb bal hátsó j h függ
+Cylinder 20, 0.014, 0.014, 0.46
+Color 70,35,0
+EmissiveColor 35,16,0
+Translate  -0.65,0.900,-2.67
+
+[Meshbuilder]  ; szék láb bal hátsó j viz
+Cylinder 20, 0.014, 0.014, 0.27
+Rotate 1, 0, 0, 90
+Color 70,35,0
+EmissiveColor 35,16,0
+Translate  -0.65,0.624,-2.489
+
+[Meshbuilder]  ; szék láb bal hátsó j hátsó 45fok
+Cylinder 20, 0.014, 0.014, 0.08
+Rotate 1, 0, 0,-45
+Color 70,35,0
+EmissiveColor 35,16,0
+Translate  -0.65,0.651,-2.646
+
+[Meshbuilder]  ; szék láb bal hátsó j elsõ 45fok
+Cylinder 20, 0.014, 0.014, 0.08
+Rotate 1, 0, 0, 45
+Color 70,35,0
+EmissiveColor 35,16,0
+Translate  -0.65,0.651,-2.336
+
+[Meshbuilder]  ; szék láb bal hátsó j elsõ 80fok
+Cylinder 20, 0.014, 0.014, 0.36
+Rotate 1, 0, 0, 10
+Color 70,35,0
+EmissiveColor 35,16,0
+Translate  -0.65,0.850,-2.280;------------------------------------
+
+[Meshbuilder]  ; szék láb bal hátsó belsõ h függ
+Cylinder 20, 0.014, 0.014, 0.46
+Color 70,35,0
+EmissiveColor 35,16,0
+Translate  -1.08,0.900,-2.67
+
+[Meshbuilder]  ; szék láb bal hátsó belsõ viz
+Cylinder 20, 0.014, 0.014, 0.27
+Rotate 1, 0, 0, 90
+Color 70,35,0
+EmissiveColor 35,16,0
+Translate  -1.08,0.624,-2.489
+
+[Meshbuilder]  ; szék láb bal hátsó belsõ hátsó 45fok
+Cylinder 20, 0.014, 0.014, 0.08
+Rotate 1, 0, 0,-45
+Color 70,35,0
+EmissiveColor 35,16,0
+Translate  -1.08,0.651,-2.646
+
+[Meshbuilder]  ; szék láb bal hátsó belsõ elsõ 45fok
+Cylinder 20, 0.014, 0.014, 0.08
+Rotate 1, 0, 0, 45
+Color 70,35,0
+EmissiveColor 35,16,0
+Translate  -1.08,0.651,-2.336
+
+[Meshbuilder]  ; szék láb bal hátsó belsõ elsõ 80fok
+Cylinder 20, 0.014, 0.014, 0.36
+Rotate 1, 0, 0, 10
+Color 70,35,0
+EmissiveColor 35,16,0
+Translate  -1.08,0.850,-2.280;------------------------------------
+
+[Meshbuilder]  ; --------------szék kapaszkodó tartó fal bal hátsó viz----------
+Cylinder 20, 0.018, 0.018, 0.020
+Rotate 0,0,1,90
+Color 100,100,100
+EmissiveColor 50,50,50
+Translate  -1.09,1.7,-2.69
+
+[Meshbuilder]  ; szék kapaszkodó tartó fal bal hátsó viz
+Cylinder 20, 0.030, 0.030, 0.010
+Rotate 0,0,1,90
+Color 60,60,60
+EmissiveColor 30,30,30
+Translate  -1.10,1.7,-2.69
+
+[Meshbuilder]  ; szék kapaszkodó bal hátsó viz
+Cylinder 20, 0.014, 0.014, 0.50
+Rotate 0,0,1,90
+Color 140,140,140
+EmissiveColor 70,70,70
+Translate  -0.83,1.7,-2.69
+
+[Meshbuilder]  ; szék kapaszkodó bal hátsó felsõ 60fok
+Cylinder 20, 0.014, 0.014, 0.05
+Rotate 0,0,1,60
+Color 140,140,140
+EmissiveColor 70,70,70
+Translate  -0.565,1.689,-2.69
+
+[Meshbuilder]  ; szék kapaszkodó bal hátsó felsõ 30fok
+Cylinder 20, 0.014, 0.014, 0.05
+Rotate 0,0,1,30
+Color 140,140,140
+EmissiveColor 70,70,70
+Translate  -0.536,1.6595,-2.69
+
+[Meshbuilder]  ; szék kapaszkodó bal hátsó felsõ 3függ
+Cylinder 20, 0.014, 0.014, 0.05
+Color 140,140,140
+EmissiveColor 70,70,70
+Translate  -0.5256,1.620,-2.69
+
+[Meshbuilder]  ; szék kapaszkodó bal hátsó alsó -30fok
+Cylinder 20, 0.014, 0.014, 0.05
+Rotate 0,0,1,-30
+Color 140,140,140
+EmissiveColor 70,70,70
+Translate  -0.536,1.580,-2.69
+
+[Meshbuilder]  ; szék kapaszkodó bal hátsó alsó -60fok
+Cylinder 20, 0.014, 0.014, 0.05
+Rotate 0,0,1,-60
+Color 140,140,140
+EmissiveColor 70,70,70
+Translate  -0.565,1.551,-2.69
+
+[Meshbuilder]  ; szék kapaszkodó bal hátsó alsó 
+Cylinder 20, 0.014, 0.014, 0.05
+Rotate 0,0,1,90
+Color 140,140,140
+EmissiveColor 70,70,70
+Translate  -0.605,1.540,-2.69
+
+[Meshbuilder]  ; szék kapaszkodó bal hátsó alsó 
+Cylinder 20, 0.018, 0.018, 0.020
+Rotate 0,0,1,90
+Color 100,100,100
+EmissiveColor 50,50,50
+Translate  -0.622,1.540,-2.69
+
+[Meshbuilder]  ; szék kapaszkodó bal hátsó alsó 
+Cube 0.004,0.040,0.020
+Color 60,60,60
+EmissiveColor 30,30,30
+Translate  -0.627,1.530,-2.69 ;-------------------------------------------------
+
+;--------------------------------szék jobb elsõ láb---------------------------------
+[Meshbuilder]  ; szék láb jobb elsõ j h függ
+Cylinder 20, 0.014, 0.014, 0.40
+Color 70,35,0
+EmissiveColor 35,16,0
+Translate   0.65,0.870, 2.67
+
+[Meshbuilder]  ; szék láb bal hátsó j viz
+Cylinder 20, 0.014, 0.014, 0.27
+Rotate 1, 0, 0, 90
+Color 70,35,0
+EmissiveColor 35,16,0
+Translate   0.65,0.624, 2.489
+
+[Meshbuilder]  ; szék láb bal hátsó j hátsó 45fok
+Cylinder 20, 0.014, 0.014, 0.08
+Rotate 1, 0, 0, 45
+Color 70,35,0
+EmissiveColor 35,16,0
+Translate   0.65,0.651, 2.646
+
+[Meshbuilder]  ; szék láb bal hátsó j elsõ 45fok
+Cylinder 20, 0.014, 0.014, 0.08
+Rotate 1, 0, 0, -45
+Color 70,35,0
+EmissiveColor 35,16,0
+Translate   0.65,0.651, 2.336
+
+[Meshbuilder]  ; szék láb bal hátsó j elsõ 80fok
+Cylinder 20, 0.014, 0.014, 0.36
+Rotate 1, 0, 0,-10
+Color 70,35,0
+EmissiveColor 35,16,0
+Translate   0.65,0.850, 2.280;------------------------------------
+
+[Meshbuilder]  ; szék láb bal hátsó belsõ h függ
+Cylinder 20, 0.014, 0.014, 0.40
+Color 70,35,0
+EmissiveColor 35,16,0
+Translate   1.08,0.870, 2.67
+
+[Meshbuilder]  ; szék láb bal hátsó belsõ viz
+Cylinder 20, 0.014, 0.014, 0.27
+Rotate 1, 0, 0, 90
+Color 70,35,0
+EmissiveColor 35,16,0
+Translate   1.08,0.624, 2.489
+
+[Meshbuilder]  ; szék láb bal hátsó belsõ hátsó 45fok
+Cylinder 20, 0.014, 0.014, 0.08
+Rotate 1, 0, 0,45
+Color 70,35,0
+EmissiveColor 35,16,0
+Translate   1.08,0.651, 2.646
+
+[Meshbuilder]  ; szék láb bal hátsó belsõ elsõ 45fok
+Cylinder 20, 0.014, 0.014, 0.08
+Rotate 1, 0, 0, -45
+Color 70,35,0
+EmissiveColor 35,16,0
+Translate   1.08,0.651, 2.336
+
+[Meshbuilder]  ; szék láb bal hátsó belsõ elsõ 80fok
+Cylinder 20, 0.014, 0.014, 0.36
+Rotate 1, 0, 0, -10
+Color 70,35,0
+EmissiveColor 35,16,0
+Translate   1.08,0.850, 2.280;------------------------------------
+
+;--------------------------------szék bal elsõ láb---------------------------------
+[Meshbuilder]  ; szék láb jobb elsõ j h függ
+Cylinder 20, 0.014, 0.014, 0.40
+Color 70,35,0
+EmissiveColor 35,16,0
+Translate -0.65,0.870, 2.67
+
+[Meshbuilder]  ; szék láb bal hátsó j viz
+Cylinder 20, 0.014, 0.014, 0.27
+Rotate 1, 0, 0, 90
+Color 70,35,0
+EmissiveColor 35,16,0
+Translate -0.65,0.624, 2.489
+
+[Meshbuilder]  ; szék láb bal hátsó j hátsó 45fok
+Cylinder 20, 0.014, 0.014, 0.08
+Rotate 1, 0, 0, 45
+Color 70,35,0
+EmissiveColor 35,16,0
+Translate -0.65,0.651, 2.646
+
+[Meshbuilder]  ; szék láb bal hátsó j elsõ 45fok
+Cylinder 20, 0.014, 0.014, 0.08
+Rotate 1, 0, 0, -45
+Color 70,35,0
+EmissiveColor 35,16,0
+Translate -0.65,0.651, 2.336
+
+[Meshbuilder]  ; szék láb bal hátsó j elsõ 80fok
+Cylinder 20, 0.014, 0.014, 0.36
+Rotate 1, 0, 0,-10
+Color 70,35,0
+EmissiveColor 35,16,0
+Translate -0.65,0.850, 2.280;------------------------------------
+
+[Meshbuilder]  ; szék láb bal hátsó belsõ h függ
+Cylinder 20, 0.014, 0.014, 0.40
+Color 70,35,0
+EmissiveColor 35,16,0
+Translate -1.08,0.870, 2.67
+
+[Meshbuilder]  ; szék láb bal hátsó belsõ viz
+Cylinder 20, 0.014, 0.014, 0.27
+Rotate 1, 0, 0, 90
+Color 70,35,0
+EmissiveColor 35,16,0
+Translate -1.08,0.624, 2.489
+
+[Meshbuilder]  ; szék láb bal hátsó belsõ hátsó 45fok
+Cylinder 20, 0.014, 0.014, 0.08
+Rotate 1, 0, 0,45
+Color 70,35,0
+EmissiveColor 35,16,0
+Translate -1.08,0.651, 2.646
+
+[Meshbuilder]  ; szék láb bal hátsó belsõ elsõ 45fok
+Cylinder 20, 0.014, 0.014, 0.08
+Rotate 1, 0, 0, -45
+Color 70,35,0
+EmissiveColor 35,16,0
+Translate -1.08,0.651, 2.336
+
+[Meshbuilder]  ; szék láb bal hátsó belsõ elsõ 80fok
+Cylinder 20, 0.014, 0.014, 0.36
+Rotate 1, 0, 0, -10
+Color 70,35,0
+EmissiveColor 35,16,0
+Translate -1.08,0.850, 2.280;------------------------------------
+
+;--------------------------------szék láb jobb hátsó 1 ---------------------------------
+[Meshbuilder]  ; szék láb jobb hátsó b h függ
+Cylinder 20, 0.014, 0.014, 0.46
+Color 70,35,0
+EmissiveColor 35,16,0
+Translate  0.65,0.900,-1.99
+
+[Meshbuilder]  ; szék láb jobb hátsó b viz
+Cylinder 20, 0.014, 0.014, 0.27
+Rotate 1, 0, 0, 90
+Color 70,35,0
+EmissiveColor 35,16,0
+Translate  0.65,0.624,-1.809
+
+[Meshbuilder]  ; szék láb jobb hátsó b hátsó 45fok
+Cylinder 20, 0.014, 0.014, 0.08
+Rotate 1, 0, 0,-45
+Color 70,35,0
+EmissiveColor 35,16,0
+Translate  0.65,0.651,-1.966
+
+[Meshbuilder]  ; szék láb jobb hátsó b elsõ 45fok
+Cylinder 20, 0.014, 0.014, 0.08
+Rotate 1, 0, 0, 45
+Color 70,35,0
+EmissiveColor 35,16,0
+Translate  0.65,0.651,-1.656
+
+[Meshbuilder]  ; szék láb jobb hátsó b elsõ 80fok
+Cylinder 20, 0.014, 0.014, 0.36
+Rotate 1, 0, 0, 10
+Color 70,35,0
+EmissiveColor 35,16,0
+Translate  0.65,0.850,-1.6;------------------------------------
+
+[Meshbuilder]  ; szék láb jobb hátsó belsõ h függ
+Cylinder 20, 0.014, 0.014, 0.46
+Color 70,35,0
+EmissiveColor 35,16,0
+Translate  1.08,0.900,-1.99
+
+[Meshbuilder]  ; szék láb jobb hátsó belsõ viz
+Cylinder 20, 0.014, 0.014, 0.27
+Rotate 1, 0, 0, 90
+Color 70,35,0
+EmissiveColor 35,16,0
+Translate  1.08,0.624,-1.809
+
+[Meshbuilder]  ; szék láb jobb hátsó belsõ hátsó 45fok
+Cylinder 20, 0.014, 0.014, 0.08
+Rotate 1, 0, 0,-45
+Color 70,35,0
+EmissiveColor 35,16,0
+Translate  1.08,0.651,-1.966
+
+[Meshbuilder]  ; szék láb jobb hátsó belsõ elsõ 45fok
+Cylinder 20, 0.014, 0.014, 0.08
+Rotate 1, 0, 0, 45
+Color 70,35,0
+EmissiveColor 35,16,0
+Translate  1.08,0.651,-1.656
+
+[Meshbuilder]  ; szék láb jobb hátsó belsõ elsõ 80fok
+Cylinder 20, 0.014, 0.014, 0.36
+Rotate 1, 0, 0, 10
+Color 70,35,0
+EmissiveColor 35,16,0
+Translate  1.08,0.850,-1.6;------------------------------------
+
+[Meshbuilder]  ; --------------szék kapaszkodó tartó fal jobb hátsó 1 viz----------
+Cylinder 20, 0.018, 0.018, 0.020
+Rotate 0,0,1,90
+Color 100,100,100
+EmissiveColor 50,50,50
+Translate  1.09,1.7,-1.985
+
+[Meshbuilder]  ; szék kapaszkodó tartó fal jobb hátsó viz
+Cylinder 20, 0.030, 0.030, 0.010
+Rotate 0,0,1,90
+Color 60,60,60
+EmissiveColor 30,30,30
+Translate  1.10,1.7,-1.985
+
+[Meshbuilder]  ; szék kapaszkodó jobb hátsó viz
+Cylinder 20, 0.014, 0.014, 0.50
+Rotate 0,0,1,90
+Color 140,140,140
+EmissiveColor 70,70,70
+Translate  0.83,1.7,-1.985
+
+[Meshbuilder]  ; szék kapaszkodó jobb hátsó felsõ -60fok
+Cylinder 20, 0.014, 0.014, 0.05
+Rotate 0,0,1,-60
+Color 140,140,140
+EmissiveColor 70,70,70
+Translate  0.565,1.689,-1.985
+
+[Meshbuilder]  ; szék kapaszkodó jobb hátsó felsõ -30fok
+Cylinder 20, 0.014, 0.014, 0.05
+Rotate 0,0,1,-30
+Color 140,140,140
+EmissiveColor 70,70,70
+Translate  0.536,1.6595,-1.985
+
+[Meshbuilder]  ; szék kapaszkodó jobb hátsó felsõ 3függ
+Cylinder 20, 0.014, 0.014, 0.05
+Color 140,140,140
+EmissiveColor 70,70,70
+Translate  0.5256,1.620,-1.985
+
+[Meshbuilder]  ; szék kapaszkodó jobb hátsó alsó 30fok
+Cylinder 20, 0.014, 0.014, 0.05
+Rotate 0,0,1,30
+Color 140,140,140
+EmissiveColor 70,70,70
+Translate  0.536,1.580,-1.985
+
+[Meshbuilder]  ; szék kapaszkodó jobb hátsó alsó 60fok
+Cylinder 20, 0.014, 0.014, 0.05
+Rotate 0,0,1,60
+Color 140,140,140
+EmissiveColor 70,70,70
+Translate  0.565,1.551,-1.985
+
+[Meshbuilder]  ; szék kapaszkodó jobb hátsó alsó 
+Cylinder 20, 0.014, 0.014, 0.05
+Rotate 0,0,1,90
+Color 140,140,140
+EmissiveColor 70,70,70
+Translate  0.605,1.540,-1.985
+
+[Meshbuilder]  ; szék kapaszkodó jobb hátsó alsó 
+Cylinder 20, 0.018, 0.018, 0.020
+Rotate 0,0,1,90
+Color 100,100,100
+EmissiveColor 50,50,50
+Translate  0.622,1.540,-1.985
+
+[Meshbuilder]  ; szék kapaszkodó jobb hátsó alsó 
+Cube 0.004,0.040,0.020
+Color 60,60,60
+EmissiveColor 30,30,30
+Translate  0.627,1.530,-1.985 ;-------------------------------------------------
+
+;--------------------------------szék láb bal hátsó 1 ---------------------------------
+[Meshbuilder]  ; szék láb jobb hátsó b h függ
+Cylinder 20, 0.014, 0.014, 0.46
+Color 70,35,0
+EmissiveColor 35,16,0
+Translate  -0.65,0.900,-1.99
+
+[Meshbuilder]  ; szék láb jobb hátsó b viz
+Cylinder 20, 0.014, 0.014, 0.27
+Rotate 1, 0, 0, 90
+Color 70,35,0
+EmissiveColor 35,16,0
+Translate  -0.65,0.624,-1.809
+
+[Meshbuilder]  ; szék láb jobb hátsó b hátsó 45fok
+Cylinder 20, 0.014, 0.014, 0.08
+Rotate 1, 0, 0,-45
+Color 70,35,0
+EmissiveColor 35,16,0
+Translate  -0.65,0.651,-1.966
+
+[Meshbuilder]  ; szék láb jobb hátsó b elsõ 45fok
+Cylinder 20, 0.014, 0.014, 0.08
+Rotate 1, 0, 0, 45
+Color 70,35,0
+EmissiveColor 35,16,0
+Translate  -0.65,0.651,-1.656
+
+[Meshbuilder]  ; szék láb jobb hátsó b elsõ 80fok
+Cylinder 20, 0.014, 0.014, 0.36
+Rotate 1, 0, 0, 10
+Color 70,35,0
+EmissiveColor 35,16,0
+Translate  -0.65,0.850,-1.6;------------------------------------
+
+[Meshbuilder]  ; szék láb jobb hátsó belsõ h függ
+Cylinder 20, 0.014, 0.014, 0.46
+Color 70,35,0
+EmissiveColor 35,16,0
+Translate  -1.08,0.900,-1.99
+
+[Meshbuilder]  ; szék láb jobb hátsó belsõ viz
+Cylinder 20, 0.014, 0.014, 0.27
+Rotate 1, 0, 0, 90
+Color 70,35,0
+EmissiveColor 35,16,0
+Translate  -1.08,0.624,-1.809
+
+[Meshbuilder]  ; szék láb jobb hátsó belsõ hátsó 45fok
+Cylinder 20, 0.014, 0.014, 0.08
+Rotate 1, 0, 0,-45
+Color 70,35,0
+EmissiveColor 35,16,0
+Translate  -1.08,0.651,-1.966
+
+[Meshbuilder]  ; szék láb jobb hátsó belsõ elsõ 45fok
+Cylinder 20, 0.014, 0.014, 0.08
+Rotate 1, 0, 0, 45
+Color 70,35,0
+EmissiveColor 35,16,0
+Translate  -1.08,0.651,-1.656
+
+[Meshbuilder]  ; szék láb jobb hátsó belsõ elsõ 80fok
+Cylinder 20, 0.014, 0.014, 0.36
+Rotate 1, 0, 0, 10
+Color 70,35,0
+EmissiveColor 35,16,0
+Translate  -1.08,0.850,-1.6;------------------------------------
+
+[Meshbuilder]  ; --------------szék kapaszkodó tartó fal bal hátsó 1 viz----------
+Cylinder 20, 0.018, 0.018, 0.020
+Rotate 0,0,1,90
+Color 100,100,100
+EmissiveColor 50,50,50
+Translate  -1.09,1.7,-1.985
+
+[Meshbuilder]  ; szék kapaszkodó tartó fal jobb hátsó viz
+Cylinder 20, 0.030, 0.030, 0.010
+Rotate 0,0,1,90
+Color 60,60,60
+EmissiveColor 30,30,30
+Translate  -1.10,1.7,-1.985
+
+[Meshbuilder]  ; szék kapaszkodó jobb hátsó viz
+Cylinder 20, 0.014, 0.014, 0.50
+Rotate 0,0,1,90
+Color 140,140,140
+EmissiveColor 70,70,70
+Translate  -0.83,1.7,-1.985
+
+[Meshbuilder]  ; szék kapaszkodó jobb hátsó felsõ  60fok
+Cylinder 20, 0.014, 0.014, 0.05
+Rotate 0,0,1, 60
+Color 140,140,140
+EmissiveColor 70,70,70
+Translate  -0.565,1.689,-1.985
+
+[Meshbuilder]  ; szék kapaszkodó jobb hátsó felsõ  30fok
+Cylinder 20, 0.014, 0.014, 0.05
+Rotate 0,0,1, 30
+Color 140,140,140
+EmissiveColor 70,70,70
+Translate  -0.536,1.6595,-1.985
+
+[Meshbuilder]  ; szék kapaszkodó jobb hátsó felsõ 3függ
+Cylinder 20, 0.014, 0.014, 0.05
+Color 140,140,140
+EmissiveColor 70,70,70
+Translate  -0.5256,1.620,-1.985
+
+[Meshbuilder]  ; szék kapaszkodó jobb hátsó alsó -30fok
+Cylinder 20, 0.014, 0.014, 0.05
+Rotate 0,0,1,-30
+Color 140,140,140
+EmissiveColor 70,70,70
+Translate  -0.536,1.580,-1.985
+
+[Meshbuilder]  ; szék kapaszkodó jobb hátsó alsó -60fok
+Cylinder 20, 0.014, 0.014, 0.05
+Rotate 0,0,1,-60
+Color 140,140,140
+EmissiveColor 70,70,70
+Translate  -0.565,1.551,-1.985
+
+[Meshbuilder]  ; szék kapaszkodó jobb hátsó alsó 
+Cylinder 20, 0.014, 0.014, 0.05
+Rotate 0,0,1,90
+Color 140,140,140
+EmissiveColor 70,70,70
+Translate  -0.605,1.540,-1.985
+
+[Meshbuilder]  ; szék kapaszkodó jobb hátsó alsó 
+Cylinder 20, 0.018, 0.018, 0.020
+Rotate 0,0,1,90
+Color 100,100,100
+EmissiveColor 50,50,50
+Translate  -0.622,1.540,-1.985
+
+[Meshbuilder]  ; szék kapaszkodó jobb hátsó alsó 
+Cube 0.004,0.040,0.020
+Color 60,60,60
+EmissiveColor 30,30,30
+Translate  -0.627,1.530,-1.985 ;-------------------------------------------------
+
+;--------------------------------szék láb bal elsõ 1 ---------------------------------
+[Meshbuilder]  ; szék láb jobb hátsó b h függ
+Cylinder 20, 0.014, 0.014, 0.46
+Color 70,35,0
+EmissiveColor 35,16,0
+Translate  -0.65,0.900, 1.99
+
+[Meshbuilder]  ; szék láb jobb hátsó b viz
+Cylinder 20, 0.014, 0.014, 0.27
+Rotate 1, 0, 0, 90
+Color 70,35,0
+EmissiveColor 35,16,0
+Translate  -0.65,0.624, 1.809
+
+[Meshbuilder]  ; szék láb jobb hátsó b hátsó 45fok
+Cylinder 20, 0.014, 0.014, 0.08
+Rotate 1, 0, 0, 45
+Color 70,35,0
+EmissiveColor 35,16,0
+Translate  -0.65,0.651, 1.966
+
+[Meshbuilder]  ; szék láb jobb hátsó b elsõ 45fok
+Cylinder 20, 0.014, 0.014, 0.08
+Rotate 1, 0, 0,-45
+Color 70,35,0
+EmissiveColor 35,16,0
+Translate  -0.65,0.651, 1.656
+
+[Meshbuilder]  ; szék láb jobb hátsó b elsõ 80fok
+Cylinder 20, 0.014, 0.014, 0.36
+Rotate 1, 0, 0,-10
+Color 70,35,0
+EmissiveColor 35,16,0
+Translate  -0.65,0.850, 1.6;------------------------------------
+
+[Meshbuilder]  ; szék láb jobb hátsó belsõ h függ
+Cylinder 20, 0.014, 0.014, 0.46
+Color 70,35,0
+EmissiveColor 35,16,0
+Translate  -1.08,0.900, 1.99
+
+[Meshbuilder]  ; szék láb jobb hátsó belsõ viz
+Cylinder 20, 0.014, 0.014, 0.27
+Rotate 1, 0, 0, 90
+Color 70,35,0
+EmissiveColor 35,16,0
+Translate  -1.08,0.624, 1.809
+
+[Meshbuilder]  ; szék láb jobb hátsó belsõ hátsó 45fok
+Cylinder 20, 0.014, 0.014, 0.08
+Rotate 1, 0, 0, 45
+Color 70,35,0
+EmissiveColor 35,16,0
+Translate  -1.08,0.651, 1.966
+
+[Meshbuilder]  ; szék láb jobb hátsó belsõ elsõ 45fok
+Cylinder 20, 0.014, 0.014, 0.08
+Rotate 1, 0, 0,-45
+Color 70,35,0
+EmissiveColor 35,16,0
+Translate  -1.08,0.651, 1.656
+
+[Meshbuilder]  ; szék láb jobb hátsó belsõ elsõ 80fok
+Cylinder 20, 0.014, 0.014, 0.36
+Rotate 1, 0, 0,-10
+Color 70,35,0
+EmissiveColor 35,16,0
+Translate  -1.08,0.850, 1.6;------------------------------------
+
+[Meshbuilder]  ; --------------szék kapaszkodó tartó fal bal elsõ 1 viz----------
+Cylinder 20, 0.018, 0.018, 0.020
+Rotate 0,0,1,90
+Color 100,100,100
+EmissiveColor 50,50,50
+Translate  -1.09,1.7, 1.985
+
+[Meshbuilder]  ; szék kapaszkodó tartó fal jobb hátsó viz
+Cylinder 20, 0.030, 0.030, 0.010
+Rotate 0,0,1,90
+Color 60,60,60
+EmissiveColor 30,30,30
+Translate  -1.10,1.7, 1.985
+
+[Meshbuilder]  ; szék kapaszkodó jobb hátsó viz
+Cylinder 20, 0.014, 0.014, 0.50
+Rotate 0,0,1,90
+Color 140,140,140
+EmissiveColor 70,70,70
+Translate  -0.83,1.7, 1.985
+
+[Meshbuilder]  ; szék kapaszkodó jobb hátsó felsõ  60fok
+Cylinder 20, 0.014, 0.014, 0.05
+Rotate 0,0,1, 60
+Color 140,140,140
+EmissiveColor 70,70,70
+Translate  -0.565,1.689, 1.985
+
+[Meshbuilder]  ; szék kapaszkodó jobb hátsó felsõ  30fok
+Cylinder 20, 0.014, 0.014, 0.05
+Rotate 0,0,1, 30
+Color 140,140,140
+EmissiveColor 70,70,70
+Translate  -0.536,1.6595, 1.985
+
+[Meshbuilder]  ; szék kapaszkodó jobb hátsó felsõ 3függ
+Cylinder 20, 0.014, 0.014, 0.05
+Color 140,140,140
+EmissiveColor 70,70,70
+Translate  -0.5256,1.620, 1.985
+
+[Meshbuilder]  ; szék kapaszkodó jobb hátsó alsó -30fok
+Cylinder 20, 0.014, 0.014, 0.05
+Rotate 0,0,1,-30
+Color 140,140,140
+EmissiveColor 70,70,70
+Translate  -0.536,1.580, 1.985
+
+[Meshbuilder]  ; szék kapaszkodó jobb hátsó alsó -60fok
+Cylinder 20, 0.014, 0.014, 0.05
+Rotate 0,0,1,-60
+Color 140,140,140
+EmissiveColor 70,70,70
+Translate  -0.565,1.551, 1.985
+
+[Meshbuilder]  ; szék kapaszkodó jobb hátsó alsó 
+Cylinder 20, 0.014, 0.014, 0.05
+Rotate 0,0,1,90
+Color 140,140,140
+EmissiveColor 70,70,70
+Translate  -0.605,1.540, 1.985
+
+[Meshbuilder]  ; szék kapaszkodó jobb hátsó alsó 
+Cylinder 20, 0.018, 0.018, 0.020
+Rotate 0,0,1,90
+Color 100,100,100
+EmissiveColor 50,50,50
+Translate  -0.622,1.540, 1.985
+
+[Meshbuilder]  ; szék kapaszkodó jobb hátsó alsó 
+Cube 0.004,0.040,0.020
+Color 60,60,60
+EmissiveColor 30,30,30
+Translate  -0.627,1.530, 1.985 ;-------------------------------------------------
+
+;--------------------------------szék láb jobb elsõ 1 ---------------------------------
+[Meshbuilder]  ; szék láb jobb hátsó b h függ
+Cylinder 20, 0.014, 0.014, 0.46
+Color 70,35,0
+EmissiveColor 35,16,0
+Translate   0.65,0.900, 1.99
+
+[Meshbuilder]  ; szék láb jobb hátsó b viz
+Cylinder 20, 0.014, 0.014, 0.27
+Rotate 1, 0, 0, 90
+Color 70,35,0
+EmissiveColor 35,16,0
+Translate   0.65,0.624, 1.809
+
+[Meshbuilder]  ; szék láb jobb hátsó b hátsó 45fok
+Cylinder 20, 0.014, 0.014, 0.08
+Rotate 1, 0, 0, 45
+Color 70,35,0
+EmissiveColor 35,16,0
+Translate   0.65,0.651, 1.966
+
+[Meshbuilder]  ; szék láb jobb hátsó b elsõ 45fok
+Cylinder 20, 0.014, 0.014, 0.08
+Rotate 1, 0, 0,-45
+Color 70,35,0
+EmissiveColor 35,16,0
+Translate   0.65,0.651, 1.656
+
+[Meshbuilder]  ; szék láb jobb hátsó b elsõ 80fok
+Cylinder 20, 0.014, 0.014, 0.36
+Rotate 1, 0, 0,-10
+Color 70,35,0
+EmissiveColor 35,16,0
+Translate   0.65,0.850, 1.6;------------------------------------
+
+[Meshbuilder]  ; szék láb jobb hátsó belsõ h függ
+Cylinder 20, 0.014, 0.014, 0.46
+Color 70,35,0
+EmissiveColor 35,16,0
+Translate   1.08,0.900, 1.99
+
+[Meshbuilder]  ; szék láb jobb hátsó belsõ viz
+Cylinder 20, 0.014, 0.014, 0.27
+Rotate 1, 0, 0, 90
+Color 70,35,0
+EmissiveColor 35,16,0
+Translate   1.08,0.624, 1.809
+
+[Meshbuilder]  ; szék láb jobb hátsó belsõ hátsó 45fok
+Cylinder 20, 0.014, 0.014, 0.08
+Rotate 1, 0, 0, 45
+Color 70,35,0
+EmissiveColor 35,16,0
+Translate   1.08,0.651, 1.966
+
+[Meshbuilder]  ; szék láb jobb hátsó belsõ elsõ 45fok
+Cylinder 20, 0.014, 0.014, 0.08
+Rotate 1, 0, 0,-45
+Color 70,35,0
+EmissiveColor 35,16,0
+Translate   1.08,0.651, 1.656
+
+[Meshbuilder]  ; szék láb jobb hátsó belsõ elsõ 80fok
+Cylinder 20, 0.014, 0.014, 0.36
+Rotate 1, 0, 0,-10
+Color 70,35,0
+EmissiveColor 35,16,0
+Translate   1.08,0.850, 1.6;------------------------------------
+
+[Meshbuilder]  ; --------------szék kapaszkodó tartó fal jobb elsõ 1 viz----------
+Cylinder 20, 0.018, 0.018, 0.020
+Rotate 0,0,1,90
+Color 100,100,100
+EmissiveColor 50,50,50
+Translate   1.09,1.7, 1.985
+
+[Meshbuilder]  ; szék kapaszkodó tartó fal jobb hátsó viz
+Cylinder 20, 0.030, 0.030, 0.010
+Rotate 0,0,1,90
+Color 60,60,60
+EmissiveColor 30,30,30
+Translate   1.10,1.7, 1.985
+
+[Meshbuilder]  ; szék kapaszkodó jobb hátsó viz
+Cylinder 20, 0.014, 0.014, 0.50
+Rotate 0,0,1,90
+Color 140,140,140
+EmissiveColor 70,70,70
+Translate   0.83,1.7, 1.985
+
+[Meshbuilder]  ; szék kapaszkodó jobb hátsó felsõ -60fok
+Cylinder 20, 0.014, 0.014, 0.05
+Rotate 0,0,1,-60
+Color 140,140,140
+EmissiveColor 70,70,70
+Translate   0.565,1.689, 1.985
+
+[Meshbuilder]  ; szék kapaszkodó jobb hátsó felsõ -30fok
+Cylinder 20, 0.014, 0.014, 0.05
+Rotate 0,0,1,-30
+Color 140,140,140
+EmissiveColor 70,70,70
+Translate   0.536,1.6595, 1.985
+
+[Meshbuilder]  ; szék kapaszkodó jobb hátsó felsõ 3függ
+Cylinder 20, 0.014, 0.014, 0.05
+Color 140,140,140
+EmissiveColor 70,70,70
+Translate   0.5256,1.620, 1.985
+
+[Meshbuilder]  ; szék kapaszkodó jobb hátsó alsó  30fok
+Cylinder 20, 0.014, 0.014, 0.05
+Rotate 0,0,1, 30
+Color 140,140,140
+EmissiveColor 70,70,70
+Translate   0.536,1.580, 1.985
+
+[Meshbuilder]  ; szék kapaszkodó jobb hátsó alsó  60fok
+Cylinder 20, 0.014, 0.014, 0.05
+Rotate 0,0,1, 60
+Color 140,140,140
+EmissiveColor 70,70,70
+Translate   0.565,1.551, 1.985
+
+[Meshbuilder]  ; szék kapaszkodó jobb hátsó alsó 
+Cylinder 20, 0.014, 0.014, 0.05
+Rotate 0,0,1,90
+Color 140,140,140
+EmissiveColor 70,70,70
+Translate   0.605,1.540, 1.985
+
+[Meshbuilder]  ; szék kapaszkodó jobb hátsó alsó 
+Cylinder 20, 0.018, 0.018, 0.020
+Rotate 0,0,1,90
+Color 100,100,100
+EmissiveColor 50,50,50
+Translate   0.622,1.540, 1.985
+
+[Meshbuilder]  ; szék kapaszkodó jobb hátsó alsó 
+Cube 0.004,0.040,0.020
+Color 60,60,60
+EmissiveColor 30,30,30
+Translate   0.627,1.530, 1.985 ;-------------------------------------------------
+
+[Meshbuilder]  ;kapaszkodó jobb hátsó függ
+Cylinder 20, 0.018, 0.018, 1.9
+Color 140,140,140
+EmissiveColor 70,70,70
+Translate  0.625,1.570,-1.290
+
+[Meshbuilder]  ;kapaszkodó jobb hátsó függ talp 1
+Cylinder 20, 0.023, 0.028, 0.075
+Color 100,100,100
+EmissiveColor 50,50,50
+Translate  0.625,0.670,-1.290
+
+[Meshbuilder]  ;kapaszkodó jobb hátsó függ talp 2
+Cylinder 20, 0.037, 0.037, 0.015
+Color 60,60,60
+EmissiveColor 30,30,30
+Translate  0.625,0.630,-1.290
+
+[Meshbuilder]  ;kapaszkodó jobb hátsó függ plafon 1
+Cylinder 20, 0.028, 0.023, 0.135
+Color 100,100,100
+EmissiveColor 50,50,50
+Translate  0.625,2.420,-1.290
+
+[Meshbuilder]  ;kapaszkodó jobb hátsó függ plafon 2
+Cylinder 20, 0.037, 0.037, 0.015
+Color 60,60,60
+EmissiveColor 30,30,30
+Translate  0.625,2.490,-1.290
+
+[Meshbuilder]  ;kapaszkodó csonk jobb hátsó viz fent 2
+Cylinder 20, 0.018, 0.015, 0.08
+Rotate 0,1,2,-105
+Color 100,100,100
+EmissiveColor 50,50,50
+Translate  0.5750,2.4,-1.320
+
+[Meshbuilder]  ;kapaszkodó csõ jobb hátsó törés viz fent 2
+Cylinder 20, 0.014, 0.014, 0.026
+Rotate 0,1,2,-105
+Color 140,140,140
+EmissiveColor 70,70,70
+Translate  0.529,2.4,-1.347
+
+[Meshbuilder]  ;kapaszkodó csõ jobb hátsó viz fent 2
+Cylinder 20, 0.014, 0.014, 1.400
+Rotate 1,0,0,90
+Color 140,140,140
+EmissiveColor 70,70,70
+Translate  0.525,2.4,-2.041
+
+[Meshbuilder]  ;kapaszkodó csõ jobb hátsó kanyar fel
+Cylinder 20, 0.014, 0.014,0.050
+Rotate 1,0,0,-45
+Color 140,140,140
+EmissiveColor 70,70,70
+Translate  0.525,2.4135,-2.749
+
+[Meshbuilder]  ;kapaszkodó csõ jobb hátsó kanyar fel függ
+Cylinder 20, 0.014, 0.014,0.050
+Color 140,140,140
+EmissiveColor 70,70,70
+Translate  0.525,2.447,-2.763
+
+[Meshbuilder]  ;kapaszkodó tartó fal
+Cylinder 20, 0.018, 0.018, 0.020
+Color 100,100,100
+EmissiveColor 50,50,50
+Translate  0.525,2.477,-2.763
+
+[Meshbuilder]  ; kapaszkodó tartó fal
+Cylinder 20, 0.030, 0.030, 0.010
+Color 60,60,60
+EmissiveColor 30,30,30
+Translate 0.525,2.492,-2.763
+
+[Meshbuilder]  ;kapaszkodó tartó közepén csõ jobb hátsó viz fent 2
+Cylinder 20, 0.018, 0.018, 0.05
+Rotate 1,0,0,90
+Color 100,100,100
+EmissiveColor 50,50,50
+Translate  0.525,2.4,-1.985
+
+[Meshbuilder]  ;kapaszkodó tartó ferde közepén csõ jobb hátsó viz fent 2
+Cylinder 20, 0.018, 0.015, 0.10
+Rotate 0,0,1,-20
+Color 100,100,100
+EmissiveColor 50,50,50
+Translate  0.545,2.450,-1.985
+
+[Meshbuilder]  ; kapaszkodó tartó középen plafon
+Cylinder 20, 0.030, 0.030, 0.010
+Color 60,60,60
+EmissiveColor 30,30,30
+Translate  0.559,2.492,-1.985
+
+[Meshbuilder]  ;kapaszkodó tartó gyûrû felsõ jobb hátsó függ 
+Cylinder 20, 0.020, 0.022, 0.04
+Color 100,100,100
+EmissiveColor 50,50,50
+Translate  0.625,1.600,-1.290
+
+[Meshbuilder]  ;kapaszkodó tartó gyûrû alsó jobb hátsó függ 
+Cylinder 20, 0.022, 0.020, 0.04
+Color 100,100,100
+EmissiveColor 50,50,50
+Translate  0.625,1.560,-1.290
+
+[Meshbuilder]  ;kapaszkodó tartó jobb hátsó viz 
+Cylinder 20, 0.008, 0.010, 0.06
+Rotate 0,0,1,90
+Color 100,100,100
+EmissiveColor 50,50,50
+Translate  0.675,1.580,-1.290
+
+[Meshbuilder]  ;kapaszkodó tartó jobb hátsó viz
+Cube 0.036,0.015,0.015
+Color 60,60,60
+EmissiveColor 30,30,30
+Translate  0.740,1.580,-1.290;  -----------------------------------------------------------------------
+
+[Meshbuilder]  ;kapaszkodó bal hátsó függ
+Cylinder 20, 0.018, 0.018, 1.9
+Color 140,140,140
+EmissiveColor 70,70,70
+Translate -0.625,1.570,-1.290
+
+[Meshbuilder]  ;kapaszkodó bal hátsó függ talp 1
+Cylinder 20, 0.023, 0.028, 0.075
+Color 100,100,100
+EmissiveColor 50,50,50
+Translate -0.625,0.670,-1.290
+
+[Meshbuilder]  ;kapaszkodó bal hátsó függ talp 2
+Cylinder 20, 0.037, 0.037, 0.015
+Color 60,60,60
+EmissiveColor 30,30,30
+Translate -0.625,0.630,-1.290
+
+[Meshbuilder]  ;kapaszkodó bal hátsó függ plafon 1
+Cylinder 20, 0.028, 0.023, 0.135
+Color 100,100,100
+EmissiveColor 50,50,50
+Translate -0.625,2.420,-1.290
+
+[Meshbuilder]  ;kapaszkodó bal hátsó függ plafon 2
+Cylinder 20, 0.037, 0.037, 0.015
+Color 60,60,60
+EmissiveColor 30,30,30
+Translate -0.625,2.490,-1.290
+
+[Meshbuilder]  ;kapaszkodó csonk bal hátsó viz fent 2
+Cylinder 20, 0.018, 0.015, 0.08
+Rotate 0,1,2, 105
+Color 100,100,100
+EmissiveColor 50,50,50
+Translate -0.5750,2.4,-1.320
+
+[Meshbuilder]  ;kapaszkodó csõ bal hátsó törés viz fent 2
+Cylinder 20, 0.014, 0.014, 0.026
+Rotate 0,1,2, 105
+Color 140,140,140
+EmissiveColor 70,70,70
+Translate -0.529,2.4,-1.347
+
+[Meshbuilder]  ;kapaszkodó csõ bal hátsó viz fent 2
+Cylinder 20, 0.014, 0.014, 1.400
+Rotate 1,0,0,90
+Color 140,140,140
+EmissiveColor 70,70,70
+Translate -0.525,2.4,-2.041
+
+[Meshbuilder]  ;kapaszkodó csõ bal hátsó kanyar fel
+Cylinder 20, 0.014, 0.014,0.050
+Rotate 1,0,0,-45
+Color 140,140,140
+EmissiveColor 70,70,70
+Translate -0.525,2.4135,-2.749
+
+[Meshbuilder]  ;kapaszkodó csõ bal hátsó kanyar fel függ
+Cylinder 20, 0.014, 0.014,0.050
+Color 140,140,140
+EmissiveColor 70,70,70
+Translate -0.525,2.447,-2.763
+
+[Meshbuilder]  ;kapaszkodó tartó fal
+Cylinder 20, 0.018, 0.018, 0.020
+Color 100,100,100
+EmissiveColor 50,50,50
+Translate -0.525,2.477,-2.763
+
+[Meshbuilder]  ; kapaszkodó tartó fal
+Cylinder 20, 0.030, 0.030, 0.010
+Color 60,60,60
+EmissiveColor 30,30,30
+Translate -0.525,2.492,-2.763
+
+[Meshbuilder]  ;kapaszkodó tartó közepén csõ bal hátsó viz fent 2
+Cylinder 20, 0.018, 0.018, 0.05
+Rotate 1,0,0,90
+Color 100,100,100
+EmissiveColor 50,50,50
+Translate -0.525,2.4,-1.985
+
+[Meshbuilder]  ;kapaszkodó tartó ferde közepén csõ bal hátsó viz fent 2
+Cylinder 20, 0.018, 0.015, 0.10
+Rotate 0,0,1, 20
+Color 100,100,100
+EmissiveColor 50,50,50
+Translate -0.545,2.450,-1.985
+
+[Meshbuilder]  ; kapaszkodó tartó középen plafon
+Cylinder 20, 0.030, 0.030, 0.010
+Color 60,60,60
+EmissiveColor 30,30,30
+Translate -0.559,2.492,-1.985
+
+[Meshbuilder]  ;kapaszkodó tartó gyûrû felsõ bal hátsó függ 
+Cylinder 20, 0.020, 0.022, 0.04
+Color 100,100,100
+EmissiveColor 50,50,50
+Translate -0.625,1.600,-1.290
+
+[Meshbuilder]  ;kapaszkodó tartó gyûrû alsó bal hátsó függ 
+Cylinder 20, 0.022, 0.020, 0.04
+Color 100,100,100
+EmissiveColor 50,50,50
+Translate -0.625,1.560,-1.290
+
+[Meshbuilder]  ;kapaszkodó tartó bal hátsó viz 
+Cylinder 20, 0.010, 0.008, 0.06
+Rotate 0,0,1,90
+Color 100,100,100
+EmissiveColor 50,50,50
+Translate -0.675,1.580,-1.290
+
+[Meshbuilder]  ;kapaszkodó tartó bal hátsó viz
+Cube 0.036,0.015,0.015
+Color 60,60,60
+EmissiveColor 30,30,30
+Translate -0.740,1.580,-1.290;  -----------------------------------------------------------------------
+
+[Meshbuilder]  ;kapaszkodó jobb elsõ függ
+Cylinder 20, 0.018, 0.018, 1.9
+Color 140,140,140
+EmissiveColor 70,70,70
+Translate  0.625,1.570, 1.290
+
+[Meshbuilder]  ;kapaszkodó jobb elsõ függ talp 1
+Cylinder 20, 0.023, 0.028, 0.075
+Color 100,100,100
+EmissiveColor 50,50,50
+Translate  0.625,0.670, 1.290
+
+[Meshbuilder]  ;kapaszkodó jobb elsõ függ talp 2
+Cylinder 20, 0.037, 0.037, 0.015
+Color 60,60,60
+EmissiveColor 30,30,30
+Translate  0.625,0.630, 1.290
+
+[Meshbuilder]  ;kapaszkodó jobb elsõ függ plafon 1
+Cylinder 20, 0.028, 0.023, 0.135
+Color 100,100,100
+EmissiveColor 50,50,50
+Translate  0.625,2.420, 1.290
+
+[Meshbuilder]  ;kapaszkodó jobb elsõ függ plafon 2
+Cylinder 20, 0.037, 0.037, 0.015
+Color 60,60,60
+EmissiveColor 30,30,30
+Translate  0.625,2.490, 1.290
+
+[Meshbuilder]  ;kapaszkodó csonk jobb elsõ viz fent 2
+Cylinder 20, 0.015, 0.018, 0.08
+Rotate 0,1,2, 105
+Color 100,100,100
+EmissiveColor 50,50,50
+Translate  0.5750,2.4, 1.320
+
+[Meshbuilder]  ;kapaszkodó csõ jobb elsõ törés viz fent 2
+Cylinder 20, 0.014, 0.014, 0.026
+Rotate 0,1,2, 105
+Color 140,140,140
+EmissiveColor 70,70,70
+Translate  0.529,2.4, 1.347
+
+[Meshbuilder]  ;kapaszkodó csõ jobb elsõ viz fent 2
+Cylinder 20, 0.014, 0.014, 1.306
+Rotate 1,0,0,90
+Color 140,140,140
+EmissiveColor 70,70,70
+Translate  0.525,2.4,1.995
+
+[Meshbuilder]  ;kapaszkodó tartó fal
+Cylinder 20, 0.020, 0.018, 0.027
+Rotate 1,0,0,90
+Color 100,100,100
+EmissiveColor 50,50,50
+Translate  0.525,2.4, 2.654
+
+[Meshbuilder]  ; kapaszkodó tartó fal
+Cylinder 20, 0.030, 0.030, 0.010
+Rotate 1,0,0,90
+Color 60,60,60
+EmissiveColor 30,30,30
+Translate 0.525,2.4, 2.673
+
+[Meshbuilder]  ;kapaszkodó tartó közepén csõ jobb elsõ viz fent 2
+Cylinder 20, 0.018, 0.018, 0.05
+Rotate 1,0,0,90
+Color 100,100,100
+EmissiveColor 50,50,50
+Translate  0.525,2.4, 1.985
+
+[Meshbuilder]  ;kapaszkodó tartó ferde közepén csõ jobb elsõ viz fent 2
+Cylinder 20, 0.018, 0.015, 0.10
+Rotate 0,0,1,-20
+Color 100,100,100
+EmissiveColor 50,50,50
+Translate  0.545,2.450, 1.985
+
+[Meshbuilder]  ; kapaszkodó tartó középen plafon
+Cylinder 20, 0.030, 0.030, 0.010
+Color 60,60,60
+EmissiveColor 30,30,30
+Translate  0.559,2.492, 1.985
+
+[Meshbuilder]  ;kapaszkodó tartó gyûrû felsõ jobb elsõ függ 
+Cylinder 20, 0.020, 0.022, 0.04
+Color 100,100,100
+EmissiveColor 50,50,50
+Translate  0.625,1.600, 1.290
+
+[Meshbuilder]  ;kapaszkodó tartó gyûrû alsó jobb elsõ függ 
+Cylinder 20, 0.022, 0.020, 0.04
+Color 100,100,100
+EmissiveColor 50,50,50
+Translate  0.625,1.560, 1.290
+
+[Meshbuilder]  ;kapaszkodó tartó jobb elsõ viz 
+Cylinder 20, 0.008, 0.010, 0.06
+Rotate 0,0,1,90
+Color 100,100,100
+EmissiveColor 50,50,50
+Translate  0.675,1.580, 1.290
+
+[Meshbuilder]  ;kapaszkodó tartó jobb elsõ viz
+Cube 0.036,0.015,0.015
+Color 60,60,60
+EmissiveColor 30,30,30
+Translate  0.740,1.580, 1.290;--------------------------------------------------
+
+[Meshbuilder]  ;kapaszkodó bal elsõ függ
+Cylinder 20, 0.018, 0.018, 1.9
+Color 140,140,140
+EmissiveColor 70,70,70
+Translate -0.625,1.570, 1.290
+
+[Meshbuilder]  ;kapaszkodó bal elsõ függ talp 1
+Cylinder 20, 0.023, 0.028, 0.075
+Color 100,100,100
+EmissiveColor 50,50,50
+Translate -0.625,0.670, 1.290
+
+[Meshbuilder]  ;kapaszkodó bal elsõ függ talp 2
+Cylinder 20, 0.037, 0.037, 0.015
+Color 60,60,60
+EmissiveColor 30,30,30
+Translate -0.625,0.630, 1.290
+
+[Meshbuilder]  ;kapaszkodó bal elsõ függ plafon 1
+Cylinder 20, 0.028, 0.023, 0.135
+Color 100,100,100
+EmissiveColor 50,50,50
+Translate -0.625,2.420, 1.290
+
+[Meshbuilder]  ;kapaszkodó bal elsõ függ plafon 2
+Cylinder 20, 0.037, 0.037, 0.015
+Color 60,60,60
+EmissiveColor 30,30,30
+Translate -0.625,2.490, 1.290
+
+[Meshbuilder]  ;kapaszkodó csonk bal elsõ viz fent 2
+Cylinder 20, 0.015, 0.018, 0.08
+Rotate 0,1,2,-105
+Color 100,100,100
+EmissiveColor 50,50,50
+Translate -0.5750,2.4, 1.320
+
+[Meshbuilder]  ;kapaszkodó csõ bal elsõ törés viz fent 2
+Cylinder 20, 0.014, 0.014, 0.026
+Rotate 0,1,2,-105
+Color 140,140,140
+EmissiveColor 70,70,70
+Translate -0.529,2.4, 1.347
+
+[Meshbuilder]  ;kapaszkodó csõ bal elsõ viz fent 2
+Cylinder 20, 0.014, 0.014, 1.306
+Rotate 1,0,0,90
+Color 140,140,140
+EmissiveColor 70,70,70
+Translate -0.525,2.4,1.995
+
+[Meshbuilder]  ;kapaszkodó tartó fal
+Cylinder 20, 0.020, 0.018, 0.027
+Rotate 1,0,0,90
+Color 100,100,100
+EmissiveColor 50,50,50
+Translate -0.525,2.4, 2.654
+
+[Meshbuilder]  ; kapaszkodó tartó fal
+Cylinder 20, 0.030, 0.030, 0.010
+Rotate 1,0,0,90
+Color 60,60,60
+EmissiveColor 30,30,30
+Translate -0.525,2.4, 2.673
+
+[Meshbuilder]  ;kapaszkodó tartó közepén csõ bal elsõ viz fent 2
+Cylinder 20, 0.018, 0.018, 0.05
+Rotate 1,0,0,90
+Color 100,100,100
+EmissiveColor 50,50,50
+Translate -0.525,2.4, 1.985
+
+[Meshbuilder]  ;kapaszkodó tartó ferde közepén csõ bal elsõ viz fent 2
+Cylinder 20, 0.018, 0.015, 0.10
+Rotate 0,0,1, 20
+Color 100,100,100
+EmissiveColor 50,50,50
+Translate -0.545,2.450, 1.985
+
+[Meshbuilder]  ; kapaszkodó tartó középen plafon
+Cylinder 20, 0.030, 0.030, 0.010
+Color 60,60,60
+EmissiveColor 30,30,30
+Translate -0.559,2.492, 1.985
+
+[Meshbuilder]  ;kapaszkodó tartó gyûrû felsõ bal elsõ függ 
+Cylinder 20, 0.020, 0.022, 0.04
+Color 100,100,100
+EmissiveColor 50,50,50
+Translate -0.625,1.600, 1.290
+
+[Meshbuilder]  ;kapaszkodó tartó gyûrû alsó bal elsõ függ 
+Cylinder 20, 0.022, 0.020, 0.04
+Color 100,100,100
+EmissiveColor 50,50,50
+Translate -0.625,1.560, 1.290
+
+[Meshbuilder]  ;kapaszkodó tartó bal elsõ viz 
+Cylinder 20, 0.010, 0.008, 0.06
+Rotate 0,0,1,90
+Color 100,100,100
+EmissiveColor 50,50,50
+Translate -0.675,1.580, 1.290
+
+[Meshbuilder]  ;kapaszkodó tartó bal elsõ viz
+Cube 0.036,0.015,0.015
+Color 60,60,60
+EmissiveColor 30,30,30
+Translate -0.740,1.580, 1.290;--------------------------------------------------
+
+[Meshbuilder]  ;kapaszkodó csõ hátsó fent viz ker
+Cylinder 20, 0.014, 0.014, 1.050
+Rotate 0,0,1,90
+Color 140,140,140
+EmissiveColor 70,70,70
+Translate  0,2.4,-3.2
+
+[Meshbuilder]  ;kapaszkodó csõ jobb h gyûrû 
+Cylinder 20, 0.018, 0.018, 0.026
+Rotate 0,0,1,90
+Color 100,100,100
+EmissiveColor 50,50,50
+Translate  0.513,2.4,-3.2
+
+[Meshbuilder]  ;kapaszkodó csõ bal h gyûrû 
+Cylinder 20, 0.018, 0.018, 0.026
+Rotate 0,0,1,90
+Color 100,100,100
+EmissiveColor 50,50,50
+Translate -0.513,2.4,-3.2
+
+[Meshbuilder]  ;kapaszkodó csõ jobb h csonk
+Cylinder 20, 0.018, 0.012, 0.10
+Rotate 1,0,0,-20
+Color 100,100,100
+EmissiveColor 50,50,50
+Translate  0.513,2.446,-3.217
+
+[Meshbuilder]  ;kapaszkodó csõ bal h csonk
+Cylinder 20, 0.018, 0.012, 0.10
+Rotate 1,0,0,-20
+Color 100,100,100
+EmissiveColor 50,50,50
+Translate -0.513,2.446,-3.217
+
+[Meshbuilder]  ;kapaszkodó jobb hátsó talp 
+Cylinder 20, 0.042, 0.037, 0.015
+Color 60,60,60
+EmissiveColor 30,30,30
+Translate  0.513,2.491,-3.232
+
+[Meshbuilder]  ;kapaszkodó bal hátsó talp 
+Cylinder 20, 0.042, 0.037, 0.015
+Color 60,60,60
+EmissiveColor 30,30,30
+Translate -0.513,2.491,-3.232;-----------------------------------
+
+[Meshbuilder]  ;kapaszkodó csõ elsõ viz ker
+Cylinder 20, 0.014, 0.014, 0.550
+Rotate 0,0,1,90
+Color 140,140,140
+EmissiveColor 70,70,70
+Translate  0,1.7, 2.6
+
+[Meshbuilder]  ;kapaszkodó csõ jobb e gyûrû 
+Cylinder 20, 0.018, 0.018, 0.026
+Rotate 0,0,1,90
+Color 100,100,100
+EmissiveColor 50,50,50
+Translate  0.280,1.7, 2.6
+
+[Meshbuilder]  ;kapaszkodó csõ bal e gyûrû 
+Cylinder 20, 0.018, 0.018, 0.026
+Rotate 0,0,1,90
+Color 100,100,100
+EmissiveColor 50,50,50
+Translate -0.280,1.7, 2.6
+
+[Meshbuilder]  ;kapaszkodó csõ jobb e csonk
+Cylinder 20, 0.018, 0.012, 0.07
+Rotate 1,0,0,90
+Color 100,100,100
+EmissiveColor 50,50,50
+Translate  0.280,1.7, 2.644
+
+[Meshbuilder]  ;kapaszkodó csõ bal e csonk
+Cylinder 20, 0.018, 0.012, 0.07
+Rotate 1,0,0,90
+Color 100,100,100
+EmissiveColor 50,50,50
+Translate -0.280,1.7, 2.644
+
+[Meshbuilder]  ;kapaszkodó jobb e talp 
+Cylinder 20, 0.022, 0.022, 0.008
+Rotate 1,0,0,90
+Color 60,60,60
+EmissiveColor 30,30,30
+Translate  0.280,1.7, 2.675
+
+[Meshbuilder]  ;kapaszkodó bal e talp 
+Cylinder 20, 0.022, 0.022, 0.008
+Rotate 1,0,0,90
+Color 60,60,60
+EmissiveColor 30,30,30
+Translate -0.280,1.7, 2.675
+
+[Meshbuilder]  ; Jobb h belsõ ablak kilincs viz----------------------
+Cylinder 20, 0.008, 0.008, 0.10
+Rotate 1,0,0,90
+Color 140,140,140
+EmissiveColor 70,70,70
+Translate  1.079,2.22, -2.320
+
+[Meshbuilder]  ; Jobb h belsõ ablak kilincstartó hátsó függ
+Cube 0.029, 0.005, 0.003
+Rotate 0,0,1,60
+Color 140,140,140
+EmissiveColor 70,70,70
+Translate  1.094,2.24, -2.367
+
+[Meshbuilder]  ; Jobb h belsõ ablak kilincstartó elsõ függ
+Cube 0.029, 0.005, 0.003
+Rotate 0,0,1,60
+Color 140,140,140
+EmissiveColor 70,70,70
+Translate  1.094,2.24, -2.273-----------------------------------
+
+[Meshbuilder]  ; bal h belsõ ablak kilincs viz----------------------
+Cylinder 20, 0.008, 0.008, 0.10
+Rotate 1,0,0,90
+Color 140,140,140
+EmissiveColor 70,70,70
+Translate  -1.079,2.22, -2.320
+
+[Meshbuilder]  ; bal h belsõ ablak kilincstartó hátsó függ
+Cube 0.029, 0.005, 0.003
+Rotate 0,0,1,-60
+Color 140,140,140
+EmissiveColor 70,70,70
+Translate  -1.094,2.24, -2.367
+
+[Meshbuilder]  ; bal h belsõ ablak kilincstartó elsõ függ
+Cube 0.029, 0.005, 0.003
+Rotate 0,0,1,-60
+Color 140,140,140
+EmissiveColor 70,70,70
+Translate  -1.094,2.24,-2.273-----------------------------------
+
+[Meshbuilder]  ; bal e belsõ ablak kilincs viz----------------------
+Cylinder 20, 0.008, 0.008, 0.10
+Rotate 1,0,0,90
+Color 140,140,140
+EmissiveColor 70,70,70
+Translate  -1.079,2.22, 2.320
+
+[Meshbuilder]  ; bal e belsõ ablak kilincstartó hátsó függ
+Cube 0.029, 0.005, 0.003
+Rotate 0,0,1,-60
+Color 140,140,140
+EmissiveColor 70,70,70
+Translate  -1.094,2.24, 2.367
+
+[Meshbuilder]  ; bal e belsõ ablak kilincstartó elsõ függ
+Cube 0.029, 0.005, 0.003
+Rotate 0,0,1,-60
+Color 140,140,140
+EmissiveColor 70,70,70
+Translate  -1.094,2.24, 2.273-----------------------------------
+
+[Meshbuilder]  ; jobb e belsõ ablak kilincs viz----------------------
+Cylinder 20, 0.008, 0.008, 0.10
+Rotate 1,0,0,90
+Color 140,140,140
+EmissiveColor 70,70,70
+Translate  1.079,2.22, 2.320
+
+[Meshbuilder]  ; jobb e belsõ ablak kilincstartó hátsó függ
+Cube 0.029, 0.005, 0.003
+Rotate 0,0,1,60
+Color 140,140,140
+EmissiveColor 70,70,70
+Translate  1.094,2.24, 2.367
+
+[Meshbuilder]  ; jobb e belsõ ablak kilincstartó elsõ függ
+Cube 0.029, 0.005, 0.003
+Rotate 0,0,1,60
+Color 140,140,140
+EmissiveColor 70,70,70
+Translate  1.094,2.24, 2.273-----------------------------------
+
+[Meshbuilder] ;napellenzõ közp elõl fent fehér
+Cube 0.36,0.0010,0.0600
+Rotate 1,0,0,60
+Color 220,220,220
+Translate 0,2.300,3.765
+
+[Meshbuilder] ; szél jobb
+Cube 0.0010,0.0280,0.0465
+Rotate 1,0,0,60
+Color 220,220,220
+Translate 0.360,2.274,3.750
+
+[Meshbuilder] ; szél bal
+Cube 0.0010,0.0280,0.0465
+Rotate 1,0,0,60
+Color 220,220,220
+Translate -0.360,2.274,3.750
+
+[Meshbuilder] ;elsõ ablakeret fent
+Cube 0.35,0.0050,0.0300
+Color 180,180,180
+Translate 0,2.288,3.74 
+
+[Meshbuilder] ;elsõ ablakeret lent
+Cube 0.35,0.0050,0.0300
+Color 180,180,180
+Translate 0,1.495,3.74 
+
+[Meshbuilder] ;jobb elsõ függ fehér léc
+Cube 0.0050,0.395,0.0300
+Color 180,180,180
+Translate  0.345,1.89,3.74 
+
+[Meshbuilder] ;bal elsõ függ fehér léc
+Cube 0.0050,0.395,0.0300
+Color 180,180,180
+Translate  -0.345,1.89,3.74 ; -------------------------------------
+
+[Meshbuilder] ;elsõ ablakeret fent belsõk
+Cube 0.36,0.0200,0.0110
+Color 64,0,0
+Translate 0,2.310,3.70
+
+[Meshbuilder] ;elsõ ablakeret lent
+Cube 0.36,0.0200,0.0110
+Color 64,0,0
+Translate 0,1.470,3.70
+
+[Meshbuilder] ;jobb elsõ függ fehér léc
+Cube 0.0200,0.440,0.0110
+Color 64,0,0
+Translate  0.370,1.89,3.70
+
+[Meshbuilder] ;bal elsõ függ fehér léc
+Cube 0.0200,0.440,0.0110
+Color 64,0,0
+Translate  -0.370,1.89,3.70 ; -------------------------------------
+
+
+[Meshbuilder] ; elsõ ajtóléc bal elsõ jobbos
+Cube 0.0210,0.848,0.0020
+Rotate 0,2,0,61.8
+Color 100,100,100
+Translate -0.445,1.560,3.718
+
+[Meshbuilder] ; elsõ ajtóléc bal elsõ balos
+Cube 0.0210,0.848,0.0020
+Rotate 0,2,0,61.8
+Color 100,100,100
+Translate -0.917,1.560,3.460
+
+[Meshbuilder] ;elsõ ajtóléc felsõ
+Cube 0.0210,0.0020,0.272
+Rotate 0,2,0,61.5
+Color 100,100,100
+Translate -0.680,2.41.426,3.589
+
+[Meshbuilder] ;elsõ ajtóléc alsó
+Cube 0.0210,0.0020,0.272
+Rotate 0,2,0, 61.8
+Color 100,100,100
+Translate -0.680,0.710,3.587
+
+[Meshbuilder] ;elsõ kilincs talp
+Cylinder 20,0.0180,0.0180,0.070
+Rotate 0,2,2,145
+Color 150,150,150,
+Translate -0.470,1.400,3.702
+
+[Meshbuilder] ;elsõ kilincs 1
+Cylinder 20,0.0120,0.0120,0.120
+Rotate 0,2,2,145
+Color 180,180,180
+Translate -0.470,1.400,3.702
+
+[Meshbuilder] ;elsõ kilincs külsõ
+Cylinder 20,0.0120,0.0120,0.080
+Rotate 0,2,2,290
+Color 180,180,180
+Translate -0.515,1.382,3.737
+
+[Meshbuilder] ;elsõ kilincs belsõ
+Cylinder 20,0.0120,0.0120,0.080
+Rotate 0,2,2,290
+Color 180,180,180
+Translate -0.478,1.368,3.645
+
+[Meshbuilder] ;kapaszkodó elsõ felsõ talp ---------------------------------
+Cube 0.0120,0.0250,0.0020
+Color 150,150,150
+Translate -0.373,1.890,3.752
+
+[Meshbuilder] ;kapaszkodó elsõ alsó talp
+Cube 0.0120,0.0250,0.0020
+Color 150,150,150
+Translate -0.373,1.580,3.752
+
+[Meshbuilder] ;kapaszkodó elsõ felsõ
+Cylinder 20,0.0100,0.0100,0.030
+Color 180,180,180
+Rotate 1,0,0,90
+Translate -0.373,1.881,3.768
+
+[Meshbuilder] ;kapaszkodó elsõ felsõ -60
+Cylinder 20,0.0100,0.0100,0.020
+Color 180,180,180
+Rotate 1,0,0,-60
+Translate -0.373,1.877,3.787
+
+[Meshbuilder] ;kapaszkodó elsõ felsõ -30
+Cylinder 20,0.0100,0.0100,0.020
+Color 180,180,180
+Rotate 1,0,0,-30
+Translate -0.373,1.867,3.797
+
+[Meshbuilder] ;kapaszkodó elsõ felsõ függ
+Cylinder 20,0.0100,0.0100,0.257
+Color 180,180,180
+Translate -0.373,1.7345,3.801
+
+[Meshbuilder] ;kapaszkodó elsõ alsó  60
+Cylinder 20,0.0100,0.0100,0.020
+Color 180,180,180
+Rotate 1,0,0, 60
+Translate -0.373,1.592,3.787
+
+[Meshbuilder] ;kapaszkodó elsõ alsó  30
+Cylinder 20,0.0100,0.0100,0.020
+Color 180,180,180
+Rotate 1,0,0, 30
+Translate -0.373,1.602,3.797
+
+[Meshbuilder] ;kapaszkodó elsõ alsó
+Cylinder 20,0.0100,0.0100,0.030
+Color 180,180,180
+Rotate 1,0,0,90
+Translate -0.373,1.588,3.768
+
+[Meshbuilder] ;kapaszkodó elsõ bal felsõ talp ;---------------------
+Cube 0.0150,0.0220,0.0020
+Color 150,150,150
+Rotate 0,1,0, 104
+Translate -0.962,1.890,3.410
+
+[Meshbuilder] ;kapaszkodó elsõ bal alsó talp
+Cube 0.0150,0.0220,0.0020
+Color 150,150,150
+Rotate 0,1,0, 104
+Translate -0.962,1.580,3.410
+
+[Meshbuilder] ;kapaszkodó elsõ felsõ bal
+Cylinder 20,0.0100,0.0100,0.030
+Color 180,180,180
+Rotate 0,0,1,90
+Translate  -0.976,1.881,3.410
+
+[Meshbuilder] ;kapaszkodó elsõ felsõ -60 bal
+Cylinder 20,0.0100,0.0100,0.020
+Color 180,180,180
+Rotate 0,0,1,-60
+Translate -0.9945,1.877,3.410
+
+[Meshbuilder] ;kapaszkodó elsõ felsõ -30 bal 
+Cylinder 20,0.0100,0.0100,0.020
+Color 180,180,180
+Rotate 0,0,1,-30
+Translate -1.004,1.867,3.410
+
+[Meshbuilder] ;kapaszkodó elsõ felsõ függ bal 
+Cylinder 20,0.0100,0.0100,0.257
+Color 180,180,180
+Translate -1.008,1.7345,3.410
+
+[Meshbuilder] ;kapaszkodó elsõ alsó  60 bal
+Cylinder 20,0.0100,0.0100,0.020
+Color 180,180,180
+Rotate 0,0,1, 60
+Translate -0.9945,1.592,3.410
+
+[Meshbuilder] ;kapaszkodó elsõ alsó  30 bal
+Cylinder 20,0.0100,0.0100,0.020
+Color 180,180,180
+Rotate 0,0,1, 30
+Translate -1.004,1.602,3.410
+
+[Meshbuilder] ;kapaszkodó elsõ alsó bal
+Cylinder 20,0.0100,0.0100,0.030
+Color 180,180,180
+Rotate 0,0,1, 90
+Translate -0.976,1.588,3.410
+
+[Meshbuilder] ;elsõ fellépõ függ külsõ ---------------------
+Cube 0.0080,0.0600,0.0080
+Color 53,31,0
+Rotate 0,2,0,-118
+Translate -0.738,0.450,3.555
+
+[Meshbuilder] ;elsõ fellépõ függ belsõ 
+Cube 0.0080,0.0600,0.0080
+Color 53,31,0
+Rotate 0,2,0,-118
+Translate -0.590,0.450,3.635
+
+[Meshbuilder] ;elsõ fellépõ viz
+Cube 0.0400,0.0020,0.078
+Color 83,41,0
+Rotate 0,2,0,-118
+Translate -0.669,0.393,3.605
+
+[Meshbuilder]  ;elsõ csati
+Cylinder 20, 0.032, 0.048, 0.045
+Rotate 0,2,2,140
+Color 64,0,0
+Translate -0.490,0.600,3.720
+
+[Meshbuilder]  ;elsõ csengõ tengely 
+Cylinder 6, 0.010, 0.010, 0.094
+Rotate 1,0,0,90
+Color 80,80,80
+Translate 0,1.320,3.798
+
+[Meshbuilder]  ;elsõ csengõ 1 
+Cylinder 20, 0.100,0.100,0.030
+Rotate 1,0,0,90
+Color 180,180,180
+Translate 0,1.320,3.782
+
+[Meshbuilder]  ;elsõ csengõ 2
+Cylinder 20, 0.098,0.100,0.010
+Rotate 1,0,0,90
+Color 175,175,175
+Translate 0,1.320,3.8017
+
+[Meshbuilder]  ;elsõ csengõ 3
+Cylinder 20, 0.095,0.098,0.008
+Rotate 1,0,0,90
+Color 170,170,170
+Translate 0,1.320,3.8108
+
+[Meshbuilder]  ;elsõ csengõ 4
+Cylinder 20, 0.089,0.095,0.007
+Rotate 1,0,0,90
+Color 165,165,165
+Translate 0,1.320,3.8184
+
+[Meshbuilder]  ;elsõ csengõ 5
+Cylinder 20, 0.079,0.089,0.006
+Rotate 1,0,0,90
+Color 160,160,160
+Translate 0,1.320,3.825
+
+[Meshbuilder]  ;elsõ csengõ 6
+Cylinder 20, 0.059,0.079,0.005
+Rotate 1,0,0,90
+Color 155,155,155
+Translate 0,1.320,3.8305
+
+[Meshbuilder]  ;elsõ csengõ 7
+Cylinder 20, 0.039,0.059,0.002
+Rotate 1,0,0,90
+Color 150,150,150
+Translate 0,1.320,3.834
+
+[Meshbuilder]  ;hátsó doboz és csatik ---------------------------
+Cube 0.070, 0.050, 0.070
+Rotate 1,0,0,90
+Color 200,200,200
+Translate  -0.180,2.460,-3.778
+
+[Meshbuilder]  ;hátsó csati fent 1
+Cylinder 20, 0.030, 0.030, 0.010
+Rotate 1,0,0,90
+Color 185,122,87
+Translate  0.015,2.420,-3.758
+
+[Meshbuilder]  ;hátsó csati fent 2
+Cylinder 20, 0.030, 0.030, 0.010
+Rotate 1,0,0,90
+Color 185,122,87
+Translate  -0.015,2.420,-3.758
+
+[Meshbuilder]  ;hátsó csati fent közp talp
+Cylinder 20, 0.040, 0.040, 0.010
+Rotate 1,0,0,90
+Color 185,122,87
+Translate  0,2.420,-3.758
+
+[Meshbuilder]  ;hátsó csati fent közp csonk
+Cylinder 20, 0.034, 0.028, 0.055
+Rotate 0,2,1,180
+Color 185,122,87
+Translate  0,2.415,-3.764
+
+[Meshbuilder]  ;hátsó csati lent 1
+Cylinder 20, 0.030, 0.030, 0.010
+Rotate 1,0,0,90
+Color 185,122,87
+Translate  0.015,1.230,-3.756
+
+[Meshbuilder]  ;hátsó csati lent 2
+Cylinder 20, 0.030, 0.030, 0.010
+Rotate 1,0,0,90
+Color 185,122,87
+Translate  -0.015,1.230,-3.756
+
+[Meshbuilder]  ;hátsó csati lent közp talp
+Cylinder 20, 0.040, 0.040, 0.010
+Rotate 1,0,0,90
+Color 185,122,87
+Translate  0,1.230,-3.756
+
+[Meshbuilder]  ;hátsó csati lent közp csonk
+Cylinder 20, 0.034, 0.028, 0.055
+Rotate 0,2,1,180
+Color 185,122,87
+Translate  0,1.225,-3.762
+
+[Meshbuilder]  ;hátsó csati lent jobb 1
+Cylinder 20, 0.030, 0.030, 0.010
+Rotate 1,0,0,90
+Color 185,122,87
+Translate  0.270,1.230,-3.756
+
+[Meshbuilder]  ;hátsó csati lent jobb 2
+Cylinder 20, 0.030, 0.030, 0.010
+Rotate 1,0,0,90
+Color 185,122,87
+Translate  0.300,1.230,-3.756
+
+[Meshbuilder]  ;hátsó csati lent jobb közp talp
+Cylinder 20, 0.040, 0.040, 0.010
+Rotate 1,0,0,90
+Color 185,122,87
+Translate  0.285,1.230,-3.756
+
+[Meshbuilder]  ;hátsó csati lent jobb közp csonk
+Cylinder 20, 0.034, 0.028, 0.055
+Rotate 0,2,1,180
+Color 185,122,87
+Translate  0.285,1.225,-3.762
+
+[Meshbuilder]  ;hátsó csati lent bal 1
+Cylinder 20, 0.030, 0.030, 0.010
+Rotate 1,0,0,90
+Color 185,122,87
+Translate -0.270,1.230,-3.756
+
+[Meshbuilder]  ;hátsó csati lent bal 2
+Cylinder 20, 0.030, 0.030, 0.010
+Rotate 1,0,0,90
+Color 185,122,87
+Translate -0.300,1.230,-3.756
+
+[Meshbuilder]  ;hátsó csati lent bal közp talp
+Cylinder 20, 0.040, 0.040, 0.010
+Rotate 1,0,0,90
+Color 185,122,87
+Translate -0.285,1.230,-3.756
+
+[Meshbuilder]  ;hátsó csati lent bal közp csonk
+Cylinder 20, 0.034, 0.028, 0.055
+Rotate 0,2,1,180
+Color 185,122,87
+Translate -0.285,1.225,-3.762
+
+[Meshbuilder]    ;hátsó csati kép 1
+Vertex  0,0.65,-3.745   
+Vertex  0,1.65,-3.745 
+Vertex  0,1.65,-4.507   
+Vertex  0,0.65,-4.507     
+Face2 0,1,2,3
+[Texture]
+Load csat.png
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+Transparent 255,0,255
+
+[Meshbuilder]    ;hátsó csati kép 2
+Vertex  0.285,0.65,-3.745   
+Vertex  0.285,1.65,-3.745 
+Vertex  0.2,1.65,-4.507   
+Vertex  0.2,0.65,-4.507     
+Face2 0,1,2,3
+[Texture]
+Load csat.png
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+Transparent 255,0,255
+
+[Meshbuilder]    ;hátsó csati kép 3
+Vertex -0.285,0.65,-3.745   
+Vertex -0.285,1.65,-3.745 
+Vertex -0.2,1.65,-4.507   
+Vertex -0.2,0.65,-4.507     
+Face2 0,1,2,3
+[Texture]
+Load csat.png
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+Transparent 255,0,255
+
+[Meshbuilder]    ;hátsó csati fenti kép 4
+Vertex -0.05,1.85,-3.745   
+Vertex -0.05,2.85,-3.745 
+Vertex  0.8,2.5,-4.505   
+Vertex  0.8,1.8,-4.505     
+Face2 0,1,2,3
+[Texture]
+Load csat.png
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+Transparent 255,0,255
+
+[Meshbuilder]    ;lánc kép 1
+Vertex  0.5,0.45,-3.7   
+Vertex  0.5,1.45,-3.7 
+Vertex  0.9,1.90,-4.503   
+Vertex  0.9,0.90,-4.503     
+Face2 0,1,2,3
+[Texture]
+Load lanc.png
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+Transparent 255,0,255
+
+[Meshbuilder] ;----vezérlõ középsõ dobogó viz----------- 
+Cube 0.390,0.0050,0.521
+Color 73,48,26
+Translate  0,1,3.202
+
+[Meshbuilder] ;----vezérlõ középsõ dobogó függ jobb----------- 
+Cube 0.0050,0.200,0.521
+Color 73,48,26
+Translate  0.390,0.795,3.202
+
+[Meshbuilder] ;----vezérlõ középsõ dobogó fögg bal----------- 
+Cube 0.0050,0.200,0.521
+Color 73,48,26
+Translate -0.390,0.795,3.202
+
+[Meshbuilder] ; ülés vezér    
+Cube 0.230,0.03,0.170
+Color 64,0,0
+Translate 0,1.400,2.93
+
+[Meshbuilder] ; üléstámla vezér    
+Cube 0.230,0.03,0.170
+Rotate 1,0,0,82
+Color 64,0,0
+Translate 0,1.650,2.74 ;----------------
+
+[Meshbuilder]  ; szék láb jobb hátsó függ
+Cylinder 20, 0.014, 0.014, 0.43
+Color 70,35,0
+Translate  0.21,1.282,2.7650
+
+[Meshbuilder]  ; szék láb bal hátsó függ
+Cylinder 20, 0.014, 0.014, 0.43
+Color 70,35,0
+Translate -0.21,1.282,2.7650
+
+[Meshbuilder]  ; szék láb jobb viz
+Cylinder 20, 0.014, 0.014, 0.218
+Rotate 1, 0, 0, 90
+Color 70,35,0
+Translate  0.21,1.018,2.9165
+
+[Meshbuilder]  ; szék láb bal viz
+Cylinder 20, 0.014, 0.014, 0.218
+Rotate 1, 0, 0, 90
+Color 70,35,0
+Translate -0.21,1.018,2.9165
+
+[Meshbuilder]  ; szék láb jobb hátsó 45fok
+Cylinder 20, 0.014, 0.014, 0.08
+Rotate 1, 0, 0,-45
+Color 70,35,0
+Translate  0.21,1.048,2.789
+
+[Meshbuilder]  ; szék láb bal hátsó 45fok
+Cylinder 20, 0.014, 0.014, 0.08
+Rotate 1, 0, 0,-45
+Color 70,35,0
+Translate -0.21,1.048,2.789
+
+[Meshbuilder]  ; szék láb jobb elsõ függ0
+Cylinder 20, 0.014, 0.014, 0.36
+Color 70,35,0
+Translate  0.21,1.246,3.07
+
+[Meshbuilder]  ; szék láb bal elsõ függ0
+Cylinder 20, 0.014, 0.014, 0.36
+Color 70,35,0
+Translate -0.21,1.246,3.07
+
+[Meshbuilder]  ; szék láb jobb elsõ 45fok
+Cylinder 20, 0.014, 0.014, 0.08
+Rotate 1, 0, 0, 45
+Color 70,35,0
+Translate  0.21,1.048,3.0452
+
+[Meshbuilder]  ; szék láb bal elsõ 45fok
+Cylinder 20, 0.014, 0.014, 0.08
+Rotate 1, 0, 0, 45
+Color 70,35,0
+Translate -0.21,1.048,3.0452
+
+[Meshbuilder] ; --------vezér szekrény bal alsó----------------  
+Cube 0.300,0.380,0.140
+Color 55,0,0
+Translate -0.700,1.060,2.820
+
+[Meshbuilder] ; vezér szekrény bal felsõ 
+Cube 0.300,0.210,0.080
+Color 60,0,0
+Translate -0.700,1.650,2.760
+
+[Meshbuilder] ; vezér szekrény felsõ függ léc
+Cube 0.010,0.207,0.005
+Color 65,0,0
+Translate -0.700,1.650,2.845
+
+[Meshbuilder] ; vezér szekrény felsõ függ léc
+Cube 0.020,0.207,0.005
+Color 65,0,0
+Translate -0.422,1.650,2.845
+
+[Meshbuilder] ; vezér szekrény felsõ függ léc
+Cube 0.020,0.207,0.005
+Color 65,0,0
+Translate -0.977,1.650,2.845
+
+[Meshbuilder] ; vezér szekrény felsõ viz léc
+Cube 0.296,0.020,0.005
+Color 65,0,0
+Translate -0.700,1.837,2.845
+
+[Meshbuilder] ; vezér szekrény alsó viz léc
+Cube 0.296,0.020,0.005
+Color 65,0,0
+Translate -0.700,1.464,2.845
+
+[Meshbuilder] ; vezér szekrény fogantyú szár
+Cylinder 20,0.006,0.006,0.015
+Rotate 1,0,0,90
+Color 100,100,100
+Translate -0.977,1.664,2.857
+
+[Meshbuilder] ; vezér szekrény fogantyú 
+Cylinder 20,0.014,0.008,0.010
+Rotate 1,0,0,90
+Color 70,70,70
+Translate -0.977,1.664,2.865 ;-------------------------
+
+[Meshbuilder] ; vezér doboz égõ alatt
+Cube 0.150,0.150,0.018
+Color 55,0,0
+Translate -0.90, 2.320, 2.698
+
+[Meshbuilder] ; vezér doboz pici 
+Cube 0.050,0.050,0.020
+Color 65,0,0
+Translate -0.83, 2.260, 2.735
+
+[Meshbuilder] ; vezér doboz kapcsoló gomb 1
+Cylinder 15, 0.006,0.006,0.020
+Rotate 1,0,0,90
+Color 65,65,65
+Translate -0.93, 2.280, 2.735
+
+[Meshbuilder] ; vezér doboz kapcsoló 1 
+Cylinder 15, 0.030,0.030,0.020
+Rotate 1,0,0,90
+Color 30,30,30,
+Translate -0.93, 2.280, 2.725
+
+[Meshbuilder] ; vezér doboz kapcsoló gomb 1
+Cube 0.006,0.006,0.020
+Rotate 1,0,0,25
+Color 45,45,45
+Translate -1.00, 2.35, 2.744
+
+[Meshbuilder] ; vezér doboz kapcsoló 1 
+Cylinder 15, 0.040,0.040,0.030
+Rotate 1,0,0,90
+Color 20,20,20,
+Translate -1.00, 2.35, 2.734
+
+[Meshbuilder] ; vezér doboz 
+Cube 0.120,0.150,0.050
+Color 55,0,0
+Translate -0.60, 2.280, 2.730
+
+[Meshbuilder] ; vezér doboz 
+Cube 0.118,0.148,0.005
+Color 75,0,0
+Translate -0.60, 2.280, 2.785
+
+[Meshbuilder] ; vezér doboz szekrényen
+Cube 0.140,0.048,0.040
+Color 75,0,0
+Translate -0.48, 1.860, 2.720
+
+[Meshbuilder] ; vezér doboz szekrényen
+Cube 0.142,0.002,0.041
+Color 75,0,0
+Translate -0.48, 1.910, 2.721
+
+[Meshbuilder] ; vezér doboz szekrényen
+Cube 0.028,0.018,0.015
+Color 30,30,30
+Translate -0.44, 1.879, 2.778
+
+[Meshbuilder] ;zsámoly víz 1 ;------------------------ 
+Cube 0.120,0.0100,0.320
+Rotate 0,2,0,-10
+Color 73,48,26
+Translate  0.850,1.090,3.083
+
+[Meshbuilder] ;zsámoly víz 2
+Cube 0.120,0.0100,0.320
+Rotate 0,2,0,-10
+Color 73,48,26
+Translate  0.600,1.090,3.040
+
+[Meshbuilder] ;zsámoly függ láb 1 
+Cube 0.245,0.210,0.0200
+Rotate 0,2,0,-10
+Color 73,48,26
+Translate  0.760,0.870,2.850
+
+[Meshbuilder] ;zsámoly függ láb 2
+Cube 0.245,0.210,0.0200
+Rotate 0,2,0,-10
+Color 73,48,26
+Translate  0.685,0.870,3.280
+
+[Meshbuilder] ; Mûszerfal eleje döntött-----------
+Cube 0.230,0.020,0.070
+Rotate 1,0,0,-70
+Color 64,0,0
+Translate 0,1.555,3.628
+
+[Meshbuilder] ; Mûszerfal eleje tengely
+Cylinder  20,0.015,0.015,0.460
+Rotate 0,0,1,90
+Color 64,0,0
+Translate 0,1.620,3.657
+
+[Meshbuilder] ; Mûszerfal víz
+Cube 0.230,0.020,0.060
+Color 64,0,0
+Translate 0,1.615,3.598
+
+[Meshbuilder] ; Mûszerfal függ bal
+Cube 0.002,0.320,0.0421
+Color 64,0,0
+Translate -0.228,1.315,3.580
+
+[Meshbuilder] ; Mûszerfal függ jobb
+Cube 0.002,0.320,0.0421
+Color 64,0,0
+Translate 0.228,1.315,3.580
+
+[Meshbuilder] ; Mûszerfal eleje függ
+Cube 0.230,0.245,0.002
+Color 64,0,0
+Translate 0,1.241,3.620
+
+[Meshbuilder] ; Mûszerfal hátsó függ
+Cube 0.230,0.315,0.002
+Color 64,0,0
+Translate 0,1.310,3.540 ;--------------------------
+
+[Meshbuilder] ; vezérlõ hátsó függ
+Cube 0.220,0.290,0.002
+Color 64,0,0
+Translate 0,1.280,3.530
+
+[Meshbuilder] ; vezérlõ függ jobb
+Cube 0.002,0.290,0.0621
+Color 64,0,0
+Translate 0.219,1.280,3.466
+
+[Meshbuilder] ; vezérlõ függ bal
+Cube 0.002,0.290,0.0621
+Color 64,0,0
+Translate -0.219,1.280,3.466
+
+[Meshbuilder] ; vezérlõ függ jobb henger
+Cylinder 20,0.106,0.106,0.580
+Color 64,0,0
+Translate  0.116,1.280,3.425
+
+[Meshbuilder] ; vezérlõ függ bal henger
+Cylinder 20,0.106,0.106,0.580
+Color 64,0,0
+Translate -0.116,1.280,3.425
+
+[Meshbuilder] ; vezérlõ hátsó függ
+Cube 0.150,0.290,0.002
+Color 64,0,0
+Translate 0,1.280,3.322
+
+[Meshbuilder] ; vezérlõ hátsó függ
+Cube 0.130,0.270,0.002
+Color 74,0,0
+Translate 0,1.280,3.318 ;-------------------------------
+
+[Meshbuilder] ; vezérlõ hátsó függ szürke
+Cube 0.220,0.028,0.002
+Color 30,30,30
+Translate 0,1.602,3.530
+
+[Meshbuilder] ; vezérlõ függ jobb
+Cube 0.002,0.028,0.0621
+Color 30,30,30
+Translate 0.219,1.602,3.466
+
+[Meshbuilder] ; vezérlõ függ bal
+Cube 0.002,0.028,0.0621
+Color 30,30,30
+Translate -0.219,1.602,3.466
+
+[Meshbuilder] ; vezérlõ függ jobb henger
+Cylinder 28,0.106,0.106,0.056
+Color 30,30,30
+Translate  0.116,1.602,3.425
+
+[Meshbuilder] ; vezérlõ függ bal henger
+Cylinder 20,0.106,0.106,0.056
+Color 30,30,30
+Translate -0.116,1.602,3.425
+
+[Meshbuilder] ; vezérlõ hátsó függ
+Cube 0.125,0.028,0.002
+Color 30,30,30
+Translate 0,1.602,3.322 ;--------------------------------
+
+[Meshbuilder] ;---------pult-----------
+Vertex  0.230,1.631,3.532  ;p0
+Vertex  0.220,1.631,3.320  ;p1
+Vertex -0.220,1.631,3.320  ;p2
+Vertex -0.230,1.631,3.532 ;p3
+face  0,1,2,3
+EmissiveColor 100,100,100
+[Texture]
+Load pult.png
+Coordinates 0,1,0
+Coordinates 1,1,1
+Coordinates 2,0,1
+Coordinates 3,0,0
+Transparent 255,0,255
+
+[Meshbuilder] ; vezérlõpult ajtó kapcs jobb
+Cube 0.028,0.015,0.046
+Color 0,0,0,
+Translate 0.190,1.648,3.595
+
+[Meshbuilder] ; vezérlõpult ajtó kapcs jobb 2
+Cylinder 20, 0.015,0.015,0.046
+Rotate 0,0,1,90
+Color 10,10,10
+Translate 0.190,1.662,3.589
+
+[Meshbuilder] ; vezérlõpult ajtó kapcs jobb 3
+Cube 0.003,0.003,0.006
+Rotate 1,0,0,-40
+Color 30,30,30,
+Translate 0.190,1.672,3.605
+
+[Meshbuilder] ; vezérlõpult ajtó kapcs bal
+Cube 0.028,0.015,0.046
+Color 0,0,0,
+Translate 0.130,1.648,3.595
+
+[Meshbuilder] ; vezérlõpult ajtó kapcs bal 2
+Cylinder 20, 0.015,0.015,0.046
+Rotate 0,0,1,90
+Color 10,10,10
+Translate 0.130,1.662,3.589
+
+[Meshbuilder] ; vezérlõpult ajtó kapcs jobb 3
+Cube 0.003,0.003,0.006
+Rotate 1,0,0,-40
+Color 30,30,30,
+Translate 0.130,1.672,3.605
+
+[Meshbuilder] ;---------kapcsolók-----------
+Vertex  0.100,1.6631,3.642  ;p0
+Vertex  0.220,1.6631,3.642 ;p1
+Vertex  0.220,1.6631,3.546  ;p2
+Vertex  0.100,1.6631,3.546 ;p3
+face 0,1,2,3
+EmissiveColor 70,70,70
+[Texture]
+Load kapcs.png
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+Transparent 255,0,255
+
+[Meshbuilder] ; vezérlõpult lámpa kapcs 
+Cylinder 20, 0.035,0.035,0.010
+Color 53,0,0
+Translate 0.048,1.638,3.589
+
+[Meshbuilder] ; vezérlõpult lámpa kapcs 2
+Cylinder 20, 0.034,0.034,0.002
+Color 10,10,10
+Translate 0.048,1.644,3.589
+
+[Meshbuilder] ; vezérlõpult lámpa kapcs 3
+Cube 0.018,0.010,0.005
+Rotate 0,1,0,45
+Color 10,10,10
+Translate 0.051,1.654,3.590
+
+[Meshbuilder] ; vezérlõpult feszmérõ
+Cylinder 20, 0.035,0.035,0.010
+Color 53,0,0
+Translate -0.132,1.638,3.589
+
+[Meshbuilder] ;---------lámp kapcsoló-----------
+Vertex  0.015,1.6451,3.622  ;p0
+Vertex  0.080,1.6451,3.622 ;p1
+Vertex  0.080,1.6451,3.556  ;p2
+Vertex  0.015,1.6451,3.556 ;p3
+face  0,1,2,3
+EmissiveColor 70,70,70
+[Texture]
+Load lamp.png
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+Transparent 255,0,255
+
+[Meshbuilder] ;--------feszmérõ-----------
+Vertex -0.100,1.644,3.622  ;p0
+Vertex -0.165,1.644,3.622 ;p1
+Vertex -0.165,1.644,3.556  ;p2
+Vertex -0.100,1.644,3.556 ;p3
+face  3,2,1,0
+EmissiveColor 70,70,70
+[Texture]
+Load fes.png
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+Transparent 255,0,255
+
+[Meshbuilder] ; vezérlõpult lámpa kapcs jobb
+Cube 0.005,0.025,0.010
+Rotate 0,0,1,73
+Color 10,10,10
+Translate 0.044,2.378,3.695
+
+[Meshbuilder] ; vezérlõpult lámpa kapcs bal
+Cube 0.005,0.025,0.010
+Rotate 0,0,1,-195
+Color 10,10,10
+Translate -0.062,2.378,3.695
+
+[Meshbuilder] ;--------fenti kapcsolók-----------
+Vertex  0.110,2.435,3.705 ;p0
+Vertex  0.110,2.330,3.705 ;p1
+Vertex -0.110,2.330,3.705  ;p2
+Vertex -0.110,2.435,3.705 ;p3
+face  0,1,2,3
+EmissiveColor 30,30,30
+[Texture]
+Load fentk.png
+Coordinates 0,1,0
+Coordinates 1,1,1
+Coordinates 2,0,1
+Coordinates 3,0,0
+Transparent 255,0,255
+
+[Meshbuilder] ; vészfék láb -------------------------
+Cube 0.060,0.390,0.080
+Color 64,0,0
+Translate 0.5,1.080,3.470
+
+[Meshbuilder] ; vészfék tömb
+Cube 0.070,0.060,0.090
+Color 64,0,0
+Translate 0.5,1.450,3.470
+
+[Meshbuilder] ; vészfék tömb henger
+Cylinder 20, 0.070,0.070,0.180
+Rotate 1,0,0,90
+Color 64,0,0
+Translate 0.5,1.510,3.470
+
+[Meshbuilder] ; vészfék tengely henger
+Cylinder 6, 0.012,0.012,0.050
+Rotate 1,0,0,90
+Color 25,0,0
+Translate 0.5,1.510,3.355
+
+[Meshbuilder] ; vészfék tengely csonk
+Cylinder 20, 0.018,0.018,0.020
+Rotate 1,0,0,90
+Color 54,0,0
+Translate 0.5,1.510,3.345
+
+[Meshbuilder] ; vészfék tengely csonk 2
+Cylinder 20, 0.030,0.030,0.010
+Rotate 1,0,0,90
+Color 68,0,0
+Translate 0.5,1.510,3.345 ;---------------------
+
+[Meshbuilder] ; vészfék kerék 1
+Cylinder 20, 0.015,0.015,0.040
+Rotate 0,0,1,90
+Color 74,0,0
+Translate 0.5,1.650,3.345
+
+[Meshbuilder] ; vészfék kerék 2
+Cylinder 20, 0.015,0.015,0.040
+Rotate 0,0,1,75
+Color 74,0,0
+Translate 0.536,1.645,3.345
+
+[Meshbuilder] ; vészfék kerék -2
+Cylinder 20, 0.015,0.015,0.040
+Rotate 0,0,1,-75
+Color 74,0,0
+Translate 0.464,1.645,3.345
+
+[Meshbuilder] ; vészfék kerék 3
+Cylinder 20, 0.015,0.015,0.040
+Rotate 0,0,1,60
+Color 74,0,0
+Translate 0.569,1.631,3.345
+
+[Meshbuilder] ; vészfék kerék -3
+Cylinder 20, 0.015,0.015,0.040
+Rotate 0,0,1,-60
+Color 74,0,0
+Translate 0.431,1.631,3.345
+
+[Meshbuilder] ; vészfék kerék 4
+Cylinder 20, 0.015,0.015,0.040
+Rotate 0,0,1,45
+Color 74,0,0
+Translate 0.597,1.609,3.345
+
+[Meshbuilder] ; vészfék kerék -4
+Cylinder 20, 0.015,0.015,0.040
+Rotate 0,0,1,-45
+Color 74,0,0
+Translate 0.402,1.609,3.345
+
+[Meshbuilder] ; vészfék kerék 5
+Cylinder 20, 0.015,0.015,0.040
+Rotate 0,0,1,30
+Color 74,0,0
+Translate 0.619,1.581,3.345
+
+[Meshbuilder] ; vészfék kerék -5
+Cylinder 20, 0.015,0.015,0.040
+Rotate 0,0,1,-30
+Color 74,0,0
+Translate 0.381,1.581,3.345
+
+[Meshbuilder] ; vészfék kerék 6
+Cylinder 20, 0.015,0.015,0.040
+Rotate 0,0,1,15
+Color 74,0,0
+Translate 0.633,1.548,3.345
+
+[Meshbuilder] ; vészfék kerék -6
+Cylinder 20, 0.015,0.015,0.040
+Rotate 0,0,1,-15
+Color 74,0,0
+Translate 0.367,1.548,3.345
+
+[Meshbuilder] ; vészfék kerék 7
+Cylinder 20, 0.015,0.015,0.040
+Rotate 0,0,1,0
+Color 74,0,0
+Translate 0.638,1.512,3.345
+
+[Meshbuilder] ; vészfék kerék 7b
+Cylinder 20, 0.015,0.015,0.040
+Rotate 0,0,1,0
+Color 74,0,0
+Translate 0.363,1.512,3.345 ;---- eddig a felsõ rész
+
+[Meshbuilder] ; vészfék kerék -6
+Cylinder 20, 0.015,0.015,0.040
+Rotate 0,0,1,-15
+Color 74,0,0
+Translate 0.633,1.477,3.345
+
+[Meshbuilder] ; vészfék kerék  6
+Cylinder 20, 0.015,0.015,0.040
+Rotate 0,0,1, 15
+Color 74,0,0
+Translate 0.367,1.477,3.345
+
+[Meshbuilder] ; vészfék kerék -5
+Cylinder 20, 0.015,0.015,0.040
+Rotate 0,0,1,-30
+Color 74,0,0
+Translate 0.619,1.444,3.345
+
+[Meshbuilder] ; vészfék kerék  5
+Cylinder 20, 0.015,0.015,0.040
+Rotate 0,0,1, 30
+Color 74,0,0
+Translate 0.381,1.444,3.345
+
+[Meshbuilder] ; vészfék kerék -4
+Cylinder 20, 0.015,0.015,0.040
+Rotate 0,0,1,-45
+Color 74,0,0
+Translate 0.597,1.416,3.345
+
+[Meshbuilder] ; vészfék kerék  4
+Cylinder 20, 0.015,0.015,0.040
+Rotate 0,0,1, 45
+Color 74,0,0
+Translate 0.402,1.416,3.345
+
+[Meshbuilder] ; vészfék kerék  3
+Cylinder 20, 0.015,0.015,0.040
+Rotate 0,0,1, 60
+Color 74,0,0
+Translate 0.431,1.395,3.345
+
+[Meshbuilder] ; vészfék kerék -3
+Cylinder 20, 0.015,0.015,0.040
+Rotate 0,0,1,-60
+Color 74,0,0
+Translate 0.569,1.395,3.345
+
+[Meshbuilder] ; vészfék kerék -2
+Cylinder 20, 0.015,0.015,0.040
+Rotate 0,0,1,-75
+Color 74,0,0
+Translate 0.536,1.381,3.345
+
+[Meshbuilder] ; vészfék kerék  2
+Cylinder 20, 0.015,0.015,0.040
+Rotate 0,0,1, 75
+Color 74,0,0
+Translate 0.464,1.381,3.345
+
+[Meshbuilder] ; vészfék kerék 
+Cylinder 20, 0.015,0.015,0.040
+Rotate 0,0,1,90
+Color 74,0,0
+Translate 0.5,1.376,3.345 ; ------alsó rész eddig----------
+
+[Meshbuilder] ; vészfék  
+Cube 0.010,0.125,0.004
+Rotate 0,0,1,75
+Color 74,0,0
+Translate 0.500,1.510,3.345
+
+[Meshbuilder] ; vészfék
+Cube 0.010,0.125,0.004
+Rotate 0,0,1,-15
+Color 74,0,0
+Translate 0.500,1.510,3.345
+
+[Meshbuilder] ; vészfék 
+Cylinder 20, 0.004,0.004,0.250
+Rotate 0,0,1,75
+Color 74,0,0
+Translate 0.500,1.5215,3.345
+
+[Meshbuilder] ; vészfék 
+Cylinder 20, 0.004,0.004,0.250
+Rotate 0,0,1,75
+Color 74,0,0
+Translate 0.495,1.5001,3.345
+
+[Meshbuilder] ; vészfék 
+Cylinder 20, 0.004,0.004,0.250
+Rotate 0,0,1,-15
+Color 74,0,0
+Translate 0.510,1.510,3.345
+
+[Meshbuilder] ; vészfék 
+Cylinder 20, 0.004,0.004,0.250
+Rotate 0,0,1,-15
+Color 74,0,0
+Translate 0.490,1.515,3.345
+
+[Meshbuilder] ; vészfék fogantyú
+Cylinder 20, 0.012,0.012,0.080
+Rotate 1,0,0,90
+Color 95,0,0
+Translate 0.538,1.646,3.305
+
+
+[Meshbuilder] ; ---------------mikrofon 0---------------
+Cube 0.005,0.040,0.001
+Color 100,100,100
+Translate 0.373,1.785,3.688
+
+[Meshbuilder] ; mikrofon 1
+Cylinder 20, 0.003,0.003,0.270
+Rotate 0,0,1,90
+Rotate 0,1,0,-55
+Color 100,100,100
+Translate 0.300,1.810,3.585
+
+[Meshbuilder] ; mikrofon 2
+Cylinder 20, 0.003,0.003,0.270
+Rotate 0,0,1,80
+Rotate 0,1,0,-54.9
+Color 100,100,100
+Translate 0.300,1.780,3.585
+
+[Meshbuilder] ; mikrofon 3
+Cylinder 20, 0.003,0.003,0.070
+Rotate 0,0,1,90
+Rotate 0,1,0,-54.9
+Color 100,100,100
+Translate 0.203,1.810,3.447
+
+[Meshbuilder] ; mikrofon 4
+Cylinder 20, 0.003,0.003,0.070
+Rotate 0,0,1,90
+Rotate 0,1,0,-54.9
+Color 100,100,100
+Translate 0.203,1.8035,3.447
+
+[Meshbuilder] ; mikrofon 5
+Cube 0.02,0.012,0.02
+Rotate 0,1,0,37
+Color 150,150,150
+Translate 0.195,1.788,3.435
+
+[Meshbuilder] ; mikrofon 6
+Cylinder 20, 0.003,0.003,0.015
+Rotate 0,0,1,90
+Rotate 0,1,0,-54.9
+Color 100,100,100
+Translate 0.182,1.788,3.417
+
+[Meshbuilder] ; mikrofon 6
+Cylinder 20, 0.025,0.025,0.025
+Rotate 0,0,1,90
+Rotate 0,1,0,-54.9
+Color 50,50,50
+Translate 0.175,1.823,3.408
+
+[Meshbuilder] ; mikrofon 7
+Cylinder 20, 0.003,0.003,0.032
+Rotate 0,1,0,90
+Color 100,100,100
+Translate 0.300,1.795,3.585
+
+[Meshbuilder] ; mikrofon 8
+Cylinder 20, 0.003,0.003,0.045
+Rotate 0,1,0,90
+Color 100,100,100
+Translate 0.3455,1.789,3.650
+
+[Meshbuilder] ;--------mikrofon-----------
+Vertex  0.187,1.847,3.383 
+Vertex  0.187,1.797,3.383 
+Vertex  0.147,1.797,3.411 
+Vertex  0.147,1.847,3.411 
+face 0,1,2,3
+EmissiveColor 30,30,30
+[Texture]
+Load mic.png
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+Transparent 255,0,255
+
+
+
+
+;---------------------------------------------------------------------------
+
+
+[Meshbuilder] ;----------------kapaszkodó közpsõ 0-------------
+Vertex   0.05,2.25,0
+Vertex   0.05,2.50,0
+Vertex  -0.05,2.50,0
+Vertex  -0.05,2.25,0
+face2 0,1,2,3
+EmissiveColor 70,70,70
+[Texture]
+Load kap.png
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+Transparent 255,0,255
+
+[Meshbuilder] ;----------------kapaszkodó közpsõ 1 jobb e-------------
+Vertex   0.55,2.25,0
+Vertex   0.55,2.50,0
+Vertex   0.65,2.50,0
+Vertex   0.65,2.25,0
+face2 3,2,1,0
+EmissiveColor 70,70,70
+[Texture]
+Load kap.png
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+Transparent 255,0,255
+
+[Meshbuilder] ;----------------kapaszkodó közpsõ 1 bal e-------------
+Vertex  -0.55,2.25,0
+Vertex  -0.55,2.50,0
+Vertex  -0.65,2.50,0
+Vertex  -0.65,2.25,0
+face2 0,1,2,3
+EmissiveColor 70,70,70
+[Texture]
+Load kap.png
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+Transparent 255,0,255
+
+[Meshbuilder] ;----------------kapaszkodó elsõ 0-------------
+Vertex   0.05,2.25,0.6
+Vertex   0.05,2.50,0.6
+Vertex  -0.05,2.50,0.6
+Vertex  -0.05,2.25,0.6
+face2 0,1,2,3
+EmissiveColor 70,70,70
+[Texture]
+Load kap.png
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+Transparent 255,0,255
+
+[Meshbuilder] ;----------------kapaszkodó elsõ 1 jobb e-------------
+Vertex   0.55,2.25,0.6
+Vertex   0.55,2.50,0.6
+Vertex   0.65,2.50,0.6
+Vertex   0.65,2.25,0.6
+face2 3,2,1,0
+EmissiveColor 70,70,70
+[Texture]
+Load kap.png
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+Transparent 255,0,255
+
+[Meshbuilder] ;----------------kapaszkodó elsõ 1 bal e-------------
+Vertex  -0.55,2.25,0.6
+Vertex  -0.55,2.50,0.6
+Vertex  -0.65,2.50,0.6
+Vertex  -0.65,2.25,0.6
+face2 0,1,2,3
+EmissiveColor 70,70,70
+[Texture]
+Load kap.png
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+Transparent 255,0,255
+
+[Meshbuilder] ;----------------kapaszkodó hátsó 0-------------
+Vertex   0.05,2.25,-0.6
+Vertex   0.05,2.50,-0.6
+Vertex  -0.05,2.50,-0.6
+Vertex  -0.05,2.25,-0.6
+face2 0,1,2,3
+EmissiveColor 70,70,70
+[Texture]
+Load kap.png
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+Transparent 255,0,255
+
+[Meshbuilder] ;----------------kapaszkodó hátsó 1 jobb e-------------
+Vertex   0.55,2.25,-0.6
+Vertex   0.55,2.50,-0.6
+Vertex   0.65,2.50,-0.6
+Vertex   0.65,2.25,-0.6
+face2 3,2,1,0
+EmissiveColor 70,70,70
+[Texture]
+Load kap.png
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+Transparent 255,0,255
+
+[Meshbuilder] ;----------------kapaszkodó hátsó 1 bal e-------------
+Vertex  -0.55,2.25,-0.6
+Vertex  -0.55,2.50,-0.6
+Vertex  -0.65,2.50,-0.6
+Vertex  -0.65,2.25,-0.6
+face2 0,1,2,3
+EmissiveColor 70,70,70
+[Texture]
+Load kap.png
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+Transparent 255,0,255;------------------------eddig a 3-as sorok.
+
+[Meshbuilder] ;----------------kapaszkodó közpsõ 0 bal elsõ-------------
+Vertex  -0.25,2.25,1.1
+Vertex  -0.25,2.50,1.1
+Vertex  -0.35,2.50,1.1
+Vertex  -0.35,2.25,1.1
+face2  0,1,2,3
+EmissiveColor 70,70,70
+[Texture]
+Load kap.png
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+Transparent 255,0,255
+
+[Meshbuilder] ;----------------kapaszkodó közpsõ 0 jobb elsõ-------------
+Vertex   0.25,2.25,1.1
+Vertex   0.25,2.50,1.1
+Vertex   0.35,2.50,1.1
+Vertex   0.35,2.25,1.1
+face2  3,2,1,0
+EmissiveColor 70,70,70
+[Texture]
+Load kap.png
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+Transparent 255,0,255
+
+[Meshbuilder] ;----------------kapaszkodó közpsõ 0 bal hátsó-------------
+Vertex  -0.25,2.25,-1.1
+Vertex  -0.25,2.50,-1.1
+Vertex  -0.35,2.50,-1.1
+Vertex  -0.35,2.25,-1.1
+face2  0,1,2,3
+EmissiveColor 70,70,70
+[Texture]
+Load kap.png
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+Transparent 255,0,255
+
+[Meshbuilder] ;----------------kapaszkodó közpsõ 0 jobb hátsó-------------
+Vertex   0.25,2.25,-1.1
+Vertex   0.25,2.50,-1.1
+Vertex   0.35,2.50,-1.1
+Vertex   0.35,2.25,-1.1
+face2  3,2,1,0
+EmissiveColor 70,70,70
+[Texture]
+Load kap.png
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+Transparent 255,0,255
+
+[Meshbuilder] ;----------------kapaszkodó közpsõ 1 bal elsõ-------------
+Vertex  -0.25,2.25,0.28
+Vertex  -0.25,2.50,0.28
+Vertex  -0.35,2.50,0.28
+Vertex  -0.35,2.25,0.28
+face2  0,1,2,3
+EmissiveColor 70,70,70
+[Texture]
+Load kap.png
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+Transparent 255,0,255
+
+[Meshbuilder] ;----------------kapaszkodó közpsõ 1 jobb elsõ-------------
+Vertex   0.25,2.25,0.28
+Vertex   0.25,2.50,0.28
+Vertex   0.35,2.50,0.28
+Vertex   0.35,2.25,0.28
+face2  3,2,1,0
+EmissiveColor 70,70,70
+[Texture]
+Load kap.png
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+Transparent 255,0,255
+
+[Meshbuilder] ;----------------kapaszkodó közpsõ 1 bal hátsó-------------
+Vertex  -0.25,2.25,-0.28
+Vertex  -0.25,2.50,-0.28
+Vertex  -0.35,2.50,-0.28
+Vertex  -0.35,2.25,-0.28
+face2  0,1,2,3
+EmissiveColor 70,70,70
+[Texture]
+Load kap.png
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+Transparent 255,0,255
+
+[Meshbuilder] ;----------------kapaszkodó közpsõ 1 jobb hátsó-------------
+Vertex   0.25,2.25,-0.28
+Vertex   0.25,2.50,-0.28
+Vertex   0.35,2.50,-0.28
+Vertex   0.35,2.25,-0.28
+face2  3,2,1,0
+EmissiveColor 70,70,70
+[Texture]
+Load kap.png
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+Transparent 255,0,255
+
+Scaleall 1,1,1.21
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,90 @@
+;;PANTOGRAFO AC;;
+
+CreateMeshBuilder,
+AddVertex,-1.1, 5.58, 20.1,
+AddVertex,1.1, 5.58, 20.1,
+AddVertex,1.1, 5.12, 20.1,
+AddVertex,-1.1, 5.12, 20.1,
+AddFace,0,1,2,3,
+AddFace,3,2,1,0,
+Translate,0,-0.5,-28.3,
+GenerateNormals,
+
+LoadTexture,panto.png,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 1, 1,
+SetTextureCoordinates,3, 0, 1,
+SetDecalTransparentColor,0,0,0,
+
+CreateMeshBuilder,
+AddVertex,0.5, 5.49, 20.1,
+AddVertex,-0.5, 5.49, 20.1,
+AddVertex,0.5, 4.64, 18.87,
+AddVertex,-0.5, 4.64, 18.87,
+AddVertex,0.5, 3.85, 20,
+AddVertex,-0.5, 3.85, 20,
+AddFace2,1,0,2,3,
+AddFace2,3,2,4,5,
+Translate,0,-0.5,-28.3,
+GenerateNormals,
+Rotate,0,0,90,
+
+LoadTexture,pantobase.png,
+SetTextureCoordinates,0, 0, -1,
+SetTextureCoordinates,1, 1, -1,
+SetTextureCoordinates,2, 0, -0.45,
+SetTextureCoordinates,3, 1, -0.45,
+SetTextureCoordinates,4, 0, 0,
+SetTextureCoordinates,5, 1, 0,
+SetDecalTransparentColor,0,0,0,
+
+;;BASE;;
+CreateMeshBuilder,
+Cube,0.7,0.03,0.03,
+translate,0,3.35,-8.3
+Setcolor,40,40,40
+CreateMeshBuilder,
+Cylinder,6,0.07,0.07,0.3,
+rotate,1,0,0,90
+rotate,0,1,0,90
+translate,0,3.35,-8.3
+Setcolor,40,40,40
+CreateMeshBuilder,
+Cube,1,0.05,0.05,
+rotate,0,1,0,90
+translate,0.7,3.35,-8.3
+Setcolor,40,40,40
+CreateMeshBuilder,
+Cube,1,0.05,0.05,
+rotate,0,1,0,90
+translate,-0.7,3.35,-8.3
+Setcolor,40,40,40
+CreateMeshBuilder,
+Cube,0.7,0.03,0.03,
+translate,0,3.35,-9.2
+Setcolor,40,40,40
+CreateMeshBuilder,
+Cube,0.7,0.03,0.03,
+translate,0,3.35,-7.4
+Setcolor,40,40,40
+CreateMeshBuilder,
+Cylinder,6,0.04,0.07,0.3,
+translate,0.7,3.25,-7.4
+Setcolor,40,40,40
+CreateMeshBuilder,
+Cylinder,6,0.04,0.07,0.3,
+translate,0.7,3.25,-9.2
+Setcolor,40,40,40
+CreateMeshBuilder,
+Cylinder,6,0.04,0.07,0.3,
+translate,-0.7,3.25,-9.2
+Setcolor,40,40,40
+CreateMeshBuilder,
+Cylinder,6,0.04,0.07,0.3,
+translate,-0.7,3.25,-7.4
+Setcolor,40,40,40
+RotateALL,0,1,0,180
+
+
+

@@ -1,0 +1,14 @@
+[INCLUDE]
+car4\000F.animated
+Position=-0.000,-0.250,-3.8
+
+
+
+[INCLUDE]
+ENGATE\ENG.animated
+Position=-0.000,-0.200,7.25
+
+[INCLUDE]
+ENGATE\ENG1.animated
+Position=-0.000,-0.150,-14.9
+

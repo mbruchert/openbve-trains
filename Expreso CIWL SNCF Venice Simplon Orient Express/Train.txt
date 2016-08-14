@@ -1,0 +1,29 @@
+THE ORIENT EXPRESS...
+
+El EXPRESO DE ORIENTE es el nombre del tren que une a la ciudad de Paris Francia con Estambul Turquia...Fue puesto en servicio en el año 1883, Es considerado uno de los trenes mas lujosos del mundo y sus pasajeros incluian desde millonarios burgueses hasta miembros de la aristocracia europea.
+
+En la decada de 1930 fue cuando el expreso de oriente alcanzo su mayor auge, tenia tres rutas principales: Orient Express, Simplon Orient Express y Alberg Orient Express. Fue en esta epoca cuando el Expreso de Oriente adquirio el sobrenombre de Palacio Rodante ofreciendo servicio de primera clase para sus pasajeros empelando renombrados chefs en sus coches restaurant, sus pasajeros incluian ya miembros de la Realeza, Diplomaticos y Millonarios entre otros. Ha sido fuente de inspiracion para grandes escritores como la celebre Agatha Crhistie quien escribio su novela "Murder in the Orient Express" que narra como el detective Hercules Poirot soluciona un crimen a bordo del Simplon Orient Express.
+ 
+El modelo para OpenBVE Reproduce la rama original "Simplon - Orient Express" con un nivel de detalle superior todos los coches de este tren, cuenta con Inscripciones en alta resolucion, Ruedas animadas, suspension animada en locomotoras y coches, ventiladores animados y sonidos reales de los coches...Los creditos se detallan en cada modelo.
+
+Incluye:
+
+1 Locomotora tipo Traxx a diesel
+9 Coches Camas
+1 Coche Bar Etoile du Nord
+1 Coche Restaurant Cote d' Azur
+1 Coche Pullman Fleche d' Or
+1 Coche Pullman Etoile du Nord
+
+Creditos:
+
+Alejandro Melo: Coches de Pasajeros y Locomotora
+Rodrigo Orijel y emanuel Martinez: Acabados externos
+Panel: bve poland
+
+Copyright:
+
+https://www.facebook.com/OpenbveMexico
+http://bvemexicociwl.blogspot.com/
+
+MADE IN Huauchinango CITY, Mexico

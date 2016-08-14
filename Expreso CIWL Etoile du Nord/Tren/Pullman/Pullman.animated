@@ -1,0 +1,103 @@
+[object]
+States=pullman.csv
+
+[object]
+States=techo.csv
+Position=0,-1.25,0
+
+[object]
+States=techo curvo.csv
+Position=0,-1.06,11.52
+[object]
+States=techo curvo 2.csv
+Position=0,-1.06,-11.52
+
+;Escaleras
+
+[Object]
+States=Escaleras.b3d
+Position=0,0,11.57
+[Object]
+States=Escaleras.b3d
+Position=0,0,-11.57
+
+;Puertas
+
+;1
+[Object]
+Position = -1.22, 0, 11.99
+States = puerta 1.csv
+RotateYFunction = -1.5 * leftdoors[0]
+;2
+[Object]
+Position = -1.22, 0, -12.03
+States = puerta 3.csv
+RotateYFunction = 1.5 * leftdoors[0]
+;3
+[Object]
+Position = 1.22, 0, 11.99
+States = puerta 2.csv
+RotateYFunction = 1.5 * rightdoors[0]
+;4
+[Object]
+Position = 1.22, 0, -12.03
+States = puerta 4.csv
+RotateYFunction = -1.5 * rightdoors[0]
+
+;Lamparas-------------------------------------------------------
+
+[object]
+Position = -1.15, 0.85, 8.45
+States=lampara.b3d
+[object]
+Position = -1.15, 0.85, 6.31
+States=lampara.b3d
+[object]
+Position = -1.15, 0.85, 4.17
+States=lampara.b3d
+[object]
+Position = -1.15, 0.85, 2.02
+States=lampara.b3d
+[object]
+Position = -1.15, 0.85, -0.13
+States=lampara.b3d
+[object]
+Position = -1.15, 0.85, -2.26
+States=lampara.b3d
+[object]
+Position = -1.15, 0.85, -4.41
+States=lampara.b3d
+[object]
+Position = -1.15, 0.85, -6.54
+States=lampara.b3d
+[object]
+Position = -1.15, 0.85, -8.5
+States=lampara.b3d
+
+[object]
+Position = 1.15, 0.85, 8.45
+States=lampara.b3d
+[object]
+Position = 1.15, 0.85, 6.31
+States=lampara.b3d
+[object]
+Position = 1.15, 0.85, 4.17
+States=lampara.b3d
+[object]
+Position = 1.15, 0.85, 2.02
+States=lampara.b3d
+[object]
+Position = 1.15, 0.85, -0.13
+States=lampara.b3d
+[object]
+Position = 1.15, 0.85, -2.26
+States=lampara.b3d
+[object]
+Position = 1.15, 0.85, -4.41
+States=lampara.b3d
+[object]
+Position = 1.15, 0.85, -6.54
+States=lampara.b3d
+[object]
+Position = 1.15, 0.85, -8.5
+States=lampara.b3d

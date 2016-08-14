@@ -1,0 +1,59 @@
+[MeshBuilder]
+Cylinder  30, 0.65, 0.65, 0.12
+Rotate  0, 0, -1, -90
+Translate  0.74, 0,0
+Color 150,150,150
+
+[MeshBuilder]
+Cylinder  30, 0.65, 0.65, 0.12
+Rotate  0, 0, -1, -90
+Translate  -0.74, 0,0
+Color 150,150,150
+
+[MeshBuilder]
+Vertex 0.81,	 0.64,	-0.64,
+Vertex 0.81,	 0.64,	 0.64,
+Vertex 0.81,	-0.64,	 0.64,
+Vertex 0.81,	-0.64,	-0.64,
+Vertex -0.81,	 0.64,	-0.64,
+Vertex -0.81,	 0.64,	 0.64,
+Vertex -0.81,	-0.64,	 0.64,
+Vertex -0.81,	-0.64,	-0.64,
+Face 0,1,2,3
+Face 7,6,5,4
+
+[Texture]
+Load Rueda 2.png
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+Coordinates 4,0,0
+Coordinates 5,1,0
+Coordinates 6,1,1
+Coordinates 7,0,1
+Transparent 0,0,0
+
+[MeshBuilder]
+Vertex 0.67,	 0.69,	-0.69,
+Vertex 0.67,	 0.69,	 0.69,
+Vertex 0.67,	-0.69,	 0.69,
+Vertex 0.67,	-0.69,	-0.69,
+Vertex -0.67,	 0.69,	-0.69,
+Vertex -0.67,	 0.69,	 0.69,
+Vertex -0.67,	-0.69,	 0.69,
+Vertex -0.67,	-0.69,	-0.69,
+Face2 0,1,2,3
+Face2 7,6,5,4
+
+[Texture]
+Load Rueda interna.png
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+Coordinates 4,0,0
+Coordinates 5,1,0
+Coordinates 6,1,1
+Coordinates 7,0,1
+Transparent 0,0,0

@@ -1,0 +1,84 @@
+
+;;LadoIzquierdo;;
+[Include]
+AsientoLadrilloSimple.csv
+Position = 1.0,0.95,-10
+[Include]
+AsientoLadrilloSimple.csv
+Position = 1.0,0.95,-9.2
+[Include]
+AsientoLadrilloSimple.csv
+Position = 1.0,0.95,-8.4
+[Include]
+AsientoNaranjaSimple.csv
+Position = 1.0,0.95,-7.6
+[Include]
+AsientoLadrilloSimple.csv
+Position = 1.0,0.95,-6.8
+[Include]
+AsientoNaranjaSimple.csv
+Position = 1.0,0.95,-6
+;;MESA;;
+[Include]
+AsientoNaranjaSimple180.csv
+Position = 1.0,0.95,-4.9
+[Include]
+AsientoLadrilloSimple180.csv
+Position = 1.0,0.95,-4.1
+[Include]
+AsientoNaranjaSimple180.csv
+Position = 1.0,0.95,-3.3
+[Include]
+AsientoLadrilloSimple180.csv
+Position = 1.0,0.95,-2.5
+[Include]
+AsientoLadrilloSimple180.csv
+Position = 1.0,0.95,-1.7
+[Include]
+AsientoLadrilloSimple180.csv
+Position = 1.0,0.95,-0.9
+
+;;LadoDerecho;;
+[Include]
+AsientoLadrilloDoble.csv
+Position = -0.37,0.95,-10
+[Include]
+AsientoLadrilloDoble.csv
+Position = -0.37,0.95,-9.2
+[Include]
+AsientoLadrilloDoble.csv
+Position = -0.37,0.95,-8.4
+[Include]
+AsientoLadrilloDoble.csv
+Position = -0.37,0.95,-7.6
+[Include]
+AsientoNaranjaDoble.csv
+Position = -0.37,0.95,-6.8
+[Include]
+AsientoLadrilloDoble.csv
+Position = -0.37,0.95,-6
+;;MESA;;
+[Include]
+AsientoLadrilloDoble180.csv
+Position = -0.37,0.95,-4.9
+[Include]
+AsientoNaranjaDoble180.csv
+Position = -0.37,0.95,-4.1
+[Include]
+AsientoLadrilloDoble180.csv
+Position = -0.37,0.95,-3.3
+[Include]
+AsientoLadrilloDoble180.csv
+Position = -0.37,0.95,-2.5
+[Include]
+AsientoLadrilloDoble180.csv
+Position = -0.37,0.95,-1.7
+[Include]
+AsientoLadrilloSimple180.csv
+Position = -1.0,0.95,-0.9
+
+
+;;Mesa;;
+[Include]
+Mesa.csv
+Position = 0,1.15,-5.2

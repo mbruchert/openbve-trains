@@ -1,0 +1,72 @@
+[include]
+Niagara.csv
+
+[include]
+tope delantero.b3d
+position= 0,0,8.7
+
+[include]
+luces.b3d
+position= 0,0.7,7.5
+
+[include]
+caldera.csv
+Position=0,3,0
+
+[include]
+caseta.csv
+Position=0,-0.25,0.5
+
+[include]
+Position = 0, 0, 8.5
+Enganche delantero.animated
+
+[INCLUDE]
+Lampara.animated
+Position = 0, 3.6, 7.82
+
+;BIELAJE========================================================================
+
+[Object]
+States=Car1_Rod32.B3D,Car1_Rod31.B3D,Car1_Rod30.B3D,Car1_Rod29.B3D,Car1_Rod28.B3D,Car1_Rod27.B3D,Car1_Rod26.B3D,Car1_Rod25.B3D,Car1_Rod24.B3D,Car1_Rod23.B3D,Car1_Rod22.B3D,Car1_Rod21.B3D,Car1_Rod20.B3D,Car1_Rod19.B3D,Car1_Rod18.B3D,Car1_Rod17.B3D,Car1_Rod16.B3D,Car1_Rod15.B3D,Car1_Rod14.B3D,Car1_Rod13.B3D,Car1_Rod12.B3D,Car1_Rod11.B3D,Car1_Rod10.B3D,Car1_Rod9.B3D,Car1_Rod8.B3D,Car1_Rod7.B3D,Car1_Rod6.B3D,Car1_Rod5.B3D,Car1_Rod4.B3D,Car1_Rod3.B3D,Car1_Rod2.B3D,Car1_Rod1.B3D,Car1_Rod32.B3D
+Position=+0.000,+0.05,+9.35                         ;Z = (2.54mForeOverHang - 2.997mRearOverHang)/2 = -0.229m
+StateFunction=Mod[Value+(Delta*SpeedoMeter*32/(6.2831853*0.950)),32]
+RefreshRate=0.01
+RotateYFunction=3.142
+
+;Cruceta
+[Object]
+States=Car1_PushRod32.B3D,Car1_PushRod31.B3D,Car1_PushRod30.B3D,Car1_PushRod29.B3D,Car1_PushRod28.B3D,Car1_PushRod27.B3D,Car1_PushRod26.B3D,Car1_PushRod25.B3D,Car1_PushRod24.B3D,Car1_PushRod23.B3D,Car1_PushRod22.B3D,Car1_PushRod21.B3D,Car1_PushRod20.B3D,Car1_PushRod19.B3D,Car1_PushRod18.B3D,Car1_PushRod17.B3D,Car1_PushRod16.B3D,Car1_PushRod15.B3D,Car1_PushRod14.B3D,Car1_PushRod13.B3D,Car1_PushRod12.B3D,Car1_PushRod11.B3D,Car1_PushRod10.B3D,Car1_PushRod9.B3D,Car1_PushRod8.B3D,Car1_PushRod7.B3D,Car1_PushRod6.B3D,Car1_PushRod5.B3D,Car1_PushRod4.B3D,Car1_PushRod3.B3D,Car1_PushRod2.B3D,Car1_PushRod1.B3D,Car1_PushRod32.B3D
+Position=+0.000,+0.89,+1.3                        ;Z = (2.54mForeOverHang - 2.997mRearOverHang)/2 = -0.229m
+StateFunction=Mod[Value+(Delta*SpeedoMeter*32/(6.2831853*0.950)),32]
+RefreshRate=0.01
+RotateYFunction=3.142
+
+;RODAJES========================================================================
+
+;Rodaje Central-----------------------------------------------------------------
+
+[object]
+States=rueda 3.csv
+Position=0,0.88,1.05
+RotateXFunction = value + delta * speedometer / 0.5
+
+[object]
+States=rueda 2.csv
+Position=0,0.88,3.15
+RotateXFunction = value + delta * speedometer / 0.5
+
+[object]
+States=rueda 5.csv
+Position=0,0.88,-1.05
+RotateXFunction = value + delta * speedometer / 0.5
+
+;Humo===========================================================================
+
+[Object]
+States=Car1_Funnel1.B3D,Car1_Funnel2.B3D,Car1_Funnel6.B3D,Car1_Funnel5.B3D,Car1_Funnel4.B3D,Car1_Funnel3.B3D
+Position=+0.000,+0.7,+8.75                       ;Z = (2.54mForeOverHang - 2.997mRearOverHang)/2 = -0.229m
+StateFunction=If [powerNotch >0,if [speed >-1 & speed <1,1,if [speed <-1,3,4]],if [speed >-1 & speed <1,0,if [speed <-1,2,5]]]
+TextureShiftYDirection=0,-1
+TextureShiftYFunction=if[speed <=-15,0.8,if[speed <=-5,0.4,if[speed <=-1,0.2,if[speed <=1,0.1,if[speed <=5,0.2,if[speed <=15,0.4,0.8]]]]]] * time
+RotateYFunction=3.142

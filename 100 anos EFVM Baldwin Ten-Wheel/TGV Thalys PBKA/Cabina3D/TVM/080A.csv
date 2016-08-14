@@ -1,0 +1,14 @@
+;;TVMA2;;
+CreateMeshBuilder,,,,,
+AddVertex,-0.125, 2.244, 7.092,
+AddVertex,-0.125, 2.203, 7.06,
+AddVertex,-0, 2.244, 7.092,
+AddVertex,-0, 2.203, 7.06,
+Addface,1,0,2,3,
+Scale,0.859,1,1
+LoadTexture,080A.png,,,
+SetTextureCoordinates,0,0,0,,
+SetTextureCoordinates,1,0,1,,
+SetTextureCoordinates,2,1,0,,
+SetTextureCoordinates,3,1,1,,
+SetEmissiveColor,255,255,255,

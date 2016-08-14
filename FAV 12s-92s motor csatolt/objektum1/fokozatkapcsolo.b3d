@@ -1,0 +1,105 @@
+;Fokozatkapcsoló talp
+
+[MeshBuilder]
+Cylinder 20, 0.030,0.030,0.020
+Color 30,30,30
+EmissiveColor 15,15,15
+Translate 0,1.641,0
+
+;Fokozatkapcsoló alsó gyûrû 0
+
+[MeshBuilder]
+Cylinder 20, 0.033,0.033,0.005
+Color 70,38,0
+EmissiveColor 35,19,0
+Translate 0,1.653,0
+
+;Fokozatkapcsoló alsó gyûrû 1
+
+[MeshBuilder]
+Cylinder 20, 0.031,0.031,0.005
+Color 70,38,0
+EmissiveColor 35,19,0
+Translate 0,1.658,0
+
+;Fokozatkapcsoló függ csonk
+
+[MeshBuilder]
+Cylinder 20, 0.027,0.027,0.040
+Color 70,38,0
+EmissiveColor 35,19,0
+Translate 0,1.665,0
+
+;Fokozatkapcsoló felsõ gyûrû
+
+[MeshBuilder]
+Cylinder 20, 0.031,0.031,0.005
+Color 70,38,0
+EmissiveColor 35,19,0
+Translate 0,1.687,0
+
+;Fokozatkapcsoló tengely
+
+[MeshBuilder]
+Cylinder 4, 0.013,0.013,0.020
+Color 30,30,30
+EmissiveColor 15,15,15
+Translate 0,1.682,0
+
+[Meshbuilder] ; Fokozatkapcsoló kar
+Cube 0.0025,0.030,0.015
+Rotate 0,0,1,90
+Rotate 0,1,0,46
+Color 70,38,0
+EmissiveColor 35,19,0
+Translate -0.030,1.687,0.030
+
+[Meshbuilder] ; Fokozatkapcsoló kar
+Cube 0.0025,0.045,0.015
+Rotate 0,0,1,60
+Rotate 0,1,0,46
+Color 70,38,0
+EmissiveColor 35,19,0
+Translate -0.0765,1.709,0.078
+
+[Meshbuilder] ; Fokozatkapcsoló felsõ gyûrû a kar végén
+Cylinder 20, 0.021,0.021,0.005
+Color 70,38,0
+EmissiveColor 35,19,0
+Translate -0.113,1.731,0.117
+
+[Meshbuilder] ; Fokozatkapcsoló nyél 0
+Cylinder 20, 0.015,0.014,0.005
+Color 111,55,0
+EmissiveColor 55,23,0
+Translate -0.113,1.735,0.117
+
+[Meshbuilder] ; Fokozatkapcsoló nyél 1
+Cylinder 20, 0.015,0.015,0.005
+Color 111,55,0
+EmissiveColor 55,23,0
+Translate -0.113,1.740,0.117
+
+[Meshbuilder] ; Fokozatkapcsoló nyél 2
+Cylinder 20, 0.010,0.015,0.025
+Color 111,55,0
+EmissiveColor 55,23,0
+Translate -0.113,1.755,0.117
+
+[Meshbuilder] ; Fokozatkapcsoló nyél 3
+Cylinder 20, 0.015,0.010,0.055
+Color 111,55,0
+EmissiveColor 55,23,0
+Translate -0.113,1.795,0.117
+
+[Meshbuilder] ; Fokozatkapcsoló nyél 4
+Cylinder 20, 0.013,0.015,0.005
+Color 111,55,0
+EmissiveColor 55,23,0
+Translate -0.113,1.825,0.117
+
+[Meshbuilder] ; Fokozatkapcsoló nyél 4
+Cylinder 20, 0.010,0.013,0.002
+Color 111,55,0
+EmissiveColor 55,23,0
+Translate -0.113,1.8285,0.117 ;-------------------------------------

@@ -1,0 +1,15 @@
+;Bufr ~StandardGaug Frht|Psgr Loco|MU|Wagn ~UI=UnionInternatlVer endA|B
+;Set At *.ANIMATED [Include] Position=+0.000,+0.000,+|-0.500*CarsLength
+;DimX=Cntr~Cntr=1.727m,DimY=Cntr~Rail=1.000m@Load,DimZ=Face~Beam=0.620m
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;BVE|OBTS files have no registered copyrights|patents|trademarks,
+;are public domain, & free to copy|distribute|modify|use at will.
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+[OBJECT]                      ;Bufr_SidL
+States=Bufr~SGxx~UI1x_Assy.B3D
+Position=-0.864,+1.000,+0.000
+RotateYFunction=3.142
+[OBJECT]                      ;Bufr_SidR
+States=Bufr~SGxx~UI1x_Assy.B3D
+Position=+0.864,+1.000,+0.000
+RotateYFunction=3.142

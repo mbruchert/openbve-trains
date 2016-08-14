@@ -1,0 +1,15 @@
+[object]
+States=Bogie 2.csv
+Position=0,-0.1,0
+
+;Ruedas
+
+[object]
+Position = 0, 0.44, 1.43
+States=rueda.csv
+RotateXFunction = value + delta * speedometer / 0.5
+
+[object]
+Position = 0, 0.44, -1.43
+States=rueda.csv
+RotateXFunction = value + delta * speedometer / 0.5

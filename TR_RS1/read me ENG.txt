@@ -1,0 +1,46 @@
+__________________________
+RS1 fOR Open BVE
+
+a Model by Tobi´s Railroads
+tobisrailraods.funpic.de
+__________________________
+
+
+Installation:
+
+To install copy the
+Folder TR_RS1 in the Train folder
+in openBVE. Now, the vehicle should
+Be ready to drive.
+
+Repaints:
+In the extensions folder is a
+Folder called "Repaint- Vorlagen".
+There are the vehicle textures in gray.
+This textures can you change.
+Then copy it into the Extensions folder
+and replace the old textures.
+Note:
+If you want the original texture:
+There are the original Textures in 
+the repaint folder.
+
+Extras:
+In the vehicle-folder is a
+Program called Passanger Manager.
+With this, you can change the number of passengers
+in the train.You can findVarious different templates
+which you can use. 
+
+Copyright:
+
+This Model is under a
+Creative Commons license:
+
+Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) 
+http://creativecommons.org/licenses/by-nc-sa/4.0/
+
+
+
+
+version: 0.1

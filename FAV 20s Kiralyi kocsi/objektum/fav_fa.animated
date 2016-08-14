@@ -1,0 +1,134 @@
+[Object]; Fav
+Position = 0,0,0
+States = fav_fafel.b3d, fav_fa.b3d,fav_fafel.b3d
+StateFunction = if[pluginstate[0] == 1, 3, ReverserNotch + 1]
+;Ajtók
+;bal oldali ajtók
+[Object]
+Position = -0.055,0,-3.26
+States = Ajtok/ajto_bal_oldalt1fel.b3d,Ajtok/ajto_bal_oldalt1.b3d,Ajtok/ajto_bal_oldalt1fel.b3d
+TranslateZFunction = 0.7 * leftdoors[0]
+StateFunction = if[pluginstate[0] == 1, 3, ReverserNotch + 1]
+[Object]
+Position = -0.055,0, 3.26
+States = Ajtok/ajto_bal_oldalt2fel.b3d,Ajtok/ajto_bal_oldalt2.b3d,Ajtok/ajto_bal_oldalt2fel.b3d
+TranslateZFunction = -0.7 * leftdoors[0]
+StateFunction = if[pluginstate[0] == 1, 3, ReverserNotch + 1]
+;jobb oldali ajtók
+[Object]
+Position =  0.055,0,-3.26
+States = Ajtok/ajto_jobb_oldalt1fel.b3d,Ajtok/ajto_jobb_oldalt1.b3d,Ajtok/ajto_jobb_oldalt1fel.b3d
+TranslateZFunction = 0.7 * rightdoors[0]
+StateFunction = if[pluginstate[0] == 1, 3, ReverserNotch + 1]
+[Object]
+Position =  0.055,0, 3.26
+States = Ajtok/ajto_jobb_oldalt2fel.b3d,Ajtok/ajto_jobb_oldalt2.b3d,Ajtok/ajto_jobb_oldalt2fel.b3d
+TranslateZFunction = -0.7 * rightdoors[0]
+StateFunction = if[pluginstate[0] == 1, 3, ReverserNotch + 1]
+;belsõ
+[Object]
+Position = -0.005,-0.01,1.75
+States = Ajtok/bjfel.b3d,Ajtok/bj.b3d,Ajtok/bjfel.b3d
+TranslateXFunction = if[doors ==  0, if[value > 0, value - 0.003600, 0], if[value < 0.32, value + 0.002000, 0.32]] 
+StateFunction = if[pluginstate[0] == 1, 3, ReverserNotch + 1]
+[Object]
+Position =  0.005,-0.01,1.75
+States = Ajtok/bbfel.b3d,Ajtok/bb.b3d,Ajtok/bbfel.b3d
+TranslateXFunction = if[doors == 0, if[value < 0, value + 0.003800, 0], if[value > -0.32, value - 0.002800, -0.32]] 
+StateFunction = if[pluginstate[0] == 1, 3, ReverserNotch + 1]
+[Object]
+Position = -0.005,-0.01,-1.75
+States = Ajtok/bjfelh.b3d,Ajtok/bj.b3d,Ajtok/bjfelh.b3d
+TranslateXFunction = if[doors ==  0, if[value > 0, value - 0.003200, 0], if[value < 0.32, value + 0.002400, 0.32]] 
+StateFunction = if[pluginstate[0] == 1, 3, ReverserNotch + 1]
+[Object]
+Position =  0.005,-0.01,-1.75
+States = Ajtok/bbfelh.b3d,Ajtok/bb.b3d,Ajtok/bbfelh.b3d
+TranslateXFunction = if[doors == 0, if[value < 0, value + 0.003400, 0], if[value > -0.32, value - 0.001900, -0.32]] 
+StateFunction = if[pluginstate[0] ==  1, 3, ReverserNotch + 1]
+[object]; Elsõ vezér ajtó
+position =  -0.45,0.935,3.899
+States = Ajtok/vezelsofel.b3d,Ajtok/vezelso.b3d,Ajtok/vezelsofel.b3d
+RotateYFunction = -1.305 * leftdoors[0]
+StateFunction = if[pluginstate[0] == 1, 3, ReverserNotch + 1]
+[object]; Hátsó vezér ajtó
+position =   0.45,0.935,-3.899
+States = Ajtok/vezhatsofel.b3d,Ajtok/vezhatso.b3d,Ajtok/vezhatsofel.b3d
+RotateYFunction = -1.305 * leftdoors[0]
+StateFunction = if[pluginstate[0] == 1, 3, ReverserNotch + 1]
+[Object];Áramszedõ elsõ
+Position = 0,0.060,4.68
+States = Aramszedo/Szedo.b3d
+TranslateYFunction = if[reverserNotch - 1 == 0, if[value < 0, value + 0.003800, 0], if[value > -0.20, value - 0.002800, -0.20]] 
+[Object];Áramszedõ hátsó
+Position = 0,0.060,-4.68
+States = Aramszedo/Szedo.b3d
+TranslateYFunction = if[reverserNotch + 1 == 0, if[value < 0, value + 0.003200, 0], if[value > -0.20, value - 0.002200, -0.20]]
+[object] ;menetkar
+states = Karok/fokozatkapcsolofel.b3d,Karok/fokozatkapcsolo.b3d,Karok/fokozatkapcsolofel.b3d
+position = -0.585,1.837,4.850
+RotateYFunction = if[brakeNotch > 0 & brakeNotch <= 3, max[value-delta/(brakeNotch/3)*0.52*brakeNotch, 0.52*brakeNotch], if[brakeNotch > 3, 0.52*3, -0.26*powerNotch]]
+rotateYdamping = 20, 0.3
+StateFunction = if[pluginstate[0] == 1, 3, ReverserNotch + 1]
+[object] ;menetkar hátsó
+states = Karok/fokozatkapcsolohfel.b3d,Karok/fokozatkapcsoloh.b3d,Karok/fokozatkapcsolohfel.b3d
+position =  0.585,1.837,-4.850
+StateFunction = if[pluginstate[0] == 1, 3, ReverserNotch + 1]
+[object] ;reverse
+states = Karok/reversefel.b3d,Karok/reverse.b3d,Karok/reversefel.b3d
+position = -0.785,1.837,4.793
+rotateYfunction = 1.75 * reverserNotch
+rotateYdirection = 0, -1, 0
+rotateYdamping = 05,8.8
+StateFunction = if[pluginstate[0] == 1, 3, ReverserNotch + 1]
+[object] ;reverse hátsó
+states = Karok/reversehfel.b3d,Karok/reverseh.b3d,Karok/reversehfel.b3d
+position = 0.785,1.837,-4.793
+StateFunction = if[pluginstate[0] == 1, 3, ReverserNotch + 1]
+[Object]; Kézifék
+States = Karok/kezifekfel.b3d,Karok/kezifek.b3d,Karok/kezifekfel.b3d
+Position = 0.610,1.955,4.375
+RotateZFunction = if[emergencyBrake != 1 & brakeNotch > 2, -6.30*(brakeNotch-2), if[emergencyBrake == 1, -6.30*(brakeNotch-2)-15.74, 0]]
+rotateZdamping = 3,3.180
+StateFunction = if[pluginstate[0] == 1, 3, ReverserNotch + 1]
+[Object]; Kézifék hátsó
+States = Karok/kezifekhfel.b3d,Karok/kezifekh.b3d,Karok/kezifekhfel.b3d
+Position = -0.610,1.955,-4.375
+StateFunction = if[pluginstate[0] == 1, 3, ReverserNotch + 1]
+[Object]; Kardán fogaskerék
+States = Karok/fogasfel.b3d,Karok/fogas.b3d,Karok/fogasfel.b3d
+Position = 0.610,1.906,4.507
+RotateYFunction = if[emergencyBrake != 1 & brakeNotch > 2, 6.30*(brakeNotch-2), if[emergencyBrake == 1, 6.30*(brakeNotch-2)+15.74, 0]]
+rotateYdamping = 3,3.180
+StateFunction = if[pluginstate[0] == 1, 3, ReverserNotch + 1]
+[Object]; Kardán fogaskerék hátsó
+States = Karok/fogashfel.b3d,Karok/fogash.b3d,Karok/fogashfel.b3d
+Position = -0.610,1.906,-4.507
+StateFunction = if[pluginstate[0] == 1, 3, ReverserNotch + 1]
+[Object]; Kardán
+States = Karok/kardanfel.b3d,Karok/kardan.b3d,Karok/kardanfel.b3d
+Position = 0.610,1.752,4.450
+RotateYFunction = if[emergencyBrake != 1 & brakeNotch > 2, -6.30*(brakeNotch-2), if[emergencyBrake == 1, -6.30*(brakeNotch-2)-15.74, 0]]
+rotateYdamping = 3,3.180
+StateFunction = if[pluginstate[0] == 1, 3, ReverserNotch + 1]
+[Object]; kardán hátsó
+States = Karok/kardanhfel.b3d,Karok/kardanh.b3d,Karok/kardanhfel.b3d
+Position = -0.610,1.752,-4.450
+StateFunction = if[pluginstate[0] == 1, 3, ReverserNotch + 1]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

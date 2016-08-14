@@ -1,0 +1,227 @@
+;Domo============================================================
+
+;Derecho---------------------------------------------------------
+
+[MeshBuilder]
+Vertex 0.4, 4.635, -1
+Vertex 0.1, 4.65,  -1
+Vertex 0.1, 4.65,   1
+Vertex 0.4, 4.635,  1
+face2 0,1,2,3
+color 150,150,150
+
+[MeshBuilder]
+Vertex 0.6, 4.615, -1
+Vertex 0.4, 4.635, -1
+Vertex 0.4, 4.635,  1
+Vertex 0.6, 4.615,  1
+face2 0,1,2,3
+color 150,150,150
+
+[MeshBuilder]
+Vertex 0.8, 4.585, -1
+Vertex 0.6, 4.615, -1
+Vertex 0.6, 4.615,  1
+Vertex 0.8, 4.585,  1
+face2 0,1,2,3
+color 150,150,150
+
+[MeshBuilder]
+Vertex 1,   4.535, -1
+Vertex 0.8, 4.585, -1
+Vertex 0.8, 4.585,  1
+Vertex 1,   4.535,  1
+face2 0,1,2,3
+color 150,150,150
+
+[MeshBuilder]
+Vertex 1,    4.535,  1
+Vertex 1.17, 4.46,   1
+Vertex 1.17, 4.46,  -1
+Vertex 1,    4.535, -1
+face2 0,1,2,3
+color 150,150,150
+
+[MeshBuilder]
+Vertex 1.17, 4.46,  1
+Vertex 1.25, 4.41,  1
+Vertex 1.25, 4.41, -1
+Vertex 1.17, 4.46, -1
+face2 0,1,2,3
+color 150,150,150
+
+[MeshBuilder]
+Vertex 1.25, 4.41,  1
+Vertex 1.33, 4.34,  1
+Vertex 1.33, 4.34, -1
+Vertex 1.25, 4.41, -1
+face2 0,1,2,3
+color 150,150,150
+
+[MeshBuilder]
+Vertex 1.33,  4.34,  1
+Vertex 1.375, 4.29,  1
+Vertex 1.375, 4.29, -1
+Vertex 1.33,  4.34, -1
+face2 0,1,2,3
+color 150,150,150
+
+[MeshBuilder]
+Vertex 1.375, 4.29,  1
+Vertex 1.435, 4.16,  1
+Vertex 1.435, 4.16, -1
+Vertex 1.375, 4.29, -1
+face2 0,1,2,3
+color 150,150,150
+
+[MeshBuilder]
+Vertex 1.435, 4.16,  1
+Vertex 1.45,  4.07,  1
+Vertex 1.45,  4.07, -1
+Vertex 1.435, 4.16, -1
+face2 0,1,2,3
+color 150,150,150
+
+[MeshBuilder]
+Vertex 1.45, 4.07,  1
+Vertex 1.45, 3.7,   1
+Vertex 1.45, 3.7,  -1
+Vertex 1.45, 4.07, -1
+face2 0,1,2,3
+color 150,150,150
+
+[MeshBuilder]
+Vertex  0.1, 4.65, -1
+Vertex -0.1, 4.65, -1
+Vertex -0.1, 4.65,  1
+Vertex  0.1, 4.65,  1
+face2 0,1,2,3
+color 150,150,150
+
+;izquierdo-------------------------------------------------------
+
+[MeshBuilder]
+Vertex -0.4, 4.635, -1
+Vertex -0.1, 4.65,  -1
+Vertex -0.1, 4.65,   1
+Vertex -0.4, 4.635,  1
+face2 3,2,1,0
+color 150,150,150
+
+[MeshBuilder]
+Vertex -0.6, 4.615, -1
+Vertex -0.4, 4.635, -1
+Vertex -0.4, 4.635,  1
+Vertex -0.6, 4.615,  1
+face2 3,2,1,0
+color 150,150,150
+
+[MeshBuilder]
+Vertex -0.8, 4.585, -1
+Vertex -0.6, 4.615, -1
+Vertex -0.6, 4.615,  1
+Vertex -0.8, 4.585,  1
+face2 3,2,1,0
+color 150,150,150
+
+[MeshBuilder]
+Vertex -1,   4.535, -1
+Vertex -0.8, 4.585, -1
+Vertex -0.8, 4.585,  1
+Vertex -1,   4.535,  1
+face2 3,2,1,0
+color 150,150,150
+
+[MeshBuilder]
+Vertex -1,    4.535,  1
+Vertex -1.17, 4.46,   1
+Vertex -1.17, 4.46,  -1
+Vertex -1,    4.535, -1
+face2 3,2,1,0
+color 150,150,150
+
+[MeshBuilder]
+Vertex -1.17, 4.46,  1
+Vertex -1.25, 4.41,  1
+Vertex -1.25, 4.41, -1
+Vertex -1.17, 4.46, -1
+face2 3,2,1,0
+color 150,150,150
+
+[MeshBuilder]
+Vertex -1.25, 4.41,  1
+Vertex -1.33, 4.34,  1
+Vertex -1.33, 4.34, -1
+Vertex -1.25, 4.41, -1
+face2 3,2,1,0
+color 150,150,150
+
+[MeshBuilder]
+Vertex -1.33,  4.34,  1
+Vertex -1.375, 4.29,  1
+Vertex -1.375, 4.29, -1
+Vertex -1.33,  4.34, -1
+face2 3,2,1,0
+color 150,150,150
+
+[MeshBuilder]
+Vertex -1.375, 4.29,  1
+Vertex -1.435, 4.16,  1
+Vertex -1.435, 4.16, -1
+Vertex -1.375, 4.29, -1
+face2 3,2,1,0
+color 150,150,150
+
+[MeshBuilder]
+Vertex -1.435, 4.16,  1
+Vertex -1.45,  4.07,  1
+Vertex -1.45,  4.07, -1
+Vertex -1.435, 4.16, -1
+face2 3,2,1,0
+color 150,150,150
+
+[MeshBuilder]
+Vertex -1.45, 4.07,  1
+Vertex -1.45, 3.7,   1
+Vertex -1.45, 3.7,  -1
+Vertex -1.45, 4.07, -1
+face2 0,1,2,3
+color 150,150,150
+
+[MeshBuilder]
+Vertex -0.1, 4.65, -1
+Vertex  0.1, 4.65, -1
+Vertex  0.1, 4.65,  1
+Vertex -0.1, 4.65,  1
+face2 3,2,1,0
+color 150,150,150
+
+;Frentes=========================================================
+
+[MeshBuilder]
+Vertex  1.45, 4.65, 1
+Vertex -1.45, 4.65, 1
+Vertex -1.45, 3.7,  1
+Vertex  1.45, 3.7,  1
+face2 0,1,2,3
+[Texture]
+Load dome.png
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+Transparent 0,0,255
+
+[MeshBuilder]
+Vertex -1.45, 4.65, -1
+Vertex  1.45, 4.65, -1
+Vertex  1.45, 3.7,  -1
+Vertex -1.45, 3.7,  -1
+face2 0,1,2,3
+[Texture]
+Load dome.png
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+Transparent 0,0,255

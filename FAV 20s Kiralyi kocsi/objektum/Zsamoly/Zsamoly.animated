@@ -1,0 +1,28 @@
+[Object];   Kerék jobb e
+Position = 0.7175,0.4,0.6375
+States = j nagy kerek.b3d
+RotateXFunction = value + mod [(speedometer * delta), 4] / 4 * 3.14 * 2
+
+[Object];   Kerék jobb h
+Position = 0.7175,0.3,-0.6375
+States = j kerek.b3d
+RotateXFunction = value + mod [(speedometer * delta), 3] / 3 * 3.14 * 2
+
+[Object];   Kerék bal e
+Position = -0.7175,0.4,0.6375
+States = b nagy kerek.b3d
+RotateXFunction = value + mod [(speedometer * delta), 4] / 4 * 3.14 * 2
+
+[Object];   Kerék bal h
+Position = -0.7175,0.3,-0.6375
+States = b kerek.b3d
+RotateXFunction = value + mod [(speedometer * delta), 3] / 3 * 3.14 * 2
+
+[Object];   Zsamoly
+Position = 0,0,0
+States = Zsamoly.b3d
+
+[Object]; Lámpa 
+Position = 0,1.265, 0.99
+States = Lampak/Lamphe.b3d, Lampak/Lamp0e.b3d,Lampak/Lampee.b3d
+StateFunction = if[pluginstate[0] == 1, 3, ReverserNotch + 1]

@@ -1,0 +1,25 @@
+
+
+
+;Right Side sign
+
+[meshbuilder]
+vertex -1.3510, 2.62, -4.74
+vertex -1.3510, 2.62, -5.96
+vertex -1.3510, 2.82, -5.96
+vertex -1.3510, 2.82, -4.74
+face2 0,1,2,3
+
+[Texture]
+Load Sign 3.png
+Coordinates 0, 1,1
+Coordinates 1, 0,1
+Coordinates 2, 0,0
+Coordinates 3, 1,0
+Transparent 0, 0, 255
+EmissiveColor 250, 250, 250
+
+
+
+
+Translateall 0,0,7.875

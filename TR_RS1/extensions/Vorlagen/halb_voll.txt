@@ -1,0 +1,200 @@
+[Object]
+States = passangers/man02.b3d
+Position = -0.3,1,-10.5
+RotateYFunction = 380.1
+
+[Object]
+States = passangers/man01.b3d
+Position = 1.45,1,-10.5
+RotateYFunction = 380.1
+
+[Object]
+States = passangers/man03.b3d
+Position = 0.25,1,-10
+
+[Object]
+States = passangers/man01.b3d
+Position = -1.45,1,-10
+
+[Object]
+States = passangers/man03.b3d
+Position = -0.3,1,-6.5
+RotateYFunction = 380.1
+
+[Object]
+States = passangers/man01.b3d
+Position = 1.45,1,-6.5
+RotateYFunction = 380.1
+
+[Object]
+States = passangers/man01.b3d
+Position = 0.25,1,-5.5
+
+[Object]
+States = passangers/man02.b3d
+Position = -1.45,1,-5.5
+
+[Object]
+States = passangers/man02.b3d
+Position = -0.3,1,-4.4
+RotateYFunction = 380.1
+
+[Object]
+States = passangers/man02.b3d
+Position = 1.45,1,-4.4
+RotateYFunction = 380.1
+
+[Object]
+States = passangers/man03.b3d
+Position = 0.25,1,-3.4
+
+[Object]
+States = passangers/man04.b3d
+Position = -1.45,1,-3.4
+
+[Object]
+States = passangers/man01.b3d
+Position = -0.3,1,-2
+RotateYFunction = 380.1
+
+[Object]
+States = passangers/man03.b3d
+Position = 1.45,1,-2
+RotateYFunction = 380.1
+
+[Object]
+States = passangers/man04.b3d
+Position = 0.25,1,-1
+
+[Object]
+States = passangers/man04.b3d
+Position = -1.45,1,-1
+
+[Object]
+States = passangers/man03.b3d
+Position = -0.3,1,0.1
+RotateYFunction = 380.1
+
+[Object]
+States = passangers/man03.b3d
+Position = 1.45,1,0.1
+RotateYFunction = 380.1
+
+[Object]
+States = passangers/man02.b3d
+Position = 0.25,1,1.1
+
+[Object]
+States = passangers/man01.b3d
+Position = -1.45,1,1.1
+
+[Object]
+States = passangers/man01.b3d
+Position = -0.3,1,2
+RotateYFunction = 380.1
+
+[Object]
+States = passangers/man03.b3d
+Position = 1.45,1,2
+RotateYFunction = 380.1
+
+[Object]
+States = passangers/man03.b3d
+Position = 0.25,1,3
+
+[Object]
+States = passangers/man02.b3d
+Position = -1.45,1,3
+
+[Object]
+States = passangers/man02.b3d
+Position = -0.3,1,4.1
+RotateYFunction = 380.1
+
+[Object]
+States = passangers/man02.b3d
+Position = 1.45,1,4.1
+RotateYFunction = 380.1
+
+[Object]
+States = passangers/man01.b3d
+Position = 0.25,1,4.9
+
+[Object]
+States = passangers/man01.b3d
+Position = -1.45,1,4.9
+
+[Object]
+States = passangers/man03.b3d
+Position = -0.3,1,8
+RotateYFunction = 380.1
+
+[Object]
+States = passangers/man04.b3d
+Position = 1.45,1,8
+RotateYFunction = 380.1
+
+[Object]
+States = passangers/man01.b3d
+Position = 0.25,1,9
+
+[Object]
+States = passangers/man03.b3d
+Position = -1.45,1,9
+
+
+[Object]
+States = passangers/man01_stay.b3d
+Position = 0,1,-8
+
+
+[Object]
+States = passangers/man01_stay.b3d
+Position = 1,1,-8
+RotateYFunction = 1.2
+
+
+[Object]
+States = passangers/man01_stay.b3d
+Position = -1,1,-8
+RotateYFunction = -1.2
+
+
+[Object]
+States = passangers/man01_stay.b3d
+Position = 0,1,7
+
+
+[Object]
+States = passangers/man01_stay.b3d
+Position = 1,1,7
+RotateYFunction = 1.2
+
+
+[Object]
+States = passangers/man01_stay.b3d
+Position = -1,1,7
+RotateYFunction = -1.2
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

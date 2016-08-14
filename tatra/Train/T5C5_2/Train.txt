@@ -1,0 +1,11 @@
+﻿Tátra T5C5
+
+2 kocsis, openBVE-hez
+
+Hossza: 15.640 mm
+Átlagos tömeg: 18.500 kg
+Tengelyterhelés: 6.375 kg
+Tapadási arány: 100 %
+Vmax: 50 km/h
+
+Készítette: Csukló, *911*, pre-zli, Kisember87, mamutsegg, phontanka

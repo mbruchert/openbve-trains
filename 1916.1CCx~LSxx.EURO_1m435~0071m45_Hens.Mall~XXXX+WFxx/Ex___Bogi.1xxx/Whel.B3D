@@ -1,0 +1,147 @@
+﻿;WHEELSET,1"Flang,20~1 TredSlop,10spoke
+;Gaug+Diam Per SCALEALL Last Line Below
+;~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[MESHBUILDER]                      ;Axle
+Cylinder 24,0.182,0.182,2.672
+Rotate 0,0,1,+90.0
+Color 079,063,063;Rust_Dark
+
+[MESHBUILDER]                      ;Hubs
+Cylinder 24,+0.243,+0.243,+0.198
+Rotate 0,0,1,-90.0
+Translate -1.036,+0.000,+0.000
+Color 111,095,095;Rust_Lite
+[MESHBUILDER]
+Cylinder 24,+0.243,+0.243,+0.198
+Rotate 0,0,1,-90.0
+Translate +1.036,+0.000,+0.000
+Color 111,095,095;Rust_Lite
+
+[MESHBUILDER]                      ;Tred_DiaI
+Cylinder 24,-0.877,-0.877,-0.157
+Rotate 0,0,1,-90.0
+Translate -1.052,+0.000,+0.000
+;Color 139,139,127;Gray_Medm
+Color 067,067,059;Gray_Dark
+[MESHBUILDER]
+Cylinder 24,-0.877,-0.877,-0.157
+Rotate 0,0,1,-90.0
+Translate +1.052,+0.000,+0.000
+;Color 139,139,127;Gray_Medm
+Color 067,067,059;Gray_Dark
+
+[MESHBUILDER]                      ;Tred_DiaO
+Cylinder 24,-1.000,-0.989,+0.157
+Rotate 0,0,1,-90.0
+Translate -1.052,+0.000,+0.000
+Color 139,139,127;Gray_Medm
+[MESHBUILDER]
+Cylinder 24,-0.989,-1.000,+0.157
+Rotate 0,0,1,-90.0
+Translate +1.052,+0.000,+0.000
+Color 139,139,127;Gray_Medm
+
+[MESHBUILDER]                      ;Tred_SidO
+Cylinder 24,-0.989,-0.877,+0.001
+Rotate 0,0,1,-90.0
+Translate -1.130,+0.000,+0.000
+;Color 139,139,127;GraM
+;Color 067,067,059;GraD
+;Color 191,047,047;RedM
+ Color 251,247,245;Wht
+[MESHBUILDER]
+Cylinder 24,-0.877,-0.989,+0.001
+Rotate 0,0,1,-90.0
+Translate +1.130,+0.000,+0.000
+;Color 139,139,127;GraM
+;Color 067,067,059;GraD
+;Color 191,047,047;RedM
+ Color 251,247,245;Wht
+
+[MESHBUILDER]                      ;Flng_SidI
+Cylinder 24,-0.877,-1.056,+0.001
+Rotate 0,0,1,-90.0
+Translate -0.974,+0.000,+0.000
+;Color 139,139,127;Gray_Medm
+Color 067,067,059;Gray_Dark
+[MESHBUILDER]
+Cylinder 24,-1.056,-0.877,+0.001
+Rotate 0,0,1,-90.0
+Translate +0.974,+0.000,+0.000
+;Color 139,139,127;Gray_Medm
+Color 067,067,059;Gray_Dark
+
+[MESHBUILDER]                      ;Flng_SidO
+Cylinder 24,-1.000,-1.056,+0.012
+Rotate 0,0,1,+90.0
+Translate -0.980,+0.000,+0.000
+Color 135,135,119
+[MESHBUILDER]
+Cylinder 24,-1.056,-1.000,+0.012
+Rotate 0,0,1,+90.0
+Translate +0.980,+0.000,+0.000
+Color 135,135,119
+
+[MESHBUILDER]                      ;Spok_Left
+Cylinder 04,+0.078,+0.078,+1.754
+Rotate 1,0,0,+000.0
+Translate -1.052,+0.000,+0.000
+;Color 135,135,119;Gray_Medm
+Color 067,067,059;Gray_Dark
+[MESHBUILDER]
+Cylinder 04,+0.078,+0.078,+1.754
+Rotate 1,0,0,+036.0
+Translate -1.052,+0.000,+0.000
+;Color 135,135,119;Gray_Medm
+Color 067,067,059;Gray_Dark
+[MESHBUILDER]
+Cylinder 04,+0.078,+0.078,+1.754
+Rotate 1,0,0,+072.0
+Translate -1.052,+0.000,+0.000
+;Color 135,135,119;Gray_Medm
+Color 067,067,059;Gray_Dark
+[MESHBUILDER]
+Cylinder 04,+0.078,+0.078,+1.754
+Rotate 1,0,0,+108.0
+Translate -1.052,+0.000,+0.000
+;Color 135,135,119;Gray_Medm
+Color 067,067,059;Gray_Dark
+[MESHBUILDER]
+Cylinder 04,+0.078,+0.078,+1.754
+Rotate 1,0,0,+144.0
+Translate -1.052,+0.000,+0.000
+;Color 135,135,119;Gray_Medm
+Color 067,067,059;Gray_Dark
+
+[MESHBUILDER]                      ;Spok_Rght
+Cylinder 04,+0.078,+0.078,+1.754
+Rotate 1,0,0,+000.0
+Translate +1.052,+0.000,+0.000
+;Color 135,135,119;Gray_Medm
+Color 067,067,059;Gray_Dark
+[MESHBUILDER]
+Cylinder 04,+0.078,+0.078,+1.754
+Rotate 1,0,0,+036.0
+Translate +1.052,+0.000,+0.000
+;Color 135,135,119;Gray_Medm
+Color 067,067,059;Gray_Dark
+[MESHBUILDER]
+Cylinder 04,+0.078,+0.078,+1.754
+Rotate 1,0,0,+072.0
+Translate +1.052,+0.000,+0.000
+;Color 135,135,119;Gray_Medm
+Color 067,067,059;Gray_Dark
+[MESHBUILDER]
+Cylinder 04,+0.078,+0.078,+1.754
+Rotate 1,0,0,+108.0
+Translate +1.052,+0.000,+0.000
+;Color 135,135,119;Gray_Medm
+Color 067,067,059;Gray_Dark
+[MESHBUILDER]
+Cylinder 04,+0.078,+0.078,+1.754
+Rotate 1,0,0,+144.0
+Translate +1.052,+0.000,+0.000
+;Color 135,135,119;Gray_Medm
+Color 067,067,059;Gray_Dark
+
+SCALEALL +0.718,+0.465,+0.465      ;DimX=+0.5*Gaug,DimY=+0.5*Diam,DimZ=+0.5*Diam

@@ -1,0 +1,27 @@
+CreateMeshBuilder,
+Addvertex, -1.1, 1.35, 2.3
+Addvertex, -1.1, 1.35,-2.3
+Addvertex, -1.1, 0,  -2.3
+Addvertex, -1.1, 0,   2.3
+Addface2, 0,1,2,3
+GenerateNormals
+LoadTexture, Bogie 2.png
+SetTextureCoordinates, 0,1,0
+SetTextureCoordinates, 1,0,0
+SetTextureCoordinates, 2,0,1
+SetTextureCoordinates, 3,1,1
+SetDecalTransparentColor, 255,255,255
+
+CreateMeshBuilder,
+Addvertex, 1.1, 1.35, -2.3
+Addvertex, 1.1, 1.35,  2.3
+Addvertex, 1.1, 0,    2.3
+Addvertex, 1.1, 0,   -2.3
+Addface2, 0,1,2,3
+GenerateNormals
+LoadTexture, Bogie 2.png
+SetTextureCoordinates, 0,0,0
+SetTextureCoordinates, 1,1,0
+SetTextureCoordinates, 2,1,1
+SetTextureCoordinates, 3,0,1
+SetDecalTransparentColor, 255,255,255

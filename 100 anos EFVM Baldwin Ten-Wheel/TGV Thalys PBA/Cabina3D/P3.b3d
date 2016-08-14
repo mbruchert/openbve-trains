@@ -1,0 +1,17 @@
+﻿[MeshBuilder]
+Vertex -0.209, 0.128, -0.311
+Vertex 0.206, 0.228, -0.258
+Vertex -0.209, 0.228, -0.258
+Vertex -0.209, 0.128, -0.311
+Vertex 0.206, 0.128, -0.311
+Face 2, 1, 0
+Face 4, 3, 1
+[Texture]
+Load TRACCION3.PNG
+Coordinates 0, 0.0, 1.0
+Coordinates 1, 1.0, 0.0
+Coordinates 2, 0.0, 0.0
+Coordinates 3, 0.0, 1.0
+Coordinates 4, 1.0, 1.0
+ScaleALL 0.4,0.4,0.4
+TranslateALL -0.5,2.05,6.699

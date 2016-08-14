@@ -1,0 +1,36 @@
+﻿
+
+CreateMeshBuilder
+cylinder,20,0.012, 0.012, 0.015
+Translate,0,0.1,0
+SetColor,150,50,50,
+Translate,0,-0.12,0,
+
+CreateMeshBuilder
+cylinder,20,0.019, 0.022, 0.01
+Translate,0,0.1,0
+SetColor,150,50,50,
+Translate,0,-0.1105,0,
+
+CreateMeshBuilder
+cylinder,20,0.012, 0.019, 0.01
+Translate,0,0.1,0
+SetColor,150,50,50,
+Translate,0,-0.125,0,
+
+CreateMeshBuilder
+cylinder,20,0.019, 0.019, 0.02
+Translate,0,0.1,0
+SetColor,150,50,50,
+Translate,0,-0.14,0,
+
+
+CreateMeshBuilder
+cylinder,20,0.007, 0.007, 0.02
+Translate,0,0.1,0
+SetColor,211,205,171,
+Translate,0,-0.115,0,
+
+
+TranslateAll,,-0.01,0,
+

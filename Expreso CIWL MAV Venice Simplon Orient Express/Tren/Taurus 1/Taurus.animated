@@ -1,0 +1,26 @@
+[Object]
+States = Taurus.csv
+
+[INCLUDE]
+Enganche delantero.animated
+Position=0,0,10
+[INCLUDE]
+Enganche trasero.animated
+Position=0,0,-10
+
+[INCLUDE]
+Lampara superior.animated
+Position = 0, 2.7, 9.26
+[INCLUDE]
+Lampara.animated
+Position = 1.17, 1.78, 9.22
+[INCLUDE]
+Lampara.animated
+Position = -1.17, 1.78, 9.22
+
+[INCLUDE]
+rojas 1.animated
+Position = 1.17, 2, 9.22
+[INCLUDE]
+rojas 1.animated
+Position = -1.17, 2, 9.22

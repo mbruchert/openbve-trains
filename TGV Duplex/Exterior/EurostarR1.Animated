@@ -1,0 +1,31 @@
+[Include]
+EurostarR1.csv
+
+[Include]
+bogie.csv
+Position =  0, 0, -4.5
+
+[Include]
+Pasillo.csv
+Position =  0, 0, 0.4
+
+[Include]
+bogiecorto.csv
+Position =  0, 0, 12
+
+[object]
+Position = 0, 0.45, -13.3
+states=ruedas.csv
+RotateXFunction = value + mod[(speedometer * delta),2.7] / 2.7 * 3.14 * 2
+[object]
+Position = 0, 0.45, -10.4
+states=ruedas.csv
+RotateXFunction = value + mod[(speedometer * delta),2.7] / 2.7 * 3.14 * 2
+[object]
+Position = 0, 0.45, 6.1
+states=ruedas.csv
+RotateXFunction = value + mod[(speedometer * delta),2.7] / 2.7 * 3.14 * 2
+[object]
+Position = 0, 0.45, 3.6
+states=ruedas.csv
+RotateXFunction = value + mod[(speedometer * delta),2.7] / 2.7 * 3.14 * 2

@@ -1,0 +1,6 @@
+;Karima
+
+[Meshbuilder]  
+Cylinder 25, 0.35, 0.35, 0.04
+Rotate 0, 0, 2, 90
+Color 48,26,0

@@ -1,0 +1,185 @@
+CreateMeshBuilder
+AddVertex ,1.1 ,0.08 ,-17.72,
+AddVertex ,1.1 ,1.35 ,-17.72,
+AddVertex ,1.1 ,1.35 ,-12.68,
+AddVertex ,1.1 ,0.08 ,-12.68,
+AddFace,0,1,2,3
+GenerateNormals,
+LoadTexture,daisha1.bmp,
+SetTextureCoordinates,0,0,1,
+SetTextureCoordinates,1,0,0,
+SetTextureCoordinates,2,1,0,
+SetTextureCoordinates,3,1,1,
+SetDecalTransparentColor,0,0,0,
+
+CreateMeshBuilder
+AddVertex ,0.9, 0.08, -17.72,
+AddVertex ,0.9, 1.35, -17.72,
+AddVertex ,0.9, 1.35, -12.68,
+AddVertex ,0.9, 0.08, -12.68,
+AddFace2,0,1,2,3
+SetColor,50,50,50,
+GenerateNormals,
+LoadTexture,daisha1.bmp,
+SetTextureCoordinates,0,0,1,
+SetTextureCoordinates,1,0,0,
+SetTextureCoordinates,2,1,0,
+SetTextureCoordinates,3,1,1,
+SetDecalTransparentColor,0,0,0,
+
+CreateMeshBuilder,
+AddVertex, 1.4,  0.5,  -17,
+AddVertex, 1.4,  1.15, -17,
+AddVertex, 1.25, 1.15, -14.8,
+AddVertex, 1.25, 0.5,  -14.8,
+AddFace,0,1,2,3
+GenerateNormals,
+LoadTexture,daisha2.bmp,
+SetTextureCoordinates,0,0,1,
+SetTextureCoordinates,1,0,0,
+SetTextureCoordinates,2,1,0,
+SetTextureCoordinates,3,1,1,
+SetDecalTransparentColor,0,0,0,
+
+CreateMeshBuilder,
+AddVertex, 1.25, 0.5,  -17,
+AddVertex, 1.25, 1.15, -17,
+AddVertex, 1.1,  1.15, -14.8,
+AddVertex, 1.1,  0.5,  -14.8,
+AddFace2,0,1,2,3
+SetColor,50,50,50,
+GenerateNormals,
+LoadTexture,daisha2.bmp,
+SetTextureCoordinates,0,0,1,
+SetTextureCoordinates,1,0,0,
+SetTextureCoordinates,2,1,0,
+SetTextureCoordinates,3,1,1,
+SetDecalTransparentColor,0,0,0,
+
+CreateMeshBuilder,
+AddVertex,1.15, 0.35, -15.05,
+AddVertex,1.4,  1.1,  -15.05,
+AddVertex,1.4,  1.1,  -14.73,
+AddVertex,1.15, 0.35, -14.73,
+AddFace,0,1,2,3
+GenerateNormals,
+LoadTexture,daisha3.bmp,
+SetTextureCoordinates,0,0,1,
+SetTextureCoordinates,1,0,0,
+SetTextureCoordinates,2,1,0,
+SetTextureCoordinates,3,1,1,
+SetDecalTransparentColor,0,0,0,
+
+CreateMeshBuilder,
+AddVertex, 1.1,  0.35, -15.05,
+AddVertex, 1.35, 1.1,  -15.05,
+AddVertex, 1.35, 1.1,  -14.73,
+AddVertex, 1.1,  0.35, -14.73,
+AddFace2,0,1,2,3
+SetColor,50,50,50,
+GenerateNormals,
+LoadTexture,daisha3.bmp,
+SetTextureCoordinates,0,0,1,
+SetTextureCoordinates,1,0,0,
+SetTextureCoordinates,2,1,0,
+SetTextureCoordinates,3,1,1,
+SetDecalTransparentColor,0,0,0,
+
+CreateMeshBuilder,
+AddVertex, -1.1, 0.08, -17.72,
+AddVertex, -1.1, 1.35, -17.72,
+AddVertex, -1.1, 1.35, -12.68,
+AddVertex, -1.1, 0.08, -12.68,
+AddFace,0,3,2,1
+GenerateNormals,
+LoadTexture,daisha1-2.bmp,
+SetTextureCoordinates,0,1,1,
+SetTextureCoordinates,1,1,0,
+SetTextureCoordinates,2,0,0,
+SetTextureCoordinates,3,0,1,
+SetDecalTransparentColor,0,0,0,
+
+CreateMeshBuilder,
+AddVertex, -0.9, 0.08, -17.72,
+AddVertex, -0.9, 1.35, -17.72,
+AddVertex, -0.9, 1.35, -12.68,
+AddVertex, -0.9, 0.08, -12.68,
+AddFace2,0,1,2,3
+SetColor,50,50,50
+GenerateNormals,
+LoadTexture,daisha1-2.bmp,
+SetTextureCoordinates,0,1,1
+SetTextureCoordinates,1,1,0
+SetTextureCoordinates,2,0,0
+SetTextureCoordinates,3,0,1
+SetDecalTransparentColor,0,0,0
+
+CreateMeshBuilder,
+AddVertex, -1.4,  0.5,  -17
+AddVertex, -1.4,  1.15, -17
+AddVertex, -1.25, 1.15, -14.8
+AddVertex, -1.25, 0.5,  -14.8
+AddFace,0,3,2,1
+Translate,0,0,1.4,
+GenerateNormals,
+LoadTexture,daisha2.bmp,
+SetTextureCoordinates,0,1,1,
+SetTextureCoordinates,1,1,0,
+SetTextureCoordinates,2,0,0,
+SetTextureCoordinates,3,0,1,
+SetDecalTransparentColor,0,0,0,
+
+CreateMeshBuilder,
+AddVertex, -1.25 ,0.5,  -17,
+AddVertex, -1.25 ,1.15, -17,
+AddVertex, -1.1  ,1.15, -14.8,
+AddVertex, -1.1  ,0.5,  -14.8,
+AddFace2,0,1,2,3
+SetColor,50,50,50,
+Translate,0,0,1.4,
+GenerateNormals,
+LoadTexture,daisha2.bmp,
+SetTextureCoordinates,0,1,1,
+SetTextureCoordinates,1,1,0,
+SetTextureCoordinates,2,0,0,
+SetTextureCoordinates,3,0,1,
+SetDecalTransparentColor,0,0,0,
+
+CreateMeshBuilder,
+AddVertex, -1.15, 0.35, -15.05,
+AddVertex, -1.4,  1.1,  -15.05,
+AddVertex, -1.4,  1.1,  -14.73,
+AddVertex, -1.15, 0.35, -14.73,
+AddFace,0,3,2,1
+Translate,0,0,-0.62,
+GenerateNormals,
+LoadTexture,daisha3.bmp,
+SetTextureCoordinates,0,0,1,
+SetTextureCoordinates,1,0,0,
+SetTextureCoordinates,2,1,0,
+SetTextureCoordinates,3,1,1,
+SetDecalTransparentColor,0,0,0,
+
+CreateMeshBuilder,
+AddVertex, -1.1,  0.35, -15.05,
+AddVertex, -1.35, 1.1,  -15.05,
+AddVertex, -1.35, 1.1,  -14.73,
+AddVertex, -1.1,  0.35, -14.73,
+AddFace2,0,3,2,1
+SetColor,50,50,50,
+Translate,0,0,-0.62,
+GenerateNormals,
+LoadTexture,daisha3.bmp,
+SetTextureCoordinates,0,0,1,
+SetTextureCoordinates,1,0,0,
+SetTextureCoordinates,2,1,0,
+SetTextureCoordinates,3,1,1,
+SetDecalTransparentColor,0,0,0,
+
+CreateMeshBuilder,
+Cube,0.55,0.5,2.6,
+SetColor,30,30,30,
+Translate,0,0.65,-15.2,
+GenerateNormals,
+
+TranslateAll, 0,0,15.2

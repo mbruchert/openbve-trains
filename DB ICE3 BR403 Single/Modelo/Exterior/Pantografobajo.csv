@@ -1,0 +1,36 @@
+;PANTOGRAFO AC;;
+
+CreateMeshBuilder,
+AddVertex,-0.93, 5.58, 20.1,
+AddVertex,0.93, 5.58, 20.1,
+AddVertex,0.93, 5.12, 20.1,
+AddVertex,-0.93, 5.12, 20.1,
+AddFace,0,1,2,3,
+AddFace,3,2,1,0,
+Translate,0,-1.2,-28.5,
+GenerateNormals,
+
+LoadTexture,PanHead_BW.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 1, 1,
+SetTextureCoordinates,3, 0, 1,
+SetDecalTransparentColor,0,0,0,
+
+CreateMeshBuilder,
+AddVertex,0.2, 4.59, 20.1,
+AddVertex,-0.2, 4.59, 20.1,
+AddVertex,0.07, 4.64, 18.57,
+AddVertex,-0.07, 4.64, 18.57,
+AddVertex,0.07, 4.15, 20,
+AddVertex,-0.07, 4.15, 20,
+AddFace,0,1,2,3,
+AddFace,3,2,1,0,
+AddFace,3,2,4,5,
+AddFace,5,4,2,3,
+SetColor,50,50,50,
+Translate,0,-0.5,-28.5,
+GenerateNormals,
+Rotate,0,0,90,
+
+RotateALL ,0,1,0,180

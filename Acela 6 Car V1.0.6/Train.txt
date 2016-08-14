@@ -1,0 +1,37 @@
+﻿Amtrak Acela Express (6 Car Set)
+Bombardier / Alstom Acela Powerhead (SCROLL DOWN FOR OPERATING TIPS)
+
+Creator list:
+-Sounds: Fan Railer
+-Panel: Manuel Mejias
+-Exterior models: Manuel Mejias
+-Physics: Fan Railer
+
+Technical infos:
+
+Power system:  25 kV / 60 Hz ; 12kV / 25Hz ; 12.5 kV / 60 Hz
+Axles arrangement: Bo'Bo'+2'2'+2'2'+2'2'+2'2'+2'2'+2'2'+Bo'Bo'
+Service weight (Powerheads): 93 t
+Rated power (Continuous): 9200 kW
+Starting tractive effort: 225 kN
+Brake power (Continuous): 3000 kW
+Braking effort: 150 kN @ 96 km/h - 5 km/h
+Allowed top speed: 240 km/h
+Designed overspeed: 265 km/h
+Gauge: 1435 mm
+Length between couplers: 202.34 m
+Vehicle Width: 3170 mm
+Wheel Diameter (New): 1020 mm
+
+Essential Operating Tips:
+This train has 6 power points. Each point will increase acceleration proportionally.
+P1 - 30 mph (48 km/h)
+P2 - 80 mph (128 km/h)
+P3 - 100 mph (160 km/h)
+P4 - 135 mph (217 km/h)
+P5 - 150 mph (240 km/h)
+P6 - 165 mph (265 km/h)
+
+Maximum deceleration in emergency is ~4.5 km/h/s or 2.8 mphps.
+There are 6 brake points
+Maximum deceleration in full service (B6) is ~4.25 km/h/s or 2.64 mphps.

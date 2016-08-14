@@ -1,0 +1,11 @@
+[Include]
+BogieJacobs.csv
+
+[object]
+Position = 0, 0.45, 1.45
+states=ruedas.csv
+RotateXFunction = value + mod[(speedometer * delta),2.7] / 2.7 * 3.14 * 2
+[object]
+Position = 0, 0.45, -1.45
+states=ruedas.csv
+RotateXFunction = value + mod[(speedometer * delta),2.7] / 2.7 * 3.14 * 2

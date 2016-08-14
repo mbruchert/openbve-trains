@@ -1,0 +1,26 @@
+[Meshbuilder]
+Vertex 0, 0, 0
+Vertex -0, 0, -0.85
+Vertex -0, 2.15, -0.85
+Vertex 0, 2.15, 0
+Face 0, 1, 2, 3
+[Texture]
+Load tuer.bmp
+Coordinates 0, 0.569336, 0.201172
+Coordinates 1, 0.625977, 0.201172
+Coordinates 2, 0.625, 0.037109
+Coordinates 3, 0.56543, 0.039063
+Transparent 0, 255, 0
+[Meshbuilder]
+Vertex 0, 0, 0
+Vertex -0, 0, -0.85
+Vertex -0, 2.15, -0.85
+Vertex 0, 2.15, 0
+Face 3, 2, 1, 0
+[Texture]
+Load tuer.bmp
+Coordinates 0, 0.569336, 0.201172
+Coordinates 1, 0.625977, 0.201172
+Coordinates 2, 0.625, 0.037109
+Coordinates 3, 0.56543, 0.039063
+Transparent 0, 255, 0

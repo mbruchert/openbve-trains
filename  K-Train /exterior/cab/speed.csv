@@ -1,0 +1,17 @@
+CreateMeshBuilder
+AddVertex,-0.002,0.03,-0.005
+AddVertex,0.002,0.03,-0.005
+AddVertex,0.002,0.00,-0.005
+AddVertex,-0.002,0.00,-0.005
+AddFace2,0,1,2,3
+
+LoadTexture,speed.bmp,speed.bmp
+SetTextureCoordinates,0, 0, 0
+SetTextureCoordinates,1, 1, 0
+SetTextureCoordinates,2, 1, 1
+SetTextureCoordinates,3, 0, 1
+SetColor,210,210,210
+SetDecalTransparentColor,0,0,255
+
+
+RotateAll,0,1,0,90

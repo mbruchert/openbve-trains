@@ -1,0 +1,57 @@
+[MESHBUILDER]                      ;Brak_Hose
+Vertex       +0.000,+0.150,-0.790
+Vertex       +0.000,+0.150,+0.790
+Vertex       +0.000,-0.150,+0.790
+Vertex       +0.000,-0.150,-0.790
+Face                      0,1,2,3
+Face                      3,2,1,0
+ Color        255,047,047,255;Red
+;Color        255,215,055,255;Yel
+Transparent       000,255,000;Grn
+Load      Cplr~SGxL~UISx_Hose.GIF
+Coordinates       0,+0.000,+0.000
+Coordinates       1,+1.000,+0.000
+Coordinates       2,+1.000,+1.000
+Coordinates       3,+0.000,+1.000
+Rotate               0,0,1,-003.0
+Rotate               1,0,0,-045.0
+Rotate               0,0,1,-046.0
+Translate    +0.193,+0.692,+0.150
+[MESHBUILDER]
+Vertex       +0.000,+0.150,-0.790
+Vertex       +0.000,+0.150,+0.790
+Vertex       +0.000,-0.150,+0.790
+Vertex       +0.000,-0.150,-0.790
+Face                      0,1,2,3
+Face                      3,2,1,0
+ Color        255,047,047,255;Red
+;Color        255,215,055,255;Yel
+Transparent       000,255,000;Grn
+Load      Cplr~SGxL~UISx_Hose.GIF
+Coordinates       0,+0.000,+0.000
+Coordinates       1,+1.000,+0.000
+Coordinates       2,+1.000,+1.000
+Coordinates       3,+0.000,+1.000
+Rotate               0,0,1,+000.0
+Rotate               1,0,0,-045.0
+Rotate               0,0,1,-046.0
+Translate    +0.200,+0.685,+0.150
+[MESHBUILDER]
+Vertex       +0.000,+0.150,-0.790
+Vertex       +0.000,+0.150,+0.790
+Vertex       +0.000,-0.150,+0.790
+Vertex       +0.000,-0.150,-0.790
+Face                      0,1,2,3
+Face                      3,2,1,0
+ Color        255,047,047,255;Red
+;Color        255,215,055,255;Yel
+Transparent       000,255,000;Grn
+Load      Cplr~SGxL~UISx_Hose.GIF
+Coordinates       0,+0.000,+0.000
+Coordinates       1,+1.000,+0.000
+Coordinates       2,+1.000,+1.000
+Coordinates       3,+0.000,+1.000
+Rotate               0,0,1,+003.0
+Rotate               1,0,0,-045.0
+Rotate               0,0,1,-046.0
+Translate    +0.207,+0.678,+0.150

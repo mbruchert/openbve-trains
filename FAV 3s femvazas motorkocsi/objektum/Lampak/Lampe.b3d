@@ -1,0 +1,151 @@
+;elsõ lámpatest --------------------------------------
+
+[Meshbuilder]
+Cylinder 25, 0.13, 0.13, 0.15
+Color 128,32,0
+Rotate 1,0,0,90
+Translate 0.13,1.22,5.195
+
+[Meshbuilder]
+Cylinder 25, 0.13, 0.13, 0.15
+Color 128,32,0
+Rotate 1,0,0,90
+Translate -0.13,1.22,5.195
+
+[Meshbuilder]
+Cube 0.13,0.13, 0.075
+Color 128,32,0
+Rotate 0,0,1,90
+Translate 0,1.22,5.195
+
+[Meshbuilder]
+Cylinder 15,0.12,0.12, 0.080
+Color 123,27,0
+Rotate 1,0,0,90
+Translate -0.13,1.22,5.235
+
+[Meshbuilder]
+Cylinder 15,0.12,0.12, 0.080
+Color 123,27,0
+Rotate 1,0,0,90
+Translate 0.13,1.22,5.235
+
+[Meshbuilder]
+Cylinder 15,0.03,0.03, 0.080
+Color 128,32,0
+Rotate 1,0,0,90
+Translate 0,1.31,5.235
+
+[Meshbuilder]
+Cylinder 15,0.03,0.03, 0.080
+Color 128,32,0
+Rotate 1,0,0,90
+Translate 0,1.13,5.235
+
+[Meshbuilder]
+Cylinder 15,0.0250,0.04,0.099
+Color 70,0,0
+Rotate 1,0,0,90
+Translate 0,1.31,5.235
+
+[Meshbuilder]
+Cylinder 15,0.0250,0.04,0.099
+Color 70,0,0
+Rotate 1,0,0,90
+Translate 0,1.13,5.235
+
+[Meshbuilder]
+Cylinder 15,0.105,0.105, 0.081
+EmissiveColor 200,200,200
+Rotate 1,0,0,90
+Translate -0.13,1.22,5.235
+
+[Meshbuilder]
+Cylinder 15,0.105,0.105, 0.081
+EmissiveColor 200,200,200
+Rotate 1,0,0,90
+Translate 0.13,1.22,5.235;----------------------------------------
+
+;hátsó lámpatest --------------------------------------
+
+[Meshbuilder]
+Cylinder 25, 0.13, 0.13, 0.15
+Color 128,32,0
+Rotate 1,0,0,90
+Translate 0.13,1.22,-5.195
+
+[Meshbuilder]
+Cylinder 25, 0.13, 0.13, 0.15
+Color 128,32,0
+Rotate 1,0,0,90
+Translate -0.13,1.22,-5.195
+
+[Meshbuilder]
+Cube 0.13,0.13, 0.075
+Color 128,32,0
+Rotate 0,0,1,90
+Translate 0,1.22,-5.195
+
+[Meshbuilder]
+Cylinder 15,0.12,0.12, 0.080
+Color 123,27,0
+Rotate 1,0,0,90
+Translate 0.13,1.22,-5.235
+
+[Meshbuilder]
+Cylinder 15,0.12,0.12, 0.080
+Color 123,27,0
+Rotate 1,0,0,90
+Translate -0.13,1.22,-5.235
+
+[Meshbuilder]
+Cylinder 15,0.03,0.03, 0.080
+Color 128,32,0
+Rotate 1,0,0,90
+Translate 0,1.31,-5.235
+
+[Meshbuilder]
+Cylinder 15,0.03,0.03, 0.080
+Color 128,32,0
+Rotate 1,0,0,90
+Translate 0,1.13,-5.235
+
+[Meshbuilder]
+Cylinder 15,0.04,0.0250,0.099
+Color 255,0,0
+EmissiveColor 255,0,0
+Rotate 1,0,0,90
+Translate 0,1.31,-5.235
+
+[Meshbuilder]
+Cylinder 15,0.04,0.0250,0.099
+Color 255,0,0
+EmissiveColor 255,0,0
+Rotate 1,0,0,90
+Translate 0,1.13,-5.235
+
+[Meshbuilder]
+Cylinder 15,0.105,0.105, 0.081
+Color 100,100,100
+Rotate 1,0,0,90
+Translate -0.13,1.22,-5.235
+
+[Meshbuilder]
+Cylinder 15,0.105,0.105, 0.081
+Color 100,100,100
+Rotate 1,0,0,90
+Translate 0.13,1.22,-5.235
+
+[Meshbuilder] ;hátsó Lámpakép
+Vertex   0.260,1.090,-5.276
+Vertex   0.260,1.345,-5.276
+Vertex  -0.260,1.345,-5.276
+Vertex  -0.260,1.090,-5.276
+face 3,2,1,0
+[Texture]
+Load hatlamp.png
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+Transparent 255,0,255;------------------------------------------

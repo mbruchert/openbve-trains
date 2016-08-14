@@ -1,0 +1,88 @@
+[MeshBuilder]
+Vertex 0.7,0.2,1.5235,2,2,2
+Vertex 0.7,0.2,0,2,2,2
+Vertex 0.55,0.04,0,2,2,2
+Vertex 0.55,0.04,1.5235,2,2,2
+Vertex 0.55,0.04,1.5235,2,2,2
+Vertex 0.55,0.04,0,2,2,2
+Vertex 0.38,-0.08,0,2,2,2
+Vertex 0.38,-0.08,1.5235,2,2,2
+Face 3,2,1,0
+Face 7,6,5,4
+Load ad3.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 0.5
+Coordinates 3, 0, 0.5
+Coordinates 4, 0 ,0.5
+Coordinates 5, 1, 0.5
+Coordinates 6, 1, 1
+Coordinates 7, 0, 1
+translate 0.03,0,-13.25
+EmissiveColor 220,220,220
+
+[MeshBuilder]
+Vertex 0.7,0.2,1.5235,2,2,2
+Vertex 0.7,0.2,0,2,2,2
+Vertex 0.66,0.2,0,2,2,2
+Vertex 0.66,0.2,1.5235,2,2,2
+Face2 3,2,1,0
+Load color3.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 1
+Coordinates 3, 0, 1
+Transparent 255, 255, 254
+translate 0.03,0,-13.25
+EmissiveColor 220,220,220
+
+[MeshBuilder]
+Vertex 0.7,0.2,0,2,2,2
+Vertex 0.66,0.2,0,2,2,2
+Vertex 0.38,0.04,0,2,2,2
+Vertex 0.55,0.04,0,2,2,2
+Vertex 0.55,0.04,0,2,2,2
+Vertex 0.38,0.04,0,2,2,2
+Vertex 0.38,-0.08,0,2,2,2
+Vertex 0.38,-0.08,0,2,2,2
+Face2 3,2,1,0
+Face2 4,5,6,7
+Load color3.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 0.5
+Coordinates 3, 0, 0.5
+Coordinates 4, 0 ,0.5
+Coordinates 5, 1, 0.5
+Coordinates 6, 1, 1
+Coordinates 7, 0, 1
+Transparent 255, 255, 254
+translate 0.03,0,-13.25
+EmissiveColor 220,220,220
+
+[MeshBuilder]
+Vertex 0.7,0.2,1.5235,2,2,2
+Vertex 0.66,0.2,1.5235,2,2,2
+Vertex 0.38,0.04,1.5235,2,2,2
+Vertex 0.55,0.04,1.5235,2,2,2
+Vertex 0.55,0.04,1.5235,2,2,2
+Vertex 0.38,0.04,1.5235,2,2,2
+Vertex 0.38,-0.08,1.5235,2,2,2
+Vertex 0.38,-0.08,1.5235,2,2,2
+Face2 3,2,1,0
+Face2 4,5,6,7
+Load color3.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 0.5
+Coordinates 3, 0, 0.5
+Coordinates 4, 0 ,0.5
+Coordinates 5, 1, 0.5
+Coordinates 6, 1, 1
+Coordinates 7, 0, 1
+Transparent 255, 255, 254
+translate 0.03,0,-13.25
+EmissiveColor 220,220,220
+
+RotateAll 0,1,0,180
+ScaleAll 1.1,1.1,1.1

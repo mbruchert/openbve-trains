@@ -1,0 +1,4 @@
+[OBJECT]
+States=rojas 1.b3d                                                       ;178mm PAR56=AAR Standard Head|Ditch Lamp
+StateFunction=If[Cars<1|ReverserNotch<0,0,1]
+RotateYFunction=3.142

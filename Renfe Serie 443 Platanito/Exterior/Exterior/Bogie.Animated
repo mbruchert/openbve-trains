@@ -1,0 +1,12 @@
+[Include]
+Bogie.b3d
+
+[Object]
+Position = 0, 0.45, 1.1
+states=ruedas.csv
+RotateXFunction = value + mod[(speedometer * delta),2.7] / 2.7 * 3.14 * 2
+
+[Object]
+Position = 0, 0.45, -1.1
+states=ruedas.csv
+RotateXFunction = value + mod[(speedometer * delta),2.7] / 2.7 * 3.14 * 2

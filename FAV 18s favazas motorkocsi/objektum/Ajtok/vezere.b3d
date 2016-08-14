@@ -1,0 +1,210 @@
+[Meshbuilder] 
+Vertex  -0.56,0,0.02
+Vertex  -0.56,1.15,0.02
+Vertex   0,1.15,0.02
+Vertex   0,0,0.02
+face 3,2,1,0
+[Texture]
+Load vezajtk.png
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+Transparent 255,0,255
+
+[Meshbuilder] 
+Vertex  -0.56,0,0
+Vertex  -0.56,1.17, 0
+Vertex   0,1.17,0
+Vertex   0,0,0
+face 0,1,2,3
+[Texture]
+Load vezajtb.png
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+Transparent 255,0,255
+Emissivecolor 50,50,50
+
+[Meshbuilder]  ;üveglap
+Vertex  -0.5,0.200,0.01
+Vertex  -0.5,1.1, 0.01
+Vertex  -0.05,1.1,0.01
+Vertex  -0.05,0.200,0.01
+face2  3,2,1,0
+Color 180,180,180,60
+
+[Meshbuilder] ;jobb elsõ függ léc barna ajtókeret  
+Cube 0.0300,0.570,0.009
+Color 49,24,6
+Emissivecolor 78,61,39
+Translate -0.04,0.575,0.0105
+
+[Meshbuilder] ;bal elsõ függ léc barna ajtókeret  
+Cube 0.0300,0.570,0.009
+Color 49,24,6
+Emissivecolor 78,61,39
+Translate -0.515,0.575,0.0105
+
+[Meshbuilder] ; felsõ víz
+Cube 0.206,0.0300,0.009
+Color 49,24,6
+Emissivecolor 58,41,19
+Translate -0.2775,1.119,0.0105
+
+[Meshbuilder] ; alsó víz
+Cube 0.206,0.0300,0.009
+Color 49,24,6
+Emissivecolor 98,81,59
+Translate -0.2775,0.200,0.0105
+
+[Meshbuilder] ;kapaszkodó elsõ belsõk felsõ talp ---------------------------------
+Cube 0.0120,0.0250,0.0020
+color 198,173,42
+Translate  -0.035,0.686,0.022
+
+[Meshbuilder] ;kapaszkodó elsõ alsó talp
+Cube 0.0120,0.0250,0.0020
+color 198,173,42
+Translate  -0.035,0.530,0.022
+
+[Meshbuilder] ;kapaszkodó elsõ felsõ
+Cylinder 20,0.0100,0.0100,0.030
+color 198,173,42
+Rotate 1,0,0,90
+Translate  -0.035,0.676,0.038
+
+[Meshbuilder] ;kapaszkodó elsõ felsõ -60
+Cylinder 20,0.0100,0.0100,0.020
+color 198,173,42
+Rotate 1,0,0,-60
+Translate  -0.035,0.672,0.057
+
+[Meshbuilder] ;kapaszkodó elsõ felsõ -30
+Cylinder 20,0.0100,0.0100,0.020
+color 198,173,42
+Rotate 1,0,0,-30
+Translate  -0.035,0.662,0.067
+
+[Meshbuilder] ;kapaszkodó elsõ felsõ függ
+Cylinder 20,0.0100,0.0100,0.100
+color 198,173,42
+Translate  -0.035,0.608,0.071
+
+[Meshbuilder] ;kapaszkodó elsõ alsó  60
+Cylinder 20,0.0100,0.0100,0.020
+color 198,173,42
+Rotate 1,0,0, 60
+Translate  -0.035,0.544,0.057
+
+[Meshbuilder] ;kapaszkodó elsõ alsó  30
+Cylinder 20,0.0100,0.0100,0.020
+color 198,173,42
+Rotate 1,0,0, 30
+Translate  -0.035,0.554,0.067
+
+[Meshbuilder] ;kapaszkodó elsõ alsó
+Cylinder 20,0.0100,0.0100,0.030
+color 198,173,42
+Rotate 1,0,0,90
+Translate  -0.035,0.540,0.038;-----------------------------------
+
+[Meshbuilder] ;kapaszkodó belsõk felsõ talp ---------------------------------
+Cube 0.0120,0.0250,0.0020
+color 198,173,42
+Emissivecolor 73,65,31
+Translate  -0.035,0.686,0
+
+[Meshbuilder] ;kapaszkodó elsõ alsó talp
+Cube 0.0120,0.0250,0.0020
+color 198,173,42
+Emissivecolor 73,65,31
+Translate  -0.035,0.530,0
+
+[Meshbuilder] ;kapaszkodó elsõ felsõ
+Cylinder 20,0.0100,0.0100,0.030
+color 198,173,42
+Emissivecolor 73,65,31
+Rotate 1,0,0,90
+Translate  -0.035,0.676,-0.015
+
+[Meshbuilder] ;kapaszkodó elsõ felsõ 60
+Cylinder 20,0.0100,0.0100,0.020
+color 198,173,42
+Emissivecolor 73,65,31
+Rotate 1,0,0, 60
+Translate  -0.035,0.672,-0.034
+
+[Meshbuilder] ;kapaszkodó elsõ felsõ 30
+Cylinder 20,0.0100,0.0100,0.020
+color 198,173,42
+Emissivecolor 73,65,31
+Rotate 1,0,0,30
+Translate  -0.035,0.662,-0.044
+
+[Meshbuilder] ;kapaszkodó elsõ felsõ függ
+Cylinder 20,0.0100,0.0100,0.100
+color 198,173,42
+Emissivecolor 73,65,31
+Translate  -0.035,0.608,-0.048
+
+[Meshbuilder] ;kapaszkodó elsõ alsó -60
+Cylinder 20,0.0100,0.0100,0.020
+color 198,173,42
+Emissivecolor 73,65,31
+Rotate 1,0,0,-60
+Translate  -0.035,0.544,-0.034
+
+[Meshbuilder] ;kapaszkodó elsõ alsó -30
+Cylinder 20,0.0100,0.0100,0.020
+color 198,173,42
+Emissivecolor 73,65,31
+Rotate 1,0,0,-30
+Translate  -0.035,0.554,-0.044
+
+[Meshbuilder] ;kapaszkodó elsõ alsó
+Cylinder 20,0.0100,0.0100,0.030
+color 198,173,42
+Emissivecolor 73,65,31
+Rotate 1,0,0,90
+Translate  -0.035,0.540,-0.015;-----------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

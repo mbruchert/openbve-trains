@@ -1,0 +1,173 @@
+;326. szám
+;Készítette: http://bvemetro.hu/
+
+;------------------------
+;Szám
+[MeshBuilder]
+Vertex  1.345,1.625,03.65
+Vertex  1.345,1.775,03.65
+Vertex  1.345,1.775,03.75
+Vertex  1.345,1.625,03.75
+Vertex  1.345,1.625,15.05
+Vertex  1.345,1.775,15.05
+Vertex  1.345,1.775,15.15
+Vertex  1.345,1.625,15.15
+Vertex -1.345,1.625,15.25
+Vertex -1.345,1.775,15.25
+Vertex -1.345,1.775,15.35
+Vertex -1.345,1.625,15.35
+Vertex -1.345,1.625,03.85
+Vertex -1.345,1.775,03.85
+Vertex -1.345,1.775,03.95
+Vertex -1.345,1.625,03.95
+Vertex  1.345,1.625,03.75
+Vertex  1.345,1.775,03.75
+Vertex  1.345,1.775,03.85
+Vertex  1.345,1.625,03.85
+Vertex  1.345,1.625,15.15
+Vertex  1.345,1.775,15.15
+Vertex  1.345,1.775,15.25
+Vertex  1.345,1.625,15.25
+Vertex -1.345,1.625,15.15
+Vertex -1.345,1.775,15.15
+Vertex -1.345,1.775,15.25
+Vertex -1.345,1.625,15.25
+Vertex -1.345,1.625,03.75
+Vertex -1.345,1.775,03.75
+Vertex -1.345,1.775,03.85
+Vertex -1.345,1.625,03.85
+Vertex  1.345,1.625,03.85
+Vertex  1.345,1.775,03.85
+Vertex  1.345,1.775,03.95
+Vertex  1.345,1.625,03.95
+Vertex  1.345,1.625,15.25
+Vertex  1.345,1.775,15.25
+Vertex  1.345,1.775,15.35
+Vertex  1.345,1.625,15.35
+Vertex -1.345,1.625,15.05
+Vertex -1.345,1.775,15.05
+Vertex -1.345,1.775,15.15
+Vertex -1.345,1.625,15.15
+Vertex -1.345,1.625,03.65
+Vertex -1.345,1.775,03.65
+Vertex -1.345,1.775,03.75
+Vertex -1.345,1.625,03.75
+Face 00,01,02,03
+Face 04,05,06,07
+Face 11,10,09,08
+Face 15,14,13,12
+Face 16,17,18,19
+Face 20,21,22,23
+Face 27,26,25,24
+Face 31,30,29,28
+Face 32,33,34,35
+Face 36,37,38,39
+Face 43,42,41,40
+Face 47,46,45,44
+[Texture]
+Load szam.bmp
+;1 0.002-0.078
+;2 0.082-0.158
+;3 0.162-0.238
+;4 0.242-0.318
+;5 0.322-0.398
+;6 0.402-0.478
+;7 0.482-0.558
+;8 0.562-0.638
+;9 0.642-0.718
+;0 0.722-0.798
+;1
+Coordinates 00,0.162,1
+Coordinates 01,0.162,0
+Coordinates 02,0.238,0
+Coordinates 03,0.238,1
+Coordinates 04,0.162,1
+Coordinates 05,0.162,0
+Coordinates 06,0.238,0
+Coordinates 07,0.238,1
+;---
+Coordinates 08,0.238,1
+Coordinates 09,0.238,0
+Coordinates 10,0.162,0
+Coordinates 11,0.162,1
+Coordinates 12,0.238,1
+Coordinates 13,0.238,0
+Coordinates 14,0.162,0
+Coordinates 15,0.162,1
+;2
+Coordinates 16,0.082,1
+Coordinates 17,0.082,0
+Coordinates 18,0.158,0
+Coordinates 19,0.158,1
+Coordinates 20,0.082,1
+Coordinates 21,0.082,0
+Coordinates 22,0.158,0
+Coordinates 23,0.158,1
+;---
+Coordinates 24,0.158,1
+Coordinates 25,0.158,0
+Coordinates 26,0.082,0
+Coordinates 27,0.082,1
+Coordinates 28,0.158,1
+Coordinates 29,0.158,0
+Coordinates 30,0.082,0
+Coordinates 31,0.082,1
+;3
+Coordinates 32,0.402,1
+Coordinates 33,0.402,0
+Coordinates 34,0.478,0
+Coordinates 35,0.478,1
+Coordinates 36,0.402,1
+Coordinates 37,0.402,0
+Coordinates 38,0.478,0
+Coordinates 39,0.478,1
+;---
+Coordinates 40,0.478,1
+Coordinates 41,0.478,0
+Coordinates 42,0.402,0
+Coordinates 43,0.402,1
+Coordinates 44,0.478,1
+Coordinates 45,0.478,0
+Coordinates 46,0.402,0
+Coordinates 47,0.402,1
+Transparent 255,0,0 
+;------------------------
+[MeshBuilder]
+Vertex  0.120,3.28,1.77
+Vertex  0.120,3.35,1.77
+Vertex  0.085,3.35,1.77
+Vertex  0.085,3.28,1.77
+Vertex  0.075,3.28,1.77
+Vertex  0.075,3.35,1.77
+Vertex  0.040,3.35,1.77
+Vertex  0.040,3.28,1.77
+Vertex  0.030,3.28,1.77
+Vertex  0.030,3.35,1.77
+Vertex -0.005,3.35,1.77
+Vertex -0.005,3.28,1.77
+Face2 0,1,2,3
+Face2 4,5,6,7
+Face2 8,9,10,11
+[Texture]
+Load szam.bmp
+;---
+Coordinates 00,0.162,1
+Coordinates 01,0.162,0
+Coordinates 02,0.238,0
+Coordinates 03,0.238,1
+;---
+Coordinates 04,0.082,1
+Coordinates 05,0.082,0
+Coordinates 06,0.158,0
+Coordinates 07,0.158,1
+;---
+Coordinates 08,0.402,1
+Coordinates 09,0.402,0
+Coordinates 10,0.478,0
+Coordinates 11,0.478,1
+;---
+Color 100,100,100
+Transparent 255,0,0
+
+TranslateAll 0,0,-9.5
+RotateAll 0,1,0,180

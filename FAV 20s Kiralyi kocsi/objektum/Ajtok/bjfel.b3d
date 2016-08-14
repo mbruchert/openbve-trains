@@ -1,0 +1,82 @@
+[Meshbuilder] ;----------------Belsõ bal-------------
+Vertex   0.530,0.440,0.02
+Vertex   0.530,2.435,0.02
+Vertex   0,2.435,0.02
+Vertex   0,0.440,0.02
+face 0,1,2,3
+[Texture]
+Load bajt.png
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+EmissiveColor 53,50,30
+Transparent 255,0,255
+[Meshbuilder] ; belsõ fogantyú
+Cylinder 15,0.008,0.008,0.035
+Rotate 1,0,0,90
+Color 52,23,17
+EmissiveColor 16,3,0.7
+Translate   0.065,1.466,0.034
+[Meshbuilder] ; fogantyú nagy
+Cylinder 15,0.028,0.028,0.015
+Rotate 1,0,0,90
+Color 52,23,17
+EmissiveColor 16,3,0.7
+Translate   0.065,1.466,0.055
+[Meshbuilder] 
+Vertex   0.530,0.440,-0.02
+Vertex   0.530,2.435,-0.02
+Vertex   0,2.435,-0.02
+Vertex   0,0.440,-0.02
+face 3,2,1,0
+[Texture]
+Load bajt.png
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+EmissiveColor 93,90,70
+Transparent 255,0,255
+[Meshbuilder] ; külsõ fogantyú
+Cylinder 15,0.008,0.008,0.035
+Rotate 1,0,0,90
+Color 52,23,17
+EmissiveColor 26,13,7
+Translate   0.065,1.466,-0.034
+[Meshbuilder] ; fogantyú nagy
+Cylinder 15,0.028,0.028,0.015
+Rotate 1,0,0,90
+Color 52,23,17
+EmissiveColor 26,13,7
+Translate   0.065,1.466,-0.055
+[Meshbuilder] ;----------------ablakkeret ------------------
+Vertex   0.143,1.440, 0.02
+Vertex   0.143,1.440,-0.02
+Vertex   0.355,1.440,-0.02
+Vertex   0.355,1.440, 0.02
+Vertex   0.143,2.315, 0.02
+Vertex   0.143,2.315,-0.02
+Vertex   0.355,2.315,-0.02
+Vertex   0.355,2.315, 0.02
+face  3,2,1,0
+face  0,1,5,4
+face  4,5,6,7
+face  3,7,6,2
+Color 219,168,77
+EmissiveColor 78,54,8
+[Meshbuilder] ;----------------ajtóél ------------------
+Vertex  0.005,0.440,-0.02
+Vertex  0.005,0.440, 0.02
+Vertex  0.005,2.435, 0.02
+Vertex  0.005,2.435,-0.02
+face  0,1,2,3
+Color 52,23,17
+EmissiveColor 26,13,7
+[Meshbuilder] ;----------------üveg-------------
+Vertex  0.142,1.439,0
+Vertex  0.356,1.439,0
+Vertex  0.356,2.316,0
+Vertex  0.142,2.316,0
+face2  3,2,1,0
+color 20,20,20,20

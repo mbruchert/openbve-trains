@@ -1,0 +1,82 @@
+
+
+[MESHBUILDER]
+Cylinder 16, 0.078, 0.078, -1.7000000075,
+Color 75,40,40,
+Translate 0.47000037, -0.0000000, 8.9500078,
+Rotate 0,0,90,90,
+[MESHBUILDER]
+Cylinder  18, 0.48, 0.48, -0.100002,
+Color  15,5,20,
+Translate  0.4700034, 0.73500073, 8.9500078,
+Rotate  0,0,90,90,
+;wheels,
+[MESHBUILDER]
+Cylinder 18, 0.48, 0.48, -0.100002,
+Color   15,5,20,
+Translate  0.4700034, -0.73500073, 8.9500078,
+Rotate   0,0,90,90,
+;wheels,
+[MESHBUILDER]
+Cylinder 18, 0.48, 0.48, -0.100002,
+Color 15,5,20,
+Translate 0.4700034, -0.73500073, 6.4000078,
+Rotate 0,0,90,90,
+;wheels,
+[MESHBUILDER]
+Cylinder 18, 0.48, 0.48, -0.100002,
+Color   15,5,20,
+Translate  0.4700034, 0.73500073, 6.4000078,
+Rotate  0,0,90,90,
+[MESHBUILDER]
+Cylinder 16, 0.078, 0.078, -1.7000000075,
+Color 75,40,40,
+Translate 0.47000037, -0.0000000, 6.4000078,
+Rotate 0,0,90,90,
+
+[MESHBUILDER]
+Cylinder 16, 0.078, 0.078, -1.7000000075,
+Color 75,40,40,
+Translate 0.47000037, -0.0000000, -8.4500078,
+Rotate 0,0,90,90,
+[MESHBUILDER]
+Cylinder  18, 0.48, 0.48, -0.100002,
+Color  15,5,20,
+Translate  0.4700034, 0.73500073, -8.4500078,
+Rotate  0,0,90,90,
+;wheels,
+[MESHBUILDER]
+Cylinder 18, 0.48, 0.48, -0.100002,
+Color   15,5,20,
+Translate  0.4700034, -0.73500073, -8.4500078,
+Rotate   0,0,90,90,
+;wheels,
+[MESHBUILDER]
+Cylinder 18, 0.48, 0.48, -0.100002,
+Color 15,5,20,
+Translate 0.4700034, -0.73500073, -5.9000078,
+Rotate 0,0,90,90,
+;wheels,
+[MESHBUILDER]
+Cylinder 18, 0.48, 0.48, -0.100002,
+Color   15,5,20,
+Translate  0.4700034, 0.73500073, -5.9000078,
+Rotate  0,0,90,90,
+[MESHBUILDER]
+Cylinder 16, 0.078, 0.078, -1.7000000075,
+Color 75,40,40,
+Translate 0.47000037, -0.0000000, -5.9000078,
+Rotate 0,0,90,90,
+
+
+
+
+
+
+
+
+
+
+
+
+

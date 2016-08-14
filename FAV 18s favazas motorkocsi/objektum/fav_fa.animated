@@ -1,0 +1,77 @@
+[Object]
+Position = 0, 0, 0
+States = fav_fa.b3d
+
+
+
+;Ajtók
+
+;bal oldali ajtók
+
+[Object]
+Position = 0,0,0
+States = Ajtok/ajto_bal_oldalt.b3d
+TranslateZFunction = 0.85 * leftdoors[0]
+
+[Object]
+Position = 0,0,0
+States = Ajtok/ajto_jobb_oldalt.b3d
+TranslateZFunction = -0.85 * rightdoors[0]
+
+[Object]; Lámpa 
+Position = 0,1.06, 5.20
+States = Lampak/Lamphe.b3d, Lampak/Lamp0e.b3d,Lampak/Lampee.b3d
+StateFunction = if[pluginstate[0] == 1, 3, ReverserNotch + 1]
+
+[Object]; Lámpa hátsó
+Position = 0,1.06,-5.36
+States = Lampak/Lamphh.b3d, Lampak/Lamp0h.b3d,Lampak/Lampeh.b3d
+StateFunction = if[pluginstate[0] == 1, 3, ReverserNotch + 1]
+
+[object]; Elsõ vezér ajtó
+position = 0.95,1.262,5.135
+States = Ajtok/vezere.b3d
+TranslatexFunction = -0.47 * leftdoors[0]
+
+[object]; Elsõ vezér ajtó
+position = -0.95,1.262,-5.135
+States = Ajtok/vezerh.b3d
+TranslatexFunction =  0.47 * rightdoors[0]
+
+
+
+[object] ;menetkar
+states = Karok/fokozatkapcsolo.b3d
+position = -0.825,1.729,4.817
+RotateYFunction = if[brakeNotch > 0 & brakeNotch <= 3, max[value-delta/(brakeNotch/3)*0.52*brakeNotch, 0.52*brakeNotch], if[brakeNotch > 3, 0.52*3, -0.26*powerNotch]]
+rotateYdamping = 20, 0.3
+
+[object] ;menetkar hátsó
+states = Karok/fokozatkapcsoloh.b3d
+position =  0.825,1.729,-4.817
+
+
+[object] ;reverse
+states = Karok/reverse.b3d
+position = -0.825,1.729,4.602
+rotateYfunction = 1.00 * reverserNotch
+rotateYdirection = 0, -1, 0
+rotateYdamping = 20, 0.5
+
+[object] ;reverse hátsó
+states = Karok/reverseh.b3d
+position =  0.825,1.729,-4.602
+
+
+[Object];2 = Kézifék B3-B6
+States = Karok/kezifek.b3d
+Position = 0.5,0,4.613
+RotateYFunction = if[emergencyBrake != 1 & brakeNotch > 2, -6.30*(brakeNotch-2), if[emergencyBrake == 1, -6.30*(brakeNotch-2)-15.74, 0]]
+rotateYdamping = 3,3.180
+
+[Object];2 = Kézifék hátsó
+States = Karok/kezifekh.b3d
+Position = -0.5,0,-4.613
+
+
+

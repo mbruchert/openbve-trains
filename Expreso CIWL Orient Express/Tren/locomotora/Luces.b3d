@@ -1,0 +1,46 @@
+;Copyright: Alejandro Melo
+;http://clubedobvemex.blogspot.com
+;alejandrovargasmelo@yahoo.com.mx
+
+;Topes
+
+[MeshBuilder]
+Vertex  -1.1, 1.14, -9.91
+Vertex  -0.9, 1.14, -9.91
+Vertex  -0.9, 0.89, -9.91
+Vertex  -1.1, 0.89, -9.91
+Face2 0,1,2,3
+[Texture]
+Load luz.png
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+Transparent 0,0,255
+[MeshBuilder]
+Cylinder 15, 0.1, 0.1, 0.7
+Color 40,40,40
+Rotate 1,0,0,90
+Translate -1, 1.04, -9.55
+
+[MeshBuilder]
+Vertex  1.1, 1.14, -9.91
+Vertex  0.9, 1.14, -9.91
+Vertex  0.9, 0.89, -9.91
+Vertex  1.1, 0.89, -9.91
+Face2 0,1,2,3
+[Texture]
+Load luz.png
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+Transparent 0,0,255
+[MeshBuilder]
+Cylinder 15, 0.1, 0.1, 0.7
+Color 40,40,40
+Rotate 1,0,0,90
+Translate 1, 1.04, -9.55
+
+TranslateAll 0,0, 9.9
+RotateAll 0,1,0,180

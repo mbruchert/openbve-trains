@@ -1,0 +1,24 @@
+[Object];   Kerék jobb e
+Position = 0.7175,0.4,0.6
+States = j kerek.b3d
+RotateXFunction = value + mod [(speedometer * delta), 2.765] / 2.765 * 3.14 * 2
+
+[Object];   Kerék jobb h
+Position = 0.7175,0.4,-0.6
+States = j kerek.b3d
+RotateXFunction = value + mod [(speedometer * delta), 2.765] / 2.765 * 3.14 * 2
+
+[Object];   Kerék bal e
+Position = -0.7175,0.4,0.6
+States = b kerek.b3d
+RotateXFunction = value + mod [(speedometer * delta), 2.765] / 2.765 * 3.14 * 2
+
+[Object];   Kerék bal h
+Position = -0.7175,0.4,-0.6
+States = b kerek.b3d
+RotateXFunction = value + mod [(speedometer * delta), 2.765] / 2.765 * 3.14 * 2
+
+[Object];   Zsamoly
+Position = 0,0,0
+States = Zsamoly.b3d
+

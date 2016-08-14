@@ -1,0 +1,227 @@
+;FFFFFFFFFFFFFF
+;Door 1
+;FFFFFFFFFFFFFF
+
+[MeshBuilder]
+Vertex   -1.3475, 3.10,  -1.90
+Vertex   -1.3475, 3.10,  -2.84
+Vertex   -1.3475, 1.67,  -2.84
+Vertex   -1.3475, 1.67,  -1.90
+
+Vertex   -1.3475, 1.67,  -1.90
+Vertex   -1.3475, 1.67,  -2.84
+Vertex   -1.3475, 1.12,  -2.84
+Vertex   -1.3475, 1.12,  -1.90
+
+Face2 0,1,2,3
+Face2 4,5,6,7  
+
+[Texture]
+Load Door1.png
+
+
+Coordinates 0, 0, 0    
+Coordinates 1, 1, 0    
+Coordinates 2, 1, 0.5 
+Coordinates 3, 0, 0.5 
+
+Coordinates  4, 0, 0.5  
+Coordinates  5, 1, 0.5  
+Coordinates  6, 1, 1   
+Coordinates  7, 0, 1   
+
+
+Transparent 0, 0, 255
+EmissiveColor 25, 25, 25
+
+[MeshBuilder]
+Vertex   -1.3425, 3.10,  -1.90
+Vertex   -1.3425, 3.10,  -2.84
+Vertex   -1.3425, 1.67,  -2.84
+Vertex   -1.3425, 1.67,  -1.90
+
+Vertex   -1.3425, 1.67,  -1.90
+Vertex   -1.3425, 1.67,  -2.84
+Vertex   -1.3425, 1.12,  -2.84
+Vertex   -1.3425, 1.12,  -1.90
+
+Face2 0,1,2,3
+Face2 4,5,6,7  
+
+[Texture]
+Load Door2int.png
+
+
+Coordinates 0, 0, 0    
+Coordinates 1, 1, 0    
+Coordinates 2, 1, 0.5 
+Coordinates 3, 0, 0.5 
+
+Coordinates  4, 0, 0.5  
+Coordinates  5, 1, 0.5  
+Coordinates  6, 1, 1   
+Coordinates  7, 0, 1   
+
+
+Transparent 0, 0, 255
+
+
+
+
+
+
+
+
+
+
+
+
+;FFFFFFFFFFFFFF
+;Door 2
+;FFFFFFFFFFFFFF
+
+[MeshBuilder]
+Vertex   -1.3475, 3.10,  -6.95
+Vertex   -1.3475, 3.10,  -7.88
+Vertex   -1.3475, 1.67,  -7.88
+Vertex   -1.3475, 1.67,  -6.95
+
+Vertex   -1.3475, 1.67,  -6.95
+Vertex   -1.3475, 1.67,  -7.88
+Vertex   -1.3475, 1.12,  -7.88
+Vertex   -1.3475, 1.12,  -6.95
+
+Face2 0,1,2,3
+Face2 4,5,6,7  
+
+[Texture]
+Load Door1.png
+
+
+Coordinates 0, 0, 0    
+Coordinates 1, 1, 0    
+Coordinates 2, 1, 0.5 
+Coordinates 3, 0, 0.5 
+
+Coordinates  4, 0, 0.5  
+Coordinates  5, 1, 0.5  
+Coordinates  6, 1, 1   
+Coordinates  7, 0, 1   
+
+
+Transparent 0, 0, 255
+EmissiveColor 25, 25, 25
+
+
+[MeshBuilder]
+Vertex   -1.3425, 3.10,  -6.95
+Vertex   -1.3425, 3.10,  -7.88
+Vertex   -1.3425, 1.67,  -7.88
+Vertex   -1.3425, 1.67,  -6.95
+
+Vertex   -1.3425, 1.67,  -6.95
+Vertex   -1.3425, 1.67,  -7.88
+Vertex   -1.3425, 1.12,  -7.88
+Vertex   -1.3425, 1.12,  -6.95
+
+
+Face2 0,1,2,3
+Face2 4,5,6,7  
+
+[Texture]
+Load Door2int.png
+
+
+Coordinates 0, 0, 0    
+Coordinates 1, 1, 0    
+Coordinates 2, 1, 0.5 
+Coordinates 3, 0, 0.5 
+
+Coordinates  4, 0, 0.5  
+Coordinates  5, 1, 0.5  
+Coordinates  6, 1, 1   
+Coordinates  7, 0, 1   
+
+
+Transparent 0, 0, 255
+
+
+
+
+
+
+
+
+
+
+;FFFFFFFFFFFFFF
+;Door 3
+;FFFFFFFFFFFFFF
+
+[MeshBuilder]
+Vertex   -1.3475, 3.10,  -12.00
+Vertex   -1.3475, 3.10,  -12.93
+Vertex   -1.3475, 1.67,  -12.93
+Vertex   -1.3475, 1.67,  -12.00
+
+Vertex   -1.3475, 1.67,  -12.00
+Vertex   -1.3475, 1.67,  -12.93
+Vertex   -1.3475, 1.12,  -12.93
+Vertex   -1.3475, 1.12,  -12.00
+
+Face2 0,1,2,3
+Face2 4,5,6,7  
+
+[Texture]
+Load Door1.png
+
+
+Coordinates 0, 0, 0    
+Coordinates 1, 1, 0    
+Coordinates 2, 1, 0.5 
+Coordinates 3, 0, 0.5 
+
+Coordinates  4, 0, 0.5  
+Coordinates  5, 1, 0.5  
+Coordinates  6, 1, 1   
+Coordinates  7, 0, 1   
+
+
+Transparent 0, 0, 255
+EmissiveColor 25, 25, 25
+
+[MeshBuilder]
+Vertex   -1.3425, 3.10,  -12.00
+Vertex   -1.3425, 3.10,  -12.93
+Vertex   -1.3425, 1.67,  -12.93
+Vertex   -1.3425, 1.67,  -12.00
+
+Vertex   -1.3425, 1.67,  -12.00
+Vertex   -1.3425, 1.67,  -12.93
+Vertex   -1.3425, 1.12,  -12.93
+Vertex   -1.3425, 1.12,  -12.00
+
+Face2 0,1,2,3
+Face2 4,5,6,7  
+
+[Texture]
+Load Door2int.png
+
+
+Coordinates 0, 0, 0    
+Coordinates 1, 1, 0    
+Coordinates 2, 1, 0.5 
+Coordinates 3, 0, 0.5 
+
+Coordinates  4, 0, 0.5  
+Coordinates  5, 1, 0.5  
+Coordinates  6, 1, 1   
+Coordinates  7, 0, 1   
+
+
+Transparent 0, 0, 255
+
+
+
+
+Translateall 0,0,7.875

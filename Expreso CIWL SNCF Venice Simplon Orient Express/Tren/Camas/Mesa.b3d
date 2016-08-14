@@ -1,0 +1,73 @@
+[MeshBuilder]
+Vertex 1.4, 1.35, 4.4
+Vertex 0.8, 1.35, 4.4
+Vertex 0.8, 1.35, 4.1
+Vertex 1.4, 1.35, 4.1
+Face 3, 2, 1, 0, 
+[Texture]
+Load mesa.png,
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+
+[MeshBuilder]
+Vertex 1.4, 1.3,  4.1
+Vertex 1.4, 1.35, 4.1
+Vertex 0.8, 1.35, 4.1
+Vertex 0.8, 1.3,  4.1
+Face 3, 2, 1, 0, 
+[Texture]
+Load mesa.png
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+
+[MeshBuilder]
+Vertex 1.4, 1.3,  4.4
+Vertex 1.4, 1.35, 4.4
+Vertex 0.8, 1.35, 4.4
+Vertex 0.8, 1.3,  4.4 
+Face 0,1,2,3
+[Texture]
+Load mesa.png
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+
+[MeshBuilder]
+Vertex 0.8, 1.3,  4.1
+Vertex 0.8, 1.35, 4.1
+Vertex 0.8, 1.35, 4.4
+Vertex 0.8, 1.3,  4.4
+Face 3, 2, 1, 0, 
+[Texture]
+Load mesa.png
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+
+;Lamparita
+
+[Meshbuilder]
+Cube 0.02,0.22,0.02
+Color 150,150,150
+emissivecolor 150,150,150
+Translate 1.2,1.58, 4.25
+
+[Meshbuilder]
+Cylinder 15, 0.08,0.08,0.01
+Color 200,200,200
+Translate 1.2,1.355, 4.25
+emissivecolor 200,200,200
+
+[Meshbuilder]
+Cylinder 15, 0.04,0.16,0.17
+Color 237,28,36
+Translate 1.2,1.72, 4.25
+emissivecolor 237,28,36
+
+Translateall -0.9, -0.6, -4.2

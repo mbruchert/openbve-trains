@@ -1,0 +1,53 @@
+[object]
+States=restaurant.csv
+
+[object]
+States=techo.csv
+Position=0,-1.25,0
+
+[object]
+States=techo curvo.csv
+Position=0,-1.06,11.52
+[object]
+States=techo curvo 2.csv
+Position=0,-1.06,-11.52
+
+;Escaleras
+
+[Object]
+States=Escaleras.b3d
+Position=0,0,11.57
+[Object]
+States=Escaleras.b3d
+Position=0,0,-11.57
+
+;Lamparas-------------------------------------------------------
+
+[object]
+Position = -1.15, 0.85, 3.59
+States=lampara.b3d
+[object]
+Position = -1.15, 0.85, 1.27
+States=lampara.b3d
+[object]
+Position = -1.15, 0.85, -1.10
+States=lampara.b3d
+[object]
+Position = -1.15, 0.85, -3.43
+States=lampara.b3d
+
+[object]
+Position = 1.15, 0.85, -3.59
+States=lampara.b3d
+[object]
+Position = 1.15, 0.85, 1.27
+States=lampara.b3d
+[object]
+Position = 1.15, 0.85, -1.10
+States=lampara.b3d
+[object]
+Position = 1.15, 0.85, -5.73
+States=lampara.b3d
+[object]
+Position = 1.15, 0.85, -8.25
+States=lampara.b3d

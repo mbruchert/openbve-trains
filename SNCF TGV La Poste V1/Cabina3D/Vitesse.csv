@@ -1,0 +1,13 @@
+;;Vitesse;;
+CreateMeshBuilder,
+AddVertex,-0.459,2.223,6.98
+AddVertex,-0.459,2.197,6.975
+AddVertex,0.62,2.223,6.98
+AddVertex,0.62,2.197,6.975
+Addface,1,0,2,3
+LoadTexture,Vitesse.png,,,,
+SetTextureCoordinates,0,0,0,,
+SetTextureCoordinates,1,0,1,,
+SetTextureCoordinates,2,1,0,,
+SetTextureCoordinates,3,1,1,,
+SetEmissivecolor,255,255,255

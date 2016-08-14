@@ -1,0 +1,17 @@
+[Include]
+EurostarR4.csv
+Position =  0, 0,2.379
+[Include]
+Interior/EurostarR2.csv
+Position =  0, 0,2.379
+
+
+;;Puertas;;
+[Object]
+Position =  0, 0,3.170
+States = Puerta1eraClase.csv
+TranslateZFunction = -1.1 * RIGHTdoors[0]
+[Object]
+Position =  0, 0,3.170
+States = Puerta1eraClase2.csv
+TranslateZFunction = -1.1 * Leftdoors[0]

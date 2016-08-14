@@ -1,0 +1,6 @@
+﻿81-717/81-714 metró szerelvény, 6 kocsi
+
+Vmax = 90 km/h
+Teljesítmény: 4 x 110 kW
+Hossza: 19210 mm
+Saját tömeg: 34 t

@@ -1,0 +1,1944 @@
+;Copyright: Alejandro Melo
+;http://clubedobvemex.blogspot.com
+;alejandrovargasmelo@yahoo.com.mx
+;https://www.facebook.com/OpenbveMexico
+
+;============Coche Pullman Golden Arrow=========================
+
+;Testeros ======================================================
+
+;Testero delantero
+
+CreateMeshBuilder,
+Addvertex,  1.4, 3.53, 11
+Addvertex, -1.4, 3.53, 11
+Addvertex, -1.4, 0.94, 11
+Addvertex,  1.4, 0.94, 11
+Addface2, 0,1,2,3
+GenerateNormals
+LoadTexture, testero interno.png
+SetTextureCoordinates, 0,0,0
+SetTextureCoordinates, 1,1,0
+SetTextureCoordinates, 2,1,1
+SetTextureCoordinates, 3,0,1
+SetDecalTransparentColor, 255,255,255
+
+CreateMeshBuilder,
+Addvertex,  1.22, 4.02, 12.17
+Addvertex, -1.22, 4.02, 12.17
+Addvertex, -1.22, 0.94, 12.17
+Addvertex,  1.22, 0.94, 12.17
+Addface2, 0,1,2,3
+GenerateNormals
+LoadTexture, testero.png
+SetTextureCoordinates, 0,0,0
+SetTextureCoordinates, 1,1,0
+SetTextureCoordinates, 2,1,1
+SetTextureCoordinates, 3,0,1
+SetDecalTransparentColor, 255,255,255
+
+;burlete
+CreateMeshBuilder,
+Addvertex, 0.45, 3.6, 12.17
+Addvertex, 0.45, 3.6, 12.77
+Addvertex, 0.45, 1.1,  12.77
+Addvertex, 0.45, 1.1,  12.17
+Addface2, 0,1,2,3
+GenerateNormals
+LoadTexture, burlete.png
+SetTextureCoordinates, 0, 0, 0
+SetTextureCoordinates, 1, 1, 0
+SetTextureCoordinates, 2, 1, 1
+SetTextureCoordinates, 3, 0, 1
+
+CreateMeshBuilder,
+Addvertex, -0.45, 3.6, 12.17
+Addvertex, -0.45, 3.6, 12.77
+Addvertex, -0.45, 1.1,  12.77
+Addvertex, -0.45, 1.1,  12.17
+Addface2, 0,1,2,3
+GenerateNormals
+LoadTexture, burlete.png
+SetTextureCoordinates, 0, 0, 0
+SetTextureCoordinates, 1, 1, 0
+SetTextureCoordinates, 2, 1, 1
+SetTextureCoordinates, 3, 0, 1
+
+CreateMeshBuilder,
+Addvertex,  0.45, 3.6, 12.17
+Addvertex,  0.45, 3.6, 12.77
+Addvertex, -0.45, 3.6, 12.77
+Addvertex, -0.45, 3.6, 12.17
+Addface2, 0,1,2,3
+GenerateNormals
+LoadTexture, burlete.png
+SetTextureCoordinates, 0, 0, 0
+SetTextureCoordinates, 1, 1, 0
+SetTextureCoordinates, 2, 1, 1
+SetTextureCoordinates, 3, 0, 1
+
+CreateMeshBuilder,
+Addvertex, -1.42, 3.91, 12.77
+Addvertex,  1.42, 3.91, 12.77
+Addvertex,  1.42, 0.9,  12.77
+Addvertex, -1.42, 0.9,  12.77
+Addface2, 0,1,2,3
+GenerateNormals
+LoadTexture, sanfona.PNG
+SetTextureCoordinates, 0,0,0
+SetTextureCoordinates, 1,1,0
+SetTextureCoordinates, 2,1,1
+SetTextureCoordinates, 3,0,1
+Setdecaltransparentcolor, 0,255,0
+
+CreateMeshBuilder,
+Addvertex,  0.45, 1.1, 12.17
+Addvertex,  0.45, 1.1, 12.77
+Addvertex, -0.45, 1.1, 12.77
+Addvertex, -0.45, 1.1, 12.17
+Addface2, 0,1,2,3
+Setcolor, 100,100,100
+
+CreateMeshBuilder,
+Addvertex, 1.05, 3.35, 12.3
+Addvertex, 1.05, 3.35, 12.6
+Addvertex, 1.1,  1.1,  12.6
+Addvertex, 1.1,  1.1,  12.3
+Addface2, 0,1,2,3
+GenerateNormals
+LoadTexture, escalerilla.png
+SetTextureCoordinates, 0, 0, 0
+SetTextureCoordinates, 1, 1, 0
+SetTextureCoordinates, 2, 1, 1
+SetTextureCoordinates, 3, 0, 1
+SetDecalTransparentColor, 255,255,255
+
+CreateMeshBuilder,
+Addvertex, -1.05, 3.35, 12.3
+Addvertex, -1.05, 3.35, 12.6
+Addvertex, -1.1,  1.1,  12.6
+Addvertex, -1.1,  1.1,  12.3
+Addface2, 0,1,2,3
+GenerateNormals
+LoadTexture, escalerilla.png
+SetTextureCoordinates, 0, 0, 0
+SetTextureCoordinates, 1, 1, 0
+SetTextureCoordinates, 2, 1, 1
+SetTextureCoordinates, 3, 0, 1
+SetDecalTransparentColor, 255,255,255
+
+CreateMeshBuilder,
+cube, 0.2, 0.7, 0.21
+translate, -0.8, 2, 12.4
+Setcolor, 12,34,58
+
+CreateMeshBuilder,
+cube, 0.2, 0.7, 0.21
+translate, 0.8, 2, 12.4
+Setcolor, 12,34,58
+
+;Testero Trasero
+
+CreateMeshBuilder,
+Addvertex, -1.4, 3.53, -11
+Addvertex,  1.4, 3.53, -11
+Addvertex,  1.4, 0.94, -11
+Addvertex, -1.4, 0.94, -11
+Addface2, 0,1,2,3
+GenerateNormals
+LoadTexture, testero interno.png
+SetTextureCoordinates, 0,0,0
+SetTextureCoordinates, 1,1,0
+SetTextureCoordinates, 2,1,1
+SetTextureCoordinates, 3,0,1
+SetDecalTransparentColor, 255,255,255
+
+CreateMeshBuilder,
+Addvertex,  1.22, 4.02, -12.17
+Addvertex, -1.22, 4.02, -12.17
+Addvertex, -1.22, 0.94, -12.17
+Addvertex,  1.22, 0.94, -12.17
+Addface2, 0,1,2,3
+GenerateNormals
+LoadTexture, testero.png
+SetTextureCoordinates, 0,0,0
+SetTextureCoordinates, 1,1,0
+SetTextureCoordinates, 2,1,1
+SetTextureCoordinates, 3,0,1
+SetDecalTransparentColor, 255,255,255
+
+;burlete
+CreateMeshBuilder,
+Addvertex, 0.45, 3.6, -12.17
+Addvertex, 0.45, 3.6, -12.77
+Addvertex, 0.45, 1.1,  -12.77
+Addvertex, 0.45, 1.1,  -12.17
+Addface2, 0,1,2,3
+GenerateNormals
+LoadTexture, burlete.png
+SetTextureCoordinates, 0, 0, 0
+SetTextureCoordinates, 1, 1, 0
+SetTextureCoordinates, 2, 1, 1
+SetTextureCoordinates, 3, 0, 1
+
+CreateMeshBuilder,
+Addvertex, -0.45, 3.6, -12.17
+Addvertex, -0.45, 3.6, -12.77
+Addvertex, -0.45, 1.1,  -12.77
+Addvertex, -0.45, 1.1,  -12.17
+Addface2, 0,1,2,3
+GenerateNormals
+LoadTexture, burlete.png
+SetTextureCoordinates, 0, 0, 0
+SetTextureCoordinates, 1, 1, 0
+SetTextureCoordinates, 2, 1, 1
+SetTextureCoordinates, 3, 0, 1
+
+CreateMeshBuilder,
+Addvertex,  0.45, 3.6, -12.17
+Addvertex,  0.45, 3.6, -12.77
+Addvertex, -0.45, 3.6, -12.77
+Addvertex, -0.45, 3.6, -12.17
+Addface2, 0,1,2,3
+GenerateNormals
+LoadTexture, burlete.png
+SetTextureCoordinates, 0, 0, 0
+SetTextureCoordinates, 1, 1, 0
+SetTextureCoordinates, 2, 1, 1
+SetTextureCoordinates, 3, 0, 1
+
+CreateMeshBuilder,
+Addvertex, -1.42, 3.91, -12.77
+Addvertex,  1.42, 3.91, -12.77
+Addvertex,  1.42, 0.9,  -12.77
+Addvertex, -1.42, 0.9,  -12.77
+Addface2, 0,1,2,3
+GenerateNormals
+LoadTexture, sanfona.PNG
+SetTextureCoordinates, 0,0,0
+SetTextureCoordinates, 1,1,0
+SetTextureCoordinates, 2,1,1
+SetTextureCoordinates, 3,0,1
+Setdecaltransparentcolor, 0,255,0
+
+CreateMeshBuilder,
+Addvertex,  0.45, 1.1, -12.17
+Addvertex,  0.45, 1.1, -12.77
+Addvertex, -0.45, 1.1, -12.77
+Addvertex, -0.45, 1.1, -12.17
+Addface2, 0,1,2,3
+Setcolor, 100,100,100
+
+CreateMeshBuilder,
+Addvertex, 1.05, 3.35, -12.3
+Addvertex, 1.05, 3.35, -12.6
+Addvertex, 1.1,  1.1,  -12.6
+Addvertex, 1.1,  1.1,  -12.3
+Addface2, 0,1,2,3
+GenerateNormals
+LoadTexture, escalerilla.png
+SetTextureCoordinates, 0, 0, 0
+SetTextureCoordinates, 1, 1, 0
+SetTextureCoordinates, 2, 1, 1
+SetTextureCoordinates, 3, 0, 1
+SetDecalTransparentColor, 255,255,255
+
+CreateMeshBuilder,
+Addvertex, -1.05, 3.35, -12.3
+Addvertex, -1.05, 3.35, -12.6
+Addvertex, -1.1,  1.1,  -12.6
+Addvertex, -1.1,  1.1,  -12.3
+Addface2, 0,1,2,3
+GenerateNormals
+LoadTexture, escalerilla.png
+SetTextureCoordinates, 0, 0, 0
+SetTextureCoordinates, 1, 1, 0
+SetTextureCoordinates, 2, 1, 1
+SetTextureCoordinates, 3, 0, 1
+SetDecalTransparentColor, 255,255,255
+
+CreateMeshBuilder,
+cube, 0.2, 0.7, 0.21
+translate, -0.8, 2, -12.4
+Setcolor, 12,34,58
+
+CreateMeshBuilder,
+cube, 0.2, 0.7, 0.21
+translate, 0.8, 2, -12.4
+Setcolor, 12,34,58
+
+;Laterales ======================================================
+
+;derecho
+
+CreateMeshBuilder,
+Addvertex, 1.4, 3.53, -11
+Addvertex, 1.4, 3.53,  11
+Addvertex, 1.4, 0.94,  11
+Addvertex, 1.4, 0.94, -11
+Addface, 0,1,2,3
+GenerateNormals
+LoadTexture, externo derecho.png
+SetTextureCoordinates, 0,0,0
+SetTextureCoordinates, 1,1,0
+SetTextureCoordinates, 2,1,1
+SetTextureCoordinates, 3,0,1
+SetDecalTransparentColor, 255,255,255
+
+CreateMeshBuilder,
+Addvertex, 1.39, 3.53,  11
+Addvertex, 1.39, 3.53, -11
+Addvertex, 1.39, 0.94, -11
+Addvertex, 1.39, 0.94,  11
+Addface, 0,1,2,3
+GenerateNormals
+LoadTexture, interno derecho.png
+SetTextureCoordinates, 0,0,0
+SetTextureCoordinates, 1,1,0
+SetTextureCoordinates, 2,1,1
+SetTextureCoordinates, 3,0,1
+SetDecalTransparentColor, 255,255,255
+setemissivecolor, 255,255,255
+
+CreateMeshBuilder,
+Addvertex, 1.395, 3.53, -11
+Addvertex, 1.395, 3.53,  11
+Addvertex, 1.395, 0.94,  11
+Addvertex, 1.395, 0.94, -11
+Addface, 0,1,2,3
+setcolor, 100,100,100,220
+setemissivecolor, 53,17,0
+
+;izquierdo
+
+CreateMeshBuilder,
+Addvertex, -1.4, 3.53,  11
+Addvertex, -1.4, 3.53, -11
+Addvertex, -1.4, 0.94, -11
+Addvertex, -1.4, 0.94,  11
+Addface, 0,1,2,3
+GenerateNormals
+LoadTexture, externo izquierdo.png
+SetTextureCoordinates, 0,0,0
+SetTextureCoordinates, 1,1,0
+SetTextureCoordinates, 2,1,1
+SetTextureCoordinates, 3,0,1
+SetDecalTransparentColor, 255,255,255
+
+CreateMeshBuilder,
+Addvertex, -1.39, 3.53,  11
+Addvertex, -1.39, 3.53, -11
+Addvertex, -1.39, 0.94, -11
+Addvertex, -1.39, 0.94,  11
+Addface, 3,2,1,0
+GenerateNormals
+LoadTexture, interno izquierdo.png
+SetTextureCoordinates, 0,0,0
+SetTextureCoordinates, 1,1,0
+SetTextureCoordinates, 2,1,1
+SetTextureCoordinates, 3,0,1
+SetDecalTransparentColor, 255,255,255
+setemissivecolor, 255,255,255
+
+CreateMeshBuilder,
+Addvertex, -1.395, 3.53,  11
+Addvertex, -1.395, 3.53, -11
+Addvertex, -1.395, 0.94, -11
+Addvertex, -1.395, 0.94,  11
+Addface, 0,1,2,3
+setcolor, 100,100,100,220
+setemissivecolor,53,17,0
+
+;Techo
+
+CreateMeshBuilder,
+Addvertex, -1.4, 3.53,  12.17
+Addvertex, -1.4, 3.53, -12.17
+Addvertex,  1.4, 3.53, -12.17
+Addvertex,  1.4, 3.53,  12.17
+Addface, 0,1,2,3
+GenerateNormals
+loadtexture, techo 2.gif
+SetTextureCoordinates, 0, 0, 0
+SetTextureCoordinates, 1, 1, 0
+SetTextureCoordinates, 2, 1, 1
+SetTextureCoordinates, 3, 0, 1
+SetDecalTransparentColor, 255,255,255
+
+CreateMeshBuilder,
+Addvertex, -1.19, 3.8,  11
+Addvertex, -1.19, 3.8, -11
+Addvertex,  1.19, 3.8, -11
+Addvertex,  1.19, 3.8,  11
+Addface, 0,1,2,3
+GenerateNormals
+loadtexture, techo interno.png
+SetTextureCoordinates, 0, 0, 0
+SetTextureCoordinates, 1, 1, 0
+SetTextureCoordinates, 2, 1, 1
+SetTextureCoordinates, 3, 0, 1
+SetDecalTransparentColor, 255,255,255
+setemissivecolor, 255,255,255
+
+;Piso===========================================================
+
+CreateMeshBuilder,
+Addvertex,  1.4, 1.22,  12.17
+Addvertex,  1.4, 1.22, -12.17
+Addvertex, -1.4, 1.22, -12.17
+Addvertex, -1.4, 1.22,  12.17
+Addface, 0,1,2,3
+LoadTexture, piso.png
+SetTextureCoordinates, 0,0,0
+SetTextureCoordinates, 1,1,0
+SetTextureCoordinates, 2,1,1
+SetTextureCoordinates, 3,0,1
+SetDecalTransparentColor, 255,255,255
+setemissivecolor, 255,255,255
+
+CreateMeshBuilder,
+Addvertex,  1.4, 1.22, -12.17
+Addvertex,  1.4, 1.22,  12.17
+Addvertex, -1.4, 1.22,  12.17
+Addvertex, -1.4, 1.22, -12.17
+Addface, 0,1,2,3
+LoadTexture, piso 2.png
+SetTextureCoordinates, 0,0,0
+SetTextureCoordinates, 1,1,0
+SetTextureCoordinates, 2,1,1
+SetTextureCoordinates, 3,0,1
+SetDecalTransparentColor, 255,255,255
+
+CreateMeshBuilder,
+cube, 0.3, 0.27, 1
+translate, -1.1, 0.7, 0
+SetColor, 20,20,20
+
+CreateMeshBuilder,
+cube, 0.3, 0.27, 1
+translate, 1.1, 0.7, 2.5
+SetColor, 20,20,20
+
+CreateMeshBuilder,
+cube, 0.3, 0.27, 1
+translate, 1.1, 0.7, -2.5
+SetColor, 20,20,20
+
+CreateMeshBuilder,
+cube, 0.3, 0.2, 0.5
+translate, 1.1, 0.9, 0
+SetColor, 20,20,20
+
+;Puertas========================================================
+
+CreateMeshBuilder,
+Addvertex, 1.22, 3.53, 12.17
+Addvertex, 1.22, 3.53, 11
+Addvertex, 1.22, 0.94, 11
+Addvertex, 1.22, 0.94, 12.17
+Addface2, 0,1,2,3
+GenerateNormals
+LoadTexture, puerta.png
+SetTextureCoordinates, 0,0,0
+SetTextureCoordinates, 1,1,0
+SetTextureCoordinates, 2,1,1
+SetTextureCoordinates, 3,0,1
+SetDecalTransparentColor, 255,255,255
+
+CreateMeshBuilder,
+Addvertex, -1.22, 3.53, 12.17
+Addvertex, -1.22, 3.53, 11
+Addvertex, -1.22, 0.94, 11
+Addvertex, -1.22, 0.94, 12.17
+Addface2, 0,1,2,3
+GenerateNormals
+LoadTexture, puerta.png
+SetTextureCoordinates, 0,0,0
+SetTextureCoordinates, 1,1,0
+SetTextureCoordinates, 2,1,1
+SetTextureCoordinates, 3,0,1
+SetDecalTransparentColor, 255,255,255
+
+CreateMeshBuilder,
+Addvertex, 1.22, 3.53, -12.17
+Addvertex, 1.22, 3.53, -11
+Addvertex, 1.22, 0.94, -11
+Addvertex, 1.22, 0.94, -12.17
+Addface2, 0,1,2,3
+GenerateNormals
+LoadTexture, puerta.png
+SetTextureCoordinates, 0,0,0
+SetTextureCoordinates, 1,1,0
+SetTextureCoordinates, 2,1,1
+SetTextureCoordinates, 3,0,1
+SetDecalTransparentColor, 255,255,255
+
+CreateMeshBuilder,
+Addvertex, -1.22, 3.53, -12.17
+Addvertex, -1.22, 3.53, -11
+Addvertex, -1.22, 0.94, -11
+Addvertex, -1.22, 0.94, -12.17
+Addface2, 0,1,2,3
+GenerateNormals
+LoadTexture, puerta.png
+SetTextureCoordinates, 0,0,0
+SetTextureCoordinates, 1,1,0
+SetTextureCoordinates, 2,1,1
+SetTextureCoordinates, 3,0,1
+SetDecalTransparentColor, 255,255,255
+
+;Interiores=====================================================
+
+CreateMeshBuilder,
+Addvertex,  1.4, 3.3,  9.47
+Addvertex,  1.4, 3.3, -9.47
+Addvertex, -1.4, 3.3, -9.47
+Addvertex, -1.4, 3.3,  9.47
+Addface2, 0,1,2,3
+LoadTexture, maleteros restaurant.png
+SetTextureCoordinates, 0,0,0
+SetTextureCoordinates, 1,1,0
+SetTextureCoordinates, 2,1,1
+SetTextureCoordinates, 3,0,1
+SetDecalTransparentColor, 0,0,255
+setemissivecolor, 255,255,255
+
+CreateMeshBuilder,
+Addvertex,  1.4, 3.45, -9.12
+Addvertex, -1.4, 3.45, -9.12
+Addvertex, -1.4, 3.3,  -9.12
+Addvertex,  1.4, 3.3,  -9.12
+Addface2, 0,1,2,3
+GenerateNormals
+LoadTexture, barras.png
+SetTextureCoordinates, 0,0,0
+SetTextureCoordinates, 1,1,0
+SetTextureCoordinates, 2,1,1
+SetTextureCoordinates, 3,0,1
+SetDecalTransparentColor, 255,255,255
+setemissivecolor, 255,255,255
+
+CreateMeshBuilder,
+Addvertex,  1.4, 3.45, -7.83
+Addvertex, -1.4, 3.45, -7.83
+Addvertex, -1.4, 3.3,  -7.83
+Addvertex,  1.4, 3.3,  -7.83
+Addface2, 0,1,2,3
+GenerateNormals
+LoadTexture, barras.png
+SetTextureCoordinates, 0,0,0
+SetTextureCoordinates, 1,1,0
+SetTextureCoordinates, 2,1,1
+SetTextureCoordinates, 3,0,1
+SetDecalTransparentColor, 255,255,255
+setemissivecolor, 255,255,255
+
+CreateMeshBuilder,
+Addvertex,  1.4, 3.45, -7.19
+Addvertex, -1.4, 3.45, -7.19
+Addvertex, -1.4, 3.3,  -7.19
+Addvertex,  1.4, 3.3,  -7.19
+Addface2, 0,1,2,3
+GenerateNormals
+LoadTexture, barras.png
+SetTextureCoordinates, 0,0,0
+SetTextureCoordinates, 1,1,0
+SetTextureCoordinates, 2,1,1
+SetTextureCoordinates, 3,0,1
+SetDecalTransparentColor, 255,255,255
+setemissivecolor, 255,255,255
+
+CreateMeshBuilder,
+Addvertex,  1.4, 3.45, -5.91
+Addvertex, -1.4, 3.45, -5.91
+Addvertex, -1.4, 3.3,  -5.91
+Addvertex,  1.4, 3.3,  -5.91
+Addface2, 0,1,2,3
+GenerateNormals
+LoadTexture, barras.png
+SetTextureCoordinates, 0,0,0
+SetTextureCoordinates, 1,1,0
+SetTextureCoordinates, 2,1,1
+SetTextureCoordinates, 3,0,1
+SetDecalTransparentColor, 255,255,255
+setemissivecolor, 255,255,255
+
+CreateMeshBuilder,
+Addvertex,  1.4, 3.45, -5.04
+Addvertex, -1.4, 3.45, -5.04
+Addvertex, -1.4, 3.3,  -5.04
+Addvertex,  1.4, 3.3,  -5.04
+Addface2, 0,1,2,3
+GenerateNormals
+LoadTexture, barras.png
+SetTextureCoordinates, 0,0,0
+SetTextureCoordinates, 1,1,0
+SetTextureCoordinates, 2,1,1
+SetTextureCoordinates, 3,0,1
+SetDecalTransparentColor, 255,255,255
+setemissivecolor, 255,255,255
+
+CreateMeshBuilder,
+Addvertex,  1.4, 3.45, -3.74
+Addvertex, -1.4, 3.45, -3.74
+Addvertex, -1.4, 3.3,  -3.74
+Addvertex,  1.4, 3.3,  -3.74
+Addface2, 0,1,2,3
+GenerateNormals
+LoadTexture, barras.png
+SetTextureCoordinates, 0,0,0
+SetTextureCoordinates, 1,1,0
+SetTextureCoordinates, 2,1,1
+SetTextureCoordinates, 3,0,1
+SetDecalTransparentColor, 255,255,255
+setemissivecolor, 255,255,255
+
+CreateMeshBuilder,
+Addvertex,  1.4, 3.45, -2.91
+Addvertex, -1.4, 3.45, -2.91
+Addvertex, -1.4, 3.3,  -2.91
+Addvertex,  1.4, 3.3,  -2.91
+Addface2, 0,1,2,3
+GenerateNormals
+LoadTexture, barras.png
+SetTextureCoordinates, 0,0,0
+SetTextureCoordinates, 1,1,0
+SetTextureCoordinates, 2,1,1
+SetTextureCoordinates, 3,0,1
+SetDecalTransparentColor, 255,255,255
+setemissivecolor, 255,255,255
+
+CreateMeshBuilder,
+Addvertex,  1.4, 3.45, -1.64
+Addvertex, -1.4, 3.45, -1.64
+Addvertex, -1.4, 3.3,  -1.64
+Addvertex,  1.4, 3.3,  -1.64
+Addface2, 0,1,2,3
+GenerateNormals
+LoadTexture, barras.png
+SetTextureCoordinates, 0,0,0
+SetTextureCoordinates, 1,1,0
+SetTextureCoordinates, 2,1,1
+SetTextureCoordinates, 3,0,1
+SetDecalTransparentColor, 255,255,255
+setemissivecolor, 255,255,255
+
+CreateMeshBuilder,
+Addvertex,  1.4, 3.45, -0.77
+Addvertex, -1.4, 3.45, -0.77
+Addvertex, -1.4, 3.3,  -0.77
+Addvertex,  1.4, 3.3,  -0.77
+Addface2, 0,1,2,3
+GenerateNormals
+LoadTexture, barras.png
+SetTextureCoordinates, 0,0,0
+SetTextureCoordinates, 1,1,0
+SetTextureCoordinates, 2,1,1
+SetTextureCoordinates, 3,0,1
+SetDecalTransparentColor, 255,255,255
+setemissivecolor, 255,255,255
+
+CreateMeshBuilder,
+Addvertex,  1.4, 3.45, 0.53
+Addvertex, -1.4, 3.45, 0.53
+Addvertex, -1.4, 3.3,  0.53
+Addvertex,  1.4, 3.3,  0.53
+Addface2, 0,1,2,3
+GenerateNormals
+LoadTexture, barras.png
+SetTextureCoordinates, 0,0,0
+SetTextureCoordinates, 1,1,0
+SetTextureCoordinates, 2,1,1
+SetTextureCoordinates, 3,0,1
+SetDecalTransparentColor, 255,255,255
+setemissivecolor, 255,255,255
+
+CreateMeshBuilder,
+Addvertex,  1.4, 3.45, 1.38
+Addvertex, -1.4, 3.45, 1.38
+Addvertex, -1.4, 3.3,  1.38
+Addvertex,  1.4, 3.3,  1.38
+Addface2, 0,1,2,3
+GenerateNormals
+LoadTexture, barras.png
+SetTextureCoordinates, 0,0,0
+SetTextureCoordinates, 1,1,0
+SetTextureCoordinates, 2,1,1
+SetTextureCoordinates, 3,0,1
+SetDecalTransparentColor, 255,255,255
+setemissivecolor, 255,255,255
+
+CreateMeshBuilder,
+Addvertex,  1.4, 3.45, 2.66
+Addvertex, -1.4, 3.45, 2.66
+Addvertex, -1.4, 3.3,  2.66
+Addvertex,  1.4, 3.3,  2.66
+Addface2, 0,1,2,3
+GenerateNormals
+LoadTexture, barras.png
+SetTextureCoordinates, 0,0,0
+SetTextureCoordinates, 1,1,0
+SetTextureCoordinates, 2,1,1
+SetTextureCoordinates, 3,0,1
+SetDecalTransparentColor, 255,255,255
+setemissivecolor, 255,255,255
+
+CreateMeshBuilder,
+Addvertex,  1.4, 3.45, 3.53
+Addvertex, -1.4, 3.45, 3.53
+Addvertex, -1.4, 3.3,  3.53
+Addvertex,  1.4, 3.3,  3.53
+Addface2, 0,1,2,3
+GenerateNormals
+LoadTexture, barras.png
+SetTextureCoordinates, 0,0,0
+SetTextureCoordinates, 1,1,0
+SetTextureCoordinates, 2,1,1
+SetTextureCoordinates, 3,0,1
+SetDecalTransparentColor, 255,255,255
+setemissivecolor, 255,255,255
+
+CreateMeshBuilder,
+Addvertex,  1.4, 3.45, 4.82
+Addvertex, -1.4, 3.45, 4.82
+Addvertex, -1.4, 3.3,  4.82
+Addvertex,  1.4, 3.3,  4.82
+Addface2, 0,1,2,3
+GenerateNormals
+LoadTexture, barras.png
+SetTextureCoordinates, 0,0,0
+SetTextureCoordinates, 1,1,0
+SetTextureCoordinates, 2,1,1
+SetTextureCoordinates, 3,0,1
+SetDecalTransparentColor, 255,255,255
+setemissivecolor, 255,255,255
+
+CreateMeshBuilder,
+Addvertex,  1.4, 3.45, 5.67
+Addvertex, -1.4, 3.45, 5.67
+Addvertex, -1.4, 3.3,  5.67
+Addvertex,  1.4, 3.3,  5.67
+Addface2, 0,1,2,3
+GenerateNormals
+LoadTexture, barras.png
+SetTextureCoordinates, 0,0,0
+SetTextureCoordinates, 1,1,0
+SetTextureCoordinates, 2,1,1
+SetTextureCoordinates, 3,0,1
+SetDecalTransparentColor, 255,255,255
+setemissivecolor, 255,255,255
+
+CreateMeshBuilder,
+Addvertex,  1.4, 3.45, 6.95
+Addvertex, -1.4, 3.45, 6.95
+Addvertex, -1.4, 3.3,  6.95
+Addvertex,  1.4, 3.3,  6.95
+Addface2, 0,1,2,3
+GenerateNormals
+LoadTexture, barras.png
+SetTextureCoordinates, 0,0,0
+SetTextureCoordinates, 1,1,0
+SetTextureCoordinates, 2,1,1
+SetTextureCoordinates, 3,0,1
+SetDecalTransparentColor, 255,255,255
+setemissivecolor, 255,255,255
+
+CreateMeshBuilder,
+Addvertex,  1.4, 3.45, 7.79
+Addvertex, -1.4, 3.45, 7.79
+Addvertex, -1.4, 3.3,  7.79
+Addvertex,  1.4, 3.3,  7.79
+Addface2, 0,1,2,3
+GenerateNormals
+LoadTexture, barras.png
+SetTextureCoordinates, 0,0,0
+SetTextureCoordinates, 1,1,0
+SetTextureCoordinates, 2,1,1
+SetTextureCoordinates, 3,0,1
+SetDecalTransparentColor, 255,255,255
+setemissivecolor, 255,255,255
+
+CreateMeshBuilder,
+Addvertex,  1.4, 3.45, 9.09
+Addvertex, -1.4, 3.45, 9.09
+Addvertex, -1.4, 3.3,  9.09
+Addvertex,  1.4, 3.3,  9.09
+Addface2, 0,1,2,3
+GenerateNormals
+LoadTexture, barras.png
+SetTextureCoordinates, 0,0,0
+SetTextureCoordinates, 1,1,0
+SetTextureCoordinates, 2,1,1
+SetTextureCoordinates, 3,0,1
+SetDecalTransparentColor, 255,255,255
+setemissivecolor, 255,255,255
+
+;Mamparas========================================================
+
+CreateMeshBuilder,
+Addvertex,  1.4, 4.05, 0.96
+Addvertex, -1.4, 4.05, 0.96
+Addvertex, -1.4, 0.94, 0.96
+Addvertex,  1.4, 0.94, 0.96
+Addface2, 0,1,2,3
+GenerateNormals
+LoadTexture, mampara.png
+SetTextureCoordinates, 0,0,0
+SetTextureCoordinates, 1,1,0
+SetTextureCoordinates, 2,1,1
+SetTextureCoordinates, 3,0,1
+SetDecalTransparentColor, 255,255,255
+setemissivecolor, 255,255,255
+
+CreateMeshBuilder,
+Addvertex,  1.4, 4.05, 9.47
+Addvertex, -1.4, 4.05, 9.47
+Addvertex, -1.4, 0.94, 9.47
+Addvertex,  1.4, 0.94, 9.47
+Addface2, 0,1,2,3
+GenerateNormals
+LoadTexture, mampara.png
+SetTextureCoordinates, 0,0,0
+SetTextureCoordinates, 1,1,0
+SetTextureCoordinates, 2,1,1
+SetTextureCoordinates, 3,0,1
+SetDecalTransparentColor, 255,255,255
+setemissivecolor, 255,255,255
+
+CreateMeshBuilder,
+Addvertex, -0.51, 4.05, 9.47
+Addvertex, -0.51, 4.05, 11
+Addvertex, -0.51, 1.21, 11
+Addvertex, -0.51, 1.21, 9.47
+Addface2, 0,1,2,3
+GenerateNormals
+LoadTexture, pared del bano.png
+SetTextureCoordinates, 0,0,0
+SetTextureCoordinates, 1,1,0
+SetTextureCoordinates, 2,1,1
+SetTextureCoordinates, 3,0,1
+setemissivecolor, 255,255,255
+
+CreateMeshBuilder,
+Addvertex,  1.4, 4.05, -9.47
+Addvertex, -1.4, 4.05, -9.47
+Addvertex, -1.4, 0.94, -9.47
+Addvertex,  1.4, 0.94, -9.47
+Addface2, 0,1,2,3
+GenerateNormals
+LoadTexture, mampara.png
+SetTextureCoordinates, 0,0,0
+SetTextureCoordinates, 1,1,0
+SetTextureCoordinates, 2,1,1
+SetTextureCoordinates, 3,0,1
+SetDecalTransparentColor, 255,255,255
+setemissivecolor, 255,255,255
+
+CreateMeshBuilder,
+Addvertex, -0.51, 4.05, -9.47
+Addvertex, -0.51, 4.05, -11
+Addvertex, -0.51, 1.21, -11
+Addvertex, -0.51, 1.21, -9.47
+Addface2, 0,1,2,3
+GenerateNormals
+LoadTexture, pared del bano.png
+SetTextureCoordinates, 0,0,0
+SetTextureCoordinates, 1,1,0
+SetTextureCoordinates, 2,1,1
+SetTextureCoordinates, 3,0,1
+setemissivecolor, 255,255,255
+
+;Mesas==========================================================
+
+CreateMeshBuilder,
+Addvertex,  1.4, 2.2, 9.47
+Addvertex,  1.4, 2.2,  -9.47
+Addvertex, -1.4, 2.2,  -9.47
+Addvertex, -1.4, 2.2, 9.47
+Addface2, 0,1,2,3
+GenerateNormals
+LoadTexture, mesas restaurant.png
+SetTextureCoordinates, 0,0,0
+SetTextureCoordinates, 1,1,0
+SetTextureCoordinates, 2,1,1
+SetTextureCoordinates, 3,0,1
+SetDecalTransparentColor, 0,0,255
+setemissivecolor, 255,255,255
+
+CreateMeshBuilder,
+Addvertex, -0.41, 2.2, 9.47
+Addvertex, -0.41, 2.2, -9.47
+Addvertex, -0.41, 1.7, -9.47
+Addvertex, -0.41, 1.7, 9.47
+Addface2, 0,1,2,3
+GenerateNormals
+LoadTexture, laterales de mesas restaurant.png
+SetTextureCoordinates, 0,0,0
+SetTextureCoordinates, 1,1,0
+SetTextureCoordinates, 2,1,1
+SetTextureCoordinates, 3,0,1
+SetDecalTransparentColor, 0,0,255
+setemissivecolor, 255,255,255
+
+CreateMeshBuilder,
+Addvertex, 0.76, 2.2, 9.47
+Addvertex, 0.76, 2.2, -9.47
+Addvertex, 0.76, 1.7, -9.47
+Addvertex, 0.76, 1.7, 9.47
+Addface2, 0,1,2,3
+GenerateNormals
+LoadTexture, laterales de mesas restaurant.png
+SetTextureCoordinates, 0,0,0
+SetTextureCoordinates, 1,1,0
+SetTextureCoordinates, 2,1,1
+SetTextureCoordinates, 3,0,1
+SetDecalTransparentColor, 0,0,255
+setemissivecolor, 255,255,255
+
+CreateMeshBuilder,
+Addvertex,  1.4, 2.2, -8.94
+Addvertex, -1.4, 2.2, -8.94
+Addvertex, -1.4, 1.7, -8.94
+Addvertex,  1.4, 1.7, -8.94
+Addface2, 0,1,2,3
+GenerateNormals
+LoadTexture, barras 3.png
+SetTextureCoordinates, 0,0,0
+SetTextureCoordinates, 1,1,0
+SetTextureCoordinates, 2,1,1
+SetTextureCoordinates, 3,0,1
+SetDecalTransparentColor, 0,0,255
+setemissivecolor, 255,255,255
+
+CreateMeshBuilder,
+Addvertex,  1.4, 2.2, -8
+Addvertex, -1.4, 2.2, -8
+Addvertex, -1.4, 1.7, -8
+Addvertex,  1.4, 1.7, -8
+Addface2, 0,1,2,3
+GenerateNormals
+LoadTexture, barras 3.png
+SetTextureCoordinates, 0,0,0
+SetTextureCoordinates, 1,1,0
+SetTextureCoordinates, 2,1,1
+SetTextureCoordinates, 3,0,1
+SetDecalTransparentColor, 0,0,255
+setemissivecolor, 255,255,255
+
+CreateMeshBuilder,
+Addvertex,  1.4, 2.2, -7.01
+Addvertex, -1.4, 2.2, -7.01
+Addvertex, -1.4, 1.7, -7.01
+Addvertex,  1.4, 1.7, -7.01
+Addface2, 0,1,2,3
+GenerateNormals
+LoadTexture, barras 3.png
+SetTextureCoordinates, 0,0,0
+SetTextureCoordinates, 1,1,0
+SetTextureCoordinates, 2,1,1
+SetTextureCoordinates, 3,0,1
+SetDecalTransparentColor, 0,0,255
+setemissivecolor, 255,255,255
+
+CreateMeshBuilder,
+Addvertex,  1.4, 2.2, -6.06
+Addvertex, -1.4, 2.2, -6.06
+Addvertex, -1.4, 1.7, -6.06
+Addvertex,  1.4, 1.7, -6.06
+Addface2, 0,1,2,3
+GenerateNormals
+LoadTexture, barras 3.png
+SetTextureCoordinates, 0,0,0
+SetTextureCoordinates, 1,1,0
+SetTextureCoordinates, 2,1,1
+SetTextureCoordinates, 3,0,1
+SetDecalTransparentColor, 0,0,255
+setemissivecolor, 255,255,255
+
+CreateMeshBuilder,
+Addvertex,  1.4, 2.2, -4.85
+Addvertex, -1.4, 2.2, -4.85
+Addvertex, -1.4, 1.7, -4.85
+Addvertex,  1.4, 1.7, -4.85
+Addface2, 0,1,2,3
+GenerateNormals
+LoadTexture, barras 3.png
+SetTextureCoordinates, 0,0,0
+SetTextureCoordinates, 1,1,0
+SetTextureCoordinates, 2,1,1
+SetTextureCoordinates, 3,0,1
+SetDecalTransparentColor, 0,0,255
+setemissivecolor, 255,255,255
+
+CreateMeshBuilder,
+Addvertex,  1.4, 2.2, -3.91
+Addvertex, -1.4, 2.2, -3.91
+Addvertex, -1.4, 1.7, -3.91
+Addvertex,  1.4, 1.7, -3.91
+Addface2, 0,1,2,3
+GenerateNormals
+LoadTexture, barras 3.png
+SetTextureCoordinates, 0,0,0
+SetTextureCoordinates, 1,1,0
+SetTextureCoordinates, 2,1,1
+SetTextureCoordinates, 3,0,1
+SetDecalTransparentColor, 0,0,255
+setemissivecolor, 255,255,255
+
+CreateMeshBuilder,
+Addvertex,  1.4, 2.2, -2.73
+Addvertex, -1.4, 2.2, -2.73
+Addvertex, -1.4, 1.7, -2.73
+Addvertex,  1.4, 1.7, -2.73
+Addface2, 0,1,2,3
+GenerateNormals
+LoadTexture, barras 3.png
+SetTextureCoordinates, 0,0,0
+SetTextureCoordinates, 1,1,0
+SetTextureCoordinates, 2,1,1
+SetTextureCoordinates, 3,0,1
+SetDecalTransparentColor, 0,0,255
+setemissivecolor, 255,255,255
+
+CreateMeshBuilder,
+Addvertex,  1.4, 2.2, -1.79
+Addvertex, -1.4, 2.2, -1.79
+Addvertex, -1.4, 1.7, -1.79
+Addvertex,  1.4, 1.7, -1.79
+Addface2, 0,1,2,3
+GenerateNormals
+LoadTexture, barras 3.png
+SetTextureCoordinates, 0,0,0
+SetTextureCoordinates, 1,1,0
+SetTextureCoordinates, 2,1,1
+SetTextureCoordinates, 3,0,1
+SetDecalTransparentColor, 0,0,255
+setemissivecolor, 255,255,255
+
+CreateMeshBuilder,
+Addvertex,  1.4, 2.2, -0.58
+Addvertex, -1.4, 2.2, -0.58
+Addvertex, -1.4, 1.7, -0.58
+Addvertex,  1.4, 1.7, -0.58
+Addface2, 0,1,2,3
+GenerateNormals
+LoadTexture, barras 3.png
+SetTextureCoordinates, 0,0,0
+SetTextureCoordinates, 1,1,0
+SetTextureCoordinates, 2,1,1
+SetTextureCoordinates, 3,0,1
+SetDecalTransparentColor, 0,0,255
+setemissivecolor, 255,255,255
+
+CreateMeshBuilder,
+Addvertex,  1.4, 2.2, 0.37
+Addvertex, -1.4, 2.2, 0.37
+Addvertex, -1.4, 1.7, 0.37
+Addvertex,  1.4, 1.7, 0.37
+Addface2, 0,1,2,3
+GenerateNormals
+LoadTexture, barras 3.png
+SetTextureCoordinates, 0,0,0
+SetTextureCoordinates, 1,1,0
+SetTextureCoordinates, 2,1,1
+SetTextureCoordinates, 3,0,1
+SetDecalTransparentColor, 0,0,255
+setemissivecolor, 255,255,255
+
+CreateMeshBuilder,
+Addvertex,  1.4, 2.2, 1.55
+Addvertex, -1.4, 2.2, 1.55
+Addvertex, -1.4, 1.7, 1.55
+Addvertex,  1.4, 1.7, 1.55
+Addface2, 0,1,2,3
+GenerateNormals
+LoadTexture, barras 3.png
+SetTextureCoordinates, 0,0,0
+SetTextureCoordinates, 1,1,0
+SetTextureCoordinates, 2,1,1
+SetTextureCoordinates, 3,0,1
+SetDecalTransparentColor, 0,0,255
+setemissivecolor, 255,255,255
+
+CreateMeshBuilder,
+Addvertex,  1.4, 2.2, 2.49
+Addvertex, -1.4, 2.2, 2.49
+Addvertex, -1.4, 1.7, 2.49
+Addvertex,  1.4, 1.7, 2.49
+Addface2, 0,1,2,3
+GenerateNormals
+LoadTexture, barras 3.png
+SetTextureCoordinates, 0,0,0
+SetTextureCoordinates, 1,1,0
+SetTextureCoordinates, 2,1,1
+SetTextureCoordinates, 3,0,1
+SetDecalTransparentColor, 0,0,255
+setemissivecolor, 255,255,255
+
+CreateMeshBuilder,
+Addvertex,  1.4, 2.2, 3.7
+Addvertex, -1.4, 2.2, 3.7
+Addvertex, -1.4, 1.7, 3.7
+Addvertex,  1.4, 1.7, 3.7
+Addface2, 0,1,2,3
+GenerateNormals
+LoadTexture, barras 3.png
+SetTextureCoordinates, 0,0,0
+SetTextureCoordinates, 1,1,0
+SetTextureCoordinates, 2,1,1
+SetTextureCoordinates, 3,0,1
+SetDecalTransparentColor, 0,0,255
+setemissivecolor, 255,255,255
+
+CreateMeshBuilder,
+Addvertex,  1.4, 2.2, 4.65
+Addvertex, -1.4, 2.2, 4.65
+Addvertex, -1.4, 1.7, 4.65
+Addvertex,  1.4, 1.7, 4.65
+Addface2, 0,1,2,3
+GenerateNormals
+LoadTexture, barras 3.png
+SetTextureCoordinates, 0,0,0
+SetTextureCoordinates, 1,1,0
+SetTextureCoordinates, 2,1,1
+SetTextureCoordinates, 3,0,1
+SetDecalTransparentColor, 0,0,255
+setemissivecolor, 255,255,255
+
+CreateMeshBuilder,
+Addvertex,  1.4, 2.2, 5.85
+Addvertex, -1.4, 2.2, 5.85
+Addvertex, -1.4, 1.7, 5.85
+Addvertex,  1.4, 1.7, 5.85
+Addface2, 0,1,2,3
+GenerateNormals
+LoadTexture, barras 3.png
+SetTextureCoordinates, 0,0,0
+SetTextureCoordinates, 1,1,0
+SetTextureCoordinates, 2,1,1
+SetTextureCoordinates, 3,0,1
+SetDecalTransparentColor, 0,0,255
+setemissivecolor, 255,255,255
+
+CreateMeshBuilder,
+Addvertex,  1.4, 2.2, 6.79
+Addvertex, -1.4, 2.2, 6.79
+Addvertex, -1.4, 1.7, 6.79
+Addvertex,  1.4, 1.7, 6.79
+Addface2, 0,1,2,3
+GenerateNormals
+LoadTexture, barras 3.png
+SetTextureCoordinates, 0,0,0
+SetTextureCoordinates, 1,1,0
+SetTextureCoordinates, 2,1,1
+SetTextureCoordinates, 3,0,1
+SetDecalTransparentColor, 0,0,255
+setemissivecolor, 255,255,255
+
+CreateMeshBuilder,
+Addvertex,  1.4, 2.2, 7.98
+Addvertex, -1.4, 2.2, 7.98
+Addvertex, -1.4, 1.7, 7.98
+Addvertex,  1.4, 1.7, 7.98
+Addface2, 0,1,2,3
+GenerateNormals
+LoadTexture, barras 3.png
+SetTextureCoordinates, 0,0,0
+SetTextureCoordinates, 1,1,0
+SetTextureCoordinates, 2,1,1
+SetTextureCoordinates, 3,0,1
+SetDecalTransparentColor, 0,0,255
+setemissivecolor, 255,255,255
+
+CreateMeshBuilder,
+Addvertex,  1.4, 2.2, 8.92
+Addvertex, -1.4, 2.2, 8.92
+Addvertex, -1.4, 1.7, 8.92
+Addvertex,  1.4, 1.7, 8.92
+Addface2, 0,1,2,3
+GenerateNormals
+LoadTexture, barras 3.png
+SetTextureCoordinates, 0,0,0
+SetTextureCoordinates, 1,1,0
+SetTextureCoordinates, 2,1,1
+SetTextureCoordinates, 3,0,1
+SetDecalTransparentColor, 0,0,255
+setemissivecolor, 255,255,255
+
+;Asientos=======================================================
+
+CreateMeshBuilder,
+Addvertex,  1.4, 1.8, 9.47
+Addvertex,  1.4, 1.8, -9.47
+Addvertex, -1.4, 1.8, -9.47
+Addvertex, -1.4, 1.8, 9.47
+Addface2, 0,1,2,3
+GenerateNormals
+LoadTexture, asientos restaurant.png
+SetTextureCoordinates, 0,0,0
+SetTextureCoordinates, 1,1,0
+SetTextureCoordinates, 2,1,1
+SetTextureCoordinates, 3,0,1
+SetDecalTransparentColor, 0,0,255
+setemissivecolor, 255,255,255
+
+CreateMeshBuilder,
+Addvertex,  1.4, 2.4, -9.37
+Addvertex, -1.4, 2.4, -9.37
+Addvertex, -1.4, 1.3, -9.37
+Addvertex,  1.4, 1.3, -9.37
+Addface2, 0,1,2,3
+GenerateNormals
+LoadTexture, respaldos.png
+SetTextureCoordinates, 0,0,0
+SetTextureCoordinates, 1,0,1
+SetTextureCoordinates, 2,1,1
+SetTextureCoordinates, 3,1,0
+SetDecalTransparentColor, 0,0,255
+setemissivecolor, 255,255,255
+
+CreateMeshBuilder,
+Addvertex,  1.4, 2.4, -7.57
+Addvertex, -1.4, 2.4, -7.57
+Addvertex, -1.4, 1.3, -7.57
+Addvertex,  1.4, 1.3, -7.57
+Addface2, 0,1,2,3
+GenerateNormals
+LoadTexture, respaldos.png
+SetTextureCoordinates, 0,0,0
+SetTextureCoordinates, 1,0,1
+SetTextureCoordinates, 2,1,1
+SetTextureCoordinates, 3,1,0
+SetDecalTransparentColor, 0,0,255
+setemissivecolor, 255,255,255
+
+CreateMeshBuilder,
+Addvertex,  1.4, 2.4, -7.44
+Addvertex, -1.4, 2.4, -7.44
+Addvertex, -1.4, 1.3, -7.44
+Addvertex,  1.4, 1.3, -7.44
+Addface2, 0,1,2,3
+GenerateNormals
+LoadTexture, respaldos.png
+SetTextureCoordinates, 0,0,0
+SetTextureCoordinates, 1,0,1
+SetTextureCoordinates, 2,1,1
+SetTextureCoordinates, 3,1,0
+SetDecalTransparentColor, 0,0,255
+setemissivecolor, 255,255,255
+
+CreateMeshBuilder,
+Addvertex,  1.4, 2.4, -5.63
+Addvertex, -1.4, 2.4, -5.63
+Addvertex, -1.4, 1.3, -5.63
+Addvertex,  1.4, 1.3, -5.63
+Addface2, 0,1,2,3
+GenerateNormals
+LoadTexture, respaldos.png
+SetTextureCoordinates, 0,0,0
+SetTextureCoordinates, 1,0,1
+SetTextureCoordinates, 2,1,1
+SetTextureCoordinates, 3,1,0
+SetDecalTransparentColor, 0,0,255
+setemissivecolor, 255,255,255
+
+CreateMeshBuilder,
+Addvertex,  1.4, 2.4, -5.28
+Addvertex, -1.4, 2.4, -5.28
+Addvertex, -1.4, 1.3, -5.28
+Addvertex,  1.4, 1.3, -5.28
+Addface2, 0,1,2,3
+GenerateNormals
+LoadTexture, respaldos.png
+SetTextureCoordinates, 0,0,0
+SetTextureCoordinates, 1,0,1
+SetTextureCoordinates, 2,1,1
+SetTextureCoordinates, 3,1,0
+SetDecalTransparentColor, 0,0,255
+setemissivecolor, 255,255,255
+
+CreateMeshBuilder,
+Addvertex,  1.4, 2.4, -3.47
+Addvertex, -1.4, 2.4, -3.47
+Addvertex, -1.4, 1.3, -3.47
+Addvertex,  1.4, 1.3, -3.47
+Addface2, 0,1,2,3
+GenerateNormals
+LoadTexture, respaldos.png
+SetTextureCoordinates, 0,0,0
+SetTextureCoordinates, 1,0,1
+SetTextureCoordinates, 2,1,1
+SetTextureCoordinates, 3,1,0
+SetDecalTransparentColor, 0,0,255
+setemissivecolor, 255,255,255
+
+CreateMeshBuilder,
+Addvertex,  1.4, 2.4, -3.17
+Addvertex, -1.4, 2.4, -3.17
+Addvertex, -1.4, 1.3, -3.17
+Addvertex,  1.4, 1.3, -3.17
+Addface2, 0,1,2,3
+GenerateNormals
+LoadTexture, respaldos.png
+SetTextureCoordinates, 0,0,0
+SetTextureCoordinates, 1,0,1
+SetTextureCoordinates, 2,1,1
+SetTextureCoordinates, 3,1,0
+SetDecalTransparentColor, 0,0,255
+setemissivecolor, 255,255,255
+
+CreateMeshBuilder,
+Addvertex,  1.4, 2.4, -1.36
+Addvertex, -1.4, 2.4, -1.36
+Addvertex, -1.4, 1.3, -1.36
+Addvertex,  1.4, 1.3, -1.36
+Addface2, 0,1,2,3
+GenerateNormals
+LoadTexture, respaldos.png
+SetTextureCoordinates, 0,0,0
+SetTextureCoordinates, 1,0,1
+SetTextureCoordinates, 2,1,1
+SetTextureCoordinates, 3,1,0
+SetDecalTransparentColor, 0,0,255
+setemissivecolor, 255,255,255
+
+CreateMeshBuilder,
+Addvertex,  1.4, 2.4, -1.01
+Addvertex, -1.4, 2.4, -1.01
+Addvertex, -1.4, 1.3, -1.01
+Addvertex,  1.4, 1.3, -1.01
+Addface2, 0,1,2,3
+GenerateNormals
+LoadTexture, respaldos.png
+SetTextureCoordinates, 0,0,0
+SetTextureCoordinates, 1,0,1
+SetTextureCoordinates, 2,1,1
+SetTextureCoordinates, 3,1,0
+SetDecalTransparentColor, 0,0,255
+setemissivecolor, 255,255,255
+
+CreateMeshBuilder,
+Addvertex,  1.4, 2.4, 0.8
+Addvertex, -1.4, 2.4, 0.8
+Addvertex, -1.4, 1.3, 0.8
+Addvertex,  1.4, 1.3, 0.8
+Addface2, 0,1,2,3
+GenerateNormals
+LoadTexture, respaldos.png
+SetTextureCoordinates, 0,0,0
+SetTextureCoordinates, 1,0,1
+SetTextureCoordinates, 2,1,1
+SetTextureCoordinates, 3,1,0
+SetDecalTransparentColor, 0,0,255
+setemissivecolor, 255,255,255
+
+CreateMeshBuilder,
+Addvertex,  1.4, 2.4, 1.12
+Addvertex, -1.4, 2.4, 1.12
+Addvertex, -1.4, 1.3, 1.12
+Addvertex,  1.4, 1.3, 1.12
+Addface2, 0,1,2,3
+GenerateNormals
+LoadTexture, respaldos.png
+SetTextureCoordinates, 0,0,0
+SetTextureCoordinates, 1,0,1
+SetTextureCoordinates, 2,1,1
+SetTextureCoordinates, 3,1,0
+SetDecalTransparentColor, 0,0,255
+setemissivecolor, 255,255,255
+
+CreateMeshBuilder,
+Addvertex,  1.4, 2.4, 2.93
+Addvertex, -1.4, 2.4, 2.93
+Addvertex, -1.4, 1.3, 2.93
+Addvertex,  1.4, 1.3, 2.93
+Addface2, 0,1,2,3
+GenerateNormals
+LoadTexture, respaldos.png
+SetTextureCoordinates, 0,0,0
+SetTextureCoordinates, 1,0,1
+SetTextureCoordinates, 2,1,1
+SetTextureCoordinates, 3,1,0
+SetDecalTransparentColor, 0,0,255
+setemissivecolor, 255,255,255
+
+CreateMeshBuilder,
+Addvertex,  1.4, 2.4, 3.28
+Addvertex, -1.4, 2.4, 3.28
+Addvertex, -1.4, 1.3, 3.28
+Addvertex,  1.4, 1.3, 3.28
+Addface2, 0,1,2,3
+GenerateNormals
+LoadTexture, respaldos.png
+SetTextureCoordinates, 0,0,0
+SetTextureCoordinates, 1,0,1
+SetTextureCoordinates, 2,1,1
+SetTextureCoordinates, 3,1,0
+SetDecalTransparentColor, 0,0,255
+setemissivecolor, 255,255,255
+
+CreateMeshBuilder,
+Addvertex,  1.4, 2.4, 5.08
+Addvertex, -1.4, 2.4, 5.08
+Addvertex, -1.4, 1.3, 5.08
+Addvertex,  1.4, 1.3, 5.08
+Addface2, 0,1,2,3
+GenerateNormals
+LoadTexture, respaldos.png
+SetTextureCoordinates, 0,0,0
+SetTextureCoordinates, 1,0,1
+SetTextureCoordinates, 2,1,1
+SetTextureCoordinates, 3,1,0
+SetDecalTransparentColor, 0,0,255
+setemissivecolor, 255,255,255
+
+CreateMeshBuilder,
+Addvertex,  1.4, 2.4, 5.42
+Addvertex, -1.4, 2.4, 5.42
+Addvertex, -1.4, 1.3, 5.42
+Addvertex,  1.4, 1.3, 5.42
+Addface2, 0,1,2,3
+GenerateNormals
+LoadTexture, respaldos.png
+SetTextureCoordinates, 0,0,0
+SetTextureCoordinates, 1,0,1
+SetTextureCoordinates, 2,1,1
+SetTextureCoordinates, 3,1,0
+SetDecalTransparentColor, 0,0,255
+setemissivecolor, 255,255,255
+
+CreateMeshBuilder,
+Addvertex,  1.4, 2.4, 7.23
+Addvertex, -1.4, 2.4, 7.23
+Addvertex, -1.4, 1.3, 7.23
+Addvertex,  1.4, 1.3, 7.23
+Addface2, 0,1,2,3
+GenerateNormals
+LoadTexture, respaldos.png
+SetTextureCoordinates, 0,0,0
+SetTextureCoordinates, 1,0,1
+SetTextureCoordinates, 2,1,1
+SetTextureCoordinates, 3,1,0
+SetDecalTransparentColor, 0,0,255
+setemissivecolor, 255,255,255
+
+CreateMeshBuilder,
+Addvertex,  1.4, 2.4, 7.55
+Addvertex, -1.4, 2.4, 7.55
+Addvertex, -1.4, 1.3, 7.55
+Addvertex,  1.4, 1.3, 7.55
+Addface2, 0,1,2,3
+GenerateNormals
+LoadTexture, respaldos.png
+SetTextureCoordinates, 0,0,0
+SetTextureCoordinates, 1,0,1
+SetTextureCoordinates, 2,1,1
+SetTextureCoordinates, 3,1,0
+SetDecalTransparentColor, 0,0,255
+setemissivecolor, 255,255,255
+
+CreateMeshBuilder,
+Addvertex,  1.4, 2.4, 9.35
+Addvertex, -1.4, 2.4, 9.35
+Addvertex, -1.4, 1.3, 9.35
+Addvertex,  1.4, 1.3, 9.35
+Addface2, 0,1,2,3
+GenerateNormals
+LoadTexture, respaldos.png
+SetTextureCoordinates, 0,0,0
+SetTextureCoordinates, 1,0,1
+SetTextureCoordinates, 2,1,1
+SetTextureCoordinates, 3,1,0
+SetDecalTransparentColor, 0,0,255
+setemissivecolor, 255,255,255
+
+;Descanzapiernas-------------------------------------------------
+
+CreateMeshBuilder,
+Addvertex,  1.4, 1.8, -9.05
+Addvertex, -1.4, 1.8, -9.05
+Addvertex, -1.4, 1.3, -9.05
+Addvertex,  1.4, 1.3, -9.05
+Addface2, 0,1,2,3
+GenerateNormals
+LoadTexture, respaldos.png
+SetTextureCoordinates, 0,0,0
+SetTextureCoordinates, 1,0,1
+SetTextureCoordinates, 2,1,1
+SetTextureCoordinates, 3,1,0
+SetDecalTransparentColor, 0,0,255
+setemissivecolor, 255,255,255
+
+CreateMeshBuilder,
+Addvertex,  1.4, 1.8, -7.89
+Addvertex, -1.4, 1.8, -7.89
+Addvertex, -1.4, 1.3, -7.89
+Addvertex,  1.4, 1.3, -7.89
+Addface2, 0,1,2,3
+GenerateNormals
+LoadTexture, respaldos.png
+SetTextureCoordinates, 0,0,0
+SetTextureCoordinates, 1,0,1
+SetTextureCoordinates, 2,1,1
+SetTextureCoordinates, 3,1,0
+SetDecalTransparentColor, 0,0,255
+setemissivecolor, 255,255,255
+
+CreateMeshBuilder,
+Addvertex,  1.4, 1.8, -7.12
+Addvertex, -1.4, 1.8, -7.12
+Addvertex, -1.4, 1.3, -7.12
+Addvertex,  1.4, 1.3, -7.12
+Addface2, 0,1,2,3
+GenerateNormals
+LoadTexture, respaldos.png
+SetTextureCoordinates, 0,0,0
+SetTextureCoordinates, 1,0,1
+SetTextureCoordinates, 2,1,1
+SetTextureCoordinates, 3,1,0
+SetDecalTransparentColor, 0,0,255
+setemissivecolor, 255,255,255
+
+CreateMeshBuilder,
+Addvertex,  1.4, 1.8, -5.95
+Addvertex, -1.4, 1.8, -5.95
+Addvertex, -1.4, 1.3, -5.95
+Addvertex,  1.4, 1.3, -5.95
+Addface2, 0,1,2,3
+GenerateNormals
+LoadTexture, respaldos.png
+SetTextureCoordinates, 0,0,0
+SetTextureCoordinates, 1,0,1
+SetTextureCoordinates, 2,1,1
+SetTextureCoordinates, 3,1,0
+SetDecalTransparentColor, 0,0,255
+setemissivecolor, 255,255,255
+
+CreateMeshBuilder,
+Addvertex,  1.4, 1.8, -4.95
+Addvertex, -1.4, 1.8, -4.95
+Addvertex, -1.4, 1.3, -4.95
+Addvertex,  1.4, 1.3, -4.95
+Addface2, 0,1,2,3
+GenerateNormals
+LoadTexture, respaldos.png
+SetTextureCoordinates, 0,0,0
+SetTextureCoordinates, 1,0,1
+SetTextureCoordinates, 2,1,1
+SetTextureCoordinates, 3,1,0
+SetDecalTransparentColor, 0,0,255
+setemissivecolor, 255,255,255
+
+CreateMeshBuilder,
+Addvertex,  1.4, 1.8, -3.8
+Addvertex, -1.4, 1.8, -3.8
+Addvertex, -1.4, 1.3, -3.8
+Addvertex,  1.4, 1.3, -3.8
+Addface2, 0,1,2,3
+GenerateNormals
+LoadTexture, respaldos.png
+SetTextureCoordinates, 0,0,0
+SetTextureCoordinates, 1,0,1
+SetTextureCoordinates, 2,1,1
+SetTextureCoordinates, 3,1,0
+SetDecalTransparentColor, 0,0,255
+setemissivecolor, 255,255,255
+
+CreateMeshBuilder,
+Addvertex,  1.4, 1.8, -2.84
+Addvertex, -1.4, 1.8, -2.84
+Addvertex, -1.4, 1.3, -2.84
+Addvertex,  1.4, 1.3, -2.84
+Addface2, 0,1,2,3
+GenerateNormals
+LoadTexture, respaldos.png
+SetTextureCoordinates, 0,0,0
+SetTextureCoordinates, 1,0,1
+SetTextureCoordinates, 2,1,1
+SetTextureCoordinates, 3,1,0
+SetDecalTransparentColor, 0,0,255
+setemissivecolor, 255,255,255
+
+CreateMeshBuilder,
+Addvertex,  1.4, 1.8, -1.68
+Addvertex, -1.4, 1.8, -1.68
+Addvertex, -1.4, 1.3, -1.68
+Addvertex,  1.4, 1.3, -1.68
+Addface2, 0,1,2,3
+GenerateNormals
+LoadTexture, respaldos.png
+SetTextureCoordinates, 0,0,0
+SetTextureCoordinates, 1,0,1
+SetTextureCoordinates, 2,1,1
+SetTextureCoordinates, 3,1,0
+SetDecalTransparentColor, 0,0,255
+setemissivecolor, 255,255,255
+
+CreateMeshBuilder,
+Addvertex,  1.4, 1.8, -0.69
+Addvertex, -1.4, 1.8, -0.69
+Addvertex, -1.4, 1.3, -0.69
+Addvertex,  1.4, 1.3, -0.69
+Addface2, 0,1,2,3
+GenerateNormals
+LoadTexture, respaldos.png
+SetTextureCoordinates, 0,0,0
+SetTextureCoordinates, 1,0,1
+SetTextureCoordinates, 2,1,1
+SetTextureCoordinates, 3,1,0
+SetDecalTransparentColor, 0,0,255
+setemissivecolor, 255,255,255
+
+CreateMeshBuilder,
+Addvertex,  1.4, 1.8, 0.48
+Addvertex, -1.4, 1.8, 0.48
+Addvertex, -1.4, 1.3, 0.48
+Addvertex,  1.4, 1.3, 0.48
+Addface2, 0,1,2,3
+GenerateNormals
+LoadTexture, respaldos.png
+SetTextureCoordinates, 0,0,0
+SetTextureCoordinates, 1,0,1
+SetTextureCoordinates, 2,1,1
+SetTextureCoordinates, 3,1,0
+SetDecalTransparentColor, 0,0,255
+setemissivecolor, 255,255,255
+
+CreateMeshBuilder,
+Addvertex,  1.4, 1.8, 1.44
+Addvertex, -1.4, 1.8, 1.44
+Addvertex, -1.4, 1.3, 1.44
+Addvertex,  1.4, 1.3, 1.44
+Addface2, 0,1,2,3
+GenerateNormals
+LoadTexture, respaldos.png
+SetTextureCoordinates, 0,0,0
+SetTextureCoordinates, 1,0,1
+SetTextureCoordinates, 2,1,1
+SetTextureCoordinates, 3,1,0
+SetDecalTransparentColor, 0,0,255
+setemissivecolor, 255,255,255
+
+CreateMeshBuilder,
+Addvertex,  1.4, 1.8, 2.6
+Addvertex, -1.4, 1.8, 2.6
+Addvertex, -1.4, 1.3, 2.6
+Addvertex,  1.4, 1.3, 2.6
+Addface2, 0,1,2,3
+GenerateNormals
+LoadTexture, respaldos.png
+SetTextureCoordinates, 0,0,0
+SetTextureCoordinates, 1,0,1
+SetTextureCoordinates, 2,1,1
+SetTextureCoordinates, 3,1,0
+SetDecalTransparentColor, 0,0,255
+setemissivecolor, 255,255,255
+
+CreateMeshBuilder,
+Addvertex,  1.4, 1.8, 3.6
+Addvertex, -1.4, 1.8, 3.6
+Addvertex, -1.4, 1.3, 3.6
+Addvertex,  1.4, 1.3, 3.6
+Addface2, 0,1,2,3
+GenerateNormals
+LoadTexture, respaldos.png
+SetTextureCoordinates, 0,0,0
+SetTextureCoordinates, 1,0,1
+SetTextureCoordinates, 2,1,1
+SetTextureCoordinates, 3,1,0
+SetDecalTransparentColor, 0,0,255
+setemissivecolor, 255,255,255
+
+CreateMeshBuilder,
+Addvertex,  1.4, 1.8, 4.76
+Addvertex, -1.4, 1.8, 4.76
+Addvertex, -1.4, 1.3, 4.76
+Addvertex,  1.4, 1.3, 4.76
+Addface2, 0,1,2,3
+GenerateNormals
+LoadTexture, respaldos.png
+SetTextureCoordinates, 0,0,0
+SetTextureCoordinates, 1,0,1
+SetTextureCoordinates, 2,1,1
+SetTextureCoordinates, 3,1,0
+SetDecalTransparentColor, 0,0,255
+setemissivecolor, 255,255,255
+
+CreateMeshBuilder,
+Addvertex,  1.4, 1.8, 5.74
+Addvertex, -1.4, 1.8, 5.74
+Addvertex, -1.4, 1.3, 5.74
+Addvertex,  1.4, 1.3, 5.74
+Addface2, 0,1,2,3
+GenerateNormals
+LoadTexture, respaldos.png
+SetTextureCoordinates, 0,0,0
+SetTextureCoordinates, 1,0,1
+SetTextureCoordinates, 2,1,1
+SetTextureCoordinates, 3,1,0
+SetDecalTransparentColor, 0,0,255
+setemissivecolor, 255,255,255
+
+CreateMeshBuilder,
+Addvertex,  1.4, 1.8, 6.9
+Addvertex, -1.4, 1.8, 6.9
+Addvertex, -1.4, 1.3, 6.9
+Addvertex,  1.4, 1.3, 6.9
+Addface2, 0,1,2,3
+GenerateNormals
+LoadTexture, respaldos.png
+SetTextureCoordinates, 0,0,0
+SetTextureCoordinates, 1,0,1
+SetTextureCoordinates, 2,1,1
+SetTextureCoordinates, 3,1,0
+SetDecalTransparentColor, 0,0,255
+setemissivecolor, 255,255,255
+
+CreateMeshBuilder,
+Addvertex,  1.4, 1.8, 7.87
+Addvertex, -1.4, 1.8, 7.87
+Addvertex, -1.4, 1.3, 7.87
+Addvertex,  1.4, 1.3, 7.87
+Addface2, 0,1,2,3
+GenerateNormals
+LoadTexture, respaldos.png
+SetTextureCoordinates, 0,0,0
+SetTextureCoordinates, 1,0,1
+SetTextureCoordinates, 2,1,1
+SetTextureCoordinates, 3,1,0
+SetDecalTransparentColor, 0,0,255
+setemissivecolor, 255,255,255
+
+CreateMeshBuilder,
+Addvertex,  1.4, 1.8, 9.03
+Addvertex, -1.4, 1.8, 9.03
+Addvertex, -1.4, 1.3, 9.03
+Addvertex,  1.4, 1.3, 9.03
+Addface2, 0,1,2,3
+GenerateNormals
+LoadTexture, respaldos.png
+SetTextureCoordinates, 0,0,0
+SetTextureCoordinates, 1,0,1
+SetTextureCoordinates, 2,1,1
+SetTextureCoordinates, 3,1,0
+SetDecalTransparentColor, 0,0,255
+setemissivecolor, 255,255,255
+
+;----------------------------------------------------------------
+
+CreateMeshBuilder,
+Addvertex, -1.34, 2.4, 9.47
+Addvertex, -1.34, 2.4, -9.47
+Addvertex, -1.34, 1.2, -9.47
+Addvertex, -1.34, 1.2,  9.47
+Addface2, 0,1,2,3
+GenerateNormals
+LoadTexture, lateral de asientos.png
+SetTextureCoordinates, 0,0,0
+SetTextureCoordinates, 1,1,0
+SetTextureCoordinates, 2,1,1
+SetTextureCoordinates, 3,0,1
+SetDecalTransparentColor, 255,255,255
+setemissivecolor, 255,255,255
+
+CreateMeshBuilder,
+Addvertex, -0.94, 2.4, 9.47
+Addvertex, -0.94, 2.4, -9.47
+Addvertex, -0.94, 1.2, -9.47
+Addvertex, -0.94, 1.2,  9.47
+Addface2, 0,1,2,3
+GenerateNormals
+LoadTexture, lateral de asientos.png
+SetTextureCoordinates, 0,0,0
+SetTextureCoordinates, 1,1,0
+SetTextureCoordinates, 2,1,1
+SetTextureCoordinates, 3,0,1
+SetDecalTransparentColor, 255,255,255
+setemissivecolor, 255,255,255
+
+CreateMeshBuilder,
+Addvertex, -0.86, 2.4, 9.47
+Addvertex, -0.86, 2.4, -9.47
+Addvertex, -0.86, 1.2, -9.47
+Addvertex, -0.86, 1.2,  9.47
+Addface2, 0,1,2,3
+GenerateNormals
+LoadTexture, lateral de asientos.png
+SetTextureCoordinates, 0,0,0
+SetTextureCoordinates, 1,1,0
+SetTextureCoordinates, 2,1,1
+SetTextureCoordinates, 3,0,1
+SetDecalTransparentColor, 255,255,255
+setemissivecolor, 255,255,255
+
+CreateMeshBuilder,
+Addvertex, -0.47, 2.4, 9.47
+Addvertex, -0.47, 2.4, -9.47
+Addvertex, -0.47, 1.2, -9.47
+Addvertex, -0.47, 1.2,  9.47
+Addface2, 0,1,2,3
+GenerateNormals
+LoadTexture, lateral de asientos.png
+SetTextureCoordinates, 0,0,0
+SetTextureCoordinates, 1,1,0
+SetTextureCoordinates, 2,1,1
+SetTextureCoordinates, 3,0,1
+SetDecalTransparentColor, 255,255,255
+setemissivecolor, 255,255,255
+
+CreateMeshBuilder,
+Addvertex, 0.89, 2.4, 9.47
+Addvertex, 0.89, 2.4, -9.47
+Addvertex, 0.89, 1.2, -9.47
+Addvertex, 0.89, 1.2,  9.47
+Addface2, 0,1,2,3
+GenerateNormals
+LoadTexture, lateral de asientos.png
+SetTextureCoordinates, 0,0,0
+SetTextureCoordinates, 1,1,0
+SetTextureCoordinates, 2,1,1
+SetTextureCoordinates, 3,0,1
+SetDecalTransparentColor, 255,255,255
+setemissivecolor, 255,255,255
+
+CreateMeshBuilder,
+Addvertex, 1.3, 2.4, 9.47
+Addvertex, 1.3, 2.4, -9.47
+Addvertex, 1.3, 1.2, -9.47
+Addvertex, 1.3, 1.2,  9.47
+Addface2, 0,1,2,3
+GenerateNormals
+LoadTexture, lateral de asientos.png
+SetTextureCoordinates, 0,0,0
+SetTextureCoordinates, 1,1,0
+SetTextureCoordinates, 2,1,1
+SetTextureCoordinates, 3,0,1
+SetDecalTransparentColor, 255,255,255
+setemissivecolor, 255,255,255
+
+
+;Inscripciones==================================================
+
+CreateMeshBuilder,
+Addvertex, -1.41, 2,   0.33
+Addvertex, -1.41, 2,  -0.64
+Addvertex, -1.41, 1.2, -0.64
+Addvertex, -1.41, 1.2,  0.33
+Addface, 0,1,2,3
+GenerateNormals
+loadtexture, ndem 2.png
+SetTextureCoordinates, 0, 0, 0
+SetTextureCoordinates, 1, 1, 0
+SetTextureCoordinates, 2, 1, 1
+SetTextureCoordinates, 3, 0, 1
+SetDecalTransparentColor, 255,255,255
+
+CreateMeshBuilder,
+Addvertex, 1.41, 2,  -0.64
+Addvertex, 1.41, 2,   0.33
+Addvertex, 1.41, 1.2,  0.33
+Addvertex, 1.41, 1.2, -0.64
+Addface, 0,1,2,3
+GenerateNormals
+loadtexture, ndem 2.png
+SetTextureCoordinates, 0, 0, 0
+SetTextureCoordinates, 1, 1, 0
+SetTextureCoordinates, 2, 1, 1
+SetTextureCoordinates, 3, 0, 1
+SetDecalTransparentColor, 255,255,255
+
+CreateMeshBuilder,
+Addvertex, -1.42, 3.5,   9.91
+Addvertex, -1.42, 3.5,  -9.91
+Addvertex, -1.42, 3.36, -9.91
+Addvertex, -1.42, 3.36,  9.91
+Addface, 0,1,2,3
+GenerateNormals
+loadtexture, ciwl.png
+SetTextureCoordinates, 0, 0, 0
+SetTextureCoordinates, 1, 1, 0
+SetTextureCoordinates, 2, 1, 1
+SetTextureCoordinates, 3, 0, 1
+SetDecalTransparentColor, 239,228,176
+
+CreateMeshBuilder,
+Addvertex, 1.42, 3.5,  -9.91
+Addvertex, 1.42, 3.5,   9.91
+Addvertex, 1.42, 3.36,  9.91
+Addvertex, 1.42, 3.36, -9.91
+Addface, 0,1,2,3
+GenerateNormals
+loadtexture, ciwl.png
+SetTextureCoordinates, 0, 0, 0
+SetTextureCoordinates, 1, 1, 0
+SetTextureCoordinates, 2, 1, 1
+SetTextureCoordinates, 3, 0, 1
+SetDecalTransparentColor, 239,228,176
+
+CreateMeshBuilder,
+Addvertex, -1.42, 1.66, 10.73
+Addvertex, -1.42, 1.66, 7.18
+Addvertex, -1.42, 1.2, 7.18
+Addvertex, -1.42, 1.2, 10.73
+Addface, 0,1,2,3
+GenerateNormals
+loadtexture, 4025 1.png
+SetTextureCoordinates, 0, 0, 0
+SetTextureCoordinates, 1, 1, 0
+SetTextureCoordinates, 2, 1, 1
+SetTextureCoordinates, 3, 0, 1
+SetDecalTransparentColor, 255,255,255
+
+CreateMeshBuilder,
+Addvertex, -1.42, 1.66, -7.18
+Addvertex, -1.42, 1.66, -10.73
+Addvertex, -1.42, 1.2, -10.73
+Addvertex, -1.42, 1.2, -7.18
+Addface, 0,1,2,3
+GenerateNormals
+loadtexture, 4025 2.png
+SetTextureCoordinates, 0, 0, 0
+SetTextureCoordinates, 1, 1, 0
+SetTextureCoordinates, 2, 1, 1
+SetTextureCoordinates, 3, 0, 1
+SetDecalTransparentColor, 255,255,255
+
+CreateMeshBuilder,
+Addvertex, 1.42, 1.66, 7.18
+Addvertex, 1.42, 1.66, 10.73
+Addvertex, 1.42, 1.2, 10.73
+Addvertex, 1.42, 1.2, 7.18
+Addface, 0,1,2,3
+GenerateNormals
+loadtexture, 4025 2.png
+SetTextureCoordinates, 0, 0, 0
+SetTextureCoordinates, 1, 1, 0
+SetTextureCoordinates, 2, 1, 1
+SetTextureCoordinates, 3, 0, 1
+SetDecalTransparentColor, 255,255,255
+
+CreateMeshBuilder,
+Addvertex, 1.42, 1.66, -10.73
+Addvertex, 1.42, 1.66, -7.18
+Addvertex, 1.42, 1.2, -7.18
+Addvertex, 1.42, 1.2, -10.73
+Addface, 0,1,2,3
+GenerateNormals
+loadtexture, 4025 1.png
+SetTextureCoordinates, 0, 0, 0
+SetTextureCoordinates, 1, 1, 0
+SetTextureCoordinates, 2, 1, 1
+SetTextureCoordinates, 3, 0, 1
+SetDecalTransparentColor, 255,255,255
+
+;Topes==========================================================
+
+CreateMeshBuilder,
+Cube, 0.1, 0.1, 12.76
+SetColor, 0,0,0
+translate, -1, 1.04, 0
+
+CreateMeshBuilder,
+Cube, 0.1, 0.1, 12.76
+SetColor, 0,0,0
+translate, 1, 1.04, 0

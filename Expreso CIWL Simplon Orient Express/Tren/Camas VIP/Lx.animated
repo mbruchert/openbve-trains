@@ -1,0 +1,78 @@
+[include]
+Lx.csv
+
+[include]
+techo.csv
+Position=0,-1.25,0
+
+[include]
+techo curvo.csv
+Position=0,-1.06,11.52
+[include]
+techo curvo 2.csv
+Position=0,-1.06,-11.52
+
+;Escaleras
+
+[include]
+Escaleras.b3d
+Position=0,0,11.57
+[include]
+Escaleras.b3d
+Position=0,0,-11.57
+
+;Puertas
+
+;1
+[Object]
+Position = -1.22, 0, 11.99
+States = puerta 1.csv
+RotateYFunction = -1.5 * leftdoors[0]
+;2
+[Object]
+Position = -1.22, 0, -12.03
+States = puerta 3.csv
+RotateYFunction = 1.5 * leftdoors[0]
+;3
+[Object]
+Position = 1.22, 0, 11.99
+States = puerta 2.csv
+RotateYFunction = 1.5 * rightdoors[0]
+;4
+[Object]
+Position = 1.22, 0, -12.03
+States = puerta 4.csv
+RotateYFunction = -1.5 * rightdoors[0]
+
+;Mesas
+
+[include]
+mesa.b3d
+Position=0.89,1.5,9.91
+[include]
+mesa.b3d
+Position=0.89,1.5,7.5
+[include]
+mesa.b3d
+Position=0.89,1.5,5.9
+[include]
+mesa.b3d
+Position=0.89,1.5,3.5
+[include]
+mesa.b3d
+Position=0.89,1.5, 1.97
+[include]
+mesa.b3d
+Position=0.89,1.5,-0.45
+[include]
+mesa.b3d
+Position=0.89,1.5,-2.07
+[include]
+mesa.b3d
+Position=0.89,1.5,-4.47
+[include]
+mesa.b3d
+Position=0.89,1.5,-6.06
+[include]
+mesa.b3d
+Position=0.89,1.5,-8.5

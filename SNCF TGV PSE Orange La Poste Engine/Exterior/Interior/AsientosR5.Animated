@@ -1,0 +1,120 @@
+
+;;LadoIzquierdo;;
+[Include]
+AsientoNegroDoble.csv
+Position = -0.65,0.95,-8.7
+;;
+[Include]
+AsientoAzulIntermedioDoble.csv
+Position = -0.65,0.95,-8
+;;
+[Include]
+AsientoAzulOscuroDoble.csv
+Position = -0.65,0.95,-7.2
+;;
+[Include]
+AsientoVerdeDoble.csv
+Position = -0.65,0.95,-6.4
+;;MESA;;
+[Include]
+AsientoNegroDoble.csv
+Position = -0.65,0.95,-5.6
+;;
+[Include]
+AsientoAzulOscuroDoble.csv
+Position = -0.65,0.95,-4.8
+;;MESA;;
+[Include]
+AsientoNegroDoble.csv
+Position = -0.65,0.95,-4
+;;
+[Include]
+AsientoNegroDoble.csv
+Position = -0.65,0.95,-3.2
+;;
+[Include]
+AsientoNegroDoble.csv
+Position = -0.65,0.95,-2.4
+;;Mesa;;
+[Include]
+AsientoNegroDoble180.csv
+Position = -0.65,0.95,-1.2
+;;
+[Include]
+AsientoNegroDoble180.csv
+Position = -0.65,0.95,-0.4;
+;;
+[Include]
+AsientoAzulOscuroDoble180.csv
+Position = -0.65,0.95,0.4
+;;
+[Include]
+AsientoVerdeDoble180.csv
+Position = -0.65,0.95,1.2;
+;;
+[Include]
+AsientoAzulIntermedioDoble180.csv
+Position = -0.65,0.95,1.99;
+
+;;LadoDerecho;;
+[Include]
+AsientoNegroDoble2.csv
+Position = 1.1,0.95,-8.7
+;;
+[Include]
+AsientoAzulOscuroDoble2.csv
+Position = 1.1,0.95,-8
+;;
+[Include]
+AsientoVerdeDoble2.csv
+Position = 1.1,0.95,-7.2
+;;
+[Include]
+AsientoAzulIntermedioDoble2.csv
+Position = 1.1,0.95,-6.4
+;;MESA;;
+[Include]
+AsientoNegroDoble2.csv
+Position = 1.1,0.95,-5.6
+;;
+[Include]
+AsientoNegroDoble2.csv
+Position = 1.1,0.95,-4.8
+;;MESA;;
+[Include]
+AsientoAzulOscuroDoble2.csv
+Position = 1.1,0.95,-4
+;;
+[Include]
+AsientoNegroDoble2.csv
+Position = 1.1,0.95,-3.2
+;;
+[Include]
+AsientoNegroDoble2.csv
+Position = 1.1,0.95,-2.4
+;;Mesa;;
+[Include]
+AsientoNegroDoble1802.csv
+Position = 1.1,0.95,-1.2
+;;
+[Include]
+AsientoNegroDoble1802.csv
+Position = 1.1,0.95,-0.4;
+;;
+[Include]
+AsientoAzulIntermedioDoble1802.csv
+Position = 1.1,0.95,0.4
+;;
+[Include]
+AsientoVerdeDoble1802.csv
+Position = 1.1,0.95,1.2;
+;;
+[Include]
+AsientoAzulOscuroDoble1802.csv
+Position = 1.1,0.95,1.99;
+
+;;Mesa;;
+;;
+[Include]
+Mesa3.csv
+Position = 0,1.15,-1.2

@@ -1,0 +1,215 @@
+;--------------------------------------
+;Archivo 3D para Trenes de OpenBVE
+;--------------------------------------
+;(c) Rieles Virtuales de Venezuela
+;www.trenesvenezolanos.com
+;
+;por Manuel Mejias
+;
+
+;; 16.24 largo 3.84 alto 2.81 ancho ::
+
+;;ESTRUCTURA EXTERNA DEL TREN;;
+;;;FormaAsiento;;
+CreateMeshBuilder,
+AddVertex,0.05,1.1,0.03
+AddVertex,0.4,1.1,0.03
+AddVertex,0,0.5,0.21,
+AddVertex,0.45,0.5,0.21,
+AddVertex,0,0.5,0.6
+AddVertex,0.45,0.5,0.6
+AddVertex,0,0.45,0.6
+AddVertex,0.45,0.45,0.6
+Addface,1,0,2,3
+Addface,3,2,4,5
+Addface,5,4,6,7
+LoadTexture,Ladrillo.png
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 0, 0.65,
+SetTextureCoordinates,3, 1, 0.65,
+SetTextureCoordinates,4, 0, 0.95,
+SetTextureCoordinates,5, 1, 0.95,
+SetTextureCoordinates,6, 0, 1,
+SetTextureCoordinates,7, 1, 1,
+Setemissivecolor,255,255,255
+;;Atras;;
+CreateMeshBuilder,
+AddVertex,0.05,1.1,0.03
+AddVertex,0.4,1.1,0.03
+AddVertex,0,0.5,0.21
+AddVertex,0.45,0.5,0.21
+AddVertex,0,0.45,0.21
+AddVertex,0.45,0.45,0.21,
+Addface,0,1,3,2
+Addface,2,3,5,4
+LoadTexture,TraseroAsiento.png
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 0, 0.9,
+SetTextureCoordinates,3, 1, 0.9,
+SetTextureCoordinates,4, 0, 1,
+SetTextureCoordinates,5, 1, 1,
+Setemissivecolor,255,255,255
+
+;;Apoyabrazo
+CreateMeshBuilder,
+AddVertex,0,0.5,0.6
+AddVertex,0,0.45,0.6,
+AddVertex,0,0.5,0.24
+AddVertex,0,0.45,0.20,
+AddVertex,0,0.65,0.20
+AddVertex,0,0.65,0.14,
+Addface,1,0,2,3
+Addface2,3,2,4,5
+LoadTexture,Crema.png
+SetEmissivecolor,255,255,255
+CreateMeshBuilder,
+AddVertex,0,0.65,0.20
+AddVertex,0,0.59,0.216
+AddVertex,0,0.65,0.42
+AddVertex,0,0.59,0.45
+addface2,0,1,3,2
+LoadTexture,Ladrillo.png
+SetTextureCoordinates,0, 0.01, 0.01,
+SetTextureCoordinates,1, 0.02, 0.01,
+SetTextureCoordinates,2, 0.01, 0.05,
+SetTextureCoordinates,3, 0.02, 0.05,
+SetEmissivecolor,255,255,255
+
+;;;;FIN;;;
+
+;;;Ranura Intermedia;;
+;;Apoyabrazo;;
+CreateMeshBuilder,
+Cube,0.03,0.025,0.195,
+LoadTexture,Crema.png
+SetEmissivecolor,255,255,255
+Translate,-0.03,0.475,0.406
+Translate,0.51,0,0
+;;
+
+;;Apoyabrazo Intermedio;;
+CreateMeshBuilder,
+AddVertex,0,0.5,0.6
+AddVertex,0,0.45,0.6,
+AddVertex,0,0.5,0.24
+AddVertex,0,0.45,0.20,
+AddVertex,0,0.65,0.20
+AddVertex,0,0.65,0.14,
+Addface2,3,2,4,5
+LoadTexture,Crema.png
+SetEmissivecolor,255,255,255
+Translate,0.48,0,0
+CreateMeshBuilder,
+AddVertex,0,0.65,0.20
+AddVertex,0,0.59,0.216
+AddVertex,0,0.65,0.42
+AddVertex,0,0.59,0.45
+addface2,0,1,3,2
+LoadTexture,Ladrillo.png
+SetTextureCoordinates,0, 0.01, 0.01,
+SetTextureCoordinates,1, 0.02, 0.01,
+SetTextureCoordinates,2, 0.01, 0.05,
+SetTextureCoordinates,3, 0.02, 0.05,
+SetEmissivecolor,255,255,255
+Translate,0.48,0,0
+
+
+
+TranslateALL,-0.51,0,0
+
+;;;FormaAsiento;;
+CreateMeshBuilder,
+AddVertex,0.05,1.1,0.03
+AddVertex,0.4,1.1,0.03
+AddVertex,0,0.5,0.21,
+AddVertex,0.45,0.5,0.21,
+AddVertex,0,0.5,0.6
+AddVertex,0.45,0.5,0.6
+AddVertex,0,0.45,0.6
+AddVertex,0.45,0.45,0.6
+Addface,1,0,2,3
+Addface,3,2,4,5
+Addface,5,4,6,7
+LoadTexture,Ladrillo.png
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 0, 0.65,
+SetTextureCoordinates,3, 1, 0.65,
+SetTextureCoordinates,4, 0, 0.95,
+SetTextureCoordinates,5, 1, 0.95,
+SetTextureCoordinates,6, 0, 1,
+SetTextureCoordinates,7, 1, 1,
+Setemissivecolor,255,255,255
+;;Atras;;
+CreateMeshBuilder,
+AddVertex,0.05,1.1,0.03
+AddVertex,0.4,1.1,0.03
+AddVertex,0,0.5,0.21
+AddVertex,0.45,0.5,0.21
+AddVertex,0,0.45,0.21
+AddVertex,0.45,0.45,0.21
+Addface,0,1,3,2
+Addface,2,3,5,4
+LoadTexture,TraseroAsiento.png
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 0, 0.9,
+SetTextureCoordinates,3, 1, 0.9,
+SetTextureCoordinates,4, 0, 1,
+SetTextureCoordinates,5, 1, 1,
+Setemissivecolor,255,255,255
+
+
+;;Apoyabrazo Final;;
+CreateMeshBuilder,
+AddVertex,0,0.5,0.6
+AddVertex,0,0.45,0.6,
+AddVertex,0,0.5,0.24
+AddVertex,0,0.45,0.20,
+AddVertex,0,0.65,0.20
+AddVertex,0,0.65,0.14,
+Addface,0,1,3,2
+Addface2,3,2,4,5
+LoadTexture,Crema.png
+SetEmissivecolor,255,255,255
+Translate,0.45,0,0
+CreateMeshBuilder,
+AddVertex,0,0.65,0.20
+AddVertex,0,0.59,0.216
+AddVertex,0,0.65,0.42
+AddVertex,0,0.59,0.45
+addface2,0,1,3,2
+LoadTexture,Ladrillo.png
+SetTextureCoordinates,0, 0.01, 0.01,
+SetTextureCoordinates,1, 0.02, 0.01,
+SetTextureCoordinates,2, 0.01, 0.05,
+SetTextureCoordinates,3, 0.02, 0.05,
+SetEmissivecolor,255,255,255
+Translate,0.45,0,0
+ScaleALL,1,1.28,1
+RotateALL,0,1,0,180
+TranslateALL,-0.34,-0.15,0.8
+
+CreateMeshBuilder,
+addvertex,0,0.225,0.05
+addvertex,0,0.225,-0.05
+addvertex,0,-0.225,0.05
+addvertex,0,-0.225,-0.05
+addface2,0,1,3,2
+LoadTexture,Crema.png
+Setemissivecolor,255,255,255
+Translate,0,0.225,0.4
+CreateMeshBuilder,
+addvertex,0,0.02,0.09
+addvertex,0,0.02,-0.09
+addvertex,0,-0.02,0.09
+addvertex,0,-0.02,-0.09
+addface2,0,1,3,2
+LoadTexture,Crema.png
+Setemissivecolor,255,255,255
+Translate,0,0.02,0.4
+
+
+ScaleALL,1.2,1,1

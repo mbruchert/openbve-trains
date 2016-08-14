@@ -1,0 +1,17 @@
+CreateMeshBuilder
+AddVertex, 0,0,0,0,1,0
+AddVertex, 0,2.4,-0.001,0,1,0
+AddVertex, 3.1,2.4,-0.001,0,1,0
+AddVertex, 3.1,0,-0.001,0,1,0
+AddFace2, 0, 1, 2, 3
+GenerateNormals
+LoadTexture, carfront1.bmp
+SetTextureCoordinates, 0, 0, 0
+SetTextureCoordinates, 1, 1, 0
+SetTextureCoordinates, 2, 1, 1
+SetTextureCoordinates, 3, 0, 1
+SetDecalTransparentColor, 0,0,255
+EmissiveColor,195,195,195
+
+ScaleAll,1.1,1.1,1.1
+translateall,-0.03,0,0

@@ -1,0 +1,11 @@
+﻿;;Inversor;;
+Createmeshbuilder,
+Cylinder,6,0.003,0.003,0.085
+Rotate,0,0,1,90
+Translate,0.04,0,0
+SetColor,25,25,25
+Createmeshbuilder,
+Cylinder,6,0.003,0.006,0.03
+Rotate,0,0,1,90
+Translate,0.09,0,0
+SetColor,25,25,25

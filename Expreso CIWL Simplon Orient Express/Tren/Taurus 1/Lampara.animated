@@ -1,0 +1,6 @@
+;WORKING HEADLIGHTS, Typical For Loco|CabCar FrontEndA
+;ReverserToggled, Use ANIMATED POSITION Over Each Lamp
+;~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[OBJECT]
+States=Lamp.b3d
+StateFunction=If[Cars<1|ReverserNotch>0,0,1]

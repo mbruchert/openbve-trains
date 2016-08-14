@@ -1,0 +1,35 @@
+ÈKD Tatra T5C5 villamos
+-------------------------
+
+Két- és háromkocsis kivitelben
+
+Kompatibilitás / Compatibility: openBVE
+
+Telepítés célkönyvtárai / Installation directories:
+- Train\T5C5_2 (két kocsis szerelvény)
+- Train\T5C5_3 (három kocsis szerelvény)
+
+Készítõk:
+Menettulajdonságok (train.dat), hangok: Csukló, *911*
+Objektum: pre-zli, mamutsegg
+Külsõ nézet (extensions.cfg): Kisember 87
+Optimalizálás: phontanka
+
+Utolsó frissítés / Last updated: 2009.06.28.
+
+Gyártó / Manufacturer: ÈKD Praha-Smichov
+Gyártó típusjele / Manufacturer’s serial number: T5C5
+Gyártási év / Year of construction: 1979-1984
+Teljesítmény / Power rating: 4 x 45 kW
+Tömeg / Weight: 18 t
+Megengedett legnagyobb sebesség / Max speed: 60 km/h
+
+
+Licensz
+---------
+
+A kiegészítõkben található anyagokat, hang fájlokat, képeket, csak otthoni használatra lehet szabadon modosítani, és ezzeket a modosításokat, 
+TILOS a készítõ írásbelí engedélye nélkül forgalomba hozzni! Nagyon szépen köszönöm a megértésedet!
+
+A kiegészítõ a http://www.bveklub.hu/ weboldalról származik.
+Más weboldalaknak TILOS terjeszteni ezt a kiegészítõtt.

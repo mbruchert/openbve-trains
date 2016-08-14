@@ -1,0 +1,6 @@
+[Object]
+States = Taurus.csv
+
+[INCLUDE]
+Enganche trasero.animated
+Position=0,0,-10

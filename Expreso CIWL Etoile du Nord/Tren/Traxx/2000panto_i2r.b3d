@@ -1,0 +1,17 @@
+﻿;Projeto Cofesbra I v4.0 para OpenBVE
+;©2011 - Paulo Roberto Bernardo da Silva
+;E-mail/MSN/Redes sociais: paulobernardo944@hotmail.com
+;Blog oficial: http://openbvedesenvolvimentobr.blogspot.com
+;Proíbida a modificação total ou parcial deste código ou texturas sem autorização prévia do autor.
+
+[Meshbuilder]
+cylinder 20, 0.02, 0.02, 1.05
+rotate 0,0,0,130
+color 130,0,0
+
+[Meshbuilder]
+cylinder 20, 0.02, 0.02, 0.45
+translate 0.335, 0, -0.40
+rotate 0,0,1,90
+color 130,0,0
+

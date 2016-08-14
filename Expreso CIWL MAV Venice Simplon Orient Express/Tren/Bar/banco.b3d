@@ -1,0 +1,21 @@
+[MeshBuilder]
+Vertex -0.3, 0.4, -0.3
+Vertex -0.3, 0.4,  0.3
+Vertex  0.3, 0.4,  0.3
+Vertex  0.3, 0.4, -0.3
+Face2 0,1,2,3
+[Texture]
+Load banco.bmp
+Coordinates 0, 0, 1
+Coordinates 1, 0, 0
+Coordinates 2, 1, 0
+Coordinates 3, 1, 1
+Transparent 0, 0, 255
+Rotate 0,1,0,-90
+emissivecolor 255,255,255
+
+[MeshBuilder]
+Cylinder 3, 0.02, 0.02, 0.65
+Translate 0, 0.05, 0
+Color 155, 155, 155
+Rotate 0,1,0,-90

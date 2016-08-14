@@ -1,0 +1,42 @@
+[Meshbuilder] ; Reverse kapcsoló talp
+Cylinder 20, 0.020,0.020,0.020
+Color 70,70,70
+Translate  0,1.641,0
+
+[Meshbuilder] ; Reverse tengely
+Cylinder 4, 0.008,0.008,0.020
+Color 60,60,60
+Translate 0,1.661,0
+
+[Meshbuilder] ; Reverse alsó gyûrû 0
+Cylinder 20, 0.021,0.021,0.002
+Color 138,85,6
+Translate 0,1.651,0
+
+[Meshbuilder] ; Reverse alsó gyûrû 1
+Cylinder 20, 0.021,0.021,0.002
+Color 138,85,6
+Translate 0,1.651,0
+
+[Meshbuilder] ; Reverse alsó gyûrû 2
+Cylinder 20, 0.016,0.016,0.020
+Color 138,85,6
+Translate 0,1.660,0
+
+[Meshbuilder] ;Reverse kar 0
+Cube 0.002,0.015,0.008
+Rotate 0,0,1,90
+Color 138,85,6
+Translate 0.020,1.666,0
+
+[Meshbuilder] ;Reverse kar 1
+Cube 0.002,0.010,0.008
+Rotate 0,0,1,-120
+Color 138,85,6
+Translate 0.0424,1.6614,0
+
+[Meshbuilder] ;Reverse kar 2
+Cube 0.002,0.025,0.008
+Rotate 0,0,1,90
+Color 138,85,6
+Translate 0.075,1.6568,0

@@ -1,0 +1,13 @@
+Milleniumi Földalatti Vasút
+motorkocsi
+
+Hossz: 29270 mm, 
+Szélesség: 2350 mm, 
+Magasság: 2590 mm. 
+tömege: 37600 kg
+Állóhelyek száma: 198
+Ülõhelyek száma: 48 
+Kerékátmérõ: 670 mm 
+Hajtás: kardánhajtás 
+Névl.fesz.: 600 V +20%, -30% 
+teljesítmény: 4x66 kW 

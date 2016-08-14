@@ -1,0 +1,19 @@
+﻿;Projeto Cofesbra I v4.0 para OpenBVE
+;©2011 - Paulo Roberto Bernardo da Silva
+;E-mail/MSN/Redes sociais: paulobernardo944@hotmail.com
+;Blog oficial: http://openbvedesenvolvimentobr.blogspot.com
+;Proíbida a modificação total ou parcial deste código ou texturas sem autorização prévia do autor.
+
+[Meshbuilder]
+vertex  0.6, -0.22, -0.7
+vertex -0.6, -0.22, -0.7
+vertex -0.6,  0.22,  0.7
+vertex  0.6,  0.22,  0.7
+face2 0,1,2,3
+[Texture]
+load pantografo2000.PNG
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,1,0
+coordinates 3,1,1
+transparent 0,0,255

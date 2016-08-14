@@ -1,0 +1,173 @@
+
+[MESHBUILDER]
+Vertex       -0.282,+0.933,-1.865
+Vertex       -0.282,+0.933,+1.865
+Vertex       -0.282,-0.933,+1.865
+Vertex       -0.282,-0.933,-1.865
+Face                      0,1,2,3
+Face                      3,2,1,0
+Load     bmp.bmp
+Transparent       000,255,000;Grn
+Coordinates       0,+0.000,+0.000
+Coordinates       1,+1.000,+0.000
+Coordinates       2,+1.000,+1.000
+Coordinates       3,+0.000,+1.000
+[MESHBUILDER]
+Vertex       -0.272,+0.933,-1.865
+Vertex       -0.272,+0.933,+1.865
+Vertex       -0.272,-0.933,+1.865
+Vertex       -0.272,-0.933,-1.865
+Face                      0,1,2,3
+Face                      3,2,1,0
+Load    bmp.bmp
+Transparent       000,255,000;Grn
+Coordinates       0,+0.000,+0.000
+Coordinates       1,+1.000,+0.000
+Coordinates       2,+1.000,+1.000
+Coordinates       3,+0.000,+1.000
+[MESHBUILDER]
+Vertex       -0.262,+0.933,-1.865
+Vertex       -0.262,+0.933,+1.865
+Vertex       -0.262,-0.933,+1.865
+Vertex       -0.262,-0.933,-1.865
+Face                      0,1,2,3
+Face                      3,2,1,0
+Load      bmp.bmp
+Transparent       000,255,000;Grn
+Coordinates       0,+0.000,+0.000
+Coordinates       1,+1.000,+0.000
+Coordinates       2,+1.000,+1.000
+Coordinates       3,+0.000,+1.000
+[MESHBUILDER]
+Vertex       -0.252,+0.933,-1.865
+Vertex       -0.252,+0.933,+1.865
+Vertex       -0.252,-0.933,+1.865
+Vertex       -0.252,-0.933,-1.865
+Face                      0,1,2,3
+Face                      3,2,1,0
+Load      bmp.bmp
+Transparent       000,255,000;Grn
+Coordinates       0,+0.000,+0.000
+Coordinates       1,+1.000,+0.000
+Coordinates       2,+1.000,+1.000
+Coordinates       3,+0.000,+1.000
+[MESHBUILDER]
+Vertex       -0.242,+0.933,-1.865
+Vertex       -0.242,+0.933,+1.865
+Vertex       -0.242,-0.933,+1.865
+Vertex       -0.242,-0.933,-1.865
+Face                      0,1,2,3
+Face                      3,2,1,0
+Load     bmp.bmp
+Transparent       000,255,000;Grn
+Coordinates       0,+0.000,+0.000
+Coordinates       1,+1.000,+0.000
+Coordinates       2,+1.000,+1.000
+Coordinates       3,+0.000,+1.000
+[MESHBUILDER]
+Vertex       -0.232,+0.933,-1.865
+Vertex       -0.232,+0.933,+1.865
+Vertex       -0.232,-0.933,+1.865
+Vertex       -0.232,-0.933,-1.865
+Face                      0,1,2,3
+Face                      3,2,1,0
+Load      bmp.bmp
+Transparent       000,255,000;Grn
+Coordinates       0,+0.000,+0.000
+Coordinates       1,+1.000,+0.000
+Coordinates       2,+1.000,+1.000
+Coordinates       3,+0.000,+1.000
+[MESHBUILDER]
+Vertex       -0.222,+0.933,-1.865
+Vertex       -0.222,+0.933,+1.865
+Vertex       -0.222,-0.933,+1.865
+Vertex       -0.222,-0.933,-1.865
+Face                      0,1,2,3
+Face                      3,2,1,0
+Load      bmp.bmp
+Transparent       000,255,000;Grn
+Coordinates       0,+0.000,+0.000
+Coordinates       1,+1.000,+0.000
+Coordinates       2,+1.000,+1.000
+Coordinates       3,+0.000,+1.000
+[MESHBUILDER]
+Vertex       -0.212,+0.933,-1.865
+Vertex       -0.212,+0.933,+1.865
+Vertex       -0.212,-0.933,+1.865
+Vertex       -0.212,-0.933,-1.865
+Face                      0,1,2,3
+Face                      3,2,1,0
+Load      bmp.bmp
+Transparent       000,255,000;Grn
+Coordinates       0,+0.000,+0.000
+Coordinates       1,+1.000,+0.000
+Coordinates       2,+1.000,+1.000
+Coordinates       3,+0.000,+1.000
+[MESHBUILDER]
+Vertex       -0.202,+0.933,-1.865
+Vertex       -0.202,+0.933,+1.865
+Vertex       -0.202,-0.933,+1.865
+Vertex       -0.202,-0.933,-1.865
+Face                      0,1,2,3
+Face                      3,2,1,0
+Load     bmp.bmp
+Transparent       000,255,000;Grn
+Coordinates       0,+0.000,+0.000
+Coordinates       1,+1.000,+0.000
+Coordinates       2,+1.000,+1.000
+Coordinates       3,+0.000,+1.000
+[MESHBUILDER]
+Vertex       -0.192,+0.933,-1.865
+Vertex       -0.192,+0.933,+1.865
+Vertex       -0.192,-0.933,+1.865
+Vertex       -0.192,-0.933,-1.865
+Face                      0,1,2,3
+Face                      3,2,1,0
+Load      bmp.bmp
+Transparent       000,255,000;Grn
+Coordinates       0,+0.000,+0.000
+Coordinates       1,+1.000,+0.000
+Coordinates       2,+1.000,+1.000
+Coordinates       3,+0.000,+1.000
+[MESHBUILDER]
+Vertex       -0.182,+0.933,-1.865
+Vertex       -0.182,+0.933,+1.865
+Vertex       -0.182,-0.933,+1.865
+Vertex       -0.182,-0.933,-1.865
+Face                      0,1,2,3
+Face                      3,2,1,0
+Load     bmp.bmp
+Transparent       000,255,000;Grn
+Coordinates       0,+0.000,+0.000
+Coordinates       1,+1.000,+0.000
+Coordinates       2,+1.000,+1.000
+Coordinates       3,+0.000,+1.000
+[MESHBUILDER]
+Vertex       -0.172,+0.933,-1.865
+Vertex       -0.172,+0.933,+1.865
+Vertex       -0.172,-0.933,+1.865
+Vertex       -0.172,-0.933,-1.865
+Face                      0,1,2,3
+Face                      3,2,1,0
+Load     bmp.bmp
+Transparent       000,255,000;Grn
+Coordinates       0,+0.000,+0.000
+Coordinates       1,+1.000,+0.000
+Coordinates       2,+1.000,+1.000
+Coordinates       3,+0.000,+1.000
+[MESHBUILDER]
+Vertex       -0.162,+0.933,-1.865
+Vertex       -0.162,+0.933,+1.865
+Vertex       -0.162,-0.933,+1.865
+Vertex       -0.162,-0.933,-1.865
+Face                      0,1,2,3
+Face                      3,2,1,0
+Load      bmp.bmp
+Transparent       000,255,000;Grn
+Coordinates       0,+0.000,+0.000
+Coordinates       1,+1.000,+0.000
+Coordinates       2,+1.000,+1.000
+Coordinates       3,+0.000,+1.000
+
+TRANSLATEALL -0.718,+0.000,+0.000  ;DimX=-0.5*Gaug,DimY=+0.0,DimZ=+0.0
+SCALEALL     +1.000,+1.295,+1.295  ;DimX=+1.0,DimY=+0.5*Base,DimZ=+0.5*Base

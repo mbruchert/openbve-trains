@@ -1,0 +1,38 @@
+;OpenBVETrainSim(OBTS)\eXhaust For Loco+Wagon~SmokePulses
+;See Files "Xhst.??xx~Smok.Animated" For Instruction On Use Of These Objects
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;BVE+OBTS files have no Copyright\Patent\Trademark & maybe freely Used\Modifed\Distributed.
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+[MESHBUILDER]                      ;
+Vertex       -0.500,-0.500,-0.500
+Vertex       -0.500,+0.500,-0.500
+Vertex       +0.500,+0.500,+0.500
+Vertex       +0.500,-0.500,+0.500
+Face                      0,1,2,3
+Face                      3,2,1,0
+Color         255,255,255,015;Opa
+EmissiveColor 059,015,015
+Transparent       000,255,000;Grn
+Load      Xhst.xxxx~Smok_0001.GIF
+Coordinates       0,+0.000,+1.000
+Coordinates       1,+0.000,+0.000
+Coordinates       2,+1.000,+0.000
+Coordinates       3,+1.000,+1.000
+
+[MESHBUILDER]                      ;
+Vertex       -0.500,-0.500,+0.500
+Vertex       -0.500,+0.500,+0.500
+Vertex       +0.500,+0.500,-0.500
+Vertex       +0.500,-0.500,-0.500
+Face                      0,1,2,3
+Face                      3,2,1,0
+Color         255,255,255,015;Opa
+EmissiveColor 059,015,015
+Transparent       000,255,000;Grn
+Load      Xhst.xxxx~Smok_0001.GIF
+Coordinates       0,+0.000,+1.000
+Coordinates       1,+0.000,+0.000
+Coordinates       2,+1.000,+0.000
+Coordinates       3,+1.000,+1.000
+
+SCALEALL     +1.150,+1.150,+1.150

@@ -1,0 +1,498 @@
+;description=BKV TW6000
+;author=prezli
+;copyright=freeware for BVE
+
+;--------------------------------------------------------------------------Kerekek
+
+[Meshbuilder] ; C2 kerekpar
+Cylinder 12, 0.365, 0.365, 0.15
+Color 64, 64, 64
+Rotate 1, 0, 0, 90
+Rotate 0, 1, 0, 90
+Translate 0.792, 0.356, 17.61
+[Meshbuilder]
+Cylinder 12, 0.45, 0.45, 0.05
+Color 96, 96, 96
+Rotate 1, 0, 0, 90
+Rotate 0, 1, 0, 90
+Translate 0.692, 0.356, 17.61
+[Meshbuilder]
+Cylinder 12, 0.365, 0.365, 0.15
+Color 64, 64, 64
+Rotate 1, 0, 0, 90
+Rotate 0, 1, 0, 90
+Translate -0.792, 0.356, 17.61
+[Meshbuilder]
+Cylinder 12, 0.45, 0.45, 0.05
+Color 96, 96, 96
+Rotate 1, 0, 0, 90
+Rotate 0, 1, 0, 90
+Translate -0.692, 0.356, 17.61
+
+[Meshbuilder] ; D1 kerekpar
+Cylinder 12, 0.365, 0.365, 0.15
+Color 64, 64, 64
+Rotate 1, 0, 0, 90
+Rotate 0, 1, 0, 90
+Translate 0.792, 0.356, 22.215
+[Meshbuilder]
+Cylinder 12, 0.45, 0.45, 0.05
+Color 96, 96, 96
+Rotate 1, 0, 0, 90
+Rotate 0, 1, 0, 90
+Translate 0.692, 0.356, 22.215
+[Meshbuilder]
+Cylinder 12, 0.365, 0.365, 0.15
+Color 64, 64, 64
+Rotate 1, 0, 0, 90
+Rotate 0, 1, 0, 90
+Translate -0.792, 0.356, 22.215
+[Meshbuilder]
+Cylinder 12, 0.45, 0.45, 0.05
+Color 96, 96, 96
+Rotate 1, 0, 0, 90
+Rotate 0, 1, 0, 90
+Translate -0.692, 0.356, 22.215
+
+[Meshbuilder] ; D2 kerekpar
+Cylinder 12, 0.365, 0.365, 0.15
+Color 64, 64, 64
+Rotate 1, 0, 0, 90
+Rotate 0, 1, 0, 90
+Translate 0.792, 0.356, 24.004
+[Meshbuilder]
+Cylinder 12, 0.45, 0.45, 0.05
+Color 96, 96, 96
+Rotate 1, 0, 0, 90
+Rotate 0, 1, 0, 90
+Translate 0.692, 0.356, 24.004
+[Meshbuilder]
+Cylinder 12, 0.365, 0.365, 0.15
+Color 64, 64, 64
+Rotate 1, 0, 0, 90
+Rotate 0, 1, 0, 90
+Translate -0.792, 0.356, 24.004
+[Meshbuilder]
+Cylinder 12, 0.45, 0.45, 0.05
+Color 96, 96, 96
+Rotate 1, 0, 0, 90
+Rotate 0, 1, 0, 90
+Translate -0.692, 0.356, 24.004
+
+;-------------------------------------------------------------------forgozsamolyok
+
+[Meshbuilder] ; C2 kerekpar
+Cube 1.027, 0.044, 0.513
+Color 48, 48, 0
+Translate 0, 0.198, 17.61
+[Meshbuilder] ; C zsamoly
+Cube 0.715, 0.26, 0.448
+Color 32, 32, 32
+Translate 0, 0.266, 16.705
+[Meshbuilder]
+Cube 1.027, 0.11, 0.087
+Color 16, 16, 0
+Translate 0, 0.439, 16.705
+
+[Meshbuilder] ; D1 kerekpar
+Cube 1.027, 0.044, 0.513
+Color 48, 48, 0
+Translate 0, 0.198, 22.215
+[Meshbuilder] ; D2 kerekpar
+Cube 1.027, 0.044, 0.513
+Color 48, 48, 0
+Translate 0, 0.198, 24.004
+[Meshbuilder] ; D zsamoly
+Cube 0.715, 0.26, 0.448
+Color 32, 32, 32
+Translate 0, 0.266, 23.11
+[Meshbuilder]
+Cube 1.027, 0.11, 0.087
+Color 16, 16, 0
+Translate 0, 0.439, 23.11
+
+;-------------------------------------------------------------------------feneklemez
+[Meshbuilder] ; Hatso resz
+Vertex -1.2, 0.526, 16.956
+Vertex -1.2, 0.526, 26.186
+Vertex -0.887, 0.526, 26.754
+Vertex 0.887, 0.526, 26.754
+Vertex 1.2, 0.526, 26.186
+Vertex 1.2, 0.526, 16.956
+Face2 0, 1, 2, 3, 4, 5
+Color 0, 0, 0
+
+;----------------------------------------------------------------------------lepcsok
+
+[Meshbuilder] ; ajtok 4
+Cube 1.2, 0.066, 0.087
+Color 32, 32, 0
+Translate 0, 0.46, 19.203
+[Meshbuilder]
+Cube 1.2, 0.066, 0.087
+Color 32, 32, 0
+Translate 0, 0.46, 20.644
+[Meshbuilder]
+Cube 1.2, 0.033, 0.808
+Color 32, 32, 0
+Translate 0, 0.361, 19.924
+
+[Meshbuilder] ; ajtok 5
+Cube 1.2, 0.066, 0.087
+Color 32, 32, 0
+Translate 0, 0.46, 24.659
+[Meshbuilder]
+Cube 1.2, 0.066, 0.087
+Color 32, 32, 0
+Translate 0, 0.46, 26.099
+[Meshbuilder]
+Cube 1.2, 0.033, 0.808
+Color 32, 32, 0
+Translate 0, 0.361, 25.379
+
+;----------------------------------------------------------------------------csuklok
+
+[Meshbuilder] ; hatso csuklo
+Cube 1.135, 1.393, 0.25
+Color 255, 143, 32
+Translate 0, 1.919, 16.716
+
+;-----------------------------------------------------------------kocsivégi szoknyak
+[Meshbuilder] ; hatso szoknya
+Vertex -1.2, 0.812, 26.186
+Vertex -0.887, 0.812, 26.95
+Vertex -0.887, 0.526, 26.754
+Vertex -1.2, 0.526, 26.186
+Vertex 1.2, 0.812, 26.186
+Vertex 0.887, 0.812, 26.95
+Vertex 0.887, 0.526, 26.754
+Vertex 1.2, 0.526, 26.186
+Face2 0, 1, 2, 3
+Face2 4, 5, 6, 7
+Color 206, 103, 0
+[Meshbuilder]
+Vertex 0.887, 0.812, 26.95
+Vertex -0.887, 0.812, 26.95
+Vertex -0.887, 0.526, 26.754
+Vertex 0.887, 0.526, 26.754
+Face2 0, 1, 2, 3
+Color 0, 0, 0
+
+;------------------------------------------------------------------------hatso fulke
+[Meshbuilder]; hatso bal
+Vertex -0.865, 3.312, 27.036
+Vertex -1.2, 3.312, 26.186
+Vertex -1.2, 0.812, 26.186
+Vertex -0.865, 0.812, 27.036
+Face 0, 1, 2, 3
+[Texture]
+Load tw6000_bkv_3.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 1
+Coordinates 3, 0, 1
+Transparent 0, 0, 255
+
+[Meshbuilder]; hatso jobb
+Vertex 1.2, 3.312, 26.186
+Vertex 0.865, 3.312, 27.036
+Vertex 0.865, 0.812, 27.036
+Vertex 1.2, 0.812, 26.186
+Face 0, 1, 2, 3
+[Texture]
+Load tw6000_bkv_3.bmp
+Coordinates 0, 0, 0
+Coordinates 1, -1, 0
+Coordinates 2, -1, 1
+Coordinates 3, 0, 1
+Transparent 0, 0, 255
+
+[Meshbuilder]; hatso fenek
+Vertex -1.2, 0.812, 26.186
+Vertex 1.2, 0.812, 26.186
+Vertex 0.865, 0.812, 27.036
+Vertex -0.865, 0.812, 27.036
+Face2 0, 1, 2, 3
+Color 0, 0, 0
+
+[Meshbuilder]; hatso orrlemez
+Vertex 0.865, 1.667, 27.036
+Vertex -0.865, 1.667, 27.036
+Vertex -0.865, 0.812, 27.036
+Vertex 0.865, 0.812, 27.036
+Face 0, 1, 2, 3
+[Texture]
+Load tw6000_bkv_2b.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 1
+Coordinates 3, 0, 1
+
+[Meshbuilder]; hatso szelvedo
+Vertex 0.945, 3.312, 26.84
+Vertex -0.945, 3.312, 26.84
+Vertex -0.865, 1.667, 27.036
+Vertex 0.865, 1.667, 27.036
+Face 0, 1, 2, 3
+[Texture]
+Load tw6000_bkv_1.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 1
+Coordinates 3, 0, 1
+Transparent 0, 0, 255
+
+;----------------------------------------------------------------hatso kocsiszekrény
+
+[Meshbuilder]; bal
+Vertex -1.2, 3.268, 26.186
+Vertex -1.2, 3.268, 16.934
+Vertex -1.2, 0.526, 16.934
+Vertex -1.2, 0.526, 26.186
+Face 0, 1, 2, 3
+[Texture]
+Load tw6000_bkv_4.bmp
+Coordinates 0, 0, 0
+Coordinates 1, -1, 0
+Coordinates 2, -1, 1
+Coordinates 3, 0, 1
+Transparent 0, 0, 255
+
+[Meshbuilder]; jobb
+Vertex 1.2, 3.268, 16.934
+Vertex 1.2, 3.268, 26.186
+Vertex 1.2, 0.526, 26.186
+Vertex 1.2, 0.526, 16.934
+Face 0, 1, 2, 3
+[Texture]
+Load tw6000_bkv_4.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 1
+Coordinates 3, 0, 1
+Transparent 0, 0, 255
+
+[Meshbuilder]; elofal
+Vertex -1.2, 3.268, 16.934
+Vertex 1.2, 3.268, 16.934
+Vertex 1.2, 0.526, 16.934
+Vertex -1.2, 0.526, 16.934
+Face2 0, 1, 2, 3
+Color 255, 143, 32
+
+;-------------------------------------------------------------------------hatso teto
+
+[Meshbuilder]; szelso bal
+Vertex -1.2, 3.268, 16.934
+Vertex -1.2, 3.268, 26.186
+Vertex -0.865, 3.29, 26.186
+Vertex -0.865, 3.29, 16.934
+Face2 0, 1, 2, 3
+Color 255, 143, 32
+
+[Meshbuilder]; kozepso bal
+Vertex -0.865, 3.29, 16.934
+Vertex -0.865, 3.29, 26.186
+Vertex -0.303, 3.312, 26.186
+Vertex -0.303, 3.312, 16.934
+Face2 0, 1, 2, 3
+Color 128, 128, 128
+
+[Meshbuilder]; kozepso fo
+Vertex -0.303, 3.312, 16.934
+Vertex -0.303, 3.312, 26.186
+Vertex 0.303, 3.312, 26.186
+Vertex 0.303, 3.312, 16.934
+Face2 0, 1, 2, 3
+Color 128, 128, 128
+
+[Meshbuilder]; kozepso jobb
+Vertex 0.303, 3.312, 16.934
+Vertex 0.303, 3.312, 26.186
+Vertex 0.865, 3.29, 26.186
+Vertex 0.865, 3.29, 16.934
+Face2 0, 1, 2, 3
+Color 128, 128, 128
+
+[Meshbuilder]; szelso jobb
+Vertex 0.865, 3.29, 16.934
+Vertex 0.865, 3.29, 26.186
+Vertex 1.2, 3.268, 26.186
+Vertex 1.2, 3.268, 16.934
+Face2 0, 1, 2, 3
+Color 255, 143, 32
+
+[Meshbuilder]; fulke szelso bal
+Vertex -1.2, 3.268, 26.186
+Vertex -0.94, 3.2, 26.856
+Vertex -0.865, 3.29, 26.186
+Face2 0, 1, 2
+Color 255, 143, 32
+
+[Meshbuilder]; fulke kozepso bal
+Vertex -0.865, 3.29, 26.186
+Vertex -0.94, 3.2, 26.856
+Vertex -0.303, 3.312, 26.186
+Face2 0, 1, 2
+Color 255, 143, 32
+
+[Meshbuilder]; fulke kozepso
+Vertex -0.303, 3.312, 26.186
+Vertex -0.94, 3.2, 26.856
+Vertex 0.94, 3.2, 26.856
+Vertex 0.303, 3.312, 26.186
+Face2 0, 1, 2, 3
+Color 255, 143, 32
+
+[Meshbuilder]; fulke kozepso jobb
+Vertex 0.303, 3.312, 26.186
+Vertex 0.94, 3.2, 26.856
+Vertex 0.865, 3.29, 26.186
+Face2 0, 1, 2
+Color 255, 143, 32
+
+[Meshbuilder]; fulke szelso jobb
+Vertex 0.865, 3.29, 26.186
+Vertex 0.94, 3.2, 26.856
+Vertex 1.2, 3.268, 26.186
+Face2 0, 1, 2
+Color 255, 143, 32
+
+;--------------------------------------------------------------------hatso tetokeret
+
+[Meshbuilder]; bal
+Vertex -0.865, 3.334, 26.186
+Vertex -0.865, 3.465, 24.526
+Vertex -0.865, 3.29, 24.526
+Vertex -0.865, 3.29, 26.186
+Face2 0, 1, 2, 3
+Color 255, 143, 32
+[Meshbuilder]
+Vertex -0.865, 3.465, 24.526
+Vertex -0.865, 3.465, 16.934
+Vertex -0.865, 3.29, 16.934
+Vertex -0.865, 3.29, 24.526
+Face2 0, 1, 2, 3
+Color 255, 143, 32
+
+[Meshbuilder]; elso
+
+Vertex -0.865, 3.465, 16.934
+Vertex 0.865, 3.465, 16.934
+Vertex 0.865, 3.29, 16.934
+Vertex -0.865, 3.29, 16.934
+Face2 0, 1, 2, 3
+Color 255, 143, 32
+
+[Meshbuilder]; jobb
+Vertex 0.865, 3.334, 26.186
+Vertex 0.865, 3.465, 24.526
+Vertex 0.865, 3.29, 24.526
+Vertex 0.865, 3.29, 26.186
+Face2 0, 1, 2, 3
+Color 255, 143, 32
+[Meshbuilder]
+Vertex 0.865, 3.465, 24.526
+Vertex 0.865, 3.465, 16.934
+Vertex 0.865, 3.29, 16.934
+Vertex 0.865, 3.29, 24.526
+Face2 0, 1, 2, 3
+Color 255, 143, 32
+
+[Meshbuilder]; hatso
+Vertex -0.865, 3.334, 26.186
+Vertex 0.865, 3.334, 26.186
+Vertex 0.865, 3.29, 26.186
+Vertex -0.865, 3.29, 26.186
+Face2 0, 1, 2, 3
+Color 255, 143, 32
+
+;------------------------------------------------------------egyebek a teton - hatul
+
+[Meshbuilder]; elso
+Cube 0.59, 0.132, 0.185
+Color 32, 32, 32
+Translate 0, 3.422, 18.003
+
+[Meshbuilder]; masodik
+Cube 0.59, 0.132, 0.185
+Color 32, 32, 32
+Translate 0, 3.422, 18.745
+
+[Meshbuilder]; harmadik
+Cube 0.59, 0.132, 0.185
+Color 32, 32, 32
+Translate 0, 3.422, 19.487
+
+[Meshbuilder]; negyedik
+Cube 0.59, 0.132, 0.185
+Color 32, 32, 32
+Translate 0, 3.422, 20.229
+
+[Meshbuilder]; otodik
+Cube 0.59, 0.132, 0.185
+Color 32, 32, 32
+Translate 0, 3.422, 20.993
+
+;-------------------------------------------------------------------hatso csatlakozo
+
+[Meshbuilder]; rud
+Cylinder 16, 0.066, 0.066, 0.5
+Color 64, 64, 64
+Rotate 1, 0, 0, 90
+Translate 0, 0.68, 27.091
+
+[Meshbuilder]; doboz
+Cube 0.248, 0.143, 0.185
+Color 128, 128, 128
+Translate 0, 0.68, 27.427
+
+[Meshbuilder]; henger
+Cylinder 16, 0.065, 0.065, 0.496
+Color 104, 104, 104
+Rotate 0, 0, 1, 90
+Translate 0, 0.921, 27.56
+
+[Meshbuilder]; hengertengely
+Cylinder 8, 0.035, 0.035, 0.7
+Color 64, 64, 64
+Rotate 0, 0, 1, 90
+Translate 0, 0.921, 27.56
+
+[Meshbuilder]; hengertengely bal
+Cylinder 8, 0.035, 0.035, 0.3
+Color 64, 64, 64
+Translate -0.3, 0.821, 27.56
+
+[Meshbuilder]; hengertengely jobb
+Cylinder 8, 0.035, 0.035, 0.3
+Color 64, 64, 64
+Translate 0.3, 0.821, 27.56
+
+[Meshbuilder]; kapocs bal
+Cylinder 4, 0.044, 0.11, 0.152
+Color 0, 0, 0
+Rotate 1, 0, 0, -90
+Rotate 0, 0, 1, 45
+Translate -0.108, 0.68, 27.556
+
+[Meshbuilder]; kapocs jobb
+Cylinder 4, 0.044, 0.11, 0.152
+Color 128, 128, 128
+Rotate 1, 0, 0, 90
+Rotate 0, 0, 1, 45
+Translate 0.108, 0.68, 27.686
+
+;------------------------------------------------------------------------alvaz alatt
+
+[Meshbuilder]; ajtok 4 elso
+Cube 1.016, 0.12, 0.382
+Color 32, 32, 0
+Translate 0, 0.46, 18.645
+
+[Meshbuilder]; ajtok 4 hatso
+Cube 1.016, 0.12, 0.382
+Color 32, 32, 0
+Translate 0, 0.46, 21.196
+
+TranslateAll 0,0,-22.138

@@ -1,0 +1,43 @@
+
+[MESHBUILDER]
+Cube +1.336,+0.122,+0.190          ;CROS_BEAM
+Color 079,063,063
+Translate +0.000,+0.123,+0.000
+
+[MESHBUILDER]
+Cylinder 18,+0.170,+0.190,+0.080   ;BEAR_CNTR
+Color 045,045,045
+Translate +0.000,+0.285,+0.000
+Scale 1.598,1.000,1.000
+
+[MESHBUILDER]
+Cube +0.056,+0.059,+0.160          ;BEAR_LEFT
+Color 079,063,063
+Translate -1.000,+0.304,+0.000
+[MESHBUILDER]
+Cylinder 18,+0.060,+0.060,+0.063
+Color 045,045,045
+Rotate 0,0,1,+090.0
+Translate -1.000,+0.343,-0.075
+[MESHBUILDER]
+Cylinder 18,+0.060,+0.060,+0.063
+Color 045,045,045
+Rotate 0,0,1,+090.0
+Translate -1.000,+0.343,+0.075
+
+[MESHBUILDER]
+Cube +0.056,+0.059,+0.160          ;BEAR_RGHT
+Color 079,063,063
+Translate +1.000,+0.304,+0.000
+[MESHBUILDER]
+Cylinder 18,+0.060,+0.060,+0.063
+Color 045,045,045
+Rotate 0,0,1,+090.0
+Translate +1.000,+0.343,-0.075
+[MESHBUILDER]
+Cylinder 18,+0.060,+0.060,+0.063
+Color 045,045,045
+Rotate 0,0,1,+090.0
+Translate +1.000,+0.343,+0.075
+
+SCALEALL 0.718,1.000,1.000         ;DimX=+0.5*Gaug,DimY=+1.0,DimZ=+1.0

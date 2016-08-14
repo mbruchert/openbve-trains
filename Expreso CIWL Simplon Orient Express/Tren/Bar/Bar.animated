@@ -1,0 +1,225 @@
+[include]
+bar.csv
+
+[include]
+techo.csv
+Position=0,-1.25,0
+
+[include]
+techo curvo.csv
+Position=0,-1.06,11.52
+[include]
+techo curvo 2.csv
+Position=0,-1.06,-11.52
+
+;Escaleras
+
+[include]
+Escaleras.b3d
+Position=0,0,11.57
+[include]
+Escaleras.b3d
+Position=0,0,-11.57
+
+;Puertas
+
+;1
+[Object]
+Position = -1.22, 0, 11.99
+States = puerta 1.csv
+RotateYFunction = -1.5 * leftdoors[0]
+;2
+[Object]
+Position = -1.22, 0, -12.03
+States = puerta 3.csv
+RotateYFunction = 1.5 * leftdoors[0]
+;3
+[Object]
+Position = 1.22, 0, 11.99
+States = puerta 2.csv
+RotateYFunction = 1.5 * rightdoors[0]
+;4
+[Object]
+Position = 1.22, 0, -12.03
+States = puerta 4.csv
+RotateYFunction = -1.5 * rightdoors[0]
+
+;Asientos------------------------------------------------------
+
+[include]
+asiento bar 2.b3d
+Position = 0.9, 1.1, -8.5
+[include]
+asiento bar 2.b3d
+Position = -0.9, 1.1, -8.5
+
+[include]
+asiento bar.b3d
+Position = 0.9, 1.1, -9.65
+[include]
+asiento bar.b3d
+Position = -0.9, 1.1, -9.65
+
+[include]
+asiento bar.b3d
+Position = -0.9, 1.1, -7.62
+[include]
+asiento bar 2.b3d
+Position = -0.9, 1.1, -6.34
+
+[include]
+asiento bar 3.b3d
+Position = -0.8, 1.1, -4
+[include]
+asiento bar 4.b3d
+Position = -1.1, 1.1, -5.35
+
+[include]
+asiento bar 3.b3d
+Position = -0.8, 1.1, -1.85
+[include]
+asiento bar 4.b3d
+Position = -1.1, 1.1, -3.25
+
+[include]
+asiento bar 2.b3d
+Position = 0.9, 1.1, -2.1
+[include]
+asiento bar.b3d
+Position = 0.9, 1.1, -3.3
+
+[include]
+asiento bar 5.b3d
+Position = 1.13, 1.1, 4.3
+
+[include]
+asiento bar 6.b3d
+Position = 0.8, 1.1, 2.9
+
+;Bancos-------------------------------------------------------
+
+[include]
+Position = -0.9, 1.5, -4.83
+banco.b3d
+
+[include]
+Position = -0.9, 1.5, -2.72
+banco.b3d
+
+[include]
+Position = 0.9, 1.5, 3.75
+banco.b3d
+
+;Mesas--------------------------------------------------------
+
+[include]
+Position = 0.89, 1.2, -9.05
+mesa bar.b3d
+[include]
+Position = -0.89, 1.2, -9.05
+mesa bar.b3d
+[include]
+Position = -0.89, 1.2, -6.98
+mesa bar.b3d
+[include]
+Position = 0.89, 1.2, -2.68
+mesa bar.b3d
+
+;Asientos Sillon-----------------------------------------------
+
+[include]
+sillon 1.b3d
+Position = 0.99, 1, -1.23
+[include]
+sillon 2.b3d
+Position = 0.99, 1,  0.25
+
+[include]
+sillon 1.b3d
+Position = 0.99, 1, 0.85
+[include]
+sillon 2.b3d
+Position = 0.99, 1,  2.33
+
+[include]
+sillon 1.b3d
+Position = -0.99, 1, -1.23
+[include]
+sillon 2.b3d
+Position = -0.99, 1,  0.25
+
+[include]
+sillon 1.b3d
+Position = -0.99, 1, 0.85
+[include]
+sillon 2.b3d
+Position = -0.99, 1,  2.33
+
+[include]
+sillon 1.b3d
+Position = 0.99, 1, -7.76
+[include]
+sillon 2.b3d
+Position = 0.99, 1, -6.2
+
+[include]
+sillon 1.b3d
+Position = 0.99, 1, -5.6
+[include]
+sillon 2.b3d
+Position = 0.99, 1, -4.2
+
+;Asientos de Bar-----------------------------------------------
+
+[include]
+Position = -0.3, 1.3, 6
+banco chico.b3d
+[include]
+Position = -0.3, 1.3, 6.85
+banco chico.b3d
+[include]
+Position = -0.3, 1.3, 7.7
+banco chico.b3d
+[include]
+Position = -0.3, 1.3, 8.55
+banco chico.b3d
+[include]
+Position = -0.3, 1.3, 9.4
+banco chico.b3d
+[include]
+Position = 0.3, 1.3, 10.25
+banco chico.b3d
+[include]
+Position = 1.2, 1.3, 10.25
+banco chico.b3d
+
+[include]
+Position = 0.9,1.1,6.75
+maquina de bar.csv
+
+;Ventiladores--------------------------------------------------
+
+[Object]
+States = ventilador.b3d
+Position = 0, 3.7, 8.5
+RotateYFunction = mod[value + delta * 10,60]
+
+[Object]
+States = ventilador.b3d
+Position = 0, 3.7, 3.75
+RotateYFunction = mod[value + delta * 10,60]
+
+[Object]
+States = ventilador.b3d
+Position = 0, 3.7, 0
+RotateYFunction = mod[value + delta * 10,60]
+
+[Object]
+States = ventilador.b3d
+Position = 0, 3.7, -5.02
+RotateYFunction = mod[value + delta * 10,60]
+
+[Object]
+States = ventilador.b3d
+Position = 0, 3.7, -8.77
+RotateYFunction = mod[value + delta * 10,60]

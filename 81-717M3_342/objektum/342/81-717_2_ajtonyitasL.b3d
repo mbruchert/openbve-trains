@@ -1,0 +1,200 @@
+;81-717 motorkocsi bal oldali ajtónyitás animálás
+;Készítette: http://www.bvemetro.hu/
+
+;--------------------------------------------------
+
+;bal oldali ajtók
+
+[MeshBuilder]
+Vertex -1.320,1.16,01.97
+Vertex -1.320,3.35,01.97
+Vertex -1.320,3.35,02.66
+Vertex -1.320,1.16,02.66
+Vertex -1.320,1.16,02.66
+Vertex -1.320,3.35,02.66
+Vertex -1.320,3.35,03.35
+Vertex -1.320,1.16,03.35
+Face 0,1,2,3
+Face 4,5,6,7
+[Texture]
+Load 81-717_ajtonyitasB_2.bmp
+Coordinates 0,0.0,1
+Coordinates 1,0.0,0
+Coordinates 2,0.5,0
+Coordinates 3,0.5,1
+Coordinates 4,0.5,1
+Coordinates 5,0.5,0
+Coordinates 6,0.0,0
+Coordinates 7,0.0,1
+Transparent 255,0,0
+EmissiveColor 255,255,255
+
+[MeshBuilder]
+Vertex -1.320,1.16,06.53
+Vertex -1.320,3.35,06.53
+Vertex -1.320,3.35,07.22
+Vertex -1.320,1.16,07.22
+Vertex -1.320,1.16,07.22
+Vertex -1.320,3.35,07.22
+Vertex -1.320,3.35,07.91
+Vertex -1.320,1.16,07.91
+Face 0,1,2,3
+Face 4,5,6,7
+[Texture]
+Load 81-717_ajtonyitasB_2.bmp
+Coordinates 0,0.0,1
+Coordinates 1,0.0,0
+Coordinates 2,0.5,0
+Coordinates 3,0.5,1
+Coordinates 4,0.5,1
+Coordinates 5,0.5,0
+Coordinates 6,0.0,0
+Coordinates 7,0.0,1
+Transparent 255,0,0
+EmissiveColor 255,255,255
+
+[MeshBuilder]
+Vertex -1.320,1.16,11.09
+Vertex -1.320,3.35,11.09
+Vertex -1.320,3.35,11.78
+Vertex -1.320,1.16,11.78
+Vertex -1.320,1.16,11.78
+Vertex -1.320,3.35,11.78
+Vertex -1.320,3.35,12.47
+Vertex -1.320,1.16,12.47
+Face 0,1,2,3
+Face 4,5,6,7
+[Texture]
+Load 81-717_ajtonyitasB_2.bmp
+Coordinates 0,0.0,1
+Coordinates 1,0.0,0
+Coordinates 2,0.5,0
+Coordinates 3,0.5,1
+Coordinates 4,0.5,1
+Coordinates 5,0.5,0
+Coordinates 6,0.0,0
+Coordinates 7,0.0,1
+Transparent 255,0,0
+EmissiveColor 255,255,255
+
+[MeshBuilder]
+Vertex -1.320,1.16,15.67
+Vertex -1.320,3.35,15.67
+Vertex -1.320,3.35,16.34
+Vertex -1.320,1.16,16.34
+Vertex -1.320,1.16,16.34
+Vertex -1.320,3.35,16.34
+Vertex -1.320,3.35,17.03
+Vertex -1.320,1.16,17.03
+Face 0,1,2,3
+Face 4,5,6,7
+[Texture]
+Load 81-717_ajtonyitasB_2.bmp
+Coordinates 0,0.0,1
+Coordinates 1,0.0,0
+Coordinates 2,0.5,0
+Coordinates 3,0.5,1
+Coordinates 4,0.5,1
+Coordinates 5,0.5,0
+Coordinates 6,0.0,0
+Coordinates 7,0.0,1
+Transparent 255,0,0
+EmissiveColor 255,255,255
+
+;-----------------------
+
+;Külsõ oldal
+
+[MeshBuilder]
+Vertex -1.330,1.16,01.97
+Vertex -1.330,3.35,01.97
+Vertex -1.330,3.35,02.66
+Vertex -1.330,1.16,02.66
+Vertex -1.330,1.16,02.66
+Vertex -1.330,3.35,02.66
+Vertex -1.330,3.35,03.35
+Vertex -1.330,1.16,03.35
+Face 3,2,1,0
+Face 7,6,5,4
+[Texture]
+Load 81-717_ajtonyitasK.bmp
+Coordinates 0,0.0,1
+Coordinates 1,0.0,0
+Coordinates 2,0.5,0
+Coordinates 3,0.5,1
+Coordinates 4,0.5,1
+Coordinates 5,0.5,0
+Coordinates 6,0.0,0
+Coordinates 7,0.0,1
+Transparent 255,0,0
+
+[MeshBuilder]
+Vertex -1.330,1.16,06.53
+Vertex -1.330,3.35,06.53
+Vertex -1.330,3.35,07.22
+Vertex -1.330,1.16,07.22
+Vertex -1.330,1.16,07.22
+Vertex -1.330,3.35,07.22
+Vertex -1.330,3.35,07.91
+Vertex -1.330,1.16,07.91
+Face 3,2,1,0
+Face 7,6,5,4
+[Texture]
+Load 81-717_ajtonyitasK.bmp
+Coordinates 0,0.0,1
+Coordinates 1,0.0,0
+Coordinates 2,0.5,0
+Coordinates 3,0.5,1
+Coordinates 4,0.5,1
+Coordinates 5,0.5,0
+Coordinates 6,0.0,0
+Coordinates 7,0.0,1
+Transparent 255,0,0
+
+[MeshBuilder]
+Vertex -1.330,1.16,11.09
+Vertex -1.330,3.35,11.09
+Vertex -1.330,3.35,11.78
+Vertex -1.330,1.16,11.78
+Vertex -1.330,1.16,11.78
+Vertex -1.330,3.35,11.78
+Vertex -1.330,3.35,12.47
+Vertex -1.330,1.16,12.47
+Face 3,2,1,0
+Face 7,6,5,4
+[Texture]
+Load 81-717_ajtonyitasK.bmp
+Coordinates 0,0.0,1
+Coordinates 1,0.0,0
+Coordinates 2,0.5,0
+Coordinates 3,0.5,1
+Coordinates 4,0.5,1
+Coordinates 5,0.5,0
+Coordinates 6,0.0,0
+Coordinates 7,0.0,1
+Transparent 255,0,0
+
+[MeshBuilder]
+Vertex -1.330,1.16,15.67
+Vertex -1.330,3.35,15.67
+Vertex -1.330,3.35,16.34
+Vertex -1.330,1.16,16.34
+Vertex -1.330,1.16,16.34
+Vertex -1.330,3.35,16.34
+Vertex -1.330,3.35,17.03
+Vertex -1.330,1.16,17.03
+Face 3,2,1,0
+Face 7,6,5,4
+[Texture]
+Load 81-717_ajtonyitasK.bmp
+Coordinates 0,0.0,1
+Coordinates 1,0.0,0
+Coordinates 2,0.5,0
+Coordinates 3,0.5,1
+Coordinates 4,0.5,1
+Coordinates 5,0.5,0
+Coordinates 6,0.0,0
+Coordinates 7,0.0,1
+Transparent 255,0,0
+
+TranslateAll 0,0,-9.5

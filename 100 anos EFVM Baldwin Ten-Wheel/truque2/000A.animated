@@ -1,0 +1,15 @@
+﻿
+[OBJECT]
+States=Whel.b3d                              ;WHEL_Frnt
+Position=+0.000,+0.808,+1.99               ;DimX=+0.000,DimY=+0.500*Diam,DimZ=+0.500*Base
+RotateXFunction=Value+((Delta*Speed)/0.508)  ;Angl=Last+((DeltaSecs*Metr/Secs)/(+0.50*Diam))
+[OBJECT]
+States=Whel.b3d                              ;WHEL_Midl
+Position=+0.000,+0.808,+0.000                ;DimX=+0.000,DimY=+0.500*Diam,DimZ=OffSet
+RotateXFunction=Value+((Delta*Speed)/0.508)  ;Angl=Last+((DeltaSecs*Metr/Secs)/(+0.50*Diam))
+[OBJECT]
+States=Whel.b3d                              ;WHEL_Rear
+Position=+0.000,+0.808,-2.070                ;DimX=+0.000,DimY=+0.500*Diam,DimZ=-0.500*Base
+RotateXFunction=Value+((Delta*Speed)/0.508)  ;Angl=Last+((DeltaSecs*Metr/Secs)/(+0.50*Diam))
+
+

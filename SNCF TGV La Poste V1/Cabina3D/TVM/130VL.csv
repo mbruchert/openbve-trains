@@ -1,0 +1,15 @@
+;;TVMVL;;
+CreateMeshBuilder,,,,
+AddVertex,-0.057, 2.287, 6.98,
+AddVertex,-0.057, 2.267, 6.98,
+AddVertex,0.03, 2.287, 6.98,
+AddVertex,0.03, 2.267, 6.98,
+Addface,1,0,2,3,
+LoadTexture,130VL.png,,,
+SetTextureCoordinates,0,0,0,,
+SetTextureCoordinates,1,0,1,,
+SetTextureCoordinates,2,1,0,,
+SetTextureCoordinates,3,1,1,,
+SetEmissiveColor,255,255,255,
+ScaleALL,1,1,1
+TranslateALL,-0.55,0,0

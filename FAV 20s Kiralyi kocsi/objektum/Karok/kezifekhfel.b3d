@@ -1,0 +1,88 @@
+[Meshbuilder]; Kézifék henger 
+Cylinder 15,0.040,0.040,0.040
+Rotate 1,0,0,90
+Color 20,20,20
+EmissiveColor 10,10,10
+Translate 0,0,0
+[Meshbuilder]; Kézifék tengely 
+Cylinder 4,0.015,0.015,0.160
+Rotate 1,0,0,90
+Color 30,30,30
+EmissiveColor 15,15,15
+Translate 0,0,0.040
+[Meshbuilder]; Kézifék henger 2
+Cylinder 15,0.030,0.030,0.030
+Rotate 1,0,0,90
+Color 20,20,20
+EmissiveColor 10,10,10
+Translate 0,0,0.085
+[Meshbuilder]; Kézifék fogaskerék 
+Cylinder 15,0.040,0.060,0.020
+Rotate 1,0,0,90
+Color 25,25,25
+EmissiveColor 12,12,12
+Translate 0,0,0.107
+[Meshbuilder]; Kézifék kar 1
+Cube  0.020,0.060,0.005
+Color 20,20,20
+EmissiveColor 10,10,10
+Translate 0,0,-0.025
+[Meshbuilder]; Kézifék kar 2
+Cube  0.020,0.010,0.005
+Rotate 1,0,0,-40
+Color 20,20,20
+EmissiveColor 10,10,10
+Translate 0,0.0645,-0.0303
+[Meshbuilder]; Kézifék kar 3
+Cube  0.020,0.010,0.005
+Rotate 1,0,0,40
+Color 20,20,20
+EmissiveColor 10,10,10
+Translate 0,-0.0645,-0.0303
+[Meshbuilder]; Kézifék kar 4
+Cube  0.020,0.080,0.005
+Color 20,20,20
+EmissiveColor 10,10,10
+Translate 0,0.149,-0.0355
+[Meshbuilder]; Kézifék kar 5
+Cube  0.020,0.080,0.005
+Color 20,20,20
+EmissiveColor 10,10,10
+Translate 0,-0.149,-0.0355
+[Meshbuilder]; Kézifék 
+Cylinder 20,0.020,0.020,0.010
+Rotate 1,0,0,90
+Color 20,20,20
+EmissiveColor 10,10,10
+Translate 0,0.228,-0.0355
+[Meshbuilder]; Kézifék 
+Cylinder 20,0.020,0.020,0.010
+Rotate 1,0,0,90
+Color 20,20,20
+EmissiveColor 10,10,10
+Translate 0,-0.228,-0.0355
+[Meshbuilder]; Kézifék fogantyú
+Cylinder 20,0.010,0.012,0.080
+Rotate 1,0,0,90
+color 164,107,51
+EmissiveColor 31,17,3
+Translate 0,0.228,-0.0780
+[Meshbuilder]; Kézifék fogantyú 2
+Cylinder 20,0.012,0.010,0.005
+Rotate 1,0,0,90
+color 164,107,51
+EmissiveColor 31,17,3
+Translate 0,0.228,-0.1205
+[Meshbuilder]; Kézifék fogantyú 3
+Cylinder 20,0.010,0.003,0.002
+Rotate 1,0,0,90
+color 164,107,51
+EmissiveColor 31,17,3
+Translate 0,0.228,-0.124
+[Meshbuilder]
+Cylinder 15,0.006,0.009,0.080
+Rotate 0,0,1,90
+Color 30,30,30
+EmissiveColor 15,15,15
+Translate 0,0,0.083
+Rotateall 0,1,0,180

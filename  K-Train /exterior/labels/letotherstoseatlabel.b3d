@@ -1,0 +1,32 @@
+[MeshBuilder]
+Vertex 0,0,0,0,50,0
+Vertex 0,0,0.173,0,50,0
+Vertex 0,-0.22,0.173,0,50,0
+Vertex 0,-0.22,0,0,50,0
+Face 0,1,2,3
+Load letotherstoseatlabel.bmp
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+translate 0.313,0.60.55,-0.11
+Rotate 0,0,2,-48.8
+Transparent 255,255,255
+EmissiveColor 220,220,220
+
+[MeshBuilder]
+Vertex 0,0,0,0,50,0
+Vertex 0,0,0.173,0,50,0
+Vertex 0,-0.22,0.173,0,50,0
+Vertex 0,-0.22,0,0,50,0
+Face 0,1,2,3
+Load letotherstoseatlabel.bmp
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+translate 0.313,0.60.55,-6.78
+Rotate 0,0,2,-48.8
+Transparent 255,255,255
+EmissiveColor 220,220,220
+ScaleAll 1.1,1.1,1.1

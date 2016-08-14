@@ -1,0 +1,17 @@
+[object]
+States=248.csv
+[Object]
+Position = -0.10, -0.41, 0.64
+States = AZUL.csv, AZUL.csv
+TranslateZFunction = 0.90 * leftdoors[0] 
+[Object]
+Position = 0.02, -0.31, 22.75
+States = ZUL.csv, ZUL.csv
+TranslateZFunction = 0.90 * rightdoors[0] 
+[OBJECT]
+Position = 0.02, -0.31, 23.2
+States=gatecarro.b3d
+[OBJECT]
+Position = 0.02, -0.31, -0.15
+States=gatecarro.b3d
+RotateYFunction=3.142

@@ -1,0 +1,7 @@
+[Include]
+Exterior/INT2.csv
+position = 0,0.2,0
+
+[Include]
+Exterior/Pantografo2.csv
+position = 0,0,-1

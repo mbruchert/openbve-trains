@@ -1,0 +1,69 @@
+;Fokozatkapcsoló talp
+
+[MeshBuilder] ; tengely
+Cylinder 20, 0.020,0.020,0.600
+Color 147,130,62
+Emissivecolor 33,25,1
+Translate 0,1.54,0
+
+[MeshBuilder] ; tengelycsonk
+Cylinder 20, 0.025,0.025,0.040
+Color 35,22,15
+Emissivecolor 25,12,5
+Translate 0,1.84,0
+
+[MeshBuilder] ;laposvas
+Cube 0.025,0.010,0.18
+Color 35,22,15
+Emissivecolor 25,12,5
+Translate 0,1.851,0
+
+[MeshBuilder] ; laposvas elsõ vége
+Cylinder 20, 0.025,0.025,0.020
+Color 35,22,15
+Emissivecolor 25,12,5
+Translate 0,1.851,0.180
+
+[MeshBuilder] ; laposvas hátsó vége
+Cylinder 20, 0.025,0.025,0.020
+Color 35,22,15
+Emissivecolor 25,12,5
+Translate 0,1.851,-0.180
+
+[MeshBuilder] ; fogantyú 1
+Cylinder 20, 0.015,0.015,0.010
+Color 187,170,102
+Emissivecolor 53,45,11
+Translate 0,1.861, 0.180
+
+[MeshBuilder] ; fogantyú 2
+Cylinder 20, 0.010,0.015,0.010
+Color 187,170,102
+Emissivecolor 53,45,11
+Translate 0,1.871, 0.180
+
+[MeshBuilder] ; fogantyú 3
+Cylinder 20, 0.014,0.010,0.110
+Color 187,170,102
+Emissivecolor 53,45,11
+Translate 0,1.931, 0.180
+
+[MeshBuilder] ; fogantyú 4
+Cylinder 20, 0.011,0.014,0.005
+Color 187,170,102
+Emissivecolor 53,45,11
+Translate 0,1.9885, 0.180
+
+[MeshBuilder] ; tengelycsonk anya
+Cylinder 6, 0.022,0.022,0.020
+Color 187,170,102
+Emissivecolor 43,35,1
+Translate 0,1.87,0
+
+[MeshBuilder] ; tengelycsonk anya közepe
+Cylinder 20, 0.012,0.015,0.005
+Color 147,130,62
+Emissivecolor 33,25,1
+Translate 0,1.88,0
+
+Rotateall 0,1,0,180

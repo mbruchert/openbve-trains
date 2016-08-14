@@ -1,0 +1,6 @@
+;kerék
+
+[Meshbuilder]  
+Cylinder 25, 0.3, 0.3, 0.1
+Rotate 0, 0, 2, 90
+Color 43,21,0

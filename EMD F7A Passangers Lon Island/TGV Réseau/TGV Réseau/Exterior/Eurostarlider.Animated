@@ -1,0 +1,26 @@
+[Include]
+Reseau.b3d
+
+[Include]
+BogieEngine.csv
+Position =  0, 0, -1.5
+[Include]
+BogieEngine.csv
+Position =  0, 0, 11.7
+
+[object]
+Position = 0, 0.45, -10.4
+states=ruedas.csv
+RotateXFunction = value + mod[(speedometer * delta),2.7] / 2.7 * 3.14 * 2
+[object]
+Position = 0, 0.45, -7.7
+states=ruedas.csv
+RotateXFunction = value + mod[(speedometer * delta),2.7] / 2.7 * 3.14 * 2
+[object]
+Position = 0, 0.45, 5.6
+states=ruedas.csv
+RotateXFunction = value + mod[(speedometer * delta),2.7] / 2.7 * 3.14 * 2
+[object]
+Position = 0, 0.45, 2.7
+states=ruedas.csv
+RotateXFunction = value + mod[(speedometer * delta),2.7] / 2.7 * 3.14 * 2

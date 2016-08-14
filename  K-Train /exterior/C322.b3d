@@ -1,0 +1,852 @@
+﻿[MeshBuilder]
+Vertex -1.42,3.25,-11
+Vertex -1.55,1.87237,-11
+Vertex -1.558,0.8826,-11
+
+Vertex -1.42,3.25,-9
+Vertex -1.55,1.87237,-9
+Vertex -1.558,0.8826,-9
+
+Face 0,1,4,3
+Face 1,2,5,4
+
+Load day\car_end_comp.png, night\car_end_comp.png
+
+Coordinates 0,0,0
+Coordinates 1,0,0.6265
+Coordinates 2,0,1
+Coordinates 3,1,0
+Coordinates 4,1,0.6265
+Coordinates 5,1,1
+
+Transparent 0,0,255
+
+;End
+
+[MeshBuilder]
+Vertex -1.35,3.4,-11
+Vertex -1.42,3.25,-11
+
+Vertex -1.35,3.4,-9
+Vertex -1.42,3.25,-9
+
+;Face 0,1,3,2
+
+Color 128,0,255
+
+;End
+
+[MeshBuilder]
+Vertex -1.558,0.8826,-11
+Vertex -1.51,0.64369,-11
+Vertex -1.33,0.2,-11
+
+Vertex -1.558,0.8826,-9
+Vertex -1.51,0.64369,-9
+Vertex -1.33,0.2,-9
+
+;Face 0,1,4,3
+;Face 1,2,5,4
+
+Color 128,255,0
+
+;End
+
+[MeshBuilder]
+Vertex -1.35,3.4,-9
+Vertex -1.42,3.25,-9
+
+Vertex -1.35,3.4,9
+Vertex -1.42,3.25,9
+
+;Face 0,1,3,2
+
+Color 0,0,255
+
+;End
+
+[MeshBuilder]
+Vertex -1.558,0.8826,-9
+Vertex -1.51,0.64369,-9
+Vertex -1.33,0.2,-9
+
+Vertex -1.558,0.8826,9
+Vertex -1.51,0.64369,9
+Vertex -1.33,0.2,9
+
+;Face 0,1,4,3
+;Face 1,2,5,4
+
+Color 0,255,0
+
+;End
+
+[MeshBuilder]
+Vertex -1.42,3.25,9
+Vertex -1.55,1.87237,9
+Vertex -1.558,0.8826,9
+
+Vertex -1.42,3.25,11
+Vertex -1.55,1.87237,11
+Vertex -1.558,0.8826,11
+
+Face 0,1,4,3
+Face 1,2,5,4
+
+Load day\car_end_comp.png, night\car_end_comp.png
+
+Coordinates 0,1,0
+Coordinates 1,1,0.6265
+Coordinates 2,1,1
+Coordinates 3,0,0
+Coordinates 4,0,0.6265
+Coordinates 5,0,1
+
+Transparent 0,0,255
+
+;Color 128,255,255
+
+;End
+
+[MeshBuilder]
+Vertex -1.35,3.4,-11,0,1,0
+Vertex -1.42,3.25,-11,0,1,0
+
+Vertex -1.35,3.4,11,0,1,0
+Vertex -1.42,3.25,11,0,1,0
+
+Face 0,1,3,2
+
+Load day\carhead.bmp
+
+Coordinates 3,0,0
+Coordinates 2,0.05,0
+Coordinates 0,0.05,1
+Coordinates 1,0,1
+
+;End
+
+[MeshBuilder]
+Vertex -1.558,0.8826,-11
+Vertex -1.51,0.64369,-11
+Vertex -1.33,0.2,-11
+
+Vertex -1.558,0.8826,11
+Vertex -1.51,0.64369,11
+Vertex -1.33,0.2,11
+
+Face 0,1,4,3
+Face 1,2,5,4
+
+Load creating\car_bottom_mid.png
+
+Coordinates 0,1,0
+Coordinates 1,1,0.45
+Coordinates 2,1,1
+Coordinates 3,0,0
+Coordinates 4,0,0.45
+Coordinates 5,0,1
+
+Transparent 0,0,255
+
+;Color 128,255,0
+
+;End
+
+
+
+
+[MeshBuilder]
+Vertex -1.42,3.25,-4.5
+Vertex -1.55,1.87237,-4.5
+Vertex -1.558,0.8826,-4.5
+
+Vertex -1.42,3.25,0
+Vertex -1.55,1.87237,0
+Vertex -1.558,0.8826,0
+
+Face 0,1,4,3
+Face 1,2,5,4
+
+Load day\doors_middle.bmp, night\doors_middle.bmp
+
+Coordinates 0,1,0
+Coordinates 1,1,0.6265
+Coordinates 2,1,1
+Coordinates 3,0,0
+Coordinates 4,0,0.6265
+Coordinates 5,0,1
+
+Transparent 0,0,255
+
+;End
+
+[MeshBuilder]
+Vertex -1.42,3.25,-9
+Vertex -1.55,1.87237,-9
+Vertex -1.558,0.8826,-9
+
+Vertex -1.42,3.25,-4.5
+Vertex -1.55,1.87237,-4.5
+Vertex -1.558,0.8826,-4.5
+
+Face 0,1,4,3
+Face 1,2,5,4
+
+Load day\doors_middle.bmp, night\doors_middle.bmp
+
+Coordinates 0,1,0
+Coordinates 1,1,0.6265
+Coordinates 2,1,1
+Coordinates 3,0,0
+Coordinates 4,0,0.6265
+Coordinates 5,0,1
+
+Transparent 0,0,255
+
+;End
+
+[MeshBuilder]
+Vertex -1.42,3.25,4.5
+Vertex -1.55,1.87237,4.5
+Vertex -1.558,0.8826,4.5
+
+Vertex -1.42,3.25,9
+Vertex -1.55,1.87237,9
+Vertex -1.558,0.8826,9
+
+Face 0,1,4,3
+Face 1,2,5,4
+
+Load day\doors_middle.bmp, night\doors_middle.bmp
+
+Coordinates 0,1,0
+Coordinates 1,1,0.6265
+Coordinates 2,1,1
+Coordinates 3,0,0
+Coordinates 4,0,0.6265
+Coordinates 5,0,1
+
+Transparent 0,0,255
+
+;End
+
+[MeshBuilder]
+Vertex -1.42,3.25,0
+Vertex -1.55,1.87237,0
+Vertex -1.558,0.8826,0
+
+Vertex -1.42,3.25,4.5
+Vertex -1.55,1.87237,4.5
+Vertex -1.558,0.8826,4.5
+
+Face 0,1,4,3
+Face 1,2,5,4
+
+Load day\doors_middle.bmp, night\doors_middle.bmp
+
+Coordinates 0,1,0
+Coordinates 1,1,0.6265
+Coordinates 2,1,1
+Coordinates 3,0,0
+Coordinates 4,0,0.6265
+Coordinates 5,0,1
+
+Transparent 0,0,255
+
+;End
+
+[MeshBuilder]
+Vertex -1.42,3.25,-4.5
+Vertex -1.55,1.87237,-4.5
+Vertex -1.558,0.8826,-4.5
+
+Vertex -1.42,3.25,0
+Vertex -1.55,1.87237,0
+Vertex -1.558,0.8826,0
+
+Face2 0,1,4,3
+Face2 1,2,5,4
+
+Load day\doors_window.bmp, day\doors_window2.bmp
+
+Coordinates 0,1,0
+Coordinates 1,1,0.6265
+Coordinates 2,1,1
+Coordinates 3,0,0
+Coordinates 4,0,0.6265
+Coordinates 5,0,1
+Color 100,150,100,90
+Transparent 0,0,255
+translate 0.14,0,0
+
+;End
+
+[MeshBuilder]
+Vertex -1.42,3.25,-9
+Vertex -1.55,1.87237,-9
+Vertex -1.558,0.8826,-9
+
+Vertex -1.42,3.25,-4.5
+Vertex -1.55,1.87237,-4.5
+Vertex -1.558,0.8826,-4.5
+
+Face2 0,1,4,3
+Face2 1,2,5,4
+
+Load day\doors_window.bmp, day\doors_window2.bmp
+
+Coordinates 0,1,0
+Coordinates 1,1,0.6265
+Coordinates 2,1,1
+Coordinates 3,0,0
+Coordinates 4,0,0.6265
+Coordinates 5,0,1
+Color 100,150,100,90
+Transparent 0,0,255
+translate 0.14,0,0
+;End
+
+[MeshBuilder]
+Vertex -1.42,3.25,4.5
+Vertex -1.55,1.87237,4.5
+Vertex -1.558,0.8826,4.5
+
+Vertex -1.42,3.25,9
+Vertex -1.55,1.87237,9
+Vertex -1.558,0.8826,9
+
+Face2 0,1,4,3
+Face2 1,2,5,4
+
+Load day\doors_window.bmp, day\doors_window2.bmp
+
+Coordinates 0,1,0
+Coordinates 1,1,0.6265
+Coordinates 2,1,1
+Coordinates 3,0,0
+Coordinates 4,0,0.6265
+Coordinates 5,0,1
+Color 100,150,100,90
+Transparent 0,0,255
+translate 0.14,0,0
+;End
+
+[MeshBuilder]
+Vertex -1.42,3.25,0
+Vertex -1.55,1.87237,0
+Vertex -1.558,0.8826,0
+
+Vertex -1.42,3.25,4.5
+Vertex -1.55,1.87237,4.5
+Vertex -1.558,0.8826,4.5
+
+Face2 0,1,4,3
+Face2 1,2,5,4
+
+Load day\doors_window.bmp, day\doors_window2.bmp
+
+Coordinates 0,1,0
+Coordinates 1,1,0.6265
+Coordinates 2,1,1
+Coordinates 3,0,0
+Coordinates 4,0,0.6265
+Coordinates 5,0,1
+Color 100,150,100,90
+Transparent 0,0,255
+translate 0.14,0,0
+;End
+
+
+;;;;;;;;;;;;;carhead;;;;;;;;;;;;;;;;;;;;
+[MeshBuilder]
+Vertex 1.38,3.4,-11,0,1,0
+Vertex 1.42,3.25,-11,0,1,0
+
+Vertex 1.38,3.4,11.0,0,1,0
+Vertex 1.42,3.25,11.0,0,1,0
+
+Face 2,3,1,0
+
+Load day\carhead.bmp
+
+Coordinates 3,0,0
+Coordinates 2,0.05,0
+Coordinates 0,0.05,1
+Coordinates 1,0,1
+
+
+;carup 0
+[MeshBuilder]
+Vertex 0,0.1,0,0,1,0
+Vertex 1.3,0.1,0,0,1,0
+Vertex 1.3,0.1,3,0,1,0
+Vertex 0,0.1,3,0,1,0
+Face2 0,1,2,3
+Load carup1.bmp
+Coordinates 0,0.2,0
+Coordinates 1,0.8,0
+Coordinates 2,0.8,-1
+Coordinates 3,0.2,-1
+translate -0.65,3.71,-10.0
+
+[MeshBuilder]
+Vertex 1.8,-0.23,0,0,1,0
+Vertex 1.3,0.1,0,0,1,0
+Vertex 1.3,0.1,3,0,1,0
+Vertex 1.8,-0.23,3,0,1,0
+Face2 0,1,2,3
+Load carup1.bmp
+Coordinates 0,0,-0
+Coordinates 1,0.2,-0
+Coordinates 2,0.2,-1
+Coordinates 3,0,-1
+translate -0.65,3.71,-10.0
+
+[MeshBuilder]
+Vertex -0.5,-0.23,0,0,1,0
+Vertex 0,0.1,0,0,1,0
+Vertex 0,0.1,3,0,1,0
+Vertex -0.5,-0.23,3,0,1,0
+Face2 0,1,2,3
+Load carup1.bmp
+Coordinates 0,1,0
+Coordinates 1,0.8,0
+Coordinates 2,0.8,-1
+Coordinates 3,1,-1
+translate -0.65,3.71,-10.0
+
+[MeshBuilder]
+Vertex 0,0.1,0,0,1,0
+Vertex 1.3,0.1,0,0,1,0
+Vertex 1.8,-0.23,0,0,1,0
+Vertex -0.5,-0.23,0,0,1,0
+Face2 0,1,2,3
+Load carup3.bmp
+Coordinates 0,0.2,0
+Coordinates 1,0.8,0
+Coordinates 2,0.8,-1
+Coordinates 3,0.2,-1
+translate -0.65,3.71,-10.0
+
+[MeshBuilder]
+Vertex 0,0.1,3,0,1,0
+Vertex 1.3,0.1,3,0,1,0
+Vertex 1.8,-0.23,3,0,1,0
+Vertex -0.5,-0.23,3,0,1,0
+Face2 0,1,2,3
+Load carup3.bmp
+Coordinates 0,0.2,0
+Coordinates 1,0.8,0
+Coordinates 2,0.8,-1
+Coordinates 3,0.2,-1
+translate -0.65,3.71,-10.0
+
+;carup 1
+[MeshBuilder]
+Vertex 0,0.1,0,0,1,0
+Vertex 1.3,0.1,0,0,1,0
+Vertex 1.3,0.1,3,0,1,0
+Vertex 0,0.1,3,0,1,0
+Face2 0,1,2,3
+Load carup1.bmp
+Coordinates 0,0.2,0
+Coordinates 1,0.8,0
+Coordinates 2,0.8,1
+Coordinates 3,0.2,1
+translate -0.65,3.71,7
+
+[MeshBuilder]
+Vertex 1.8,-0.23,0,0,1,0
+Vertex 1.3,0.1,0,0,1,0
+Vertex 1.3,0.1,3,0,1,0
+Vertex 1.8,-0.23,3,0,1,0
+Face2 0,1,2,3
+Load carup1.bmp
+Coordinates 0,0,-0
+Coordinates 1,0.2,-0
+Coordinates 2,0.2,1
+Coordinates 3,0,1
+translate -0.65,3.71,7
+
+[MeshBuilder]
+Vertex -0.5,-0.23,0,0,1,0
+Vertex 0,0.1,0,0,1,0
+Vertex 0,0.1,3,0,1,0
+Vertex -0.5,-0.23,3,0,1,0
+Face2 0,1,2,3
+Load carup1.bmp
+Coordinates 0,1,0
+Coordinates 1,0.8,0
+Coordinates 2,0.8,1
+Coordinates 3,1,1
+translate -0.65,3.71,7
+
+[MeshBuilder]
+Vertex 0,0.1,0,0,1,0
+Vertex 1.3,0.1,0,0,1,0
+Vertex 1.8,-0.23,0,0,1,0
+Vertex -0.5,-0.23,0,0,1,0
+Face2 0,1,2,3
+Load carup3.bmp
+Coordinates 0,0.2,0
+Coordinates 1,0.8,0
+Coordinates 2,0.8,1
+Coordinates 3,0.2,1
+translate -0.65,3.71,7
+
+[MeshBuilder]
+Vertex 0,0.1,3,0,1,0
+Vertex 1.3,0.1,3,0,1,0
+Vertex 1.8,-0.23,3,0,1,0
+Vertex -0.5,-0.23,3,0,1,0
+Face2 0,1,2,3
+Load carup3.bmp
+Coordinates 0,0.2,0
+Coordinates 1,0.8,0
+Coordinates 2,0.8,1
+Coordinates 3,0.2,1
+translate -0.65,3.71,7
+
+
+;carup 2
+[MeshBuilder]
+Vertex 0,0,0.35,0,1,0
+Vertex 1.3,0,0.35,0,1,0
+Vertex 1.3,0,22.35,0,1,0
+Vertex 0,0,22.35,0,1,0
+Face2 0,1,2,3
+Load day\carhead.bmp
+Coordinates 0,0.2,-0.05
+Coordinates 1,0.8,-0.05
+Coordinates 2,0.8,-1
+Coordinates 3,0.2,-1
+translate -0.65,3.68,-11.35
+
+[MeshBuilder]
+Vertex 2.03,-0.28,0.35,0,1,0
+Vertex 1.3,0,0.35,0,1,0
+Vertex 1.3,0,22.35,0,1,0
+Vertex 2.03,-0.28,22.35,0,1,0
+Face2 0,1,2,3
+Load day\carhead.bmp
+Coordinates 0,0.05,-0.05
+Coordinates 1,0.2,-0.05
+Coordinates 2,0.2,-1
+Coordinates 3,0.05,-1
+translate -0.65,3.68,-11.35
+
+[MeshBuilder]
+Vertex -0.73,-0.28,0.35,0,1,0
+Vertex 0,0,0.35,0,1,0
+Vertex 0,0,22.35,0,1,0
+Vertex -0.73,-0.28,22.35,0,1,0
+Face2 0,1,2,3
+Load day\carhead.bmp
+Coordinates 0,0.95,-0.05
+Coordinates 1,0.8,-0.05
+Coordinates 2,0.8,-1
+Coordinates 3,0.95,-1
+translate -0.65,3.68,-11.35
+
+RotateAll 0,1,0,180
+
+[MeshBuilder]
+Vertex -1.42,3.25,-4.5
+Vertex -1.55,1.87237,-4.5
+Vertex -1.558,0.8826,-4.5
+
+Vertex -1.42,3.25,0
+Vertex -1.55,1.87237,0
+Vertex -1.558,0.8826,0
+
+Face 0,1,4,3
+Face 1,2,5,4
+
+Load day\doors_middle.bmp, night\doors_middle.bmp
+
+Coordinates 0,1,0
+Coordinates 1,1,0.6265
+Coordinates 2,1,1
+Coordinates 3,0,0
+Coordinates 4,0,0.6265
+Coordinates 5,0,1
+
+Transparent 0,0,255
+
+;End
+
+[MeshBuilder]
+Vertex -1.42,3.25,-9
+Vertex -1.55,1.87237,-9
+Vertex -1.558,0.8826,-9
+
+Vertex -1.42,3.25,-4.5
+Vertex -1.55,1.87237,-4.5
+Vertex -1.558,0.8826,-4.5
+
+Face 0,1,4,3
+Face 1,2,5,4
+
+Load day\doors_middle.bmp, night\doors_middle.bmp
+
+Coordinates 0,1,0
+Coordinates 1,1,0.6265
+Coordinates 2,1,1
+Coordinates 3,0,0
+Coordinates 4,0,0.6265
+Coordinates 5,0,1
+
+Transparent 0,0,255
+
+;End
+
+[MeshBuilder]
+Vertex -1.42,3.25,4.5
+Vertex -1.55,1.87237,4.5
+Vertex -1.558,0.8826,4.5
+
+Vertex -1.42,3.25,9
+Vertex -1.55,1.87237,9
+Vertex -1.558,0.8826,9
+
+Face 0,1,4,3
+Face 1,2,5,4
+
+Load day\doors_middle.bmp, night\doors_middle.bmp
+
+Coordinates 0,1,0
+Coordinates 1,1,0.6265
+Coordinates 2,1,1
+Coordinates 3,0,0
+Coordinates 4,0,0.6265
+Coordinates 5,0,1
+
+Transparent 0,0,255
+
+;End
+
+[MeshBuilder]
+Vertex -1.42,3.25,0
+Vertex -1.55,1.87237,0
+Vertex -1.558,0.8826,0
+
+Vertex -1.42,3.25,4.5
+Vertex -1.55,1.87237,4.5
+Vertex -1.558,0.8826,4.5
+
+Face 0,1,4,3
+Face 1,2,5,4
+
+Load day\doors_middle.bmp, night\doors_middle.bmp
+
+Coordinates 0,1,0
+Coordinates 1,1,0.6265
+Coordinates 2,1,1
+Coordinates 3,0,0
+Coordinates 4,0,0.6265
+Coordinates 5,0,1
+Transparent 0,0,255
+
+;End
+
+[MeshBuilder]
+Vertex -1.42,3.25,-4.5
+Vertex -1.55,1.87237,-4.5
+Vertex -1.558,0.8826,-4.5
+
+Vertex -1.42,3.25,0
+Vertex -1.55,1.87237,0
+Vertex -1.558,0.8826,0
+
+Face2 0,1,4,3
+Face2 1,2,5,4
+
+Load day\doors_window.bmp, day\doors_window2.bmp
+
+Coordinates 0,1,0
+Coordinates 1,1,0.6265
+Coordinates 2,1,1
+Coordinates 3,0,0
+Coordinates 4,0,0.6265
+Coordinates 5,0,1
+Color 100,150,100,90
+Transparent 0,0,255
+translate 0.14,0,0
+
+;End
+
+[MeshBuilder]
+Vertex -1.42,3.25,-9
+Vertex -1.55,1.87237,-9
+Vertex -1.558,0.8826,-9
+
+Vertex -1.42,3.25,-4.5
+Vertex -1.55,1.87237,-4.5
+Vertex -1.558,0.8826,-4.5
+
+Face2 0,1,4,3
+Face2 1,2,5,4
+
+Load day\doors_window.bmp, day\doors_window2.bmp
+
+Coordinates 0,1,0
+Coordinates 1,1,0.6265
+Coordinates 2,1,1
+Coordinates 3,0,0
+Coordinates 4,0,0.6265
+Coordinates 5,0,1
+Color 100,150,100,90
+Transparent 0,0,255
+translate 0.14,0,0
+;End
+
+[MeshBuilder]
+Vertex -1.42,3.25,4.5
+Vertex -1.55,1.87237,4.5
+Vertex -1.558,0.8826,4.5
+
+Vertex -1.42,3.25,9
+Vertex -1.55,1.87237,9
+Vertex -1.558,0.8826,9
+
+Face2 0,1,4,3
+Face2 1,2,5,4
+
+Load day\doors_window.bmp, day\doors_window2.bmp
+
+Coordinates 0,1,0
+Coordinates 1,1,0.6265
+Coordinates 2,1,1
+Coordinates 3,0,0
+Coordinates 4,0,0.6265
+Coordinates 5,0,1
+Color 100,150,100,90
+Transparent 0,0,255
+translate 0.14,0,0
+;End
+
+[MeshBuilder]
+Vertex -1.42,3.25,0
+Vertex -1.55,1.87237,0
+Vertex -1.558,0.8826,0
+
+Vertex -1.42,3.25,4.5
+Vertex -1.55,1.87237,4.5
+Vertex -1.558,0.8826,4.5
+
+Face2 0,1,4,3
+Face2 1,2,5,4
+
+Load day\doors_window.bmp, day\doors_window2.bmp
+
+Coordinates 0,1,0
+Coordinates 1,1,0.6265
+Coordinates 2,1,1
+Coordinates 3,0,0
+Coordinates 4,0,0.6265
+Coordinates 5,0,1
+Color 100,150,100,90
+Transparent 0,0,255
+translate 0.14,0,0
+;End
+
+
+
+[MeshBuilder]
+Vertex -1.42,3.25,-11
+Vertex -1.55,1.87237,-11
+Vertex -1.558,0.8826,-11
+
+Vertex -1.42,3.25,-9
+Vertex -1.55,1.87237,-9
+Vertex -1.558,0.8826,-9
+
+Face 0,1,4,3
+Face 1,2,5,4
+
+Load day\car_end_comp.png, night\car_end_comp.png
+
+Coordinates 0,0,0
+Coordinates 1,0,0.6265
+Coordinates 2,0,1
+Coordinates 3,1,0
+Coordinates 4,1,0.6265
+Coordinates 5,1,1
+
+Transparent 0,0,255
+
+;End
+
+
+[MeshBuilder]
+Vertex -1.42,3.25,9
+Vertex -1.55,1.87237,9
+Vertex -1.558,0.8826,9
+
+Vertex -1.42,3.25,11
+Vertex -1.55,1.87237,11
+Vertex -1.558,0.8826,11
+
+Face 0,1,4,3
+Face 1,2,5,4
+
+Load day\car_end_comp.png, night\car_end_comp.png
+
+Coordinates 0,1,0
+Coordinates 1,1,0.6265
+Coordinates 2,1,1
+Coordinates 3,0,0
+Coordinates 4,0,0.6265
+Coordinates 5,0,1
+
+Transparent 0,0,255
+
+;Color 128,255,255
+
+;End
+
+RotateAll 0,1,0,180
+
+
+[MeshBuilder]
+Vertex 1.35,3.4,-11
+Vertex 1.42,3.25,-11
+
+Vertex 1.35,3.4,11
+Vertex 1.42,3.25,11
+
+Face 2,3,1,0
+
+Color 152,152,152
+
+;End
+
+[MeshBuilder]
+Vertex 1.558,0.8826,-11
+Vertex 1.51,0.64369,-11
+Vertex 1.33,0.2,-11
+
+Vertex 1.558,0.8826,11
+Vertex 1.51,0.64369,11
+Vertex 1.33,0.2,11
+
+Face 3,4,1,0
+Face 4,5,2,1
+
+Load creating\car_bottom_mid.png
+
+Coordinates 0,0,0
+Coordinates 1,0,0.45
+Coordinates 2,0,1
+Coordinates 3,1,0
+Coordinates 4,1,0.45
+Coordinates 5,1,1
+
+Transparent 0,0,255
+
+;Color 128,255,0
+
+ScaleAll 1.1,1.1,1.1
+;End
+

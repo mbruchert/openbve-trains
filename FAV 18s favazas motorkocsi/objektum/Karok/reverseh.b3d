@@ -1,0 +1,264 @@
+[Meshbuilder] ; Reverse kapcsoló talp
+Cylinder 20, 0.072,0.072,0.005
+Color 187,170,102
+Emissivecolor 43,35,1
+Translate 0,0,0
+
+[MeshBuilder]
+Cylinder 20, 0.035,0.035,0.010
+Color 187,170,102
+Emissivecolor 53,45,11
+Translate 0,0.007,0
+
+[MeshBuilder]
+Cylinder 20, 0.020,0.020,0.060
+Color 187,170,102
+Emissivecolor 53,45,11
+Translate 0,0.042,0;------------------------------
+
+[MeshBuilder]; kerék
+Cylinder 20, 0.035,0.035,0.010
+Color 187,170,102
+Emissivecolor 33,25,0
+Translate 0,0.077,0
+
+[MeshBuilder]; kerék
+Cylinder 20, 0.025,0.035,0.003
+Color 187,170,102
+Emissivecolor 53,45,11
+Translate 0,0.083,0
+
+[MeshBuilder]; kerék
+Cylinder 20, 0.010,0.025,0.002
+Color 187,170,102
+Emissivecolor 53,45,11
+Translate 0,0.0857,0
+
+[MeshBuilder] ;kerék kereszt rúd bal
+Cylinder 20, 0.0045,0.0045,0.150
+Rotate 1,0,0,90
+Color 187,170,102
+Emissivecolor 53,45,11
+Translate -0.010,0.077,0
+
+[MeshBuilder] ;kerék kereszt rúd jobb
+Cylinder 20, 0.0045,0.0045,0.150
+Rotate 1,0,0,90
+Color 187,170,102
+Emissivecolor 53,45,11
+Translate  0.010,0.077,0
+
+[MeshBuilder] ;kerék kereszt rúd elsõ
+Cylinder 20, 0.0045,0.0045,0.150
+Rotate 0,0,1,90
+Color 187,170,102
+Emissivecolor 53,45,11
+Translate 0,0.077,0.010
+
+[MeshBuilder] ;kerék kereszt rúd hátsó
+Cylinder 20, 0.0045,0.0045,0.150
+Rotate 0,0,1,90
+Color 187,170,102
+Emissivecolor 53,45,11
+Translate 0,0.077,-0.010;--------------------
+
+[MeshBuilder]; kerék kereszt 1
+Cube 0.010,0.0045,0.075
+Color 187,170,102
+Emissivecolor 53,45,11
+Translate 0,0.077,0
+
+[MeshBuilder]; kerék kereszt 2
+Cube 0.075,0.0045,0.010
+Color 187,170,102
+Emissivecolor 53,45,11
+Translate 0,0.077,0;------------------------
+
+[MeshBuilder] ;kör bal elsõ negyed
+Cylinder 20, 0.015,0.015,0.0265
+Rotate 1,0,0,90
+Color 187,170,102
+Emissivecolor 53,45,11
+Translate -0.085,0.077,0
+
+[MeshBuilder] ;kör
+Cylinder 20, 0.015,0.015,0.0265
+Rotate 1,0,0,90
+Rotate 0,1,0,15
+Color 187,170,102
+Emissivecolor 53,45,11
+Translate -0.0822,0.077,0.021
+
+[MeshBuilder] ;kör
+Cylinder 20, 0.015,0.015,0.0265
+Rotate 1,0,0,90
+Rotate 0,1,0,30
+Color 187,170,102
+Emissivecolor 53,45,11
+Translate -0.0743,0.077,0.040
+
+[MeshBuilder] ;kör
+Cylinder 20, 0.015,0.015,0.0265
+Rotate 1,0,0,90
+Rotate 0,1,0,45
+Color 187,170,102
+Emissivecolor 53,45,11
+Translate -0.0612,0.077,0.0568
+
+[MeshBuilder] ;kör
+Cylinder 20, 0.015,0.015,0.0265
+Rotate 1,0,0,90
+Rotate 0,1,0,60
+Color 187,170,102
+Emissivecolor 53,45,11
+Translate -0.0444,0.077,0.0695
+
+[MeshBuilder] ;kör
+Cylinder 20, 0.015,0.015,0.0265
+Rotate 1,0,0,90
+Rotate 0,1,0,75
+Color 187,170,102
+Emissivecolor 53,45,11
+Translate -0.023,0.077,0.0778
+
+[MeshBuilder] ;kör
+Cylinder 20, 0.015,0.015,0.0265
+Rotate 0,0,1,90
+Color 187,170,102
+Emissivecolor 53,45,11
+Translate 0,0.077,0.081;------ egy negyed
+
+[MeshBuilder] ;kör
+Cylinder 20, 0.015,0.015,0.0265
+Rotate 1,0,0,90
+Rotate 0,1,0,-15
+Color 187,170,102
+Emissivecolor 53,45,11
+Translate  0.0822,0.077,0.021
+
+[MeshBuilder] ;kör
+Cylinder 20, 0.015,0.015,0.0265
+Rotate 1,0,0,90
+Rotate 0,1,0,-30
+Color 187,170,102
+Emissivecolor 53,45,11
+Translate  0.0743,0.077,0.040
+
+[MeshBuilder] ;kör
+Cylinder 20, 0.015,0.015,0.0265
+Rotate 1,0,0,90
+Rotate 0,1,0,-45
+Color 187,170,102
+Emissivecolor 53,45,11
+Translate  0.0612,0.077,0.0568
+
+[MeshBuilder] ;kör
+Cylinder 20, 0.015,0.015,0.0265
+Rotate 1,0,0,90
+Rotate 0,1,0,-60
+Color 187,170,102
+Emissivecolor 53,45,11
+Translate  0.0444,0.077,0.0695
+
+[MeshBuilder] ;kör
+Cylinder 20, 0.015,0.015,0.0265
+Rotate 1,0,0,90
+Rotate 0,1,0,-75
+Color 187,170,102
+Emissivecolor 53,45,11
+Translate  0.023,0.077,0.0778
+
+[MeshBuilder] ;kör jobb elsõ negyed
+Cylinder 20, 0.015,0.015,0.0265
+Rotate 1,0,0,90
+Color 187,170,102
+Emissivecolor 53,45,11
+Translate  0.085,0.077,0;-------------------------------------
+
+[MeshBuilder] ;kör bal hátsó negyed
+Cylinder 20, 0.015,0.015,0.0265
+Rotate 1,0,0,90
+Rotate 0,1,0,-15
+Color 187,170,102
+Emissivecolor 53,45,11
+Translate -0.0822,0.077,-0.021
+
+[MeshBuilder] ;kör
+Cylinder 20, 0.015,0.015,0.0265
+Rotate 1,0,0,90
+Rotate 0,1,0,-30
+Color 187,170,102
+Emissivecolor 53,45,11
+Translate -0.0743,0.077,-0.040
+
+[MeshBuilder] ;kör
+Cylinder 20, 0.015,0.015,0.0265
+Rotate 1,0,0,90
+Rotate 0,1,0,-45
+Color 187,170,102
+Emissivecolor 53,45,11
+Translate -0.0612,0.077,-0.0568
+
+[MeshBuilder] ;kör
+Cylinder 20, 0.015,0.015,0.0265
+Rotate 1,0,0,90
+Rotate 0,1,0,-60
+Color 187,170,102
+Emissivecolor 53,45,11
+Translate -0.0444,0.077,-0.0695
+
+[MeshBuilder] ;kör
+Cylinder 20, 0.015,0.015,0.0265
+Rotate 1,0,0,90
+Rotate 0,1,0,-75
+Color 187,170,102
+Emissivecolor 53,45,11
+Translate -0.023,0.077,-0.0778
+
+[MeshBuilder] ;kör
+Cylinder 20, 0.015,0.015,0.0265
+Rotate 0,0,1,90
+Color 187,170,102
+Emissivecolor 53,45,11
+Translate 0,0.077,-0.081;------ egy negyed
+
+[MeshBuilder] ;körjobb hátsó negyed
+Cylinder 20, 0.015,0.015,0.0265
+Rotate 1,0,0,90
+Rotate 0,1,0, 15
+Color 187,170,102
+Emissivecolor 53,45,11
+Translate  0.0822,0.077,-0.021
+
+[MeshBuilder] ;kör
+Cylinder 20, 0.015,0.015,0.0265
+Rotate 1,0,0,90
+Rotate 0,1,0, 30
+Color 187,170,102
+Emissivecolor 53,45,11
+Translate  0.0743,0.077,-0.040
+
+[MeshBuilder] ;kör
+Cylinder 20, 0.015,0.015,0.0265
+Rotate 1,0,0,90
+Rotate 0,1,0, 45
+Color 187,170,102
+Emissivecolor 53,45,11
+Translate  0.0612,0.077,-0.0568
+
+[MeshBuilder] ;kör
+Cylinder 20, 0.015,0.015,0.0265
+Rotate 1,0,0,90
+Rotate 0,1,0, 60
+Color 187,170,102
+Emissivecolor 53,45,11
+Translate  0.0444,0.077,-0.0695
+
+[MeshBuilder] ;kör
+Cylinder 20, 0.015,0.015,0.0265
+Rotate 1,0,0,90
+Rotate 0,1,0, 75
+Color 187,170,102
+Emissivecolor 53,45,11
+Translate  0.023,0.077,-0.0778;-----------------------
+Rotateall 0,1,0,180

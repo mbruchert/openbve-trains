@@ -1,0 +1,18 @@
+[INCLUDE]                                              
+Ex00F.Animated       ;Length=0015m67                   ;      Car#
+                                                       ;      | SlackPerCar
+[INCLUDE]                                              ;      | |         LengthCar#
+..\1929.2xx2~WFFx.EURO_1m435~0010m50\Ex001.Animated    ;      | |         |
+Position=+0.000,+0.000,-13.39                          ;PosZ=-1*0m305-0.5*L0-L1*0.5
+[INCLUDE]
+..\1929.2xx2~WFFx.EURO_1m435~0010m50\Ex001.Animated
+Position=+0.000,+0.000,-24.20                          ;PosZ=-2*0m305-0.5*L0-L1-L2*0.5
+[INCLUDE]
+..\1914.2xx2~WFBx.EURO_1m435~0012m14\Ex020.Animated
+Position=+0.000,+0.000,-35.82                          ;PosZ=-3*0m305-0.5*L0-L1-L2-L3*0.5
+[INCLUDE] 
+..\1914.2xx2~WFBx.EURO_1m435~0012m14\Ex030.Animated
+Position=+0.000,+0.000,-48.27                          ;PosZ=-4*0m305-0.5*L0-L1-L2-L3-L4*0.5
+[INCLUDE] 
+..\1929.2xx2~WFFx.EURO_1m435~0010m50\Ex002.Animated
+Position=+0.000,+0.000,-59.89                          ;PosZ=-5*0m305-0.5*L0-L1-L2-L3-L4-L5*0.5

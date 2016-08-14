@@ -1,0 +1,13 @@
+﻿Createmeshbuilder,
+AddVertex,-0.539, 2.286, 6.965,
+AddVertex,-0.529, 2.269, 6.96,
+AddVertex,-0.557, 2.287, 6.95,
+AddVertex,-0.55, 2.269, 6.94,
+Addface,0,1,3,2,
+LoadTexture,LSDJAUX.png
+SetTextureCoordinates,0,1,0,
+SetTextureCoordinates,1,1,1,
+SetTextureCoordinates,2,0,0,
+SetTextureCoordinates,3,0,1,
+setcolor,50,50,50
+Translate,0.03,0,0.022,

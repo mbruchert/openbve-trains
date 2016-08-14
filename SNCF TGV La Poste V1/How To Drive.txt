@@ -1,0 +1,47 @@
+---- Introduction to TGV Paris Sud Est -----
+
+Main System Commands
+
+[Insert]
+acknowledgment of the KVB French System.
+Position "off"
+
+[END] Pantograph 
+Position "OFF - Normal"
+
+[Delete / Supr ] Close the circuit breaker
+Position "OFF - Normal"
+
+[Home]  Rearm the circuit breaker "Remove the errors on the left or right screen"
+Position "OFF - Normal - OFF"
+
+[Space Bar] Make Aknowledge of the KVB
+Position "Off"
+
+
+------- How to drive ------
+     1. Make the acknowledgment of the startup of the KVB (Press the 'Ins' key)
+     2. Put the pantograph in high position (Press the 'End' key)
+     3. Close the circuit breaker (Press the 'Del' key)
+     4. Rearm the circuit breaker (Press the 'Home' key during some seconds ( Wait that 2 lamps of the left panel go out )
+     5. Release Brakes
+     6. Go Forward
+     7. Accelerate 
+     8. Make the acknowledgment during the dead man sound (Press Space Bar)
+
+
+----- Warning -------
+If the Train automaticaly apply "Emergency Brake"
+----- Steps to Reset the train.
+
+1. Rearm the circuit breaker (Press the 'Home' key during some seconds ( Wait that 2 lamps of the left panel go out )
+2.- Apply brake and release
+3.- wait 5 secons and accelerate again.
+
+
+----------- TVM ---- Trans Voie Machine --
+This is a French High Speed System onboard at TGV and some anothers trains like a BR 395.
+
+VL = Vitesse Limité "Max Speed "ON GREEN"
+A  = Accionamient, decrease the speed "White Triangles with Black Letters"
+E = Execution  " Execute at Speed indicated on "Black screen and White numbers"

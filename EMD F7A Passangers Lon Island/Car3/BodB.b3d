@@ -1,0 +1,243 @@
+
+[MESHBUILDER]                      
+Vertex       -1.530,+1.301,+13.95
+Vertex       +1.530,+1.301,+13.95
+Vertex       +1.530,+1.301,+0.000
+Vertex       -1.530,+1.301,+0.000
+Face                      0,1,2,3
+Face                      3,2,1,0
+Color         063,059,055,255;Gra
+Transparent       000,255,000;Grn
+Load                12.bmp
+Coordinates       0,+0.000,+0.000
+Coordinates       1,+1.000,+0.000
+Coordinates       2,+1.000,+1.000
+Coordinates       3,+0.000,+1.000
+
+[MESHBUILDER]                     
+Vertex       -1.530,+3.450,+13.95
+Vertex       +1.530,+3.450,+13.95
+Vertex       +1.530,+3.450,+0.230
+Vertex       -1.530,+3.450,+0.230
+Face                      3,2,1,0
+Color         095,091,087,255;Gra
+Transparent       000,255,000;Grn
+Load                54.bmp
+Coordinates       0,+0.000,+0.000
+Coordinates       1,+1.000,+0.000
+Coordinates       2,+1.000,+1.000
+Coordinates       3,+0.000,+1.000
+
+                                     ;degraus esq.
+[MESHBUILDER]                      
+Vertex       -1.358,+0.460,+1.722
+Vertex       -1.532,+0.460,+1.722
+Vertex       -1.532,+0.460,+0.718
+Vertex       -1.358,+0.460,+0.718
+Face                      0,1,2,3
+Face                      3,2,1,0
+Color         095,091,087,255;Gra
+Load                Degrau.GIF
+Coordinates       0,+0.000,+0.000
+Coordinates       1,+1.000,+0.000
+Coordinates       2,+1.000,+1.000
+Coordinates       3,+0.000,+1.000
+[MESHBUILDER]
+Vertex       -1.400,+0.670,+0.720
+Vertex       -1.400,+0.670,+1.720
+Vertex       -1.360,+0.460,+1.720
+Vertex       -1.360,+0.460,+0.720
+Face                      0,1,2,3
+Face                      3,2,1,0
+Color         091,087,083,255;Gra
+
+[MESHBUILDER]
+Vertex       -1.228,+0.670,+1.722
+Vertex       -1.402,+0.670,+1.722
+Vertex       -1.402,+0.670,+0.718
+Vertex       -1.228,+0.670,+0.718
+Face                      0,1,2,3
+Face                      3,2,1,0
+Color         087,083,079,255;Gra
+Load                Degrau.GIF
+Coordinates       0,+0.000,+0.000
+Coordinates       1,+1.000,+0.000
+Coordinates       2,+1.000,+1.000
+Coordinates       3,+0.000,+1.000
+[MESHBUILDER]
+Vertex       -1.270,+0.880,+0.720
+Vertex       -1.270,+0.880,+1.720
+Vertex       -1.230,+0.670,+1.720
+Vertex       -1.230,+0.670,+0.720
+Face                      0,1,2,3
+Face                      3,2,1,0
+Color         083,079,075,255;Gra
+
+[MESHBUILDER]
+Vertex       -1.098,+0.880,+1.722
+Vertex       -1.272,+0.880,+1.722
+Vertex       -1.272,+0.880,+0.718
+Vertex       -1.098,+0.880,+0.718
+Face                      0,1,2,3
+Face                      3,2,1,0
+Color         079,075,071,255;Gra
+Load                Degrau.GIF
+Coordinates       0,+0.000,+0.000
+Coordinates       1,+1.000,+0.000
+Coordinates       2,+1.000,+1.000
+Coordinates       3,+0.000,+1.000
+[MESHBUILDER]
+Vertex       -1.140,+1.090,+0.720
+Vertex       -1.140,+1.090,+1.720
+Vertex       -1.100,+0.880,+1.720
+Vertex       -1.100,+0.880,+0.720
+Face                      0,1,2,3
+Face                      3,2,1,0
+Color         075,071,067,255;Gra
+
+[MESHBUILDER]
+Vertex       -0.968,+1.090,+1.722
+Vertex       -1.142,+1.090,+1.722
+Vertex       -1.142,+1.090,+0.718
+Vertex       -0.968,+1.090,+0.718
+Face                      0,1,2,3
+Face                      3,2,1,0
+Color         071,067,063,255;Gra
+Load                Degrau.GIF
+Coordinates       0,+0.000,+0.000
+Coordinates       1,+1.000,+0.000
+Coordinates       2,+1.000,+1.000
+Coordinates       3,+0.000,+1.000
+[MESHBUILDER]
+Vertex       -1.010,+1.300,+0.720
+Vertex       -1.010,+1.300,+1.720
+Vertex       -0.970,+1.090,+1.720
+Vertex       -0.970,+1.090,+0.720
+Face                      0,1,2,3
+Face                      3,2,1,0
+Color         067,063,059,255;Gra
+
+[MESHBUILDER]
+Vertex       -0.840,+1.300,+1.720
+Vertex       -1.530,+1.300,+1.720
+Vertex       -1.530,+0.460,+1.720
+Vertex       -1.360,+0.460,+1.720
+Face                      0,1,2,3
+Face                      3,2,1,0
+Color         075,071,067,255;Gra
+[MESHBUILDER]
+Vertex       -0.840,+1.300,+0.720
+Vertex       -1.530,+1.300,+0.720
+Vertex       -1.530,+0.460,+0.720
+Vertex       -1.360,+0.460,+0.720
+Face                      0,1,2,3
+Face                      3,2,1,0
+Color         075,071,067,255;Gra
+
+
+[MESHBUILDER]                      ;degraus dir
+Vertex       +1.358,+0.460,+1.722
+Vertex       +1.532,+0.460,+1.722
+Vertex       +1.532,+0.460,+0.718
+Vertex       +1.358,+0.460,+0.718
+Face                      0,1,2,3
+Face                      3,2,1,0
+Color         095,091,087,255;Gra
+Load                Degrau.GIF
+Coordinates       0,+0.000,+0.000
+Coordinates       1,+1.000,+0.000
+Coordinates       2,+1.000,+1.000
+Coordinates       3,+0.000,+1.000
+[MESHBUILDER]
+Vertex       +1.400,+0.670,+0.720
+Vertex       +1.400,+0.670,+1.720
+Vertex       +1.360,+0.460,+1.720
+Vertex       +1.360,+0.460,+0.720
+Face                      0,1,2,3
+Face                      3,2,1,0
+Color         091,087,083,255;Gra
+
+[MESHBUILDER]
+Vertex       +1.228,+0.670,+1.722
+Vertex       +1.402,+0.670,+1.722
+Vertex       +1.402,+0.670,+0.718
+Vertex       +1.228,+0.670,+0.718
+Face                      0,1,2,3
+Face                      3,2,1,0
+Color         087,083,079,255;Gra
+Load                Degrau.GIF
+Coordinates       0,+0.000,+0.000
+Coordinates       1,+1.000,+0.000
+Coordinates       2,+1.000,+1.000
+Coordinates       3,+0.000,+1.000
+[MESHBUILDER]
+Vertex       +1.270,+0.880,+0.720
+Vertex       +1.270,+0.880,+1.720
+Vertex       +1.230,+0.670,+1.720
+Vertex       +1.230,+0.670,+0.720
+Face                      0,1,2,3
+Face                      3,2,1,0
+Color         083,079,075,255;Gra
+
+[MESHBUILDER]
+Vertex       +1.098,+0.880,+1.722
+Vertex       +1.272,+0.880,+1.722
+Vertex       +1.272,+0.880,+0.718
+Vertex       +1.098,+0.880,+0.718
+Face                      0,1,2,3
+Face                      3,2,1,0
+Color         079,075,071,255;Gra
+Load                Degrau.GIF
+Coordinates       0,+0.000,+0.000
+Coordinates       1,+1.000,+0.000
+Coordinates       2,+1.000,+1.000
+Coordinates       3,+0.000,+1.000
+[MESHBUILDER]
+Vertex       +1.140,+1.090,+0.720
+Vertex       +1.140,+1.090,+1.720
+Vertex       +1.100,+0.880,+1.720
+Vertex       +1.100,+0.880,+0.720
+Face                      0,1,2,3
+Face                      3,2,1,0
+Color         075,071,067,255;Gra
+
+[MESHBUILDER]
+Vertex       +0.968,+1.090,+1.722
+Vertex       +1.142,+1.090,+1.722
+Vertex       +1.142,+1.090,+0.718
+Vertex       +0.968,+1.090,+0.718
+Face                      0,1,2,3
+Face                      3,2,1,0
+Color         071,067,063,255;Gra
+Load               Degrau.GIF
+Coordinates       0,+0.000,+0.000
+Coordinates       1,+1.000,+0.000
+Coordinates       2,+1.000,+1.000
+Coordinates       3,+0.000,+1.000
+[MESHBUILDER]
+Vertex       +1.010,+1.300,+0.720
+Vertex       +1.010,+1.300,+1.720
+Vertex       +0.970,+1.090,+1.720
+Vertex       +0.970,+1.090,+0.720
+Face                      0,1,2,3
+Face                      3,2,1,0
+Color         067,063,059,255;Gra
+
+[MESHBUILDER]
+Vertex       +0.840,+1.300,+1.720
+Vertex       +1.530,+1.300,+1.720
+Vertex       +1.530,+0.460,+1.720
+Vertex       +1.360,+0.460,+1.720
+Face                      0,1,2,3
+Face                      3,2,1,0
+Color         075,071,067,255;Gra
+[MESHBUILDER]
+Vertex       +0.840,+1.300,+0.720
+Vertex       +1.530,+1.300,+0.720
+Vertex       +1.530,+0.460,+0.720
+Vertex       +1.360,+0.460,+0.720
+Face                      0,1,2,3
+Face                      3,2,1,0
+Color         075,071,067,255;Gra
+
+SCALEALL     0.92,+1.00, 0.80          ;Rota+Scal

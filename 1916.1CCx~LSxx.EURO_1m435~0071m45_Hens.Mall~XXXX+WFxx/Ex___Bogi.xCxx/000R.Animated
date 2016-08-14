@@ -1,0 +1,20 @@
+;BogieTruck oCoo For SteamLocomotives
+;Gaug\Diam\Base=4.708f 1.435m\3.576f 1.090m\9.843f 3.000m
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+[OBJECT]
+States=Whel.b3d
+Position=+0.000,+0.545,+1.500                 ;DimX=+0.0,DimY=+0.5*Diam,DimZ=+0.5*Base
+RotateXFunction=Value+((Delta*Speed)/0.545)  ;Angl=Last+((DeltaSecs*Metr/Secs)/(+0.5*Diam))
+[OBJECT]
+States=Whel.b3d
+Position=+0.000,+0.545,+0.000                 ;DimX=+0.0,DimY=+0.5*Diam,DimZ=+0.5*Base
+RotateXFunction=Value+((Delta*Speed)/0.545)  ;Angl=Last+((DeltaSecs*Metr/Secs)/(+0.5*Diam))
+[OBJECT]
+States=Whel.b3d
+Position=+0.000,+0.545,-1.500                 ;DimX=+0.0,DimY=+0.5*Diam,DimZ=+0.5*Base
+RotateXFunction=Value+((Delta*Speed)/0.545)  ;Angl=Last+((DeltaSecs*Metr/Secs)/(+0.5*Diam))
+
+[OBJECT]
+States=Gear.b3d
+Position=+0.000,+0.545,+0.000                 ;DimX=+0.0,DimY=+0.5*Diam,DimZ=+0.0
+RotateYFunction=3.142

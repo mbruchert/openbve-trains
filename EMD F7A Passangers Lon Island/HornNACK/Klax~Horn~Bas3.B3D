@@ -1,0 +1,40 @@
+
+[MESHBUILDER]                      
+Cube         +0.090,+0.090,+0.090
+Translate    +0.000,-0.090,+0.000
+Color         0,41,99
+
+[MESHBUILDER]                      
+Cylinder   18,+0.051,+0.051,0.012
+Translate    +0.000,+0.006,+0.000
+Color         0,41,99
+
+[MESHBUILDER]                      
+Cylinder   4,+0.500,+0.500,+1.000
+Rotate               1,0,0,+090.0
+Scale        +0.400,+0.096,+0.020
+Translate    +0.000,+0.048,+0.000
+Color         0,41,99
+[MESHBUILDER]
+Cube         +0.200,+0.024,+0.010
+Translate    +0.000,+0.072,+0.000
+Color        0,41,99
+
+[MESHBUILDER]                      
+Cylinder   4,+0.500,+0.500,+1.000
+Scale        +0.080,+0.032,+0.020
+Translate    +0.000,+0.108,+0.000
+Color         0,41,99
+[MESHBUILDER]
+Cylinder   4,+0.500,+0.500,+1.000
+Scale        +0.080,+0.032,+0.020
+Translate    -0.156,+0.108,+0.000
+Color         0,41,99
+[MESHBUILDER]
+Cylinder    4,+0.500,+0.500,1.000
+Scale        +0.080,+0.032,+0.020
+Translate    +0.156,+0.108,+0.000
+Color        0,41,99
+
+
+SCALEALL     0.9500,+0.9500,1.10  ;Rota+Scal

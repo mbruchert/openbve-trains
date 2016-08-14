@@ -1,0 +1,190 @@
+[Meshbuilder]; kardán 
+Cylinder 15,0.017,0.017,0.020
+Color 20,20,20
+EmissiveColor 10,10,10
+Translate 0,0,0
+[Meshbuilder];       
+Cylinder 15,0.022,0.022,0.070
+Color 20,20,20
+EmissiveColor 10,10,10
+Translate 0,-0.045,0
+[Meshbuilder];        
+Cylinder 15,0.025,0.025,0.005
+Color 20,20,20
+EmissiveColor 10,10,10
+Translate 0,-0.082,0
+[Meshbuilder];   kereszt víz 
+Cube 0.030,0.0025,0.015
+Color 20,20,20
+EmissiveColor 10,10,10
+Translate 0,-0.082,0
+[Meshbuilder];  bal függ 1 
+Cube 0.0025,0.020,0.015
+Color 20,20,20
+EmissiveColor 10,10,10
+Translate -0.0325,-0.0995,0
+[Meshbuilder];  bal függ henger
+Cylinder 15,0.015,0.015,0.005
+Rotate 0,0,1,90
+Color 20,20,20
+EmissiveColor 10,10,10
+Translate -0.0325,-0.118,0
+[Meshbuilder];  jobb függ 1 
+Cube 0.0025,0.020,0.015
+Color 20,20,20
+EmissiveColor 10,10,10
+Translate  0.0325,-0.0995,0
+[Meshbuilder];  jobb függ henger 
+Cylinder 15,0.015,0.015,0.005
+Rotate 0,0,1,90
+Color 20,20,20
+EmissiveColor 10,10,10
+Translate  0.0325,-0.118,0
+[Meshbuilder];  tengely kereszt
+Cylinder 15,0.011,0.011,0.072
+Rotate 0,0,1,90
+Color 25,25,25
+EmissiveColor 12,12,12
+Translate  0,-0.118,0
+[Meshbuilder];  tengely hossz
+Cylinder 15,0.011,0.011,0.072
+Rotate 1,0,0,90
+Color 25,25,25
+EmissiveColor 12,12,12
+Translate  0,-0.118,0
+[Meshbuilder];  elsõ függ 
+Cube 0.015,0.020,0.0025
+Color 20,20,20
+EmissiveColor 10,10,10
+Translate  0,-0.137,0.0325
+[Meshbuilder];  elsõ függ henger 
+Cylinder 15,0.015,0.015,0.005
+Rotate 1,0,0,90
+Color 20,20,20
+EmissiveColor 10,10,10
+Translate  0,-0.118,0.0325
+[Meshbuilder];  hátsó függ 
+Cube 0.015,0.020,0.0025
+Color 20,20,20
+EmissiveColor 10,10,10
+Translate  0,-0.137,-0.0325
+[Meshbuilder];  hátsó függ henger 
+Cylinder 15,0.015,0.015,0.005
+Rotate 1,0,0,90
+Color 20,20,20
+EmissiveColor 10,10,10
+Translate  0,-0.118,-0.0325
+[Meshbuilder];   alsó víz henger
+Cylinder 15,0.025,0.025,0.005
+Color 20,20,20
+EmissiveColor 10,10,10
+Translate 0,-0.1545,0
+[Meshbuilder];   alsó víz hossz
+Cube 0.015,0.0025,0.030
+Color 20,20,20
+EmissiveColor 10,10,10
+Translate 0,-0.1545,0
+[Meshbuilder];   alsó függ tengely 
+Cylinder 15,0.022,0.018,0.040
+Color 20,20,20
+EmissiveColor 10,10,10
+Translate 0,-0.177,0
+[Meshbuilder];   alsó függ tengely 
+Cylinder 15,0.016,0.016,0.450
+Color 20,20,20
+EmissiveColor 10,10,10
+Translate 0,-0.421,0
+[Meshbuilder];   alsó függ tengely 
+Cylinder 15,0.018,0.022,0.040
+Color 20,20,20
+EmissiveColor 10,10,10
+Translate 0,-0.665,0
+[Meshbuilder];  alsó henger      
+Cylinder 15,0.025,0.025,0.005
+Color 20,20,20
+EmissiveColor 10,10,10
+Translate 0,-0.687,0
+[Meshbuilder];   kereszt víz 
+Cube 0.030,0.0025,0.015
+Color 20,20,20
+EmissiveColor 10,10,10
+Translate 0,-0.687,0
+[Meshbuilder];  bal függ 1 
+Cube 0.0025,0.020,0.015
+Color 20,20,20
+EmissiveColor 10,10,10
+Translate -0.0325,-0.7045,0
+[Meshbuilder];  bal függ henger
+Cylinder 15,0.015,0.015,0.005
+Rotate 0,0,1,90
+Color 20,20,20
+EmissiveColor 10,10,10
+Translate -0.0325,-0.724,0
+[Meshbuilder];  jobb függ 1 
+Cube 0.0025,0.020,0.015
+Color 20,20,20
+EmissiveColor 10,10,10
+Translate  0.0325,-0.7045,0
+[Meshbuilder];  jobb függ henger 
+Cylinder 15,0.015,0.015,0.005
+Rotate 0,0,1,90
+Color 20,20,20
+EmissiveColor 10,10,10
+Translate  0.0325,-0.724,0
+[Meshbuilder];  tengely kereszt
+Cylinder 15,0.011,0.011,0.072
+Rotate 0,0,1,90
+Color 25,25,25
+EmissiveColor 12,12,12
+Translate  0,-0.724,0
+[Meshbuilder];  tengely hossz
+Cylinder 15,0.011,0.011,0.072
+Rotate 1,0,0,90
+Color 25,25,25
+EmissiveColor 12,12,12
+Translate  0,-0.724,0
+[Meshbuilder];  elsõ függ 
+Cube 0.015,0.020,0.0025
+Color 20,20,20
+EmissiveColor 10,10,10
+Translate  0,-0.744,0.0325
+[Meshbuilder];  elsõ függ henger 
+Cylinder 15,0.015,0.015,0.005
+Rotate 1,0,0,90
+Color 20,20,20
+EmissiveColor 10,10,10
+Translate  0,-0.724,0.0325
+[Meshbuilder];  hátsó függ 
+Cube 0.015,0.020,0.0025
+Color 20,20,20
+EmissiveColor 10,10,10
+Translate  0,-0.744,-0.0325
+[Meshbuilder];  hátsó függ henger 
+Cylinder 15,0.015,0.015,0.005
+Rotate 1,0,0,90
+Color 20,20,20
+EmissiveColor 10,10,10
+Translate  0,-0.724,-0.0325
+[Meshbuilder];  alsó henger      
+Cylinder 15,0.030,0.030,0.005
+Color 20,20,20
+EmissiveColor 10,10,10
+Translate 0,-0.7615,0
+[Meshbuilder];   hossz víz 
+Cube 0.015,0.0025,0.030
+Color 20,20,20
+EmissiveColor 10,10,10
+Translate 0,-0.7615,0
+[Meshbuilder];   alsó függ tengely 
+Cylinder 15,0.027,0.027,0.040
+Color 20,20,20
+EmissiveColor 10,10,10
+Translate 0,-0.784,0
+[Meshbuilder];   alsó függ tengely 
+Cylinder 15,0.025,0.025,0.070
+Color 20,20,20
+EmissiveColor 10,10,10
+Translate 0,-0.838,0
+EmissiveColor 12,12,12
+
+Rotateall 0,1,0,180

@@ -1,0 +1,100 @@
+[MeshBuilder] ;-0.65478 0.29
+Vertex 1.559,3.613,-11.15
+Vertex -1.559,3.613,-11.15
+Vertex 1.559,3.527675,-11.2
+Vertex -1.559,3.527675,-11.2
+Vertex 1.559,2.75975,-11.36
+Vertex -1.559,2.75975,-11.36
+Vertex 1.559,2.45258,-11.42
+Vertex -1.559,2.45258,-11.42
+Vertex 1.559,1.87237,-11.49
+Vertex -1.559,1.87237,-11.49
+Vertex 1.559,1.15564,-11.515
+Vertex -1.559,1.15564,-11.515
+Vertex 1.559,0.8826,-11.615
+Vertex -1.559,0.8826,-11.615
+Vertex 1.559,0.64369,-11.6
+Vertex -1.559,0.64369,-11.6
+Vertex 1.559,0.2,-11.35
+Vertex -1.559,0.2,-11.35
+
+;Vertex 1.559,3.613,-11.15
+;Vertex -1.559,3.613,-11.15
+;Vertex 1.559,3.527675,-11.2
+;Vertex -1.559,3.527675,-11.2
+;Vertex 1.559,2.75975,-11.36
+;Vertex -1.559,2.75975,-11.36
+;Vertex 1.559,2.45258,-11.42
+;Vertex -1.559,2.45258,-11.42
+;Vertex 1.559,1.87237,-11.49
+;Vertex -1.559,1.87237,-11.49
+;Vertex 1.559,1.15564,-11.515
+;Vertex -1.559,1.15564,-11.515
+;Vertex 1.559,0.8826,-11.615
+;Vertex -1.559,0.8826,-11.615
+;Vertex 1.559,0.64369,-11.6
+;Vertex -1.559,0.64369,-11.6
+;Vertex 1.559,0.2,-11.35
+;Vertex -1.559,0.2,-11.35
+
+Face 1,0,2,3
+Face 3,2,4,5
+Face 5,4,6,7
+Face 7,6,8,9
+Face 9,8,10,11
+Face 11,10,12,13
+Face 13,12,14,15
+Face 15,14,16,17
+
+Face 19,18,20,21
+Face 21,20,22,23
+Face 23,22,24,25
+Face 25,24,26,27
+Face 27,26,28,29
+Face 29,28,30,31
+Face 31,30,32,33
+Face 33,32,34,35
+
+Load head.png
+
+Coordinates 0,1,0
+Coordinates 1,0,0
+Coordinates 2,1,0.025
+Coordinates 3,0,0.025
+Coordinates 4,1,0.25
+Coordinates 5,0,0.25
+Coordinates 6,1,0.34
+Coordinates 7,0,0.34
+Coordinates 8,1,0.51
+Coordinates 9,0,0.51
+Coordinates 10,1,0.72
+Coordinates 11,0,0.72
+Coordinates 12,1,0.8
+Coordinates 13,0,0.8
+Coordinates 14,1,0.87
+Coordinates 15,0,0.87
+Coordinates 16,1,1
+Coordinates 17,0,1
+
+Coordinates 18,1,0
+Coordinates 19,0,0
+Coordinates 20,1,0.025
+Coordinates 21,0,0.025
+Coordinates 22,1,0.25
+Coordinates 23,0,0.25
+Coordinates 24,1,0.34
+Coordinates 25,0,0.34
+Coordinates 26,1,0.51
+Coordinates 27,0,0.51
+Coordinates 28,1,0.72
+Coordinates 29,0,0.72
+Coordinates 30,1,0.8
+Coordinates 31,0,0.8
+Coordinates 32,1,0.87
+Coordinates 33,0,0.87
+Coordinates 34,1,1
+Coordinates 35,0,1
+
+Transparent 0,0,255
+
+;End

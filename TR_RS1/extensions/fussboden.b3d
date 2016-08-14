@@ -1,0 +1,26 @@
+[Meshbuilder]
+Vertex 0, 0, 0
+Vertex 3, 0, 0
+Vertex 3, 0, 25.4
+Vertex 0, 0, 25.4
+Face 0, 1, 2, 3
+[Texture]
+Load fussboden.bmp
+Coordinates 0, 0.761719, 0.003906
+Coordinates 1, 0.761719, 0.681641
+Coordinates 2, 0, 0.666016
+Coordinates 3, 0, 0
+Transparent 0, 0, 0
+[Meshbuilder]
+Vertex 0, 0, 0
+Vertex 3, 0, 0
+Vertex 3, 0, 25.4
+Vertex 0, 0, 25.4
+Face 3, 2, 1, 0
+[Texture]
+Load fussboden.bmp
+Coordinates 0, 0.761719, 0.003906
+Coordinates 1, 0.761719, 0.681641
+Coordinates 2, 0, 0.666016
+Coordinates 3, 0, 0
+Transparent 0, 0, 0

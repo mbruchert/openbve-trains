@@ -1,0 +1,13 @@
+﻿[meshbuilder]
+vertex -0.011, 2.35, 0
+vertex -0.011, 2.35, 0.78
+vertex -0.011, 0,    0.78
+vertex -0.011, 0,    0
+face2 0,1,2,3
+[texture]
+load Puerta.PNG
+coordinates 0,0,0
+coordinates 1,1,0
+coordinates 2,1,1
+coordinates 3,0,1
+transparent 255,255,255

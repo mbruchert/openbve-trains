@@ -1,0 +1,430 @@
+﻿;; Cabina 3D - GEC-Alsthom Eurostar
+;; Autor : Manuel mejias
+;; Funcionalidades: INFINTAS.
+;; (c) 2013
+
+;; Cabina
+
+[include]
+Cabina3d\Cabina.csv
+
+;----------------------------Visualización "CAB-TVM"
+;--------------------------------------------------------------
+[Object]
+States = Cabina3d/TVM\300A.csv
+
+stateFunction = If[section == 205,0,1]
+
+[Object]
+States = Cabina3d/TVM\300A.csv
+
+stateFunction = If[section == 204,floor[mod[time * 1.25, 2]],1]
+
+[Object]
+States = Cabina3d/TVM\300VL.csv
+
+stateFunction = If[section == 203,0,1]
+
+[Object]
+States = Cabina3d/TVM\300VL.csv
+
+stateFunction = If[section == 202,floor[mod[time * 1.25, 2]],1]
+
+[Object]
+States = Cabina3d/TVM\300E.csv
+
+stateFunction = If[section == 201,0,1]
+
+[Object]
+States = Cabina3d/TVM\300E.csv
+
+stateFunction = If[section == 200,floor[mod[time * 1.25, 2]],1]
+
+;--------------------------------------------------------------
+[Object]
+States = Cabina3d/TVM\270A.csv
+
+stateFunction = If[section == 195,0,1]
+
+[Object]
+States = Cabina3d/TVM\270A.csv
+
+stateFunction = If[section == 194,floor[mod[time * 1.25, 2]],1]
+
+[Object]
+States = Cabina3d/TVM\270VL.csv
+
+stateFunction = If[section == 193,0,1]
+
+[Object]
+States = Cabina3d/TVM\270VL.csv
+
+stateFunction = If[section == 192,floor[mod[time * 1.25, 2]],1]
+
+[Object]
+States = Cabina3d/TVM\270E.csv
+
+stateFunction = If[section == 191,0,1]
+
+[Object]
+States = Cabina3d/TVM\270E.csv
+
+stateFunction = If[section == 190,floor[mod[time * 1.25, 2]],1]
+
+;--------------------------------------------------------------
+[Object]
+States = Cabina3d/TVM\230A.csv
+
+stateFunction = If[section == 185,0,1]
+
+[Object]
+States = Cabina3d/TVM\230A.csv
+
+stateFunction = If[section == 184,floor[mod[time * 1.25, 2]],1]
+
+[Object]
+States = Cabina3d/TVM\230VL.csv
+
+stateFunction = If[section == 183,0,1]
+
+[Object]
+States = Cabina3d/TVM\230VL.csv
+
+stateFunction = If[section == 182,floor[mod[time * 1.25, 2]],1]
+
+[Object]
+States = Cabina3d/TVM\230E.csv
+
+stateFunction = If[section == 181,0,1]
+
+[Object]
+States = Cabina3d/TVM\230E.csv
+
+stateFunction = If[section == 180,floor[mod[time * 1.25, 2]],1]
+
+;--------------------------------------------------------------
+[Object]
+States = Cabina3d/TVM\220A.csv
+
+stateFunction = If[section == 175,0,1]
+
+[Object]
+States = Cabina3d/TVM\220A.csv
+
+stateFunction = If[section == 174,floor[mod[time * 1.25, 2]],1]
+
+[Object]
+States = Cabina3d/TVM\220VL.csv
+
+stateFunction = If[section == 173,0,1]
+
+[Object]
+States = Cabina3d/TVM\220VL.csv
+
+stateFunction = If[section == 172,floor[mod[time * 1.25, 2]],1]
+
+[Object]
+States = Cabina3d/TVM\220E.csv
+
+stateFunction = If[section == 171,0,1]
+
+[Object]
+States = Cabina3d/TVM\220E.csv
+
+stateFunction = If[section == 170,floor[mod[time * 1.25, 2]],1]
+
+;--------------------------------------------------------------
+[Object]
+States = Cabina3d/TVM\200A.csv
+
+stateFunction = If[section == 165,0,1]
+
+[Object]
+States = Cabina3d/TVM\200A.csv
+
+stateFunction = If[section == 164,floor[mod[time * 1.25, 2]],1]
+
+[Object]
+States = Cabina3d/TVM\200VL.csv
+
+stateFunction = If[section == 163,0,1]
+
+[Object]
+States = Cabina3d/TVM\200VL.csv
+
+stateFunction = If[section == 162,floor[mod[time * 1.25, 2]],1]
+
+[Object]
+States = Cabina3d/TVM\200E.csv
+
+stateFunction = If[section == 161,0,1]
+
+[Object]
+States = Cabina3d/TVM\200E.csv
+
+stateFunction = If[section == 160,floor[mod[time * 1.25, 2]],1]
+
+;--------------------------------------------------------------
+[Object]
+States = Cabina3d/TVM\170A.csv
+
+stateFunction = If[section == 155,0,1]
+
+[Object]
+States = Cabina3d/TVM\170A.csv
+
+stateFunction = If[section == 154,floor[mod[time * 1.25, 2]],1]
+
+[Object]
+States = Cabina3d/TVM\170VL.csv
+
+stateFunction = If[section == 153,0,1]
+
+[Object]
+States = Cabina3d/TVM\170VL.csv
+
+stateFunction = If[section == 152,floor[mod[time * 1.25, 2]],1]
+
+[Object]
+States = Cabina3d/TVM\170E.csv
+
+stateFunction = If[section == 151,0,1]
+
+[Object]
+States = Cabina3d/TVM\170E.csv
+
+stateFunction = If[section == 150,floor[mod[time * 1.25, 2]],1]
+
+;--------------------------------------------------------------
+[Object]
+States = Cabina3d/TVM\160A.csv
+
+stateFunction = If[section == 145,0,1]
+
+[Object]
+States = Cabina3d/TVM\160A.csv
+
+stateFunction = If[section == 144,floor[mod[time * 1.25, 2]],1]
+
+[Object]
+States = Cabina3d/TVM\160VL.csv
+
+stateFunction = If[section == 143,0,1]
+
+[Object]
+States = Cabina3d/TVM\160VL.csv
+
+stateFunction = If[section == 142,floor[mod[time * 1.25, 2]],1]
+
+[Object]
+States = Cabina3d/TVM\160E.csv
+
+stateFunction = If[section == 141,0,1]
+
+[Object]
+States = Cabina3d/TVM\160E.csv
+
+stateFunction = If[section == 140,floor[mod[time * 1.25, 2]],1]
+
+;--------------------------------------------------------------
+[Object]
+States = Cabina3d/TVM\130A.csv
+
+stateFunction = If[section == 135,0,1]
+
+[Object]
+States = Cabina3d/TVM\130A.csv
+
+stateFunction = If[section == 134,floor[mod[time * 1.25, 2]],1]
+
+[Object]
+States = Cabina3d/TVM\130VL.csv
+
+stateFunction = If[section == 133,0,1]
+
+[Object]
+States = Cabina3d/TVM\130VL.csv
+
+stateFunction = If[section == 132,floor[mod[time * 1.25, 2]],1]
+
+[Object]
+States = Cabina3d/TVM\130E.csv
+
+stateFunction = If[section == 131,0,1]
+
+[Object]
+States = Cabina3d/TVM\130E.csv
+
+stateFunction = If[section == 130,floor[mod[time * 1.25, 2]],1]
+
+;--------------------------------------------------------------
+[Object]
+States = Cabina3d/TVM\080A.csv
+
+stateFunction = If[section == 125,0,1]
+
+[Object]
+States = Cabina3d/TVM\080A.csv
+
+stateFunction = If[section == 124,floor[mod[time * 1.25, 2]],1]
+
+[Object]
+States = Cabina3d/TVM\080VL.csv
+
+stateFunction = If[section == 123,0,1]
+
+[Object]
+States = Cabina3d/TVM\080VL.csv
+
+stateFunction = If[section == 122,floor[mod[time * 1.25, 2]],1]
+
+[Object]
+States = Cabina3d/TVM\080E.csv
+
+stateFunction = If[section == 121,0,1]
+
+[Object]
+States = Cabina3d/TVM\080E.csv
+
+stateFunction = If[section == 120,floor[mod[time * 1.25, 2]],1]
+
+;--------------------------------------------------------------
+[Object]
+States = Cabina3d/TVM\060A.csv
+
+stateFunction = If[section == 115,0,1]
+
+[Object]
+States = Cabina3d/TVM\060A.csv
+
+stateFunction = If[section == 114,floor[mod[time * 1.25, 2]],1]
+
+[Object]
+States = Cabina3d/TVM\060VL.csv
+
+stateFunction = If[section == 113,0,1]
+
+[Object]
+States = Cabina3d/TVM\060VL.csv
+
+stateFunction = If[section == 112,floor[mod[time * 1.25, 2]],1]
+
+[Object]
+States = Cabina3d/TVM\060E.csv
+
+stateFunction = If[section == 111,0,1]
+
+[Object]
+States = Cabina3d/TVM\060E.csv
+
+stateFunction = If[section == 110,floor[mod[time * 1.25, 2]],1]
+
+;--------------------------------------------------------------
+[Object]
+States = Cabina3d/TVM\000R.csv
+
+stateFunction = If[section == 105,0,1]
+
+;---------------------------------------------
+
+;----------------------------Palancas de Tracción / Frenado"
+;--------------------------------------------------------------
+[object]
+states = Cabina3d/PalancaTraccion.csv
+position = 0.23, 2.1, 6.7
+RotateXFunction = powerNotch*0.2-BrakeNotch*0.2
+[object]
+states = Cabina3d/PalancaTraccion2.csv
+position = -0.23, 2.1, 6.7
+RotateXFunction = powerNotch*0.2-BrakeNotch*0.2
+;---------------------------------------------
+
+;----------------------------Inversor"
+;--------------------------------------------------------------
+[object]
+states = Cabina3d/inversor.csv
+position = 0.23, 2.1, 6.82
+RotateXFunction = 0.6 *reverserNotch
+
+;----------------------------Modulo de Frenado Emergencia
+;--------------------------------------------------------------
+[object]
+states = Cabina3d/PDE1.csv
+position = -0.67, 2.1, 6.50
+TranslateYFunction = 0.05 * emergencyBrake
+[object]
+states = Cabina3d/PDE2.csv
+position = -0.59, 2.1, 6.65
+RotateXFunction = 0.3 * emergencyBrake
+;----------------------------Freno convencional
+;--------------------------------------------------------------
+[object]
+states = Cabina3d/Freno.csv
+position = -0.42, 2.051, 6.62
+TranslateXFunction = 0.009 * BrakeNotch
+TranslateZFunction = -0.014 * BrakeNotch
+
+;----------------------------Selector de Tensión y Pantógrafo
+;--------------------------------------------------------------
+[object]
+states = Cabina3d/Selectorpanto.csv
+position = 0.6, 2.071, 6.55
+RotateYFunction = pluginState[261]*0.524
+RotateXDirection = 1,0,0
+RotateYDirection = 0,1,0
+RotateZDirection = 0,0,1
+[object]
+states = Cabina3d/Selectortension.csv
+position = 0.68, 2.071, 6.48
+RotateYFunction = pluginState[262]*0.524
+RotateXDirection = 1,0,0
+RotateYDirection = 0,1,0
+RotateZDirection = 0,0,1
+
+;----------------------------Disyuntores y Reiniciador de Disyuntor
+;--------------------------------------------------------------
+[object]
+states = Cabina3d/Disyuntor.csv
+position = 0.3356, 2.1, 7.04
+TranslateYFunction = 0.02 * pluginState[263]
+TranslateZFunction = 0.02
+TranslateXFunction = 0.005
+[object]
+states = Cabina3d/Disyuntor.csv
+position = 0.365, 2.1, 7.02
+TranslateYFunction = 0.02 * pluginState[264]
+TranslateZFunction = 0.02
+TranslateXFunction = 0.005
+
+;----------------------------Visualizador de Desconexión de Disyuntor
+;--------------------------------------------------------------
+;---------------------LSDJ
+[Object]
+States = Cabina3d/LSDJ0.csv,Cabina3d/LSDJ1.csv
+stateFunction = pluginState[258]
+;---------------------LSDJAUX
+[Object]
+States = Cabina3d/LSDJAUX0.csv,Cabina3d/LSDJAUX1.csv
+stateFunction = pluginState[259]
+;---------------------LSMPC0
+[Object]
+States = Cabina3d/LSMPC0.csv,Cabina3d/LSMPC1.csv
+stateFunction = pluginState[260]
+
+;----------------------------Velocimetro
+;----------Centena de Km/H
+[Object]
+States = Cabina3d/Velocidad/bleu.csv,Cabina3d/Velocidad/1.csv,Cabina3d/Velocidad/2.csv,Cabina3d/Velocidad/3.csv,Cabina3d/Velocidad/4.csv,Cabina3d/Velocidad/5.csv,Cabina3d/Velocidad/6.csv,Cabina3d/Velocidad/7.csv,Cabina3d/Velocidad/8.csv,Cabina3d/Velocidad/9.csv
+position = -0.0850,0,0
+stateFunction = Abs[floor[speedometer * 3.6/100]]
+
+;----------Decena de Km/h
+[Object]
+States = Cabina3d/Velocidad/0.csv,Cabina3d/Velocidad/1.csv,Cabina3d/Velocidad/2.csv,Cabina3d/Velocidad/3.csv,Cabina3d/Velocidad/4.csv,Cabina3d/Velocidad/5.csv,Cabina3d/Velocidad/6.csv,Cabina3d/Velocidad/7.csv,Cabina3d/Velocidad/8.csv,Cabina3d/Velocidad/9.csv
+position = -0.0425,0,0
+stateFunction = Abs[floor[mod[speedometer * 3.6, 100] * 0.1]]
+
+;----------km/h
+[Object]
+States = Cabina3d/Velocidad/0.csv,Cabina3d/Velocidad/1.csv,Cabina3d/Velocidad/2.csv,Cabina3d/Velocidad/3.csv,Cabina3d/Velocidad/4.csv,Cabina3d/Velocidad/5.csv,Cabina3d/Velocidad/6.csv,Cabina3d/Velocidad/7.csv,Cabina3d/Velocidad/8.csv,Cabina3d/Velocidad/9.csv
+stateFunction = Abs[floor[mod[speedometer * 3.6, 10]]]

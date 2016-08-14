@@ -1,0 +1,44 @@
+[Object]
+Position = 0, 0, 0
+States = fav_fa.b3d
+
+
+
+;Ajtók
+
+;bal oldali ajtók
+
+[Object]
+Position = 0,0,0
+States = ajto_bal_oldalt1.b3d
+TranslateZFunction = 0.6 * leftdoors[0]
+
+[Object]
+Position = 0,0,0
+States = ajto_bal_oldalt2.b3d
+TranslateZFunction = -0.6 * leftdoors[0]
+
+;jobb oldali ajtók
+
+[Object]
+Position = 0,0,0
+States = ajto_jobb_oldalt1.b3d
+TranslateZFunction = 0.6 * rightdoors[0]
+
+[Object]
+Position = 0,0,0
+States = ajto_jobb_oldalt2.b3d
+TranslateZFunction = -0.6 * rightdoors[0]
+
+
+;Ajtók jelzése
+
+[Object]
+Position = 0,0.251,1.45
+States = ajtojelzo_zarva_nyitva.b3d, ajtojelzo_zarva.b3d
+StateFunction = floor[1-doors]
+
+[Object]
+Position = 0,0.251,-1.45
+States = ajtojelzo_zarva_nyitva2.b3d, ajtojelzo_zarva2.b3d
+StateFunction = floor[1-doors]

@@ -1,0 +1,29 @@
+[MeshBuilder]
+vertex -0.9, 1.02,  5.35
+vertex -0.9, 1.02, -1.17
+vertex -0.9, 0.8,  -1.17
+vertex -0.9, 0.8,   5.35
+Face2 0,1,2,3
+[Texture]
+load biela 1.png
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+Transparent 255,255,255
+translate 0,0.19,5.37
+
+[MeshBuilder]
+vertex 0.9, 1.02,  5.35
+vertex 0.9, 1.02, -1.17
+vertex 0.9, 0.8,  -1.17
+vertex 0.9, 0.8,   5.35
+Face2 0,1,2,3
+[Texture]
+load biela 1.png
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+Transparent 255,255,255
+translate 0,0.19,4.86

@@ -1,0 +1,22 @@
+[object]
+States=vagon.b3d
+
+[INCLUDE]
+Enganche trasero.animated
+Position=0,0,-11.7
+
+;Domo
+
+[object]
+States=domo.b3d
+Position=0,-0.7,2.51
+
+;Escaleras
+
+[Object]
+States=Escaleras.b3d
+Position=0,0,10.37
+
+[Object]
+States=Escaleras.b3d
+Position=0,0,-10.37

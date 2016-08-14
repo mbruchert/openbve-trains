@@ -1,0 +1,12 @@
+DB Inter City Express (ICE) 3 BR403 - Version 1.9 (A Fan Railer Modification)
+330 km/h (Service; P10)
+370 km/h (Test; P12)
+
+Updated propulsion sounds, acceleration physics, and carriage spacing. Also fixed tractive effort meter to display only tractive effort, and not acceleration. 
+Now in proper paint scheme. Includes coupler setup for "double" train sets, courtesy of "Quork."
+V1.9: Added HVAC units on all cars.
+
+V2.0 will feature passenger compartments with seats, and a 3D cab.
+-----------------------
+© Manuel Mejias 2013 (Original Developer)
+http://www.trenesvenezolanos.blogspot.com

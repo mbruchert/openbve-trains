@@ -1,0 +1,241 @@
+﻿;---------------------------------------------------------------
+CreateMeshBuilder
+Addvertex,  7.5, 0.58, 0.12
+Addvertex,  7.5, 0.59, 0.04
+Addvertex,  7.1, 0.59, 0.04
+Addvertex,  7.1, 0.58, 0.12
+AddFace2, 0,1,2,3
+GenerateNormals
+loadtexture, piso.png
+SetTextureCoordinates, 0,0,0
+SetTextureCoordinates, 1,1,0
+SetTextureCoordinates, 2,1,1
+SetTextureCoordinates, 3,0,1
+setdecalTransparentcolor, 255,255,255
+
+CreateMeshBuilder
+Addvertex,  7.5, 0.558, 0.2
+Addvertex,  7.5, 0.58,  0.12
+Addvertex,  7.1, 0.58,  0.12
+Addvertex,  7.1, 0.558, 0.2
+AddFace2, 0,1,2,3
+GenerateNormals
+loadtexture, piso.png
+SetTextureCoordinates, 0,0,0
+SetTextureCoordinates, 1,1,0
+SetTextureCoordinates, 2,1,1
+SetTextureCoordinates, 3,0,1
+setdecalTransparentcolor, 255,255,255
+
+CreateMeshBuilder
+Addvertex,  7.5, 0.522, 0.28
+Addvertex,  7.5, 0.558, 0.2
+Addvertex,  7.1, 0.558, 0.2
+Addvertex,  7.1, 0.522, 0.28
+AddFace2, 0,1,2,3
+GenerateNormals
+loadtexture, piso.png
+SetTextureCoordinates, 0,0,0
+SetTextureCoordinates, 1,1,0
+SetTextureCoordinates, 2,1,1
+SetTextureCoordinates, 3,0,1
+setdecalTransparentcolor, 255,255,255
+
+CreateMeshBuilder
+Addvertex,  7.495, 0.47,  0.36
+Addvertex,  7.5, 0.522, 0.28
+Addvertex,  7.1, 0.522, 0.28
+Addvertex,  7.1, 0.47,  0.36
+AddFace2, 0,1,2,3
+GenerateNormals
+loadtexture, piso.png
+SetTextureCoordinates, 0,0,0
+SetTextureCoordinates, 1,1,0
+SetTextureCoordinates, 2,1,1
+SetTextureCoordinates, 3,0,1
+setdecalTransparentcolor, 255,255,255
+
+CreateMeshBuilder
+Addvertex,  7.48, 0.395, 0.44
+Addvertex,  7.495, 0.47,  0.36
+Addvertex,  7.1, 0.47,  0.36
+Addvertex,  7.1, 0.395, 0.44
+AddFace2, 0,1,2,3
+GenerateNormals
+loadtexture, piso.png
+SetTextureCoordinates, 0,0,0
+SetTextureCoordinates, 1,1,0
+SetTextureCoordinates, 2,1,1
+SetTextureCoordinates, 3,0,1
+setdecalTransparentcolor, 255,255,255
+
+CreateMeshBuilder
+Addvertex,  7.45, 0.285, 0.52
+Addvertex,  7.48, 0.395, 0.44
+Addvertex,  7.1, 0.395, 0.44
+Addvertex,  7.1, 0.285, 0.52
+AddFace2, 0,1,2,3
+GenerateNormals
+loadtexture, piso.png
+SetTextureCoordinates, 0,0,0
+SetTextureCoordinates, 1,1,0
+SetTextureCoordinates, 2,1,1
+SetTextureCoordinates, 3,0,1
+setdecalTransparentcolor, 255,255,255
+
+CreateMeshBuilder
+Addvertex,  7.4, 0.15,  0.575
+Addvertex,  7.45, 0.285, 0.52
+Addvertex,  7.1, 0.285, 0.52
+Addvertex,  7.1, 0.15,  0.575
+AddFace2, 0,1,2,3
+GenerateNormals
+loadtexture, piso.png
+SetTextureCoordinates, 0,0,0
+SetTextureCoordinates, 1,1,0
+SetTextureCoordinates, 2,1,1
+SetTextureCoordinates, 3,0,1
+setdecalTransparentcolor, 255,255,255
+
+CreateMeshBuilder
+Addvertex,  7.28, 0,    0.59
+Addvertex,  7.4, 0.15, 0.575
+Addvertex,  7.1, 0.15, 0.575
+Addvertex,  7.1, 0,    0.59
+AddFace2, 0,1,2,3
+GenerateNormals
+loadtexture, piso.png
+SetTextureCoordinates, 0,0,0
+SetTextureCoordinates, 1,1,0
+SetTextureCoordinates, 2,1,1
+SetTextureCoordinates, 3,0,1
+setdecalTransparentcolor, 255,255,255
+
+CreateMeshBuilder
+Addvertex,  7.5, 0.59, -0.04
+Addvertex,  7.5, 0.59, 0.04
+Addvertex,  7.1, 0.59,  0.04
+Addvertex,  7.1, 0.59, -0.04
+AddFace2, 3,2,1,0
+GenerateNormals
+loadtexture, piso.png
+SetTextureCoordinates, 0,0,0
+SetTextureCoordinates, 1,1,0
+SetTextureCoordinates, 2,1,1
+SetTextureCoordinates, 3,0,1
+setdecalTransparentcolor, 255,255,255
+;---------------------------------------------------------------
+CreateMeshBuilder
+Addvertex,  7.5, 0.58, -0.12
+Addvertex,  7.5, 0.59, -0.04
+Addvertex,  7.1, 0.59, -0.04
+Addvertex,  7.1, 0.58, -0.12
+AddFace2, 3,2,1,0
+GenerateNormals
+loadtexture, piso.png
+SetTextureCoordinates, 0,0,0
+SetTextureCoordinates, 1,1,0
+SetTextureCoordinates, 2,1,1
+SetTextureCoordinates, 3,0,1
+setdecalTransparentcolor, 255,255,255
+
+CreateMeshBuilder
+Addvertex,  7.5, 0.558, -0.2
+Addvertex,  7.5, 0.58,  -0.12
+Addvertex,  7.1, 0.58,  -0.12
+Addvertex,  7.1, 0.558, -0.2
+AddFace2, 3,2,1,0
+GenerateNormals
+loadtexture, piso.png
+SetTextureCoordinates, 0,0,0
+SetTextureCoordinates, 1,1,0
+SetTextureCoordinates, 2,1,1
+SetTextureCoordinates, 3,0,1
+setdecalTransparentcolor, 255,255,255
+
+CreateMeshBuilder
+Addvertex,  7.5, 0.522, -0.28
+Addvertex,  7.5, 0.558, -0.2
+Addvertex,  7.1, 0.558, -0.2
+Addvertex,  7.1, 0.522, -0.28
+AddFace2, 3,2,1,0
+GenerateNormals
+loadtexture, piso.png
+SetTextureCoordinates, 0,0,0
+SetTextureCoordinates, 1,1,0
+SetTextureCoordinates, 2,1,1
+SetTextureCoordinates, 3,0,1
+setdecalTransparentcolor, 255,255,255
+
+CreateMeshBuilder
+Addvertex,  7.495, 0.47,  -0.36
+Addvertex,  7.5, 0.522, -0.28
+Addvertex,  7.1, 0.522, -0.28
+Addvertex,  7.1, 0.47,  -0.36
+AddFace2, 3,2,1,0
+GenerateNormals
+loadtexture, piso.png
+SetTextureCoordinates, 0,0,0
+SetTextureCoordinates, 1,1,0
+SetTextureCoordinates, 2,1,1
+SetTextureCoordinates, 3,0,1
+setdecalTransparentcolor, 255,255,255
+
+CreateMeshBuilder
+Addvertex,  7.48, 0.395, -0.44
+Addvertex,  7.495, 0.47,  -0.36
+Addvertex,  7.1, 0.47,  -0.36
+Addvertex,  7.1, 0.395, -0.44
+AddFace2, 3,2,1,0
+GenerateNormals
+loadtexture, piso.png
+SetTextureCoordinates, 0,0,0
+SetTextureCoordinates, 1,1,0
+SetTextureCoordinates, 2,1,1
+SetTextureCoordinates, 3,0,1
+setdecalTransparentcolor, 255,255,255
+
+CreateMeshBuilder
+Addvertex,  7.45, 0.285, -0.52
+Addvertex,  7.48, 0.395, -0.44
+Addvertex,  7.1, 0.395, -0.44
+Addvertex,  7.1, 0.285, -0.52
+AddFace2, 3,2,1,0
+GenerateNormals
+loadtexture, piso.png
+SetTextureCoordinates, 0,0,0
+SetTextureCoordinates, 1,1,0
+SetTextureCoordinates, 2,1,1
+SetTextureCoordinates, 3,0,1
+setdecalTransparentcolor, 255,255,255
+
+CreateMeshBuilder
+Addvertex,  7.4, 0.15,  -0.575
+Addvertex,  7.45, 0.285, -0.52
+Addvertex,  7.1, 0.285, -0.52
+Addvertex,  7.1, 0.15,  -0.575
+AddFace2, 3,2,1,0
+GenerateNormals
+loadtexture, piso.png
+SetTextureCoordinates, 0,0,0
+SetTextureCoordinates, 1,1,0
+SetTextureCoordinates, 2,1,1
+SetTextureCoordinates, 3,0,1
+setdecalTransparentcolor, 255,255,255
+
+CreateMeshBuilder
+Addvertex,  7.28, 0,    -0.59
+Addvertex,  7.4, 0.15, -0.575
+Addvertex,  7.1, 0.15, -0.575
+Addvertex,  7.1, 0,    -0.59
+AddFace2, 3,2,1,0
+GenerateNormals
+loadtexture, piso.png
+SetTextureCoordinates, 0,0,0
+SetTextureCoordinates, 1,1,0
+SetTextureCoordinates, 2,1,1
+SetTextureCoordinates, 3,0,1
+setdecalTransparentcolor, 255,255,255
+
+Rotateall, 0,1,0,-90
+scaleall, 0.42, 0.42, 0.9999

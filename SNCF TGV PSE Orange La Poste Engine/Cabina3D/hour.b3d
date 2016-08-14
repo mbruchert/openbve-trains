@@ -1,0 +1,12 @@
+﻿[MeshBuilder]
+Vertex -0.022, 0, -0.01
+Vertex -0.022, 0.17, -0.01
+Vertex 0.022, 0.17, -0.01
+Vertex 0.022, 0, -0.01
+Face 0, 1, 2, 3
+Load RelojAguja.png
+Coordinates 0, 0, 1
+Coordinates 1, 0, 0
+Coordinates 2, 1, 0
+Coordinates 3, 1, 1
+Scale 0.12,0.12,0.12

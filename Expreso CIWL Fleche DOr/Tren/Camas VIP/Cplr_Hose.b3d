@@ -1,0 +1,58 @@
+;BRAKE HOSE,Brit|Euro|UIC Standard,For Locos|Cars Rear EndB
+;Position@ -0.5*Cars_Lgth,Use With 0.62m Buffers & Couplers
+;Select A "COLOR R,G,B" Red|Yellow As Required,Default=Gray
+;~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[MESHBUILDER]                      ;Brak_Hose
+Vertex +0.000,+0.150,-0.790
+Vertex +0.000,+0.150,+0.790
+Vertex +0.000,-0.150,+0.790
+Vertex +0.000,-0.150,-0.790
+Face2 0,1,2,3
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+Rotate 0,0,1,-003.0
+Rotate 1,0,0,-045.0
+Rotate 0,0,1,-046.0
+Translate +0.193,+0.692,+0.150
+Load Cplr_Hose.gif
+Transparent 000,255,000
+Color 255,047,047                  ;Reds
+;Color 255,215,055                  ;Yelo
+[MESHBUILDER]
+Vertex +0.000,+0.150,-0.790
+Vertex +0.000,+0.150,+0.790
+Vertex +0.000,-0.150,+0.790
+Vertex +0.000,-0.150,-0.790
+Face2 0,1,2,3
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+Rotate 0,0,1,+000.0
+Rotate 1,0,0,-045.0
+Rotate 0,0,1,-046.0
+Translate +0.200,+0.685,+0.150
+Load Cplr_Hose.gif
+Transparent 000,255,000
+Color 255,047,047                  ;Reds
+;Color 255,215,055                  ;Yelo
+[MESHBUILDER]
+Vertex +0.000,+0.150,-0.790
+Vertex +0.000,+0.150,+0.790
+Vertex +0.000,-0.150,+0.790
+Vertex +0.000,-0.150,-0.790
+Face2 0,1,2,3
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+Rotate 0,0,1,+003.0
+Rotate 1,0,0,-045.0
+Rotate 0,0,1,-046.0
+Translate +0.207,+0.678,+0.150
+Load Cplr_Hose.gif
+Transparent 000,255,000
+Color 255,047,047                  ;Reds
+;Color 255,215,055                  ;Yelo

@@ -1,0 +1,10 @@
+
+[OBJECT]
+States=Whel_Sets.b3d
+POSITION=+0.000,+0.5,+0.938                ;DimX=+0.0,DimY=+0.5*Diam,DimZ=+0.5*Base
+RotateXFunction=Value+((Delta*Speed)/0.419)  ;Angl=Last+((DeltaSecs*Metr/Secs)/(+0.5*Diam))
+
+[OBJECT]
+States=Whel_Sets.b3d
+POSITION=+0.000,+0.5,-1.338                ;DimX=+0.0,DimY=+0.5*Diam,DimZ=-0.5*Base
+RotateXFunction=Value+((Delta*Speed)/0.419)  ;Angl=Last+((DeltaSecs*Metr/Secs)/(+0.5*Diam))

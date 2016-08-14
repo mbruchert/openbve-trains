@@ -1,0 +1,7 @@
+[include]
+boguie trasero.csv
+
+[object]
+States=rueda 4.csv
+Position = 0, 0.61, -0.89
+RotateXFunction = value + delta * speedometer / 0.5

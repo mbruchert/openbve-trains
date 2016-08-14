@@ -1,0 +1,76 @@
+[Meshbuilder] ;vezér
+Vertex   0,0,0
+Vertex   0,1.515,0
+Vertex   0.553,1.515,0
+Vertex   0.553,0,0
+face 3,2,1,0
+[Texture]
+Load vezajt.png
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+Transparent 255,0,255
+[Meshbuilder] ;közl
+Vertex   0,0,-0.04
+Vertex   0,1.515,-0.04
+Vertex   0.553,1.515,-0.04
+Vertex   0.553,0,-0.04
+face 0,1,2,3
+[Texture]
+Load vezajt.png
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+Transparent 255,0,255
+[Meshbuilder] ;----------------ablakkeret ------------------
+Vertex  0.105,0.548,0
+Vertex  0.105,0.548,-0.04
+Vertex  0.448,0.548,-0.04
+Vertex  0.448,0.548,0
+Vertex  0.105,1.417,0
+Vertex  0.105,1.417,-0.04
+Vertex  0.448,1.417,-0.04
+Vertex  0.448,1.417,0
+face  3,2,1,0
+face  0,1,5,4
+face  4,5,6,7
+face  3,7,6,2
+Color 219,168,77
+[Meshbuilder] ;----------------ajtókeret ------------------
+Vertex  0.003,0,0
+Vertex  0.003,0,-0.04
+Vertex  0.550,0,-0.04
+Vertex  0.550,0,0
+Vertex  0.003,1.512,0
+Vertex  0.003,1.512,-0.04
+Vertex  0.550,1.512,-0.04
+Vertex  0.550,1.512,0
+face  0,1,2,3
+face  4,5,1,0
+face  7,6,5,4
+face  2,6,7,3
+Color 52,23,17
+[Meshbuilder] ;----------------üveg-------------
+Vertex  0.104,0.547,-0.02
+Vertex  0.449,0.547,-0.02
+Vertex  0.449,1.418,-0.02
+Vertex  0.104,1.418,-0.02
+face  3,2,1,0
+color 20,20,20,20
+[Meshbuilder] ;Kilincs belsõ 1
+Cylinder 15,0.010,0.010,0.09
+Rotate 1,0,0,90
+Color 211,176,63
+Translate  0.516,0.624,-0.037
+[Meshbuilder] ;Kilincs belsõ 2
+Cylinder 15,0.012,0.006,0.05
+Rotate 0,0,1,-75
+Color 211,176,63
+Translate  0.4665,0.6107,-0.075
+[Meshbuilder] ;Kilincs belsõ 3
+Cylinder 15,0.008,0.012,0.03
+Rotate 0,0,1,-75
+Color 211,176,63
+Translate  0.505,0.621,-0.075

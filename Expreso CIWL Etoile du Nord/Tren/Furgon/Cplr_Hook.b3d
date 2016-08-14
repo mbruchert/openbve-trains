@@ -1,0 +1,191 @@
+[MESHBUILDER]                           ;Hook
+Vertex +0.000,+0.128,+0.256
+Vertex +0.000,+0.128,-0.256
+Vertex +0.000,-0.128,-0.256
+Vertex +0.000,-0.128,+0.256
+Face2 0,1,2,3
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+Load Cplr_Hook.gif
+Transparent 000,255,000
+Translate -0.025,+0.000,-0.510
+[MESHBUILDER]
+Vertex +0.000,+0.128,+0.256
+Vertex +0.000,+0.128,-0.256
+Vertex +0.000,-0.128,-0.256
+Vertex +0.000,-0.128,+0.256
+Face2 0,1,2,3
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+Load Cplr_Hook.gif
+Transparent 000,255,000
+Translate -0.020,+0.000,-0.510
+[MESHBUILDER]
+Vertex +0.000,+0.128,+0.256
+Vertex +0.000,+0.128,-0.256
+Vertex +0.000,-0.128,-0.256
+Vertex +0.000,-0.128,+0.256
+Face2 0,1,2,3
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+Load Cplr_Hook.gif
+Transparent 000,255,000
+Translate -0.015,+0.000,-0.510
+[MESHBUILDER]
+Vertex +0.000,+0.128,+0.256
+Vertex +0.000,+0.128,-0.256
+Vertex +0.000,-0.128,-0.256
+Vertex +0.000,-0.128,+0.256
+Face2 0,1,2,3
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+Load Cplr_Hook.gif
+Transparent 000,255,000
+Translate -0.010,+0.000,-0.510
+[MESHBUILDER]
+Vertex +0.000,+0.128,+0.256
+Vertex +0.000,+0.128,-0.256
+Vertex +0.000,-0.128,-0.256
+Vertex +0.000,-0.128,+0.256
+Face2 0,1,2,3
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+Load Cplr_Hook.gif
+Transparent 000,255,000
+Translate -0.005,+0.000,-0.510
+[MESHBUILDER]
+Vertex +0.000,+0.128,+0.256
+Vertex +0.000,+0.128,-0.256
+Vertex +0.000,-0.128,-0.256
+Vertex +0.000,-0.128,+0.256
+Face2 0,1,2,3
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+Load Cplr_Hook.gif
+Transparent 000,255,000
+Translate +0.000,+0.000,-0.510
+[MESHBUILDER]
+Vertex +0.000,+0.128,+0.256
+Vertex +0.000,+0.128,-0.256
+Vertex +0.000,-0.128,-0.256
+Vertex +0.000,-0.128,+0.256
+Face2 0,1,2,3
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+Load Cplr_Hook.gif
+Transparent 000,255,000
+Translate +0.005,+0.000,-0.510
+[MESHBUILDER]
+Vertex +0.000,+0.128,+0.256
+Vertex +0.000,+0.128,-0.256
+Vertex +0.000,-0.128,-0.256
+Vertex +0.000,-0.128,+0.256
+Face2 0,1,2,3
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+Load Cplr_Hook.gif
+Transparent 000,255,000
+Translate +0.010,+0.000,-0.510
+[MESHBUILDER]
+Vertex +0.000,+0.128,+0.256
+Vertex +0.000,+0.128,-0.256
+Vertex +0.000,-0.128,-0.256
+Vertex +0.000,-0.128,+0.256
+Face2 0,1,2,3
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+Load Cplr_Hook.gif
+Transparent 000,255,000
+Translate +0.015,+0.000,-0.510
+[MESHBUILDER]
+Vertex +0.000,+0.128,+0.256
+Vertex +0.000,+0.128,-0.256
+Vertex +0.000,-0.128,-0.256
+Vertex +0.000,-0.128,+0.256
+Face2 0,1,2,3
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+Load Cplr_Hook.gif
+Transparent 000,255,000
+Translate +0.020,+0.000,-0.510
+[MESHBUILDER]
+Vertex +0.000,+0.128,+0.256
+Vertex +0.000,+0.128,-0.256
+Vertex +0.000,-0.128,-0.256
+Vertex +0.000,-0.128,+0.256
+Face2 0,1,2,3
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+Load Cplr_Hook.gif
+Transparent 000,255,000
+Translate +0.025,+0.000,-0.510
+
+[MESHBUILDER]                           ;Pins
+Cylinder 12,+0.024,+0.024,+0.160
+Color 111,079,063
+Rotate 0,0,1,+090.0
+Translate +0.000,+0.000,-0.461
+
+[MESHBUILDER]                           ;Bolt
+Cylinder 06,+0.025,+0.025,+0.020
+Color 143,111,095
+Rotate 1,0,0,+090.0
+Translate -0.231,+0.090,-0.510
+[MESHBUILDER]                      
+Cylinder 06,+0.025,+0.025,+0.020
+Color 143,111,095
+Rotate 1,0,0,+090.0
+Translate +0.231,+0.090,-0.510
+[MESHBUILDER]
+Cylinder 06,+0.025,+0.025,+0.020
+Color 143,111,095
+Rotate 1,0,0,+090.0
+Translate -0.231,-0.090,-0.510
+[MESHBUILDER]                      
+Cylinder 06,+0.025,+0.025,+0.020
+Color 143,111,095
+Rotate 1,0,0,+090.0
+Translate +0.231,-0.090,-0.510
+
+[MESHBUILDER]                           ;Yoke
+Cube +0.184,+0.047,+0.030
+Color 031,015,015
+Translate +0.000,+0.000,-0.570
+[MESHBUILDER]
+Cube +0.278,+0.047,+0.120
+Color 119,103,103
+Translate +0.000,+0.094,-0.640
+[MESHBUILDER]
+Cube +0.278,+0.047,+0.120
+Color 119,103,103
+Translate +0.000,-0.094,-0.640
+[MESHBUILDER]
+Cube +0.047,+0.141,+0.120
+Color 119,103,103
+Translate -0.231,+0.000,-0.640
+[MESHBUILDER]
+Cube +0.047,+0.141,+0.120
+Color 119,103,103
+Translate +0.231,+0.000,-0.640

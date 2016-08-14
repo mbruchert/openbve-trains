@@ -1,0 +1,34 @@
+[MeshBuilder]
+Vertex 0,0,0,0,50,0
+Vertex 0,0,0.088,0,50,0
+Vertex 0,-0.215,0.088,0,50,0
+Vertex 0,-0.215,0,0,50,0
+Face 0,1,2,3
+Load fireextingusherlabel.bmp
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+translate 0.313,0.61.55,-4.43
+Rotate 0,0,2,-48.8
+Transparent 0,0,255
+EmissiveColor 220,220,220
+
+[MeshBuilder]
+Vertex 0,0,0,0,50,0
+Vertex 0,0,0.088,0,50,0
+Vertex 0,-0.215,0.088,0,50,0
+Vertex 0,-0.215,0,0,50,0
+Face 0,1,2,3
+Load fireextingusherlabel.bmp
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+translate 0.313,0.61.55,-13.34
+Rotate 0,0,2,-48.8
+Transparent 0,0,255
+EmissiveColor 220,220,220
+
+RotateAll 0,1,0,180
+ScaleAll 1.1,1.1,1.1

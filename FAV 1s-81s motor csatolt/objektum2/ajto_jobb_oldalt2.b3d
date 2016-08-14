@@ -1,0 +1,74 @@
+; Villamos jobb oldal hátsó ajtó külsõ
+
+[Meshbuilder]
+Vertex  1.118,0.5,0
+Vertex  1.118,2.47,0
+Vertex  1.118,2.47,-0.71
+Vertex  1.118,0.5,-0.71
+face2 3,2,1,0
+[Texture]
+Load ajto.png
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+Transparent 255,0,255
+
+; Villamos jobb oldal hátsó ajtó belsõ
+
+[Meshbuilder] ;      k  üveg lap
+Cube 0.39, 0.0001, 0.27,
+Rotate 0, 0, 1, 90
+Color 180,180,180,30
+EmissiveColor 60,60,60
+Translate 1.110,1.89,-0.35
+
+[Meshbuilder]
+Vertex  1.109,0.5,0
+Vertex  1.109,2.47,0
+Vertex  1.109,2.47,-0.71
+Vertex  1.109,0.5,-0.71
+face2 0,1,2,3
+EmissiveColor 60,60,60
+[Texture]
+Load ajtob.png
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+Transparent 255,0,255
+
+[Meshbuilder]  ; Jobb h külsõ kilincs függ---------------------
+Cylinder 20, 0.008, 0.008, 0.10
+Color 230,230,230
+Translate  1.149,1.75,-0.075
+
+[Meshbuilder]  ; Jobb h külsõ kilincstartó alsó viz
+Cube 0.018, 0.008, 0.003
+Color 230,230,230
+Translate  1.138,1.708,-0.075
+
+[Meshbuilder]  ; Jobb h külsõ kilincstartó felsõ viz
+Cube 0.018, 0.008, 0.003
+Color 230,230,230
+Translate  1.138,1.792,-0.075-----------------------------------
+
+[Meshbuilder]  ; Jobb h belsõ kilincs függ----------------------
+Cylinder 20, 0.008, 0.008, 0.10
+Color 140,140,140
+EmissiveColor 70,70,70
+Translate  1.079,1.75,-0.075
+
+[Meshbuilder]  ; Jobb h belsõ kilincstartó alsó viz
+Cube 0.018, 0.008, 0.003
+Color 140,140,140
+EmissiveColor 70,70,70
+Translate  1.091,1.708,-0.075
+
+[Meshbuilder]  ; Jobb h belsõ kilincstartó felsõ viz
+Cube 0.018, 0.008, 0.003
+Color 140,140,140
+EmissiveColor 70,70,70
+Translate  1.091,1.792,-0.075-----------------------------------
+
+Scaleall 1,1,1.21

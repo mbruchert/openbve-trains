@@ -1,0 +1,59 @@
+;;PasilloJacobs;;
+CreateMeshBuilder,
+AddVertex,-0.4,2.8,0.45
+AddVertex,-0.4,0.65,0.45
+AddVertex,-0.4,2.8,-0.45
+AddVertex,-0.4,0.65,-0.45
+AddVertex,0.4,2.8,-0.45
+AddVertex,0.4,0.65,-0.45
+AddVertex,0.4,2.8,0.45
+AddVertex,0.4,0.65,0.45
+AddVertex,-0.4,2.8,0.45
+AddVertex,-0.4,2.8,-0.45
+AddVertex,0.4,2.8,-0.45
+AddVertex,0.4,2.8,0.45
+Addface2,0,1,3,2
+Addface2,4,5,7,6
+Addface2,3,1,7,5
+Addface2,8,9,10,11
+LoadTexture,Pasillo.png
+SetTextureCoordinates,0, 0, 0.25,
+SetTextureCoordinates,1, 0, 0.5,
+SetTextureCoordinates,2, 1,0.25,
+SetTextureCoordinates,3, 1,0.5,
+SetTextureCoordinates,4, 1, 1,
+SetTextureCoordinates,5, 1, 0.75,
+SetTextureCoordinates,6, 0,1,
+SetTextureCoordinates,7, 0,0.75,
+SetTextureCoordinates,8,0,0.25,
+SetTextureCoordinates,9,1,0.25,
+SetTextureCoordinates,10,1,0,
+SetTextureCoordinates,11,0,0,
+
+;;CABLES;;
+CreateMeshBuilder,
+AddVertex,-0.934,3,0.45
+AddVertex,-0.934,0.45,0.45
+AddVertex,-0.934,3,-0.45
+AddVertex,-0.934,0.45,-0.45
+Addface2,0,1,3,2
+LoadTexture,cables.png
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 0, 1,
+SetTextureCoordinates,2, 1,0,
+SetTextureCoordinates,3, 1,1,
+SetDecaltransparentcolor,0,0,255
+CreateMeshBuilder,
+AddVertex,0.934,3,0.45
+AddVertex,0.934,0.45,0.45
+AddVertex,0.934,3,-0.45
+AddVertex,0.934,0.45,-0.45
+Addface2,0,1,3,2
+LoadTexture,cables.png
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 0, 1,
+SetTextureCoordinates,2, 1,0,
+SetTextureCoordinates,3, 1,1,
+SetDecaltransparentcolor,0,0,255
+
+TranslateALL,0,0,12.7

@@ -1,0 +1,26 @@
+﻿81-717/81-714 metró szerelvény
+
+
+Járműtípus: 81-717/81-714
+Kocsik száma: 6 db kocsi
+Vmax = 90 km/h
+Teljesítmény: 4 x 110 kW
+Hossza: 19210 mm
+Saját tömeg: 34 t
+Pályaszám: 342-319
+Tulajdonos: BKV Zrt - Észak-Déli Metró Üzemigazgatóság (M3)
+Telephely: Kőér utca 2./B 
+2002. év végi darabszám: 128/67
+Hossz ütközők nélkül: 18810 mm
+Szélesség: 2670 mm
+Magasság: 3662 mm
+Tengelyek száma: 4
+Tengelytávolság: 2100 mm
+Forgócsap távolság: 12600 mm
+Jármű tömege üresen: 33000
+Felszállósávok száma 8
+Összes férőhely: 178/190
+Ülőhelyek száma: 40/44
+Állóhelyek száma: 138/146
+Motorok száma: 4
+Motorok teljesítménye/db: 110 kW

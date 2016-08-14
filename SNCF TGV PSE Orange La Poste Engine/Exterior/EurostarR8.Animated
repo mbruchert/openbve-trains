@@ -1,0 +1,52 @@
+[Include]
+EurostarR8.csv
+Position =  0, 0,-2.05
+
+[Include]
+Interior/EurostarR8.csv
+Position =  0, 0,-2.05
+
+[Include]
+Interior/AsientosR5.animated
+Position = 0,0,4.95
+
+[Include]
+..//Escudo de Villa/EscudoR8.csv
+Position =  0, 0,-2.05
+
+[Include]
+..//NumerodeCarro/EscudoR8.csv
+
+[Include]
+Bogiecorto.csv
+Position =  0, 0, 0.3
+[object]
+Position = 0, 0.45, -8.3
+states=ruedas.csv
+RotateXFunction = value + mod[(speedometer * delta),2.7] / 2.7 * 3.14 * 2
+[object]
+Position = 0, 0.45, -5.5
+states=ruedas.csv
+RotateXFunction = value + mod[(speedometer * delta),2.7] / 2.7 * 3.14 * 2
+
+;;Puertas;;
+[Object]
+Position = 0, 0, -6.74
+States = Puerta2daClase.csv
+TranslateZFunction = 1.1 * RIGHTdoors[0]
+[Object]
+Position = 0, 0, -6.74
+States = Puerta2daclase2.csv
+TranslateZFunction = 1.1 * Leftdoors[0]
+
+;;Pisaporte;;
+[Object]
+Position = 0, 0, -6.74
+States = PisaporteIzquierdo.csv
+TranslateXFunction = 0.31 * RIGHTdoors[0]
+
+[Object]
+Position = 0, 0, -6.74
+States = PisaporteDerecho.csv
+TranslateXFunction = -0.31 * LEFTdoors[0]
+[Object]

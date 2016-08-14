@@ -1,0 +1,88 @@
+[Meshbuilder] ;----------------jobb elsõ ajtó külsõ-------------
+Vertex   1.070,0.450,0.780
+Vertex   1.070,0.450,0
+Vertex   1.070,2.450,0
+Vertex   1.070,2.450,0.780
+face2 0,1,2,3
+[Texture]
+Load ajt.png
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+Transparent 255,0,255
+
+[Meshbuilder] ; jobb elsõ ajtó üveg lap 
+Cube 0.50,0.0001,0.270
+Rotate 0, 0, 1, 90
+Color 180,180,180,30
+Translate 1.069,1.89,0.44
+
+[Meshbuilder] ;----------------jobb elsõ ajtó belsõ-------------
+Vertex   1.030,0.450,0.780
+Vertex   1.030,0.450,0
+Vertex   1.030,2.450,0
+Vertex   1.030,2.450,0.780
+face2 3,2,1,0
+EmissiveColor 100,100,100
+[Texture]
+Load ajtb.png
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+Transparent 255,0,255
+
+[Meshbuilder]  ; Jobb e külsõ kilincs függ---------------------
+Cylinder 20, 0.008, 0.008, 0.10
+Color 180,180,180
+Translate  1.098,1.75,  0.105
+
+[Meshbuilder]  ; Jobb e külsõ kilincstartó alsó viz
+Cube 0.018, 0.008, 0.003
+Color 180,180,180
+Translate  1.087,1.708,  0.105
+
+[Meshbuilder]  ; Jobb e külsõ kilincstartó felsõ viz
+Cube 0.018, 0.008, 0.003
+Color 180,180,180
+Translate  1.087,1.792,  0.105-----------------------------------
+
+
+[Meshbuilder]  ; Jobb e belsõ kilincs függ----------------------
+Cylinder 20, 0.008, 0.008, 0.10
+Color 140,140,140
+EmissiveColor 70,70,70
+Translate  1.001,1.75,  0.105
+
+[Meshbuilder]  ; Jobb e belsõ kilincstartó alsó viz
+Cube 0.018, 0.008, 0.003
+Color 140,140,140
+EmissiveColor 70,70,70
+Translate  1.013,1.708,  0.105
+
+[Meshbuilder]  ; Jobb e belsõ kilincstartó felsõ viz
+Cube 0.018, 0.008, 0.003
+Color 140,140,140
+EmissiveColor 70,70,70
+Translate  1.013,1.792,  0.105-----------------------------------
+
+[Meshbuilder] ;jobb e fekete függ 1
+Cube 0.0160,1.0,0.0450
+Color 20,20,20
+Translate 1.049,1.450,0.737
+
+[Meshbuilder] ;jobb e fekete függ 2
+Cube 0.0160,1.0,0.0860
+Color 20,20,20
+Translate 1.049,1.450,0.090
+
+[Meshbuilder] ;jobb e fekete felsõ ablak víz 1
+Cube 0.0160,0.020,0.280
+Color 20,20,20
+Translate 1.049,2.350,0.420
+
+[Meshbuilder] ;jobb e fekete felsõ ablak víz 2
+Cube 0.0160,0.020,0.280
+Color 20,20,20
+Translate 1.049,1.520,0.420;--------------------

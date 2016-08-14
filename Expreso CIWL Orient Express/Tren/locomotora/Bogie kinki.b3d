@@ -1,0 +1,32 @@
+[meshbuilder]
+vertex -1.1, 1.2, 2.5
+vertex -1.1, 1.2,-2.5
+vertex -1.1, 0,  -2.5
+vertex -1.1, 0,   2.5
+face2 0,1,2,3
+[texture]
+load Bogie kinki.png
+coordinates 0,1,0
+coordinates 1,0,0
+coordinates 2,0,1
+coordinates 3,1,1
+transparent 0,255,0
+
+[meshbuilder]
+vertex 1.1, 1.2, -2.5
+vertex 1.1, 1.2,  2.5
+vertex 1.1, 0,    2.5
+vertex 1.1, 0,   -2.5
+face2 0,1,2,3
+[texture]
+load Bogie kinki.png
+coordinates 0,0,0
+coordinates 1,1,0
+coordinates 2,1,1
+coordinates 3,0,1
+transparent 0,255,0
+
+[meshbuilder]
+cube 0.67, 0.3, 1.4
+Color 40,40,40
+translate 0, 0.6, 0

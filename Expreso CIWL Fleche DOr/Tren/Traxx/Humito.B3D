@@ -1,0 +1,14 @@
+[MESHBUILDER]
+Vertex       -0.240,+3.700,+0.000
+Vertex       +0.240,+3.700,+0.000
+Vertex       +0.240,+0.320,+0.000
+Vertex       -0.240,+0.320,+0.000
+Face                      0,1,2,3
+Face                      3,2,1,0
+Color         135,067,033,135;Red
+Transparent       000,255,000;Grn
+Load           Humito.GIF
+Coordinates       0,+0.000,+0.000
+Coordinates       1,+1.000,+0.000
+Coordinates       2,+1.000,+1.000
+Coordinates       3,+0.000,+1.000

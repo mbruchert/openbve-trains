@@ -1,0 +1,5 @@
+[Meshbuilder] ; vezérlõpult visszajelzõ
+Cylinder 20, 0.012,0.012,0.002;
+Color 100,0,0;
+EmissiveColor 100,0,0;
+Translate  0.192,1.636,-3.570;

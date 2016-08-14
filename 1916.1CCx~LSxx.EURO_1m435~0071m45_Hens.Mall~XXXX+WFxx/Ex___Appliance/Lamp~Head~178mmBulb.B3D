@@ -1,0 +1,13 @@
+﻿[MESHBUILDER]                           ;Bulb_Diam=0.178m=PAR56
+Cylinder  20,+0.089,+0.089,+0.001
+Rotate               1,0,0,+090.0
+EmissiveColor     255,255,107;Yel
+Color         255,255,107,191;Yel
+
+[MESHBUILDER]                           ;Beam_Diam=0.178m~52.00m_Lgth=600.0m
+Cylinder  20,+0.089,+27.00,+600.0
+Rotate               1,0,0,-090.0
+Translate    +0.000,+0.000,+300.0
+Rotate               1,0,0,+003.0
+EmissiveColor     255,255,107;Yel
+Color         255,255,107,035;Yel

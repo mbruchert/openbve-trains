@@ -1,0 +1,31 @@
+;--------------------------------------
+;Archivo 3D para Trenes de OpenBVE
+;--------------------------------------
+;(c) Rieles Virtuales de Venezuela
+;www.trenesvenezolanos.com
+;
+;por Manuel Mejias;
+
+;;Aguja Velocimetro;;
+
+CreateMeshBuilder,
+AddVertex,0.005, 0.042, 0,
+AddVertex,-0.005, 0.042, 0,
+AddVertex,-0.005, 0, 0.01,
+AddVertex,0.005, 0, 0.01,,
+AddFace2,3,2,1,0,
+SetBlendMode,Normal,
+Rotate,0,1,0,335,
+Rotate,0,0,0,335,
+LoadTexture,aguja.png,
+SetTextureCoordinates,0, 1, 0,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 0, 1,
+SetTextureCoordinates,3, 1, 1,
+SetEmissiveColor,255,255,255,
+SetBlendMode,Normal,
+
+TranslateAll,0,0,0.029
+
+
+

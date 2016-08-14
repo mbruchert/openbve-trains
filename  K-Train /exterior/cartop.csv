@@ -1,0 +1,27 @@
+CreateMeshBuilder,
+AddVertex, 0, 0, 0,0,5,0
+AddVertex, 0.435, 0.02, 0,0,5,0
+AddVertex, 0.435, 0.02, -21,0,5,0
+AddVertex, 0, 0, -21,0,5,0
+AddVertex, 0.435, 0.02, 0,0,5,0
+AddVertex, 0.87, 0, 0,0,5,0
+AddVertex, 0.87, 0, -21,0,5,0
+AddVertex, 0.435, 0.02, -21,0,5,0
+AddFace, 3,2,1,0
+AddFace, 7,6,5,4
+GenerateNormals
+LoadTexture, cartoptemp.bmp
+SetTextureCoordinates, 0, 0, 0
+SetTextureCoordinates, 1, 0.5, 0
+SetTextureCoordinates, 2, 0.5, 12
+SetTextureCoordinates, 3, 0, 12
+SetTextureCoordinates, 4, 0.5, 0
+SetTextureCoordinates, 5, 1, 0
+SetTextureCoordinates, 6, 1, 12
+SetTextureCoordinates, 7, 0.5, 12
+SetDecalTransparentColor, 0, 0, 255
+EmissiveColor,225,225,225
+
+translate -0.07,0,0
+
+ScaleAll,1.1,1.1,1.1

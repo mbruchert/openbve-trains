@@ -1,0 +1,13 @@
+[MESHBUILDER]
+Vertex -0.240,+4.520,+0.000
+Vertex +0.240,+4.520,+0.000
+Vertex +0.240,+0.320,+0.000
+Vertex -0.240,+0.320,+0.000
+Face2 0,1,2,3
+Coordinates 000,+0.00,+0.00
+Coordinates 001,+1.00,+0.00
+Coordinates 002,+1.00,+1.00
+Coordinates 003,+0.00,+1.00
+Color 135,067,033,135         ;RedTint,Transluce
+Load vapor.GIF
+Transparent 000,255,000

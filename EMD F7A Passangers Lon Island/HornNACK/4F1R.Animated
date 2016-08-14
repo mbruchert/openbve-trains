@@ -1,0 +1,9 @@
+[OBJECT]
+States=Klax~Horn~Bas3.B3D
+[OBJECT]
+States=Klax~Horn~Siz1.B3D
+Position=+0.156,+0.128,+0.000
+RotateYFunction=3.142
+[OBJECT]
+States=Klax~Horn~Siz1.B3D
+Position=-0.156,+0.128,+0.000

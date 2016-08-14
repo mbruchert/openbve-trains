@@ -1,0 +1,28 @@
+"Etoile du Nord Pullman Express"
+
+Fue un tren de tipo internacional, unia  ala ciudad de Paris con Bruselas y Amsterdam en Belgica y Holanda respectivamente...Su nombre significa "Estrella del Norte"...Fue fundado en el año de 1924 como tren de lujo y despues degradado a Segnda Clase tras la II Guerra Mundial...Posteriormente en 1957 el tren paso a ser parte de la caden "Trans Europ Express" TEE, en 1984 rebajado a Inter City y el 2 de Junio de 1996 fue sustituido por un TGV Thalys...
+
+El modelo para openBVE fue realizado integramente por Alejandro Melo diferenciando los coches con numeraciones distintas y reales, Inscripciones en alta resolucion, Puertas animadas, Suspension animada.
+
+Incluye:
+
+1 Locomotora tipo Traxx cuatritension
+2 Coches Restaurant
+2 Coches Pullman de segunda clase
+4 Coches Literas
+1 Furgon de Equipajes
+
+Creditos:
+
+Alejandro Melo: Modelado del tren y sonidos
+
+Michael Kam: Sonidos
+
+RonBVE: Panel de la locomotora
+
+Copyright:
+
+OpenBVE Mexico Facebook
+OpenBVE Mexico Luxury Passenger Trains
+
+Made in: Mexico City

@@ -1,0 +1,58 @@
+﻿;; Cabina 3D - GEC-Alsthom Eurostar
+;; Autor : Manuel mejias
+;; Funcionalidades: INFINTAS.
+;; (c) 2013
+
+;; Cabina
+
+[include]
+Cabina3d\Cabina.csv
+
+;----------------------------Palancas de Tracción / Frenado"
+;--------------------------------------------------------------
+[object]
+states = Cabina3d/PalancaTraccion.csv
+position = 0.185, 2.05, 6.72
+RotateXFunction = powerNotch*0.1
+rotatexdirection = -1, 0,0
+[object]
+;---------------------------------------------
+
+;----------------------------Inversor"
+;--------------------------------------------------------------
+[object]
+states = Cabina3d/inversor.csv
+position = -0.17, 2.05, 6.75
+RotateXFunction = 0.6 *reverserNotch
+
+;----------------------------Modulo de Frenado Emergencia
+;--------------------------------------------------------------
+[object]
+states = Cabina3d/PDE1.csv
+position = -0.55, 2.1, 6.38
+TranslateYFunction = -0.02 * emergencyBrake
+[object]
+states = Cabina3d/PDE1.csv
+position = 0.55, 2.1, 6.38
+TranslateYFunction = -0.02 * emergencyBrake
+[include]
+Cabina3d\orilla.csv
+position = -0.55, 2.1, 6.38
+[include]
+Cabina3d\orilla.csv
+position = 0.55, 2.1, 6.38
+;----------------------------Freno convencional
+;--------------------------------------------------------------
+[object]
+states = Cabina3d/Freno.csv
+position = -0.25, 2.051, 6.72
+RotateXFunction = 0.1 * BrakeNotch
+rotatexdirection = -1, 0,0
+
+
+;;Indicador de Velocidad "Velocimetro"
+[object]
+states = Cabina3D\Velocimetro.csv
+position = -0.04, 2.215, 6.99
+rotatezdirection = 0, 0, -1
+rotatezfunction = -2.25 + abs[speedometer] * 0.041

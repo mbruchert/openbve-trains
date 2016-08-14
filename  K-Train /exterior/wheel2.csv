@@ -1,0 +1,74 @@
+
+CreateMeshBuilder
+AddVertex, 1.2 ,  0.7 , -10.8 ,
+AddVertex, 1.2 ,  0.7 , -6.7 ,
+AddVertex, 1 ,  0 , -6.7 ,
+AddVertex, 1 ,  0 , -10.8 ,
+AddVertex,-1.2 ,  0.7 , -10.8 ,
+AddVertex,-1.2 ,  0.7 , -6.7 ,
+AddVertex,-1 ,  0 , -6.7 ,
+AddVertex,-1 ,  0 , -10.8 ,
+AddFace,0,1,2,3,
+AddFace,7,6,5,4,
+GenerateNormals
+LoadTexture,wheel_002.bmp
+SetTextureCoordinates,0,0,0
+SetTextureCoordinates,1,0.99,0
+SetTextureCoordinates,2,1,1
+SetTextureCoordinates,3,0,1
+SetTextureCoordinates,4,0,0
+SetTextureCoordinates,5,1,0
+SetTextureCoordinates,6,1,1
+SetTextureCoordinates,7,0,1
+SetDecalTransparentColor,0,0,255
+
+CreateMeshBuilder
+AddVertex, 1.2 ,  0.7 ,  7.2 ,
+AddVertex, 1.2 ,  0.7 ,  11.3 ,
+AddVertex, 1 ,  0 ,  11.3 ,
+AddVertex, 1 ,  0 ,  7.2 ,
+AddVertex,-1.2 ,  0.7 ,  7.2 ,
+AddVertex,-1.2 ,  0.7 ,  11.3 ,
+AddVertex,-1 ,  0 ,  11.3 ,
+AddVertex,-1 ,  0 ,  7.2 ,
+AddFace,0,1,2,3,
+AddFace,7,6,5,4,
+GenerateNormals
+LoadTexture,wheel_002.bmp
+SetTextureCoordinates,0,0,0
+SetTextureCoordinates,1,0.99,0
+SetTextureCoordinates,2,1,1
+SetTextureCoordinates,3,0,1
+SetTextureCoordinates,4,0,0
+SetTextureCoordinates,5,1,0
+SetTextureCoordinates,6,1,1
+SetTextureCoordinates,7,0,1
+SetDecalTransparentColor,0,0,255
+
+
+CreateMeshBuilder
+AddVertex, 1.2 ,  0.7 ,  0.2 ,
+AddVertex, 1.2 ,  0.7 ,  11.3 ,
+AddVertex, 1 ,  0 ,  11.3 ,
+AddVertex, 1 ,  0 ,  0.2 ,
+AddVertex,-1.2 ,  0.7 ,  0.2 ,
+AddVertex,-1.2 ,  0.7 ,  11.3 ,
+AddVertex,-1 ,  0 ,  11.3 ,
+AddVertex,-1 ,  0 ,  0.2 ,
+AddFace,0,1,2,3,
+AddFace,7,6,5,4,
+GenerateNormals
+LoadTexture,motor.bmp
+SetTextureCoordinates,0,0,0
+SetTextureCoordinates,1,0.99,0
+SetTextureCoordinates,2,1,1
+SetTextureCoordinates,3,0,1
+SetTextureCoordinates,4,0,0
+SetTextureCoordinates,5,1,0
+SetTextureCoordinates,6,1,1
+SetTextureCoordinates,7,0,1
+SetDecalTransparentColor,0,0,255
+translate,0,0,-5.5
+translateall,0,0,-1
+
+ScaleAll,0.7,1,1

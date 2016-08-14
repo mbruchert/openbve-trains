@@ -1,0 +1,43 @@
+;Topes
+
+CreateMeshBuilder,
+Addvertex, 1.33, 1.3,  0.36
+Addvertex, 0.67, 1.3,  0.36
+Addvertex, 0.67, 0.84, 0.36
+Addvertex, 1.33, 0.84, 0.36
+Addface2, 0,1,2,3
+SetColor, 10,10,10
+
+CreateMeshBuilder,
+Addvertex, -1.33, 1.3,  0.36
+Addvertex, -0.67, 1.3,  0.36
+Addvertex, -0.67, 0.84, 0.36
+Addvertex, -1.33, 0.84, 0.36
+Addface2, 0,1,2,3
+SetColor, 10,10,10
+
+CreateMeshBuilder,
+Cylinder, 10, 0.1, 0.1, 0.7
+SetColor, 0,0,0
+rotate, 1,0,0,90
+translate, 1, 1.04, 0
+
+CreateMeshBuilder,
+Cylinder, 15, 0.15, 0.2, 0.3
+SetColor, 40,40,40
+rotate, 1,0,0,90
+translate, 1, 1.04, 0
+
+CreateMeshBuilder,
+Cylinder, 10, 0.1, 0.1, 0.7
+SetColor, 0,0,0
+rotate, 1,0,0,90
+translate, -1, 1.04, 0
+
+CreateMeshBuilder,
+Cylinder, 15, 0.15, 0.2, 0.3
+SetColor, 40,40,40
+rotate, 1,0,0,90
+translate, -1, 1.04, 0
+
+RotateAll, 0,1,0,180

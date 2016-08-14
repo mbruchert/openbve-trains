@@ -1,0 +1,8 @@
+
+
+[MESHBUILDER]
+Cube +1.336,+0.270,+0.270          
+Color 031,031,039
+Translate +0.000,+0.270,+0.000
+
+SCALEALL 0.718,1.000,1.000         ;DimX=+0.5*Gaug,DimY=+1.0,DimZ=+1.0

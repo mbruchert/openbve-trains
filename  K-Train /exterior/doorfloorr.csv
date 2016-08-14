@@ -1,0 +1,80 @@
+CreateMeshBuilder,
+AddVertex, 0,0,0
+AddVertex, 0.25,0,0
+AddVertex, 0.25,0,-1.6
+AddVertex, 0,0,-1.6
+AddFace2,0,1,2,3
+GenerateNormals
+LoadTexture, doorbeware12.bmp
+SetTextureCoordinates, 0, 0, 0
+SetTextureCoordinates, 1, 1, 0
+SetTextureCoordinates, 2, 1, 1
+SetTextureCoordinates, 3, 0, 1
+SetDecalTransparentColor, 0, 0, 255
+EmissiveColor,195,195,195
+
+CreateMeshBuilder,
+AddVertex, 0,0,0
+AddVertex, 0.25,0,0
+AddVertex, 0.25,0,-1.6
+AddVertex, 0,0,-1.6
+AddFace2,0,1,2,3
+GenerateNormals
+LoadTexture, doorbeware12.bmp
+SetTextureCoordinates, 0, 0, 0
+SetTextureCoordinates, 1, 1, 0
+SetTextureCoordinates, 2, 1, 1
+SetTextureCoordinates, 3, 0, 1
+SetDecalTransparentColor, 0, 0, 255
+translate,0,0,4.5
+EmissiveColor,195,195,195
+
+CreateMeshBuilder,
+AddVertex, 0,0,0
+AddVertex, 0.25,0,0
+AddVertex, 0.25,0,-1.6
+AddVertex, 0,0,-1.6
+AddFace2,0,1,2,3
+GenerateNormals
+LoadTexture, doorbeware12.bmp
+SetTextureCoordinates, 0, 0, 0
+SetTextureCoordinates, 1, 1, 0
+SetTextureCoordinates, 2, 1, 1
+SetTextureCoordinates, 3, 0, 1
+SetDecalTransparentColor, 0, 0, 255
+translate,0,0,9
+EmissiveColor,195,195,195
+
+CreateMeshBuilder,
+AddVertex, 0,0,0
+AddVertex, 0.25,0,0
+AddVertex, 0.25,0,-1.6
+AddVertex, 0,0,-1.6
+AddFace2,0,1,2,3
+GenerateNormals
+LoadTexture, doorbeware12.bmp
+SetTextureCoordinates, 0, 0, 0
+SetTextureCoordinates, 1, 1, 0
+SetTextureCoordinates, 2, 1, 1
+SetTextureCoordinates, 3, 0, 1
+SetDecalTransparentColor, 0, 0, 255
+translate,0,0,-4.5
+EmissiveColor,195,195,195
+
+CreateMeshBuilder,
+AddVertex, 0,0,0
+AddVertex, 0.25,0,0
+AddVertex, 0.25,0,-1.6
+AddVertex, 0,0,-1.6
+AddFace2,0,1,2,3
+GenerateNormals
+LoadTexture, doorbeware12.bmp
+SetTextureCoordinates, 0, 0, 0
+SetTextureCoordinates, 1, 1, 0
+SetTextureCoordinates, 2, 1, 1
+SetTextureCoordinates, 3, 0, 1
+SetDecalTransparentColor, 0, 0, 255
+translate,0,0,-9
+EmissiveColor,195,195,195
+
+ScaleAll,1.1,1.1,1.1

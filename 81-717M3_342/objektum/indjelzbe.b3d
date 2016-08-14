@@ -1,0 +1,29 @@
+[Meshbuilder]
+Cylinder 11,0.02,0.02,0.3
+Rotate 1,0,0,90
+EmissiveColor 255,255,255
+
+[Texture]
+Load indjelzbe.bmp
+Coordinates 0,0,0
+Coordinates 1,0,0.5
+Coordinates 2,0.1,0
+Coordinates 3,0.1,0.5
+Coordinates 4,0.2,0
+Coordinates 5,0.2,0.5
+Coordinates 6,0.3,0
+Coordinates 7,0.3,0.5
+Coordinates 8,0.4,0
+Coordinates 9,0.4,0.5
+Coordinates 10,0.5,0
+Coordinates 11,0.5,0.5
+Coordinates 12,0.6,0
+Coordinates 13,0.6,0.5
+Coordinates 14,0.7,0
+Coordinates 15,0.7,0.5
+Coordinates 16,0.8,0
+Coordinates 17,0.8,0.5
+Coordinates 18,0.9,0
+Coordinates 19,0.9,0.5
+Coordinates 20,1,0
+Coordinates 21,1,0.5

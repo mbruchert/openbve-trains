@@ -1,0 +1,109 @@
+CreateMeshBuilder
+AddVertex,-1.35,-.17,0
+AddVertex,1.35,-.17,0
+AddVertex,-1.35,-.17,25.2
+AddVertex,1.35,-.17,25.2
+AddFace,1,0,2,3
+LoadTexture,Tie3.png
+SetTextureCoordinates,0,1, 5 
+SetTextureCoordinates,1,0, 5 
+SetTextureCoordinates,2,1,0
+SetTextureCoordinates,3,0,0
+
+CreateMeshBuilder
+AddVertex,-.7975,0,0
+AddVertex,-.7175,0,0
+AddVertex,-.7975,0,25.2
+AddVertex,-.7175,0,25.2
+AddFace,1,0,2,3
+SetColor,180,190,200,
+
+CreateMeshBuilder
+AddVertex,.7175,0,0
+AddVertex,.7975,0,0
+AddVertex,.7175,0,25.2
+AddVertex,.7975,0,25.2
+AddFace,1,0,2,3
+SetColor,180,190,200,
+
+CreateMeshBuilder
+AddVertex,-2.8,-.4,0
+AddVertex,-1.35,-.17,0
+AddVertex,-2.8,-.4,25.2
+AddVertex,-1.35,-.17,25.2
+AddFace,1,0,2,3
+LoadTexture,Bal3.png
+SetTextureCoordinates,0,1,5 
+SetTextureCoordinates,1,0,5 
+SetTextureCoordinates,2,1,0
+SetTextureCoordinates,3,0,0
+
+CreateMeshBuilder
+AddVertex,1.35,-.17,0
+AddVertex,2.8,-.4,0
+AddVertex,1.35,-.17,25.2
+AddVertex,2.8,-.4,25.2
+AddFace,1,0,2,3
+LoadTexture,Bal3.png
+SetTextureCoordinates,0,1,5 
+SetTextureCoordinates,1,0,5 
+SetTextureCoordinates,2,1,0
+SetTextureCoordinates,3,0,0
+
+CreateMeshBuilder
+AddVertex,-.7575,-.17,0
+AddVertex,-.7575,0,0
+AddVertex,-.7575,-.17,25.2
+AddVertex,-.7575,0,25.2
+AddFace2,1,0,2,3
+SetColor,85,50,50,
+
+CreateMeshBuilder
+AddVertex,.7575,0,0
+AddVertex,.7575,-.17,0
+AddVertex,.7575,0,25.2
+AddVertex,.7575,-.17,25.2
+AddFace2,1,0,2,3
+SetColor,85,50,50,
+
+;Catenaire
+
+CreateMeshBuilder,
+cube,0.01,0,12.8
+translate,0,5,12.8
+SetColor, 0,0,0,
+
+CreateMeshBuilder,
+cube,0.01,0,12.8
+translate,0,6,12.8
+SetColor, 0,0,0,
+
+CreateMeshBuilder,
+cube,0.01,0.5,0
+translate,0,5.5,0
+SetColor, 0,0,0,
+
+CreateMeshBuilder,
+cube,0.01,0.5,0
+translate,0,5.5,5
+SetColor, 0,0,0,
+
+CreateMeshBuilder,
+cube,0.01,0.5,0
+translate,0,5.5,10
+SetColor, 0,0,0,
+
+CreateMeshBuilder,
+cube,0.01,0.5,0
+translate,0,5.5,15
+SetColor, 0,0,0,
+
+CreateMeshBuilder,
+cube,0.01,0.5,0
+translate,0,5.5,20
+SetColor, 0,0,0,
+
+CreateMeshBuilder,
+cube,0.01,0.5,0
+translate,0,5.5,25
+SetColor, 0,0,0,

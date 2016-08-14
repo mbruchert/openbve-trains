@@ -1,0 +1,30 @@
+[Include]
+Exterior/ICE3Panto1.b3d
+[Include]
+Exterior/BogieEngine.csv
+Position =  0, 0, -1.2
+[Include]
+Exterior/BogieEngine.csv
+Position =  0, 0, 16
+
+[Include]
+Exterior/pantografobajo.csv
+Position = 0,0,-16.5
+
+
+[object]
+Position = 0, 0.45, -9.8
+states=Exterior/ruedas.csv
+RotateXFunction = value + mod[(speedometer * delta),2.7] / 2.7 * 3.14 * 2
+[object]
+Position = 0, 0.45, -7.4
+states=Exterior/ruedas.csv
+RotateXFunction = value + mod[(speedometer * delta),2.7] / 2.7 * 3.14 * 2
+[object]
+Position = 0, 0.45, 9.8
+states=Exterior/ruedas.csv
+RotateXFunction = value + mod[(speedometer * delta),2.7] / 2.7 * 3.14 * 2
+[object]
+Position = 0, 0.45, 7.2
+states=Exterior/ruedas.csv
+RotateXFunction = value + mod[(speedometer * delta),2.7] / 2.7 * 3.14 * 2

@@ -1,0 +1,21 @@
+;Klaxon ~Horn ~#FrontFacing#RearFacing, For Locomotives
+;Set@ ANIMATED [Include] Position=+|-DimX,+DimY,+|-DimZ
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;All BVE|OpenBVE files have no registered copyright or trademark,
+;are public domain, & free to copy|distribute|modify|use at will.
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+[OBJECT]
+States=Klax~Horn~Bas3.B3D
+
+[OBJECT]
+States=Klax~Horn~Siz1.B3D
+Position=-0.156,+0.128,+0.000
+;RotateYFunction=3.142
+[OBJECT]
+States=Klax~Horn~Siz3.B3D
+Position=+0.000,+0.128,+0.000
+RotateYFunction=3.142
+[OBJECT]
+States=Klax~Horn~Siz2.B3D
+Position=+0.156,+0.128,+0.000 
+;RotateYFunction=3.142

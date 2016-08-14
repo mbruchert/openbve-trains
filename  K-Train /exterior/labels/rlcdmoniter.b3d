@@ -1,0 +1,32 @@
+[MeshBuilder]
+Vertex 0,0,0,0,50,0
+Vertex 0,0,0.647,0,50,0
+Vertex 0,-0.188,0.647,0,50,0
+Vertex 0,-0.188,0,0,50,0
+Face 0,1,2,3
+Load lcdmoniter.bmp
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+translate 0.313,0.59,0.53
+Rotate 0,0,2,-48.8
+EmissiveColor 220,220,220
+
+[MeshBuilder]
+Vertex 0,0,0,0,50,0
+Vertex 0,0,0.647,0,50,0
+Vertex 0,-0.188,0.647,0,50,0
+Vertex 0,-0.188,0,0,50,0
+Face 0,1,2,3
+Load lcdmoniter.bmp
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+translate 0.313,0.59,-8.51
+Rotate 0,0,2,-48.8
+EmissiveColor 220,220,220
+
+RotateAll 0,1,0,180
+ScaleAll 1.1,1.1,1.1

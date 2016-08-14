@@ -1,0 +1,31 @@
+CreateMeshBuilder,
+AddVertex,1.32, 3.03, -3.875,
+AddVertex,1.32, 3.28, -3.935,
+AddVertex,0.86, 3.28, -3.885,
+AddVertex,0.86, 3.03, -3.82,
+AddFace2,0,1,2,3
+translate, 0,0,-8.4,
+GenerateNormals,
+LoadTexture,private.png,
+SetTextureCoordinates,0, 0, 1,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 1, 0,
+SetTextureCoordinates,3, 1, 1,
+SetDecalTransparentColor,0, 0, 0,
+SetEmissiveColor,200,200,200
+
+CreateMeshBuilder,
+AddVertex,-1.32, 3.03, -3.875,
+AddVertex,-1.32, 3.28, -3.935,
+AddVertex,-0.86, 3.28, -3.885,
+AddVertex,-0.86, 3.03, -3.82,
+AddFace2,0,3,2,1
+translate, 0,0,-8.4,
+GenerateNormals,
+LoadTexture,000.png,
+SetTextureCoordinates,0, 0, 1,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, -1, 0,
+SetTextureCoordinates,3, -1, 1,
+SetDecalTransparentColor,0, 0, 0,
+SetEmissiveColor,200,200,200

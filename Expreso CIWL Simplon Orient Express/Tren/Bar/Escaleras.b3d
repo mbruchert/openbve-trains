@@ -1,0 +1,71 @@
+﻿[meshbuilder]
+vertex  1.42, 2.5,  -12.4
+vertex -1.42, 2.5,  -12.4
+vertex -1.42, 0.5,  -12.4
+vertex  1.42, 0.5,  -12.4
+face2 0,1,2,3
+[Texture]
+load escaleras.bmp      
+coordinates 0,0,0
+coordinates 1,1,0
+coordinates 2,1,1
+coordinates 3,0,1
+transparent 0,255,0
+Translate  0,-0.3,0
+
+[meshbuilder]
+vertex  1.42, 2.5,  -11.6
+vertex -1.42, 2.5,  -11.6
+vertex -1.42, 0.5,  -11.6
+vertex  1.42, 0.5,  -11.6
+face2 0,1,2,3
+[Texture]
+load escaleras.bmp      
+coordinates 0,0,0
+coordinates 1,1,0
+coordinates 2,1,1
+coordinates 3,0,1
+transparent 0,255,0
+Translate  0,-0.3,0
+
+;escalones traseros izquierdos
+
+[meshbuilder]
+vertex  -0.94, 0.55,  -12.4
+vertex  -0.94, 0.55,  -11.6
+vertex  -1.18,  0.55,  -11.6
+vertex  -1.18,  0.55,  -12.4
+face2 0,1,2,3
+color 100,100,100
+translate -0.2,0,0
+
+[meshbuilder]
+vertex  -0.94, 0.84,  -12.4
+vertex  -0.94, 0.84,  -11.6
+vertex  -0.65,  0.84,  -11.6
+vertex  -0.65,  0.84,  -12.4
+face2 0,1,2,3
+color 100,100,100
+translate -0.3,0,0
+
+;escalones Traseros derechos
+
+[meshbuilder]
+vertex  0.94, 0.55,  -12.4
+vertex  0.94, 0.55,  -11.6
+vertex  1.18,  0.55,  -11.6
+vertex  1.18,  0.55,  -12.4
+face2 0,1,2,3
+color 100,100,100
+translate 0.2,0,0
+
+[meshbuilder]
+vertex  0.94, 0.84,  -12.4
+vertex  0.94, 0.84,  -11.6
+vertex  0.65,  0.84,  -11.6
+vertex  0.65,  0.84,  -12.4
+face2 0,1,2,3
+color 100,100,100
+translate 0.3,0,0
+
+Translateall 0,0,12

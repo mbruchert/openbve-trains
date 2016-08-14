@@ -1,0 +1,104 @@
+CreateMeshBuilder,,,,,
+AddVertex,1.44 ,  3.15 ,  11.63,
+AddVertex,1.64 ,  1.85 ,  11.63,
+AddVertex,1.64,  1 ,  11.63,
+AddVertex,0.70 ,  3.15 ,  11.63 ,
+AddVertex,0.70 ,  1.85 ,  11.63 ,
+AddVertex,0.70 ,  1 ,  11.63 ,
+AddFace, 1,4,5,2, 
+AddFace, 0,3,4,1,
+GenerateNormals,,,,,
+LoadTexture,cabback.png,cabback.png
+SetTextureCoordinates,0,0.79,0
+SetTextureCoordinates,1,1.05,0.62
+SetTextureCoordinates,2,1.05,1
+SetTextureCoordinates,3,0,0
+SetTextureCoordinates,4,0.0,0.62
+SetTextureCoordinates,5,0.0,1
+
+CreateMeshBuilder,,,,,
+AddVertex,-1.44 ,  3.15 ,  11.63,
+AddVertex,-1.64 ,  1.85 ,  11.63,
+AddVertex,-1.64,  1 ,  11.63,
+AddVertex,-0.70 ,  3.15 ,  11.63 ,
+AddVertex,-0.70 ,  1.85 ,  11.63 ,
+AddVertex,-0.70 ,  1 ,  11.63 ,
+AddFace, 1,2,5,4, 
+AddFace, 0,1,4,3,
+GenerateNormals,,,,,
+LoadTexture,cabback.png,cabback.png
+SetTextureCoordinates,0,0.79,0
+SetTextureCoordinates,1,1.05,0.62
+SetTextureCoordinates,2,1.05,1
+SetTextureCoordinates,3,0,0
+SetTextureCoordinates,4,0.0,0.62
+SetTextureCoordinates,5,0.0,1
+
+CreateMeshBuilder,,,,,
+AddVertex,-0.70 ,  3.15 ,  11.63 ,
+AddVertex,-0.70 ,  1 ,  11.63 ,
+AddVertex,-0.70 ,  3.15 ,  11.1 ,
+AddVertex,-0.70 ,  1 ,  11.1 ,
+AddFace,0,1,3,2
+LoadTexture,cabback2.png,cabback2.png
+SetTextureCoordinates,0,0,0
+SetTextureCoordinates,1,0,1
+SetTextureCoordinates,2,1,0
+SetTextureCoordinates,3,1,1
+
+CreateMeshBuilder,,,,,
+AddVertex,0.70 ,  3.15 ,  11.63 ,
+AddVertex,0.70 ,  1 ,  11.63 ,
+AddVertex,0.70 ,  3.15 ,  11.1 ,
+AddVertex,0.70 ,  1 ,  11.1 ,
+AddFace,0,2,3,1
+LoadTexture,cabback2.png,cabback2.png
+SetTextureCoordinates,0,0,0
+SetTextureCoordinates,1,0,1
+SetTextureCoordinates,2,1,0
+SetTextureCoordinates,3,1,1
+
+CreateMeshBuilder,,,,,
+AddVertex,0.7 ,  3.2 ,  11.2,
+AddVertex,0.7,  1,  11.2,
+AddVertex,-0.7 ,  1 ,  11.2,
+AddVertex,-0.7 ,  3.2,  11.2,
+AddFace2,0,1,2,3
+LoadTexture,door2.bmp,door2.bmp
+SetTextureCoordinates,1,0,0
+SetTextureCoordinates,2,-1,0
+SetTextureCoordinates,3,-1,-1
+SetTextureCoordinates,0,0,-1
+setdecaltransparentcolor, 0,0,255
+
+CreateMeshBuilder,,,,,
+AddVertex,1.44 ,  3.3 ,  11.65,
+AddVertex,-1.44 ,  3.3 ,  11.65,
+AddVertex,1.44 ,  3.15 ,  11.65,
+AddVertex,-1.44 ,  3.15 ,  11.65,
+AddVertex,1.44 ,  3.15 ,  11.1,
+AddVertex,-1.44 ,  3.15 ,  11.1,
+AddFace,0,1,3,2
+AddFace,2,3,5,4
+LoadTexture,wall3.png,wall3.png
+SetTextureCoordinates,0,0,0.15
+SetTextureCoordinates,1,1,0.15
+SetTextureCoordinates,2,0,0.7
+SetTextureCoordinates,3,1,0.7
+SetTextureCoordinates,4,0,0.9
+SetTextureCoordinates,5,1,0.9
+
+CreateMeshBuilder,,,,,
+AddVertex,1.6 ,  3.2 ,  11.15,
+AddVertex,1.6 ,  1,  11.15,
+AddVertex,-1.6 ,  1 ,  11.15,
+AddVertex,-1.6 ,  3.2,  11.15,
+AddFace2,0,1,2,3
+LoadTexture,carfront1.bmp,carfront1.bmp
+SetTextureCoordinates,1,0,0
+SetTextureCoordinates,2,-1,0
+SetTextureCoordinates,3,-1,-1
+SetTextureCoordinates,0,0,-1
+setdecaltransparentcolor, 0,0,255
+
+ScaleAll,1,1.1,1

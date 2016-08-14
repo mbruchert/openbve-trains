@@ -1,0 +1,56 @@
+;Coupler for Euro 1.435m Standard Gaug Trailers
+;Set@ *.ANIMATED Position=+0,+0,+0.5*CarsLength
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[OBJECT]                      ;CPLR_HOSE
+States=Cplr_Hose.b3d
+RotateYFunction=3.142
+
+[OBJECT]                      ;CPLR_HOOK
+States=Cplr_Hook.b3d
+Position=+0.000,+1.000,+0.130
+
+[OBJECT]                      ;CPLR_IDLE
+States=Cplr_Link.b3d
+Position=+0.000,+0.815,-0.330
+StateFunction=If[(Cars<2)|(Abs[Round[Distance[0]]]<1),0,1]
+[OBJECT]
+States=Cplr_Loop.b3d
+Position=+0.000,+0.269,-0.330
+StateFunction=If[(Cars<2)|(Abs[Round[Distance[0]]]<1),0,1]
+[OBJECT]
+States=Cplr_Scrw.b3d
+Position=+0.000,+0.511,-0.330
+StateFunction=If[(Cars<2)|(Abs[Round[Distance[0]]]<1),0,1]
+
+[OBJECT]                      ;CPLR_SLAK
+States=Cplr_Link.b3d
+Position=+0.000,+0.975,-0.154
+StateFunction=If[(Cars>1)&(Abs[Round[Distance[0]]]>0)&((ReverserNotch<0&PowerNotch>0)|(Speed<0.0001|Acceleration<0.00001)),0,1]
+RotateXFunction=1.701
+[OBJECT]
+States=Cplr_Loop.b3d
+Position=+0.000,+0.965,+0.383
+StateFunction=If[(Cars>1)&(Abs[Round[Distance[0]]]>0)&((ReverserNotch<0&PowerNotch>0)|(Speed<0.0001|Acceleration<0.00001)),0,1]
+RotateXFunction=4.583
+[OBJECT]
+States=Cplr_Scrw.b3d
+Position=+0.000,+0.950,+0.146
+StateFunction=If[(Cars>1)&(Abs[Round[Distance[0]]]>0)&((ReverserNotch<0&PowerNotch>0)|(Speed<0.0001|Acceleration<0.00001)),0,1]
+RotateXFunction=1.571
+
+[OBJECT]                      ;CPLR_TENS
+States=Cplr_Link.b3d
+Position=+0.000,+1.000,-0.148
+StateFunction=If[(Cars>1)&(Abs[Round[Distance[0]]]>0)&(ReverserNotch>-1&Speed>0.0000&Acceleration>0.00000),0,1]
+RotateXFunction=1.571
+[OBJECT]
+States=Cplr_Loop.b3d
+Position=+0.000,+1.000,+0.392
+StateFunction=If[(Cars>1)&(Abs[Round[Distance[0]]]>0)&(ReverserNotch>-1&Speed>0.0000&Acceleration>0.00000),0,1]
+RotateXFunction=4.713
+[OBJECT]
+States=Cplr_Scrw.b3d
+Position=+0.000,+1.000,+0.152
+StateFunction=If[(Cars>1)&(Abs[Round[Distance[0]]]>0)&(ReverserNotch>-1&Speed>0.0000&Acceleration>0.00000),0,1]
+RotateXFunction=1.571

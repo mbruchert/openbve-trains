@@ -1,0 +1,622 @@
+﻿;Copyright: Alejandro Melo
+;http://clubedobvemex.blogspot.com
+;alejandrovargasmelo@yahoo.com.mx
+;https://www.facebook.com/OpenbveMexico
+
+;====================Coche Furgon Golden Arrow==================
+
+;EXTERIOR===================================================================
+
+;Lateral derecho------------------------------------------------------------
+
+[meshbuilder]
+vertex 1.42, 3.39, -11
+vertex 1.42, 3.39,  11
+vertex 1.42, 1,     11
+vertex 1.42, 1,    -11
+face 0,1,2,3
+[texture]
+load exterior.PNG
+coordinates 0,0,0
+coordinates 1,1,0
+coordinates 2,1,1
+coordinates 3,0,1
+transparent 0,255,0
+
+[meshbuilder]
+vertex 1.4, 3.39, -11
+vertex 1.4, 3.39,  11
+vertex 1.4, 1.1,   11
+vertex 1.4, 1.1,  -11
+face 3,2,1,0
+[Texture]
+load interior 1.png
+coordinates 0,0,0
+coordinates 1,1,0
+coordinates 2,1,1
+coordinates 3,0,1
+transparent 0,255,0
+
+;Lateral Izquierdo----------------------------------------------------------
+
+[meshbuilder]
+vertex -1.42, 3.39, -11
+vertex -1.42, 3.39,  11
+vertex -1.42, 1,    11
+vertex -1.42, 1,   -11
+face 3,2,1,0
+[texture]
+load exterior 2.PNG
+coordinates 0,0,0
+coordinates 1,1,0
+coordinates 2,1,1
+coordinates 3,0,1
+transparent 0,255,0
+
+[meshbuilder]
+vertex -1.4, 3.39, -11
+vertex -1.4, 3.39,  11
+vertex -1.4, 1.1,   11
+vertex -1.4, 1.1,  -11
+face 0,1,2,3
+[Texture]
+load interior 2.png
+coordinates 0,0,0
+coordinates 1,1,0
+coordinates 2,1,1
+coordinates 3,0,1
+transparent 0,255,0
+
+;TESTEROS===================================================================
+
+;Frontal--------------------------------------------------------------------
+
+[meshbuilder]
+vertex  1.42, 3.91, 11
+vertex -1.42, 3.91, 11
+vertex -1.42, 0.9,  11
+vertex  1.42, 0.9,  11
+face2 0,1,2,3
+[Texture]
+load ut01inter.PNG
+coordinates 0,0,0
+coordinates 1,1,0
+coordinates 2,1,1
+coordinates 3,0,1
+transparent 0,255,0
+Translate  0,-0.2,0
+
+[meshbuilder]
+vertex -1.42, 3.91, 11.6
+vertex  1.42, 3.91, 11.6
+vertex  1.42, 0.9,  11.6
+vertex -1.42, 0.9,  11.6
+face2 0,1,2,3
+[Texture]
+load sanfona.PNG
+coordinates 0,0,0
+coordinates 1,1,0
+coordinates 2,1,1
+coordinates 3,0,1
+transparent 0,255,0
+
+[meshbuilder]
+vertex  1.42, 3.43, 9.77
+vertex -1.42, 3.43, 9.77
+vertex -1.42, 1.1 , 9.77
+vertex  1.42, 1.1 , 9.77
+face2 0,1,2,3
+[Texture]
+load mampara.PNG
+coordinates 0,0,0
+coordinates 1,1,0
+coordinates 2,1,1
+coordinates 3,0,1
+transparent 255,255,255
+
+;burlete
+[meshbuilder]
+vertex 0.45, 3.35, 11
+vertex 0.45, 3.35, 11.6
+vertex 0.45, 1.1,  11.6
+vertex 0.45, 1.1,  11
+face2 0,1,2,3
+[texture]
+load burlete.png
+coordinates 0, 0, 0
+coordinates 1, 1, 0
+coordinates 2, 1, 1
+coordinates 3, 0, 1
+
+[meshbuilder]
+vertex -0.45, 3.35, 11
+vertex -0.45, 3.35, 11.6
+vertex -0.45, 1.1,  11.6
+vertex -0.45, 1.1,  11
+face2 0,1,2,3
+[texture]
+load burlete.png
+coordinates 0, 0, 0
+coordinates 1, 1, 0
+coordinates 2, 1, 1
+coordinates 3, 0, 1
+
+[meshbuilder]
+vertex  0.45, 3.35, 11
+vertex  0.45, 3.35, 11.6
+vertex -0.45, 3.35, 11.6
+vertex -0.45, 3.35, 11
+face2 0,1,2,3
+[texture]
+load burlete.png
+coordinates 0, 0, 0
+coordinates 1, 1, 0
+coordinates 2, 1, 1
+coordinates 3, 0, 1
+
+[meshbuilder]
+vertex  0.45, 1.1, 11
+vertex  0.45, 1.1, 11.6
+vertex -0.45, 1.1, 11.6
+vertex -0.45, 1.1, 11
+face2 0,1,2,3
+color 50,50,50
+
+[meshbuilder]
+vertex 1.05, 3.35, 11.1
+vertex 1.05, 3.35, 11.4
+vertex 1.1, 1.1,  11.4
+vertex 1.1, 1.1,  11.1
+face2 0,1,2,3
+[texture]
+load escalerilla.png
+coordinates 0, 0, 0
+coordinates 1, 1, 0
+coordinates 2, 1, 1
+coordinates 3, 0, 1
+transparent 255,255,255
+
+[meshbuilder]
+vertex -1.05, 3.35, 11.1
+vertex -1.05, 3.35, 11.4
+vertex -1.1, 1.1,  11.4
+vertex -1.1, 1.1,  11.1
+face2 0,1,2,3
+[texture]
+load escalerilla.png
+coordinates 0, 0, 0
+coordinates 1, 1, 0
+coordinates 2, 1, 1
+coordinates 3, 0, 1
+transparent 255,255,255
+
+;Cubitos raros
+
+[meshbuilder]
+cube 0.2, 0.7, 0.21
+translate -0.8, 2, -11.22
+color 111,55,0
+
+[meshbuilder]
+cube 0.2, 0.7, 0.21
+translate 0.8, 2, -11.22
+color 111,55,0
+
+[meshbuilder]
+cube 0.2, 0.7, 0.21
+translate -0.8, 2, 11.22
+color 111,55,0
+
+[meshbuilder]
+cube 0.2, 0.7, 0.21
+translate 0.8, 2, 11.22
+color 111,55,0
+
+;Trasero--------------------------------------------------------------------
+
+[meshbuilder]
+vertex -1.42, 3.71, -11
+vertex  1.42, 3.71, -11
+vertex  1.42, 0.7,  -11
+vertex -1.42, 0.7,  -11
+face2 0,1,2,3
+[Texture]
+load ut01inter.PNG
+coordinates 0,0,0
+coordinates 1,1,0
+coordinates 2,1,1
+coordinates 3,0,1
+transparent 0,255,0
+
+[meshbuilder]
+vertex  1.42, 3.43, -9.77
+vertex -1.42, 3.43, -9.77
+vertex -1.42, 1.1 , -9.77
+vertex  1.42, 1.1 , -9.77
+face2 0,1,2,3
+[Texture]
+load mampara.PNG
+coordinates 0,0,0
+coordinates 1,1,0
+coordinates 2,1,1
+coordinates 3,0,1
+transparent 255,255,255
+
+[meshbuilder]
+vertex -1.42, 4.2, -11.6
+vertex  1.42, 4.2, -11.6
+vertex  1.42, 0.9, -11.6
+vertex -1.42, 0.9, -11.6
+face2 0,1,2,3
+[Texture]
+load sanfona.PNG
+coordinates 0,0,0
+coordinates 1,1,0
+coordinates 2,1,1
+coordinates 3,0,1
+transparent 0,255,0
+Translate  0,-0.2,0
+
+;burlete
+[meshbuilder]
+vertex 0.45, 3.35, -11
+vertex 0.45, 3.35, -11.6
+vertex 0.45, 1.1,  -11.6
+vertex 0.45, 1.1,  -11
+face2 0,1,2,3
+[texture]
+load burlete.png
+coordinates 0, 0, 0
+coordinates 1, 1, 0
+coordinates 2, 1, 1
+coordinates 3, 0, 1
+
+[meshbuilder]
+vertex -0.45, 3.35, -11
+vertex -0.45, 3.35, -11.6
+vertex -0.45, 1.1,  -11.6
+vertex -0.45, 1.1,  -11
+face2 0,1,2,3
+[texture]
+load burlete.png
+coordinates 0, 0, 0
+coordinates 1, 1, 0
+coordinates 2, 1, 1
+coordinates 3, 0, 1
+
+[meshbuilder]
+vertex  0.45, 3.35, -11
+vertex  0.45, 3.35, -11.6
+vertex -0.45, 3.35, -11.6
+vertex -0.45, 3.35, -11
+face2 0,1,2,3
+[texture]
+load burlete.png
+coordinates 0, 0, 0
+coordinates 1, 1, 0
+coordinates 2, 1, 1
+coordinates 3, 0, 1
+
+[meshbuilder]
+vertex  0.45, 1.1, -11
+vertex  0.45, 1.1, -11.6
+vertex -0.45, 1.1, -11.6
+vertex -0.45, 1.1, -11
+face2 0,1,2,3
+color 50,50,50
+
+[meshbuilder]
+vertex 1.05, 3.35, -11.1
+vertex 1.05, 3.35, -11.4
+vertex 1.1, 1.1,  -11.4
+vertex 1.1, 1.1,  -11.1
+face2 0,1,2,3
+[texture]
+load escalerilla.png
+coordinates 0, 0, 0
+coordinates 1, 1, 0
+coordinates 2, 1, 1
+coordinates 3, 0, 1
+transparent 255,255,255
+
+[meshbuilder]
+vertex -1.05, 3.35, -11.1
+vertex -1.05, 3.35, -11.4
+vertex -1.1, 1.1,  -11.4
+vertex -1.1, 1.1,  -11.1
+face2 0,1,2,3
+[texture]
+load escalerilla.png
+coordinates 0, 0, 0
+coordinates 1, 1, 0
+coordinates 2, 1, 1
+coordinates 3, 0, 1
+transparent 255,255,255
+
+;TECHO======================================================================
+
+[meshbuilder]
+vertex -1.42, 3.39,  11
+vertex -1.3,  3.44,  11
+vertex -1.3,  3.44, -11
+vertex -1.42, 3.39, -11
+face 0,1,2,3
+color 150,150,150
+[meshbuilder]
+vertex -1.3,  3.44,  11
+vertex -1.15, 3.48,  11
+vertex -1.15, 3.48, -11
+vertex -1.3,  3.44, -11
+face 0,1,2,3
+color 150,150,150
+
+[meshbuilder]
+vertex -1.15, 3.48,  11
+vertex -0.9,  3.54,  11
+vertex -0.9,  3.54, -11
+vertex -1.15, 3.48, -11
+face 0,1,2,3
+color 150,150,150
+[meshbuilder]
+vertex -0.9, 3.54,  11
+vertex -0.7, 3.57,  11
+vertex -0.7, 3.57, -11
+vertex -0.9, 3.54, -11
+face 0,1,2,3
+color 150,150,150
+
+[meshbuilder]
+vertex -0.7, 3.57,  11
+vertex -0.3, 3.62,  11
+vertex -0.3, 3.62, -11
+vertex -0.7, 3.57, -11
+face 0,1,2,3
+color 150,150,150
+[meshbuilder]
+vertex -0.3, 3.62,  11
+vertex -0,   3.63,  11
+vertex -0,   3.63, -11
+vertex -0.3, 3.62, -11
+face 0,1,2,3
+color 150,150,150
+
+;---------------------------------------------------------------------------
+
+[meshbuilder]
+vertex 1.42, 3.39,  11
+vertex 1.3,  3.44,  11
+vertex 1.3,  3.44, -11
+vertex 1.42, 3.39, -11
+face 3,2,1,0
+color 150,150,150
+[meshbuilder]
+vertex 1.3,  3.44,  11
+vertex 1.15, 3.48,  11
+vertex 1.15, 3.48, -11
+vertex 1.3,  3.44, -11
+face 3,2,1,0
+color 150,150,150
+
+[meshbuilder]
+vertex 1.15, 3.48,  11
+vertex 0.9,  3.54,  11
+vertex 0.9,  3.54, -11
+vertex 1.15, 3.48, -11
+face 3,2,1,0
+color 150,150,150
+[meshbuilder]
+vertex 0.9, 3.54,  11
+vertex 0.7, 3.57,  11
+vertex 0.7, 3.57, -11
+vertex 0.9, 3.54, -11
+face 3,2,1,0
+color 150,150,150
+
+[meshbuilder]
+vertex 0.7, 3.57,  11
+vertex 0.3, 3.62,  11
+vertex 0.3, 3.62, -11
+vertex 0.7, 3.57, -11
+face 3,2,1,0
+color 150,150,150
+[meshbuilder]
+vertex 0.3, 3.62,  11
+vertex 0,   3.63,  11
+vertex 0,   3.63, -11
+vertex 0.3, 3.62, -11
+face 3,2,1,0
+color 150,150,150
+
+[meshbuilder]
+vertex  1.42, 3.34,  11
+vertex -1.42, 3.34,  11
+vertex -1.42, 3.34, -11
+vertex  1.42, 3.34, -11
+face2 0,1,2,3
+[texture]
+load techo.PNG
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,1,0
+coordinates 3,1,1
+transparent 0,255,0
+
+;PISO=======================================================================
+
+[meshbuilder]
+vertex  1.42, 1.1,  11
+vertex  1.42, 1.1, -11
+vertex -1.42, 1.1, -11
+vertex -1.42, 1.1,  11
+face 0,1,2,3
+[texture]
+load Piso.PNG
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,1,0
+coordinates 3,1,1
+transparent 0,0,40
+
+[meshbuilder]
+vertex -1.42, 1.1,  11
+vertex -1.42, 1.1, -11
+vertex  1.42, 1.1, -11
+vertex  1.42, 1.1,  11
+face 0,1,2,3
+color 0,0,0
+
+[meshbuilder]
+cube 0.3, 0.27, 1
+translate 1.1, 0.7, 2.5
+color 20,20,20
+
+[meshbuilder]
+cube 0.3, 0.27, 1
+translate 1.1, 0.7, -2.5
+color 20,20,20
+
+[meshbuilder]
+cube 0.3, 0.2, 0.5
+translate 1.1, 0.9, 0
+color 20,20,20
+
+[meshbuilder]
+cube 0.3, 0.27, 1
+translate -1.1, 0.7, 2.5
+color 20,20,20
+
+[meshbuilder]
+cube 0.3, 0.27, 1
+translate -1.1, 0.7, -2.5
+color 20,20,20
+
+[meshbuilder]
+cube 0.3, 0.2, 0.5
+translate -1.1, 0.9, 0
+color 20,20,20
+
+;Porta aununcios------------------------------------------------------------
+
+[meshbuilder]
+vertex -1.425, 1.9,   0.99
+vertex -1.425, 1.9,  -0.05
+vertex -1.425, 1.15, -0.05
+vertex -1.425, 1.15,  0.99
+face 0,1,2,3
+[texture]
+load ndem 2.png
+coordinates 0, 0, 0
+coordinates 1, 1, 0
+coordinates 2, 1, 1
+coordinates 3, 0, 1
+
+[meshbuilder]
+vertex 1.425, 1.9,  -0.05
+vertex 1.425, 1.9,   0.99
+vertex 1.425, 1.15,  0.99
+vertex 1.425, 1.15, -0.05
+face 0,1,2,3
+[texture]
+load ndem 2.png
+coordinates 0, 0, 0
+coordinates 1, 1, 0
+coordinates 2, 1, 1
+coordinates 3, 0, 1
+
+[meshbuilder]
+vertex 1.425, 3.25, -9.21
+vertex 1.425, 3.25,  9.21
+vertex 1.425, 3.14,  9.21
+vertex 1.425, 3.14, -9.21
+face 0,1,2,3
+[texture]
+load ciwl.png
+coordinates 0, 0, 0
+coordinates 1, 1, 0
+coordinates 2, 1, 1
+coordinates 3, 0, 1
+transparent 9,55,71
+
+[meshbuilder]
+vertex -1.425, 3.25,  9.21
+vertex -1.425, 3.25, -9.21
+vertex -1.425, 3.14, -9.21
+vertex -1.425, 3.14,  9.21
+face 0,1,2,3
+[texture]
+load ciwl.png
+coordinates 0, 0, 0
+coordinates 1, 1, 0
+coordinates 2, 1, 1
+coordinates 3, 0, 1
+transparent 9,55,71
+
+;Puertas--------------------------------------------------------
+
+[meshbuilder]
+vertex 1.2, 3.34, -9.77
+vertex 1.2, 3.34, -11
+vertex 1.2, 1,    -11
+vertex 1.2, 1,    -9.77
+face2 0,1,2,3
+[texture]
+load puerta.PNG
+coordinates 0,0,0
+coordinates 1,1,0
+coordinates 2,1,1
+coordinates 3,0,1
+transparent 0,255,0
+
+[meshbuilder]
+vertex -1.2, 3.34, -9.77
+vertex -1.2, 3.34, -11
+vertex -1.2, 1,    -11
+vertex -1.2, 1,    -9.77
+face2 0,1,2,3
+[texture]
+load puerta.PNG
+coordinates 0,0,0
+coordinates 1,1,0
+coordinates 2,1,1
+coordinates 3,0,1
+transparent 0,255,0
+
+[meshbuilder]
+vertex 1.2, 3.34, 9.77
+vertex 1.2, 3.34, 11
+vertex 1.2, 1,    11
+vertex 1.2, 1,    9.77
+face2 0,1,2,3
+[texture]
+load puerta.PNG
+coordinates 0,0,0
+coordinates 1,1,0
+coordinates 2,1,1
+coordinates 3,0,1
+transparent 0,255,0
+
+[meshbuilder]
+vertex -1.2, 3.34, 9.77
+vertex -1.2, 3.34, 11
+vertex -1.2, 1,    11
+vertex -1.2, 1,    9.77
+face2 0,1,2,3
+[texture]
+load puerta.PNG
+coordinates 0,0,0
+coordinates 1,1,0
+coordinates 2,1,1
+coordinates 3,0,1
+transparent 0,255,0
+
+;Topes==========================================================
+
+[meshbuilder]
+Cube 0.1, 0.1, 11.59
+Color 0,0,0
+translate -1, 1.04, 0
+
+[meshbuilder]
+Cube 0.1, 0.1, 11.59
+Color 0,0,0
+translate 1, 1.04, 0

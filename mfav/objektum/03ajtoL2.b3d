@@ -1,0 +1,165 @@
+[Meshbuilder]
+Cube 0.04, 0.04, 0.36
+Color 197,138,0
+Translate 1.135, 0.43, -3.82
+[Meshbuilder]
+Cube 0.04, 0.04, 0.36
+Color 197,138,0
+Translate 1.135, 2.36, -3.82
+[MeshBuilder]
+Cube 0.025,0.925,0.02
+Color 93,89,44
+Translate 1.135,1.395,-3.48
+
+[Meshbuilder]
+Cube 0.04, 0.04, 0.36
+Color 197,138,0
+Translate 1.135, 0.43, -6.67
+[Meshbuilder]
+Cube 0.04, 0.04, 0.36
+Color 197,138,0
+Translate 1.135, 2.36, -6.67
+[MeshBuilder]
+Cube 0.025,0.925,0.02
+Color 93,89,44
+Translate 1.135,1.395,-6.33
+
+[MeshBuilder] ;külsõ ajtók
+Vertex 1.15, 2.32, -3.5   ;0
+Vertex 1.15, 2.32, -4.18  ;1
+Vertex 1.15, 0.47, -4.18  ;2
+Vertex 1.15, 0.47, -3.5   ;3
+Vertex 1.15, 2.32, -4.86  ;4
+Vertex 1.15, 0.47, -4.86  ;5
+Vertex 1.15, 2.32, -6.35  ;6
+Vertex 1.15, 2.32, -7.03  ;7
+Vertex 1.15, 0.47, -7.03  ;8
+Vertex 1.15, 0.47, -6.35  ;9
+Vertex 1.15, 2.32, -7.71  ;10
+Vertex 1.15, 0.47, -7.71  ;11
+Vertex -1.15, 2.32, -4.86 ;12
+Vertex -1.15, 2.32, -4.18 ;13
+Vertex -1.15, 0.47, -4.18 ;14
+Vertex -1.15, 0.47, -4.86 ;15
+Vertex -1.15, 2.32, -3.5  ;16
+Vertex -1.15, 0.47, -3.5  ;17
+Vertex -1.15, 2.32, -7.71 ;18
+Vertex -1.15, 2.32, -7.03 ;19
+Vertex -1.15, 0.47, -7.03 ;20
+Vertex -1.15, 0.47, -7.71 ;21
+Vertex -1.15, 2.32, -6.35 ;22
+Vertex -1.15, 0.47, -6.35 ;23
+Face 3,2,1,0 ;jobb 1/1
+;Face 2,5,4,1 ;jobb 1/2
+Face 9,8,7,6 ;jobb 2/1
+;Face 8,11,10,7 ;jobb 2/2
+;Face 15,14,13,12 ;bal 1/1
+;Face 14,17,16,13 ;bal 1/2
+;Face 21,20,19,18 ;bal 2/1
+;Face 20,23,22,19 ;bal 2/2
+[Texture]
+Load mfav_ajto.bmp
+Coordinates 0,0,0
+Coordinates 1,0.5,0
+Coordinates 2,0.5,1
+Coordinates 3,0,1
+Coordinates 4,0,0
+Coordinates 5,0,1
+Coordinates 6,0,0
+Coordinates 7,0.5,0
+Coordinates 8,0.5,1
+Coordinates 9,0,1
+Coordinates 10,0,0
+Coordinates 11,0,1
+Coordinates 12,0,0
+Coordinates 13,0.5,0
+Coordinates 14,0.5,1
+Coordinates 15,0,1
+Coordinates 16,0,0
+Coordinates 17,0,1
+Coordinates 18,0,0
+Coordinates 19,0.5,0
+Coordinates 20,0.5,1
+Coordinates 21,0,1
+Coordinates 22,0,0
+Coordinates 23,0,1
+Transparent 255,0,0
+
+[MeshBuilder] ;belsõ ajtók
+Vertex 1.15, 2.32, -3.5   ;0
+Vertex 1.15, 2.32, -4.18  ;1
+Vertex 1.15, 0.47, -4.18  ;2
+Vertex 1.15, 0.47, -3.5   ;3
+Vertex 1.15, 2.32, -4.86  ;4
+Vertex 1.15, 0.47, -4.86  ;5
+Vertex 1.15, 2.32, -6.35  ;6
+Vertex 1.15, 2.32, -7.03  ;7
+Vertex 1.15, 0.47, -7.03  ;8
+Vertex 1.15, 0.47, -6.35  ;9
+Vertex 1.15, 2.32, -7.71  ;10
+Vertex 1.15, 0.47, -7.71  ;11
+Vertex -1.15, 2.32, -4.86 ;12
+Vertex -1.15, 2.32, -4.18 ;13
+Vertex -1.15, 0.47, -4.18 ;14
+Vertex -1.15, 0.47, -4.86 ;15
+Vertex -1.15, 2.32, -3.5  ;16
+Vertex -1.15, 0.47, -3.5  ;17
+Vertex -1.15, 2.32, -7.71 ;18
+Vertex -1.15, 2.32, -7.03 ;19
+Vertex -1.15, 0.47, -7.03 ;20
+Vertex -1.15, 0.47, -7.71 ;21
+Vertex -1.15, 2.32, -6.35 ;22
+Vertex -1.15, 0.47, -6.35 ;23
+Face 2,3,0,1;jobb 1/1
+;Face 5,2,1,4;jobb 1/2
+Face 8,9,6,7;jobb 2/1
+;Face 11,8,7,10;jobb 2/2
+;Face 14,15,12,13;bal 1/1
+;Face 17,14,13,16;bal 1/2
+;Face 20,21,18,19;bal 2/1
+;Face 23,20,19,22;bal 2/2
+[Texture]
+Load mfav_ajto.bmp
+Coordinates 0,0.5,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0.5,1
+Coordinates 4,0.5,0
+Coordinates 5,0.5,1
+Coordinates 6,0.5,0
+Coordinates 7,1,0
+Coordinates 8,1,1
+Coordinates 9,0.5,1
+Coordinates 10,0.5,0
+Coordinates 11,0.5,1
+Coordinates 12,0.5,0
+Coordinates 13,1,0
+Coordinates 14,1,1
+Coordinates 15,0.5,1
+Coordinates 16,0.5,0
+Coordinates 17,0.5,1
+Coordinates 18,0.5,0
+Coordinates 19,1,0
+Coordinates 20,1,1
+Coordinates 21,0.5,1
+Coordinates 22,0.5,0
+Coordinates 23,0.5,1
+Transparent 255,0,0
+EmissiveColor 255,255,255
+
+;Ablak
+[MeshBuilder]
+Vertex 1.14, 2.32, -3.5   ;0
+Vertex 1.14, 2.32, -4.18  ;1
+Vertex 1.14, 0.47, -4.18  ;2
+Vertex 1.14, 0.47, -3.5   ;3
+Vertex 1.14, 2.32, -6.35  ;4
+Vertex 1.14, 2.32, -7.03  ;5
+Vertex 1.14, 0.47, -7.03  ;6
+Vertex 1.14, 0.47, -6.35  ;7
+Face2 3,2,1,0 ;jobb 1/1
+Face2 7,6,5,4 ;jobb 2/1
+Color 100,100,100,80
+
+TranslateAll 0.015,0,5
+RotateAll 0,1,0,180

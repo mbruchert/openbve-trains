@@ -1,0 +1,276 @@
+[Meshbuilder] ;oldalkép jobb
+Vertex   1.001,0.17,1.13
+Vertex   1.001,0.17,-1.13
+Vertex   1.001,0.85,-1.13
+Vertex   1.001,0.85,1.13
+face2 0,1,2,3
+[Texture]
+Load oldalkep.png
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+Coordinates 0,1,1
+Transparent 255,0,255
+
+[Meshbuilder] ;oldalkép bal
+Vertex  -1.001,0.17,1.13
+Vertex  -1.001,0.17,-1.13
+Vertex  -1.001,0.85,-1.13
+Vertex  -1.001,0.85,1.13
+face2 3,2,1,0
+[Texture]
+Load oldalkep.png
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+Coordinates 0,1,1
+Transparent 255,0,255;------------------
+
+
+[Meshbuilder]; kocka
+cube 0.32,0.21,0.85
+Color 20,20,20
+Translate 0,0.4,0
+
+[Meshbuilder]; csap
+cylinder 15,0.15,0.15,0.35
+Color 20,20,20
+Translate 0,0.68,0
+
+[Meshbuilder]; elsõ kereszt tartó
+cube 0.92,0.065,0.010
+Color 20,20,20
+Translate 0,0.335,1.110
+
+[Meshbuilder]; hátsó kereszt tartó
+cube 0.92,0.065,0.010
+Color 20,20,20
+Translate 0,0.335,-1.110
+;                             ütközõ elsõ
+[Meshbuilder]; tölcsér
+Cylinder 15,0.1,0.05,0.1
+Rotate 1,0,0,90
+Color 20,20,20
+Translate 0,0.80,1.46
+
+[Meshbuilder];rudazat
+Cylinder 15,0.05,0.05,1.55
+Rotate 1,0,0,90
+Color 20,20,20
+Translate 0,0.80,0.8
+
+[Meshbuilder] ;tányér
+Cylinder 15,0.17,0.17,0.05
+Rotate 1,0,0,90
+Color 30,30,30
+Translate 0,0.80,1.535
+
+[Meshbuilder] ;elsõ fellépõ viz fekete 1
+Cube 0.0800,0.0040,0.080
+Color 30,30,30
+Translate -0.809,0.398,1.166
+[Meshbuilder] ;elsõ fellépõ viz fekete 2
+Cube 0.0100,0.0058,0.080
+Rotate 0,0,1, 45
+Color 25,25,25
+Translate -0.726,0.405,1.166
+[Meshbuilder] ;elsõ fellépõ viz fekete 3
+Cube 0.0100,0.0058,0.080
+Rotate 0,0,1,-45
+Color 25,25,25
+Translate -0.892,0.405,1.166
+
+[Meshbuilder]; váz akasztó függ
+cylinder 15,0.010,0.010,0.20
+Color 20,20,20
+Translate -0.7,0.24,1.124
+
+[Meshbuilder]; váz akasztó függ 2
+cylinder 15,0.010,0.010,0.20
+Color 20,20,20
+Translate -0.55,0.24,1.124
+
+[Meshbuilder]; váz akasztó víz
+cylinder 15,0.010,0.010,0.17
+Rotate 0,0,1,90
+Color 20,20,20
+Translate -0.625,0.14,1.124
+
+[Meshbuilder] ;jobb váz ívekkel
+Vertex  1,0.400,-1.120
+Vertex  1,0.642,-0.89
+Vertex  0.9,0.642,-0.89
+Vertex  0.9,0.400,-1.120
+Vertex  1,0.642,-0.49
+Vertex  0.9,0.642,-0.49 ;p5
+Vertex  1,0.508,-0.32
+Vertex  0.9,0.508,-0.32
+Vertex  1,0.508, 0.42
+Vertex  0.9,0.508, 0.42
+Vertex  1,0.642, 0.58 ;p10
+Vertex  0.9,0.642, 0.58 
+Vertex  1,0.642, 0.89
+Vertex  0.9,0.642, 0.89
+Vertex  1,0.400, 1.120
+Vertex  0.9,0.400, 1.120 ;p15
+Vertex  1,0.270, 1.120
+Vertex  0.9,0.270, 1.120 
+Vertex  1,0.270,-1.120
+Vertex  0.9,0.270,-1.120
+Face 3,2,1,0
+Face 1,2,5,4
+Face 4,5,7,6
+Face 6,7,9,8
+Face 8,9,11,10
+Face 10,11,13,12
+Face 12,13,15,14
+Face 14,15,17,16
+Face 16,17,19,18
+Face 18,19,3,0;---------innen a jobb fedés
+Face 0,1,4,6
+Face 8,10,12,14
+Face 0,6,8,14,16,18>---------innen a bal fedés
+Face 3,7,5,2
+Face 15,13,11,9
+Face 19,17,15,9,7,3
+Color 20,20,20;--------------------------
+
+[Meshbuilder] ;jobb váz belsõ ívekkel
+Vertex  0.65,0.400,-1.120
+Vertex  0.65,0.642,-0.89
+Vertex  0.45,0.642,-0.89
+Vertex  0.45,0.400,-1.120
+Vertex  0.65,0.642,-0.49
+Vertex  0.45,0.642,-0.49 ;p5
+Vertex  0.65,0.508,-0.32
+Vertex  0.45,0.508,-0.32
+Vertex  0.65,0.508, 0.42
+Vertex  0.45,0.508, 0.42
+Vertex  0.65,0.642, 0.58 ;p10
+Vertex  0.45,0.642, 0.58
+Vertex  0.65,0.642, 0.89
+Vertex  0.45,0.642, 0.89
+Vertex  0.65,0.400, 1.120
+Vertex  0.45,0.400, 1.120 ;p15
+Vertex  0.65,0.270, 1.120
+Vertex  0.45,0.270, 1.120
+Vertex  0.65,0.270,-1.120
+Vertex  0.45,0.270,-1.120
+Face 3,2,1,0
+Face 1,2,5,4
+Face 4,5,7,6
+Face 6,7,9,8
+Face 8,9,11,10
+Face 10,11,13,12
+Face 12,13,15,14
+Face 14,15,17,16
+Face 16,17,19,18
+Face 18,19,3,0;---------innen a jobb fedés
+Face 0,1,4,6
+Face 8,10,12,14
+Face 0,6,8,14,16,18>---------innen a bal fedés
+Face 3,7,5,2
+Face 15,13,11,9
+Face 19,17,15,9,7,3
+Color 20,20,20;--------------------------
+
+[Meshbuilder] ;bal váz ívekkel
+Vertex -1,0.400,-1.120
+Vertex -1,0.642,-0.89
+Vertex -0.9,0.642,-0.89
+Vertex -0.9,0.400,-1.120
+Vertex -1,0.642,-0.49
+Vertex -0.9,0.642,-0.49 ;p5
+Vertex -1,0.508,-0.32
+Vertex -0.9,0.508,-0.32
+Vertex -1,0.508, 0.42
+Vertex -0.9,0.508, 0.42
+Vertex -1,0.642, 0.58 ;p10
+Vertex -0.9,0.642, 0.58 
+Vertex -1,0.642, 0.89
+Vertex -0.9,0.642, 0.89
+Vertex -1,0.400, 1.120
+Vertex -0.9,0.400, 1.120 ;p15
+Vertex -1,0.270, 1.120
+Vertex -0.9,0.270, 1.120 
+Vertex -1,0.270,-1.120
+Vertex -0.9,0.270,-1.120
+Face 0,1,2,3
+Face 4,5,2,1
+Face 6,7,5,4
+Face 8,9,7,6
+Face 10,11,9,8
+Face 12,13,11,10
+Face 14,15,13,12
+Face 16,17,15,14
+Face 18,19,17,16
+Face 0,3,19,18;---------innen a bal fedés
+Face 6,4,1,0
+Face 14,12,10,8
+Face 18,16,14,8,6,0>---------innen a jobb fedés
+Face 2,5,7,3
+Face 9,11,13,15
+Face 3,7,9,15,17,19
+Color 20,20,20;--------------------------
+
+[Meshbuilder] ;bal váz belsõ ívekkel
+Vertex -0.65,0.400,-1.120
+Vertex -0.65,0.642,-0.89
+Vertex -0.45,0.642,-0.89
+Vertex -0.45,0.400,-1.120
+Vertex -0.65,0.642,-0.49
+Vertex -0.45,0.642,-0.49 ;p5
+Vertex -0.65,0.508,-0.32
+Vertex -0.45,0.508,-0.32
+Vertex -0.65,0.508, 0.42
+Vertex -0.45,0.508, 0.42
+Vertex -0.65,0.642, 0.58 ;p10
+Vertex -0.45,0.642, 0.58
+Vertex -0.65,0.642, 0.89
+Vertex -0.45,0.642, 0.89
+Vertex -0.65,0.400, 1.120
+Vertex -0.45,0.400, 1.120 ;p15
+Vertex -0.65,0.270, 1.120
+Vertex -0.45,0.270, 1.120
+Vertex -0.65,0.270,-1.120
+Vertex -0.45,0.270,-1.120
+Face 0,1,2,3
+Face 4,5,2,1
+Face 6,7,5,4
+Face 8,9,7,6
+Face 10,11,9,8
+Face 12,13,11,10
+Face 14,15,13,12
+Face 16,17,15,14
+Face 18,19,17,16
+Face 0,3,19,18;---------innen a bal fedés
+Face 6,4,1,0
+Face 14,12,10,8
+Face 18,16,14,8,6,0>---------innen a jobb fedés
+Face 2,5,7,3
+Face 9,11,13,15
+Face 3,7,9,15,17,19
+Color 20,20,20;--------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

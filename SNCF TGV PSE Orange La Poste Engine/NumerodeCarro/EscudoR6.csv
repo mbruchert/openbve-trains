@@ -1,0 +1,27 @@
+;;Escurdo;;
+CreateMeshBuilder,;;;
+AddVertex,-1.406, 2.78, 15.8,
+AddVertex,-1.406, 2.78, 15.59,
+AddVertex,-1.406, 2.35, 15.8,
+AddVertex,-1.406, 2.35, 15.59,
+Addface,0,1,3,2
+Translate,0,-0.5,-22.36,
+LoadTexture,V6.png
+SetTextureCoordinates,0,0,0
+SetTextureCoordinates,1,1,0
+SetTextureCoordinates,2,0,1
+SetTextureCoordinates,3,1,1
+SetDecalTransparentColor,0,0,255
+CreateMeshBuilder,;;;
+AddVertex,1.406, 2.78, 15.8,
+AddVertex,1.406, 2.78, 15.59,
+AddVertex,1.406, 2.35, 15.8,
+AddVertex,1.406, 2.35, 15.59,
+Addface,1,0,2,3
+Translate,0,-0.5,-22.36,
+LoadTexture,V6.png
+SetTextureCoordinates,0,0,0
+SetTextureCoordinates,1,-1,0
+SetTextureCoordinates,2,0,1
+SetTextureCoordinates,3,-1,1
+SetDecalTransparentColor,0,0,255

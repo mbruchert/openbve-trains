@@ -1,0 +1,45 @@
+[object]
+States = R188 C.b3d
+
+ [object]
+    States = door1.b3d
+    TranslateZFunction = 0.910 * leftdoors
+    Position = 0,0,0.40
+
+ [object]
+    States = door2.b3d
+    TranslateZFunction = -0.910 * leftdoors
+    Position = -0,0,0.39
+   
+ [object]
+    States = door3.b3d
+    TranslateZFunction = 0.910 * Rightdoors
+    Position = 0,0,0.40
+
+ [object]
+    States = door4.b3d
+    TranslateZFunction = -0.910 * Rightdoors
+    Position = 0,0,0.39
+
+
+
+
+
+[object]
+States = INTERIOR SIGN 1.b3d, INTERIOR SIGN 2.b3d, INTERIOR SIGN 3.b3d, INTERIOR SIGN 4.b3d
+StateFunction = floor[mod[Time * 0.5, 4]]
+
+
+
+
+[object]
+States = ANIMATED SIGN 1 RIGHT.b3d, ANIMATED SIGN 2 RIGHT.b3d, ANIMATED SIGN 3 RIGHT.b3d, ANIMATED SIGN 4 RIGHT.b3d
+StateFunction = floor[mod[Time * 0.5, 4]]
+Position = 0,0,-4.64
+
+
+
+[object]
+States = ANIMATED SIGN 1 LEFT.b3d, ANIMATED SIGN 2 LEFT.b3d, ANIMATED SIGN 3 LEFT.b3d, ANIMATED SIGN 4 LEFT.b3d
+StateFunction = floor[mod[Time * 0.5, 4]]
+Position = 0,0,5.44

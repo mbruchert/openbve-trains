@@ -1,0 +1,12 @@
+[Object]
+States = Bogie.csv
+
+[Object]
+States = Rueda.b3d
+Position = 0.016, 0.64, -1.5
+RotateXFunction = value + delta * speedometer / 0.6
+[Object]
+States = Rueda.b3d
+Position = 0.016, 0.64, 1.5
+RotateXFunction = value + delta * speedometer / 0.6
+

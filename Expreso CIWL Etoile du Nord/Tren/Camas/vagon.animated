@@ -1,0 +1,97 @@
+[object]
+States=vagon.csv
+
+[object]
+States=techo.csv
+Position=0,-1.25,0
+
+[object]
+States=techo curvo.csv
+Position=0,-1.06,11.52
+[object]
+States=techo curvo 2.csv
+Position=0,-1.06,-11.52
+
+;Escaleras
+
+[Object]
+States=Escaleras.b3d
+Position=0,0,11.57
+[Object]
+States=Escaleras.b3d
+Position=0,0,-11.57
+
+;Asientos
+
+[object]
+Position = 0.75, 1.2, 8.69
+States=asiento.b3d
+[object]
+Position = 0.75, 1.2, 7
+States=asiento.b3d
+[object]
+Position = 0.75, 1.2, 5.34
+States=asiento.b3d
+[object]
+Position = 0.75, 1.2, 3.63
+States=asiento.b3d
+[object]
+Position = 0.75, 1.2, 1.98
+States=asiento.b3d
+[object]
+Position = 0.75, 1.2, 0.3
+States=asiento.b3d
+[object]
+Position = 0.75, 1.2, -1.37
+States=asiento.b3d
+[object]
+Position = 0.75, 1.2, -3.04
+States=asiento.b3d
+[object]
+Position = 0.75, 1.2, -4.71
+States=asiento.b3d
+[object]
+Position = 0.75, 1.2, -6.38
+States=asiento.b3d
+[object]
+Position = 0.75, 1.2, -8.06
+States=asiento.b3d
+[object]
+Position = 0.75, 1.2, -9.73
+States=asiento.b3d
+
+;Mesas---------------------------------------------------------
+
+[object]
+States=mesa.b3d
+Position=0.89,1.4,7.84
+[object]
+States=mesa.b3d
+Position=0.89,1.4,6.17
+[object]
+States=mesa.b3d
+Position=0.89,1.4,4.5
+[object]
+States=mesa.b3d
+Position=0.89,1.4,2.85
+[object]
+States=mesa.b3d
+Position=0.89,1.4,1.15
+[object]
+States=mesa.b3d
+Position=0.89,1.4,-0.51
+[object]
+States=mesa.b3d
+Position=0.89,1.4,-2.2
+[object]
+States=mesa.b3d
+Position=0.89,1.4,-3.87
+[object]
+States=mesa.b3d
+Position=0.89,1.4,-5.52
+[object]
+States=mesa.b3d
+Position=0.89,1.4,-7.2
+[object]
+States=mesa.b3d
+Position=0.89,1.4,-8.88

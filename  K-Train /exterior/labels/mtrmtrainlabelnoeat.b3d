@@ -1,0 +1,16 @@
+[MeshBuilder]
+Vertex 0,0,0,0,50,0
+Vertex 0,0,0.173,0,50,0
+Vertex 0,-0.22,0.173,0,50,0
+Vertex 0,-0.22,0,0,50,0
+Face 0,1,2,3
+Load mtrmtrainlabelnoeat.bmp
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+transparent 255,255,255
+translate 0.313,0.60.55,-2.11
+EmissiveColor 220,220,220
+Rotate 0,0,2,-48.8
+ScaleAll 1.1,1.1,1.1

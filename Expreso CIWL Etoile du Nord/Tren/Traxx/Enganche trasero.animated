@@ -1,0 +1,23 @@
+;Coupler for Euro 1.435m Standard Gaug Trailers
+;Set@ *.ANIMATED Position=+0,+0,-0.5*CarsLength
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+
+[OBJECT]                      ;CPLR_HOSE
+States=Cplr_Hose.b3d
+
+[OBJECT]                      ;CPLR_HOOK
+States=Cplr_Hook.b3d
+Position=+0.000,+1.000,-0.130
+RotateYFunction=3.142
+
+[OBJECT]                      ;CPLR_IDLE
+States=Cplr_Link.b3d
+Position=+0.000,+0.815,+0.330
+[OBJECT]
+States=Cplr_Loop.b3d
+Position=+0.000,+0.269,+0.330
+[OBJECT]
+States=Cplr_Scrw.b3d
+Position=+0.000,+0.511,+0.330
+RotateYFunction=3.142

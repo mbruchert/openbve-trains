@@ -1,0 +1,566 @@
+[Meshbuilder]; váz jobb fekete
+Cube 0.005,0.090,0.745
+Color 20,20,20
+Translate  0.92,0.64,0.450
+[Meshbuilder]; váz jobb fekete víz felsõ
+Cube 0.060,0.005,0.745
+Color 20,20,20
+Translate  0.92,0.735,0.450
+[Meshbuilder]; váz jobb fekete víz alsó
+Cube 0.060,0.005,0.745
+Color 20,20,20
+Translate  0.92,0.55,0.450
+[Meshbuilder]; váz bal fekete
+Cube 0.005,0.090,0.745
+Color 20,20,20
+Translate -0.92,0.64,0.450
+[Meshbuilder]; váz bal fekete víz felsõ
+Cube 0.060,0.005,0.745
+Color 20,20,20
+Translate -0.92,0.735,0.450
+[Meshbuilder]; váz bal fekete víz alsó
+Cube 0.060,0.005,0.745
+Color 20,20,20
+Translate -0.92,0.55,0.450
+[Meshbuilder]; váz elsõ fekete
+Cube 0.925,0.090,0.005
+Color 20,20,20
+Translate  0,0.64,1.195
+[Meshbuilder]; váz elsõ fekete víz felsõ
+Cube 0.980,0.005,0.060
+Color 20,20,20
+Translate  0,0.735,1.195
+[Meshbuilder]; váz elsõ fekete víz alsó
+Cube 0.980,0.005,0.060
+Color 20,20,20
+Translate  0,0.55,1.195
+[Meshbuilder]; váz hátsó 1 fekete
+Cube 0.925,0.090,0.040
+Color 20,20,20
+Translate  0,0.64,0.040
+[Meshbuilder]; váz hátsó 2 fekete
+Cube 0.925,0.090,0.040
+Color 20,20,20
+Translate  0,0.64,-0.155
+[Meshbuilder]; váz középsõ jobb fekete víz felsõ
+Cube 0.025,0.010,0.715
+Rotate 0,1,0,5
+Color 20,20,20
+Translate  0.34,0.742,0.530
+[Meshbuilder]; váz középsõ jobb fekete függ felsõ
+Cube 0.005,0.020,0.715
+Rotate 0,1,0,5
+Color 20,20,20
+Translate  0.31,0.752,0.5328
+[Meshbuilder]; váz középsõ bal fekete víz felsõ
+Cube 0.025,0.010,0.715
+Rotate 0,1,0,-5
+Color 20,20,20
+Translate -0.34,0.742,0.530
+[Meshbuilder]; váz középsõ bal fekete függ felsõ
+Cube 0.005,0.020,0.715
+Rotate 0,1,0,-5
+Color 20,20,20
+Translate -0.31,0.752,0.5328;--------------------------------
+[Meshbuilder]; motor
+vertex -0.45,0.290,1.1
+vertex  0.45,0.290,1.1
+vertex  0.45,0.640,1.1
+vertex -0.45,0.640,1.1
+vertex  0.45,0.680,1.080
+vertex -0.45,0.680,1.080;5
+vertex  0.45,0.710,1.040
+vertex -0.45,0.710,1.040
+vertex  0.45,0.730,0.990
+vertex -0.45,0.730,0.990
+vertex  0.45,0.730,0.250;10
+vertex -0.45,0.730,0.250
+vertex  0.45,0.710,0.200
+vertex -0.45,0.710,0.200
+vertex  0.45,0.680,0.160
+vertex -0.45,0.680,0.160;15
+vertex  0.45,0.640,0.140
+vertex -0.45,0.640,0.140
+vertex  0.45,0.290,0.140
+vertex -0.45,0.290,0.140
+vertex  0.45,0.250,0.160;20
+vertex -0.45,0.250,0.160
+vertex  0.45,0.220,0.200
+vertex -0.45,0.220,0.200
+vertex  0.45,0.200,0.250
+vertex -0.45,0.200,0.250;25
+vertex  0.45,0.200,0.990
+vertex -0.45,0.200,0.990
+vertex  0.45,0.220,1.040
+vertex -0.45,0.220,1.040
+vertex  0.45,0.250,1.080;30
+vertex -0.45,0.250,1.080
+face 0,1,2,3
+face 3,2,4,5
+face 5,4,6,7
+face 7,6,8,9
+face 9,8,10,11
+face 11,10,12,13
+face 13,12,14,15
+face 15,14,16,17
+face 17,16,18,19
+face 19,18,20,21
+face 21,20,22,23
+face 23,22,24,25
+face 25,24,26,27
+face 27,26,28,29
+face 29,28,30,31
+face 31,30,1,0
+face 0,3,5,7,9,11,13,15,17,19,21,23,25,27,29,31
+face 30,28,26,24,22,20,18,16,14,12,10,8,6,4,2,1
+color 25,25,25
+[Meshbuilder]; dobozka
+vertex -0.06,0.360,1.2
+vertex  0.06,0.360,1.2
+vertex  0.06,0.520,1.2
+vertex -0.06,0.520,1.2
+vertex -0.06,0.360,1.1
+vertex  0.06,0.360,1.1
+vertex  0.06,0.520,1.1
+vertex -0.06,0.520,1.1
+face 0,1,2,3
+face 4,5,1,0
+face 2,6,7,3
+face 0,3,7,4
+face 5,6,2,1
+color 30,30,30
+[Meshbuilder]; merevítõ jobb elsõ
+Cube 0.080,0.005,0.080
+Rotate 0,1,0,-45
+Color 20,20,20
+Translate  0.86,0.735,1.136
+[Meshbuilder]; merevítõ bal elsõ
+Cube 0.080,0.005,0.080
+Rotate 0,1,0, 45
+Color 20,20,20
+Translate -0.86,0.735,1.136
+[Meshbuilder]; merevítõ belsõ jobb elsõ
+Cube 0.080,0.005,0.080
+Rotate 0,1,0,-45
+Color 20,20,20
+Translate  0.38,0.735,1.136
+[Meshbuilder]; merevítõ belsõ bal elsõ
+Cube 0.080,0.005,0.080
+Rotate 0,1,0, 45
+Color 20,20,20
+Translate -0.38,0.735,1.136;--------------------------------
+[Meshbuilder]; lámpa tartó jobb függ
+Cube 0.025,0.120,0.005
+Color 20,20,20
+Translate  0.24,0.845,1.15
+[Meshbuilder]; lámpa tartó jobb függ b
+Cube 0.005,0.120,0.025
+Color 20,20,20
+Translate  0.21,0.845,1.17
+[Meshbuilder]; lámpa tartó jobb függ ív 1
+Cube 0.025,0.025,0.005
+Rotate 1,0,0,-15
+Color 20,20,20
+Translate  0.24,0.988,1.1439
+[Meshbuilder]; lámpa tartó jobb függ ív 1 b
+Cube 0.005,0.035,0.025
+Rotate 1,0,0,-15
+Color 20,20,20
+Translate  0.21,0.992,1.162
+[Meshbuilder]; lámpa tartó jobb függ ív 2
+Cube 0.025,0.025,0.005
+Rotate 1,0,0,-30
+Color 20,20,20
+Translate  0.24,1.0325,1.1255
+[Meshbuilder]; lámpa tartó jobb függ ív 2 b
+Cube 0.005,0.030,0.025
+Rotate 1,0,0,-30
+Color 20,20,20
+Translate  0.21,1.0460,1.1405
+[Meshbuilder]; lámpa tartó jobb függ ív 3
+Cube 0.025,0.025,0.005
+Rotate 1,0,0,-45 
+Color 20,20,20
+Translate  0.24,1.0709,1.0965
+[Meshbuilder]; lámpa tartó jobb függ ív 3 b
+Cube 0.005,0.028,0.025
+Rotate 1,0,0,-45 
+Color 20,20,20
+Translate  0.21,1.0867,1.1098
+[Meshbuilder]; lámpa tartó jobb függ ív 4
+Cube 0.025,0.025,0.005
+Rotate 1,0,0,-60
+Color 20,20,20
+Translate  0.24,1.100,1.0587
+[Meshbuilder]; lámpa tartó jobb függ ív 4 b
+Cube 0.005,0.028,0.025
+Rotate 1,0,0,-60
+Color 20,20,20
+Translate  0.21,1.1165,1.07085
+[Meshbuilder]; lámpa tartó jobb függ ív 5
+Cube 0.025,0.025,0.005
+Rotate 1,0,0,-75
+Color 20,20,20
+Translate  0.24,1.1185,1.014
+[Meshbuilder]; lámpa tartó jobb függ ív 5 b
+Cube 0.005,0.028,0.025
+Rotate 1,0,0,-75
+Color 20,20,20
+Translate  0.21,1.1355,1.0255
+[Meshbuilder]; lámpa tartó jobb víz
+Cube 0.025,0.005,0.015
+Color 20,20,20
+Translate  0.24,1.1247,0.976
+[Meshbuilder]; lámpa tartó jobb víz b
+Cube 0.005,0.024,0.022
+Color 20,20,20
+Translate  0.21,1.143,0.983;-----------------------
+[Meshbuilder]; lámpa tartó bal függ
+Cube 0.025,0.120,0.005
+Color 20,20,20
+Translate -0.24,0.845,1.15
+[Meshbuilder]; lámpa tartó bal függ b
+Cube 0.005,0.120,0.025
+Color 20,20,20
+Translate -0.21,0.845,1.17
+[Meshbuilder]; lámpa tartó bal függ ív 1
+Cube 0.025,0.025,0.005
+Rotate 1,0,0,-15
+Color 20,20,20
+Translate -0.24,0.988,1.1439
+[Meshbuilder]; lámpa tartó bal függ ív 1 b
+Cube 0.005,0.035,0.025
+Rotate 1,0,0,-15
+Color 20,20,20
+Translate -0.21,0.992,1.162
+[Meshbuilder]; lámpa tartó bal függ ív 2
+Cube 0.025,0.025,0.005
+Rotate 1,0,0,-30
+Color 20,20,20
+Translate -0.24,1.0325,1.1255
+[Meshbuilder]; lámpa tartó bal függ ív 2 b
+Cube 0.005,0.030,0.025
+Rotate 1,0,0,-30
+Color 20,20,20
+Translate -0.21,1.0460,1.1405
+[Meshbuilder]; lámpa tartó bal függ ív 3
+Cube 0.025,0.025,0.005
+Rotate 1,0,0,-45 
+Color 20,20,20
+Translate -0.24,1.0709,1.0965
+[Meshbuilder]; lámpa tartó bal függ ív 3 b
+Cube 0.005,0.028,0.025
+Rotate 1,0,0,-45 
+Color 20,20,20
+Translate -0.21,1.0867,1.1098
+[Meshbuilder]; lámpa tartó bal függ ív 4
+Cube 0.025,0.025,0.005
+Rotate 1,0,0,-60
+Color 20,20,20
+Translate -0.24,1.100,1.0587
+[Meshbuilder]; lámpa tartó bal függ ív 4 b
+Cube 0.005,0.028,0.025
+Rotate 1,0,0,-60
+Color 20,20,20
+Translate -0.21,1.1165,1.07085
+[Meshbuilder]; lámpa tartó bal függ ív 5
+Cube 0.025,0.025,0.005
+Rotate 1,0,0,-75
+Color 20,20,20
+Translate -0.24,1.1185,1.014
+[Meshbuilder]; lámpa tartó bal függ ív 5 b
+Cube 0.005,0.028,0.025
+Rotate 1,0,0,-75
+Color 20,20,20
+Translate -0.21,1.1355,1.0255
+[Meshbuilder]; lámpa tartó bal víz
+Cube 0.025,0.005,0.015
+Color 20,20,20
+Translate -0.24,1.1247,0.976
+[Meshbuilder]; lámpa tartó bal víz b
+Cube 0.005,0.024,0.022
+Color 20,20,20
+Translate -0.21,1.143,0.983;-----------------------
+[Meshbuilder]; lámpa tartó tengely
+Cylinder 15,0.010,0.010,0.460
+Rotate 0,0,1,90
+Color 20,20,20
+Translate 0,1.15,0.98
+;                             ütközõ elsõ
+[Meshbuilder]; tölcsér
+Cylinder 15,0.06,0.05,0.1
+Rotate 1,0,0,90
+Color 20,20,20
+Translate 0,0.80,1.47
+[Meshbuilder];rudazat
+Cylinder 15,0.05,0.05,0.05
+Rotate 1,0,0,90
+Color 20,20,20
+Translate 0,0.80,1.4
+[Meshbuilder];rudazat tört
+Cylinder 15,0.05,0.05,0.20
+Rotate 1,0,0,-74
+Color 20,20,20
+Translate 0,0.825,1.295
+[Meshbuilder];csap
+Cylinder 15,0.02,0.01,0.20
+Color 30,30,30
+Translate 0,0.805,1.395
+[Meshbuilder];rudazat
+Cylinder 15,0.05,0.05,0.60
+Rotate 1,0,0,90
+Color 20,20,20
+Translate 0,0.85,0.915
+[Meshbuilder] ;tányér
+Cylinder 15,0.14,0.14,0.02
+Rotate 1,0,0,90
+Color 20,20,20
+Translate 0,0.80,1.528;------------------------------
+[Meshbuilder] ;tartó 1
+Cylinder 15,0.08,0.08,0.05
+Rotate 1,0,0,90
+Color 20,20,20
+Translate 0,0.85,0.6
+[Meshbuilder] ;tartó 2
+Cylinder 15,0.08,0.08,0.05
+Rotate 1,0,0,90
+Color 20,20,20
+Translate 0,0.85,0.8
+[Meshbuilder] ;tartó 3
+Cylinder 15,0.08,0.08,0.05
+Rotate 1,0,0,90
+Color 20,20,20
+Translate 0,0.85,1;--------------------
+[Meshbuilder];tartó 4
+vertex -0.11,0.720,1
+vertex  0.11,0.720,1
+vertex  0.06,0.840,1
+vertex -0.06,0.840,1
+vertex -0.11,0.720,0.5
+vertex  0.11,0.720,0.5
+vertex  0.06,0.840,0.56
+vertex -0.06,0.840,0.56
+face 0,1,2,3
+face 7,6,5,4
+face 2,6,7,3
+face 0,3,7,4
+face 5,6,2,1
+Color 20,20,20
+[Meshbuilder] ;csapágy ház jobb
+Cylinder 15,0.10,0.09,0.15
+Rotate 0,0,1,90
+Color 20,20,20
+Translate 0.95,0.40,0.64
+[Meshbuilder] ;csapágy ház bal
+Cylinder 15,0.09,0.10,0.15
+Rotate 0,0,1,90
+Color 20,20,20
+Translate -0.95,0.40,0.64;--------------
+[Meshbuilder] ;csapágy ház tató jobb 1
+Cylinder 15,0.04,0.04,0.35
+Color 20,20,20
+Translate 0.95,0.52,0.75
+[Meshbuilder] ;csapágy ház tató jobb 2
+Cylinder 15,0.04,0.04,0.35
+Color 20,20,20
+Translate 0.95,0.52,0.52
+[Meshbuilder] ;csapágy ház tató bal 1
+Cylinder 15,0.04,0.04,0.35
+Color 20,20,20
+Translate -0.95,0.52,0.75
+[Meshbuilder] ;csapágy ház tató bal 2
+Cylinder 15,0.04,0.04,0.35
+Color 20,20,20
+Translate -0.95,0.52,0.52;--------------------
+[Meshbuilder]; hátsó tengely tartó
+vertex  0.06,0.2,-0.8
+vertex -0.06,0.2,-0.8
+vertex -0.06,0.450,-0.65
+vertex  0.06,0.450,-0.65
+vertex  0.06,0.2,0
+vertex -0.06,0.2,0
+vertex -0.06,0.450,-0.05
+vertex  0.06,0.450,-0.05
+face 0,1,2,3
+face 4,5,1,0
+face 2,6,7,3
+face 0,3,7,4
+face 5,6,2,1
+face 4,7,6,5
+color 30,30,30
+[Meshbuilder]; váz jobb fekete hátsó keret
+Cube 0.060,0.090,0.380
+Color 20,20,20
+Translate  0.6,0.54,-0.5
+[Meshbuilder]; váz bal fekete hátsó keret
+Cube 0.060,0.090,0.380
+Color 20,20,20
+Translate  -0.6,0.54,-0.5
+[Meshbuilder]; váz bal fekete hátsó keret
+Cube 0.540,0.090,0.060
+Color 20,20,20
+Translate  0,0.54,-0.82;-----------------------
+[Meshbuilder] ;lámpa tartó tányér
+Cylinder 40,0.15,0.15,0.02
+Rotate 1,0,0,90
+Color 20,20,20
+Translate 0,1.265,0.980
+[Meshbuilder];fék bal nagy
+vertex -0.82,0.212,0.28
+vertex -0.82,0.200,0.23
+vertex -0.72,0.200,0.23
+vertex -0.72,0.212,0.28
+vertex -0.82,0.425,0.23
+vertex -0.82,0.400,0.18;5
+vertex -0.72,0.400,0.18
+vertex -0.72,0.425,0.23
+vertex -0.82,0.330,0.24
+vertex -0.72,0.330,0.24
+face 0,1,2,3
+face 4,7,6,5
+face 1,5,6,2
+face 0,8,1
+face 8,4,5,1
+face 2,9,3
+face 2,6,7,9
+face 0,3,9,8
+face 8,9,7,4
+Color 30,30,30
+[Meshbuilder];fék bal kicsi
+vertex -0.82,0.232,-0.35
+vertex -0.82,0.228,-0.315
+vertex -0.72,0.228,-0.315
+vertex -0.72,0.232,-0.35
+vertex -0.82,0.408,-0.36
+vertex -0.82,0.397,-0.30;5
+vertex -0.72,0.397,-0.30
+vertex -0.72,0.408,-0.36
+vertex -0.82,0.320,-0.34
+vertex -0.72,0.320,-0.34
+face 3,2,1,0
+face 5,6,7,4
+face 2,6,5,1
+face 1,8,0
+face 1,5,4,8
+face 3,9,2
+face 9,7,6,2
+face 8,9,3,0
+face 4,7,9,8
+color 30,30,30
+[Meshbuilder];fék jobb nagy
+vertex  0.82,0.212,0.28
+vertex  0.82,0.200,0.23
+vertex  0.72,0.200,0.23
+vertex  0.72,0.212,0.28
+vertex  0.82,0.425,0.23
+vertex  0.82,0.400,0.18;5
+vertex  0.72,0.400,0.18
+vertex  0.72,0.425,0.23
+vertex  0.82,0.330,0.24
+vertex  0.72,0.330,0.24
+face 3,2,1,0
+face 5,6,7,4
+face 2,6,5,1
+face 1,8,0
+face 1,5,4,8
+face 3,9,2
+face 9,7,6,2
+face 8,9,3,0
+face 4,7,9,8
+Color 30,30,30
+[Meshbuilder];fék jobb kicsi
+vertex  0.82,0.232,-0.35
+vertex  0.82,0.228,-0.315
+vertex  0.72,0.228,-0.315
+vertex  0.72,0.232,-0.35
+vertex  0.82,0.408,-0.36
+vertex  0.82,0.397,-0.30;5
+vertex  0.72,0.397,-0.30
+vertex  0.72,0.408,-0.36
+vertex  0.82,0.320,-0.34
+vertex  0.72,0.320,-0.34
+face 0,1,2,3
+face 4,7,6,5
+face 1,5,6,2
+face 0,8,1
+face 8,4,5,1
+face 2,9,3
+face 2,6,7,9
+face 0,3,9,8
+face 8,9,7,4
+color 30,30,30
+[Meshbuilder] ;bal fékrúd 0
+Cylinder 15,0.027,0.027,1.590
+Rotate 0,0,1,90
+Color 20,20,20
+Translate 0,0.240,-0.045
+[Meshbuilder] ;bal fékrúd 1
+Cylinder 15,0.03,0.03,0.040
+Rotate 0,0,1,90
+Color 25,25,25
+Translate -0.77,0.240,-0.045
+[Meshbuilder] ;bal fékrúd 2
+Cylinder 15,0.014,0.014,0.175
+Rotate 0,0,1,90
+Color 20,20,20
+Translate -0.845,0.580,-0.045
+[Meshbuilder] ;bal fékrúd 3
+Cylinder 15,0.04,0.04,0.040
+Rotate 0,0,1,90
+Color 35,35,35
+Translate -0.57,0.240,-0.045
+[Meshbuilder] ;bal fékrúd 4
+Cylinder 15,0.015,0.015,0.320
+Rotate 1,0,0,-50
+Color 25,25,25
+Translate -0.57,0.360,-0.196
+[Meshbuilder] ;bal fékrúd 5
+Cylinder 15,0.015,0.015,0.240
+Rotate 1,0,0,75
+Color 30,30,30
+Translate -0.77,0.275,0.093
+[Meshbuilder] ;bal fékrúd 6
+Cylinder 15,0.015,0.015,0.250
+Rotate 1,0,0,-75
+Color 30,30,30
+Translate -0.77,0.275,-0.190
+[Meshbuilder] ;bal fékrúd 7
+Cylinder 15,0.010,0.010,0.370
+Color 30,30,30
+Translate -0.77,0.410,-0.045;----------------------
+[Meshbuilder] ;jobb fékrúd 1
+Cylinder 15,0.03,0.03,0.040
+Rotate 0,0,1,90
+Color 25,25,25
+Translate  0.77,0.240,-0.045
+[Meshbuilder] ;jobb fékrúd 2
+Cylinder 15,0.014,0.014,0.175
+Rotate 0,0,1,90
+Color 20,20,20
+Translate  0.845,0.580,-0.045
+[Meshbuilder] ;jobb fékrúd 3
+Cylinder 15,0.04,0.04,0.040
+Rotate 0,0,1,90
+Color 35,35,35
+Translate  0.57,0.240,-0.045
+[Meshbuilder] ;jobb fékrúd 4
+Cylinder 15,0.015,0.015,0.320
+Rotate 1,0,0,-50
+Color 25,25,25
+Translate  0.57,0.360,-0.196
+[Meshbuilder] ;jobb fékrúd 5
+Cylinder 15,0.015,0.015,0.240
+Rotate 1,0,0,75
+Color 30,30,30
+Translate  0.77,0.275,0.093
+[Meshbuilder] ;jobb fékrúd 6
+Cylinder 15,0.015,0.015,0.250
+Rotate 1,0,0,-75
+Color 30,30,30
+Translate  0.77,0.275,-0.190
+[Meshbuilder] ;jobb fékrúd 7
+Cylinder 15,0.010,0.010,0.370
+Color 30,30,30
+Translate  0.77,0.410,-0.045;----------------------
+
+Rotateall 0,1,0,180

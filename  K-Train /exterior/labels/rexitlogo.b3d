@@ -1,0 +1,62 @@
+[MeshBuilder]
+Vertex 0,0,0,0,50,0
+Vertex 0,0,0.373,0,50,0
+Vertex 0,-0.217,0.373,0,50,0
+Vertex 0,-0.217,0,0,50,0
+Face 0,1,2,3
+Load exitlogo.bmp
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+translate 0.313,0.61,1.785
+Rotate 0,0,2,-48.8
+EmissiveColor 220,220,220
+
+[MeshBuilder]
+Vertex 0,0,0,0,50,0
+Vertex 0,0,0.373,0,50,0
+Vertex 0,-0.217,0.373,0,50,0
+Vertex 0,-0.217,0,0,50,0
+Face 0,1,2,3
+Load exitlogo.bmp
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+translate 0.313,0.61,-2.635
+Rotate 0,0,2,-48.8
+EmissiveColor 220,220,220
+
+[MeshBuilder]
+Vertex 0,0,0,0,50,0
+Vertex 0,0,0.373,0,50,0
+Vertex 0,-0.217,0.373,0,50,0
+Vertex 0,-0.217,0,0,50,0
+Face 0,1,2,3
+Load exitlogo.bmp
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+translate 0.313,0.61,-7.3055
+Rotate 0,0,2,-48.8
+EmissiveColor 220,220,220
+
+[MeshBuilder]
+Vertex 0,0,0,0,50,0
+Vertex 0,0,0.373,0,50,0
+Vertex 0,-0.217,0.373,0,50,0
+Vertex 0,-0.217,0,0,50,0
+Face 0,1,2,3
+Load exitlogo.bmp
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+translate 0.313,0.61,-11.5405
+Rotate 0,0,2,-48.8
+EmissiveColor 220,220,220
+
+RotateAll 0,1,0,180
+ScaleAll 1.1,1.1,1.1

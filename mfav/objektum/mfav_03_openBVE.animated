@@ -1,0 +1,37 @@
+[object]
+States = mfav_03_openBVE.b3d
+
+[object]
+States = csengo.b3d, csengo_v.b3d
+Position = 1,2.3,2.03
+Statefunction = if[or[leftdoors != 1 & leftdoors != 0, rightdoors != 1 & rightdoors != 0], if[or[leftdoorstarget == 0 & leftdoors != 0, rightdoorstarget == 0 & rightdoors != 0] == 1, floor[mod[time*2,2]],0],0]
+
+[object]
+States = csengo.b3d, csengo_v.b3d
+Position = -1,2.3,2.03
+Statefunction = if[or[leftdoors != 1 & leftdoors != 0, rightdoors != 1 & rightdoors != 0], if[or[leftdoorstarget == 0 & leftdoors != 0, rightdoorstarget == 0 & rightdoors != 0] == 1, floor[mod[time*2,2]],0],0]
+
+[object]
+States = csengo.b3d, csengo_v.b3d
+Position = 1,2.3,-0.82
+Statefunction = if[or[leftdoors != 1 & leftdoors != 0, rightdoors != 1 & rightdoors != 0], if[or[leftdoorstarget == 0 & leftdoors != 0, rightdoorstarget == 0 & rightdoors != 0] == 1, floor[mod[time*2,2]],0],0]
+
+[object]
+States = csengo.b3d, csengo_v.b3d
+Position = -1,2.3,-0.82
+Statefunction = if[or[leftdoors != 1 & leftdoors != 0, rightdoors != 1 & rightdoors != 0], if[or[leftdoorstarget == 0 & leftdoors != 0, rightdoorstarget == 0 & rightdoors != 0] == 1, floor[mod[time*2,2]],0],0]
+
+
+[object]
+States = 03ajtoL1.b3d
+TranslateZFunction = if[leftdoorstarget==0, min [1.2 * leftdoors[0], 0.6], min[value+delta*0.6/2.5,0.6]]
+[object]
+States = 03ajtoL2.b3d
+TranslateZFunction = if[leftdoorstarget==0, max [-1.2 * leftdoors[0], -0.6], max[value-delta*0.6/2.5,-0.6]]
+
+[object]
+States = 03ajtoR1.b3d
+TranslateZFunction = if[rightdoorstarget==0, min [1.2 * rightdoors[0], 0.6], min[value+delta*0.6/2.5,0.6]]
+[object]
+States = 03ajtoR2.b3d
+TranslateZFunction = if[rightdoorstarget==0, max [-1.2 * rightdoors[0], -0.6], max[value-delta*0.6/2.5,-0.6]]

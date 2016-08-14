@@ -1,0 +1,10 @@
+TGV Duplex 1st Generation
+320 kmph / 192mph max.
+-----------------------
+© Manuel Mejias 2013
+http://www.trenesvenezolanos.blogspot.com
+
+See Readme.txt and How-To-Drive.txt
+
+For Drive the train you must been donwloaded
+LGV Route, from "http://downloads.bvefrance.fr/swade/LGV_OpenBVE.rar"

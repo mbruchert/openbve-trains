@@ -1,0 +1,192 @@
+;--------------------------------------
+;Archivo 3D para Trenes de OpenBVE
+;--------------------------------------
+;(c) Rieles Virtuales de Venezuela
+;www.trenesvenezolanos.com
+;
+;por Manuel Mejias
+;
+
+;; 16.24 largo 3.84 alto 2.81 ancho ::
+
+;;ESTRUCTURA EXTERNA DEL TREN;;
+;Lado Izquierdo;
+CreateMeshBuilder,
+AddVertex,-1.255, 4.09, 17.04,
+AddVertex,-1.255, 4.09, 0.8,
+AddVertex,-1.405, 2.85, 17.04,
+AddVertex,-1.405, 2.85, 0.8,
+AddVertex,-1.405, 1.79, 17.04,
+AddVertex,-1.405, 1.79, 0.8,
+AddVertex,-1.005, 0.8, 17.04,
+AddVertex,-1.005, 0.8, 0.8,
+AddFace,0,1,3,2,
+AddFace,2,3,5,4,
+AddFace,4,5,7,6,
+Translate,0,-0.5,-11.3,
+GenerateNormals,
+LoadTexture,latr2.png,
+SetTextureCoordinates,0,  1, 0,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2,  1, 0.37,
+SetTextureCoordinates,3, 0, 0.37,
+SetTextureCoordinates,4, 1, 0.7,
+SetTextureCoordinates,5, 0, 0.7,
+SetTextureCoordinates,6, 1, 1,
+SetTextureCoordinates,7, 0, 1,
+SetDecalTransparentColor,0,0,255
+
+;Lado Derecho;
+CreateMeshBuilder,
+AddVertex,1.255, 4.09, 17.04,
+AddVertex,1.255, 4.09, 0.8,
+AddVertex,1.405, 2.85, 17.04,
+AddVertex,1.405, 2.85, 0.8,
+AddVertex,1.405, 1.79, 17.04,
+AddVertex,1.405, 1.79, 0.8,
+AddVertex,1.005, 0.8, 17.04,
+AddVertex,1.005, 0.8, 0.8,
+AddFace,1,0,2,3,
+AddFace,3,2,4,5,
+AddFace,5,4,6,7,
+Translate,0,-0.5,-11.3,
+GenerateNormals,
+LoadTexture,latr22.png,
+SetTextureCoordinates,0,  1, 0,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2,  1, 0.37,
+SetTextureCoordinates,3, 0, 0.37,
+SetTextureCoordinates,4, 1, 0.7,
+SetTextureCoordinates,5, 0, 0.7,
+SetTextureCoordinates,6, 1, 1,
+SetTextureCoordinates,7, 0, 1,
+SetDecalTransparentColor,0,0,255
+
+CreateMeshBuilder,
+AddVertex,-1.405,  4.35, 16.95,
+AddVertex,1.405,  4.35, 16.95,
+AddVertex,1.405, 0.5, 16.95,
+AddVertex,-1.405, 0.5, 16.95,
+AddFace,1,0,3,2,
+Translate,0,-0.5,-11.3,
+GenerateNormals,
+
+LoadTexture,fin2.png,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 1, 1,
+SetTextureCoordinates,3, 0, 1,
+SetDecalTransparentColor,0,0,255
+
+
+CreateMeshBuilder,
+AddVertex,-1.405, 4.35, 0.89,
+AddVertex,1.405, 4.35, 0.89,
+AddVertex,1.405, 0.5, 0.89,
+AddVertex,-1.405, 0.5, 0.89,
+AddFace,0,1,2,3,
+Translate,0,-0.5,-11.3,
+GenerateNormals,
+
+LoadTexture,fin2.png,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 1, 1,
+SetTextureCoordinates,3, 0, 1,
+SetDecalTransparentColor,0,0,255
+
+
+
+;;Techo del Tren;;
+CreateMeshBuilder,
+AddVertex,-1.255, 4.09, 0.8,
+AddVertex,-1.255, 4.09, 17.05,
+AddVertex,-0.855, 4.22, 0.8,
+AddVertex,-0.855, 4.22, 17.05,
+AddVertex,0, 4.35, 0.8,
+AddVertex,0, 4.35, 17.05,
+AddVertex,0.855, 4.22, 0.8,
+AddVertex,0.855, 4.22, 17.05,
+AddVertex,1.255, 4.09, 0.8,
+AddVertex,1.255, 4.09, 17.05,
+AddFace,0,1,3,2,
+AddFace,2,3,5,4,
+AddFace,4,5,7,6,
+AddFace,6,7,9,8,
+LoadTexture,techo2.png,
+SetTextureCoordinates,0, -1, 0.30,
+SetTextureCoordinates,1, -0, 0.30,
+SetTextureCoordinates,2, -1, 0.40,
+SetTextureCoordinates,3, -0, 0.40,
+SetTextureCoordinates,4, -1, 0.5,
+SetTextureCoordinates,5, -0, 0.5,
+SetTextureCoordinates,6, -1, 0.60,
+SetTextureCoordinates,7, -0, 0.60
+SetTextureCoordinates,8, -1, 0.70,
+SetTextureCoordinates,9, -0, 0.70
+Translate,0,-0.5,-11.3,
+
+
+;;PartedeAbajo;;
+CreateMeshBuilder,
+AddVertex,-1.39, 1.25, 3.875,
+AddVertex,1.39, 1.25, 3.875,
+AddVertex,-1.39, 1.25, 3.725,
+AddVertex,1.39, 1.25, 3.725,
+AddVertex,-1.27, 0.965, 3.55,
+AddVertex,1.27, 0.965, 3.55,
+AddVertex,-1.26, 0.95, 2.5,
+AddVertex,1.26, 0.95, 2.5,
+AddVertex,-1.26, 0.89, 2.4,
+AddVertex,1.25, 0.89, 2.4,
+AddVertex,-1.25, 0.79, 2.3,
+AddVertex,1.20, 0.79, 2.3,
+AddVertex,-1.20, 0.69, 2.25,
+AddVertex,1.16, 0.69, 2.25,
+AddVertex,1.005, 0.3, 2.25,
+AddVertex,-1.005, 0.3, 2.25,
+AddFace,1,0,2,3,
+AddFace,3,2,4,5,
+AddFace,5,4,6,7,
+AddFace,7,6,8,9,
+AddFace,9,8,10,11,
+AddFace,11,10,12,13,
+AddFace,13,12,15,14,
+SetColor,16,22,29,
+Translate,0,0,1.7,
+
+;;PartedeAbajo;;
+CreateMeshBuilder,
+AddVertex,-1.39, 1.25, -3.875,
+AddVertex,1.39, 1.25, -3.875,
+AddVertex,-1.39, 1.25, -3.725,
+AddVertex,1.39, 1.25, -3.725,
+AddVertex,-1.27, 0.965, -3.55,
+AddVertex,1.27, 0.965, -3.55,
+AddVertex,-1.26, 0.965, -2.5,
+AddVertex,1.26, 0.955, -2.5,
+AddVertex,-1.25, 0.89, -2.4,
+AddVertex,1.25, 0.89, -2.4,
+AddVertex,-1.20, 0.79, -2.3,
+AddVertex,1.20, 0.79, -2.3,
+AddVertex,-1.16, 0.69, -2.25,
+AddVertex,1.16, 0.69, -2.25,
+AddVertex,1.005, 0.3, -2.25,
+AddVertex,-1.005, 0.3, -2.25,
+AddFace,0,1,3,2,
+AddFace,2,3,5,4,
+AddFace,4,5,7,6,
+AddFace,6,7,9,8,
+AddFace,8,9,11,10,
+AddFace,10,11,13,12,
+AddFace,12,13,14,15,
+SetColor,16,22,29,
+Translate,0,0,-6.5,
+
+
+
+
+
+
+
+

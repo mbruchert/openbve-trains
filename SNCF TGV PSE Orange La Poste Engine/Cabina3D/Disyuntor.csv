@@ -1,0 +1,9 @@
+﻿CreateMeshBuilder
+Cube, 0.004, 0.01, 0.003
+SetColor, 57, 46, 44
+
+rotateall,1,0,0,-40
+
+
+
+

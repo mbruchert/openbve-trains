@@ -1,0 +1,72 @@
+[Meshbuilder] ;Áramszedõ elsõ felsõ jobb szár
+Cylinder 15,0.0175,0.0175,0.80
+Color 10,10,10
+Translate 1.212,2.270,0
+[Meshbuilder] ;ív 1
+Cylinder 15,0.0175,0.0175,0.04
+Rotate 0,0,1,15
+Color 15,15,15
+Translate 1.2075,2.685,0
+[Meshbuilder] ;ív 2
+Cylinder 15,0.0175,0.0175,0.04
+Rotate 0,0,1,30
+Color 15,15,15
+Translate 1.194,2.7175,0
+[Meshbuilder] ;ív 3
+Cylinder 15,0.0175,0.0175,0.04
+Rotate 0,0,1,45
+Color 15,15,15
+Translate 1.1724,2.7457,0
+[Meshbuilder] ;ív 4
+Cylinder 15,0.0175,0.0175,0.04
+Rotate 0,0,1,60
+Color 15,15,15
+Translate 1.1443,2.767,0
+[Meshbuilder] ;ív 5
+Cylinder 15,0.0175,0.0175,0.04
+Rotate 0,0,1,75
+Color 15,15,15
+Translate 1.1115,2.7805,0
+[Meshbuilder] ;vízszintes
+Cylinder 15,0.0175,0.0175,0
+Rotate 0,0,1,90
+Color 15,15,15
+Translate 0,2.785,0
+[Meshbuilder] ;Áramszedõ elsõ felsõ fekete víz
+Cube 1,0.01,0.040
+Color 50,50,50
+Translate 0,2.800,0
+[Meshbuilder] ;Áramszedõ elsõ felsõ bal szár
+Cylinder 15,0.0175,0.0175,0.80
+Color 10,10,10
+Translate -1.212,2.270,0
+[Meshbuilder] ; bal ív 1
+Cylinder 15,0.0175,0.0175,0.04
+Rotate 0,0,1,-15
+Color 15,15,15
+Translate -1.2075,2.685,0
+[Meshbuilder] ;ív 2
+Cylinder 15,0.0175,0.0175,0.04
+Rotate 0,0,1,-30
+Color 15,15,15
+Translate -1.194,2.7175,0
+[Meshbuilder] ;ív 3
+Cylinder 15,0.0175,0.0175,0.04
+Rotate 0,0,1,-45
+Color 15,15,15
+Translate -1.1724,2.7457,0
+[Meshbuilder] ;ív 4
+Cylinder 15,0.0175,0.0175,0.04
+Rotate 0,0,1,-60
+Color 15,15,15
+Translate -1.1443,2.767,0
+[Meshbuilder] ;ív 5
+Cylinder 15,0.0175,0.0175,0.04
+Rotate 0,0,1,-75
+Color 15,15,15
+Translate -1.1115,2.7805,0
+[Meshbuilder] ;vízszintes
+Cylinder 15,0.0175,0.0175,2.194
+Rotate 0,0,1,90
+Color 15,15,15
+Translate -0,2.785,0

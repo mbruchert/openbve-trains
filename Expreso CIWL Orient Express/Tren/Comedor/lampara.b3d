@@ -1,0 +1,70 @@
+;Lamparita
+
+[Meshbuilder]
+Cylinder 15, 0.08,0.08,0.01
+Color 7,8,10
+Translate 0,1.355, -0.005
+
+SCALEALL -1.2,0.99999,1.2
+
+[Meshbuilder]
+vertex 0, 1.83,  0.19
+vertex 0, 1.83, -0.19
+vertex 0, 1.35, -0.19
+vertex 0, 1.35,  0.19
+face2 0,1,2,3
+[Texture]
+Load lampara.png
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+emissivecolor 255,255,255
+transparent 255,255,255
+
+[Meshbuilder]
+vertex -0.19, 1.83,  0
+vertex  0.19, 1.83, -0
+vertex  0.19, 1.35, -0
+vertex -0.19, 1.35,  0
+face2 0,1,2,3
+[Texture]
+Load lampara.png
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+emissivecolor 255,255,255
+transparent 255,255,255
+
+[Meshbuilder]
+vertex 0, 1.83,  0.19
+vertex 0, 1.83, -0.19
+vertex 0, 1.35, -0.19
+vertex 0, 1.35,  0.19
+face2 0,1,2,3
+[Texture]
+Load lampara.png
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+emissivecolor 255,255,255
+transparent 255,255,255
+rotate 0,1,0,45
+
+[Meshbuilder]
+vertex 0, 1.83,  0.19
+vertex 0, 1.83, -0.19
+vertex 0, 1.35, -0.19
+vertex 0, 1.35,  0.19
+face2 0,1,2,3
+[Texture]
+Load lampara.png
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+emissivecolor 255,255,255
+transparent 255,255,255
+rotate 0,1,0,-45

@@ -1,0 +1,67 @@
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+[MeshBuilder]
+Vertex 0,0,0,0,50,0
+Vertex 0,0,0.143,0,50,0
+Vertex 0,-0.12,0.143,0,50,0
+Vertex 0,-0.12,0,0,50,0
+Face 0,1,2,3
+Load emergencywakietalkie.bmp
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+translate 0.313,0.60.55,-0.615
+Rotate 0,0,2,-48.8
+Transparent 0,0,255
+EmissiveColor 220,220,220
+
+[MeshBuilder]
+Vertex 0,0,0,0,50,0
+Vertex 0,0,0.143,0,50,0
+Vertex 0,-0.05,0.143,0,50,0
+Vertex 0,-0.05,0,0,50,0
+Face 0,1,2,3
+Load emergencywakietalkiedown.bmp
+Transparent 0,0,255
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+translate 0.313,0.4655,-0.615
+Rotate 0,0,2,-48.8
+EmissiveColor 220,220,220
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+[MeshBuilder]
+Vertex 0,0,0,0,50,0
+Vertex 0,0,0.143,0,50,0
+Vertex 0,-0.12,0.143,0,50,0
+Vertex 0,-0.12,0,0,50,0
+Face 0,1,2,3
+Load emergencywakietalkie.bmp
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+translate 0.313,0.60.55,-9.72
+Rotate 0,0,2,-48.8
+Transparent 0,0,255
+EmissiveColor 220,220,220
+
+[MeshBuilder]
+Vertex 0,0,0,0,50,0
+Vertex 0,0,0.143,0,50,0
+Vertex 0,-0.05,0.143,0,50,0
+Vertex 0,-0.05,0,0,50,0
+Face 0,1,2,3
+Load emergencywakietalkiedown.bmp
+Transparent 0,0,255
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+translate 0.313,0.4655,-9.72
+Rotate 0,0,2,-48.8
+EmissiveColor 220,220,220
+
+ScaleAll 1.1,1.1,1.1

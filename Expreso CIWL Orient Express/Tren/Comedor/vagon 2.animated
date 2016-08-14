@@ -1,0 +1,159 @@
+[object]
+States=vagon 2.csv
+
+[object]
+States=techo 2.csv
+Position=0,1.58,0
+
+[object]
+States=techo curvo 5.csv
+Position=0,1.38,11.52
+
+[object]
+States=techo curvo 4.csv
+Position=0,1.38,-11.52
+
+;Escaleras
+
+[Object]
+States=Escaleras.b3d
+Position=0,0,11.57
+[Object]
+States=Escaleras.b3d
+Position=0,0,-11.57
+
+;Asientos=======================================================================
+
+[include]
+asiento.b3d
+Position = -0.72,1.2,5.01
+[include]
+asiento.b3d
+Position = -0.72,1.2,2.84
+[include]
+asiento.b3d
+Position = -0.72,1.2,0.64
+[include]
+asiento.b3d
+Position = -0.72,1.2,-1.54
+[include]
+asiento.b3d
+Position = -0.72,1.2,-3.73
+[include]
+asiento.b3d
+Position = -0.72,1.2,-5.92
+[include]
+asiento.b3d
+Position = -0.72,1.2,-8.11
+
+[include]
+asiento 2.b3d
+Position = -0.72,1.2,3.63
+[include]
+asiento 2.b3d
+Position = -0.72,1.2,1.44
+[include]
+asiento 2.b3d
+Position = -0.72,1.2,-0.74
+[include]
+asiento 2.b3d
+Position = -0.72,1.2,-2.94
+[include]
+asiento 2.b3d
+Position = -0.72,1.2,-5.12
+[include]
+asiento 2.b3d
+Position = -0.72,1.2,-7.32
+[include]
+asiento 2.b3d
+Position = -0.72,1.2,-9.5
+
+[include]
+asiento 3.b3d
+Position = 0.72,1.2,5.01
+[include]
+asiento 3.b3d
+Position = 0.72,1.2,2.84
+[include]
+asiento 3.b3d
+Position = 0.72,1.2,0.64
+[include]
+asiento 3.b3d
+Position = 0.72,1.2,-1.54
+[include]
+asiento 3.b3d
+Position = 0.72,1.2,-3.73
+[include]
+asiento 3.b3d
+Position = 0.72,1.2,-5.92
+[include]
+asiento 3.b3d
+Position = 0.72,1.2,-8.11
+
+[include]
+asiento 4.b3d
+Position = 1.36,1.2,3.63
+[include]
+asiento 4.b3d
+Position = 1.36,1.2,1.44
+[include]
+asiento 4.b3d
+Position = 1.36,1.2,-0.74
+[include]
+asiento 4.b3d
+Position = 1.36,1.2,-2.94
+[include]
+asiento 4.b3d
+Position = 1.36,1.2,-5.12
+[include]
+asiento 4.b3d
+Position = 1.36,1.2,-7.32
+[include]
+asiento 4.b3d
+Position = 1.36,1.2,-9.5
+
+;Lamparas=================================================================
+
+[object]
+Position = -1.15, 0.85, -8.8
+States=lampara.b3d
+[object]
+Position = -1.15, 0.85, -6.62
+States=lampara.b3d
+[object]
+Position = -1.15, 0.85, -4.42
+States=lampara.b3d
+[object]
+Position = -1.15, 0.85, -2.23
+States=lampara.b3d
+[object]
+Position = -1.15, 0.85, -0.05
+States=lampara.b3d
+[object]
+Position = -1.15, 0.85, 2.14
+States=lampara.b3d
+[object]
+Position = -1.15, 0.85, 4.33
+States=lampara.b3d
+
+[object]
+Position = 1.15, 0.85, -8.8
+States=lampara.b3d
+[object]
+Position = 1.15, 0.85, -6.62
+States=lampara.b3d
+[object]
+Position = 1.15, 0.85, -4.42
+States=lampara.b3d
+[object]
+Position = 1.15, 0.85, -2.23
+States=lampara.b3d
+[object]
+Position = 1.15, 0.85, -0.05
+States=lampara.b3d
+[object]
+Position = 1.15, 0.85, 2.14
+States=lampara.b3d
+[object]
+Position = 1.15, 0.85, 4.33
+States=lampara.b3d

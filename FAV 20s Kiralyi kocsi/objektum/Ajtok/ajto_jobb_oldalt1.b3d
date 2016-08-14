@@ -1,0 +1,107 @@
+[Meshbuilder] ;----------------jobb hátsó ajtó külsõ-------------
+Vertex   1.1005,0.440,0.85
+Vertex   1.1005,0.440,0
+Vertex   1.1005,2.435,0
+Vertex   1.1005,2.435,0.85
+face 0,1,2,3
+[Texture]
+Load ajt.png
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+Transparent 255,0,255
+[Meshbuilder] ;----------------jobb hátsó ajtó belsõ-------------
+Vertex   1.0595,0.440,0.85
+Vertex   1.0595,0.440,0
+Vertex   1.0595,2.435,0
+Vertex   1.0595,2.435,0.85
+face 3,2,1,0
+[Texture]
+Load ajtb.png
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+Transparent 255,0,255
+[Meshbuilder] ;----------------ajtókeret-------------
+Vertex   1.0595,0.440,0.85
+Vertex   1.0595,0.440,0
+Vertex   1.0595,2.430,0
+Vertex   1.0595,2.430,0.85
+Vertex   1.1005,0.440,0.85
+Vertex   1.1005,0.440,0
+Vertex   1.1005,2.430,0
+Vertex   1.1005,2.430,0.85
+face 1,5,4,0
+face 7,6,2,3
+face 2,6,5,1
+face 4,7,3,0
+Color 100,64,32
+[Meshbuilder] ;----------------ablakkeret-------------
+Vertex   1.0595,1.495,0.77
+Vertex   1.0595,1.495,0.12
+Vertex   1.0595,2.350,0.12
+Vertex   1.0595,2.350,0.77
+Vertex   1.1005,1.495,0.77
+Vertex   1.1005,1.495,0.12
+Vertex   1.1005,2.350,0.12
+Vertex   1.1005,2.350,0.77
+face 0,4,5,1
+face 3,2,6,7
+face 1,5,6,2
+face 0,3,7,4
+Color 97,63,28
+[Meshbuilder] ;----------------üveg-------------
+Vertex   1.0800,1.490,0.82
+Vertex   1.0800,1.490,0.07
+Vertex   1.0800,2.355,0.07
+Vertex   1.0800,2.355,0.82
+face2 0,1,2,3
+color 20,20,20,20
+[Meshbuilder] ;ajtó tartó 1
+Cube 0.020,0.050,0.008
+Color 211,176,63
+Translate  1.081,0.41,0.05
+[Meshbuilder] ;ajtó tartó 2
+Cube 0.020,0.050,0.008
+Color 211,176,63
+Translate  1.081,0.41,0.83
+[Meshbuilder] ;Kilincs külsõ 1
+Cylinder 15,0.010,0.010,0.06
+Rotate 0,0,1,90
+Color 211,176,63
+Translate  1.130,1.57,0.077
+[Meshbuilder] ;Kilincs belsõ 1
+Cylinder 15,0.010,0.010,0.06
+Rotate 0,0,1,90
+Color 211,176,63
+Translate  1.030,1.57,0.077
+[Meshbuilder] ;Kilincs külsõ 2
+Cylinder 15,0.009,0.010,0.14
+Color 211,176,63
+Translate  1.158,1.63,0.077
+[Meshbuilder] ;Kilincs belsõ 2
+Cylinder 15,0.009,0.010,0.14
+Color 211,176,63
+Translate  1.001,1.63,0.077
+[Meshbuilder] ;díszléc
+Vertex   1.120,1.330, 0.845
+Vertex   1.120,1.365, 0.845
+Vertex   1.099,1.330, 0.845
+Vertex   1.099,1.372, 0.845
+Vertex   1.120,1.330, 0.010
+Vertex   1.120,1.365, 0.010;5
+Vertex   1.099,1.330, 0.010
+Vertex   1.099,1.372, 0.010
+face 5,7,3,1
+face 4,5,1,0
+face 2,6,4,0
+face 1,3,2,0
+face 6,7,5,4
+Color 97,63,28
+[Meshbuilder];---- bal oldali 
+Cylinder 15,0.014,0.014,0.833
+Rotate 1,0,0,90
+Color 107,73,38
+Translate 1.120,1.349,0.4275

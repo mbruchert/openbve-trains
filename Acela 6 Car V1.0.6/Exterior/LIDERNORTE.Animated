@@ -1,0 +1,41 @@
+[Include]
+Modelo/ACELA.csv
+Position = 0,2,0
+
+[Include]
+Modelo/Articulacion.csv
+Position = 0,0,-11
+
+[Include]
+Modelo/Lampara.animated
+position = -0.975,0.93,9.601
+[Include]
+Modelo/Lampara.animated
+position = 0.975,0.93,9.601
+
+[Include]
+Modelo/Lampara3.animated
+position = 0.14,2.3,9.48
+[Include]
+Modelo/Lampara3.animated
+position = -0.14,2.3,9.48
+[Include]
+Modelo/LamparaRoja.animated
+position = -0.44,2.3,9.48
+[Include]
+Modelo/LamparaRoja.animated
+position = 0.44,2.3,9.48
+
+[Include]
+Modelo/BogieEngine.animated
+position = 0,0,5.7
+
+[Include]
+Modelo/BogieEngine.animated
+position = 0,0,-6.4
+
+[Include]
+Modelo/Pantografo1.csv
+position = 0,0,-15.7
+
+

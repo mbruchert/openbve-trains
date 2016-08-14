@@ -1,0 +1,122 @@
+;Fokozatkapcsoló talp
+
+[MeshBuilder]
+Cylinder 20, 0.072,0.072,0.005
+Color 187,170,102
+Emissivecolor 43,35,1
+Translate 0,0,0
+
+[MeshBuilder]
+Cylinder 20, 0.035,0.035,0.010
+Color 187,170,102
+Emissivecolor 53,45,11
+Translate 0,0.007,0
+
+[MeshBuilder]
+Cylinder 20, 0.015,0.015,0.010
+Color 187,170,102
+Emissivecolor 53,45,11
+Translate 0,0.017,0;------------------------------
+
+[MeshBuilder]; Kar
+Cylinder 20, 0.010,0.015,0.010
+Color 187,170,102
+Emissivecolor 53,45,11
+Translate 0,0.027,0
+
+[MeshBuilder]
+Cylinder 20, 0.010,0.010,0.070
+Color 187,170,102
+Emissivecolor 53,45,11
+Translate 0,0.067,0
+
+[MeshBuilder]
+Cylinder 20, 0.010,0.010,0.010
+Rotate 0,0,1,-15
+Color 187,170,102
+Emissivecolor 53,45,11
+Translate 0.001,0.1045,0
+
+[MeshBuilder]
+Cylinder 20, 0.010,0.010,0.010
+Rotate 0,0,1,-30
+Color 187,170,102
+Emissivecolor 53,45,11
+Translate 0.0037,0.1115,0
+
+[MeshBuilder]
+Cylinder 20, 0.010,0.010,0.010
+Rotate 0,0,1,-45
+Color 187,170,102
+Emissivecolor 53,45,11
+Translate 0.008,0.1175,0
+
+[MeshBuilder]
+Cylinder 20, 0.010,0.010,0.010
+Rotate 0,0,1,-60
+Color 187,170,102
+Emissivecolor 53,45,11
+Translate 0.0134,0.122,0
+
+[MeshBuilder]
+Cylinder 20, 0.010,0.010,0.010
+Rotate 0,0,1,-75
+Color 187,170,102
+Emissivecolor 53,45,11
+Translate 0.0200,0.1248,0
+
+[MeshBuilder]
+Cylinder 20, 0.010,0.010,0.200
+Rotate 0,0,1,-90
+Color 187,170,102
+Emissivecolor 53,45,11
+Translate 0.122,0.1255,0
+
+[MeshBuilder]
+Cylinder 20, 0.010,0.010,0.010
+Rotate 0,0,1,-75
+Color 187,170,102
+Emissivecolor 53,45,11
+Translate 0.2245,0.1265,0
+
+[MeshBuilder]
+Cylinder 20, 0.010,0.010,0.010
+Rotate 0,0,1,-60
+Color 187,170,102
+Emissivecolor 53,45,11
+Translate 0.231,0.1292,0
+
+[MeshBuilder]
+Cylinder 20, 0.010,0.010,0.010
+Rotate 0,0,1,-45
+Color 187,170,102
+Emissivecolor 53,45,11
+Translate 0.2367,0.1335,0
+
+[MeshBuilder]
+Cylinder 20, 0.010,0.010,0.010
+Rotate 0,0,1,-30
+Color 187,170,102
+Emissivecolor 53,45,11
+Translate 0.2412,0.139,0
+
+[MeshBuilder]
+Cylinder 20, 0.010,0.010,0.010
+Rotate 0,0,1,-15
+Color 187,170,102
+Emissivecolor 53,45,11
+Translate 0.2444,0.146,0
+
+[MeshBuilder]
+Cylinder 20, 0.014,0.010,0.110
+Color 187,170,102
+Emissivecolor 53,45,11
+Translate 0.2455,0.2034,0
+
+[MeshBuilder]
+Cylinder 20, 0.011,0.014,0.005
+Color 187,170,102
+Emissivecolor 53,45,11
+Translate 0.2455,0.2608,0
+
+Rotateall 0,1,0,180

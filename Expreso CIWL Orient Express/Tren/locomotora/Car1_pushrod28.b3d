@@ -1,0 +1,304 @@
+;Slider Bar 1
+[MeshBuilder]
+Cylinder   14,0.06,0.06,1.1
+Rotate   1,0,0,90
+Translate  1.1 ,  0.04 , -3.1 
+Color   75,84,84
+
+;Slider Bar 2
+[MeshBuilder]
+Cylinder   14,0.17,0.17,0.15
+Rotate   0,0,1,90
+Translate  1.12 ,  0.04 , -2.55 
+
+
+[Texture]
+Load   grey.png
+Coordinates   0, 0, 1
+Coordinates   1, 1, 1
+Coordinates   2, 1, 0
+Coordinates   3, 0, 0
+Coordinates   4, 0, 1
+Coordinates   5, 1, 1
+Coordinates   6, 1, 0
+Coordinates   7, 0, 0
+Coordinates   8, 0, 1
+Coordinates   9, 1, 1
+Coordinates   10, 1, 0
+Coordinates   11, 0, 0
+Coordinates   12, 0, 1
+Coordinates   13, 1, 1
+Coordinates   14, 1, 0
+Coordinates   15, 0, 0
+Coordinates   16, 0, 1
+Coordinates   17, 1, 1
+Coordinates   18, 1, 0
+Coordinates   19, 0, 0
+Coordinates   20, 0, 1
+Coordinates   21, 1, 1
+Coordinates   22, 1, 0
+Coordinates   23, 0, 0
+Coordinates   24, 0, 1
+Coordinates   25, 1, 1
+Coordinates   26, 1, 0
+Coordinates   27, 0, 0
+
+
+
+;Slider Bar 3
+[MeshBuilder]
+Cylinder   14,0.15,0.15,0.1
+Rotate   0,0,1,90
+Translate  1.2 ,  0.04 , -2.55 
+Color   65,68,74
+
+;Slider Bar 4
+[MeshBuilder]
+Cylinder   14,0.12,0.10,0.1
+Rotate   0,0,1,90
+Translate  1.25 ,  0.04 , -2.55 
+Color   60,68,74
+
+;Slider Bar 5
+[MeshBuilder]
+Vertex  1.17 ,  0.14 , -2.65 
+Vertex  1.17 ,  0.14 , -2.45 
+Vertex  1.17 ,  0.29 , -2.32 
+Vertex  1.17 ,  0.29 , -2.78 
+Vertex  1.1 ,  0.29 , -2.78 
+Vertex  1.1 ,  0.29 , -2.32 
+Vertex  1.1 ,  0.14 , -2.45 
+Vertex  1.1 ,  0.14 , -2.65 
+Face   3,2,1,0
+Face   2,3,4,5
+Face   7,6,5,4
+Face   7,4,3,0
+Face   1,2,5,6
+
+
+
+[Texture]
+Load   grey.png
+Coordinates   0, 0, 1
+Coordinates   1, 1, 1
+Coordinates   2, 1, 0
+Coordinates   3, 0, 0
+Coordinates   4, 0, 1
+Coordinates   5, 1, 1
+Coordinates   6, 1, 0
+Coordinates   7, 0, 0
+
+;Slider Bar 6
+[MeshBuilder]
+Vertex  1.17 , -0.06 , -2.65 
+Vertex  1.17 , -0.06 , -2.45 
+Vertex  1.17 , -0.21 , -2.32 
+Vertex  1.17 , -0.21 , -2.78 
+Vertex  1.1 , -0.21 , -2.78 
+Vertex  1.1 , -0.21 , -2.32 
+Vertex  1.1 , -0.06 , -2.45 
+Vertex  1.1 , -0.06 , -2.65 
+Face   0,1,2,3
+Face   5,4,3,2
+Face   4,5,6,7
+Face   0,3,4,7
+Face   6,5,2,1
+
+
+
+[Texture]
+Load   grey.png
+Coordinates   0, 0, 1
+Coordinates   1, 1, 1
+Coordinates   2, 1, 0
+Coordinates   3, 0, 0
+Coordinates   4, 0, 1
+Coordinates   5, 1, 1
+Coordinates   6, 1, 0
+Coordinates   7, 0, 0
+
+
+;;This needs to be after TranslateAll Command
+;Rod 2
+[MeshBuilder]
+Vertex 1.2,0.09,0.1 
+Vertex 1.2,-0.09,0.1 
+Vertex 1.1,-0.39,-2.4 
+Vertex 1.1,-0.21,-2.4 
+Vertex 1.05,-0.21,-2.4 
+Vertex 1.1,0.09,0.1 
+Vertex 1.05,-0.39,-2.4 
+Vertex 1.1,-0.09,0.1 
+Face 0,1,2,3
+Face 3,4,5,0
+Face 7,6,2,1
+Face 6,7,5,4
+Face 2,3,4,6
+Face 5,7,1,0
+Color 220,220,220
+Rotate 1,0,0,2
+Translate 0,0.25,-0.25
+
+
+[Texture]
+Load grey.png
+Coordinates 0, 0, 1
+Coordinates 1, 1, 1
+Coordinates 2, 1, 0
+Coordinates 3, 0, 0
+Coordinates 4, 0, 1
+Coordinates 5, 1, 1
+Coordinates 6, 1, 0
+Coordinates 7, 0, 0
+
+;;Side 2
+;Slider Bar 1
+[MeshBuilder]
+Cylinder  14,0.06,0.06,1.1
+Rotate  1,0,0,90
+Translate  -1.1 ,  0.04 , -2.6 
+Color  75,84,84
+
+;Slider Bar 2
+[MeshBuilder]
+Cylinder  14,0.17,0.17,0.15
+Rotate  0,0,1,90
+Translate  -1.12 ,  0.04 , -2.05 
+
+
+[Texture]
+Load  grey.png
+Coordinates  0, 0, 1
+Coordinates  1, 1, 1
+Coordinates  2, 1, 0
+Coordinates  3, 0, 0
+Coordinates  4, 0, 1
+Coordinates  5, 1, 1
+Coordinates  6, 1, 0
+Coordinates  7, 0, 0
+Coordinates  8, 0, 1
+Coordinates  9, 1, 1
+Coordinates  10, 1, 0
+Coordinates  11, 0, 0
+Coordinates  12, 0, 1
+Coordinates  13, 1, 1
+Coordinates  14, 1, 0
+Coordinates  15, 0, 0
+Coordinates  16, 0, 1
+Coordinates  17, 1, 1
+Coordinates  18, 1, 0
+Coordinates  19, 0, 0
+Coordinates  20, 0, 1
+Coordinates  21, 1, 1
+Coordinates  22, 1, 0
+Coordinates  23, 0, 0
+Coordinates  24, 0, 1
+Coordinates  25, 1, 1
+Coordinates  26, 1, 0
+Coordinates  27, 0, 0
+
+
+
+;Slider Bar 3
+[MeshBuilder]
+Cylinder  14,0.15,0.15,0.1
+Rotate  0,0,1,90
+Translate  -1.2 ,  0.04 , -2.05 
+Color  65,68,74
+
+;Slider Bar 4
+[MeshBuilder]
+Cylinder  14,0.12,0.10,0.1
+Rotate  0,0,1,90
+Translate  -1.25 ,  0.04 , -2.05 
+Color  60,68,74
+
+;Slider Bar 5
+[MeshBuilder]
+Vertex -1.17 ,  0.14 , -2.15 
+Vertex -1.17 ,  0.14 , -1.95 
+Vertex -1.17 ,  0.29 , -1.82 
+Vertex -1.17 ,  0.29 , -2.28 
+Vertex -1.1 ,  0.29 , -2.28 
+Vertex -1.1 ,  0.29 , -1.82 
+Vertex -1.1 ,  0.14 , -1.95 
+Vertex -1.1 ,  0.14 , -2.15 
+Face  0,1,2,3
+Face  5,4,3,2
+Face  4,5,6,7
+Face  0,3,4,7
+Face  6,5,2,1
+
+[Texture]
+Load  grey.png
+Coordinates  0, 0, 1
+Coordinates  1, 1, 1
+Coordinates  2, 1, 0
+Coordinates  3, 0, 0
+Coordinates  4, 0, 1
+Coordinates  5, 1, 1
+Coordinates  6, 1, 0
+Coordinates  7, 0, 0
+
+;Slider Bar 6
+[MeshBuilder]
+Vertex -1.17 , -0.06 , -2.15 
+Vertex -1.17 , -0.06 , -1.95 
+Vertex -1.17 , -0.21 , -1.82 
+Vertex -1.17 , -0.21 , -2.28 
+Vertex -1.1 , -0.21 , -2.28 
+Vertex -1.1 , -0.21 , -1.82 
+Vertex -1.1 , -0.06 , -1.95 
+Vertex -1.1 , -0.06 , -2.15 
+Face  3,2,1,0
+Face  2,3,4,5
+Face  7,6,5,4
+Face  7,4,3,0
+Face  1,2,5,6
+
+[Texture]
+Load  grey.png
+Coordinates  0, 0, 1
+Coordinates  1, 1, 1
+Coordinates  2, 1, 0
+Coordinates  3, 0, 0
+Coordinates  4, 0, 1
+Coordinates  5, 1, 1
+Coordinates  6, 1, 0
+Coordinates  7, 0, 0
+
+
+
+
+;;This needs to be after TranslateAll Command
+;Rod 2
+[MeshBuilder]
+Vertex -1.2,0.09,0.1 
+Vertex -1.2,-0.09,0.1 
+Vertex -1.1,-0.39,-2.4 
+Vertex -1.1,-0.21,-2.4 
+Vertex -1.05,-0.21,-2.4 
+Vertex -1.1,0.09,0.1 
+Vertex -1.05,-0.39,-2.4 
+Vertex -1.1,-0.09,0.1 
+Face 3,2,1,0
+Face 0,5,4,3
+Face 1,2,6,7
+Face 4,5,7,6
+Face 6,4,3,2
+Face 0,1,7,5
+Color 220,220,220
+Rotate 1,0,0,1.5
+Translate 0,0.25,0.25
+
+
+[Texture]
+Load grey.png
+Coordinates 0, 0, 1
+Coordinates 1, 1, 1
+Coordinates 2, 1, 0
+Coordinates 3, 0, 0
+Coordinates 4, 0, 1
+Coordinates 5, 1, 1
+Coordinates 6, 1, 0
+Coordinates 7, 0, 0

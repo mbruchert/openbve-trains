@@ -1,0 +1,43 @@
+YFIS 1916+Later
+AXLE 1CCx\2660\Mallet
+TYPE LocoSteam(LSxx)
+CPLR EURO
+BOGI 4.708feet 1.435metr
+     1xxx Diam\Base\Cntr=3.051feet 0.930metr\0.000feet 0.000metr\+21.1feet +6.43metr
+     xCxx Diam\Base\Cntr=3.576feet 1.090metr\9.843feet 3.000metr\+7.38feet +2.25metr
+     xxCx Diam\Base\Cntr=3.576feet 1.090metr\9.843feet 3.000metr\-12.3feet -3.75metr
+GWHL 167.8kLbs 076.1mTon\11.20feet 3.415metr\15.57feet 4.747metr\51.42feet 15.67metr
+FUEL 002.6kLbs 001.1mTon\005.3cubY 004.0cubM
+WATR 005.2kLbs 002.3mTon\00623uGal 02358Litr
+CPTY 00203psig 01400kpag\036.0MpHr 057.9KpHr\00861Hors 00644kWat\09Wagons/Locomotive
+MAKE GERM:Henschel.Mallet
+DUTY EURO
+KEYS With ATS.CFG:
+     Klax [nE]~[n+],[n-]
+     Rvsr [Ff]~[Vv]
+     Brak [<,]~[>.]~[?/]
+     Powr [Aa]~[Zz]
+     Njct [En]
+     AUTO [Ho] CutOff Lamp Lite
+     CtOf [pU]~[pD] 
+     MANL [Ho] CutOff Lamp Dark
+     CtOf [pU] Full Frwd @Start
+     CtOf [pD]+Powr [Z ] @Speed
+KEYS wOut ATS.CFG:
+     Klax [nE]~[n+],[n-]
+     Rvsr [Ff]~[Vv]
+     Brak [<,]~[>.]~[?/]
+     Powr [Aa]~[Zz]
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+This OpenBVETrainSim(OBTS) addon should be installed as the \TRAIN\SubFolder\ below:
+\TRAIN\1916.1CCx~LSxx.EURO_1m435~????m??_Hens.Mall~????+????\
+       |         |         |             |         |
+       |         |         |      		 |         LIVERY(Railways):XXXX=None + CONSIST:Blank=None\WF??=WagonFrht\WP??=WagonPsgr\WM??=WagonMOW
+       |         |         |      		 MAKE:ABB\ALCo\Alstom\Bombardier\CKDV\EMD\FM\Ganz\GE\Henschel\KHI\Krupp\PafaWag\Siemens\VRR... & MODEL
+       |         |         GAUGE(Track):0m610\0m762\0m914\1m000\1m067=Cape\1m435=Standard\1m524\1m600\1m676... & LENGTH(TrainCoupled):~9999m99
+       |         STOCK(Type):L=Loco\M=Mach\U=Unit\W=Wagn... & COUPLERS:AAR\ABC\ALBE\BSI\CB\EURO\GFAG\LINK\MH&P\NCDA\RUSS\SCHA\WAB\WARD\WEDG...
+       YFIS(Year1stInService):1803~Date & AXLES(Type):1xx1=2Idler\2xx2=4Idler\xBBx=4Power\xCCx=6Power\1BB1=2Idler+4Power\2CC2=4Idler+6Power...
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+Google "OBTS Addons" for train & railway downlinks plus help installing the program.
+Email any constructive Comment\Correction\Suggestion to "OpenBVETrainSim@gmail.com".
+BVE+OBTS files have no Copyright\Patent\Trademark & are freely Used\Modified\Shared.

@@ -1,0 +1,202 @@
+[MESHBUILDER]                           ;Hook
+Vertex       +0.000,+0.128,+0.256
+Vertex       +0.000,+0.128,-0.256
+Vertex       +0.000,-0.128,-0.256
+Vertex       +0.000,-0.128,+0.256
+Face                      0,1,2,3
+Face                      3,2,1,0
+Coordinates       0,+0.000,+0.000
+Coordinates       1,+1.000,+0.000
+Coordinates       2,+1.000,+1.000
+Coordinates       3,+0.000,+1.000
+Load      Cplr~SGxL~UISx_Hook.GIF
+Transparent       000,255,000;Grn
+Translate    -0.025,+0.000,-0.510
+[MESHBUILDER]
+Vertex       +0.000,+0.128,+0.256
+Vertex       +0.000,+0.128,-0.256
+Vertex       +0.000,-0.128,-0.256
+Vertex       +0.000,-0.128,+0.256
+Face                      0,1,2,3
+Face                      3,2,1,0
+Coordinates       0,+0.000,+0.000
+Coordinates       1,+1.000,+0.000
+Coordinates       2,+1.000,+1.000
+Coordinates       3,+0.000,+1.000
+Load      Cplr~SGxL~UISx_Hook.GIF
+Transparent       000,255,000;Grn
+Translate    -0.020,+0.000,-0.510
+[MESHBUILDER]
+Vertex       +0.000,+0.128,+0.256
+Vertex       +0.000,+0.128,-0.256
+Vertex       +0.000,-0.128,-0.256
+Vertex       +0.000,-0.128,+0.256
+Face                      0,1,2,3
+Face                      3,2,1,0
+Coordinates       0,+0.000,+0.000
+Coordinates       1,+1.000,+0.000
+Coordinates       2,+1.000,+1.000
+Coordinates       3,+0.000,+1.000
+Load      Cplr~SGxL~UISx_Hook.GIF
+Transparent       000,255,000;Grn
+Translate    -0.015,+0.000,-0.510
+[MESHBUILDER]
+Vertex       +0.000,+0.128,+0.256
+Vertex       +0.000,+0.128,-0.256
+Vertex       +0.000,-0.128,-0.256
+Vertex       +0.000,-0.128,+0.256
+Face                      0,1,2,3
+Face                      3,2,1,0
+Coordinates       0,+0.000,+0.000
+Coordinates       1,+1.000,+0.000
+Coordinates       2,+1.000,+1.000
+Coordinates       3,+0.000,+1.000
+Load      Cplr~SGxL~UISx_Hook.GIF
+Transparent       000,255,000;Grn
+Translate    -0.010,+0.000,-0.510
+[MESHBUILDER]
+Vertex       +0.000,+0.128,+0.256
+Vertex       +0.000,+0.128,-0.256
+Vertex       +0.000,-0.128,-0.256
+Vertex       +0.000,-0.128,+0.256
+Face                      0,1,2,3
+Face                      3,2,1,0
+Coordinates       0,+0.000,+0.000
+Coordinates       1,+1.000,+0.000
+Coordinates       2,+1.000,+1.000
+Coordinates       3,+0.000,+1.000
+Load      Cplr~SGxL~UISx_Hook.GIF
+Transparent       000,255,000;Grn
+Translate    -0.005,+0.000,-0.510
+[MESHBUILDER]
+Vertex       +0.000,+0.128,+0.256
+Vertex       +0.000,+0.128,-0.256
+Vertex       +0.000,-0.128,-0.256
+Vertex       +0.000,-0.128,+0.256
+Face                      0,1,2,3
+Face                      3,2,1,0
+Coordinates       0,+0.000,+0.000
+Coordinates       1,+1.000,+0.000
+Coordinates       2,+1.000,+1.000
+Coordinates       3,+0.000,+1.000
+Load      Cplr~SGxL~UISx_Hook.GIF
+Transparent       000,255,000;Grn
+Translate    +0.000,+0.000,-0.510
+[MESHBUILDER]
+Vertex       +0.000,+0.128,+0.256
+Vertex       +0.000,+0.128,-0.256
+Vertex       +0.000,-0.128,-0.256
+Vertex       +0.000,-0.128,+0.256
+Face                      0,1,2,3
+Face                      3,2,1,0
+Coordinates       0,+0.000,+0.000
+Coordinates       1,+1.000,+0.000
+Coordinates       2,+1.000,+1.000
+Coordinates       3,+0.000,+1.000
+Load      Cplr~SGxL~UISx_Hook.GIF
+Transparent       000,255,000;Grn
+Translate    +0.005,+0.000,-0.510
+[MESHBUILDER]
+Vertex       +0.000,+0.128,+0.256
+Vertex       +0.000,+0.128,-0.256
+Vertex       +0.000,-0.128,-0.256
+Vertex       +0.000,-0.128,+0.256
+Face                      0,1,2,3
+Face                      3,2,1,0
+Coordinates       0,+0.000,+0.000
+Coordinates       1,+1.000,+0.000
+Coordinates       2,+1.000,+1.000
+Coordinates       3,+0.000,+1.000
+Load      Cplr~SGxL~UISx_Hook.GIF
+Transparent       000,255,000;Grn
+Translate    +0.010,+0.000,-0.510
+[MESHBUILDER]
+Vertex       +0.000,+0.128,+0.256
+Vertex       +0.000,+0.128,-0.256
+Vertex       +0.000,-0.128,-0.256
+Vertex       +0.000,-0.128,+0.256
+Face                      0,1,2,3
+Face                      3,2,1,0
+Coordinates       0,+0.000,+0.000
+Coordinates       1,+1.000,+0.000
+Coordinates       2,+1.000,+1.000
+Coordinates       3,+0.000,+1.000
+Load      Cplr~SGxL~UISx_Hook.GIF
+Transparent       000,255,000;Grn
+Translate    +0.015,+0.000,-0.510
+[MESHBUILDER]
+Vertex       +0.000,+0.128,+0.256
+Vertex       +0.000,+0.128,-0.256
+Vertex       +0.000,-0.128,-0.256
+Vertex       +0.000,-0.128,+0.256
+Face                      0,1,2,3
+Face                      3,2,1,0
+Coordinates       0,+0.000,+0.000
+Coordinates       1,+1.000,+0.000
+Coordinates       2,+1.000,+1.000
+Coordinates       3,+0.000,+1.000
+Load      Cplr~SGxL~UISx_Hook.GIF
+Transparent       000,255,000;Grn
+Translate    +0.020,+0.000,-0.510
+[MESHBUILDER]
+Vertex       +0.000,+0.128,+0.256
+Vertex       +0.000,+0.128,-0.256
+Vertex       +0.000,-0.128,-0.256
+Vertex       +0.000,-0.128,+0.256
+Face                      0,1,2,3
+Face                      3,2,1,0
+Coordinates       0,+0.000,+0.000
+Coordinates       1,+1.000,+0.000
+Coordinates       2,+1.000,+1.000
+Coordinates       3,+0.000,+1.000
+Load      Cplr~SGxL~UISx_Hook.GIF
+Transparent       000,255,000;Grn
+Translate    +0.025,+0.000,-0.510
+
+[MESHBUILDER]                           ;Pins
+Cylinder  12,+0.024,+0.024,+0.160
+Color         111,079,063,255;Rus
+Rotate               0,0,1,+090.0
+Translate    +0.000,+0.000,-0.461
+
+[MESHBUILDER]                           ;Bolt
+Cylinder   6,+0.025,+0.025,+0.020
+Color         143,111,095,255;Rus
+Rotate               1,0,0,+090.0
+Translate    -0.231,+0.090,-0.510
+[MESHBUILDER]                      
+Cylinder   6,+0.025,+0.025,+0.020
+Color         143,111,095,255;Rus
+Rotate               1,0,0,+090.0
+Translate    +0.231,+0.090,-0.510
+[MESHBUILDER]
+Cylinder   6,+0.025,+0.025,+0.020
+Color         143,111,095,255;Rus
+Rotate               1,0,0,+090.0
+Translate    -0.231,-0.090,-0.510
+[MESHBUILDER]                      
+Cylinder   6,+0.025,+0.025,+0.020
+Color         143,111,095,255;Rus
+Rotate               1,0,0,+090.0
+Translate    +0.231,-0.090,-0.510
+
+[MESHBUILDER]                           ;Yoke
+Cube         +0.184,+0.047,+0.030
+Color         031,015,015,255;Rus
+Translate    +0.000,+0.000,-0.570
+[MESHBUILDER]
+Cube         +0.278,+0.047,+0.120
+Color         119,103,103,255;Rus
+Translate    +0.000,+0.094,-0.640
+[MESHBUILDER]
+Cube         +0.278,+0.047,+0.120
+Color         119,103,103,255;Rus
+Translate    +0.000,-0.094,-0.640
+[MESHBUILDER]
+Cube         +0.047,+0.141,+0.120
+Color         119,103,103,255;Rus
+Translate    -0.231,+0.000,-0.640
+[MESHBUILDER]
+Cube         +0.047,+0.141,+0.120
+Color         119,103,103,255;Rus
+Translate    +0.231,+0.000,-0.640

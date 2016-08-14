@@ -1,0 +1,31 @@
+[Include]
+EurostarR8.csv
+Position =  0, 0,-2.05
+
+[Include]
+Interior/EurostarR8.csv
+Position =  0, 0,-2.05
+
+[Include]
+Bogiecorto.csv
+Position =  0, 0, 0.3
+[object]
+Position = 0, 0.45, -8.3
+states=ruedas.csv
+RotateXFunction = value + mod[(speedometer * delta),2.7] / 2.7 * 3.14 * 2
+[object]
+Position = 0, 0.45, -5.5
+states=ruedas.csv
+RotateXFunction = value + mod[(speedometer * delta),2.7] / 2.7 * 3.14 * 2
+
+;;Puertas;;
+[Object]
+Position = 0, 0, 11.74
+States = Puerta1eraClase.csv
+TranslateZFunction = 1.1 * RIGHTdoors[0]
+[Object]
+Position = 0, 0, 11.74
+States = Puerta1eraClase2.csv
+TranslateZFunction = 1.1 * Leftdoors[0]
+
+

@@ -1,0 +1,21 @@
+Plasser & Theurer USP5000C Ballast Regulator
+============================================
+
+A departmental track machine used to evenly distribute and shape ballast during permanent way maintenance.
+
+
+Use the posession siren (enter key) when entering an engineering posession. 
+
+To regulate ballast bring machine to a stand, thence proceed in power notch 1 until 3-4mph is reached, then press keypad 6 to start regulating. This will give approximately 2 minutes regulating. Once finished bring the machine to a stand, select reverse and repeat the process.
+
+Keypad 5 = front headlamp
+Keypad 4 = rear headlamp
+
+Other controls as per standard.
+
+
+This add-on is only deemed to be a representation and the operation herein is therefore not 100% prototypical.
+
+
+Engine = Rolls Royce 6 cylinder diesel
+Transmission = 'Twin Disc' semi automatic - 4 speed forward and reverse

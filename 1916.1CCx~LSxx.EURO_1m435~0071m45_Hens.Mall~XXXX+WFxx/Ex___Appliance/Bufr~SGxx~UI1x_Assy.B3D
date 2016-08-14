@@ -1,0 +1,93 @@
+[MESHBUILDER]                      ;Face
+Vertex       +0.338,+0.225,+0.130
+Vertex       -0.338,+0.225,+0.130
+Vertex       -0.338,-0.225,+0.118
+Vertex       +0.338,-0.225,+0.118
+Face                      0,1,2,3
+Face                      3,2,1,0
+Transparent       000,255,000;Grn
+Color         255,255,255,254;Edg
+Load      Bufr~SGxx~UI1x_Face.GIF
+Coordinates       0,+0.000,+0.000
+Coordinates       1,+1.000,+0.000
+Coordinates       2,+1.000,+1.000
+Coordinates       3,+0.000,+1.000
+[MESHBUILDER]
+Vertex       +0.338,+0.225,+0.118
+Vertex       -0.338,+0.225,+0.118
+Vertex       -0.338,-0.225,+0.130
+Vertex       +0.338,-0.225,+0.130
+Face                      0,1,2,3
+Face                      3,2,1,0
+Transparent       000,255,000;Grn
+Color         255,255,255,254;Edg
+Load      Bufr~SGxx~UI1x_Face.GIF
+Coordinates       0,+0.000,+0.000
+Coordinates       1,+1.000,+0.000
+Coordinates       2,+1.000,+1.000
+Coordinates       3,+0.000,+1.000
+[MESHBUILDER]
+Vertex       +0.338,+0.225,+0.130
+Vertex       -0.338,+0.225,+0.118
+Vertex       -0.338,-0.225,+0.118
+Vertex       +0.338,-0.225,+0.130
+Face                      0,1,2,3
+Face                      3,2,1,0
+Transparent       000,255,000;Grn
+Color         255,255,255,254;Edg
+Load      Bufr~SGxx~UI1x_Face.GIF
+Coordinates       0,+0.000,+0.000
+Coordinates       1,+1.000,+0.000
+Coordinates       2,+1.000,+1.000
+Coordinates       3,+0.000,+1.000
+[MESHBUILDER]
+Vertex       +0.338,+0.225,+0.118
+Vertex       -0.338,+0.225,+0.130
+Vertex       -0.338,-0.225,+0.130
+Vertex       +0.338,-0.225,+0.118
+Face                      0,1,2,3
+Face                      3,2,1,0
+Transparent       000,255,000;Grn
+Color         255,255,255,254;Edg
+Load      Bufr~SGxx~UI1x_Face.GIF
+Coordinates       0,+0.000,+0.000
+Coordinates       1,+1.000,+0.000
+Coordinates       2,+1.000,+1.000
+Coordinates       3,+0.000,+1.000
+
+[MESHBUILDER]                      ;Cyli
+Cylinder  12,+0.080,+0.080,+0.184
+Rotate               1,0,0,+090.0
+Translate    +0.000,+0.000,+0.031
+Color         127,127,127,255;Gra
+[MESHBUILDER]                      
+Cylinder  12,+0.120,+0.120,+0.370
+Rotate               1,0,0,+090.0
+Translate    +0.000,+0.000,-0.245
+Color         095,095,095,255;Gra
+
+[MESHBUILDER]                      ;Bolt
+Cylinder   6,+0.025,+0.025,+0.020
+Rotate               1,0,0,+090.0
+Translate    -0.150,-0.090,-0.380
+Color         143,111,095,255;Rus
+[MESHBUILDER]                      
+Cylinder   6,+0.025,+0.025,+0.020
+Rotate               1,0,0,+090.0
+Translate    -0.150,+0.090,-0.380
+Color         143,111,095,255;Rus
+[MESHBUILDER]
+Cylinder   6,+0.025,+0.025,+0.020
+Rotate               1,0,0,+090.0
+Translate    +0.150,-0.090,-0.380
+Color         143,111,095,255;Rus
+[MESHBUILDER]                      
+Cylinder   6,+0.025,+0.025,+0.020
+Rotate               1,0,0,+090.0
+Translate    +0.150,+0.090,-0.380
+Color         143,111,095,255;Rus
+
+[MESHBUILDER]                      ;Base
+Cube         +0.180,+0.130,+0.120
+Translate    +0.000,+0.000,-0.510
+Color         087,087,087,255;Gra

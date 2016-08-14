@@ -1,0 +1,21 @@
+﻿CreateMeshBuilder
+Cylinder, 6, 0.02, 0.025,0.025
+SetColor, 20, 20, 20
+Translate,0,0,0
+
+CreateMeshBuilder
+Cylinder, 20, 0.03, 0.03,0.005
+SetColor, 20, 20, 20
+Translate,0,-0.015,0
+
+CreateMeshBuilder
+Cylinder, 9, 0.004, 0.004,0.002
+setcolor,150,150,150
+
+Rotate,0,1,0,90
+Rotate,1,0,0,90
+Translate,0,-0.0054,-0.025
+rotate,0,1,0,310
+
+
+rotateall,0,1,0,90

@@ -1,0 +1,13 @@
+[include]
+Position = 0, 0, 0
+bogie delantero.csv
+
+[object]
+Position = 0, 0.44, 1.14
+states=rueda 1.csv
+RotateXFunction = value + delta * speedometer / 0.5
+
+[object]
+Position = 0, 0.44, -1.14
+states=rueda 1.csv
+RotateXFunction = value + delta * speedometer / 0.5

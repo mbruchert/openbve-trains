@@ -1,0 +1,22 @@
+Expreso de Oriente
+
+Es un tren que unia a Paris con Constantinopla, hoy Estambul...Fue inaugurado en 1883 y hasta hoy continua uniendo a las pricipales ciudades europeas dentro de este recorrido
+
+El modelo para OpenBVE Contiene:
+
+1 Locomotora BR 01
+3 Coches Cama de 2da clase
+1 Coche Comedor
+1 Coche Salon
+2 Coches Cama de 1ra Clase
+
+Creditos:
+
+Locomotora y Coches: Alejandro Melo
+Texturas de Coche Salon: Rodrigop Origel
+Cabina y Controles: Robert Raymond
+Sonidos: Robert Raymond
+
+Made in:
+
+Mexico DF

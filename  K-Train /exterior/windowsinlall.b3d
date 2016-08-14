@@ -1,0 +1,86 @@
+
+[MeshBuilder]				
+Vertex 0, -0.25, 10.34	
+Vertex 0, 1.0, 10.34	
+Vertex 0, 1.0, 7.525
+Vertex 0, -0.25, 7.525	
+
+Face2 0, 1, 2, 3
+
+Load windowsinall.bmp, windowsinall.bmp			
+
+Coordinates 0, 0, 0	
+Coordinates 1, 1, 0	
+Coordinates 2, 1, 1	
+Coordinates 3, 0, 1	
+Transparent 0,0,255	
+translate -1.6,0.64,-8.93
+
+
+
+[MeshBuilder]				
+Vertex 0, -0.25, 10.34	
+Vertex 0, 1.0, 10.34	
+Vertex 0, 1.0, 7.525
+Vertex 0, -0.25, 7.525	
+
+Face2 0, 1, 2, 3
+
+Load windowsinall.bmp, windowsinall.bmp			
+
+Coordinates 0, 0, 0	
+Coordinates 1, 1, 0	
+Coordinates 2, 1, 1	
+Coordinates 3, 0, 1	
+Transparent 0,0,255	
+translate -1.6,0.64,-8.93
+translate 0,0,4.5
+
+
+
+[MeshBuilder]				
+Vertex 0, -0.25, 10.34	
+Vertex 0, 1.0, 10.34	
+Vertex 0, 1.0, 7.525
+Vertex 0, -0.25, 7.525	
+
+Face2 0, 1, 2, 3
+
+Load windowsinall.bmp, windowsinall.bmp			
+
+Coordinates 0, 0, 0	
+Coordinates 1, 1, 0	
+Coordinates 2, 1, 1	
+Coordinates 3, 0, 1	
+Transparent 0,0,255	
+translate -1.6,0.64,-8.93
+translate 0,0,9
+
+
+
+
+
+[MeshBuilder]				
+Vertex 0, -0.25, 10.34	
+Vertex 0, 1.0, 10.34	
+Vertex 0, 1.0, 7.525
+Vertex 0, -0.25, 7.525	
+
+Face2 0, 1, 2, 3
+
+Load windowsinall.bmp, windowsinall.bmp			
+
+Coordinates 0, 0, 0	
+Coordinates 1, 1, 0	
+Coordinates 2, 1, 1	
+Coordinates 3, 0, 1	
+Transparent 0,0,255	
+translate -1.6,0.64,-8.93
+translate 0,0,-4.5
+ 
+
+
+RotateAll 0,0,1,-5
+
+ScaleAll 1.1,1.1,1.1
+translateall 0.1,0.15,0

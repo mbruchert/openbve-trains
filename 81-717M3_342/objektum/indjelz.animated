@@ -1,0 +1,47 @@
+[Object]
+Position = -1.3,3.02,6.845
+States = indjelzki.b3d,indjelzbe.b3d
+Statefunction = if[doors==0,0,if[pluginstate[133]==1,1,value]]
+TextureShiftYFunction = (floor[mod[time*4/3,2]])/2
+
+[Object]
+Position = 1.3,3.02,6.845
+States = indjelzki.b3d,indjelzbe.b3d
+Statefunction = if[doors==0,0,if[pluginstate[133]==1,1,value]]
+TextureShiftYFunction = (floor[mod[time*4/3,2]])/2
+
+[Object]
+Position = -1.3,3.02,2.28
+States = indjelzki.b3d,indjelzbe.b3d
+Statefunction = if[doors==0,0,if[pluginstate[133]==1,1,value]]
+TextureShiftYFunction = (floor[mod[time*4/3,2]])/2
+
+[Object]
+Position = 1.3,3.02,2.28
+States = indjelzki.b3d,indjelzbe.b3d
+Statefunction = if[doors==0,0,if[pluginstate[133]==1,1,value]]
+TextureShiftYFunction = (floor[mod[time*4/3,2]])/2
+
+[Object]
+Position = -1.3,3.02,-2.28
+States = indjelzki.b3d,indjelzbe.b3d
+Statefunction = if[doors==0,0,if[pluginstate[133]==1,1,value]]
+TextureShiftYFunction = (floor[mod[time*4/3,2]])/2
+
+[Object]
+Position = 1.3,3.02,-2.28
+States = indjelzki.b3d,indjelzbe.b3d
+Statefunction = if[doors==0,0,if[pluginstate[133]==1,1,value]]
+TextureShiftYFunction = (floor[mod[time*4/3,2]])/2
+
+[Object]
+Position = -1.3,3.02,-6.845
+States = indjelzki.b3d,indjelzbe.b3d
+Statefunction = if[doors==0,0,if[pluginstate[133]==1,1,value]]
+TextureShiftYFunction = (floor[mod[time*4/3,2]])/2
+
+[Object]
+Position = 1.3,3.02,-6.845
+States = indjelzki.b3d,indjelzbe.b3d
+Statefunction = if[doors==0,0,if[pluginstate[133]==1,1,value]]
+TextureShiftYFunction = (floor[mod[time*4/3,2]])/2

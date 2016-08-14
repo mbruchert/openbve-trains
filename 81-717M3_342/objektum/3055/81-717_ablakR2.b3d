@@ -1,0 +1,39 @@
+;motorkocsi ablak
+;Készítette: http://www.bvemetro.hu/
+
+;--------------------------------------------------
+
+;ablaküveg
+[MeshBuilder]
+Vertex 1.325,2.1,01.97
+Vertex 1.325,3.0,01.97
+Vertex 1.325,3.0,02.66
+Vertex 1.325,2.1,02.66
+Face2 3,2,1,0
+Color 100,100,100,80
+
+[MeshBuilder]
+Vertex 1.325,2.1,06.53
+Vertex 1.325,3.0,06.53
+Vertex 1.325,3.0,07.22
+Vertex 1.325,2.1,07.22
+Face2 3,2,1,0
+Color 100,100,100,80
+
+[MeshBuilder]
+Vertex 1.325,2.1,11.09
+Vertex 1.325,3.0,11.09
+Vertex 1.325,3.0,11.78
+Vertex 1.325,2.1,11.78
+Face2 3,2,1,0
+Color 100,100,100,80
+
+[MeshBuilder]
+Vertex 1.325,2.1,15.67
+Vertex 1.325,3.0,15.67
+Vertex 1.325,3.0,16.34
+Vertex 1.325,2.1,16.34
+Face2 3,2,1,0
+Color 100,100,100,80
+
+TranslateAll 0,0,-9.5

@@ -1,0 +1,523 @@
+;--------------------------------------
+;Archivo 3D para Trenes de OpenBVE
+;--------------------------------------
+;(c) Rieles Virtuales de Venezuela
+;www.trenesvenezolanos.com
+;
+;por Manuel Mejias
+;
+
+;; 19.14 largo 3.84 alto 2.81 ancho ::
+
+;;ESTRUCTURA INTERNA DEL TREN;;
+;Lado Izquierdo;
+CreateMeshBuilder,
+AddVertex,-1.254, 3.65, 17.5,
+AddVertex,-1.254, 3.65, 0.8,
+AddVertex,-1.404, 2.85, 17.5,
+AddVertex,-1.404, 2.85, 0.8,
+AddVertex,-1.404, 1.79, 17.5,
+AddVertex,-1.404, 1.79, 0.8,
+AddVertex,-1.004, 0.8, 17.5,
+AddVertex,-1.004, 0.8, 0.8,
+AddVertex,-1.254, 3.65,  19.95,
+AddVertex,-1.404, 2.85, 19.94,
+AddVertex,-1.404, 1.79, 19.94,
+AddVertex,-1.04, 0.8, 20,
+AddFace,1,0,2,3,
+AddFace,3,2,4,5,
+AddFace,5,4,6,7,
+AddFace,2,0,8,9,
+AddFace,4,2,9,10
+AddFace,6,4,10,11,
+Translate,0,-0.5,-12.5,
+GenerateNormals,
+LoadTexture,latr8.png,
+SetTextureCoordinates,0,  0.87, 0,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2,  0.87, 0.37,
+SetTextureCoordinates,3, 0, 0.37,
+SetTextureCoordinates,4, 0.87, 0.7,
+SetTextureCoordinates,5, 0, 0.7,
+SetTextureCoordinates,6, 0.87, 1,
+SetTextureCoordinates,7, 0, 1,
+SetTextureCoordinates,8,  1, 0,
+SetTextureCoordinates,9,  1, 0.35,
+SetTextureCoordinates,10, 1, 0.7,
+SetTextureCoordinates,11, 1, 1,
+SetDecalTransparentColor,0,0,255
+SetEmissivecolor,255,255,255
+;Lado Derecho;
+CreateMeshBuilder,
+AddVertex,1.254, 3.65, 17.5,
+AddVertex,1.254, 3.65, 0.8,
+AddVertex,1.404, 2.85, 17.5,
+AddVertex,1.404, 2.85, 0.8,
+AddVertex,1.404, 1.79, 17.5,
+AddVertex,1.404, 1.79, 0.8,
+AddVertex,1.004, 0.8, 17.5,
+AddVertex,1.004, 0.8, 0.8,
+AddVertex,1.254, 3.65,  19.95,
+AddVertex,1.404, 2.85, 19.94,
+AddVertex,1.404, 1.79, 19.94,
+AddVertex,1.04, 0.8, 20,
+AddFace,0,1,3,2,
+AddFace,2,3,5,4,
+AddFace,4,5,7,6,
+AddFace,0,2,9,8,
+AddFace,2,4,10,9,
+AddFace,4,6,11,10,
+Translate,0,-0.5,-12.5,
+GenerateNormals,
+LoadTexture,latr8.png,
+SetTextureCoordinates,0,  0.87, 0,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2,  0.87, 0.37,
+SetTextureCoordinates,3, 0, 0.37,
+SetTextureCoordinates,4, 0.87, 0.7,
+SetTextureCoordinates,5, 0, 0.7,
+SetTextureCoordinates,6, 0.87, 1,
+SetTextureCoordinates,7, 0, 1,
+SetTextureCoordinates,8,  1, 0,
+SetTextureCoordinates,9,  1, 0.35,
+SetTextureCoordinates,10, 1, 0.7,
+SetTextureCoordinates,11, 1, 1,
+SetDecalTransparentColor,0,0,255
+SetEmissivecolor,255,255,255
+
+;;Piso;;
+CreateMeshBuilder,
+AddVertex,1.255, 0.95, 7.45,
+AddVertex,-1.255, 0.95, 7.45,
+AddVertex,1.255, 0.95, -11.7,
+AddVertex,-1.255, 0.95, -11.7,
+Addface,1,0,2,3
+LoadTexture,piso2da.png,
+SetTextureCoordinates,0,  10, 0,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2,  10, 20
+SetTextureCoordinates,3, 0, 20,
+SetEmissivecolor,255,255,255
+
+;;ParedMotor;;
+CreateMeshBuilder,
+AddVertex,-1.405, 3.15, 5.5,
+AddVertex,1.405, 3.15, 5.5,
+AddVertex,1.405, 0.95, 5.5,
+AddVertex,-1.405, 0.95, 5.5,
+AddFace2,1,0,3,2,
+GenerateNormals,
+LoadTexture,Motriz.png,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 1, 1,
+SetTextureCoordinates,3, 0, 1,
+SetDecalTransparentColor,0,0,0,
+SetDecalTransparentColor,0,0,255
+SetEmissivecolor,255,255,255
+
+;;Minibar
+CreateMeshBuilder,
+AddVertex,-1.405, 3.15, 2.9,
+AddVertex,1.405, 3.15, 2.9,
+AddVertex,1.405, 0.95, 2.9,
+AddVertex,-1.405, 0.95, 2.9,
+AddFace2,1,0,3,2,
+GenerateNormals,
+LoadTexture,final.png,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 1, 1,
+SetTextureCoordinates,3, 0, 1,
+SetDecalTransparentColor,0,0,0,
+SetDecalTransparentColor,0,0,255
+SetEmissivecolor,255,255,255
+;;PortaequipajeMinibar;;
+CreateMeshBuilder,
+AddVertex,-0.69, 0.95, -0.05,
+AddVertex,-0.69, 0.95, 0.9,
+AddVertex,-0.69, 1.7, -0.05,
+AddVertex,-0.69, 1.7, 0.9,
+AddVertex,-1.4,  0.95, 0.9,
+AddVertex,-1.4, 1.7, 0.9,
+AddFace2,0,1,3,2,
+AddFace2,3,1,4,5,
+AddVertex,-0.69, 1.7, -0.05,
+AddVertex,-0.69, 1.7,  0.9,
+AddVertex,-1.4, 1.7,  -0.05,
+AddVertex,-1.4, 1.7,  0.9,
+AddFace2,6,7,9,8,
+LoadTexture,Minibar.png,
+SetTextureCoordinates,0, 0.7, 1,
+SetTextureCoordinates,1, 0.3, 1,
+SetTextureCoordinates,2, 0.7, 0,
+SetTextureCoordinates,3, 0.3, 0,
+SetTextureCoordinates,4, 0, 1,
+SetTextureCoordinates,5, 0, 0,
+SetTextureCoordinates,6, 1, 1,
+SetTextureCoordinates,7, 1, 1,
+SetTextureCoordinates,8, 1, 1,
+SetTextureCoordinates,9, 1, 1,
+SetDecalTransparentColor,0,0,0,
+SetDecalTransparentColor,0,0,255
+SetEmissivecolor,255,255,255 
+Translate,0,0,2.95
+;;Portaequipajeminibar;;
+CreateMeshBuilder,
+AddVertex,0.69, 0.95, -0.05,
+AddVertex,0.69, 0.95, 0.9,
+AddVertex,0.69, 3.15, -0.05,
+AddVertex,0.69, 3.15, 0.9,
+AddVertex,1.4,  0.95, 0.9,
+AddVertex,1.4, 3.15, 0.9,
+AddFace2,0,1,3,2,
+AddFace2,3,1,4,5,
+AddVertex,0.69, 1.6, -0.05,
+AddVertex,0.69, 1.6,  0.9,
+AddVertex,1.4, 1.6,  -0.05,
+AddVertex,1.4, 1.6,  0.9,
+AddFace2,6,7,9,8,
+AddVertex,0.69, 1.0, -0.05,
+AddVertex,0.69, 1.0,  0.9,
+AddVertex,1.26, 1.0,  -0.05,
+AddVertex,1.26, 1.0,  0.9,
+AddFace2,10,11,13,12,
+AddVertex,0.69, 3.0, -0.05,
+AddVertex,0.69, 3.0,  0.9,
+AddVertex,1.26, 3.0,  -0.05,
+AddVertex,1.26, 3.0,  0.9,
+Addface2,14,15,17,16
+AddVertex,1.25,  0.95, -0.05,
+AddVertex,1.25, 3.15, -0.05,
+AddVertex,1.25,  0.95, 0.9,
+AddVertex,1.25, 3.15, 0.9,
+Addface2,2,0,18,19
+Addface2,20,21,19,18
+LoadTexture,Equipaje.png,
+SetTextureCoordinates,0, 1, 1,
+SetTextureCoordinates,1, 0.3, 1,
+SetTextureCoordinates,2, 1, 0,
+SetTextureCoordinates,3, 0.3, 0,
+SetTextureCoordinates,4, 0, 1,
+SetTextureCoordinates,5, 0, 0,
+SetTextureCoordinates,6,0.1,0.5,
+SetTextureCoordinates,7,0.1,1,
+SetTextureCoordinates,8,0.2,0.5,
+SetTextureCoordinates,9,0.2,1,
+SetTextureCoordinates,10,0.1,0.5,
+SetTextureCoordinates,11,0.1,1,
+SetTextureCoordinates,12,0.2,0.5,
+SetTextureCoordinates,13,0.2,1,
+SetTextureCoordinates,14,0.1,0.5,
+SetTextureCoordinates,15,0.1,1,
+SetTextureCoordinates,16,0.2,0.5,
+SetTextureCoordinates,17,0.2,1,
+SetTextureCoordinates,18,0.99,1,
+SetTextureCoordinates,19,0.99,1,
+SetTextureCoordinates,20,0.99,1,
+SetTextureCoordinates,21,0.99,1,
+SetDecalTransparentColor,0,0,0,
+SetDecalTransparentColor,0,0,255
+SetEmissivecolor,255,255,255 
+Translate,0,0,2.955
+;;Portaequipajeminibar2;;
+CreateMeshBuilder,
+AddVertex,0.69, 0.95, 0.75,
+AddVertex,0.69, 0.95, -0.9,
+AddVertex,0.69, 3.1, 0.75,
+AddVertex,0.69, 3.1, -0.9,
+AddVertex,1.4,  0.95, -0.9,
+AddVertex,1.4, 3.1, -0.9,
+AddFace2,0,1,3,2,
+AddFace2,3,1,4,5,
+LoadTexture,electro.png,
+SetTextureCoordinates,0, 0.7, 1,
+SetTextureCoordinates,1, 0.3, 1,
+SetTextureCoordinates,2, 0.7, 0,
+SetTextureCoordinates,3, 0.3, 0,
+SetTextureCoordinates,4, 0, 1,
+SetTextureCoordinates,5, 0, 0,
+SetDecalTransparentColor,0,0,0,
+SetDecalTransparentColor,0,0,255
+SetEmissivecolor,255,255,255 
+Translate,0,0,4.75
+
+
+
+;;Equipaje/Pasajeros1;;
+CreateMeshBuilder,
+AddVertex,-1.405, 3.15, 1.75,
+AddVertex,1.405, 3.15, 1.75,
+AddVertex,1.405, 0.95, 1.75,
+AddVertex,-1.405, 0.95, 1.75,
+AddFace2,1,0,3,2,
+GenerateNormals,
+LoadTexture,fin5.png,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, -1, 0,
+SetTextureCoordinates,2, -1, 1,
+SetTextureCoordinates,3, 0, 1,
+SetDecalTransparentColor,0,0,0,
+SetDecalTransparentColor,0,0,255
+SetEmissivecolor,255,255,255
+
+;;Equipaje/Pasajeros2;;
+CreateMeshBuilder,
+AddVertex,-1.405, 3.15, 1.752,
+AddVertex,1.405, 3.15, 1.752,
+AddVertex,1.405, 0.95, 1.752,
+AddVertex,-1.405, 0.95, 1.752,
+AddFace2,1,0,3,2,
+GenerateNormals,
+LoadTexture,fin3.png,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 1, 1,
+SetTextureCoordinates,3, 0, 1,
+SetDecalTransparentColor,0,0,0,
+SetDecalTransparentColor,0,0,255
+SetEmissivecolor,255,255,255
+
+
+;;Pasajeros/PasilloBogieJacobs"
+CreateMeshBuilder,
+AddVertex,-1.405, 3.15, -10.0,
+AddVertex,1.405, 3.15, -10.0,
+AddVertex,1.405, 0.95, -10.0,
+AddVertex,-1.405, 0.95, -10.0,
+AddFace2,1,0,3,2,
+GenerateNormals,
+LoadTexture,fin5.png,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, -1, 0,
+SetTextureCoordinates,2, -1, 1,
+SetTextureCoordinates,3, 0, 1,
+SetDecalTransparentColor,0,0,0,
+SetDecalTransparentColor,0,0,255
+SetEmissivecolor,255,255,255 
+
+;;Pasajeros/PasilloBogieJacobs"
+CreateMeshBuilder,
+AddVertex,-1.405, 3.15, -10.02,
+AddVertex,1.405, 3.15, -10.02,
+AddVertex,1.405, 0.95, -10.02,
+AddVertex,-1.405, 0.95, -10.02,
+AddFace2,1,0,3,2,
+GenerateNormals,
+LoadTexture,fin3.png,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 1, 1,
+SetTextureCoordinates,3, 0, 1,
+SetDecalTransparentColor,0,0,0,
+SetDecalTransparentColor,0,0,255
+SetEmissivecolor,255,255,255 
+
+;;PortaequipajeFinal;;
+;;PortaequipajeFinal;;
+CreateMeshBuilder,
+AddVertex,-0.69, 0.95, -0.47,
+AddVertex,-0.69, 0.95,  -2.1,
+AddVertex,-0.69, 3.15, -0.47,
+AddVertex,-0.69, 3.15, -2.1,
+AddVertex,-1.4,  0.95, -2.1,
+AddVertex,-1.4, 3.15, -2.1,
+AddFace2,0,1,3,2,
+AddFace2,1,3,5,4,
+AddFace2,0,1,3,2,
+AddVertex,-0.69, 1.6, -0.47,
+AddVertex,-0.69, 1.6,  -2.1,
+AddVertex,-1.4, 1.6,  -0.47,
+AddVertex,-1.4, 1.6,  -2.1,
+AddFace2,6,7,9,8,
+AddVertex,-0.69, 1.0, -0.47,
+AddVertex,-0.69, 1.0,  -2.1,
+AddVertex,-1.26, 1.0,  -0.47,
+AddVertex,-1.26, 1.0,  -2.1,
+AddFace2,10,11,13,12,
+AddVertex,-0.69, 3.0, -0.47,
+AddVertex,-0.69, 3.0,  -2.1,
+AddVertex,-1.26, 3.0,  -0.47,
+AddVertex,-1.26, 3.0,  -2.1,
+Addface2,14,15,17,16
+AddVertex,-1.26,  0.95, -0.47,
+AddVertex,-1.26, 3.15, -0.47,
+AddVertex,-1.26,  0.95, -2.1,
+AddVertex,-1.26, 3.15, -2.1,
+Addface2,2,0,18,19
+Addface2,20,21,19,18
+LoadTexture,Equipaje.png,
+SetTextureCoordinates,0, 1, 1,
+SetTextureCoordinates,1, 0.3, 1,
+SetTextureCoordinates,2, 1, 0,
+SetTextureCoordinates,3, 0.3, 0,
+SetTextureCoordinates,4, 0, 1,
+SetTextureCoordinates,5, 0, 0,
+SetTextureCoordinates,6,0.1,0.5,
+SetTextureCoordinates,7,0.1,1,
+SetTextureCoordinates,8,0.2,0.5,
+SetTextureCoordinates,9,0.2,1,
+SetTextureCoordinates,10,0.1,0.5,
+SetTextureCoordinates,11,0.1,1,
+SetTextureCoordinates,12,0.2,0.5,
+SetTextureCoordinates,13,0.2,1,
+SetTextureCoordinates,14,0.1,0.5,
+SetTextureCoordinates,15,0.1,1,
+SetTextureCoordinates,16,0.2,0.5,
+SetTextureCoordinates,17,0.2,1,
+SetTextureCoordinates,18,0.99,1,
+SetTextureCoordinates,19,0.99,1,
+SetTextureCoordinates,20,0.99,1,
+SetTextureCoordinates,21,0.99,1,
+SetDecalTransparentColor,0,0,255
+SetEmissivecolor,255,255,255 
+Translate,0,0,-9.57
+;;EquiposElectricos;;
+CreateMeshBuilder,
+AddVertex,0.89, 0.95, -0.45,
+AddVertex,0.89, 0.95,  -2.1,
+AddVertex,0.89, 3.15, -0.45,
+AddVertex,0.89, 3.15, -2.1,
+AddVertex,1.4,  0.95, -2.1,
+AddVertex,1.4, 3.15, -2.1,
+AddFace2,0,1,3,2,
+LoadTexture,Electro.png,
+SetTextureCoordinates,0, 1, 1,
+SetTextureCoordinates,1, 0.3, 1,
+SetTextureCoordinates,2, 1, 0,
+SetTextureCoordinates,3, 0.3, 0,
+SetTextureCoordinates,4, 0, 1,
+SetTextureCoordinates,5, 0, 0,
+SetDecalTransparentColor,0,0,0,
+SetDecalTransparentColor,0,0,255
+SetEmissivecolor,255,255,255 
+
+
+Translate,0,0,-9.57
+;;ParedFinal;;
+CreateMeshBuilder,
+AddVertex,-1.405, 3.15, -11.69,
+AddVertex,1.405, 3.15, -11.69,
+AddVertex,1.405, 0.95, -11.69,
+AddVertex,-1.405, 0.95, -11.69,
+AddFace2,1,0,3,2,
+GenerateNormals,
+LoadTexture,final.png,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 1, 1,
+SetTextureCoordinates,3, 0, 1,
+SetDecalTransparentColor,0,0,0,
+SetDecalTransparentColor,0,0,255
+SetEmissivecolor,255,255,255 
+
+
+;;TechoPasillo1;;
+CreateMeshBuilder,
+AddVertex,-1.26, 3, -0.05,
+AddVertex,-1.26, 3,  5.50,
+AddVertex,-0.26, 3.15, -0.05,
+AddVertex,-0.26, 3.15, 5.50,
+AddVertex,0.26, 3.15, -0.05,
+AddVertex,0.26, 3.15,  5.50,
+AddVertex,1.26, 3, -0.05
+AddVertex,1.26, 3, 5.50,
+AddFace,1,0,2,3
+AddFace,3,2,4,5
+AddFace,5,4,6,7
+LoadTexture,Techo2.png,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 0, 0.35,
+SetTextureCoordinates,3, 1, 0.35,
+SetTextureCoordinates,4, 0, 0.65,
+SetTextureCoordinates,5, 1, 0.65,
+SetTextureCoordinates,6, 0, 1,
+SetTextureCoordinates,7, 1, 1,
+SetEmissivecolor,255,255,255 
+;;TechoPasillo2;;
+CreateMeshBuilder,
+AddVertex,-1.26, 3, -11.7
+AddVertex,-1.26, 3,  -10.02,
+AddVertex,-0.26, 3.15, -11.7
+AddVertex,-0.26, 3.15, -10.02
+AddVertex,0.26, 3.15, -11.7
+AddVertex,0.26, 3.15,  -10.02
+AddVertex,1.26, 3, -11.7
+AddVertex,1.26, 3, -10.02
+AddFace,1,0,2,3
+AddFace,3,2,4,5
+AddFace,5,4,6,7
+LoadTexture,Techo2.png,
+SetTextureCoordinates,0, 0.48, 0,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 0.48, 0.35,
+SetTextureCoordinates,3, 1, 0.35,
+SetTextureCoordinates,4, 0.48, 0.65,
+SetTextureCoordinates,5, 1, 0.65,
+SetTextureCoordinates,6, 0.48, 1,
+SetTextureCoordinates,7, 1, 1,
+SetEmissivecolor,255,255,255 
+
+
+;;Techo del Tren;;
+CreateMeshBuilder,
+AddVertex,-1.26, 3, -10.02,
+AddVertex,-1.26, 3,  -0.05,
+AddVertex,-0.26, 3.15, -10.02,
+AddVertex,-0.26, 3.15, -0.05,
+AddVertex,0.26, 3.15, -10.02,
+AddVertex,0.26, 3.15,  -0.05,
+AddVertex,1.26, 3, -10.02
+AddVertex,1.26, 3, -0.05,
+AddFace,1,0,2,3
+AddFace,3,2,4,5
+AddFace,5,4,6,7
+LoadTexture,Techo.png,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 6, 0,
+SetTextureCoordinates,2, 0, 0.35,
+SetTextureCoordinates,3, 6, 0.35,
+SetTextureCoordinates,4, 0, 0.65,
+SetTextureCoordinates,5, 6, 0.65,
+SetTextureCoordinates,6, 0, 1,
+SetTextureCoordinates,7, 6, 1,
+SetEmissivecolor,255,255,255 
+
+;;PortaequipajeSuperior;;
+CreateMeshBuilder,
+AddVertex,-1.33, 2.6, -10,
+AddVertex,-1.33, 2.6, 1.75,
+AddVertex,-0.8, 2.75, -10,
+AddVertex,-0.8, 2.75, 1.75,
+AddVertex,-0.8, 2.81, -10,
+AddVertex,-0.8, 2.81, 1.75,
+Addface2,0,1,3,2
+Addface2,2,3,5,4
+LoadTexture,Luces2.png,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 18, 0,
+SetTextureCoordinates,2, 0, 1,
+SetTextureCoordinates,3, 18, 1,
+SetTextureCoordinates,4, 0, 0.9,
+SetTextureCoordinates,5, 18, 0.9,
+SetEmissivecolor,255,255,255 
+CreateMeshBuilder,
+AddVertex,1.33, 2.6, -10,
+AddVertex,1.33, 2.6, 1.75,
+AddVertex,0.8, 2.75, -10,
+AddVertex,0.8, 2.75, 1.75,
+AddVertex,0.8, 2.81, -10,
+AddVertex,0.8, 2.81, 1.75,
+Addface2,0,1,3,2
+Addface2,2,3,5,4
+LoadTexture,Luces2.png,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 18, 0,
+SetTextureCoordinates,2, 0, 1,
+SetTextureCoordinates,3, 18, 1,
+SetTextureCoordinates,4, 0, 0.9,
+SetTextureCoordinates,5, 18, 0.9,
+SetEmissivecolor,255,255,255 
+
+RotateALL,0,1,0,180

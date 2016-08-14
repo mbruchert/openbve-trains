@@ -1,0 +1,97 @@
+[include]
+vagon.csv
+
+[include]
+techo.csv
+Position=0,-1.25,0
+
+[include]
+techo curvo.csv
+Position=0,-1.06,11.52
+[include]
+techo curvo 2.csv
+Position=0,-1.06,-11.52
+
+;Escaleras
+
+[include]
+Escaleras.b3d
+Position=0,0,11.57
+[include]
+Escaleras.b3d
+Position=0,0,-11.57
+
+;Asientos
+
+[include]
+Position = 0.75, 1.2, 8.69
+asiento.b3d
+[include]
+Position = 0.75, 1.2, 7
+asiento.b3d
+[include]
+Position = 0.75, 1.2, 5.34
+asiento.b3d
+[include]
+Position = 0.75, 1.2, 3.63
+asiento.b3d
+[include]
+Position = 0.75, 1.2, 1.98
+asiento.b3d
+[include]
+Position = 0.75, 1.2, 0.3
+asiento.b3d
+[include]
+Position = 0.75, 1.2, -1.37
+asiento.b3d
+[include]
+Position = 0.75, 1.2, -3.04
+asiento.b3d
+[include]
+Position = 0.75, 1.2, -4.71
+asiento.b3d
+[include]
+Position = 0.75, 1.2, -6.38
+asiento.b3d
+[include]
+Position = 0.75, 1.2, -8.06
+asiento.b3d
+[include]
+Position = 0.75, 1.2, -9.73
+asiento.b3d
+
+;Mesas---------------------------------------------------------
+
+[include]
+mesa.b3d
+Position=0.89,1.4,7.84
+[include]
+mesa.b3d
+Position=0.89,1.4,6.17
+[include]
+mesa.b3d
+Position=0.89,1.4,4.5
+[include]
+mesa.b3d
+Position=0.89,1.4,2.85
+[include]
+mesa.b3d
+Position=0.89,1.4,1.15
+[include]
+mesa.b3d
+Position=0.89,1.4,-0.51
+[include]
+mesa.b3d
+Position=0.89,1.4,-2.2
+[include]
+mesa.b3d
+Position=0.89,1.4,-3.87
+[include]
+mesa.b3d
+Position=0.89,1.4,-5.52
+[include]
+mesa.b3d
+Position=0.89,1.4,-7.2
+[include]
+mesa.b3d
+Position=0.89,1.4,-8.88

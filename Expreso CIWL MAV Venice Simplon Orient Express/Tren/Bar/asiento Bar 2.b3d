@@ -1,0 +1,159 @@
+;Asiento 1---------------------------------------------------------
+
+[MeshBuilder]
+Vertex -0.4, 0.45, -0.16
+Vertex -0.4, 0.45,  0.25
+Vertex  0.4, 0.45,  0.25
+Vertex  0.4, 0.45, -0.16
+Face 0,1,2,3
+[Texture]
+Load silla.png
+Coordinates 0, 0, 1
+Coordinates 1, 0, 0
+Coordinates 2, 1, 0
+Coordinates 3, 1, 1
+emissivecolor 255,255,255
+
+[MeshBuilder]
+Vertex -0.4, 0.1,   0.25
+Vertex -0.4, 0.1,  -0.3
+Vertex -0.4, 0.45, -0.3
+Vertex -0.4, 0.45,  0.25
+Face 3,2,1,0
+[Texture]
+Load borde.png
+Coordinates 0, 1, 0
+Coordinates 1, 0, 0
+Coordinates 2, 0, 1
+Coordinates 3, 1, 1
+transparent 255,255,255
+emissivecolor 255,255,255
+
+;Respaldo----------------------------------------------------------
+
+[MeshBuilder]
+Vertex -0.4, 1.1,  -0.16
+Vertex -0.4, 1.1,  -0.3
+Vertex -0.4, 0.33, -0.3
+Vertex -0.4, 0.33, -0.16
+Face 0,1,2,3
+[Texture]
+Load respaldo.gif
+Coordinates 0, 1, 0
+Coordinates 1, 0, 0
+Coordinates 2, 0, 1
+Coordinates 3, 1, 1
+Transparent 0, 0, 255
+emissivecolor 255,255,255
+
+[MeshBuilder]
+Vertex -0.4, 0.45, -0.16
+Vertex -0.4, 1.1,  -0.227
+Vertex  0.4, 1.1,  -0.227
+Vertex  0.4, 0.45, -0.16
+Face 3,2,1,0
+[Texture]
+Load silla.png
+Coordinates 0, 0, 1
+Coordinates 1, 0, 0
+Coordinates 2, 1, 0
+Coordinates 3, 1, 1
+emissivecolor 255,255,255
+
+[MeshBuilder]
+Vertex -0.4, 1.1, -0.3
+Vertex -0.4, 1.1, -0.227
+Vertex  0.4, 1.1, -0.227
+Vertex  0.4, 1.1, -0.3
+Face 0,1,2,3
+[Texture]
+Load recargadera.gif
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 1
+Coordinates 3, 0, 1
+Transparent 0, 0, 255
+emissivecolor 255,255,255
+
+;Asiento 2---------------------------------------------------------
+
+[MeshBuilder]
+Vertex 0.4, 0.1,   0.25
+Vertex 0.4, 0.1,  -0.3
+Vertex 0.4, 0.45, -0.3
+Vertex 0.4, 0.45,  0.25
+Face 0,1,2,3
+[Texture]
+Load borde.png
+Coordinates 0, 1, 0
+Coordinates 1, 0, 0
+Coordinates 2, 0, 1
+Coordinates 3, 1, 1
+transparent 255,255,255
+emissivecolor 255,255,255
+
+[MeshBuilder]
+Vertex -0.4, 0.32, 0.25
+Vertex -0.4, 0.45, 0.25
+Vertex 0.4, 0.45, 0.25
+Vertex 0.4, 0.32, 0.25
+Face 3,2,1,0
+[Texture]
+Load recargadera bar.png
+Coordinates 0, 1, 0
+Coordinates 1, 0, 0
+Coordinates 2, 0, 1
+Coordinates 3, 1, 1
+emissivecolor 255,255,255
+
+;Respaldo----------------------------------------------------------
+
+[MeshBuilder]
+Vertex 0.4, 1.1,  -0.16
+Vertex 0.4, 1.1,  -0.3
+Vertex 0.4, 0.33, -0.3
+Vertex 0.4, 0.33, -0.16
+Face 3,2,1,0
+[Texture]
+Load respaldo.gif
+Coordinates 0, 1, 0
+Coordinates 1, 0, 0
+Coordinates 2, 0, 1
+Coordinates 3, 1, 1
+Transparent 0, 0, 255
+emissivecolor 255,255,255
+
+;Respaldo general
+
+[MeshBuilder]
+Vertex  0.4, 1.1,  -0.3
+Vertex  0.4, 0.33, -0.3
+Vertex -0.4, 0.33, -0.3
+Vertex -0.4, 1.1,  -0.3
+Face 0,1,2,3
+[Texture]
+Load silla.png
+Coordinates 0, 0, 1
+Coordinates 1, 0, 0
+Coordinates 2, 2, 0
+Coordinates 3, 2, 1
+emissivecolor 255,255,255
+
+[MeshBuilder]
+Vertex -0.4, 0.1,  -0.2
+Vertex -0.4, 0.33, -0.3
+Vertex  0.4, 0.33, -0.3
+Vertex  0.4, 0.1,  -0.2
+Face 0,1,2,3
+color 100,100,100
+
+[MeshBuilder]
+Vertex  0.4, 0.1,  0.2
+Vertex  0.4, 0.33, 0.25
+Vertex -0.4, 0.33, 0.25
+Vertex -0.4, 0.1,  0.2
+Face 0,1,2,3
+color 100,100,100
+
+RotateAll 0,1,0,180
+SCALEALL -1.2,0.99999,0.99999

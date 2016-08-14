@@ -1,0 +1,34 @@
+﻿CreateMeshBuilder
+Addvertex,  0.9, 0.6,  -5.99
+Addvertex, -0.9, 0.6,  -5.99
+Addvertex, -0.9, 0.25, -5.99
+Addvertex,  0.9, 0.25, -5.99
+AddFace2, 0,1,2,3
+GenerateNormals
+loadtexture, piso.png
+SetTextureCoordinates, 0,0,0
+SetTextureCoordinates, 1,1,0
+SetTextureCoordinates, 2,1,1
+SetTextureCoordinates, 3,0,1
+setdecalTransparentcolor, 255,255,255
+
+CreateMeshBuilder
+Addvertex,  0.9, 0.6,  -2.3
+Addvertex, -0.9, 0.6,  -2.3
+Addvertex, -0.9, 0.25, -2.3
+Addvertex,  0.9, 0.25, -2.3
+AddFace2, 0,1,2,3
+GenerateNormals
+loadtexture, piso.png
+SetTextureCoordinates, 0,0,0
+SetTextureCoordinates, 1,1,0
+SetTextureCoordinates, 2,1,1
+SetTextureCoordinates, 3,0,1
+setdecalTransparentcolor, 255,255,255
+
+CreateMeshBuilder,
+cube, 0.67, 0.3, 1.8
+SetColor, 255,0,50
+translate, 0, 0.6, -4.16
+
+translateall, 0,0,4.15

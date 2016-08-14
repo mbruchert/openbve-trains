@@ -1,0 +1,123 @@
+
+
+;;LadoIzquierdo;;
+[Include]
+AsientoLadrilloSimple.csv
+Position = -1.0,0.95,-8.8
+;;
+[Include]
+AsientoLadrilloSimple.csv
+Position = -1.0,0.95,-8
+;;
+[Include]
+AsientoLadrilloSimple.csv
+Position = -1.0,0.95,-7.2
+;;
+[Include]
+AsientoNaranjaSimple.csv
+Position = -1.0,0.95,-6.4
+;;MESA;;
+[Include]
+AsientoNaranjaSimple.csv
+Position = -1.0,0.95,-5.6
+;;
+[Include]
+AsientoLadrilloSimple180.csv
+Position = -1.0,0.95,-4.4
+;;MESA;;
+[Include]
+AsientoLadrilloSimple180.csv
+Position = -1.0,0.95,-3.6
+;;
+[Include]
+AsientoNaranjaSimple180.csv
+Position = -1.0,0.95,-2.8
+;;Mesa;;
+[Include]
+AsientoNaranjaSimple180.csv
+Position = -1.0,0.95,-2
+;;
+[Include]
+AsientoLadrilloSimple180.csv
+Position = -1.0,0.95,-1.2
+;;MESA;;
+[Include]
+AsientoLadrilloSimple180.csv
+Position = -1.0,0.95,-0.4;
+;;
+;;
+[Include]
+AsientoLadrilloSimple180.csv
+Position = -1.0,0.95,0.4
+;;MESA;;
+[Include]
+AsientoLadrilloSimple180.csv
+Position = -1.0,0.95,1.2;
+;;
+[Include]
+AsientoLadrilloSimple180.csv
+Position = -1.0,0.95,2;
+
+;;LadoDerecho;;
+[Include]
+AsientoLadrilloDoble2.csv
+Position = 1.0,0.95,-8.8;
+;;MESA;;
+[Include]
+AsientoLadrilloDoble2.csv
+Position = 1.0,0.95,-8;
+;;
+[Include]
+AsientoLadrilloDoble2.csv
+Position = 1.0,0.95,-7.2;
+;;
+[Include]
+AsientoLadrilloDoble2.csv
+Position = 1.0,0.95,-6.4;
+;;
+[Include]
+AsientoNaranjaDoble2.csv
+Position = 1.0,0.95,-5.6;
+;;
+[Include]
+AsientoNaranjaDoble1802.csv
+Position = 1.0,0.95,-4.4;
+;;
+[Include]
+AsientoLadrilloDoble1802.csv
+Position = 1.0,0.95,-3.6;
+;;
+[Include]
+AsientoLadrilloDoble1802.csv
+Position = 1.0,0.95,-2.8;
+;;
+[Include]
+AsientoLadrilloDoble1802.csv
+Position = 1.0,0.95,-2;
+;;
+[Include]
+AsientoLadrilloDoble1802.csv
+Position = 1.0,0.95,-1.2;
+[Include]
+AsientoLadrilloDoble1802.csv
+Position = 1.0,0.95,-0.4;
+;;
+[Include]
+AsientoNaranjaDoble1802.csv
+Position = 1.0,0.95,0.4;
+;;MESA;;
+[Include]
+AsientoNaranjaDoble1802.csv
+Position = 1.0,0.95,1.2;
+;;
+[Include]
+AsientoLadrilloDoble1802.csv
+Position = 1.0,0.95,2;
+
+
+;;Mesa;;
+;;
+[Include]
+Mesa2.csv
+Position = 0,1.15,-4.4
+;

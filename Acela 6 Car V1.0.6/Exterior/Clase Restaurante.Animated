@@ -1,0 +1,21 @@
+[Include]
+Modelo/Clase Restaurante.csv
+Position = 0,2,0
+
+[Include]
+Modelo/BogieCoche.animated
+position = 0,0,9.7
+
+[Include]
+Modelo/BogieCoche.animated
+position = 0,0,-9.7
+
+[Include]
+Modelo/Articulacion.csv
+Position = 0,0,-13.43
+
+[Include]
+Modelo/Articulacion.csv
+Position = 0,0,13.23
+
+

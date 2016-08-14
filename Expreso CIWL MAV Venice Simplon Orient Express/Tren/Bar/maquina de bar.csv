@@ -1,0 +1,57 @@
+;Platform Vending Machine,
+;Object created by Alan Wheeler, aka Guillyman, email allanwheeler1@talktalk.net
+;Hosted by eezypeazy, email eezypeazy@eezypeazy.co.uk
+;Copyright eezypeazy and Alan Wheeler 2008. All rights reserved.
+;You may publish this object without alteration in your BVE routes providing that you acknowledge this copyright.
+
+;________Front Sides and Rear____________________,
+
+CreateMeshBuilder,
+Addvertex, -0.541,0,0.923,
+Addvertex, -0.541,1.8,0.923,
+Addvertex, -0.541,0,0,
+Addvertex, -0.541,1.8,0,
+Addvertex, 0.541,0,0,
+Addvertex, 0.541,1.8,0,
+Addvertex, 0.541,0,0.913,
+Addvertex, 0.541,1.8,0.913,
+Addvertex, -0.551,0,0.913,
+Addvertex, -0.551,1.8,0.913,
+Addface, 0,1,3,2,
+Addface, 2,3,5,4,
+Addface, 4,5,7,6,
+Addface, 6,7,9,8,
+generatenormals,
+LoadTexture, Vending_Machine.bmp,
+SetTextureCoordinates, 0,0,0,
+SetTextureCoordinates, 1,1,0,
+SetTextureCoordinates, 2,0,0.1875,
+SetTextureCoordinates, 3,1,0.1875,
+SetTextureCoordinates, 4,0,0.5,
+SetTextureCoordinates, 5,1,0.5,
+SetTextureCoordinates, 6,0,0.6875,
+SetTextureCoordinates, 7,1,0.6875,
+SetTextureCoordinates, 8,0,1,
+SetTextureCoordinates, 9,1,1,
+Setdecaltransparentcolor,0,0,255,
+Rotate,  0, 1, 0, 270
+setemissivecolor, 255,255,255
+
+;________Add Comment_________________________,
+
+CreateMeshBuilder,
+Addvertex, -0.551,1.79,-0.01,
+Addvertex, -0.551,1.79,0.923,
+Addvertex, 0.551,1.79,-0.01,
+Addvertex, 0.551,1.79,0.923,
+Addface, 0,1,3,2,
+generatenormals,
+LoadTexture, Vending_Machine_Top.bmp,
+SetTextureCoordinates, 0,0,0,
+SetTextureCoordinates, 1,1,0,
+SetTextureCoordinates, 2,0,1,
+SetTextureCoordinates, 3,1,1,
+Rotate,  0, 1, 0, 270
+setemissivecolor, 255,255,255
+
+SCALEALL, -0.5,1.15,1.5

@@ -1,0 +1,56 @@
+﻿; ----------
+; static cab
+; ----------
+
+[object]
+states = exterior\cab\cab.csv
+
+
+[object]
+states = exterior\cab\back.csv
+position = 0,0,-0.16
+
+[object]
+states = exterior\cab\rightpanel.csv
+position = -0.02,0,0.01
+
+[object]
+states = exterior\cab\leftpanel.csv
+position = -2,0,0.01
+
+;[object]
+;states = exterior\cab\lightbutton.csv
+
+; -----------
+; power lever
+; -----------
+
+
+;[object]
+;states = exterior\cab\powerlever.csv
+;Position = 1.43, 1.95, 12.40
+;rotatexfunction = -((powerNotch / powerNotches) * 2 - 1) * 0.7
+;rotatexdirection = 0, 1, 0
+;rotatexdamping = 20, 0.8
+
+
+; -----------
+; brake lever
+; -----------
+
+
+;[object]
+;states = exterior\cab\brakelever.csv
+;position = 1.48, 1.96, 12.49
+;rotateyfunction = -(brakeNotchLinear / brakeNotchesLinear) * 2 - 0.2
+;rotateydirection = 0, -1, 0
+;rotateydamping = 20, 0.8
+
+
+[object]
+states = exterior\cab\speed.csv
+position = 0.996, 2.195, 12.597
+rotatexdirection = -1, 0, 0
+rotatexfunction = -3.678 + abs[speedometer] * 0.1445
+rotateyfunction = -1.11
+rotatezfunction = -1.57

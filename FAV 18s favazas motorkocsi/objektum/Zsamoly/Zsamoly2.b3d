@@ -1,0 +1,514 @@
+[Meshbuilder] ;oldalkép jobb
+Vertex  1.001,0.12,1.24
+Vertex  1.001,0.12,-1.24
+Vertex  1.001,0.95,-1.24
+Vertex  1.001,0.95,1.24
+face2 0,1,2,3
+[Texture]
+Load oldalkep.png
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+Coordinates 0,1,1
+Transparent 255,0,255
+
+[Meshbuilder] ;oldalkép bal
+Vertex -1.001,0.12,1.24
+Vertex -1.001,0.12,-1.24
+Vertex -1.001,0.95,-1.24
+Vertex -1.001,0.95,1.24
+face2  3,2,1,0
+[Texture]
+Load oldalkep.png
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+Coordinates 0,1,1
+Transparent 255,0,255
+
+[Meshbuilder] ;jobb váz ívekkel
+Vertex    1,0.405,-1.235
+Vertex    1,0.405,-0.87
+Vertex  0.85,0.405,-0.87
+Vertex  0.85,0.405,-1.235
+Vertex    1,0.45,-0.81
+Vertex  0.85,0.45,-0.81 ;p5
+Vertex    1,0.55,-0.755
+Vertex  0.85,0.55,-0.755
+Vertex    1,0.62,-0.755
+Vertex  0.85,0.62,-0.755
+Vertex    1,0.62,-0.43 ;p10
+Vertex  0.85,0.62,-0.43
+Vertex    1,0.55,-0.43
+Vertex  0.85,0.55,-0.43
+Vertex    1,0.488,-0.38
+Vertex  0.85,0.488,-0.38 ;p15
+Vertex    1,0.488,0.38
+Vertex  0.85,0.488,0.38
+Vertex    1,0.55,0.43
+Vertex  0.85,0.55,0.43
+Vertex    1,0.62,0.43 ;p20
+Vertex  0.85,0.62,0.43
+Vertex    1,0.62,0.755
+Vertex  0.85,0.62,0.755
+Vertex    1,0.55,0.755
+Vertex  0.85,0.55,0.755 ;p25
+Vertex    1,0.45,0.81
+Vertex  0.85,0.45,0.81 
+Vertex    1,0.405,0.87
+Vertex  0.85,0.405,0.87
+Vertex    1,0.405,1.235 ;p30
+Vertex  0.85,0.405,1.235
+Vertex    1,0.375,1.235
+Vertex  0.85,0.375,1.235
+Vertex    1,0.37,1.185
+Vertex  0.85,0.37,1.185 ;p35
+Vertex    1,0.25,1.169
+Vertex  0.85,0.25,1.169
+Vertex    1,0.20,0.828
+Vertex  0.85,0.20,0.828
+Vertex    1,0.13,0.785 ;p40
+Vertex  0.85,0.13,0.785
+Vertex    1,0.13,0.46
+Vertex  0.85,0.13,0.46
+Vertex    1,0.23,0.412
+Vertex  0.85,0.23,0.412 ;p45
+Vertex    1,0.31,0.322
+Vertex  0.85,0.31,0.322
+Vertex    1,0.31,-0.322
+Vertex  0.85,0.31,-0.322
+Vertex    1,0.23,-0.412 ;p50
+Vertex  0.85,0.23,-0.412 
+Vertex    1,0.13,-0.46
+Vertex  0.85,0.13,-0.46
+Vertex    1,0.13,-0.785 
+Vertex  0.85,0.13,-0.785 ;p55
+Vertex    1,0.20,-0.828
+Vertex  0.85,0.20,-0.828
+Vertex    1,0.25,-1.169
+Vertex  0.85,0.25,-1.169
+Vertex    1,0.37,-1.185 ;p60
+Vertex  0.85,0.37,-1.185
+Vertex    1,0.375,-1.235
+Vertex  0.85,0.375,-1.235
+face 3,2,1,0
+face 1,2,5,4
+face 4,5,7,6
+face 6,7,9,8
+face 8,9,11,10
+face 10,11,13,12
+face 12,13,15,14
+face 14,15,17,16
+face 16,17,19,18
+face 18,19,21,20
+face 20,21,23,22
+face 22,23,25,24
+face 24,25,27,26
+face 26,27,29,28
+face 28,29,31,30
+face 30,31,33,32
+face 32,33,35,34
+face 34,35,37,36
+face 36,37,39,38
+face 38,39,41,40
+face 40,41,43,42
+face 42,43,45,44
+face 44,45,47,46
+face 46,47,49,48
+face 48,49,51,50
+face 50,51,53,52
+face 52,53,55,54
+face 54,55,57,56
+face 56,57,59,58
+face 58,59,61,60
+face 60,61,63,62
+face 62,63,3,0
+;---------------------------jobb oldal
+face 14,16,46,48
+face 6,8,10,12
+face 18,20,22,24
+face 0,1,60,62
+face 28,30,32,34
+face 1,4,56,58,60
+face 38,26,28,34,36
+face 50,4,6,12,14,48
+face 44,46,16,18,24,26
+face 50,52,54,56,4
+face 44,26,38,40,42,44
+;----------------------------bal oldal
+face 2,3,63,61
+face 33,31,29,35
+face 57,5,2,61,59
+face 39,37,35,29,27
+face 7,13,11,9
+face 25,23,21,19
+face 5,57,55,53,51
+face 27,45,43,41,39
+face 5,51,49,15,13,7
+face 27,25,19,17,47,45
+face 49,47,17,15
+Color 26,16,11;----------------eddig
+
+[Meshbuilder] ;bal váz ívekkel
+Vertex   -1,0.405,-1.235
+Vertex   -1,0.405,-0.87
+Vertex  -0.85,0.405,-0.87
+Vertex  -0.85,0.405,-1.235
+Vertex   -1,0.45,-0.81
+Vertex  -0.85,0.45,-0.81 ;p5
+Vertex   -1,0.55,-0.755
+Vertex  -0.85,0.55,-0.755
+Vertex   -1,0.62,-0.755
+Vertex  -0.85,0.62,-0.755
+Vertex   -1,0.62,-0.43 ;p10
+Vertex  -0.85,0.62,-0.43
+Vertex   -1,0.55,-0.43
+Vertex  -0.85,0.55,-0.43
+Vertex   -1,0.488,-0.38
+Vertex  -0.85,0.488,-0.38 ;p15
+Vertex   -1,0.488,0.38
+Vertex  -0.85,0.488,0.38
+Vertex   -1,0.55,0.43
+Vertex  -0.85,0.55,0.43
+Vertex   -1,0.62,0.43 ;p20
+Vertex  -0.85,0.62,0.43
+Vertex   -1,0.62,0.755
+Vertex  -0.85,0.62,0.755
+Vertex   -1,0.55,0.755
+Vertex  -0.85,0.55,0.755 ;p25
+Vertex   -1,0.45,0.81
+Vertex  -0.85,0.45,0.81 
+Vertex   -1,0.405,0.87
+Vertex  -0.85,0.405,0.87
+Vertex   -1,0.405,1.235 ;p30
+Vertex  -0.85,0.405,1.235
+Vertex   -1,0.375,1.235
+Vertex  -0.85,0.375,1.235
+Vertex   -1,0.37,1.185
+Vertex  -0.85,0.37,1.185 ;p35
+Vertex   -1,0.25,1.169
+Vertex  -0.85,0.25,1.169
+Vertex   -1,0.20,0.828
+Vertex  -0.85,0.20,0.828
+Vertex   -1,0.13,0.785 ;p40
+Vertex  -0.85,0.13,0.785
+Vertex   -1,0.13,0.46
+Vertex  -0.85,0.13,0.46
+Vertex   -1,0.23,0.412
+Vertex  -0.85,0.23,0.412 ;p45
+Vertex   -1,0.31,0.322
+Vertex  -0.85,0.31,0.322
+Vertex   -1,0.31,-0.322
+Vertex  -0.85,0.31,-0.322
+Vertex   -1,0.23,-0.412 ;50
+Vertex  -0.85,0.23,-0.412 
+Vertex   -1,0.13,-0.46
+Vertex  -0.85,0.13,-0.46
+Vertex   -1,0.13,-0.785 
+Vertex  -0.85,0.13,-0.785 ;p55
+Vertex   -1,0.20,-0.828
+Vertex  -0.85,0.20,-0.828
+Vertex   -1,0.25,-1.169
+Vertex  -0.85,0.25,-1.169
+Vertex   -1,0.37,-1.185 ;p60
+Vertex  -0.85,0.37,-1.185
+Vertex   -1,0.375,-1.235
+Vertex  -0.85,0.375,-1.235
+face 0,1,2,3
+face 4,5,2,1
+face 6,7,5,4
+face 8,9,7,6
+face 10,11,9,8
+face 12,13,11,10
+face 14,15,13,12
+face 16,17,15,14
+face 18,19,17,16
+face 20,21,19,18
+face 22,23,21,20
+face 24,25,23,22
+face 26,27,25,24
+face 28,29,27,26
+face 30,31,29,28
+face 32,33,31,30
+face 34,35,33,32
+face 36,37,35,34
+face 38,39,37,36
+face 40,41,39,38
+face 42,43,41,40
+face 44,45,43,42
+face 46,47,45,44
+face 48,49,47,46
+face 50,51,49,48
+face 52,53,51,50
+face 54,55,53,52
+face 56,57,55,54
+face 58,59,57,56
+face 60,61,59,58
+face 62,63,61,60
+face 0,3,63,62
+;---------------------------bal oldal
+face 48,46,16,14
+face 12,10,8,6
+face 24,22,20,18
+face 62,60,1,0
+face 34,32,30,28
+face 1,60,58,56,4
+face 28,26,38,36,34
+face 48,14,12,6,4,50
+face 26,24,18,16,46,44
+face 4,56,54,52,50
+face 44,42,40,38,26,44
+;----------------------------jobb oldal
+face 61,63,3,2
+face 35,29,31,33
+face 2,5,57,59,61
+face 29,35,37,39,27
+face 9,11,13,7
+face 19,21,23,25
+face 51,53,55,57,5
+face 39,41,43,45,27
+face 7,13,15,49,51,5
+face 45,47,17,19,25,27
+face 15,17,47,49
+Color 26,16,11;----------------eddig
+
+[Meshbuilder]; jobb elsõ csapágyház
+cylinder 15,0.070,0.070,0.05
+Rotate 0,0,1,90
+Color 26,16,11
+Translate  1.02,0.34,0.6
+
+[Meshbuilder]; jobb elsõ csapágyház kocka
+cube  0.080,0.025,0.07
+Rotate 0,0,1,90
+Color 26,16,11
+Translate  1.02,0.418,0.6 
+
+[Meshbuilder]; jobb hátsó csapágyház
+cylinder 15,0.070,0.070,0.05
+Rotate 0,0,1,90
+Color 26,16,11
+Translate  1.02,0.34,-0.6 
+
+[Meshbuilder]; jobb hátsó csapágyház kocka
+cube  0.080,0.025,0.07
+Rotate 0,0,1,90
+Color 26,16,11
+Translate  1.02,0.418,-0.6
+
+[Meshbuilder]; bal elsõ csapágyház
+cylinder 15,0.070,0.070,0.05
+Rotate 0,0,1,90
+Color 26,16,11
+Translate -1.02,0.34,0.6 
+
+[Meshbuilder]; bal elsõ csapágyház kocka
+cube  0.080,0.025,0.07
+Rotate 0,0,1,90
+Color 26,16,11
+Translate -1.02,0.418,0.6
+
+[Meshbuilder]; bal hátsó csapágyház
+cylinder 15,0.070,0.070,0.05
+Rotate 0,0,1,90
+Color 26,16,11
+Translate -1.02,0.34,-0.6
+
+[Meshbuilder]; bal elsõ csapágyház kocka
+cube  0.080,0.025,0.07
+Rotate 0,0,1,90
+Color 26,16,11
+Translate -1.02,0.418,-0.6 ;--------------------------------
+
+[Meshbuilder];  elsõ keresz tartó
+cube  0.030,1.0,0.050
+Rotate 0,0,1,90
+Color 26,16,11
+Translate 0,0.418,1.2
+
+[Meshbuilder]; középsõ keresz tartó
+cube  0.250,1.0,0.050
+Rotate 0,0,1,90
+Color 26,16,11
+Translate 0,0.6,0
+
+[Meshbuilder]; középsõ tömb tartó
+cube  0.150,0.4.0,0.800
+Rotate 0,0,1,90
+Color 20,20,20
+Translate 0,0.4,0
+
+[Meshbuilder]; csap
+cylinder 15,0.08,0.08,0.10
+Color 20,20,20
+Translate 0,0.9,0
+
+[Meshbuilder];  hátsó keresz tartó
+cube  0.030,1.0,0.020
+Rotate 0,0,1,90
+Color 26,16,11
+Translate 0,0.418,-1.2;-----------------------
+
+[Meshbuilder]; elsõ kereszt rúd 1
+cylinder 15,0.020,0.020,2.02
+Rotate 0,0,1,90
+Color 30,30,30
+Translate  0,0.435,1.065
+
+[Meshbuilder]; elsõ kereszt rúd 2
+cylinder 15,0.020,0.020,2.02
+Rotate 0,0,1,90
+Color 30,30,30
+Translate  0,0.215,1.035
+
+[Meshbuilder]; hátsó kereszt rúd 1
+cylinder 15,0.020,0.020,2.02
+Rotate 0,0,1,90
+Color 30,30,30
+Translate  0,0.435,-1.065
+
+[Meshbuilder]; hátsó kereszt rúd 2
+cylinder 15,0.020,0.020,2.02
+Rotate 0,0,1,90
+Color 30,30,30
+Translate  0,0.215,-1.035;--------------------
+
+[Meshbuilder]; jobb oldal laprugó alsó 1
+cube  0.010,0.040,0.520
+Rotate 0,0,1,90
+Color 77,61,23
+Translate 0.96,0.728,0
+
+[Meshbuilder]; jobb oldal laprugó alsó 2
+cube  0.010,0.040,0.450
+Rotate 0,0,1,90
+Color 85,67,26
+Translate 0.96,0.749,0
+
+[Meshbuilder]; jobb oldal laprugó alsó 3
+cube  0.010,0.040,0.360
+Rotate 0,0,1,90
+Color 87,69,26
+Translate 0.96,0.770,0
+
+[Meshbuilder]; jobb oldal laprugó alsó 4
+cube  0.010,0.040,0.260
+Rotate 0,0,1,90
+Color 100,79,30
+Translate 0.96,0.790,0
+
+[Meshbuilder]; jobb oldal laprugó alsó 5
+cube  0.010,0.040,0.160
+Rotate 0,0,1,90
+Color 116,91,35
+Translate 0.96,0.810,0
+
+[Meshbuilder]; jobb oldal laprugó alsó 6
+cube  0.010,0.040,0.100
+Rotate 0,0,1,90
+Color 126,100,37
+Translate 0.96,0.830,0 ;------------------------
+
+[Meshbuilder]; bal oldal laprugó alsó 1
+cube  0.010,0.040,0.520
+Rotate 0,0,1,90
+Color 77,61,23
+Translate -0.96,0.728,0
+
+[Meshbuilder]; bal oldal laprugó alsó 2
+cube  0.010,0.040,0.450
+Rotate 0,0,1,90
+Color 85,67,26
+Translate -0.96,0.749,0
+
+[Meshbuilder]; bal oldal laprugó alsó 3
+cube  0.010,0.040,0.360
+Rotate 0,0,1,90
+Color 87,69,26
+Translate -0.96,0.770,0
+
+[Meshbuilder]; bal oldal laprugó alsó 4
+cube  0.010,0.040,0.260
+Rotate 0,0,1,90
+Color 100,79,30
+Translate -0.96,0.790,0
+
+[Meshbuilder]; bal oldal laprugó alsó 5
+cube  0.010,0.040,0.160
+Rotate 0,0,1,90
+Color 116,91,35
+Translate -0.96,0.810,0
+
+[Meshbuilder]; bal oldal laprugó alsó 6
+cube  0.010,0.040,0.100
+Rotate 0,0,1,90
+Color 126,100,37
+Translate -0.96,0.830,0 ;------------------------
+
+;                             ütközõ elsõ
+[Meshbuilder]; tölcsér
+Cylinder 15,0.1,0.05,0.1
+Rotate 1,0,0,90
+Color 20,20,20
+Translate 0,0.80,1.46
+
+[Meshbuilder];rudazat
+Cylinder 15,0.05,0.05,1.55
+Rotate 1,0,0,90
+Color 20,20,20
+Translate 0,0.80,0.8
+
+[Meshbuilder] ;tányér
+Cylinder 15,0.14,0.14,0.05
+Rotate 1,0,0,90
+Color 30,30,30
+Translate 0,0.80,1.535
+
+[Meshbuilder] ;elsõ fellépõ viz fekete 1
+Cube 0.0800,0.0040,0.080
+Color 30,30,30
+Translate  0.669,0.453,1.3
+[Meshbuilder] ;elsõ fellépõ viz fekete 2
+Cube 0.0100,0.0058,0.080
+Rotate 0,0,1,-45
+Color 25,25,25
+Translate  0.586,0.460,1.3
+[Meshbuilder] ;elsõ fellépõ viz fekete 3
+Cube 0.0100,0.0058,0.080
+Rotate 0,0,1, 45
+Color 25,25,25
+Translate  0.752,0.460,1.3;---------------------------------------
+
+Rotateall 0,1,0,180
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,728 @@
+;Techo ==========================================================
+
+;Guias=======================================================
+
+CreateMeshBuilder,
+Addvertex, 0, 4.1, 12
+Addvertex, 0, 4.1, 11
+Addvertex, 0, 3.9, 11
+Addvertex, 0, 3.9, 12
+Addface2, 0,1,2,3
+GenerateNormals
+LoadTexture, guia.png
+SetTextureCoordinates, 0, 0, 0
+SetTextureCoordinates, 1, 1, 0
+SetTextureCoordinates, 2, 1, 1
+SetTextureCoordinates, 3, 0, 1
+SetDecalTransparentColor, 255,255,255
+
+CreateMeshBuilder,
+Addvertex,  1.5, 4.1,  11.1
+Addvertex, -1.5, 4.1,  11.1
+Addvertex, -1.5, 3.53, 11.1
+Addvertex,  1.5, 3.53, 11.1
+Addface2, 0,1,2,3
+GenerateNormals
+LoadTexture, guia 2.png
+SetTextureCoordinates, 0, 0, 0
+SetTextureCoordinates, 1, 1, 0
+SetTextureCoordinates, 2, 1, 1
+SetTextureCoordinates, 3, 0, 1
+SetDecalTransparentColor, 255,255,255
+
+;================================================================
+
+;Segmento 1
+
+CreateMeshBuilder,
+Addvertex, 1.485, 3.6,  11.1
+Addvertex, 1.47,  3.6,  11.3
+Addvertex, 1.485, 3.53, 11.3
+Addvertex, 1.5,   3.53, 11.1
+Addface, 0,1,2,3
+Setcolor, 232,232,232
+
+CreateMeshBuilder,
+Addvertex, 1.42,  3.7, 11.1
+Addvertex, 1.405, 3.7, 11.3
+Addvertex, 1.47,  3.6, 11.3
+Addvertex, 1.485, 3.6, 11.1
+Addface, 0,1,2,3
+Setcolor, 232,232,232
+
+CreateMeshBuilder,
+Addvertex, 1.35,  3.78, 11.1
+Addvertex, 1.33,  3.78, 11.3
+Addvertex, 1.405, 3.7,  11.3
+Addvertex, 1.42,  3.7,  11.1
+Addface, 0,1,2,3
+Setcolor, 232,232,232
+
+CreateMeshBuilder,
+Addvertex, 1.22, 3.88, 11.1
+Addvertex, 1.21, 3.87, 11.3
+Addvertex, 1.33, 3.78, 11.3
+Addvertex, 1.35, 3.78, 11.1
+Addface, 0,1,2,3
+Setcolor, 232,232,232
+
+CreateMeshBuilder,
+Addvertex, 1.11, 3.94, 11.1
+Addvertex, 1.11, 3.92, 11.3
+Addvertex, 1.21, 3.87, 11.3
+Addvertex, 1.22, 3.88, 11.1
+Addface, 0,1,2,3
+Setcolor, 232,232,232
+
+CreateMeshBuilder,
+Addvertex, 0.95, 4,    11.1
+Addvertex, 0.95, 3.98, 11.3
+Addvertex, 1.11, 3.92, 11.3
+Addvertex, 1.11, 3.94, 11.1
+Addface, 0,1,2,3
+Setcolor, 232,232,232
+
+CreateMeshBuilder,
+Addvertex, 0.75, 4.04, 11.1
+Addvertex, 0.75, 4.02, 11.3
+Addvertex, 0.95, 3.98, 11.3
+Addvertex, 0.95, 4,    11.1
+Addface, 0,1,2,3
+Setcolor, 232,232,232
+
+CreateMeshBuilder,
+Addvertex, 0.37, 4.08, 11.1
+Addvertex, 0.37, 4.07, 11.3
+Addvertex, 0.75, 4.02, 11.3
+Addvertex, 0.75, 4.04, 11.1
+Addface, 0,1,2,3
+Setcolor, 232,232,232
+
+CreateMeshBuilder,
+Addvertex, 0   , 4.1,  11.1
+Addvertex, 0   , 4.09, 11.3
+Addvertex, 0.37, 4.07, 11.3
+Addvertex, 0.37, 4.08, 11.1
+Addface, 0,1,2,3
+Setcolor, 232,232,232
+
+CreateMeshBuilder,
+Addvertex, 1.47,  3.6,  11.3
+Addvertex, 1.44,  3.6,  11.5
+Addvertex, 1.46,  3.53, 11.5
+Addvertex, 1.485, 3.53, 11.3
+Addface, 0,1,2,3
+Setcolor, 232,232,232
+
+CreateMeshBuilder,
+Addvertex, 1.405, 3.7, 11.3
+Addvertex, 1.375, 3.7, 11.5
+Addvertex, 1.44,  3.6, 11.5
+Addvertex, 1.47,  3.6, 11.3
+Addface, 0,1,2,3
+Setcolor, 232,232,232
+
+CreateMeshBuilder,
+Addvertex, 1.33,  3.78, 11.3
+Addvertex, 1.305, 3.78, 11.5
+Addvertex, 1.375, 3.7,  11.5
+Addvertex, 1.405, 3.7,  11.3
+Addface, 0,1,2,3
+Setcolor, 232,232,232
+
+CreateMeshBuilder,
+Addvertex, 1.21,  3.87, 11.3
+Addvertex, 1.18,  3.87, 11.5
+Addvertex, 1.305, 3.78, 11.5
+Addvertex, 1.33,  3.78, 11.3
+Addface, 0,1,2,3
+Setcolor, 232,232,232
+
+CreateMeshBuilder,
+Addvertex, 1.11, 3.92, 11.3
+Addvertex, 1.11, 3.9,  11.5
+Addvertex, 1.18, 3.87, 11.5
+Addvertex, 1.21, 3.87, 11.3
+Addface, 0,1,2,3
+Setcolor, 232,232,232
+
+CreateMeshBuilder,
+Addvertex, 0.95, 3.98, 11.3
+Addvertex, 0.95, 3.96, 11.5
+Addvertex, 1.11, 3.9,  11.5
+Addvertex, 1.11, 3.92, 11.3
+Addface, 0,1,2,3
+Setcolor, 232,232,232
+
+CreateMeshBuilder,
+Addvertex, 0.75, 4.02, 11.3
+Addvertex, 0.75, 4.01, 11.5
+Addvertex, 0.95, 3.96, 11.5
+Addvertex, 0.95, 3.98, 11.3
+Addface, 0,1,2,3
+Setcolor, 232,232,232
+
+CreateMeshBuilder,
+Addvertex, 0.37, 4.07, 11.3
+Addvertex, 0.37, 4.05, 11.5
+Addvertex, 0.75, 4.01, 11.5
+Addvertex, 0.75, 4.02, 11.3
+Addface, 0,1,2,3
+Setcolor, 232,232,232
+
+CreateMeshBuilder,
+Addvertex, 0   , 4.09,  11.3
+Addvertex, 0   , 4.065, 11.5
+Addvertex, 0.37, 4.05,  11.5
+Addvertex, 0.37, 4.07,  11.3
+Addface, 0,1,2,3
+Setcolor, 232,232,232
+
+CreateMeshBuilder,
+Addvertex, 1.44,  3.6,  11.5
+Addvertex, 1.405, 3.6,  11.7
+Addvertex, 1.425, 3.53, 11.7
+Addvertex, 1.46,  3.53, 11.5
+Addface, 0,1,2,3
+Setcolor, 232,232,232
+
+CreateMeshBuilder,
+Addvertex, 1.375, 3.7, 11.5
+Addvertex, 1.33,  3.7, 11.7
+Addvertex, 1.405, 3.6, 11.7
+Addvertex, 1.44,  3.6, 11.5
+Addface, 0,1,2,3
+Setcolor, 232,232,232
+
+CreateMeshBuilder,
+Addvertex, 1.305, 3.78, 11.5
+Addvertex, 1.245, 3.78, 11.7
+Addvertex, 1.33,  3.7,  11.7
+Addvertex, 1.375, 3.7,  11.5
+Addface, 0,1,2,3
+Setcolor, 232,232,232
+
+CreateMeshBuilder,
+Addvertex, 1.18,  3.87, 11.5
+Addvertex, 1.09,  3.87, 11.7
+Addvertex, 1.245, 3.78, 11.7
+Addvertex, 1.305, 3.78, 11.5
+Addface, 0,1,2,3
+Setcolor, 232,232,232
+
+CreateMeshBuilder,
+Addvertex, 1.11, 3.9,  11.5
+Addvertex, 1.09, 3.87, 11.7
+Addvertex, 1.09, 3.87, 11.7
+Addvertex, 1.18, 3.87, 11.5
+Addface, 0,1,2,3
+Setcolor, 232,232,232
+
+CreateMeshBuilder,
+Addvertex, 0.95, 3.96, 11.5
+Addvertex, 0.95, 3.92, 11.7
+Addvertex, 1.09, 3.87, 11.7
+Addvertex, 1.11, 3.9,  11.5
+Addface, 0,1,2,3
+Setcolor, 232,232,232
+
+CreateMeshBuilder,
+Addvertex, 0.75, 4.01, 11.5
+Addvertex, 0.75, 3.97, 11.7
+Addvertex, 0.95, 3.92, 11.7
+Addvertex, 0.95, 3.96, 11.5
+Addface, 0,1,2,3
+Setcolor, 232,232,232
+
+CreateMeshBuilder,
+Addvertex, 0.37, 4.05, 11.5
+Addvertex, 0.37, 4.01, 11.7
+Addvertex, 0.75, 3.97, 11.7
+Addvertex, 0.75, 4.01, 11.5
+Addface, 0,1,2,3
+Setcolor, 232,232,232
+
+CreateMeshBuilder,
+Addvertex, 0   , 4.065, 11.5
+Addvertex, 0   , 4.02,  11.7
+Addvertex, 0.37, 4.01,  11.7
+Addvertex, 0.37, 4.05,  11.5
+Addface, 0,1,2,3
+Setcolor, 232,232,232
+
+CreateMeshBuilder,
+Addvertex, 1.405, 3.6,  11.7
+Addvertex, 1.33,  3.6,  11.9
+Addvertex, 1.355, 3.53, 11.9
+Addvertex, 1.425, 3.53, 11.7
+Addface, 0,1,2,3
+Setcolor, 232,232,232
+
+CreateMeshBuilder,
+Addvertex, 1.33,  3.7, 11.7 
+Addvertex, 1.23,  3.7, 11.9 
+Addvertex, 1.33,  3.6, 11.9 
+Addvertex, 1.405, 3.6, 11.7 
+Addface, 0,1,2,3
+Setcolor, 232,232,232
+
+CreateMeshBuilder,
+Addvertex, 1.245, 3.78, 11.7
+Addvertex, 1.12,  3.78, 11.9
+Addvertex, 1.23,  3.7,  11.9
+Addvertex, 1.33,  3.7,  11.7
+Addface, 0,1,2,3
+Setcolor, 232,232,232
+
+CreateMeshBuilder,
+Addvertex, 1.09,  3.87, 11.7
+Addvertex, 1.09,  3.8,  11.9
+Addvertex, 1.12,  3.78, 11.9
+Addvertex, 1.245, 3.78, 11.7
+Addface, 0,1,2,3
+Setcolor, 232,232,232
+
+CreateMeshBuilder,
+Addvertex, 0.95, 3.92, 11.7
+Addvertex, 0.95, 3.85, 11.9
+Addvertex, 1.09, 3.8,  11.9
+Addvertex, 1.09, 3.87, 11.7
+Addface, 0,1,2,3
+Setcolor, 232,232,232
+
+CreateMeshBuilder,
+Addvertex, 0.75, 3.97, 11.7
+Addvertex, 0.75, 3.9,  11.9
+Addvertex, 0.95, 3.85, 11.9
+Addvertex, 0.95, 3.92, 11.7
+addface, 0,1,2,3
+Setcolor, 232,232,232
+
+CreateMeshBuilder,
+Addvertex, 0.37, 4.01, 11.7
+Addvertex, 0.37, 3.94, 11.9
+Addvertex, 0.75, 3.9,  11.9
+Addvertex, 0.75, 3.97, 11.7
+addface, 0,1,2,3
+Setcolor, 232,232,232
+
+CreateMeshBuilder,
+Addvertex, 0   , 4.02, 11.7
+Addvertex, 0   , 3.95, 11.9
+Addvertex, 0.37, 3.94, 11.9
+Addvertex, 0.37, 4.01, 11.7
+addface, 0,1,2,3
+Setcolor, 232,232,232
+
+CreateMeshBuilder,
+Addvertex, 1.33,  3.6,  11.9
+Addvertex, 1.26,  3.6,  12  
+Addvertex, 1.3,   3.53, 12  
+Addvertex, 1.355, 3.53, 11.9
+addface, 0,1,2,3
+Setcolor, 232,232,232
+
+CreateMeshBuilder,
+Addvertex, 1.23, 3.7, 11.9 
+Addvertex, 1.16, 3.7, 12   
+Addvertex, 1.26, 3.6, 12   
+Addvertex, 1.33, 3.6, 11.9 
+addface, 0,1,2,3
+Setcolor, 232,232,232
+
+CreateMeshBuilder,
+Addvertex, 1.12, 3.78, 11.9
+Addvertex, 1.01, 3.78, 12  
+Addvertex, 1.16, 3.7,  12  
+Addvertex, 1.23, 3.7,  11.9
+addface, 0,1,2,3
+Setcolor, 232,232,232
+
+CreateMeshBuilder,
+Addvertex, 1.09, 3.8,  11.9
+Addvertex, 1.01, 3.78, 12  
+Addvertex, 1.01, 3.78, 12  
+Addvertex, 1.12, 3.78, 11.9
+addface, 0,1,2,3
+Setcolor, 232,232,232
+
+CreateMeshBuilder,
+Addvertex, 0.95, 3.85, 11.9
+Addvertex, 0.95, 3.8,  12  
+Addvertex, 1.01, 3.78, 12  
+Addvertex, 1.09, 3.8,  11.9
+addface, 0,1,2,3
+Setcolor, 232,232,232
+
+CreateMeshBuilder,
+Addvertex, 0.75, 3.9,  11.9
+Addvertex, 0.75, 3.85, 12  
+Addvertex, 0.95, 3.8,  12  
+Addvertex, 0.95, 3.85, 11.9
+addface, 0,1,2,3
+Setcolor, 232,232,232
+
+CreateMeshBuilder,
+Addvertex, 0.37, 3.94, 11.9
+Addvertex, 0.37, 3.89, 12  
+Addvertex, 0.75, 3.85, 12  
+Addvertex, 0.75, 3.9,  11.9
+addface, 0,1,2,3
+Setcolor, 232,232,232
+
+CreateMeshBuilder,
+Addvertex, 0   , 3.95, 11.9
+Addvertex, 0   , 3.9,  12  
+Addvertex, 0.37, 3.89, 12  
+Addvertex, 0.37, 3.94, 11.9
+addface, 0,1,2,3
+Setcolor, 232,232,232
+
+;Segmento 2=====================================================
+
+CreateMeshBuilder,
+Addvertex, -1.485, 3.6,  11.1
+Addvertex, -1.47,  3.6,  11.3
+Addvertex, -1.485, 3.53, 11.3
+Addvertex, -1.5,   3.53, 11.1
+Addface, 3,2,1,0
+Setcolor, 232,232,232
+
+CreateMeshBuilder,
+Addvertex, -1.42,  3.7, 11.1
+Addvertex, -1.405, 3.7, 11.3
+Addvertex, -1.47,  3.6, 11.3
+Addvertex, -1.485, 3.6, 11.1
+Addface, 3,2,1,0
+Setcolor, 232,232,232
+
+CreateMeshBuilder,
+Addvertex, -1.35,  3.78, 11.1
+Addvertex, -1.33,  3.78, 11.3
+Addvertex, -1.405, 3.7,  11.3
+Addvertex, -1.42,  3.7,  11.1
+Addface, 3,2,1,0
+Setcolor, 232,232,232
+
+CreateMeshBuilder,
+Addvertex, -1.22, 3.88, 11.1
+Addvertex, -1.21, 3.87, 11.3
+Addvertex, -1.33, 3.78, 11.3
+Addvertex, -1.35, 3.78, 11.1
+Addface, 3,2,1,0
+Setcolor, 232,232,232
+
+CreateMeshBuilder,
+Addvertex, -1.11, 3.94, 11.1
+Addvertex, -1.11, 3.92, 11.3
+Addvertex, -1.21, 3.87, 11.3
+Addvertex, -1.22, 3.88, 11.1
+Addface, 3,2,1,0
+Setcolor, 232,232,232
+
+CreateMeshBuilder,
+Addvertex, -0.95, 4,    11.1
+Addvertex, -0.95, 3.98, 11.3
+Addvertex, -1.11, 3.92, 11.3
+Addvertex, -1.11, 3.94, 11.1
+Addface, 3,2,1,0
+Setcolor, 232,232,232
+
+CreateMeshBuilder,
+Addvertex, -0.75, 4.04, 11.1
+Addvertex, -0.75, 4.02, 11.3
+Addvertex, -0.95, 3.98, 11.3
+Addvertex, -0.95, 4,    11.1
+Addface, 3,2,1,0
+Setcolor, 232,232,232
+
+CreateMeshBuilder,
+Addvertex, -0.37, 4.08, 11.1
+Addvertex, -0.37, 4.07, 11.3
+Addvertex, -0.75, 4.02, 11.3
+Addvertex, -0.75, 4.04, 11.1
+Addface, 3,2,1,0
+Setcolor, 232,232,232
+
+CreateMeshBuilder,
+Addvertex, -0   , 4.1,  11.1
+Addvertex, -0   , 4.09, 11.3
+Addvertex, -0.37, 4.07, 11.3
+Addvertex, -0.37, 4.08, 11.1
+Addface, 3,2,1,0
+Setcolor, 232,232,232
+
+CreateMeshBuilder,
+Addvertex, -1.47,  3.6,  11.3
+Addvertex, -1.44,  3.6,  11.5
+Addvertex, -1.46,  3.53, 11.5
+Addvertex, -1.485, 3.53, 11.3
+Addface, 3,2,1,0
+Setcolor, 232,232,232
+
+CreateMeshBuilder,
+Addvertex, -1.405, 3.7, 11.3
+Addvertex, -1.375, 3.7, 11.5
+Addvertex, -1.44,  3.6, 11.5
+Addvertex, -1.47,  3.6, 11.3
+Addface, 3,2,1,0
+Setcolor, 232,232,232
+
+CreateMeshBuilder,
+Addvertex, -1.33,  3.78, 11.3
+Addvertex, -1.305, 3.78, 11.5
+Addvertex, -1.375, 3.7,  11.5
+Addvertex, -1.405, 3.7,  11.3
+Addface, 3,2,1,0
+Setcolor, 232,232,232
+
+CreateMeshBuilder,
+Addvertex, -1.21,  3.87, 11.3
+Addvertex, -1.18,  3.87, 11.5
+Addvertex, -1.305, 3.78, 11.5
+Addvertex, -1.33,  3.78, 11.3
+Addface, 3,2,1,0
+Setcolor, 232,232,232
+
+CreateMeshBuilder,
+Addvertex, -1.11, 3.92, 11.3
+Addvertex, -1.11, 3.9,  11.5
+Addvertex, -1.18, 3.87, 11.5
+Addvertex, -1.21, 3.87, 11.3
+Addface, 3,2,1,0
+Setcolor, 232,232,232
+
+CreateMeshBuilder,
+Addvertex, -0.95, 3.98, 11.3
+Addvertex, -0.95, 3.96, 11.5
+Addvertex, -1.11, 3.9,  11.5
+Addvertex, -1.11, 3.92, 11.3
+Addface, 3,2,1,0
+Setcolor, 232,232,232
+
+CreateMeshBuilder,
+Addvertex, -0.75, 4.02, 11.3
+Addvertex, -0.75, 4.01, 11.5
+Addvertex, -0.95, 3.96, 11.5
+Addvertex, -0.95, 3.98, 11.3
+Addface, 3,2,1,0
+Setcolor, 232,232,232
+
+CreateMeshBuilder,
+Addvertex, -0.37, 4.07, 11.3
+Addvertex, -0.37, 4.05, 11.5
+Addvertex, -0.75, 4.01, 11.5
+Addvertex, -0.75, 4.02, 11.3
+Addface, 3,2,1,0
+Setcolor, 232,232,232
+
+CreateMeshBuilder,
+Addvertex, -0   , 4.09,  11.3
+Addvertex, -0   , 4.065, 11.5
+Addvertex, -0.37, 4.05,  11.5
+Addvertex, -0.37, 4.07,  11.3
+Addface, 3,2,1,0
+Setcolor, 232,232,232
+
+CreateMeshBuilder,
+Addvertex, -1.44,  3.6,  11.5
+Addvertex, -1.405, 3.6,  11.7
+Addvertex, -1.425, 3.53, 11.7
+Addvertex, -1.46,  3.53, 11.5
+Addface, 3,2,1,0
+Setcolor, 232,232,232
+
+CreateMeshBuilder,
+Addvertex, -1.375, 3.7, 11.5
+Addvertex, -1.33,  3.7, 11.7
+Addvertex, -1.405, 3.6, 11.7
+Addvertex, -1.44,  3.6, 11.5
+Addface, 3,2,1,0
+Setcolor, 232,232,232
+
+CreateMeshBuilder,
+Addvertex, -1.305, 3.78, 11.5
+Addvertex, -1.245, 3.78, 11.7
+Addvertex, -1.33,  3.7,  11.7
+Addvertex, -1.375, 3.7,  11.5
+Addface, 3,2,1,0
+Setcolor, 232,232,232
+
+CreateMeshBuilder,
+Addvertex, -1.18,  3.87, 11.5
+Addvertex, -1.09,  3.87, 11.7
+Addvertex, -1.245, 3.78, 11.7
+Addvertex, -1.305, 3.78, 11.5
+Addface, 3,2,1,0
+Setcolor, 232,232,232
+
+CreateMeshBuilder,
+Addvertex, -1.11, 3.9,  11.5
+Addvertex, -1.09, 3.87, 11.7
+Addvertex, -1.09, 3.87, 11.7
+Addvertex, -1.18, 3.87, 11.5
+Addface, 3,2,1,0
+Setcolor, 232,232,232
+
+CreateMeshBuilder,
+Addvertex, -0.95, 3.96, 11.5
+Addvertex, -0.95, 3.92, 11.7
+Addvertex, -1.09, 3.87, 11.7
+Addvertex, -1.11, 3.9,  11.5
+Addface, 3,2,1,0
+Setcolor, 232,232,232
+
+CreateMeshBuilder,
+Addvertex, -0.75, 4.01, 11.5
+Addvertex, -0.75, 3.97, 11.7
+Addvertex, -0.95, 3.92, 11.7
+Addvertex, -0.95, 3.96, 11.5
+Addface, 3,2,1,0
+Setcolor, 232,232,232
+
+CreateMeshBuilder,
+Addvertex, -0.37, 4.05, 11.5
+Addvertex, -0.37, 4.01, 11.7
+Addvertex, -0.75, 3.97, 11.7
+Addvertex, -0.75, 4.01, 11.5
+Addface, 3,2,1,0
+Setcolor, 232,232,232
+
+CreateMeshBuilder,
+Addvertex, -0   , 4.065, 11.5
+Addvertex, -0   , 4.02,  11.7
+Addvertex, -0.37, 4.01,  11.7
+Addvertex, -0.37, 4.05,  11.5
+Addface, 3,2,1,0
+Setcolor, 232,232,232
+
+CreateMeshBuilder,
+Addvertex, -1.405, 3.6,  11.7
+Addvertex, -1.33,  3.6,  11.9
+Addvertex, -1.355, 3.53, 11.9
+Addvertex, -1.425, 3.53, 11.7
+Addface, 3,2,1,0
+Setcolor, 232,232,232
+
+CreateMeshBuilder,
+Addvertex, -1.33,  3.7, 11.7 
+Addvertex, -1.23,  3.7, 11.9 
+Addvertex, -1.33,  3.6, 11.9 
+Addvertex, -1.405, 3.6, 11.7 
+Addface, 3,2,1,0
+Setcolor, 232,232,232
+
+CreateMeshBuilder,
+Addvertex, -1.245, 3.78, 11.7
+Addvertex, -1.12,  3.78, 11.9
+Addvertex, -1.23,  3.7,  11.9
+Addvertex, -1.33,  3.7,  11.7
+Addface, 3,2,1,0
+Setcolor, 232,232,232
+
+CreateMeshBuilder,
+Addvertex, -1.09,  3.87, 11.7
+Addvertex, -1.09,  3.8,  11.9
+Addvertex, -1.12,  3.78, 11.9
+Addvertex, -1.245, 3.78, 11.7
+Addface, 3,2,1,0
+Setcolor, 232,232,232
+
+CreateMeshBuilder,
+Addvertex, -0.95, 3.92, 11.7
+Addvertex, -0.95, 3.85, 11.9
+Addvertex, -1.09, 3.8,  11.9
+Addvertex, -1.09, 3.87, 11.7
+Addface, 3,2,1,0
+Setcolor, 232,232,232
+
+CreateMeshBuilder,
+Addvertex, -0.75, 3.97, 11.7
+Addvertex, -0.75, 3.9,  11.9
+Addvertex, -0.95, 3.85, 11.9
+Addvertex, -0.95, 3.92, 11.7
+Addface, 3,2,1,0
+Setcolor, 232,232,232
+
+CreateMeshBuilder,
+Addvertex, -0.37, 4.01, 11.7
+Addvertex, -0.37, 3.94, 11.9
+Addvertex, -0.75, 3.9,  11.9
+Addvertex, -0.75, 3.97, 11.7
+Addface, 3,2,1,0
+Setcolor, 232,232,232
+
+CreateMeshBuilder,
+Addvertex, -0   , 4.02, 11.7
+Addvertex, -0   , 3.95, 11.9
+Addvertex, -0.37, 3.94, 11.9
+Addvertex, -0.37, 4.01, 11.7
+Addface, 3,2,1,0
+Setcolor, 232,232,232
+
+CreateMeshBuilder,
+Addvertex, -1.33,  3.6,  11.9
+Addvertex, -1.26,  3.6,  12  
+Addvertex, -1.3,   3.53, 12  
+Addvertex, -1.355, 3.53, 11.9
+Addface, 3,2,1,0
+Setcolor, 232,232,232
+
+CreateMeshBuilder,
+Addvertex, -1.23, 3.7, 11.9 
+Addvertex, -1.16, 3.7, 12   
+Addvertex, -1.26, 3.6, 12   
+Addvertex, -1.33, 3.6, 11.9 
+Addface, 3,2,1,0
+Setcolor, 232,232,232
+
+CreateMeshBuilder,
+Addvertex, -1.12, 3.78, 11.9
+Addvertex, -1.01, 3.78, 12  
+Addvertex, -1.16, 3.7,  12  
+Addvertex, -1.23, 3.7,  11.9
+Addface, 3,2,1,0
+Setcolor, 232,232,232
+
+CreateMeshBuilder,
+Addvertex, -1.09, 3.8,  11.9
+Addvertex, -1.01, 3.78, 12  
+Addvertex, -1.01, 3.78, 12  
+Addvertex, -1.12, 3.78, 11.9
+Addface, 3,2,1,0
+Setcolor, 232,232,232
+
+CreateMeshBuilder,
+Addvertex, -0.95, 3.85, 11.9
+Addvertex, -0.95, 3.8,  12  
+Addvertex, -1.01, 3.78, 12  
+Addvertex, -1.09, 3.8,  11.9
+Addface, 3,2,1,0
+Setcolor, 232,232,232
+
+CreateMeshBuilder,
+Addvertex, -0.75, 3.9,  11.9
+Addvertex, -0.75, 3.85, 12  
+Addvertex, -0.95, 3.8,  12  
+Addvertex, -0.95, 3.85, 11.9
+Addface, 3,2,1,0
+Setcolor, 232,232,232
+
+CreateMeshBuilder,
+Addvertex, -0.37, 3.94, 11.9
+Addvertex, -0.37, 3.89, 12  
+Addvertex, -0.75, 3.85, 12  
+Addvertex, -0.75, 3.9,  11.9
+Addface, 3,2,1,0
+Setcolor, 232,232,232
+
+CreateMeshBuilder,
+Addvertex, -0   , 3.95, 11.9
+Addvertex, -0   , 3.9,  12  
+Addvertex, -0.37, 3.89, 12  
+Addvertex, -0.37, 3.94, 11.9
+Addface, 3,2,1,0
+Setcolor, 232,232,232
+
+TranslateAll, 0,0,-11.5
+Scaleall, 0.933,1.3,1.3

@@ -1,0 +1,31 @@
+;81-717 motorkocsi ajtójelzés animálás
+;Készítette: http://www.bvemetro.hu/
+
+;--------------------------------------------------
+
+;Lámpa_oldal
+[MeshBuilder]
+Vertex 1.345,3.04,09.66
+Vertex 1.345,3.11,09.66
+Vertex 1.345,3.11,09.74
+Vertex 1.345,3.04,09.74
+Vertex -1.345,3.04,09.66
+Vertex -1.345,3.11,09.66
+Vertex -1.345,3.11,09.74
+Vertex -1.345,3.04,09.74
+Face 0,1,2,3
+Face 7,6,5,4
+[Texture]
+Load 81-717_ajto_nyitva.bmp
+Coordinates 0,1,0
+Coordinates 1,0,0
+Coordinates 2,0,1
+Coordinates 3,1,1
+Coordinates 4,1,0
+Coordinates 5,0,0
+Coordinates 6,0,1
+Coordinates 7,1,1
+Transparent 255,0,0
+EmissiveColor 255,255,255
+
+TranslateAll 0,0,-9.5

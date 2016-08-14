@@ -1,0 +1,436 @@
+﻿;Techo==========================================================================
+
+CreateMeshBuilder,
+cylinder, 15, 0.27, 0.27, 0.8
+SetColor, 40,40,40
+translate, 0, 4, 6.3
+
+CreateMeshBuilder
+Addvertex, -0.29, 4.41, 6.59
+Addvertex,  0.29, 4.41, 6.59
+Addvertex,  0.29, 4.41, 6.0
+Addvertex, -0.29, 4.41, 6.0
+AddFace2, 0,1,2,3
+GenerateNormals
+loadtexture, chimenea.png
+SetTextureCoordinates, 0,0,0
+SetTextureCoordinates, 1,1,0
+SetTextureCoordinates, 2,1,1
+SetTextureCoordinates, 3,0,1
+setdecalTransparentcolor, 0,0,0
+
+CreateMeshBuilder,
+cylinder, 15, 0.55, 0.55, 0.8
+SetColor, 40,40,40
+translate, 0, 3.75, 3.5
+
+CreateMeshBuilder,
+cylinder, 15, 0.5, 0.55, 0.05
+SetColor, 40,40,40
+translate, 0, 4.18, 3.5
+
+CreateMeshBuilder,
+cylinder, 15, 0.55, 0.55, 0.8
+SetColor, 40,40,40
+translate, 0, 3.75, 1.18
+
+CreateMeshBuilder,
+cylinder, 15, 0.5, 0.55, 0.05
+SetColor, 40,40,40
+translate, 0, 4.18, 1.18
+
+CreateMeshBuilder,
+cylinder, 15, 0.55, 0.55, 0.8
+SetColor, 40,40,40
+translate, 0, 3.75, -1.18
+
+CreateMeshBuilder,
+cylinder, 15, 0.5, 0.55, 0.05
+SetColor, 40,40,40
+translate, 0, 4.18, -1.18
+
+
+
+CreateMeshBuilder,
+cylinder, 15, 0.27, 0.27, 0.8
+SetColor, 40,40,40
+translate, 0, 3.8, -2.6
+
+CreateMeshBuilder
+Addvertex, -0.29, 4.21, -2.33
+Addvertex,  0.29, 4.21, -2.33
+Addvertex,  0.29, 4.21, -2.87
+Addvertex, -0.29, 4.21, -2.87
+AddFace2, 0,1,2,3
+GenerateNormals
+loadtexture, chimenea 2.png
+SetTextureCoordinates, 0,0,0
+SetTextureCoordinates, 1,1,0
+SetTextureCoordinates, 2,1,1
+SetTextureCoordinates, 3,0,1
+setdecalTransparentcolor, 0,0,0
+
+;Cajas de humos=================================================================
+
+;Izquierda----------------------------------------------------------------------
+
+CreateMeshBuilder,
+cylinder, 15, 0.2, 0.2, 1
+SetColor, 29,29,29
+translate, -1.9, 1.45, 6
+rotate, 0,0,1,-30
+
+CreateMeshBuilder
+Addvertex, -0.8, 1.7, 5.53
+Addvertex, -0.8, 1.7, 6.42
+Addvertex, -0.8, 1,   6.42
+Addvertex, -0.8, 1,   5.5
+AddFace2, 0,1,2,3
+GenerateNormals
+loadtexture, piso.png
+SetTextureCoordinates, 0,0,0
+SetTextureCoordinates, 1,1,0
+SetTextureCoordinates, 2,1,1
+SetTextureCoordinates, 3,0,1
+
+CreateMeshBuilder,
+cylinder, 15, 0.3, 0.3, 1
+SetColor, 20,20,20
+Rotate, 1,0,0,90
+translate, -1.1, 1.7, 6
+
+CreateMeshBuilder,
+cylinder, 15, 0.3, 0.3, 0.9
+SetColor, 20,20,20
+Rotate, 1,0,0,90
+translate, -1.1, 1, 5.97
+
+CreateMeshBuilder
+Addvertex, -1.4, 1.7, 5.53
+Addvertex, -1.4, 1.7, 6.42
+Addvertex, -1.4, 1,   6.42
+Addvertex, -1.4, 1,   5.5
+AddFace2, 0,1,2,3
+GenerateNormals
+loadtexture, piso.png
+SetTextureCoordinates, 0,0,0
+SetTextureCoordinates, 1,1,0
+SetTextureCoordinates, 2,1,1
+SetTextureCoordinates, 3,0,1
+
+;Derecha------------------------------------------------------------------------
+
+CreateMeshBuilder,
+cylinder, 15, 0.2, 0.2, 1
+SetColor, 29,29,29
+translate, 1.9, 1.45, 6
+rotate, 0,0,1,30
+
+CreateMeshBuilder
+Addvertex, 0.8, 1.7, 5.53
+Addvertex, 0.8, 1.7, 6.42
+Addvertex, 0.8, 1,   6.42
+Addvertex, 0.8, 1,   5.5
+AddFace2, 0,1,2,3
+GenerateNormals
+loadtexture, piso.png
+SetTextureCoordinates, 0,0,0
+SetTextureCoordinates, 1,1,0
+SetTextureCoordinates, 2,1,1
+SetTextureCoordinates, 3,0,1
+
+CreateMeshBuilder,
+cylinder, 15, 0.3, 0.3, 1
+SetColor, 20,20,20
+Rotate, 1,0,0,90
+translate, 1.1, 1.7, 6
+
+CreateMeshBuilder,
+cylinder, 15, 0.3, 0.3, 0.9
+SetColor, 20,20,20
+Rotate, 1,0,0,90
+translate, 1.1, 1, 5.97
+
+CreateMeshBuilder
+Addvertex, 1.4, 1.7, 5.53
+Addvertex, 1.4, 1.7, 6.42
+Addvertex, 1.4, 1,   6.42
+Addvertex, 1.4, 1,   5.5
+AddFace2, 0,1,2,3
+GenerateNormals
+loadtexture, piso.png
+SetTextureCoordinates, 0,0,0
+SetTextureCoordinates, 1,1,0
+SetTextureCoordinates, 2,1,1
+SetTextureCoordinates, 3,0,1
+
+CreateMeshBuilder
+Addvertex, -1.4, 2,   6.41
+Addvertex,  1.4, 2,   6.41
+Addvertex,  1.4, 0.7, 6.41
+Addvertex, -1.4, 0.7, 6.41
+AddFace2, 0,1,2,3
+GenerateNormals
+loadtexture, piso 2.png
+SetTextureCoordinates, 0,0,0
+SetTextureCoordinates, 1,1,0
+SetTextureCoordinates, 2,1,1
+SetTextureCoordinates, 3,0,1
+setdecalTransparentcolor, 0,0,255
+
+CreateMeshBuilder
+Addvertex, -1.4, 2,   5.53
+Addvertex,  1.4, 2,   5.53
+Addvertex,  1.4, 0.7, 5.53
+Addvertex, -1.4, 0.7, 5.53
+AddFace2, 0,1,2,3
+GenerateNormals
+loadtexture, piso 2.png
+SetTextureCoordinates, 0,0,0
+SetTextureCoordinates, 1,1,0
+SetTextureCoordinates, 2,1,1
+SetTextureCoordinates, 3,0,1
+setdecalTransparentcolor, 0,0,255
+
+;Laterales======================================================================
+
+CreateMeshBuilder
+Addvertex, 1.4, 3.8, -7.2
+Addvertex, 1.4, 3.8,  10.09
+Addvertex, 1.4, 0.4,  10.09
+Addvertex, 1.4, 0.4, -7.2
+AddFace2, 0,1,2,3
+GenerateNormals
+loadtexture, barandal 1.png
+SetTextureCoordinates, 0,0,0
+SetTextureCoordinates, 1,1,0
+SetTextureCoordinates, 2,1,1
+SetTextureCoordinates, 3,0,1
+setdecalTransparentcolor, 0,0,255
+
+CreateMeshBuilder
+Addvertex, -1.4, 3.8, -7.2
+Addvertex, -1.4, 3.8,  10.09
+Addvertex, -1.4, 0.4,  10.09
+Addvertex, -1.4, 0.4, -7.2
+AddFace2, 0,1,2,3
+GenerateNormals
+loadtexture, barandal 2.png
+SetTextureCoordinates, 0,0,0
+SetTextureCoordinates, 1,1,0
+SetTextureCoordinates, 2,1,1
+SetTextureCoordinates, 3,0,1
+setdecalTransparentcolor, 0,0,255
+
+CreateMeshBuilder
+Addvertex, 0.74, 1.55, -2.15
+Addvertex, 0.74, 1.55,  6.3
+Addvertex, 0.74, 0.15,  6.3
+Addvertex, 0.74, 0.15, -2.15
+AddFace2, 0,1,2,3
+GenerateNormals
+loadtexture, zapatas.png
+SetTextureCoordinates, 0,0,0
+SetTextureCoordinates, 1,1,0
+SetTextureCoordinates, 2,1,1
+SetTextureCoordinates, 3,0,1
+setdecalTransparentcolor, 0,0,255
+
+CreateMeshBuilder
+Addvertex, -0.74, 1.55, -2.15
+Addvertex, -0.74, 1.55,  6.3
+Addvertex, -0.74, 0.15,  6.3
+Addvertex, -0.74, 0.15, -2.15
+AddFace2, 0,1,2,3
+GenerateNormals
+loadtexture, zapatas.png
+SetTextureCoordinates, 0,0,0
+SetTextureCoordinates, 1,1,0
+SetTextureCoordinates, 2,1,1
+SetTextureCoordinates, 3,0,1
+setdecalTransparentcolor, 0,0,255
+
+;Frente=========================================================================
+
+CreateMeshBuilder
+Addvertex, -1.4, 2.25, 7.08
+Addvertex,  1.4, 2.25, 7.08
+Addvertex,  1.4, 1.1,  7.74
+Addvertex, -1.4, 1.1,  7.74
+AddFace2, 0,1,2,3
+GenerateNormals
+loadtexture, escalerillas.png
+SetTextureCoordinates, 0,0,0
+SetTextureCoordinates, 1,1,0
+SetTextureCoordinates, 2,1,1
+SetTextureCoordinates, 3,0,1
+setdecalTransparentcolor, 255,255,255
+
+CreateMeshBuilder
+Addvertex, -1.4, 2.25, 6.65
+Addvertex,  0,   2.25, 6.65
+Addvertex,  0,   2.25, 7.08
+Addvertex, -1.4, 2.25, 7.08
+AddFace2, 0,1,2,3
+GenerateNormals
+loadtexture, piso.png
+SetTextureCoordinates, 0,0,0
+SetTextureCoordinates, 1,1,0
+SetTextureCoordinates, 2,1,1
+SetTextureCoordinates, 3,0,1
+setdecalTransparentcolor, 255,255,255
+
+CreateMeshBuilder
+Addvertex, -1.4, 1.1, 7.74
+Addvertex,  1.4, 1.1, 7.74
+Addvertex,  1.4, 1.1, 8.09
+Addvertex, -1.4, 1.1, 8.09
+AddFace2, 0,1,2,3
+GenerateNormals
+loadtexture, piso.png
+SetTextureCoordinates, 0,0,0
+SetTextureCoordinates, 1,1,0
+SetTextureCoordinates, 2,1,1
+SetTextureCoordinates, 3,0,1
+
+CreateMeshBuilder
+Addvertex, -1.4, 0.6, 8.09
+Addvertex,  1.4, 0.6, 8.09
+Addvertex,  1.4, 1.1, 8.09
+Addvertex, -1.4, 1.1, 8.09
+AddFace2, 0,1,2,3
+GenerateNormals
+loadtexture, piso.png
+SetTextureCoordinates, 0,0,0
+SetTextureCoordinates, 1,1,0
+SetTextureCoordinates, 2,1,1
+SetTextureCoordinates, 3,0,1
+setcolor, 255,0,0
+
+;Caldera========================================================================
+
+CreateMeshBuilder,
+Cylinder,  20, 0.65, 0.65, 0.09
+Translate,  0, 7.55,-3
+Rotate,  -1, 0, 0, -90
+SetColor, 40,40,40
+
+CreateMeshBuilder,
+Cylinder,  15, 0.12, 0.12, 0.2
+Translate,  0, 7.7,-3.6
+Rotate,  -1, 0, 0, -90
+SetColor, 20,20,20
+
+CreateMeshBuilder,
+Cylinder,  20, 0.15, 0.15, 1.5
+Translate,  -3.7, 0,6.95
+Rotate,  0, 0, 1, -90
+SetColor, 40,40,40
+
+;PISO===========================================================================
+
+CreateMeshBuilder,
+Addvertex, -1.4, 2.25, -4.56
+Addvertex, -1.4, 2.25, 7.05
+Addvertex,  1.4, 2.25, 7.05
+Addvertex,  1.4, 2.25, -4.56
+Addface2, 0,1,2,3
+LoadTexture, piso.png
+SetTextureCoordinates, 0,0,0
+SetTextureCoordinates, 1,1,0
+SetTextureCoordinates, 2,1,1
+SetTextureCoordinates, 3,0,1
+
+;Bastidores=====================================================================
+
+;Central========================================================================
+
+CreateMeshBuilder,
+cube, 0.4, 0.3, 0.4
+SetColor, 179,0,0
+translate, 0, 1.8, 1.07
+
+CreateMeshBuilder,
+cube, 0.67, 0.6, 3
+SetColor, 179,0,0
+translate, 0, 1, 1
+
+CreateMeshBuilder,
+cube, 0.4, 0.3, 0.4
+SetColor, 179,0,0
+translate, 0, 1.8, -1.06
+
+CreateMeshBuilder,
+cube, 0.3, 0.1, 1
+SetColor, 179,0,0
+translate, 0, 1, -2.4
+
+CreateMeshBuilder
+Addvertex, -0.7, 1.8, 8.09
+Addvertex, -0.7, 1.8, 4.07
+Addvertex, -0.7, 0.5, 4.07
+Addvertex, -0.7, 0.5, 8.09
+AddFace2, 0,1,2,3
+GenerateNormals
+loadtexture, bajo 2.png
+SetTextureCoordinates, 0,0,0
+SetTextureCoordinates, 1,1,0
+SetTextureCoordinates, 2,1,1
+SetTextureCoordinates, 3,0,1
+setdecalTransparentcolor, 255,255,255
+
+CreateMeshBuilder
+Addvertex, 0.7, 1.8, 8.09
+Addvertex, 0.7, 1.8, 4.07
+Addvertex, 0.7, 0.5, 4.07
+Addvertex, 0.7, 0.5, 8.09
+AddFace2, 0,1,2,3
+GenerateNormals
+loadtexture, bajo 2.png
+SetTextureCoordinates, 0,0,0
+SetTextureCoordinates, 1,1,0
+SetTextureCoordinates, 2,1,1
+SetTextureCoordinates, 3,0,1
+setdecalTransparentcolor, 255,255,255
+
+;Bielas=========================================================================
+
+CreateMeshBuilder,
+Cylinder,  15, 0.06, 0.06, 2
+Translate, -1.1, 5.13,-0.93
+Rotate,  -1, 0, 0, -90
+SetColor, 76,85,85
+
+CreateMeshBuilder,
+Cylinder,  15, 0.06, 0.06, 2
+Translate, 1.1, 5.13,-0.93
+Rotate,  -1, 0, 0, -90
+SetColor, 76,85,85
+
+CreateMeshBuilder
+Addvertex, -1.13, 2,    5.55
+Addvertex, -1.13, 2,    2.36
+Addvertex, -1.13, 0.6,  2.36
+Addvertex, -1.12, 0.6,  5.55
+AddFace2, 0,1,2,3
+GenerateNormals
+loadtexture, bielas.png
+SetTextureCoordinates, 0,0,0
+SetTextureCoordinates, 1,1,0
+SetTextureCoordinates, 2,1,1
+SetTextureCoordinates, 3,0,1
+setdecalTransparentcolor, 255,255,255
+
+CreateMeshBuilder
+Addvertex, 1.13, 2,    5.55
+Addvertex, 1.13, 2,    2.36
+Addvertex, 1.13, 0.6,  2.36
+Addvertex, 1.12, 0.6,  5.55
+AddFace2, 0,1,2,3
+GenerateNormals
+loadtexture, bielas.png
+SetTextureCoordinates, 0,0,0
+SetTextureCoordinates, 1,1,0
+SetTextureCoordinates, 2,1,1
+SetTextureCoordinates, 3,0,1
+setdecalTransparentcolor, 255,255,255

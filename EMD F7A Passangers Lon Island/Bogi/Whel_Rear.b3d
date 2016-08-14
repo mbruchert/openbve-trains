@@ -1,0 +1,78 @@
+﻿
+
+[MESHBUILDER]                          
+Cylinder 24,0.182,0.182,3.238
+Color 079,063,063
+Rotate 0,0,1,+90.0
+
+[MESHBUILDER]                           
+Vertex -1.620,+0.176,-0.176
+Vertex -1.620,+0.176,+0.176
+Vertex -1.620,-0.176,+0.176
+Vertex -1.620,-0.176,-0.176
+Face2 0,1,2,3
+Load Whel_Hubs.gif
+Transparent 000,255,000
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+Rotate 1,0,0,+045.0
+
+[MESHBUILDER]                           
+Vertex +1.620,+0.176,-0.176
+Vertex +1.620,+0.176,+0.176
+Vertex +1.620,-0.176,+0.176
+Vertex +1.620,-0.176,-0.176
+Face2 0,1,2,3
+Load Whel_Hubs.gif
+Transparent 000,255,000
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+Rotate 1,0,0,-045.0
+
+[MESHBUILDER]                           
+Cylinder 24,1.056,0.243,0.177           
+Color 135,135,119
+Rotate 0,0,1,-90.0
+Translate -1.052,+0.000,+0.000
+[MESHBUILDER]
+Cylinder 24,1.000,0.989,0.157           
+Color 139,139,127
+Rotate 0,0,1,-90.0
+Translate -1.052,+0.000,+0.000
+[MESHBUILDER]
+Cylinder 24,0.243,1.056,0.021           
+Color 095,079,079
+Rotate 0,0,1,-90.0
+Translate -0.953,+0.000,+0.000
+[MESHBUILDER]
+Cylinder 24,0.243,0.877,0.198           
+Color 111,095,095
+Rotate 0,0,1,-90.0
+Translate -1.036,+0.000,+0.000
+
+[MESHBUILDER]                           
+Cylinder 24,1.056,0.243,0.177           
+Color 135,135,119
+Rotate 0,0,1,+90.0
+Translate +1.052,+0.000,+0.000
+[MESHBUILDER]
+Cylinder 24,1.000,0.989,0.157           
+Color 139,139,127
+Rotate 0,0,1,+90.0
+Translate +1.052,+0.000,+0.000
+[MESHBUILDER]
+Cylinder 24,0.243,1.056,0.021           
+Color 095,079,079
+Rotate 0,0,1,+90.0
+Translate +0.953,+0.000,+0.000
+[MESHBUILDER]
+Cylinder 24,0.243,0.877,0.198           
+Color 111,095,095
+Rotate 0,0,1,+90.0
+Translate +1.036,+0.000,+0.000
+
+SCALEALL 0.718,0.508,0.508              ;DimX=+0.5*Gaug,DimY=+0.5*Diam,DimZ=+0.5*Diam

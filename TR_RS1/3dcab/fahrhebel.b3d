@@ -1,0 +1,208 @@
+[Meshbuilder]
+Vertex 0, 0.2, 0.15
+Vertex 0, 0.2, 0.1
+Vertex 0, 0.1, 0.1
+Vertex 0, 0.1, 0.17
+Face 0, 1, 2, 3
+[Texture]
+Load fahrhebel.bmp
+Coordinates 0, 0.101563, 0.432617
+Coordinates 1, 0.089844, 0.432617
+Coordinates 2, 0.081055, 0.482422
+Coordinates 3, 0.095703, 0.485352
+Transparent 0, 0, 0
+[Meshbuilder]
+Vertex 0, 0.2, 0.15
+Vertex 0, 0.2, 0.1
+Vertex 0, 0.1, 0.1
+Vertex 0, 0.1, 0.17
+Face 3, 2, 1, 0
+[Texture]
+Load fahrhebel.bmp
+Coordinates 0, 0.101563, 0.432617
+Coordinates 1, 0.089844, 0.432617
+Coordinates 2, 0.081055, 0.482422
+Coordinates 3, 0.095703, 0.485352
+Transparent 0, 0, 0
+[Meshbuilder]
+Vertex 0, 0, 0.035
+Vertex 0, 0, 0.2
+Vertex 0, 0.1, 0.17
+Vertex 0, 0.1, 0.1
+Face 0, 1, 2, 3
+[Texture]
+Load fahrhebel.bmp
+Coordinates 0, 0.083008, 0.493164
+Coordinates 1, 0.091797, 0.518555
+Coordinates 2, 0.061523, 0.487305
+Coordinates 3, 0.069336, 0.481445
+Transparent 0, 0, 0
+[Meshbuilder]
+Vertex 0, 0, 0.035
+Vertex 0, 0, 0.2
+Vertex 0, 0.1, 0.17
+Vertex 0, 0.1, 0.1
+Face 3, 2, 1, 0
+[Texture]
+Load fahrhebel.bmp
+Coordinates 0, 0.083008, 0.493164
+Coordinates 1, 0.091797, 0.518555
+Coordinates 2, 0.061523, 0.487305
+Coordinates 3, 0.069336, 0.481445
+Transparent 0, 0, 0
+[Meshbuilder]
+Vertex 0.025, 0, 0.035
+Vertex 0.025, 0, 0.2
+Vertex 0.025, 0.1, 0.17
+Vertex 0.025, 0.1, 0.1
+Face 0, 1, 2, 3
+[Texture]
+Load fahrhebel.bmp
+Coordinates 0, 0.086914, 0.494141
+Coordinates 1, 0.073242, 0.485352
+Coordinates 2, 0.063477, 0.489258
+Coordinates 3, 0.085938, 0.510742
+Transparent 0, 0, 0
+[Meshbuilder]
+Vertex 0.025, 0, 0.035
+Vertex 0.025, 0, 0.2
+Vertex 0.025, 0.1, 0.17
+Vertex 0.025, 0.1, 0.1
+Face 3, 2, 1, 0
+[Texture]
+Load fahrhebel.bmp
+Coordinates 0, 0.086914, 0.494141
+Coordinates 1, 0.073242, 0.485352
+Coordinates 2, 0.063477, 0.489258
+Coordinates 3, 0.085938, 0.510742
+Transparent 0, 0, 0
+[Meshbuilder]
+Vertex 0.025, 0.1, 0.17
+Vertex 0.025, 0.1, 0.1
+Vertex 0.025, 0.2, 0.1
+Vertex 0.025, 0.2, 0.15
+Face 0, 1, 2, 3
+[Texture]
+Load fahrhebel.bmp
+Coordinates 0, 0.098633, 0.483398
+Coordinates 1, 0.082031, 0.481445
+Coordinates 2, 0.086914, 0.436523
+Coordinates 3, 0.100586, 0.436523
+Transparent 0, 0, 0
+[Meshbuilder]
+Vertex 0.025, 0.1, 0.17
+Vertex 0.025, 0.1, 0.1
+Vertex 0.025, 0.2, 0.1
+Vertex 0.025, 0.2, 0.15
+Face 3, 2, 1, 0
+[Texture]
+Load fahrhebel.bmp
+Coordinates 0, 0.098633, 0.483398
+Coordinates 1, 0.082031, 0.481445
+Coordinates 2, 0.086914, 0.436523
+Coordinates 3, 0.100586, 0.436523
+Transparent 0, 0, 0
+[Meshbuilder]
+Vertex 0, 0, 0.035
+Vertex 0.025, 0, 0.035
+Vertex 0.025, 0.1, 0.1
+Vertex 0, 0.1, 0.1
+Face 0, 1, 2, 3
+[Texture]
+Load fahrhebel.bmp
+Coordinates 0, 0.094727, 0.512695
+Coordinates 1, 0.077148, 0.489258
+Coordinates 2, 0.063477, 0.483398
+Coordinates 3, 0.09375, 0.525391
+Transparent 0, 0, 0
+[Meshbuilder]
+Vertex 0, 0, 0.035
+Vertex 0.025, 0, 0.035
+Vertex 0.025, 0.1, 0.1
+Vertex 0, 0.1, 0.1
+Face 3, 2, 1, 0
+[Texture]
+Load fahrhebel.bmp
+Coordinates 0, 0.094727, 0.512695
+Coordinates 1, 0.077148, 0.489258
+Coordinates 2, 0.063477, 0.483398
+Coordinates 3, 0.09375, 0.525391
+Transparent 0, 0, 0
+[Meshbuilder]
+Vertex 0.025, 0.2, 0.1
+Vertex 0, 0.2, 0.1
+Vertex 0, 0.1, 0.1
+Vertex 0.025, 0.1, 0.1
+Face 0, 1, 2, 3
+[Texture]
+Load fahrhebel.bmp
+Coordinates 0, 0.100586, 0.439453
+Coordinates 1, 0.085938, 0.4375
+Coordinates 2, 0.083984, 0.475586
+Coordinates 3, 0.097656, 0.477539
+Transparent 0, 0, 0
+[Meshbuilder]
+Vertex 0.025, 0.2, 0.1
+Vertex 0, 0.2, 0.1
+Vertex 0, 0.1, 0.1
+Vertex 0.025, 0.1, 0.1
+Face 3, 2, 1, 0
+[Texture]
+Load fahrhebel.bmp
+Coordinates 0, 0.100586, 0.439453
+Coordinates 1, 0.085938, 0.4375
+Coordinates 2, 0.083984, 0.475586
+Coordinates 3, 0.097656, 0.477539
+Transparent 0, 0, 0
+[Meshbuilder]
+Vertex 0, 0.2, 0.15
+Vertex 0.025, 0.2, 0.15
+Vertex 0.025, 0.2, 0.1
+Vertex 0, 0.2, 0.1
+Face 0, 1, 2, 3
+[Texture]
+Load fahrhebel.bmp
+Coordinates 0, 0.102539, 0.40625
+Coordinates 1, 0.098633, 0.4375
+Coordinates 2, 0.084961, 0.436523
+Coordinates 3, 0.09082, 0.393555
+Transparent 0, 0, 0
+[Meshbuilder]
+Vertex 0, 0.2, 0.15
+Vertex 0.025, 0.2, 0.15
+Vertex 0.025, 0.2, 0.1
+Vertex 0, 0.2, 0.1
+Face 3, 2, 1, 0
+[Texture]
+Load fahrhebel.bmp
+Coordinates 0, 0.102539, 0.40625
+Coordinates 1, 0.098633, 0.4375
+Coordinates 2, 0.084961, 0.436523
+Coordinates 3, 0.09082, 0.393555
+Transparent 0, 0, 0
+[Meshbuilder]
+Vertex 0, 0.1, 0.17
+Vertex 0, 0.2, 0.15
+Vertex 0.025, 0.2, 0.15
+Vertex 0.025, 0.1, 0.17
+Face 0, 1, 2, 3
+[Texture]
+Load fahrhebel.bmp
+Coordinates 0, 0.086914, 0.482422
+Coordinates 1, 0.086914, 0.432617
+Coordinates 2, 0.100586, 0.436523
+Coordinates 3, 0.09668, 0.487305
+Transparent 0, 0, 0
+[Meshbuilder]
+Vertex 0, 0.1, 0.17
+Vertex 0, 0.2, 0.15
+Vertex 0.025, 0.2, 0.15
+Vertex 0.025, 0.1, 0.17
+Face 3, 2, 1, 0
+[Texture]
+Load fahrhebel.bmp
+Coordinates 0, 0.086914, 0.482422
+Coordinates 1, 0.086914, 0.432617
+Coordinates 2, 0.100586, 0.436523
+Coordinates 3, 0.09668, 0.487305
+Transparent 0, 0, 0

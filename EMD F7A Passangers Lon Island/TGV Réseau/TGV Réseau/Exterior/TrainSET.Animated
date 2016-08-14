@@ -1,0 +1,39 @@
+[Include]
+Eurostarlider.animated
+Position =  0, 0,0
+
+[Include]
+Eurostarr1.animated
+Position =  0, 0, -19.5
+
+[Include]
+Eurostarr2.animated       
+Position =  0, 0, -37.3
+
+[Include]
+Eurostarr2.animated
+Position =  0, 0, -54
+
+[Include]
+Eurostarr4.animated
+Position =  0, 0, -70.7
+
+[Include]
+Eurostarr5.animated
+Position =  0, 0, -87.4
+
+[Include]
+Eurostarr6.animated
+Position =  0, 0, -104.1
+
+[Include]
+Eurostarr6.animated
+Position =  0, 0, -120.8
+
+[Include]
+Eurostarr8.animated
+Position =  0, 0, -139.2
+
+[Include]
+Eurostarlider2.animated
+Position =  0, 0, -159.2

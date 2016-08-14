@@ -1,0 +1,113 @@
+[object]
+States=vagon.csv
+
+[object]
+States=techo.csv
+Position=0,1.58,0
+
+[object]
+States=techo curvo.csv
+Position=0,1.38,11.52
+
+[object]
+States=techo curvo 2.csv
+Position=0,1.38,-11.52
+
+;Escaleras
+
+[Object]
+States=Escaleras.b3d
+Position=0,0,11.57
+[Object]
+States=Escaleras.b3d
+Position=0,0,-11.57
+
+;Asientos=======================================================================
+
+[include]
+asiento.b3d
+Position = -0.72,1.2,3.75
+[include]
+asiento.b3d
+Position = -0.72,1.2,1.39
+[include]
+asiento.b3d
+Position = -0.72,1.2,-0.71
+[include]
+asiento.b3d
+Position = -0.72,1.2,-2.83
+[include]
+asiento.b3d
+Position = -0.72,1.2,-5.02
+[include]
+asiento.b3d
+Position = -0.72,1.2,-7.15
+[include]
+asiento.b3d
+Position = -0.72,1.2,-9.28
+
+[include]
+asiento 2.b3d
+Position = -0.72,1.2,2
+[include]
+asiento 2.b3d
+Position = -0.72,1.2,-0.16
+[include]
+asiento 2.b3d
+Position = -0.72,1.2,-2.29
+[include]
+asiento 2.b3d
+Position = -0.72,1.2,-4.4
+[include]
+asiento 2.b3d
+Position = -0.72,1.2,-6.6
+[include]
+asiento 2.b3d
+Position = -0.72,1.2,-8.73
+[include]
+asiento 2.b3d
+Position = -0.72,1.2,-10.74
+
+[include]
+asiento 3.b3d
+Position = 0.72,1.2,3.75
+[include]
+asiento 3.b3d
+Position = 0.72,1.2,1.39
+[include]
+asiento 3.b3d
+Position = 0.72,1.2,-0.71
+[include]
+asiento 3.b3d
+Position = 0.72,1.2,-2.83
+[include]
+asiento 3.b3d
+Position = 0.72,1.2,-5.02
+[include]
+asiento 3.b3d
+Position = 0.72,1.2,-7.15
+[include]
+asiento 3.b3d
+Position = 0.72,1.2,-9.28
+
+[include]
+asiento 4.b3d
+Position = 1.36,1.2,2
+[include]
+asiento 4.b3d
+Position = 1.36,1.2,-0.16
+[include]
+asiento 4.b3d
+Position = 1.36,1.2,-2.29
+[include]
+asiento 4.b3d
+Position = 1.36,1.2,-4.4
+[include]
+asiento 4.b3d
+Position = 1.36,1.2,-6.6
+[include]
+asiento 4.b3d
+Position = 1.36,1.2,-8.73
+[include]
+asiento 4.b3d
+Position = 1.36,1.2,-10.74

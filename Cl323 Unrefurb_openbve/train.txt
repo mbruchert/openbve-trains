@@ -1,0 +1,13 @@
+Class 323 EMU
+
+Max speed: 90 mph (145 km/h)
+In service: 1992- 
+Manufacturer: Hunslet TPL
+Number built: 43
+Formation: 3 car
+Power output: 1.168 MW
+Voltage: 25 kV AC Overhead
+Braking system: Regenerative Air Brake
+
+trainsimcentral.co.uk
+railsimroutes.co.uk

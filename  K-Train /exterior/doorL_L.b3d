@@ -1,0 +1,562 @@
+﻿[MeshBuilder]
+Vertex -1.42,3.25,-0.875
+Vertex -1.55,1.87237,-0.875
+Vertex -1.558,0.8826,-0.875
+
+Vertex -1.42,3.25,0
+Vertex -1.55,1.87237,0
+Vertex -1.558,0.8826,0
+
+Face2 0,1,4,3
+Face2 1,2,5,4
+
+Load day\doors.bmp, night\doors.bmp
+
+Coordinates 0,1,0
+Coordinates 1,1,0.6265
+Coordinates 2,1,1
+Coordinates 3,0.5,0
+Coordinates 4,0.5,0.6265
+Coordinates 5,0.5,1
+
+Transparent 255,255,255
+;Color 0,0,255
+
+;End
+
+[MeshBuilder]
+Vertex  -1.415,3.25,-0.875,0,1,0
+Vertex  -1.545,1.87237,-0.875,0,1,0
+Vertex  -1.557,0.8826,-0.875,0,1,0
+
+Vertex  -1.415,3.25,0,0,1,0
+Vertex  -1.545,1.87237,0,0,1,0
+Vertex  -1.557,0.8826,0,0,1,0
+
+Face2  3,4,1,0
+Face2 4,5,2,1
+
+Load  others\doorin.bmp, others\doorin.bmp
+
+Coordinates  0,1,0
+Coordinates  1,1,0.6265
+Coordinates  2,1,1
+Coordinates  3,0.5,0
+Coordinates  4,0.5,0.6265
+Coordinates  5,0.5,1
+Transparent  255,255,255
+
+Translate 0.05,0,0
+
+;End
+
+[MeshBuilder]
+Vertex -1.42,3.25,0
+Vertex -1.55,1.87237,0
+Vertex -1.558,0.8826,0
+
+Vertex -1.365,3.25,0
+Vertex -1.495,1.87237,0
+Vertex -1.507,0.8826,0
+
+Face 0,1,4,3
+Face 1,2,5,4
+
+Color 0,0,0
+
+[MeshBuilder]
+Vertex -1.42,3.25,-0.875
+Vertex -1.55,1.87237,-0.875
+Vertex -1.558,0.8826,-0.875
+
+Vertex -1.365,3.25,-0.875
+Vertex -1.495,1.87237,-0.875
+Vertex -1.507,0.8826,-0.875
+
+Face 3,4,1,0
+Face 4,5,2,1
+
+Color 0,0,0
+
+
+
+
+
+[MeshBuilder]
+Vertex -1.42,3.25,-0.875
+Vertex -1.55,1.87237,-0.875
+Vertex -1.558,0.8826,-0.875
+
+Vertex -1.42,3.25,0
+Vertex -1.55,1.87237,0
+Vertex -1.558,0.8826,0
+
+Face2 0,1,4,3
+Face2 1,2,5,4
+
+Load day\doors.bmp, night\doors.bmp
+
+Coordinates 0,1,0
+Coordinates 1,1,0.6265
+Coordinates 2,1,1
+Coordinates 3,0.5,0
+Coordinates 4,0.5,0.6265
+Coordinates 5,0.5,1
+
+Transparent 255,255,255
+;Color 0,0,255
+
+Translate 0,0,4.5
+
+;End
+
+[MeshBuilder]
+Vertex  -1.415,3.25,-0.875,0,1,0
+Vertex  -1.545,1.87237,-0.875,0,1,0
+Vertex  -1.557,0.8826,-0.875,0,1,0
+
+Vertex  -1.415,3.25,0,0,1,0
+Vertex  -1.545,1.87237,0,0,1,0
+Vertex  -1.557,0.8826,0,0,1,0
+
+Face2  3,4,1,0
+Face2 4,5,2,1
+
+Load  others\doorin.bmp, others\doorin.bmp
+
+Coordinates  0,1,0
+Coordinates  1,1,0.6265
+Coordinates  2,1,1
+Coordinates  3,0.5,0
+Coordinates  4,0.5,0.6265
+Coordinates  5,0.5,1
+Transparent  255,255,255
+
+Translate 0.05,0,4.5
+
+;End
+
+[MeshBuilder]
+Vertex -1.42,3.25,0
+Vertex -1.55,1.87237,0
+Vertex -1.558,0.8826,0
+
+Vertex -1.365,3.25,0
+Vertex -1.495,1.87237,0
+Vertex -1.507,0.8826,0
+
+Face 0,1,4,3
+Face 1,2,5,4
+
+Color 0,0,0
+Translate 0,0,4.5
+
+[MeshBuilder]
+Vertex -1.42,3.25,-0.875
+Vertex -1.55,1.87237,-0.875
+Vertex -1.558,0.8826,-0.875
+
+Vertex -1.365,3.25,-0.875
+Vertex -1.495,1.87237,-0.875
+Vertex -1.507,0.8826,-0.875
+
+Face 3,4,1,0
+Face 4,5,2,1
+
+Color 0,0,0
+Translate 0,0,4.5
+
+[MeshBuilder]
+Vertex -1.42,3.25,-0.875
+Vertex -1.55,1.87237,-0.875
+Vertex -1.558,0.8826,-0.875
+
+Vertex -1.42,3.25,0
+Vertex -1.55,1.87237,0
+Vertex -1.558,0.8826,0
+
+Face2 0,1,4,3
+Face2 1,2,5,4
+
+Load day\doors.bmp, night\doors.bmp
+
+Coordinates 0,1,0
+Coordinates 1,1,0.6265
+Coordinates 2,1,1
+Coordinates 3,0.5,0
+Coordinates 4,0.5,0.6265
+Coordinates 5,0.5,1
+
+Transparent 255,255,255
+;Color 0,0,255
+
+Translate 0,0,9
+
+[MeshBuilder]
+Vertex  -1.415,3.25,-0.875,0,1,0
+Vertex  -1.545,1.87237,-0.875,0,1,0
+Vertex  -1.557,0.8826,-0.875,0,1,0
+
+Vertex  -1.415,3.25,0
+Vertex  -1.545,1.87237,0
+Vertex  -1.557,0.8826,0
+
+Face2  3,4,1,0
+Face2 4,5,2,1
+
+Load  others\doorin.bmp, others\doorin.bmp
+
+Coordinates  0,1,0
+Coordinates  1,1,0.6265
+Coordinates  2,1,1
+Coordinates  3,0.5,0
+Coordinates  4,0.5,0.6265
+Coordinates  5,0.5,1
+Transparent  255,255,255
+
+Translate 0.05,0,9
+
+;End
+
+[MeshBuilder]
+Vertex -1.42,3.25,0
+Vertex -1.55,1.87237,0
+Vertex -1.558,0.8826,0
+
+Vertex -1.365,3.25,0
+Vertex -1.495,1.87237,0
+Vertex -1.507,0.8826,0
+
+Face 0,1,4,3
+Face 1,2,5,4
+
+Color 0,0,0
+Translate 0,0,9
+
+[MeshBuilder]
+Vertex -1.42,3.25,-0.875
+Vertex -1.55,1.87237,-0.875
+Vertex -1.558,0.8826,-0.875
+
+Vertex -1.365,3.25,-0.875
+Vertex -1.495,1.87237,-0.875
+Vertex -1.507,0.8826,-0.875
+
+Face 3,4,1,0
+Face 4,5,2,1
+
+Color 0,0,0
+Translate 0,0,9
+
+[MeshBuilder]
+Vertex -1.42,3.25,-0.875
+Vertex -1.55,1.87237,-0.875
+Vertex -1.558,0.8826,-0.875
+
+Vertex -1.42,3.25,0
+Vertex -1.55,1.87237,0
+Vertex -1.558,0.8826,0
+
+Face2 0,1,4,3
+Face2 1,2,5,4
+
+Load day\doors.bmp, night\doors.bmp
+
+Coordinates 0,1,0
+Coordinates 1,1,0.6265
+Coordinates 2,1,1
+Coordinates 3,0.5,0
+Coordinates 4,0.5,0.6265
+Coordinates 5,0.5,1
+
+Transparent 255,255,255
+;Color 0,0,255
+
+Translate 0,0,-4.5
+
+;End
+
+[MeshBuilder]
+Vertex  -1.415,3.25,-0.875,0,1,0
+Vertex  -1.545,1.87237,-0.875,0,1,0
+Vertex  -1.557,0.8826,-0.875,0,1,0
+
+Vertex  -1.415,3.25,0,0,1,0
+Vertex  -1.545,1.87237,0,0,1,0
+Vertex  -1.557,0.8826,0,0,1,0
+
+Face2  3,4,1,0
+Face2 4,5,2,1
+
+Load  others\doorin.bmp, others\doorin.bmp
+
+Coordinates  0,1,0
+Coordinates  1,1,0.6265
+Coordinates  2,1,1
+Coordinates  3,0.5,0
+Coordinates  4,0.5,0.6265
+Coordinates  5,0.5,1
+Transparent  255,255,255
+
+Translate 0.05,0,-4.5
+
+;End
+
+[MeshBuilder]
+Vertex -1.42,3.25,0
+Vertex -1.55,1.87237,0
+Vertex -1.558,0.8826,0
+
+Vertex -1.365,3.25,0
+Vertex -1.495,1.87237,0
+Vertex -1.507,0.8826,0
+
+Face 0,1,4,3
+Face 1,2,5,4
+
+Color 0,0,0
+Translate 0,0,-4.5
+
+[MeshBuilder]
+Vertex -1.42,3.25,-0.875
+Vertex -1.55,1.87237,-0.875
+Vertex -1.558,0.8826,-0.875
+
+Vertex -1.365,3.25,-0.875
+Vertex -1.495,1.87237,-0.875
+Vertex -1.507,0.8826,-0.875
+
+Face 3,4,1,0
+Face 4,5,2,1
+
+Color 0,0,0
+Translate 0,0,-4.5
+
+[MeshBuilder]
+Vertex -1.42,3.25,-0.875
+Vertex -1.55,1.87237,-0.875
+Vertex -1.558,0.8826,-0.875
+
+Vertex -1.42,3.25,0
+Vertex -1.55,1.87237,0
+Vertex -1.558,0.8826,0
+
+Face2 0,1,4,3
+Face2 1,2,5,4
+
+Load day\doors.bmp, night\doors.bmp
+
+Coordinates 0,1,0
+Coordinates 1,1,0.6265
+Coordinates 2,1,1
+Coordinates 3,0.5,0
+Coordinates 4,0.5,0.6265
+Coordinates 5,0.5,1
+
+Transparent 255,255,255
+;Color 0,0,255
+
+Translate 0,0,-9
+
+;End
+
+[MeshBuilder]
+Vertex  -1.415,3.25,-0.875,0,1,0
+Vertex  -1.545,1.87237,-0.875,0,1,0
+Vertex  -1.557,0.8826,-0.875,0,1,0
+
+Vertex  -1.415,3.25,0,0,1,0
+Vertex  -1.545,1.87237,0,0,1,0
+Vertex  -1.557,0.8826,0,0,1,0
+
+Face2  3,4,1,0
+Face2 4,5,2,1
+
+Load  others\doorin.bmp, others\doorin.bmp
+
+Coordinates  0,1,0
+Coordinates  1,1,0.6265
+Coordinates  2,1,1
+Coordinates  3,0.5,0
+Coordinates  4,0.5,0.6265
+Coordinates  5,0.5,1
+Transparent  255,255,255
+
+Translate 0.05,0,-9
+
+;End
+
+[MeshBuilder]
+Vertex -1.42,3.25,0
+Vertex -1.55,1.87237,0
+Vertex -1.558,0.8826,0
+
+Vertex -1.365,3.25,0
+Vertex -1.495,1.87237,0
+Vertex -1.507,0.8826,0
+
+Face 0,1,4,3
+Face 1,2,5,4
+
+Color 0,0,0
+Translate 0,0,-9
+
+[MeshBuilder]
+Vertex -1.42,3.25,-0.875
+Vertex -1.55,1.87237,-0.875
+Vertex -1.558,0.8826,-0.875
+
+Vertex -1.365,3.25,-0.875
+Vertex -1.495,1.87237,-0.875
+Vertex -1.507,0.8826,-0.875
+
+Face 3,4,1,0
+Face 4,5,2,1
+
+Color 0,0,0
+Translate 0,0,-9
+
+[MeshBuilder]
+Vertex -1.42,3.25,-0.875
+Vertex -1.55,1.87237,-0.875
+Vertex -1.558,0.8826,-0.875
+
+Vertex -1.42,3.25,0
+Vertex -1.55,1.87237,0
+Vertex -1.558,0.8826,0
+
+Face2 0,1,4,3
+Face2 1,2,5,4
+
+Load day\doorswindow.png, day\doorswindow2.png
+
+Coordinates 0,1,0
+Coordinates 1,1,0.6265
+Coordinates 2,1,1
+Coordinates 3,0.5,0
+Coordinates 4,0.5,0.6265
+Coordinates 5,0.5,1
+Color 100,150,100,90
+Transparent 255,255,255
+;Color 0,0,255
+translate 0.05,0,0,
+
+;End
+
+[MeshBuilder]
+Vertex -1.42,3.25,-0.875
+Vertex -1.55,1.87237,-0.875
+Vertex -1.558,0.8826,-0.875
+
+Vertex -1.42,3.25,0
+Vertex -1.55,1.87237,0
+Vertex -1.558,0.8826,0
+
+Face2 0,1,4,3
+Face2 1,2,5,4
+
+Load day\doorswindow.png, day\doorswindow2.png
+
+Coordinates 0,1,0
+Coordinates 1,1,0.6265
+Coordinates 2,1,1
+Coordinates 3,0.5,0
+Coordinates 4,0.5,0.6265
+Coordinates 5,0.5,1
+
+Transparent 255,255,255
+;Color 0,0,255
+Color 100,150,100,90
+Translate 0,0,4.5
+translate 0.05,0,0,
+
+;End
+
+[MeshBuilder]
+Vertex -1.42,3.25,-0.875
+Vertex -1.55,1.87237,-0.875
+Vertex -1.558,0.8826,-0.875
+
+Vertex -1.42,3.25,0
+Vertex -1.55,1.87237,0
+Vertex -1.558,0.8826,0
+
+Face2 0,1,4,3
+Face2 1,2,5,4
+
+Load day\doorswindow.png, day\doorswindow2.png
+
+Coordinates 0,1,0
+Coordinates 1,1,0.6265
+Coordinates 2,1,1
+Coordinates 3,0.5,0
+Coordinates 4,0.5,0.6265
+Coordinates 5,0.5,1
+
+Transparent 255,255,255
+;Color 0,0,255
+Color 100,150,100,90
+Translate 0,0,9
+translate 0.05,0,0,
+
+[MeshBuilder]
+Vertex -1.42,3.25,-0.875
+Vertex -1.55,1.87237,-0.875
+Vertex -1.558,0.8826,-0.875
+
+Vertex -1.42,3.25,0
+Vertex -1.55,1.87237,0
+Vertex -1.558,0.8826,0
+
+Face2 0,1,4,3
+Face2 1,2,5,4
+
+Load day\doorswindow.png, day\doorswindow2.png
+
+Coordinates 0,1,0
+Coordinates 1,1,0.6265
+Coordinates 2,1,1
+Coordinates 3,0.5,0
+Coordinates 4,0.5,0.6265
+Coordinates 5,0.5,1
+
+Transparent 255,255,255
+;Color 0,0,255
+Color 100,150,100,90
+Translate 0,0,-4.5
+translate 0.05,0,0,
+
+;End
+
+[MeshBuilder]
+Vertex -1.42,3.25,-0.875
+Vertex -1.55,1.87237,-0.875
+Vertex -1.558,0.8826,-0.875
+
+Vertex -1.42,3.25,0
+Vertex -1.55,1.87237,0
+Vertex -1.558,0.8826,0
+
+Face2 0,1,4,3
+Face2 1,2,5,4
+
+Load day\doorswindow.png, day\doorswindow2.png
+
+Coordinates 0,1,0
+Coordinates 1,1,0.6265
+Coordinates 2,1,1
+Coordinates 3,0.5,0
+Coordinates 4,0.5,0.6265
+Coordinates 5,0.5,1
+
+Transparent 255,255,255
+;Color 0,0,255
+Color 100,150,100,90
+Translate 0,0,-9
+translate 0.05,0,0,
+
+;End
+
+
+
+ScaleAll 1.1,1.1,1.1

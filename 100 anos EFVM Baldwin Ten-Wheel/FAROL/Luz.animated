@@ -1,0 +1,4 @@
+
+[OBJECT]
+States=Lampada.b3d
+StateFunction=If[Cars<1|ReverserNotch>0,0,1]

@@ -1,0 +1,59 @@
+[object]
+States=Lx 2.csv
+
+[object]
+States=techo.csv
+Position=0,-1.25,0
+
+[object]
+States=techo curvo.csv
+Position=0,-1.06,11.52
+[object]
+States=techo curvo 2.csv
+Position=0,-1.06,-11.52
+
+;Escaleras
+
+[Object]
+States=Escaleras.b3d
+Position=0,0,11.57
+[Object]
+States=Escaleras.b3d
+Position=0,0,-11.57
+
+[INCLUDE]
+Enganche trasero.animated
+Position=0,0,-13
+
+;Mesas
+
+[object]
+States=mesa.b3d
+Position=0.89,1.5,9.91
+[object]
+States=mesa.b3d
+Position=0.89,1.5,7.5
+[object]
+States=mesa.b3d
+Position=0.89,1.5,5.9
+[object]
+States=mesa.b3d
+Position=0.89,1.5,3.5
+[object]
+States=mesa.b3d
+Position=0.89,1.5, 1.97
+[object]
+States=mesa.b3d
+Position=0.89,1.5,-0.45
+[object]
+States=mesa.b3d
+Position=0.89,1.5,-2.07
+[object]
+States=mesa.b3d
+Position=0.89,1.5,-4.47
+[object]
+States=mesa.b3d
+Position=0.89,1.5,-6.06
+[object]
+States=mesa.b3d
+Position=0.89,1.5,-8.5

@@ -1,0 +1,10 @@
+﻿;Northern Line
+;www.Trainsimcentral.co.uk
+;This Object (C) Steve Green
+
+CreateMeshBuilder,
+AddVertex,0,0,0,
+AddVertex,0,0,0,
+AddVertex,0,0,0,
+AddVertex,0,0,0,
+AddFace,3,2,1,0,

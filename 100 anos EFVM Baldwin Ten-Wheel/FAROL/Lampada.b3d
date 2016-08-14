@@ -1,0 +1,20 @@
+﻿[MESHBUILDER]                           ;Lamp_Face
+Vertex +0.666,+0.666,+0.000
+Vertex -0.666,+0.666,+0.000
+Vertex -0.666,-0.666,+0.000
+Vertex +0.666,-0.666,+0.000
+Face 0,1,2,3
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+Load Lamp.gif,Lamp.gif
+Transparent 000,255,000
+
+[MESHBUILDER]                           ;Lamp_Beam
+Cylinder 20,+0.136,+87.00,+600.0
+EmissiveColor 255,255,107
+Color 255,255,107,035
+Rotate 1,0,0,-090.0
+Translate +00.00,+00.00,+300.0
+Rotate 1,0,0,+003.0

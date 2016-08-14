@@ -1,0 +1,50 @@
+[Object]
+States = Traxx.csv
+
+[object]
+States=topes 1.csv
+Position=0,0,9.9
+[object]
+States=topes 2.csv
+Position=0,0,-9.9
+
+[INCLUDE]
+Enganche delantero.animated
+Position=0,0,10.4
+[INCLUDE]
+Enganche trasero.animated
+Position=0,0,-10.4
+
+[include]
+pantografo delantero.animated
+Position=0,0.25,-13.5
+
+[include]
+pantografo delantero 2.animated
+Position=0,0.25,-4
+
+[include]
+pantografo trasero.animated
+Position=0,0.25,13.5
+
+[include]
+pantografo trasero 2.animated
+Position=0,0.25,4
+
+[object]
+States=techo.csv
+Position=0,0,9.7
+
+[INCLUDE]
+Lampara superior.animated
+Position = 0, 2.47, 9.9
+[INCLUDE]
+Lampara.animated
+Position = 1, 1.61, 9.95
+[INCLUDE]
+Lampara.animated
+Position = -1, 1.61, 9.95
+
+[INCLUDE]
+Corneta.animated
+Position=0,4,8.15

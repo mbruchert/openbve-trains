@@ -1,0 +1,910 @@
+[MESHBUILDER]                      ;Botm_Fram
+Cube 0.05,0.20,4.75
+Color 147,140,134
+Translate +0.380,+0.700,-1.100
+[MESHBUILDER]
+Cube 0.05,0.20,4.75
+Translate -0.380,+0.700,-1.100
+Color 147,140,134
+[MESHBUILDER]
+Cube +0.400,+0.380,+3.000
+Color 41,41,49
+Translate +0.000,+1.200,+0.000
+[MESHBUILDER]
+Cube 0.40,0.20,3
+Translate 0,0.80,-2.80
+Color 041,041,049
+
+[MESHBUILDER]                      ;EndA_Beam
+Cube 0.05,0.20,.85
+Rotate 0,1,0,90
+Translate 0,0.70,3.70
+Color 41,41,49
+
+[MESHBUILDER]                      ;EndB_Beam
+Cube 0.05,0.20,.85
+Rotate 0,1,0,90
+Translate 0,0.70,-5.90
+Color 41,41,49
+
+[MESHBUILDER]                      ;EndA_Deck
+Cube +0.230,+0.020,+0.525
+Translate +0.610,+0.885,+3.125
+Color 147,140,134
+[MESHBUILDER]                 
+Cube +0.230,+0.020,+0.525
+Translate -0.610,+0.885,+3.125
+Color 147,140,134
+
+[MESHBUILDER]                      ;EndB_Deck
+Vertex -1.19,1.037,0.20
+Vertex 1.19,1.037,0.20
+Vertex 1.19,1.037,-2.35
+Vertex -1.19,1.037,-2.35
+Face2 0,1,2,3
+Translate 0,0,-3.522
+Color 100,95,90
+
+[MESHBUILDER]                      ;EndA_Boil
+Cylinder 15,.02,0.60,0.30
+Rotate 1,0,0,90
+Translate 0,1.378,3.48
+Translate 0,0.63,0
+Color 147,140,134
+
+[MESHBUILDER]                      ;EndA_Grab
+Cylinder 8,0.015,0.015,0.060
+Translate 0.1,0,0
+Rotate 0,0,1,0
+Translate 0.000,2.008,3.680
+Color 100,95,90
+[MESHBUILDER]
+Cylinder 8,0.015,0.015,0.060
+Color 100,95,90
+Translate 0.1,0,0
+Rotate 0,0,1,30
+Translate 0,2.008,3.68
+[MESHBUILDER]
+Cylinder 8,0.015,0.015,0.060
+Color 100,95,90
+Translate 0.1,0,0
+Rotate 0,0,1,60
+Translate 0,2.008,3.68
+[MESHBUILDER]
+Cylinder 8,0.015,0.015,0.060
+Color 100,95,90
+Translate 0.1,0,0
+Rotate 0,0,1,90
+Translate 0,2.008,3.68
+[MESHBUILDER]
+Cylinder 8,0.015,0.015,0.060
+Color 100,95,90
+Translate 0.1,0,0
+Rotate 0,0,1,120
+Translate 0,2.008,3.68
+[MESHBUILDER]
+Cylinder 8,0.015,0.015,0.060
+Color 100,95,90
+Translate 0.1,0,0
+Rotate 0,0,1,150
+Translate 0,2.008,3.68
+[MESHBUILDER]
+Cylinder 8,0.015,0.015,0.060
+Color 100,95,90
+Translate 0.1,0,0
+Rotate 0,0,1,180
+Translate 0,2.008,3.68
+[MESHBUILDER]
+Cylinder 8,0.015,0.015,0.060
+Color 100,95,90
+Translate 0.1,0,0
+Rotate 0,0,1,210
+Translate 0,2.008,3.68
+[MESHBUILDER]
+Cylinder 8,0.015,0.015,0.060
+Color 100,95,90
+Translate 0.1,0,0
+Rotate 0,0,1,240
+Translate 0,2.008,3.68
+[MESHBUILDER]
+Cylinder 8,0.015,0.015,0.060
+Color 100,95,90
+Translate 0.1,0,0
+Rotate 0,0,1,270
+Translate 0,2.008,3.68
+[MESHBUILDER]
+Cylinder 8,0.015,0.015,0.060
+Color 100,95,90
+Translate 0.1,0,0
+Rotate 0,0,1,300
+Translate 0,2.008,3.68
+[MESHBUILDER]
+Cylinder 8,0.015,0.015,0.060
+Color 100,95,90
+Translate 0.1,0,0
+Rotate 0,0,1,330
+Translate 0,2.008,3.68
+[MESHBUILDER]
+Cylinder 8,0.01,0.015,0.10
+Translate 0,0.05,0
+Rotate 0,0,1,-30
+Translate 0,2.008,3.68
+Color 100,95,90
+[MESHBUILDER]
+Cylinder 8,0.01,0.015,0.10
+Color 100,95,90
+Translate 0,0.05,0
+Rotate 0,0,1,90
+Translate 0,2.008,3.68
+[MESHBUILDER]
+Cylinder 8,0.01,0.015,0.10
+Color 100,95,90
+Translate 0,0.05,0
+Rotate 0,0,1,210
+Translate 0,2.008,3.68
+[MESHBUILDER]
+Cylinder 8,0.01,0.01,0.20
+Color 100,95,90
+Rotate 1,0,0,90
+Translate 0,2.008,3.67
+[MESHBUILDER]
+Cylinder 8,0.01,0.015,0.15
+Color 100,95,90
+Rotate 0,0,1,90
+Translate 0.074,2.008,3.76
+
+[MESHBUILDER]                      ;EndA_Lits
+Cylinder 10,0.15,0.15,0.250
+Rotate 1,0,0,90
+Translate -0.70,1.08,3.60
+Color 000,000,000
+[MESHBUILDER]
+Vertex 0.23,0.23,0
+Vertex -0.23,0.23,0
+Vertex -0.23,-0.23,0
+Vertex 0.23,-0.23,0
+Face 0,1,2,3
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+Translate -0.72,1.09,3.73
+Load Ends_Lits.gif
+Transparent 000,255,000
+[MESHBUILDER]
+Cylinder 10,0.04,0.06,0.50
+Translate -0.700,+1.090,+3.600
+Color 000,000,000
+
+[MESHBUILDER]
+Cylinder 10,0.15,0.15,0.250
+Color 0,0,0
+Rotate 1,0,0,90
+Translate 0.70,1.08,3.60
+[MESHBUILDER]
+Vertex 0.23,0.23,0
+Vertex -0.23,0.23,0
+Vertex -0.23,-0.23,0
+Vertex 0.23,-0.23,0
+Face 0,1,2,3
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+Translate 0.68,1.09,3.73
+Load Ends_Lits.gif
+Transparent 000,255,000
+[MESHBUILDER]
+Cylinder 10,0.04,0.06,0.50
+Translate 0.70,1.09,3.60
+Color 000,000,000
+
+[MESHBUILDER]                      ;EndA_Cabs
+Vertex -1.22,3.27,-1.08
+Vertex -1.22,3.27,-1.08
+Vertex -1.15,3.40,-1.08
+Vertex -1.15,3.27,-1.08
+Vertex -1.05,3.50,-1.08
+Vertex -1.05,3.27,-1.08
+Vertex -0.60,3.57,-1.08
+Vertex -0.60,3.27,-1.08
+Vertex 0.00,3.60,-1.08
+Vertex 0.00,3.27,-1.08
+Vertex 0.60,3.57,-1.08
+Vertex 0.60,3.27,-1.08
+Vertex 1.05,3.50,-1.08
+Vertex 1.05,3.27,-1.08
+Vertex 1.15,3.40,-1.08
+Vertex 1.15,3.27,-1.08
+Vertex 1.22,3.27,-1.08
+Vertex 1.22,3.27,-1.08
+Face2 2,3,1,0
+Face2 4,5,3,2
+Face2 6,7,5,4
+Face2 8,9,7,6
+Face2 10,11,9,8
+Face2 12,13,11,10
+Face2 14,15,13,12
+Face2 16,17,15,14
+Rotate 0,1,0,180
+Translate 0,-0.12,-4.47
+Color 69,69,69
+[MESHBUILDER]
+Vertex -1.19,2.35,-3.38
+Vertex -1.19,3.15,-3.38
+Vertex 1.19,3.15,-3.38
+Vertex 1.19,2.35,-3.38
+Face2 0,1,2,3
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+Load EndA_Cabs.gif
+Transparent 000,255,000
+[MESHBUILDER]
+Vertex -1.19,2.35,-3.38
+Vertex -1.19,3.15,-3.38
+Vertex 1.19,3.15,-3.38
+Vertex 1.19,2.35,-3.38
+Face2 0,1,2,3
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+Translate 0,0,-0.08
+Load EndA_Cabs.gif
+Transparent 000,255,000
+[MESHBUILDER]
+Vertex -1.10,2.35,-3.42
+Vertex -1.10,3.15,-3.42
+Vertex 1.10,3.15,-3.42
+Vertex 1.10,2.35,-3.42
+Face2 0,1,2,3
+Color 120,50,50,100
+[MESHBUILDER]
+Vertex -1.19,1.037,-1.08
+Vertex -1.19,2.359,-1.08
+Vertex 1.19,2.359,-1.08
+Vertex 1.19,1.037,-1.08
+Face2 0,1,2,3
+Rotate 0,1,0,180
+Translate 0,0,-4.47
+Color 100,95,90
+[MESHBUILDER]
+Vertex -1.19,3.15,-1.08
+Vertex -1.19,1.037,-1.08
+Vertex -0.50,3.15,-1.08
+Vertex -0.50,1.037,-1.08
+Vertex 0.50,3.15,-1.08
+Vertex 0.50,1.037,-1.08
+Vertex 1.19,3.15,-1.08
+Vertex 1.19,1.037,-1.08
+Face2 0,2,3,1
+Face2 2,4,5,3
+Face2 4,6,7,5
+Translate 0,0,-4.47
+Color 65,65,65
+
+[MESHBUILDER]                      ;EndB_Cabs
+Vertex -1.22,3.27,-1.08
+Vertex -1.22,3.27,-1.08
+Vertex -1.15,3.40,-1.08
+Vertex -1.15,3.27,-1.08
+Vertex -1.05,3.50,-1.08
+Vertex -1.05,3.27,-1.08
+Vertex -0.60,3.57,-1.08
+Vertex -0.60,3.27,-1.08
+Vertex 0.00,3.60,-1.08
+Vertex 0.00,3.27,-1.08
+Vertex 0.60,3.57,-1.08
+Vertex 0.60,3.27,-1.08
+Vertex 1.05,3.50,-1.08
+Vertex 1.05,3.27,-1.08
+Vertex 1.15,3.40,-1.08
+Vertex 1.15,3.27,-1.08
+Vertex 1.22,3.27,-1.08
+Vertex 1.22,3.27,-1.08
+Face2 2,3,1,0
+Face2 4,5,3,2
+Face2 6,7,5,4
+Face2 8,9,7,6
+Face2 10,11,9,8
+Face2 12,13,11,10
+Face2 14,15,13,12
+Face2 16,17,15,14
+Translate 0,-0.12,-4.47
+Color 69,69,69
+
+[MESHBUILDER]                      ;EndB_Bunk
+Vertex -1.22,1.05,0
+Vertex -1.22,1.90,0
+Vertex -1.22,1.90,-0.78
+Vertex -1.22,1.05,-0.85
+Vertex -1.22,0,-0.60
+Vertex -1.22,0,0
+Vertex 1.22,1.05,0
+Vertex 1.22,1.90,0
+Vertex 1.22,1.90,-0.78
+Vertex 1.22,1.05,-0.85
+Vertex 1.22,0,-0.60
+Vertex 1.22,0,0
+Face2 0,1,2,3
+Face2 0,3,4,5
+Face2 2,8,9,3
+Face2 3,9,10,4
+Face2 8,7,6,9
+Face2 6,11,10,9
+Translate 0,1.037,-5.30
+Color 100,95,90
+[MESHBUILDER]
+Vertex -1.22,0,0
+Vertex -1.22,0,-0.60
+Vertex 1.22,0,-0.60
+Vertex 1.22,0,0
+Vertex -1.22,-.40,0
+Vertex -1.22,-.40,-0.60
+Vertex 1.22,-.40,-0.60
+Vertex 1.22,-.40,0
+Face 0,1,5,4
+Face 1,2,6,5
+Face 2,3,7,6
+Translate 0,1.037,-5.30
+Color 147,140,134
+
+[MESHBUILDER]                      ;Side_Boil
+Cylinder 15,.696,0.696,7.19
+Rotate 1,0,0,90
+Translate 0,1.378,-.25
+Translate 0,0.63,0
+Color 100,95,90
+
+[MESHBUILDER]                      ;Side_Pipe
+Cylinder 8,0.03,0.03,5
+Rotate 1,0,0,90
+Translate +0.440,+2.630,-0.872
+Color 064,000,000
+[MESHBUILDER]
+Cylinder 8,.03,.03,.6
+Rotate 0,0,1,70
+Translate +0.150,+2.740,+1.600
+Color 064,000,000
+[MESHBUILDER]
+Cylinder 8,.03,.03,4.72
+Rotate 1,0,0,90
+Translate +0.530,+2.430,-1.022
+Color 064,000,000
+[MESHBUILDER]
+Cylinder 8,.03,.03,1.5
+Color 64,0,0
+Rotate 1,0,0,97
+Rotate 0,1,0,5
+Translate 0.59,1.71,2.078
+Translate 0,0.63,0
+[MESHBUILDER]
+Cylinder 8,.03,.03,4.72
+Color 64,0,0
+Rotate 1,0,0,90
+Translate -0.53,1.8,-1.022
+Translate 0,0.63,0
+[MESHBUILDER]
+Cylinder 8,.03,.03,1.5
+Color 64,0,0
+Rotate 1,0,0,97
+Rotate 0,1,0,-5
+Translate -0.59,1.71,2.078
+Translate 0,0.63,0
+
+[MESHBUILDER]                      ;SidL_Tank
+Cube +0.250,+0.661,+0.816
+Translate -0.911,+1.698,-2.706
+Color 069,069,069
+[MESHBUILDER]
+Cube 0.25,.506,1.390
+Translate -0.911,+1.853,-0.500
+Color 069,069,069
+
+[MESHBUILDER]
+Vertex -0.50,0.50,-0.756
+Vertex -0.35,0.350,0.756
+Vertex -0.35,-0.50,0.756
+Vertex -0.50,-0.50,-0.756
+Face 3,2,1,0
+Translate -0.661,+1.860,+1.646
+Color 069,069,069
+[MESHBUILDER]
+Vertex -0.50,.50,-0.756
+Vertex 0,.50,-0.756
+Vertex 0,.35,0.756
+Vertex -0.35,.35,0.756
+Face 3,2,1,0
+Translate -0.661,1.23,1.646
+Translate 0,0.63,0
+Color 069,069,069
+[MESHBUILDER]
+Vertex -0.35,.35,0.756
+Vertex 0,.35,0.756
+Vertex 0,-0.50,0.756
+Vertex -0.35,-0.50,0.756
+Face 3,2,1,0
+Translate -0.661,1.23,1.646
+Translate 0,0.63,0
+Color 069,069,069
+
+[MESHBUILDER]
+Vertex -1.03,2.21,2.402
+Vertex -1.18,2.36,0.89
+Vertex -1.18,2.30,0.89
+Vertex -1.03,2.16,2.342
+Vertex -1.20,2.36,-3.402
+Vertex -1.20,2.30,-3.342
+Vertex -1.20,2.36,-3.402
+Vertex -1.20,2.30,-3.342
+Vertex -1.20,1.037,-3.402
+Vertex -1.20,1.097,-3.342
+Vertex -1.20,1.037,-3.402
+Vertex -1.20,1.097,-3.342
+Vertex -1.18,1.037,-1.89
+Vertex -1.18,1.097,-1.95
+Vertex -1.18,1.037,-1.89
+Vertex -1.18,1.097,-1.95
+Vertex -1.18,1.347,-1.89
+Vertex -1.18,1.407,-1.95
+Vertex -1.18,1.347,-1.89
+Vertex -1.18,1.407,-1.95
+Vertex -1.18,1.347,0.89
+Vertex -1.18,1.407,0.89
+Vertex -1.03,1.347,2.402
+Vertex -1.03,1.407,2.342
+Vertex -1.03,1.347,2.402
+Vertex -1.03,1.407,2.342
+Vertex -1.03,2.21,2.402
+Vertex -1.03,2.16,2.342
+Face 0,1,2,3
+Face 1,4,5,2
+Face 4,6,7,5
+Face 6,8,9,7
+Face 8,10,11,9
+Face 10,12,13,11
+Face 12,14,15,13
+Face 14,16,17,15
+Face 16,18,19,17
+Face 18,20,21,19
+Face 20,22,23,21
+Face 22,24,25,23
+Face 24,26,27,25
+Coordinates 0,0,0.1
+Coordinates 1,3.02,0.1
+Coordinates 2,3.02,0.9
+Coordinates 3,0.06,0.9
+Coordinates 4,11.82,0.1
+Coordinates 5,11.76,0.9
+Coordinates 6,11.82,0.1
+Coordinates 7,11.88,0.9
+Coordinates 8,14.36.6,0.1
+Coordinates 9,14.30,0.9
+Coordinates 10,14.36,0.1
+Coordinates 11,14.42,0.9
+Coordinates 12,17.60,0.1
+Coordinates 13,17.54,0.9
+Coordinates 14,17.60,0.1
+Coordinates 15,17.66,0.9
+Coordinates 16,18.22,0.1
+Coordinates 17,18.16,0.9
+Coordinates 18,18.28,.1
+Coordinates 19,18.16,0.9
+Coordinates 20,23.8,.1
+Coordinates 21,23.8,0.9
+Coordinates 22,26.82,.1
+Coordinates 23,26.76,0.9
+Coordinates 24,26.82,.1
+Coordinates 25,26.88,0.9
+Coordinates 26,28.74,.1
+Coordinates 27,28.68,0.9
+Load Side_Rvet.gif
+
+[MESHBUILDER]                      ;SidR_Tank
+Cube +0.250,+0.661,+0.816
+Translate 0.911,1.068,-2.706
+Translate 0,0.63,0
+Color 069,069,069
+[MESHBUILDER]
+Cube 0.25,.506,1.390
+Color 69,69,69
+Translate 0.911,1.223,-0.5
+Translate 0,0.63,0
+[MESHBUILDER]
+Vertex 0.50,0.50,-0.756
+Vertex 0.35,0.350,0.756
+Vertex 0.35,-0.50,0.756
+Vertex 0.50,-0.50,-0.756
+Face 0,1,2,3
+Color 69,69,69
+Translate 0.661,1.86,1.646
+[MESHBUILDER]
+Vertex 0.50,.50,-0.756
+Vertex 0,.50,-0.756
+Vertex 0,.35,0.756
+Vertex 0.35,.35,0.756
+Face 0,1,2,3
+Color 69,69,69
+Translate 0.661,1.86,1.646
+[MESHBUILDER]
+Vertex 0.35,.35,0.756
+Vertex 0,.35,0.756
+Vertex 0,-0.50,0.756
+Vertex 0.35,-0.50,0.756
+Face 0,1,2,3
+Translate 0.661,1.860,1.646
+Color 100,95,80
+[MESHBUILDER]
+Vertex 1.03,2.21,2.402
+Vertex 1.18,2.36,0.89
+Vertex 1.18,2.30,0.89
+Vertex 1.03,2.16,2.342
+Vertex 1.20,2.36,-3.402
+Vertex 1.20,2.30,-3.342
+Vertex 1.20,2.36,-3.402
+Vertex 1.20,2.30,-3.342
+Vertex 1.20,1.037,-3.402
+Vertex 1.20,1.097,-3.342
+Vertex 1.20,1.037,-3.402
+Vertex 1.20,1.097,-3.342
+Vertex 1.18,1.037,-1.89
+Vertex 1.18,1.097,-1.95
+Vertex 1.18,1.037,-1.89
+Vertex 1.18,1.097,-1.95
+Vertex 1.18,1.347,-1.89
+Vertex 1.18,1.407,-1.95
+Vertex 1.18,1.347,-1.89
+Vertex 1.18,1.407,-1.95
+Vertex 1.18,1.347,0.89
+Vertex 1.18,1.407,0.89
+Vertex 1.03,1.347,2.402
+Vertex 1.03,1.407,2.342
+Vertex 1.03,1.347,2.402
+Vertex 1.03,1.407,2.342
+Vertex 1.03,2.21,2.402
+Vertex 1.03,2.16,2.342
+Face2 0,1,2,3
+Face2 1,4,5,2
+Face2 4,6,7,5
+Face2 6,8,9,7
+Face2 8,10,11,9
+Face2 10,12,13,11
+Face2 12,14,15,13
+Face2 14,16,17,15
+Face2 16,18,19,17
+Face2 18,20,21,19
+Face2 20,22,23,21
+Face2 22,24,25,23
+Face2 24,26,27,25
+Coordinates 0,0,0.1
+Coordinates 1,3.02,0.1
+Coordinates 2,3.02,0.9
+Coordinates 3,0.06,0.9
+Coordinates 4,11.82,0.1
+Coordinates 5,11.76,0.9
+Coordinates 6,11.82,0.1
+Coordinates 7,11.88,0.9
+Coordinates 8,14.36.6,0.1
+Coordinates 9,14.30,0.9
+Coordinates 10,14.36,0.1
+Coordinates 11,14.42,0.9
+Coordinates 12,17.60,0.1
+Coordinates 13,17.54,0.9
+Coordinates 14,17.60,0.1
+Coordinates 15,17.66,0.9
+Coordinates 16,18.22,0.1
+Coordinates 17,18.16,0.9
+Coordinates 18,18.28,.1
+Coordinates 19,18.16,0.9
+Coordinates 20,23.8,.1
+Coordinates 21,23.8,0.9
+Coordinates 22,26.82,.1
+Coordinates 23,26.76,0.9
+Coordinates 24,26.82,.1
+Coordinates 25,26.88,0.9
+Coordinates 26,28.74,.1
+Coordinates 27,28.68,0.9
+Load Side_Rvet.gif
+
+[MESHBUILDER]                      ;SidR_Drum
+Cylinder 10,.209,.209,1.10
+Translate 0.87,1.715,2.61
+Color 060,060,060
+[MESHBUILDER]
+Cylinder 10,.18,.22,0.02
+Color 90,90,90
+Translate 0.87,1.28,2.61
+[MESHBUILDER]
+Cylinder 10,.18,.22,0.02
+Color 90,90,90
+Translate 0.87,1.43,2.61
+[MESHBUILDER]
+Cylinder 10,.18,.22,0.02
+Color 90,90,90
+Translate 0.87,1.58,2.61
+[MESHBUILDER]
+Cylinder 10,.18,.22,0.02
+Color 90,90,90
+Translate 0.87,1.73,2.61
+[MESHBUILDER]
+Cylinder 10,.18,.22,0.02
+Color 90,90,90
+Translate 0.87,1.88,2.61
+[MESHBUILDER]
+Cylinder 10,.18,.22,0.02
+Color 90,90,90
+Translate 0.87,2.03,2.61
+[MESHBUILDER]
+Cylinder 10,.18,.22,0.02
+Color 90,90,90
+Translate 0.87,2.18,2.61
+
+[MESHBUILDER]                      ;SidL_Drum
+Cylinder 10,.209,.209,1.10
+Color 60,60,60
+Translate -0.87,1.715,2.61
+[MESHBUILDER]
+Cylinder 10,.18,.22,0.02
+Color 90,90,90
+Translate -0.87,1.28,2.61
+[MESHBUILDER]
+Cylinder 10,.18,.22,0.02
+Color 90,90,90
+Translate -0.87,1.43,2.61
+[MESHBUILDER]
+Cylinder 10,.18,.22,0.02
+Color 90,90,90
+Translate -0.87,1.58,2.61
+[MESHBUILDER]
+Cylinder 10,.18,.22,0.02
+Color 90,90,90
+Translate -0.87,1.73,2.61
+[MESHBUILDER]
+Cylinder 10,.18,.22,0.02
+Color 90,90,90
+Translate -0.87,1.88,2.61
+[MESHBUILDER]
+Cylinder 10,.18,.22,0.02
+Color 90,90,90
+Translate -0.87,2.03,2.61
+[MESHBUILDER]
+Cylinder 10,.18,.22,0.02
+Color 90,90,90
+Translate -0.87,2.18,2.61
+
+[MESHBUILDER]                      ;SidL_Cabs
+Vertex -1.19,1.037,0.20
+Vertex -1.19,2.359,0.20
+Vertex -1.19,2.359,-1.20
+Vertex -1.19,1.037,-1.20
+Face2 0,1,2,3
+Translate 0,0,-3.522
+Color 69,69,69
+[MESHBUILDER]
+Vertex -1.19,2.359,-5.55
+Vertex -1.19,3.15,-5.55
+Vertex -1.19,3.15,-3.35
+Vertex -1.19,2.359,-3.35
+Face2 0,1,2,3
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+Load Side_Cabs.gif
+Transparent 000,255,000
+[MESHBUILDER]
+Cylinder 8,.015,0.015,1.322
+Translate -1.19,1.698,-4.75
+Color 250,228,180
+[MESHBUILDER]
+Cylinder 8,.015,0.015,1.322
+Translate -1.19,1.698,-5.25
+Color 250,228,180
+
+[MESHBUILDER]                      ;SidR_Cabs
+Vertex 1.19,1.037,0.20
+Vertex 1.19,2.359,0.20
+Vertex 1.19,2.359,-1.20
+Vertex 1.19,1.037,-1.20
+Face2 0,1,2,3
+Translate 0,0,-3.522
+Color 69,69,69
+[MESHBUILDER]
+Vertex 1.19,2.359,-5.55
+Vertex 1.19,3.15,-5.55
+Vertex 1.19,3.15,-3.35
+Vertex 1.19,2.359,-3.35
+Face2 0,1,2,3
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+Load Side_Cabs.gif
+Transparent 000,255,000
+[MESHBUILDER]
+Cylinder 8,.015,0.015,1.322
+Translate 1.19,1.698,-4.75
+Color 250,228,180
+[MESHBUILDER]
+Cylinder 8,.015,0.015,1.322
+Translate 1.19,1.698,-5.25
+Color 250,228,180
+
+[MESHBUILDER]                      ;Roof_Xhst
+Cylinder 10,.195,.195,.77
+Translate 0,3.08,2.52
+Color 60,60,60
+[MESHBUILDER]
+Cylinder 10,.195,.31,.20
+Translate 0,2.68,2.52
+Color 70,70,70
+[MESHBUILDER]
+Cylinder 10,.30,.195,.14
+Translate 0,3.31,2.52
+Color 60,60,60
+[MESHBUILDER]
+Cylinder 10,.195,.30,.05
+Translate 0,3.405,2.52
+Color 70,70,70
+
+[MESHBUILDER]                      ;Roof_Comp
+Cylinder 10,.30,.30,.65
+Rotate 0,0,1,90
+Translate 0,2.96,1.48
+Color 80,80,80
+
+[MESHBUILDER]                      ;Roof_Dome_Frnt
+Cylinder 10,.405,.405,.45
+Translate 0,2.73,.65
+Color 060,060,060
+[MESHBUILDER]
+Cylinder 10,.405,.490,.30
+Color 65,65,65
+Translate 0,2.63,0.65
+[MESHBUILDER]
+Cylinder 10,.38,.405,.12
+Color 60,60,60
+Translate 0,3.015,0.650
+[MESHBUILDER]
+Cylinder 10,.323,.38,.112
+Color 60,60,60
+Translate 0,3.132,0.650
+[MESHBUILDER]
+Cylinder 10,.235,.323,.088
+Color 60,60,60
+Translate 0,3.232,0.650
+[MESHBUILDER]
+Cylinder 10,.123,.235,.057
+Color 60,60,60
+Translate 0,3.305,0.650
+[MESHBUILDER]
+Cylinder 10,.0,.123,.019
+Translate 0,3.343,0.650
+Color 65,65,65
+
+[MESHBUILDER]                 ;Roof_Dome_Rear
+Cylinder 10,.380,.380,.45
+Translate 0,2.73,-0.50
+Color 060,060,060
+[MESHBUILDER]
+Cylinder 10,.380,.470,.30
+Color 65,65,65
+Translate 0,2.63,-0.5
+[MESHBUILDER]
+Cylinder 10,.37,.38,.12
+Color 60,60,60
+Translate 0,3.015,-.50
+[MESHBUILDER]
+Cylinder 10,.323,.37,.112
+Color 60,60,60
+Translate 0,3.132,-0.5
+[MESHBUILDER]
+Cylinder 10,.235,.323,.088
+Color 60,60,60
+Translate 0,3.232,-0.5
+[MESHBUILDER]
+Cylinder 10,.123,.235,.057
+Color 65,65,65
+Translate 0,3.305,-0.5
+[MESHBUILDER]
+Cylinder 10,.0,.123,.019
+Color 70,70,70
+Translate 0,3.343,-0.5
+
+[MESHBUILDER]                      ;Roof_Whis+Sfty
+Cylinder 8,.15,.15,.12
+Translate 0,2.75,-1.80
+Color 100,095,090
+[MESHBUILDER]
+Cylinder 8,.15,.15,.12
+Translate 0,2.75,-2.30
+Color 100,95,90
+[MESHBUILDER]
+Cube 0.15,0.06,0.25
+Translate 0,2.75,-2.05
+Color 100,95,90
+[MESHBUILDER]
+Cylinder 8,.045,.045,.30
+Translate 0,2.83,-2.05
+Color 100,95,90
+[MESHBUILDER]
+Cylinder 8,.06,.06,.025
+Color 100,95,90
+Translate 0,2.93,-2.05
+[MESHBUILDER]
+Cylinder 8,.045,.045,.30
+Color 100,95,90
+Translate 0,2.83,-2.30
+[MESHBUILDER]
+Cylinder 8,.06,.06,.025
+Color 100,95,90
+Translate 0,2.93,-2.30
+[MESHBUILDER]
+Cylinder 8,.075,.11,.12
+Translate 0,2.85,-1.80
+Color 100,095,090
+[MESHBUILDER]
+Cylinder 8,.055,.065,.05
+Color 100,95,90
+Translate 0,2.92,-1.80
+[MESHBUILDER]
+Cylinder 8,.02,.02,.50
+Color 100,95,90
+Translate 0,3.0,-1.80
+[MESHBUILDER]
+Cylinder 8,.05,.05,.25
+Color 160,60,60
+Translate 0,3.10,-1.80
+
+[MESHBUILDER]                      ;Roof_Cabs
+Vertex -1.22,3.27,1.185
+Vertex -1.22,3.27,-1.185
+Vertex -1.15,3.40,1.185
+Vertex -1.15,3.40,-1.185
+Vertex -1.05,3.50,1.185
+Vertex -1.05,3.50,-1.185
+Vertex -0.60,3.57,1.185
+Vertex -0.60,3.57,-1.185
+Vertex 0.00,3.60,1.185
+Vertex 0.00,3.60,-1.185
+Vertex 0.60,3.57,1.185
+Vertex 0.60,3.57,-1.185
+Vertex 1.05,3.50,1.185
+Vertex 1.05,3.50,-1.185
+Vertex 1.15,3.40,1.185
+Vertex 1.15,3.40,-1.185
+Vertex 1.22,3.27,1.185
+Vertex 1.22,3.27,-1.185
+Face2 2,3,1,0
+Face2 4,5,3,2
+Face2 6,7,5,4
+Face2 8,9,7,6
+Face2 10,11,9,8
+Face2 12,13,11,10
+Face2 14,15,13,12
+Face2 16,17,15,14
+Coordinates 0,0,0.1
+Coordinates 1,0,0.9
+Coordinates 2,0.0286,0.1
+Coordinates 3,0.0286,0.9
+Coordinates 4,0.0696,0.1
+Coordinates 5,0.0696,0.9
+Coordinates 6,0.2540,0.1
+Coordinates 7,0.2540,0.9
+Coordinates 8,0.50,0.1
+Coordinates 9,0.50,0.9
+Coordinates 10,0.746,0.1
+Coordinates 11,0.746,0.9
+Coordinates 12,0.9304,0.1
+Coordinates 13,0.9304,0.9
+Coordinates 14,0.9714,0.1
+Coordinates 15,0.9714,0.9
+Coordinates 16,1,0.1
+Coordinates 17,1,0.9
+Translate 0,-0.12,-4.47
+Load Roof_Cabs.gif
+
+TRANSLATEALL +0.000,+0.000,+1.100  ;Centering
+SCALEALL     +1.435,+1.370,+1.512  ;Rota+Scal

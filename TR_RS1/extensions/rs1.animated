@@ -1,0 +1,210 @@
+[Include]
+FST\fst.animated
+Position = -0.8,-0.7,-2.516
+
+
+[Include]
+passanger.animated
+Position = 0, 0,0
+
+[Include]
+tuer_L.animated
+Position = 1.51, -0.2, -7.40
+
+[Include]
+tuer_L.animated
+Position = 1.51, -0.2, 7.1
+
+[Include]
+tuer_R.animated
+Position = -1.51, -0.2, -7.40
+
+
+[Include]
+tuer_R.animated
+Position = -1.51, -0.2, 7.1
+
+[Object]
+States = fahrzeug.b3d
+Position = 0,-0.5,-12.5
+
+
+[Object]
+States = drehgestell.b3d
+Position = -0.75,0,7
+
+[Object]
+States = drehgestell.b3d
+Position = -0.75,0,-12.5
+
+[Object]
+States = FST\fst.b3d
+Position = 0,1,-10.5
+RotateYFunction = 3.141
+
+[Object]
+States = fussboden.b3d
+Position = -1.5,1,-13.7
+
+
+
+
+
+[Object]
+States = sitze.b3d
+Position = -0.3,1,-11
+RotateYFunction = 380.1
+
+[Object]
+States = sitze.b3d
+Position = 1.45,1,-11
+RotateYFunction = 380.1
+
+[Object]
+States = sitze.b3d
+Position = 0.25,1,-10
+
+[Object]
+States = sitze.b3d
+Position = -1.45,1,-10
+
+[Object]
+States = sitze.b3d
+Position = -0.3,1,-6.5
+RotateYFunction = 380.1
+
+[Object]
+States = sitze.b3d
+Position = 1.45,1,-6.5
+RotateYFunction = 380.1
+
+[Object]
+States = sitze.b3d
+Position = 0.25,1,-5.5
+
+[Object]
+States = sitze.b3d
+Position = -1.45,1,-5.5
+
+[Object]
+States = sitze.b3d
+Position = -0.3,1,-4.4
+RotateYFunction = 380.1
+
+[Object]
+States = sitze.b3d
+Position = 1.45,1,-4.4
+RotateYFunction = 380.1
+
+[Object]
+States = sitze.b3d
+Position = 0.25,1,-3.4
+
+[Object]
+States = sitze.b3d
+Position = -1.45,1,-3.4
+
+[Object]
+States = sitze.b3d
+Position = -0.3,1,-2
+RotateYFunction = 380.1
+
+[Object]
+States = sitze.b3d
+Position = 1.45,1,-2
+RotateYFunction = 380.1
+
+[Object]
+States = sitze.b3d
+Position = 0.25,1,-1
+
+[Object]
+States = sitze.b3d
+Position = -1.45,1,-1
+
+[Object]
+States = sitze.b3d
+Position = -0.3,1,0.1
+RotateYFunction = 380.1
+
+[Object]
+States = sitze.b3d
+Position = 1.45,1,0.1
+RotateYFunction = 380.1
+
+[Object]
+States = sitze.b3d
+Position = 0.25,1,1.1
+
+[Object]
+States = sitze.b3d
+Position = -1.45,1,1.1
+
+[Object]
+States = sitze.b3d
+Position = -0.3,1,2
+RotateYFunction = 380.1
+
+[Object]
+States = sitze.b3d
+Position = 1.45,1,2
+RotateYFunction = 380.1
+
+[Object]
+States = sitze.b3d
+Position = 0.25,1,3
+
+[Object]
+States = sitze.b3d
+Position = -1.45,1,3
+
+[Object]
+States = sitze.b3d
+Position = -0.3,1,4.1
+RotateYFunction = 380.1
+
+[Object]
+States = sitze.b3d
+Position = 1.45,1,4.1
+RotateYFunction = 380.1
+
+[Object]
+States = sitze.b3d
+Position = 0.25,1,4.9
+
+[Object]
+States = sitze.b3d
+Position = -1.45,1,4.9
+
+
+
+
+
+
+
+[Object]
+States = sitze.b3d
+Position = -0.3,1,8
+RotateYFunction = 380.1
+
+[Object]
+States = sitze.b3d
+Position = 1.45,1,8
+RotateYFunction = 380.1
+
+[Object]
+States = sitze.b3d
+Position = 0.25,1,9
+
+[Object]
+States = sitze.b3d
+Position = -1.45,1,9
+
+
+
+
+
+
+
+
+

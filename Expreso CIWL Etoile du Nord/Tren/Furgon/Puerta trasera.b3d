@@ -1,0 +1,22 @@
+﻿;mantenha os créditos, é legal!!!
+;Paulo Roberto Bernardo da Silva
+;E-mail, MSN e Orkut: contato.pauloroberto@hotmail.com
+;Objeto: Porta do TUE Série 2000 metropolitano lado direito
+;vínculo: TUE Série 2000 CAF/ADtranz/Alstom ano 1999
+;Versão: REV0
+
+
+;lado externo
+[meshbuilder]
+vertex  -0.011, 2,  0
+vertex  -0.011, 2, -0.75
+vertex  -0.011, 0, -0.75
+vertex  -0.011, 0,  0
+face2 0,1,2,3
+[texture]
+load Puerta.PNG
+coordinates 0,0,0
+coordinates 1,1,0
+coordinates 2,1,1
+coordinates 3,0,1
+transparent 0,255,0

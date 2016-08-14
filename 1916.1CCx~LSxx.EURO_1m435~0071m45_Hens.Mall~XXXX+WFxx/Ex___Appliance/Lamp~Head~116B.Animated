@@ -1,0 +1,11 @@
+;Lamp~Head~mmDiam EndA|B, For Any Gaug|Loc|DMU|EMU|Wagn
+;Set@ ANIMATED [Include] Position=+|-DimX,+DimY,+|-DimZ
+;With DimZ=0.002m From Each Fixture For The Best Result
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;BVE|OBTS files have no registered copyrights|patents|trademarks,
+;are public domain, & free to copy|distribute|modify|use at will.
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+[OBJECT]
+States=Lamp~Head~116mmBulb.B3D
+StateFunction=If[Cars<1|((Abs[Round[Distance[Cars-1]]]<1)&ReverserNotch<0),0,1]      ;ON If In ObjectViewer, or If TrainsLastCar & Reverser=Bkwd
+RotateYFunction=3.142

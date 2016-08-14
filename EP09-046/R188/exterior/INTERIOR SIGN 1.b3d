@@ -1,0 +1,41 @@
+
+
+
+
+
+
+
+
+[MeshBuilder]
+
+Vertex   -0.78, 3.27, -4.25
+Vertex    0.78, 3.27, -4.25
+Vertex    0.78, 3.15, -4.25
+Vertex   -0.78, 3.15, -4.25
+
+Vertex    0.78, 3.27, -11.50
+Vertex   -0.78, 3.27, -11.50
+Vertex   -0.78, 3.15, -11.50
+Vertex    0.78, 3.15, -11.50
+Face 0,1,2,3
+Face 4,5,6,7
+
+[Texture]
+Load interior LED sign1.png
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 1
+Coordinates 3, 0, 1
+Coordinates 4, 0, 0
+Coordinates 5, 1, 0
+Coordinates 6, 1, 1
+Coordinates 7, 0, 1
+Transparent 0, 0, 255
+
+
+
+
+
+
+
+Translateall 0,0,7.875

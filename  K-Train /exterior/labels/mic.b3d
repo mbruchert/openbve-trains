@@ -1,0 +1,32 @@
+[MeshBuilder]
+Vertex 0,0,0,0,50,0
+Vertex 0,0,0.143,0,50,0
+Vertex 0,-0.13,0.143,0,50,0
+Vertex 0,-0.13,0,0,50,0
+Face 0,1,2,3
+Load mic.bmp
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+translate 0.313,0.5655,-0.31
+Rotate 0,0,2,-48.8
+Transparent 255,255,254
+EmissiveColor 220,220,220
+
+[MeshBuilder]
+Vertex 0,0,0,0,50,0
+Vertex 0,0,0.143,0,50,0
+Vertex 0,-0.13,0.143,0,50,0
+Vertex 0,-0.13,0,0,50,0
+Face 0,1,2,3
+Load mic.bmp
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+translate 0.313,0.5655,-9.42
+Rotate 0,0,2,-48.8
+Transparent 255,255,254
+EmissiveColor 220,220,220
+ScaleAll 1.1,1.1,1.1

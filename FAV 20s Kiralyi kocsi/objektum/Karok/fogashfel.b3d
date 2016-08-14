@@ -1,0 +1,22 @@
+[Meshbuilder]; kardán fogaskerék 
+Cylinder 15,0.020,0.040,0.020
+Color 25,25,25
+EmissiveColor 12,12,12
+Translate 0,0,0
+[Meshbuilder]; kardán fogaskerék tengely
+Cylinder 15,0.020,0.020,0.070
+Color 25,25,25
+EmissiveColor 12,12,12
+Translate 0,-0.025,0
+[Meshbuilder]
+Cylinder 4,0.010,0.010,0.005
+Color 30,30,30
+EmissiveColor 15,15,15
+Translate 0,0.009.025,0
+[Meshbuilder]
+Cylinder 15,0.003,0.006,0.050
+Rotate 1,0,0,90
+Color 30,30,30
+EmissiveColor 15,15,15
+Translate 0,-0.030,0
+Rotateall 0,1,0,180

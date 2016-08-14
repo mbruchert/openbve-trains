@@ -1,0 +1,42 @@
+Class 373 EMU - Version 0.95
+300 kmph / 186mph max.
+-----------------------
+© Manuel Mejias 2013
+http://www.trenesvenezolanos.blogspot.com
+
+---- Introduction to Eurostar -----
+
+Main System Commands
+
+[END] Pantograph 
+Position "OFF - Normal"
+
+[Home] Reset Disconection "Remove the errors on the left screen"
+Position "OFF - Normal - OFF"
+
+[Insert] Disconection
+Position "OFF - Normal"
+
+------- How to drive ------
+1.- Start with the Pantograph to Normal Position
+2.- Disconect the train and see the lever get down.
+3.- Reset Disconection, this action disapear the errors on the left screen
+4.- Go Foward
+5.- Accelerate
+
+----- Warning -------
+For unknowed reasons, the train set the emergency brake at 5 km/h
+----- Steps to Reset the train.
+
+1.- Reset Disconection , disapear the visuals errors on the left screen.
+2.- Apply brake and release
+3.- wait 5 secons and accelerate again.
+
+This happen to with KVB, when the signal is on Yellow, i dont write the .dll file
+
+----------- TVM ---- Trans Voie Machine --
+This is a French System onboard at TGV and some anothers trains like a BR 395.
+
+VL = Vitesse Limité "Max Speed "ON GREEN"
+A  = Accionamient, decrease the speed "White Triangles with Black Letters"
+E = Execution  " Execute at Speed indicated on "Black screen and White numbers"

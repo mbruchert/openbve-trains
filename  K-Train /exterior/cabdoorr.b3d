@@ -1,0 +1,27 @@
+[MeshBuilder]
+Vertex -1.42,3.25,0.05
+Vertex -1.55,1.87237,0.05
+Vertex -1.558,0.8826,0.05
+
+Vertex -1.42,3.25,0.875
+Vertex -1.55,1.87237,0.875
+Vertex -1.558,0.8826,0.875
+
+Face 0,1,4,3
+Face 1,2,5,4
+
+Load day\doors1.bmp
+
+Coordinates 0,1,0
+Coordinates 1,1,0.6265
+Coordinates 2,1,1
+Coordinates 3,0,0
+Coordinates 4,0,0.6265
+Coordinates 5,0,1
+
+Transparent 0,0,255
+;Color 0,0,255
+rotateall 0,1,0,180
+scaleAll 1.1,1.1,1.1
+translateall 0,0,11.36
+;End

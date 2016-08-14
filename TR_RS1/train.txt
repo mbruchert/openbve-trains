@@ -1,0 +1,34 @@
+RS1 BETA 1
+with animated 3D Cab
+
+_____________________
+Beschreibung Deutsch
+
+Der RS1 ist ein Regionaltriebwagen
+der Firma Stadler. Die hier Vorhandene
+Version ist in der Farbgebung
+der ODEG (Ostdeutsche Eisenbahn Gesellschaft)
+
+
+
+Credits:
+
+Modell: Tobias Müller
+Sounds: Tobias Müller
+
+
+______________________
+description
+
+The RS1 is a regional train. It
+is made by the Stadler in Berlin. This
+Version of the Train is in the color of
+the ODEG (East German Railway Company)
+
+Credits:
+
+Model: Tobias Müller
+Sounds: Tobias Müller
+
+
+(C) 2013 Tobias Müller

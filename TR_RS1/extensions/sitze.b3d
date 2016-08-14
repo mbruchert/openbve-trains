@@ -1,0 +1,364 @@
+[Meshbuilder]
+Vertex 0, 0, 0
+Vertex 0, 0.7, 0
+Vertex 0.5, 0.7, 0
+Vertex 0.5, 0, 0
+Face 0, 1, 2, 3
+[Texture]
+Load sitze1.bmp
+Coordinates 0, 0.007813, 0.054688
+Coordinates 1, 0, 0
+Coordinates 2, 0.097656, 0
+Coordinates 3, 0.072266, 0.037109
+Transparent 0, 0, 0
+[Meshbuilder]
+Vertex 0, 0, 0
+Vertex 0, 0.7, 0
+Vertex 0.5, 0.7, 0
+Vertex 0.5, 0, 0
+Face 3, 2, 1, 0
+[Texture]
+Load sitze1.bmp
+Coordinates 0, 0.007813, 0.054688
+Coordinates 1, 0, 0
+Coordinates 2, 0.097656, 0
+Coordinates 3, 0.072266, 0.037109
+Transparent 0, 0, 0
+[Meshbuilder]
+Vertex 0.5, 0, 0.5
+Vertex 0.5, 0.7, 0.5
+Vertex 0, 0.7, 0.5
+Vertex 0, 0, 0.5
+Face 0, 1, 2, 3
+[Texture]
+Load sitze1.bmp
+Coordinates 0, 0.019531, 0.009766
+Coordinates 1, 0.030273, 0.033203
+Coordinates 2, 0.081055, 0.037109
+Coordinates 3, 0.068359, 0.027344
+Transparent 0, 0, 0
+[Meshbuilder]
+Vertex 0.5, 0, 0.5
+Vertex 0.5, 0.7, 0.5
+Vertex 0, 0.7, 0.5
+Vertex 0, 0, 0.5
+Face 3, 2, 1, 0
+[Texture]
+Load sitze1.bmp
+Coordinates 0, 0.019531, 0.009766
+Coordinates 1, 0.030273, 0.033203
+Coordinates 2, 0.081055, 0.037109
+Coordinates 3, 0.068359, 0.027344
+Transparent 0, 0, 0
+[Meshbuilder]
+Vertex 0.5, 0, 0
+Vertex 0.5, 0.7, 0
+Vertex 0.5, 0.7, 0.5
+Vertex 0.5, 0, 0.5
+Face 0, 1, 2, 3
+[Texture]
+Load sitze1.bmp
+Coordinates 0, 0.472656, 0.837891
+Coordinates 1, 0.459961, 0.794922
+Coordinates 2, 0.481445, 0.777344
+Coordinates 3, 0.511719, 0.830078
+Transparent 0, 0, 0
+[Meshbuilder]
+Vertex 0.5, 0, 0
+Vertex 0.5, 0.7, 0
+Vertex 0.5, 0.7, 0.5
+Vertex 0.5, 0, 0.5
+Face 3, 2, 1, 0
+[Texture]
+Load sitze1.bmp
+Coordinates 0, 0.472656, 0.837891
+Coordinates 1, 0.459961, 0.794922
+Coordinates 2, 0.481445, 0.777344
+Coordinates 3, 0.511719, 0.830078
+Transparent 0, 0, 0
+[Meshbuilder]
+Vertex 0, 0, 0.5
+Vertex 0, 0.7, 0.5
+Vertex 0, 0.7, 0
+Vertex 0, 0, 0
+Face 0, 1, 2, 3
+[Texture]
+Load sitze1.bmp
+Coordinates 0, 0.496094, 0.845703
+Coordinates 1, 0.467773, 0.806641
+Coordinates 2, 0.490234, 0.783203
+Coordinates 3, 0.543945, 0.851563
+Transparent 0, 0, 0
+[Meshbuilder]
+Vertex 0, 0, 0.5
+Vertex 0, 0.7, 0.5
+Vertex 0, 0.7, 0
+Vertex 0, 0, 0
+Face 3, 2, 1, 0
+[Texture]
+Load sitze1.bmp
+Coordinates 0, 0.496094, 0.845703
+Coordinates 1, 0.467773, 0.806641
+Coordinates 2, 0.490234, 0.783203
+Coordinates 3, 0.543945, 0.851563
+Transparent 0, 0, 0
+[Meshbuilder]
+Vertex 0, 0.7, 0
+Vertex 0, 0.7, 0.5
+Vertex 0.5, 0.7, 0.5
+Vertex 0.5, 0.7, 0
+Face 0, 1, 2, 3
+[Texture]
+Load sitze1.bmp
+Coordinates 0, 0.669922, 0.863281
+Coordinates 1, 0.506836, 0.693359
+Coordinates 2, 0.53125, 0.123047
+Coordinates 3, 0.757813, 0.037109
+Transparent 0, 0, 0
+[Meshbuilder]
+Vertex 0, 0.7, 0
+Vertex 0, 0.7, 0.5
+Vertex 0.5, 0.7, 0.5
+Vertex 0.5, 0.7, 0
+Face 3, 2, 1, 0
+[Texture]
+Load sitze1.bmp
+Coordinates 0, 0.669922, 0.863281
+Coordinates 1, 0.506836, 0.693359
+Coordinates 2, 0.53125, 0.123047
+Coordinates 3, 0.757813, 0.037109
+Transparent 0, 0, 0
+[Meshbuilder]
+Vertex 0.5, 0, 0
+Vertex 0.5, 0, 0.5
+Vertex 0, 0, 0.5
+Vertex 0, 0, 0
+Face 0, 1, 2, 3
+[Texture]
+Load sitze1.bmp
+Coordinates 0, 0.018555, 0.064453
+Coordinates 1, 0, 0
+Coordinates 2, 0.097656, 0
+Coordinates 3, 0.066406, 0.03125
+Transparent 0, 0, 0
+[Meshbuilder]
+Vertex 0.5, 0, 0
+Vertex 0.5, 0, 0.5
+Vertex 0, 0, 0.5
+Vertex 0, 0, 0
+Face 3, 2, 1, 0
+[Texture]
+Load sitze1.bmp
+Coordinates 0, 0.018555, 0.064453
+Coordinates 1, 0, 0
+Coordinates 2, 0.097656, 0
+Coordinates 3, 0.066406, 0.03125
+Transparent 0, 0, 0
+[Meshbuilder]
+Vertex 0.1, 1.5, 0.5
+Vertex 0, 0.7, 0.5
+Vertex 0.5, 0.7, 0.5
+Vertex 0.4, 1.5, 0.5
+Face 0, 1, 2, 3
+[Texture]
+Load sitze1.bmp
+Coordinates 0, 0.214844, 0.091797
+Coordinates 1, 0.507813, 0.113281
+Coordinates 2, 0.489258, 0.650391
+Coordinates 3, 0.249023, 0.59375
+Transparent 0, 0, 0
+[Meshbuilder]
+Vertex 0.1, 1.5, 0.5
+Vertex 0, 0.7, 0.5
+Vertex 0.5, 0.7, 0.5
+Vertex 0.4, 1.5, 0.5
+Face 3, 2, 1, 0
+[Texture]
+Load sitze1.bmp
+Coordinates 0, 0.214844, 0.091797
+Coordinates 1, 0.507813, 0.113281
+Coordinates 2, 0.489258, 0.650391
+Coordinates 3, 0.249023, 0.59375
+Transparent 0, 0, 0
+[Meshbuilder]
+Vertex 0.7, 0, 0
+Vertex 0.7, 0.7, 0
+Vertex 1.2, 0.7, 0
+Vertex 1.2, 0, 0
+Face 0, 1, 2, 3
+[Texture]
+Load sitze1.bmp
+Coordinates 0, 0.007813, 0.054688
+Coordinates 1, 0, 0
+Coordinates 2, 0.097656, 0
+Coordinates 3, 0.072266, 0.037109
+Transparent 0, 0, 0
+[Meshbuilder]
+Vertex 0.7, 0, 0
+Vertex 0.7, 0.7, 0
+Vertex 1.2, 0.7, 0
+Vertex 1.2, 0, 0
+Face 3, 2, 1, 0
+[Texture]
+Load sitze1.bmp
+Coordinates 0, 0.007813, 0.054688
+Coordinates 1, 0, 0
+Coordinates 2, 0.097656, 0
+Coordinates 3, 0.072266, 0.037109
+Transparent 0, 0, 0
+[Meshbuilder]
+Vertex 1.2, 0, 0.5
+Vertex 1.2, 0.7, 0.5
+Vertex 0.7, 0.7, 0.5
+Vertex 0.7, 0, 0.5
+Face 0, 1, 2, 3
+[Texture]
+Load sitze1.bmp
+Coordinates 0, 0.019531, 0.009766
+Coordinates 1, 0.030273, 0.033203
+Coordinates 2, 0.081055, 0.037109
+Coordinates 3, 0.068359, 0.027344
+Transparent 0, 0, 0
+[Meshbuilder]
+Vertex 1.2, 0, 0.5
+Vertex 1.2, 0.7, 0.5
+Vertex 0.7, 0.7, 0.5
+Vertex 0.7, 0, 0.5
+Face 3, 2, 1, 0
+[Texture]
+Load sitze1.bmp
+Coordinates 0, 0.019531, 0.009766
+Coordinates 1, 0.030273, 0.033203
+Coordinates 2, 0.081055, 0.037109
+Coordinates 3, 0.068359, 0.027344
+Transparent 0, 0, 0
+[Meshbuilder]
+Vertex 1.2, 0, 0
+Vertex 1.2, 0.7, 0
+Vertex 1.2, 0.7, 0.5
+Vertex 1.2, 0, 0.5
+Face 0, 1, 2, 3
+[Texture]
+Load sitze1.bmp
+Coordinates 0, 0.472656, 0.837891
+Coordinates 1, 0.459961, 0.794922
+Coordinates 2, 0.481445, 0.777344
+Coordinates 3, 0.511719, 0.830078
+Transparent 0, 0, 0
+[Meshbuilder]
+Vertex 1.2, 0, 0
+Vertex 1.2, 0.7, 0
+Vertex 1.2, 0.7, 0.5
+Vertex 1.2, 0, 0.5
+Face 3, 2, 1, 0
+[Texture]
+Load sitze1.bmp
+Coordinates 0, 0.472656, 0.837891
+Coordinates 1, 0.459961, 0.794922
+Coordinates 2, 0.481445, 0.777344
+Coordinates 3, 0.511719, 0.830078
+Transparent 0, 0, 0
+[Meshbuilder]
+Vertex 0.7, 0, 0.5
+Vertex 0.7, 0.7, 0.5
+Vertex 0.7, 0.7, 0
+Vertex 0.7, 0, 0
+Face 0, 1, 2, 3
+[Texture]
+Load sitze1.bmp
+Coordinates 0, 0.496094, 0.845703
+Coordinates 1, 0.467773, 0.806641
+Coordinates 2, 0.490234, 0.783203
+Coordinates 3, 0.543945, 0.851563
+Transparent 0, 0, 0
+[Meshbuilder]
+Vertex 0.7, 0, 0.5
+Vertex 0.7, 0.7, 0.5
+Vertex 0.7, 0.7, 0
+Vertex 0.7, 0, 0
+Face 3, 2, 1, 0
+[Texture]
+Load sitze1.bmp
+Coordinates 0, 0.496094, 0.845703
+Coordinates 1, 0.467773, 0.806641
+Coordinates 2, 0.490234, 0.783203
+Coordinates 3, 0.543945, 0.851563
+Transparent 0, 0, 0
+[Meshbuilder]
+Vertex 0.7, 0.7, 0
+Vertex 0.7, 0.7, 0.5
+Vertex 1.2, 0.7, 0.5
+Vertex 1.2, 0.7, 0
+Face 0, 1, 2, 3
+[Texture]
+Load sitze1.bmp
+Coordinates 0, 0.669922, 0.863281
+Coordinates 1, 0.506836, 0.693359
+Coordinates 2, 0.53125, 0.123047
+Coordinates 3, 0.757813, 0.037109
+Transparent 0, 0, 0
+[Meshbuilder]
+Vertex 0.7, 0.7, 0
+Vertex 0.7, 0.7, 0.5
+Vertex 1.2, 0.7, 0.5
+Vertex 1.2, 0.7, 0
+Face 3, 2, 1, 0
+[Texture]
+Load sitze1.bmp
+Coordinates 0, 0.669922, 0.863281
+Coordinates 1, 0.506836, 0.693359
+Coordinates 2, 0.53125, 0.123047
+Coordinates 3, 0.757813, 0.037109
+Transparent 0, 0, 0
+[Meshbuilder]
+Vertex 1.2, 0, 0
+Vertex 1.2, 0, 0.5
+Vertex 0.7, 0, 0.5
+Vertex 0.7, 0, 0
+Face 0, 1, 2, 3
+[Texture]
+Load sitze1.bmp
+Coordinates 0, 0.018555, 0.064453
+Coordinates 1, 0, 0
+Coordinates 2, 0.097656, 0
+Coordinates 3, 0.066406, 0.03125
+Transparent 0, 0, 0
+[Meshbuilder]
+Vertex 1.2, 0, 0
+Vertex 1.2, 0, 0.5
+Vertex 0.7, 0, 0.5
+Vertex 0.7, 0, 0
+Face 3, 2, 1, 0
+[Texture]
+Load sitze1.bmp
+Coordinates 0, 0.018555, 0.064453
+Coordinates 1, 0, 0
+Coordinates 2, 0.097656, 0
+Coordinates 3, 0.066406, 0.03125
+Transparent 0, 0, 0
+[Meshbuilder]
+Vertex 0.8, 1.5, 0.5
+Vertex 0.7, 0.7, 0.5
+Vertex 1.2, 0.7, 0.5
+Vertex 1.1, 1.5, 0.5
+Face 0, 1, 2, 3
+[Texture]
+Load sitze1.bmp
+Coordinates 0, 0.214844, 0.091797
+Coordinates 1, 0.507813, 0.113281
+Coordinates 2, 0.489258, 0.650391
+Coordinates 3, 0.249023, 0.59375
+Transparent 0, 0, 0
+[Meshbuilder]
+Vertex 0.8, 1.5, 0.5
+Vertex 0.7, 0.7, 0.5
+Vertex 1.2, 0.7, 0.5
+Vertex 1.1, 1.5, 0.5
+Face 3, 2, 1, 0
+[Texture]
+Load sitze1.bmp
+Coordinates 0, 0.214844, 0.091797
+Coordinates 1, 0.507813, 0.113281
+Coordinates 2, 0.489258, 0.650391
+Coordinates 3, 0.249023, 0.59375
+Transparent 0, 0, 0

@@ -1,0 +1,13 @@
+Electric Universal Locomotive EU07-316 (type 303E) openBVE
+v1.0 [18/11/09]
+by Rave
+
+Type: 303E
+Years of construction: 1983-1992 (HCP, Poznan - Poland)
+Wheel arrangement: Bo'Bo'
+Weight: 80 tonnes
+Engine type:  EE541
+Power: 2000 kW
+Max speed: 125 km/h
+
+Used on regional and interregional medium and long distances, with passenger trains. Very rare with freight trains.

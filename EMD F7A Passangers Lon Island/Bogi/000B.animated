@@ -1,0 +1,18 @@
+
+[OBJECT]
+States=Bols_Beam.b3d
+Position=+0.000,+0.508,+0.000                ;DimX=+0.0,DimY=+0.5*Diam,DimZ=+0.0
+[OBJECT]
+States=Fram_Left1.b3d
+Position=+0.000,+0.508,+0.000                ;DimX=+0.0,DimY=+0.5*Diam,DimZ=+0.0
+[OBJECT]
+States=Fram_Rght1.b3d
+Position=+0.000,+0.508,+0.000                ;DimX=+0.0,DimY=+0.5*Diam,DimZ=+0.0
+[OBJECT]
+States=Whel_Frnt.b3d
+Position=+0.000,+0.508,+1.372                ;DimX=+0.0,DimY=+0.5*Diam,DimZ=+0.5*Base
+RotateXFunction=Value+((Delta*Speed)/0.508)  ;Angl=Last+((DeltaSecs*Metr/Secs)/(+0.5*Diam))
+[OBJECT]
+States=Whel_Rear.b3d
+Position=+0.000,+0.508,-1.372                ;DimX=+0.0,DimY=+0.5*Diam,DimZ=-0.5*Base
+RotateXFunction=Value+((Delta*Speed)/0.508)  ;Angl=Last+((DeltaSecs*Metr/Secs)/(+0.5*Diam))

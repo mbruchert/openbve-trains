@@ -1,0 +1,28 @@
+
+
+[Object]
+States = tuer_links.b3d
+Position = 0,1,-1.7
+TranslateZFunction = -0.65 * rightdoors[0]
+RotateYFunction = 3.141
+
+
+[Object]
+States = tuer_rechts.b3d
+Position = 0,1,0
+TranslateZFunction = 0.65 * rightdoors[0]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

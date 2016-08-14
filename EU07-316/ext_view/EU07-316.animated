@@ -1,0 +1,22 @@
+[Object]
+States = EU07-316.b3d
+
+[Object]
+States = kola.b3d
+Position = 0.016, 0.64, -2.7
+RotateXFunction = value + delta * speedometer / 0.5
+
+[Object]
+States = kola.b3d
+Position = 0.016, 0.64, -5.7
+RotateXFunction = value + delta * speedometer / 0.5
+
+[Object]
+States = kola.b3d
+Position = 0.016, 0.64, 2.7
+RotateXFunction = value + delta * speedometer / 0.5
+
+[Object]
+States = kola.b3d
+Position = 0.016, 0.64, 5.7
+RotateXFunction = value + delta * speedometer / 0.5

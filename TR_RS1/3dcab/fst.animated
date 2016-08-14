@@ -1,0 +1,37 @@
+
+[Object]
+Position = 0.8,1.7, 11
+States = FST.b3d
+
+[Object]
+States = tachoneedle.b3d
+Position = 0.83,2.79, 13.723
+RotateZFunction = 2.1 - ( speedometer / 11)
+
+[Object]
+Position = 1.3, 2.65, 13.2
+States = fahrhebel.b3d
+RotateXFunction = powerNotch / 20
+
+
+[Object]
+States = handy_aus.b3d
+Position = 1.35,2.9, 13.55
+TranslateYFunction = -2 + ( ( reverserNotch == 0) * 2)
+
+[Object]
+States = handy_an.b3d
+Position = 1.35,2.9, 13.55
+TranslateYFunction = -2 + ( ( reverserNotch == -1 ) * 2)
+
+[Object]
+States = handy_an.b3d
+Position = 1.35,2.9, 13.55
+TranslateYFunction = -2 + ( ( reverserNotch == 1 ) * 2)
+ 
+
+
+
+
+
+

@@ -1,0 +1,104 @@
+[include]
+pullman.csv
+
+[include]
+techo.csv
+Position=0,-1.25,0
+
+[include]
+techo curvo.csv
+Position=0,-1.06,11.52
+[include]
+techo curvo 2.csv
+Position=0,-1.06,-11.52
+
+;Escaleras
+
+[include]
+Escaleras.b3d
+Position=0,0,11.57
+[include]
+Escaleras.b3d
+Position=0,0,-11.57
+
+;Puertas
+
+;1
+[Object]
+Position = -1.22, 0, 11.99
+States = puerta 1.csv
+RotateYFunction = -1.5 * leftdoors[0]
+;2
+[Object]
+Position = -1.22, 0, -12.03
+States = puerta 3.csv
+RotateYFunction = 1.5 * leftdoors[0]
+;3
+[Object]
+Position = 1.22, 0, 11.99
+States = puerta 2.csv
+RotateYFunction = 1.5 * rightdoors[0]
+;4
+[Object]
+Position = 1.22, 0, -12.03
+States = puerta 4.csv
+RotateYFunction = -1.5 * rightdoors[0]
+
+;Lamparas-------------------------------------------------------
+
+[include]
+Position = -1.15, 0.85, 8.41
+lampara.b3d
+[include]
+Position = -1.15, 0.85, 5.92
+lampara.b3d
+[include]
+Position = -1.15, 0.85, 3.59
+lampara.b3d
+[include]
+Position = -1.15, 0.85, 1.27
+lampara.b3d
+[include]
+Position = -1.15, 0.85, -1.10
+lampara.b3d
+[include]
+Position = -1.15, 0.85, -3.43
+lampara.b3d
+
+[include]
+Position = 1.15, 0.85, -3.59
+lampara.b3d
+[include]
+Position = 1.15, 0.85, 1.27
+lampara.b3d
+[include]
+Position = 1.15, 0.85, -1.10
+lampara.b3d
+[include]
+Position = 1.15, 0.85, -5.73
+lampara.b3d
+[include]
+Position = 1.15, 0.85, -8.25
+lampara.b3d
+
+;Ventiladores--------------------------------------------------
+
+[object]
+States = ventilador bar.b3d
+Position = -0.4, 3.7, 8.77
+RotateYFunction = mod[value + delta * 10,60]
+
+[object]
+States = ventilador.b3d
+Position = 0, 3.7, 3.75
+RotateYFunction = mod[value + delta * 10,60]
+
+[object]
+States = ventilador.b3d
+Position = 0, 3.7, -3.78
+RotateYFunction = mod[value + delta * 10,60]
+
+[object]
+States = ventilador bar.b3d
+Position = 0.4, 3.7, -8.77
+RotateYFunction = mod[value + delta * 10,60]

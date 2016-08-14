@@ -1,0 +1,91 @@
+[MeshBuilder]
+Vertex 1.4, 1.35, 4.65 
+Vertex 0.45, 1.35, 4.65
+Vertex 0.45, 1.35, 3.7
+Vertex 1.4, 1.35, 3.7
+Face 3, 2, 1, 0, 
+[Texture]
+Load mesa madera.png,
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+Transparent  0,0,255
+emissivecolor 255,255,255
+
+[MeshBuilder]
+Vertex 1.4, 1.3, 4.65
+Vertex 0.45, 1.3, 4.65
+Vertex 0.45, 1.3, 3.7
+Vertex 1.4, 1.3, 3.7
+Face 0,1,2,3
+[Texture]
+Load mesa madera.png,
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+Transparent  0,0,255
+emissivecolor 255,255,255
+
+[MeshBuilder]
+Vertex 1.4, 1.3, 3.7
+Vertex 1.4, 1.35, 3.7
+Vertex 0.45, 1.35, 3.7
+Vertex 0.45, 1.3, 3.7
+Face 3, 2, 1, 0, 
+[Texture]
+Load mesa madera.png
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+Transparent  0,0,255
+emissivecolor 255,255,255
+
+[MeshBuilder]
+Vertex 1.4, 1.3, 4.65
+Vertex 1.4, 1.35, 4.65
+Vertex 0.45, 1.35, 4.65
+Vertex 0.45, 1.3, 4.65 
+Face 0,1,2,3
+[Texture]
+Load mesa madera.png
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+Transparent  0,0,255
+emissivecolor 255,255,255
+
+[MeshBuilder]
+Vertex 0.45, 1.3, 3.7
+Vertex 0.45, 1.35, 3.7
+Vertex 0.45, 1.35, 4.65
+Vertex 0.45, 1.3, 4.65
+Face 3, 2, 1, 0, 
+[Texture]
+Load mesa madera.png
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+Transparent  0,0,255
+emissivecolor 255,255,255
+
+[MeshBuilder]
+Vertex 1.4, 1.3, 3.7
+Vertex 1.4, 1.35, 3.7
+Vertex 1.4, 1.35, 4.65
+Vertex 1.4, 1.3, 4.65
+Face 0, 1, 2, 3, 
+[Texture]
+Load mesa madera.png
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+Transparent 0,0,255
+emissivecolor 255,255,255
+
+Translateall -0.9, -0.7, -4.2

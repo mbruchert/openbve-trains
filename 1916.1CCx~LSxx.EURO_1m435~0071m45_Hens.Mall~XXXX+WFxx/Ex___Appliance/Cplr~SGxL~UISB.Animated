@@ -1,0 +1,23 @@
+;Coupler ~StandardGaug Frht|Psgr Loco, UnionInternatl Screw endA|B
+;Set@ *.ANIMATED [Include] Position=+0.000,+0.000,+|-0.5*CarLength
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;BVE|OBTS files have no registered copyrights|patents|trademarks,
+;are public domain, & free to copy|distribute|modify|use at will.
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+[OBJECT]                           ;CPLR_Hose
+States=Cplr~SGxL~UISx_Hose.B3D
+[OBJECT]                           ;CPLR_Hook
+States=Cplr~SGxL~UISx_Hook.B3D
+Position=+0.000,+1.000,-0.130      ;DimX=Cntr/Rail=0.000m,DimY=Hgth/Rail=1.000m,DimZ=CplrSlack=0.260m/Car=0.130m/End
+RotateYFunction=3.142
+
+[OBJECT]                           ;CPLR_IdledMode@CarsEndB,Always Displayed In Game & ObjectViewer
+States=Cplr~SGxL~UISx_Link.B3D
+Position=+0.000,+0.815,+0.330
+[OBJECT]
+States=Cplr~SGxL~UISx_Loop.B3D
+Position=+0.000,+0.269,+0.330
+[OBJECT]
+States=Cplr~SGxL~UISx_Scrw.B3D
+Position=+0.000,+0.511,+0.330
+RotateYFunction=3.142

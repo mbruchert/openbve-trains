@@ -1,0 +1,83 @@
+[MeshBuilder]
+Vertex 0,4.5,1.95
+Vertex 0,3.7,2.30
+Vertex 0,3.7,2.6
+Vertex 0,4.5,2.95
+Face2 0,1,2,3
+
+[Texture]
+Load smoke1.png
+Coordinates   0, 1, 0.5
+Coordinates   1, 1, 0
+Coordinates   2, 0, 0
+Coordinates   3, 0, 0.5
+
+[MeshBuilder]
+Vertex 0,6.5,-3.95 
+Vertex 0,5.5,1.95
+Vertex 0,4.5,2.95
+Vertex 0,4.5,-3.95
+Face2 3,2,1,0
+
+[Texture]
+Load smoke1.png
+Coordinates   0, 1, 1
+Coordinates   1, 1, 0
+Coordinates   2, 0, 0
+Coordinates   3, 0, 1
+
+[MeshBuilder]
+Vertex -0.5,4.5,2.45
+Vertex -0.15,3.7,2.45
+Vertex 0.15,3.7,2.45
+Vertex 0.5,4.5,2.45
+Face2 0,1,2,3
+
+[Texture]
+Load smoke1.png
+Coordinates   0, 1, 0.5
+Coordinates   1, 1, 0
+Coordinates   2, 0, 0
+Coordinates   3, 0, 0.5
+
+[MeshBuilder]
+Vertex -2,5.5,-3.95
+Vertex -0.5,4.5,2.45
+Vertex 0.5,4.5,2.45
+Vertex 2,5.5,-3.95
+Face2 3,2,1,0
+
+[Texture]
+Load smoke1.png
+Coordinates   0, 1, 1
+Coordinates   1, 1, 0
+Coordinates   2, 0, 0
+Coordinates   3, 0, 1
+
+[MeshBuilder]
+Vertex -2,5.5,-3.95
+Vertex -0.5,4.5,-9.45
+Vertex 0.5,4.5,-9.45
+Vertex 2,5.5,-3.95
+Face2 0,1,2,3
+
+[Texture]
+Load smoke1.png
+Coordinates   0, 1, 1
+Coordinates   1, 1, 0
+Coordinates   2, 0, 0
+Coordinates   3, 0, 1
+
+[MeshBuilder]
+Vertex 0,6.5,-3.95 
+Vertex 0,5,-9.95
+Vertex 0,4,-9.95
+Vertex 0,4.5,-3.95
+Face2 0,1,2,3
+
+[Texture]
+Load smoke1.png
+Coordinates   0, 1, 1
+Coordinates   1, 1, 0
+Coordinates   2, 0, 0
+Coordinates   3, 0, 1

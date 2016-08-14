@@ -1,0 +1,39 @@
+[Include]
+PSE4.b3d
+
+[Include]
+bogieengine.csv
+Position =  0, 0, 1.7
+[Include]
+bogieengine.csv
+Position =  0, 0, 15.2
+[Include]
+Pantografo2.csv
+Position =  0, 0,-0.3
+
+[Include]
+..//Placa Alsthom//Placa2.b3d
+Position =  0,0,-1.6
+
+[Include]
+..//Cabina3D//Cabina3.csv
+Position =  0,0,-1.6
+
+
+
+[object]
+Position = 0, 0.45, 8.9
+states=ruedas.csv
+RotateXFunction = value + mod[(speedometer * delta),2.7] / 2.7 * 3.14 * 2
+[object]
+Position = 0, 0.45, 6.2
+states=ruedas.csv
+RotateXFunction = value + mod[(speedometer * delta),2.7] / 2.7 * 3.14 * 2
+[object]
+Position = 0, 0.45, -7.2
+states=ruedas.csv
+RotateXFunction = value + mod[(speedometer * delta),2.7] / 2.7 * 3.14 * 2
+[object]
+Position = 0, 0.45, -4.5
+states=ruedas.csv
+RotateXFunction = value + mod[(speedometer * delta),2.7] / 2.7 * 3.14 * 2
