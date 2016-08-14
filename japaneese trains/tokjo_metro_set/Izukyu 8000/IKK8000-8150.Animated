@@ -1,0 +1,116 @@
+; Animation by Charles Y.A. & Gilang Taxakha
+; Exterior modified by Nurachman_cc20335
+; Numbering system by Charles
+
+[Object]
+Position = 0, 0, 0
+States = IKK8000-8150.csv
+
+[object]
+Position = 0, 0.44, -7.8
+states=wheel.csv
+RotateXFunction = value + mod[(speedometer * delta),2.7] / 2.7 * 3.14 * 2
+
+[object]
+Position = 0, 0.44, -5.6
+states=wheel.csv
+RotateXFunction = value + mod[(speedometer * delta),2.7] / 2.7 * 3.14 * 2
+
+[object]
+Position = 0, 0.44, 8.1
+states=wheel.csv
+RotateXFunction = value + mod[(speedometer * delta),2.7] / 2.7 * 3.14 * 2
+
+[object]
+Position = 0, 0.44, 5.9
+states=wheel.csv
+RotateXFunction = value + mod[(speedometer * delta),2.7] / 2.7 * 3.14 * 2
+
+[Object]
+Position = 0, 0, 9.915
+States = door1.csv
+TranslateXDirection = 0, 0, 1
+TranslateXFunction = leftdoors * 0.7  
+
+[Object]
+Position = 0, 0, 9.915
+States = door1-2.csv
+TranslateXDirection = 0, 0, 1
+TranslateXFunction = rightdoors * 0.7  
+
+[Object]
+Position = 0, 0, 9.235
+States = door2.csv
+TranslateXDirection = 0, 0, -1
+TranslateXFunction = leftdoors * 0.7  
+
+[Object]
+Position = 0, 0, 9.235
+States = door2-2.csv
+TranslateXDirection = 0, 0, -1
+TranslateXFunction = rightdoors * 0.7  
+
+[object]
+States = chair2.csv
+Position = 0,0,0.4
+StateFunction = pluginstate[53] & pluginstate[104]
+
+[Object]
+;States = displayL3.csv
+;Position=0,0,1.18
+;TextureShiftXFunction = -0.05 * time
+;RefreshRate = 0.1
+
+[Object]
+;States = displayR3.csv
+;Position = 0,0,1.17
+;TextureShiftXFunction = 0.05 * time
+;RefreshRate = 0.1
+
+[Object]
+States = reardisplay.csv
+Position = -0.0035,0,-1
+TextureShiftYFunction = 0.05 * time
+RefreshRate = 0.1
+
+[Object]
+States = ikisaki.csv
+Position = 0,0,1.395
+
+[Object]
+States = lamp-M1C-OFF.csv, lamp-M1C-ON.csv
+Position = 0,0,-9.6
+StateFunction = if[doors == 0, 0, 1]
+
+; -----------
+; Tongkat traksi/rem
+; -----------
+
+;[object]
+;states = 3dcab\power_mount.csv
+;position = 0.80, 1.79, -8.35
+
+[object]
+states = 3dcab\power_lever.csv
+position = 0.9265, 1.75, -9.115
+
+; --------------
+; Tongkat kendali maju/mundur (reverser)
+; --------------
+
+[object]
+states = 3dcab\reverser_mount.csv
+position = 0.667, 1.73, -9.129
+
+[object]
+states = 3dcab\reverser_lever.csv
+position = 0.667, 1.73, -9.129
+
+; ----------
+; Lampu indikator pintu
+; ----------
+
+[object]
+states = 3dcab\pilot_lamp_r.csv
+statefunction = ceiling[doors]
+position = 0.925, 1.868, -9.367

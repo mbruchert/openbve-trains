@@ -1,0 +1,14 @@
+;LED Depan
+CreateMeshBuilder,,,,
+AddVertex,-1.73,3.085,9.47,
+AddVertex,-1.73,3.283,9.44,
+AddVertex,-2.85,3.283,9.44,
+AddVertex,-2.85,3.085,9.47,
+AddFace2,0,1,2,3
+Translate,1.65,0.11,0.2,
+
+LoadTexture,LED.bmp,LED.bmp
+SetTextureCoordinates,0,0,0.1,
+SetTextureCoordinates,1,0,0,
+SetTextureCoordinates,2,1,0,
+SetTextureCoordinates,3,1,0.1,

@@ -1,0 +1,2035 @@
+;Electric Passenger Locomotive EP09-019
+;v1.1
+;by Rave
+
+;============================================================================================================================================================
+;============================================================= P R Z O D ====================================================================================
+;============================================================================================================================================================
+
+;----- Syreny ---------
+[MeshBuilder]
+Cylinder  10, 0.07, 0.01, 0.1
+Rotate  1, 0, 0, 90
+Translate  0.5, 3.95, 8
+Color  133,133,133
+[MeshBuilder]
+Cylinder  10, 0.02, 0.02, 0.3
+Rotate  1, 0, 0, 90
+Translate  0.5, 3.95, 7.85
+Color  133,133,133
+[MeshBuilder]
+Cube  0.03, 0.07, 0.03
+Translate  0.5, 3.9, 7.7
+Color  133,133,133
+;---
+[MeshBuilder]
+Cylinder  10, 0.07, 0.01, 0.1
+Rotate  1, 0, 0, 90
+Translate  -0.5, 3.95, 8
+Color  133,133,133
+[MeshBuilder]
+Cylinder  10, 0.02, 0.02, 0.3
+Rotate  1, 0, 0, 90
+Translate  -0.5, 3.95, 7.85
+Color  133,133,133
+[MeshBuilder]
+Cube  0.03, 0.07, 0.03
+Translate  -0.5, 3.9, 7.7
+Color  133,133,133
+;-----------------------------
+
+;----- schodki ------
+[MeshBuilder]
+Cube  0.2,0.08,0.01
+Color  178,68,15
+Rotate  0,0,0,90
+Translate  -1,1.25,8.05
+[MeshBuilder]
+Cube  0.2,0.08,0.01
+Color  178,68,15
+Rotate  0,0,0,90
+Translate  -0.6,1.45,8.05
+[MeshBuilder]
+Cube  0.2,0.08,0.01
+Color  178,68,15
+Rotate  0,0,0,90
+Translate  1,1.25,8.05
+[MeshBuilder]
+Cube  0.2,0.08,0.01
+Color  178,68,15
+Rotate  0,0,0,90
+Translate  0.6,1.45,8.05
+;--------------------
+[MeshBuilder]
+Cube  0.5,0.08,0.01
+Color  163,82,57
+Rotate  0,0,0,90
+Translate  0,1.9,8.1
+[MeshBuilder]
+Vertex 0.5, 1.9101, 8.069
+Vertex 0.5, 1.9101, 8.18
+Vertex -0.5, 1.9101, 8.18
+Vertex -0.5, 1.9101, 8.069
+Face  3,2,1,0
+[Texture]
+Load  schodek.png
+Coordinates 0, 0, 1
+Coordinates 1, 0, 0
+Coordinates 2, 1, 0
+Coordinates 3, 1, 1
+;-------------------------
+
+;----- Okna --------
+[MeshBuilder]
+Vertex 1.437, 2.5, 8.2
+Vertex 1.337, 3.6, 8.0
+Vertex 0, 3.6, 8.0
+Vertex 0, 2.5, 8.2
+Face  0,1,2,3
+Transparent 0,0,255
+[Texture]
+Load  okna.png
+Coordinates 0, 0.01, 0.99
+Coordinates 1, 0.01, 0.01
+Coordinates 2, 0.5, 0.01
+Coordinates 3, 0.5, 0.99
+;---
+[MeshBuilder]
+Vertex 0, 2.5, 8.2
+Vertex 0, 3.6, 8.0
+Vertex -1.337, 3.6, 8.0
+Vertex -1.437, 2.5, 8.2
+Face  0,1,2,3
+Transparent 0,0,255
+[Texture]
+Load  okna.png
+Coordinates 0, 0.5, 0.99
+Coordinates 1, 0.5, 0.01
+Coordinates 2, 0.99, 0.01
+Coordinates 3, 0.99, 0.99
+;---------------------
+[MeshBuilder]
+Vertex 1.437, 2.5, 8.2
+Vertex 1.337, 3.6, 8.0
+Vertex 0, 3.6, 8.0
+Vertex 0, 2.5, 8.2
+Face  3,2,1,0
+Transparent 0,0,255
+[Texture]
+Load  okna_wew.png
+Coordinates 0, 0.01, 0.99
+Coordinates 1, 0.01, 0.01
+Coordinates 2, 0.5, 0.01
+Coordinates 3, 0.5, 0.99
+;---
+[MeshBuilder]
+Vertex 0, 2.5, 8.2
+Vertex 0, 3.6, 8.0
+Vertex -1.337, 3.6, 8.0
+Vertex -1.437, 2.5, 8.2
+Face  3,2,1,0
+Transparent 0,0,255
+[Texture]
+Load  okna_wew.png
+Coordinates 0, 0.5, 0.99
+Coordinates 1, 0.5, 0.01
+Coordinates 2, 0.99, 0.01
+Coordinates 3, 0.99, 0.99
+;----------------------
+
+;----- Przod ----------
+[MeshBuilder]
+Vertex 1.537, 1.6, 8.0
+Vertex 1.437, 2.5, 8.2
+Vertex -1.437, 2.5, 8.2
+Vertex -1.537, 1.6, 8.0
+Face  0,1,2,3
+[Texture]
+Load  przod.png
+Coordinates 0, 0, 1
+Coordinates 1, 0, 0
+Coordinates 2, 1, 0
+Coordinates 3, 1, 1
+;----------------------
+
+;----- 850 kn ---------
+[MeshBuilder]
+Vertex 1.537, 0.9, 8
+Vertex 1.537, 1.6, 8
+Vertex -1.537, 1.6, 8
+Vertex -1.537, 0.9, 8
+Face2  3,2,1,0
+[Texture]
+Load  850kn.png
+Coordinates 0, 0, 1
+Coordinates 1, 0, 0
+Coordinates 2, 1, 0
+Coordinates 3, 1, 1
+;----------------------
+
+[MeshBuilder]
+Vertex 1.537, 1.6, 8
+Vertex 1.537, 1.65, 8
+Vertex 1.437, 2.5, 8.2
+Face 0,1,2
+[Texture]
+Load skos1.png
+Coordinates 0, 0,0
+Coordinates 1, 0,1
+Coordinates 2, 1,1
+[MeshBuilder]
+Vertex -1.537, 1.6, 8
+Vertex -1.537, 1.65, 8
+Vertex -1.437, 2.5, 8.2
+Face 2,1,0
+[Texture]
+Load skos1.png
+Coordinates 0, 0,0
+Coordinates 1, 0,1
+Coordinates 2, 1,1
+
+;------- skos -------
+[MeshBuilder]
+Vertex 1.537, 1.65, 8
+Vertex 1.45, 2.5, 8
+Vertex 1.437, 2.5, 8.2
+Face 0,1,2
+[Texture]
+Load skos1.png
+Coordinates 0, 0,0
+Coordinates 1, 0,1
+Coordinates 2, 1,1
+[MeshBuilder]
+Vertex -1.537, 1.6, 8
+Vertex -1.447, 2.5, 8
+Vertex -1.437, 2.5, 8.2
+Face 2,1,0
+[Texture]
+Load skos1.png
+Coordinates 0, 0,0
+Coordinates 1, 0,1
+Coordinates 2, 1,1
+;---
+[MeshBuilder]
+Vertex 1.337, 3.6, 8
+Vertex 1.45, 2.5, 8
+Vertex 1.437, 2.5, 8.2
+Face 2,1,0
+[Texture]
+Load skos2.png
+Coordinates 0, 0,0
+Coordinates 1, 0,1
+Coordinates 2, 1,1
+[MeshBuilder]
+Vertex -1.337, 3.6, 8
+Vertex -1.447, 2.5, 8
+Vertex -1.437, 2.5, 8.2
+Face 0,1,2
+[Texture]
+Load skos2.png
+Coordinates 0, 0,0
+Coordinates 1, 0,1
+Coordinates 2, 1,1
+;=======================
+[MeshBuilder]
+Vertex 1.521, 1.6, 8
+Vertex 1.45, 2.5, 8
+Vertex 1.437, 2.5, 8.2
+Face 2,1,0
+[Texture]
+Load skos3.png
+Coordinates 0, 0,0
+Coordinates 1, 0,1
+Coordinates 2, 1,1
+[MeshBuilder]
+Vertex -1.521, 1.6, 8
+Vertex -1.45, 2.5, 8
+Vertex -1.437, 2.5, 8.2
+Face 0,1,2
+[Texture]
+Load skos3.png
+Coordinates 0, 0,0
+Coordinates 1, 0,1
+Coordinates 2, 1,1
+;---
+[MeshBuilder]
+Vertex 1.337, 3.6, 8
+Vertex 1.45, 2.5, 8
+Vertex 1.437, 2.5, 8.2
+Face 0,1,2
+[Texture]
+Load skos3.png
+Coordinates 0, 0,0
+Coordinates 1, 0,1
+Coordinates 2, 1,1
+[MeshBuilder]
+Vertex -1.337, 3.6, 8
+Vertex -1.45, 2.5, 8
+Vertex -1.437, 2.5, 8.2
+Face 2,1,0
+[Texture]
+Load skos3.png
+Coordinates 0, 0,0
+Coordinates 1, 0,1
+Coordinates 2, 1,1
+;-------------------------
+
+;----------- Plug -----------
+[MeshBuilder]
+Vertex 1.537, 0.17, 7.9
+Vertex 1.537, 0.9, 7.5
+Vertex  0, 0.9, 7.5
+Vertex -1.537, 0.9, 7.5
+Vertex -1.537, 0.17, 7.9
+Vertex  0, 0.17, 8.2
+Vertex 1.537, 0.9, 8
+Vertex -1.537, 0.9, 8
+Face2  5,2,1,0
+Face2  5,4,3,2
+Face2  3,7,6,1
+[Texture]
+Load plug.png
+Coordinates 0, 0, 1
+Coordinates 1, 0, 0.3
+Coordinates 2, 0.5, 0.3
+Coordinates 3, 1, 0.3
+Coordinates 4, 1, 1
+Coordinates 5, 0.5, 1
+Coordinates 6, 0, 0
+Coordinates 7, 1, 0
+Transparent  0, 0, 255
+;------------------------------
+
+;---- SWIATLA --------
+[MeshBuilder]
+Cube  0.25,0.5,0.24
+Color  133,133,133
+Rotate  1,0,0,90
+Translate  0,3.84,7.4999
+
+[MeshBuilder]
+Vertex  -0.25,4.08,8.001
+Vertex  0.25,4.08,8.001
+Vertex  0.25,3.6,8.001
+Vertex  -0.25,3.6,8.001
+Face  3,2,1,0
+[Texture]
+Load  swiatlo3.png, swiatlo2.png
+Coordinates  0,0,0
+Coordinates  1,1,0
+Coordinates  2,1,1
+Coordinates  3,0,1
+Transparent   255,255,255
+;-
+[MeshBuilder]
+Cylinder  24,0.25,0.25,0.2
+Color  142,74,55
+Rotate  1,0,0,90
+Translate  0.9,1.88,8.1
+
+[MeshBuilder]
+Vertex  -1.15,2.13,8.201
+Vertex  -0.65,2.13,8.201
+Vertex  -0.65,1.63,8.201
+Vertex  -1.15,1.63,8.201
+Face  3,2,1,0
+[Texture]
+Load  swiatlo.png, swiatlo2.png
+Coordinates  0,0,0
+Coordinates  1,1,0
+Coordinates  2,1,1
+Coordinates  3,0,1
+Transparent   255,255,255
+;-
+[MeshBuilder]
+Cylinder  24,0.25,0.25,0.2
+Color  142,74,55
+Rotate  1,0,0,90
+Translate  -0.911,1.88,8.1
+
+[MeshBuilder]
+Vertex  1.15,2.13,8.201
+Vertex  0.65,2.13,8.201
+Vertex  0.65,1.63,8.201
+Vertex  1.15,1.63,8.201
+Face  0,1,2,3
+[Texture]
+Load  swiatlo.png, swiatlo2.png
+Coordinates  0,0,0
+Coordinates  1,1,0
+Coordinates  2,1,1
+Coordinates  3,0,1
+Transparent   255,255,255
+;-- KONIEC SWIATLA---
+
+;------------- Zderzaki ------------------
+[MeshBuilder]
+Cube  0.22, 0.13, 0.04
+Translate  -1, 1.05, 8
+Color 60, 60, 60
+
+[MeshBuilder]
+Cylinder  10, 0.1, 0.1, 0.4
+Rotate  1, 0, 0, 90
+Translate  -1, 1.05, 8.23
+Color 60, 60, 60
+
+[MeshBuilder]
+Cylinder  20, 0.11, 0.11, 0.4
+Rotate  1, 0, 0, 90
+Translate  -1, 1.05, 8.1
+Color 60, 60, 60
+
+[MeshBuilder]
+Vertex -0.7, 0.87, 8.435
+Vertex -0.7, 1.22, 8.435
+Vertex -1.34, 1.22, 8.435
+Vertex -1.34, 0.87, 8.435
+Face2 0,1,2,3
+[Texture]
+Load zderzak.png
+Coordinates 0, 0, 1
+Coordinates 1, 0, 0
+Coordinates 2, 1, 0
+Coordinates 3, 1, 1
+Transparent 0,0,255
+;---
+[MeshBuilder]
+Cube  0.22, 0.13, 0.04
+Translate  1, 1.05, 8
+Color 60, 60, 60
+
+[MeshBuilder]
+Cylinder  10, 0.1, 0.1, 0.4
+Rotate  1, 0, 0, 90
+Translate  1, 1.05, 8.23
+Color 60, 60, 60
+
+[MeshBuilder]
+Cylinder  20, 0.11, 0.11, 0.4
+Rotate  1, 0, 0, 90
+Translate  1, 1.05, 8.1
+Color 60, 60, 60
+
+[MeshBuilder]
+Vertex 0.7, 0.87, 8.435
+Vertex 0.7, 1.22, 8.435
+Vertex 1.34, 1.22, 8.435
+Vertex 1.34, 0.87, 8.435
+Face2 3,2,1,0
+[Texture]
+Load zderzak.png
+Coordinates 0, 0, 1
+Coordinates 1, 0, 0
+Coordinates 2, 1, 0
+Coordinates 3, 1, 1
+Transparent 0,0,255
+;--------------------------------
+
+;==========================================
+;============== K A B I N A ===============
+;==========================================
+
+;---- Sciana tyl --------------
+
+[meshbuilder]
+vertex 1.521, 1.8, 6.2
+vertex 1.337, 3.6, 6.2
+vertex 1.237, 3.6, 6.2
+vertex 1.237, 1.8, 6.2
+Face2 0,1,2,3
+[Texture]
+Load skos3.png
+Coordinates 0, 0, 1
+Coordinates 1, 0, 0
+Coordinates 2, 1, 0
+Coordinates 3, 1, 1
+Transparent 0,0,255
+
+[meshbuilder]
+vertex 1.237, 1.8, 6.2
+vertex 1.237, 3.6, 6.2
+vertex -1.237, 3.6, 6.2
+vertex -1.237, 1.8, 6.2
+Face2 0,1,2,3
+[Texture]
+Load sciana_tyl.png
+Coordinates 0, 0, 1
+Coordinates 1, 0, 0
+Coordinates 2, 1, 0
+Coordinates 3, 1, 1
+Transparent 0,0,255
+
+[meshbuilder]
+vertex -1.517, 1.8, 6.2
+vertex -1.337, 3.6, 6.2
+vertex -1.237, 3.6, 6.2
+vertex -1.237, 1.8, 6.2
+Face2 3,2,1,0
+[Texture]
+Load skos3.png
+Coordinates 0, 0, 1
+Coordinates 1, 0, 0
+Coordinates 2, 1, 0
+Coordinates 3, 1, 1
+Transparent 0,0,255
+;------------------------------
+
+;------ Boki ------------
+[meshbuilder]
+vertex 1.521, 1.8, 6.2
+vertex 1.337, 3.6, 6.2
+vertex 1.337, 3.6, 8
+vertex 1.521, 1.8, 8
+Face 3,2,1,0
+[Texture]
+Load bok_wew.png
+Coordinates 0, 0, 0.99
+Coordinates 1, 0, 0
+Coordinates 2, 0.99, 0
+Coordinates 3, 0.99, 0.99
+Transparent 0,0,255
+;-
+[meshbuilder]
+vertex -1.517, 1.8, 6.2
+vertex -1.337, 3.6, 6.2
+vertex -1.337, 3.6, 8
+vertex -1.517, 1.8, 8
+Face 0,1,2,3
+[Texture]
+Load bok_wew.png
+Coordinates 0, 0, 0.99
+Coordinates 1, 0, 0
+Coordinates 2, 0.99, 0
+Coordinates 3, 0.99, 0.99
+Transparent 0,0,255
+;------------------------
+
+;-------- SZYBY ---------
+[meshbuilder]
+Vertex 1.437, 2.5, 8.199
+Vertex 1.337, 3.6, 7.999
+Vertex -1.337, 3.6, 7.999
+Vertex -1.437, 2.5, 8.199
+Face 3,2,1,0
+Color 100,100,100,100
+[meshbuilder]
+Vertex 1.437, 2.5, 8.199
+Vertex 1.337, 3.6, 7.999
+Vertex -1.337, 3.6, 7.999
+Vertex -1.437, 2.5, 8.199
+Face 0,1,2,3
+Color 100,100,100,100
+;---
+[MeshBuilder]
+Vertex  1.52 ,  1.8 , 6.2 
+Vertex  1.336 ,  3.6 , 6.2 
+Vertex  1.336 ,  3.6 , 8 
+Vertex  1.52 ,  1.8 , 8 
+Face2  0, 1, 2, 3, 
+Color  100,100,100,100
+[MeshBuilder]
+Vertex -1.517 ,  1.8 , 6.2 
+Vertex -1.336 ,  3.6 , 6.2 
+Vertex -1.336 ,  3.6 , 8 
+Vertex -1.517 ,  1.8 , 8 
+Face2  3, 2, 1, 0, 
+Color  100,100,100,100
+;---
+
+;------------------------
+
+[meshbuilder]
+vertex 1.437, 2.5, 7.8
+vertex 1.437, 2.5, 8.2
+vertex -1.437, 2.5, 8.2
+vertex -1.437, 2.5, 7.8
+Face 3,2,1,0
+Load skos3.png
+Coordinates 0, 0, 1
+Coordinates 1, 0, 0
+Coordinates 2, 1, 0
+Coordinates 3, 1, 1
+Transparent 0,0,255
+
+[meshbuilder]
+vertex 1.521, 1.8, 7.8
+vertex 1.437, 2.5, 7.8
+vertex -1.437, 2.5, 7.8
+vertex -1.517, 1.8, 7.8
+Face 3,2,1,0
+Load skos3.png
+Coordinates 0, 0, 1
+Coordinates 1, 0, 0
+Coordinates 2, 1, 0
+Coordinates 3, 1, 1
+Transparent 0,0,255
+;---------------------------
+
+;============================================================================================================================================================
+;===========================================================  S R O D E K ===================================================================================
+;============================================================================================================================================================
+
+;================================
+;============ B O K I ===========
+;================================
+
+;------- Bok lewy --------------
+[MeshBuilder]
+Vertex -1.537, 1.6, 8
+Vertex -1.337, 3.6, 8
+Vertex -1.337, 3.6, -8
+Vertex -1.537, 1.6, -8
+Face 0,1,2,3
+[Texture]
+Load  bok_lewy.png
+Coordinates 0, 0,0
+Coordinates 1, 0,0.99
+Coordinates 2, 0.99,0.99
+Coordinates 3, 0.99,0
+Transparent 0,0,255
+
+[MeshBuilder]
+Vertex -1.537, 0.9, 8
+Vertex -1.537, 1.6, 8
+Vertex -1.537, 1.6, -8
+Vertex -1.537, 0.9, -8
+Face 0,1,2,3
+[Texture]
+Load  bok_lewy_dol.png
+Coordinates 0, 0,0
+Coordinates 1, 0,1
+Coordinates 2, 1,1
+Coordinates 3, 1,0
+Transparent 0,0,255
+;------------------------------------
+
+;--------- Bok prawy -----------------
+[MeshBuilder]
+Vertex 1.537, 1.65, 8
+Vertex 1.337, 3.6, 8
+Vertex 1.337, 3.6, -8
+Vertex 1.537, 1.65, -8
+Face 3,2,1,0
+[Texture]
+Load  bok_prawy.png
+Coordinates 0, 0,0
+Coordinates 1, 0,0.99
+Coordinates 2, 0.99,0.99
+Coordinates 3, 0.99,0
+Transparent 0,0,255
+
+[MeshBuilder]
+Vertex 1.537, 0.9, 8
+Vertex 1.537, 1.65, 8
+Vertex 1.537, 1.65, -8
+Vertex 1.537, 0.9, -8
+Face 3,2,1,0
+[Texture]
+Load  bok_prawy_dol.png
+Coordinates 0, 0,0
+Coordinates 1, 0,1
+Coordinates 2, 0.99,1
+Coordinates 3, 0.99,0
+Transparent 0,0,255
+;-------------------------------------
+
+;=====================================
+;============ P O D W O Z I E ========
+;=====================================
+[MeshBuilder]
+Vertex -1.1, 0, 1.9
+Vertex -1.1, 1.3, 1.9
+Vertex -1.1, 1.3, 7.3
+Vertex -1.1, 0, 7.3
+Face2 3,2,1,0
+[Texture]
+Load podwozie.png
+Coordinates 0, 0, 1
+Coordinates 1, 0, 0
+Coordinates 2, 1, 0
+Coordinates 3, 1, 1
+Transparent  0, 0, 255
+[MeshBuilder]
+Vertex -1.1, 0, -1.9
+Vertex -1.1, 1.3, -1.9
+Vertex -1.1, 1.3, -7.3
+Vertex -1.1, 0, -7.3
+Face2 0,1,2,3
+[Texture]
+Load podwozie.png
+Coordinates 0, 0, 1
+Coordinates 1, 0, 0
+Coordinates 2, 1, 0
+Coordinates 3, 1, 1
+Transparent  0, 0, 255
+;---
+[MeshBuilder]
+Vertex 1.1, 0, 1.9
+Vertex 1.1, 1.3, 1.9
+Vertex 1.1, 1.3, 7.3
+Vertex 1.1, 0, 7.3
+Face2 0,1,2,3
+[Texture]
+Load podwozie.png
+Coordinates 0, 0, 1
+Coordinates 1, 0, 0
+Coordinates 2, 1, 0
+Coordinates 3, 1, 1
+Transparent  0, 0, 255
+[MeshBuilder]
+Vertex 1.1, 0, -1.9
+Vertex 1.1, 1.3, -1.9
+Vertex 1.1, 1.3, -7.3
+Vertex 1.1, 0, -7.3
+Face2 3,2,1,0
+[Texture]
+Load podwozie.png
+Coordinates 0, 0, 1
+Coordinates 1, 0, 0
+Coordinates 2, 1, 0
+Coordinates 3, 1, 1
+Transparent  0, 0, 255
+;-----------------------------
+
+;----- Podloga ---------
+[Meshbuilder]
+Vertex 1.537, 1.3, 8
+Vertex 1.537, 1.3, -8
+Vertex -1.537, 1.3, -8
+Vertex -1.537, 1.3, 8
+Face2 3,2,1,0
+Color 20,20,20
+
+[Meshbuilder]
+Vertex 1.521, 1.8, 8
+Vertex 1.521, 1.8, -8
+Vertex -1.517, 1.8, -8
+Vertex -1.517, 1.8, 8
+Face2 3,2,1,0
+Color 20,20,20
+;-----------------------
+[Meshbuilder]
+Vertex 1.337, 3.599, 8
+Vertex 1.337, 3.599, -8
+Vertex -1.337, 3.599, -8
+Vertex -1.337, 3.599, 8
+Face2 3,2,1,0
+Color 20,20,20
+;--------- Sufit -------------
+
+
+;=================================
+;=========== D A C H =============
+;=================================
+[MeshBuilder]
+Vertex -1.337, 3.6, -7
+Vertex -1.1, 4, -7
+Vertex -1.1, 4, 7
+Vertex -1.337, 3.6, 7
+Face  3,2,1,0
+[Texture]
+Load  dach2.png
+Coordinates 0, 0, 1
+Coordinates 1, 0, 0
+Coordinates 2, 1, 0
+Coordinates 3, 1, 1
+
+[MeshBuilder]
+Vertex -1.1, 4, -7
+Vertex  0, 4.103, -7
+Vertex  0, 4.103, 7
+Vertex -1.1, 4, 7
+Face  3,2,1,0
+[Texture]
+Load  dach3.png
+Coordinates 0, 0, 1
+Coordinates 1, 0, 0
+Coordinates 2, 1, 0
+Coordinates 3, 1, 1
+
+[MeshBuilder]
+Vertex 1.1, 4, 7
+Vertex  0, 4.103, 7
+Vertex  0, 4.103, -7
+Vertex 1.1, 4, -7
+Face  3,2,1,0
+[Texture]
+Load  dach3.png
+Coordinates 3, 0, 1
+Coordinates 2, 0, 0
+Coordinates 1, 1, 0
+Coordinates 0, 1, 1
+
+[MeshBuilder]
+Vertex 1.337, 3.6, -7
+Vertex 1.1, 4, -7
+Vertex 1.1, 4, 7
+Vertex 1.337, 3.6, 7
+Face  0,1,2,3
+[Texture]
+Load  dach2.png
+Coordinates 0, 0, 1
+Coordinates 1, 0, 0
+Coordinates 2, 1, 0
+Coordinates 3, 1, 1
+;--------------------------
+[MeshBuilder]
+Vertex -1.337, 3.6, 8
+Vertex -1.1, 3.8, 8
+Vertex -1.1, 4, 7
+Vertex -1.337, 3.6, 7
+Face 0,1,2,3
+[Texture]
+Load  dach4.png
+Coordinates 2, 0, 1
+Coordinates 3, 0, 0
+Coordinates 0, 1, 0
+Coordinates 1, 1, 1
+
+[MeshBuilder]
+Vertex 0, 3.6, 8
+Vertex 0, 3.8, 8
+Vertex -1.1, 3.8, 8
+Vertex -1.337, 3.6, 8
+Face 0,1,2,3
+[Texture]
+Load  dach4.png
+Coordinates 1, 0, 1
+Coordinates 0, 0, 0
+Coordinates 3, 1, 0
+Coordinates 2, 1, 1
+;---
+[MeshBuilder]
+Vertex 1.337, 3.6, 8
+Vertex 1.1, 3.8, 8
+Vertex 0, 3.8, 8
+Vertex 0, 3.6, 8
+Face 0,1,2,3
+[Texture]
+Load  dach4.png
+Coordinates 2, 0, 1
+Coordinates 3, 0, 0
+Coordinates 0, 1, 0
+Coordinates 1, 1, 1
+
+[MeshBuilder]
+Vertex 1.337, 3.6, 8
+Vertex 1.1, 3.8, 8
+Vertex 1.1, 4, 7
+Vertex 1.337, 3.6, 7
+Face 3,2,1,0
+[Texture]
+Load  dach4.png
+Coordinates 2, 0, 1
+Coordinates 3, 0, 0
+Coordinates 0, 1, 0
+Coordinates 1, 1, 1
+;=====
+[MeshBuilder]
+Vertex -1.337, 3.6, -8
+Vertex -1.1, 3.8, -8
+Vertex -1.1, 4, -7
+Vertex -1.337, 3.6, -7
+Face 3,2,1,0
+[Texture]
+Load  dach4.png
+Coordinates 2, 0, 1
+Coordinates 3, 0, 0
+Coordinates 0, 1, 0
+Coordinates 1, 1, 1
+
+[MeshBuilder]
+Vertex 0, 3.6, -8
+Vertex 0, 3.8, -8
+Vertex -1.1, 3.8, -8
+Vertex -1.337, 3.6, -8
+Face 3,2,1,0
+[Texture]
+Load  dach4.png
+Coordinates 1, 0, 1
+Coordinates 0, 0, 0
+Coordinates 3, 1, 0
+Coordinates 2, 1, 1
+;---
+[MeshBuilder]
+Vertex 1.337, 3.6, -8
+Vertex 1.1, 3.8, -8
+Vertex 0, 3.8, -8
+Vertex 0, 3.6, -8
+Face 3,2,1,0
+[Texture]
+Load  dach4.png
+Coordinates 2, 0, 1
+Coordinates 3, 0, 0
+Coordinates 0, 1, 0
+Coordinates 1, 1, 1
+
+[MeshBuilder]
+Vertex 1.337, 3.6, -8
+Vertex 1.1, 3.8, -8
+Vertex 1.1, 4, -7
+Vertex 1.337, 3.6, -7
+Face 0,1,2,3
+[Texture]
+Load  dach4.png
+Coordinates 2, 0, 1
+Coordinates 3, 0, 0
+Coordinates 0, 1, 0
+Coordinates 1, 1, 1
+;-------------------------
+[MeshBuilder]
+Vertex 1.1, 3.8, 8
+Vertex 1.1, 4, 7
+Vertex 0, 4.103, 7
+Vertex 0, 3.8, 8
+Face  0,1,2,3
+[Texture]
+Load  dach4.png
+Coordinates 1, 0, 1
+Coordinates 2, 0, 0
+Coordinates 3, 1, 0
+Coordinates 0, 1, 1
+
+[MeshBuilder]
+Vertex 0, 3.8, 8
+Vertex 0, 4.103, 7
+Vertex -1.1, 4, 7
+Vertex -1.1, 3.8, 8
+Face 0,1,2,3
+[Texture]
+Load  dach4.png
+Coordinates 2, 0, 1
+Coordinates 1, 0, 0
+Coordinates 0, 1, 0
+Coordinates 3, 1, 1
+;===
+[MeshBuilder]
+Vertex 1.1, 3.8, -8
+Vertex 1.1, 4, -7
+Vertex 0, 4.103, -7
+Vertex 0, 3.8, -8
+Face 3,2,1,0
+[Texture]
+Load  dach4.png
+Coordinates 1, 0, 1
+Coordinates 2, 0, 0
+Coordinates 3, 1, 0
+Coordinates 0, 1, 1
+
+[MeshBuilder]
+Vertex 0, 3.8, -8
+Vertex 0, 4.103, -7
+Vertex -1.1, 4, -7
+Vertex -1.1, 3.8, -8
+Face 3,2,1,0
+[Texture]
+Load  dach4.png
+Coordinates 2, 0, 1
+Coordinates 1, 0, 0
+Coordinates 0, 1, 0
+Coordinates 3, 1, 1
+;-----------------------------
+;-----------------------------
+;-----------------------------
+
+;--------------------- Akumulatory --------------------
+[MeshBuilder]
+Cube 1.09, 0.5,1.8
+Rotate 1,0,0,0
+Translate 0,0.9,0
+Color 20,20,20
+;--------------------------
+[MeshBuilder]
+Vertex -1.1, 1.25, 1.8
+Vertex -1.1, 1.25, -0.5
+Vertex -1.1, 0.4, -0.5
+Vertex -1.1, 0.4, 1.8
+Face 0,1,2,3
+[Texture]
+Load akumulator1.png
+Coordinates 0, 0, 1
+Coordinates 1, 0, 0
+Coordinates 2, 1, 0
+Coordinates 3, 1, 1
+Transparent  0, 0, 255
+
+[MeshBuilder]
+Vertex -1.1, 1.25, -1.8
+Vertex -1.1, 1.25, -0.5
+Vertex -1.1, 0.4, -0.5
+Vertex -1.1, 0.4, -1.8
+Face 3,2,1,0
+[Texture]
+Load akumulator2.png
+Coordinates 0, 0, 1
+Coordinates 1, 0, 0
+Coordinates 2, 1, 0
+Coordinates 3, 1, 1
+Transparent  0, 0, 255
+;--------------------------
+[MeshBuilder]
+Vertex 1.1, 1.25, 1.8
+Vertex 1.1, 1.25, -0.5
+Vertex 1.1, 0.4, -0.5
+Vertex 1.1, 0.4, 1.8
+Face 3,2,1,0
+[Texture]
+Load akumulator1.png
+Coordinates 0, 0, 1
+Coordinates 1, 0, 0
+Coordinates 2, 1, 0
+Coordinates 3, 1, 1
+Transparent  0, 0, 255
+
+[MeshBuilder]
+Vertex 1.1, 1.25, -1.8
+Vertex 1.1, 1.25, -0.5
+Vertex 1.1, 0.4, -0.5
+Vertex 1.1, 0.4, -1.8
+Face 0,1,2,3
+[Texture]
+Load akumulator2.png
+Coordinates 0, 0, 1
+Coordinates 1, 0, 0
+Coordinates 2, 1, 0
+Coordinates 3, 1, 1
+Transparent  0, 0, 255
+;----------------------------------------------------
+
+;---- Drabinki -----------
+
+;lewa
+[MeshBuilder]
+Cube  0.02, 0.4, 0.02
+Translate  -1.5, 1, 6.95
+Color 20,20,20
+[MeshBuilder]
+Cube  0.02, 0.4, 0.02
+Translate  -1.5, 1, 6.3
+Color 20,20,20
+[MeshBuilder]
+Cube  0.1, 0.02, 0.345
+Translate  -1.5, 0.95, 6.625
+Color 20,20,20
+[MeshBuilder]
+Cube  0.1, 0.02, 0.345
+Translate  -1.5, 0.6, 6.625
+Color 20,20,20
+;---
+[MeshBuilder]
+Cube  0.02, 0.4, 0.02
+Translate  -1.5, 1, -7.1
+Color 20,20,20
+[MeshBuilder]
+Cube  0.02, 0.4, 0.02
+Translate  -1.5, 1, -6.45
+Color 20,20,20
+[MeshBuilder]
+Cube  0.1, 0.02, 0.345
+Translate  -1.5, 0.95, -6.775
+Color 20,20,20
+[MeshBuilder]
+Cube  0.1, 0.02, 0.345
+Translate  -1.5, 0.6, -6.775
+Color 20,20,20
+
+;prawa
+[MeshBuilder]
+Cube  0.02, 0.4, 0.02
+Translate  1.5, 1, 6.95
+Color 20,20,20
+[MeshBuilder]
+Cube  0.02, 0.4, 0.02
+Translate  1.5, 1, 6.3
+Color 20,20,20
+[MeshBuilder]
+Cube  0.1, 0.02, 0.345
+Translate  1.5, 0.95, 6.625
+Color 20,20,20
+[MeshBuilder]
+Cube  0.1, 0.02, 0.345
+Translate  1.5, 0.6, 6.625
+Color 20,20,20
+;---
+[MeshBuilder]
+Cube  0.02, 0.4, 0.02
+Translate  1.5, 1, -7.1
+Color 20,20,20
+[MeshBuilder]
+Cube  0.02, 0.4, 0.02
+Translate  1.5, 1, -6.45
+Color 20,20,20
+[MeshBuilder]
+Cube  0.1, 0.02, 0.345
+Translate  1.5, 0.95, -6.775
+Color 20,20,20
+[MeshBuilder]
+Cube  0.1, 0.02, 0.345
+Translate  1.5, 0.6, -6.775
+Color 20,20,20
+;----------------------------
+
+
+
+;----- Zaslepka --------------
+
+[meshbuilder]
+vertex 1.537, 1.3, 7.5
+vertex -1.38, 1.3, 7.5
+vertex -1.38, 0.9, 7.5
+vertex 1.537, 0.9, 7.5
+Face2 3,2,1,0
+Color 20,20,20
+[meshbuilder]
+vertex 1.28, 1.3, -7.7
+vertex -1.537, 1.3, -7.7
+vertex -1.537, 0.9, -7.7
+vertex 1.28, 0.9, -7.7
+Face2 3,2,1,0
+Color 20,20,20
+;--------------------------
+[meshbuilder]
+vertex 1.537, 1.3, 7.5
+vertex 1.1, 1.3, 7.3
+vertex 1.1, 0.9, 7.3
+vertex 1.537, 0.9, 7.5
+Face2 3,2,1,0
+Color 20,20,20
+[meshbuilder]
+vertex -1.537, 1.3, 7.6
+vertex -1.1, 1.3, 7.3
+vertex -1.1, 0.9, 7.3
+vertex -1.537, 0.9, 7.6
+Face2 3,2,1,0
+Color 20,20,20
+;---
+[meshbuilder]
+vertex 1.537, 1.3, -7.75
+vertex 1.1, 1.3, -7.3
+vertex 1.1, 0.9, -7.3
+vertex 1.537, 0.9, -7.75
+Face2 3,2,1,0
+Color 20,20,20
+[meshbuilder]
+vertex -1.537, 1.3, -7.6
+vertex -1.1, 1.3, -7.3
+vertex -1.1, 0.9, -7.3
+vertex -1.537, 0.9, -7.6
+Face2 3,2,1,0
+Color 20,20,20
+;-------------------------------
+
+;===================================
+;============== pantograf ==========
+;===================================
+
+;-------------------
+;pantograf tylny podniesiony
+
+[MeshBuilder]
+Vertex -0.4 ,  4.28 ,  3.1 
+Vertex -0.35 ,  4.28 ,  3.1 
+Vertex -0.35 ,  4.18 ,  4.1 
+Vertex -0.4 ,  4.18 ,  4.1 
+Vertex  0.4 ,  4.28 ,  3.1 
+Vertex  0.35 ,  4.28 ,  3.1 
+Vertex  0.35 ,  4.18 ,  4.1 
+Vertex  0.4 ,  4.18 ,  4.1 
+Vertex  0.4 ,  4.28 ,  4.5 
+Vertex  0.35 ,  4.28 ,  4.5 
+Vertex  0.35 ,  4.28 ,  3 
+Vertex  0.4 ,  4.28 ,  3 
+Vertex -0.4 ,  4.28 ,  4.5 
+Vertex -0.35 ,  4.28 ,  4.5 
+Vertex -0.35 ,  4.28 ,  3 
+Vertex -0.4 ,  4.28 ,  3 
+Vertex -0.4 ,  4.28 ,  4.5 
+Vertex -0.35 ,  4.28 ,  4.5 
+Vertex  0.4 ,  4.28 ,  3 
+Vertex  0.35 ,  4.28 ,  3 
+Face     0,1,2,3
+Face     3,2,1,0
+Face     4,5,6,7
+Face     7,6,5,4
+Face     8,9,10,11
+Face     11,10,9,8
+Face     12,13,14,15
+Face     15,14,13,12
+Face     16,17,18,19
+Face     19,18,17,16
+Color     192,0,0
+
+[MeshBuilder]
+Vertex -0.4 ,  4.28 ,  6 
+Vertex -0.35 ,  4.28 ,  6 
+Vertex -0.35 ,  4.18 ,  5 
+Vertex -0.4 ,  4.18 ,  5 
+Vertex  0.4 ,  4.28 ,  6 
+Vertex  0.35 ,  4.28 ,  6 
+Vertex  0.35 ,  4.18 ,  5 
+Vertex  0.4 ,  4.18 ,  5 
+Vertex  0.35 ,  4.28 ,  4.6 
+Vertex  0.4 ,  4.28 ,  4.6 
+Vertex  0.4 ,  4.28 ,  6 
+Vertex  0.35 ,  4.28 ,  6 
+Vertex -0.35 ,  4.28 ,  4.6 
+Vertex -0.4 ,  4.28 ,  4.6 
+Vertex -0.4 ,  4.28 ,  6 
+Vertex -0.35 ,  4.28 ,  6 
+Vertex  0.35 ,  4.28 ,  4.6 
+Vertex  0.4 ,  4.28 ,  4.6 
+Vertex -0.35 ,  4.28 ,  6 
+Vertex -0.4 ,  4.28 ,  6 
+Face     0,1,2,3
+Face     3,2,1,0
+Face     4,5,6,7
+Face     7,6,5,4
+Face     8,9,10,11
+Face     11,10,9,8
+Face     12,13,14,15
+Face     15,14,13,12
+Face     16,17,18,19
+Face     19,18,17,16
+Color     192,0,0
+
+;ploza
+[MeshBuilder]
+Vertex -1 ,  4.08 ,  4.6 
+Vertex -0.6 ,  4.28 ,  4.7 
+Vertex -0.6 ,  4.28 ,  4.5 
+Vertex  1 ,  4.08 ,  4.6 
+Vertex  0.6 ,  4.28 ,  4.7 
+Vertex  0.6 ,  4.28 ,  4.5 
+Vertex -0.6 ,  4.28 ,  4.7 
+Vertex  0.6 ,  4.28 ,  4.7 
+Vertex  0.6 ,  4.28 ,  4.5 
+Vertex -0.6 ,  4.28 ,  4.5 
+Face     2,1,0
+Face     0,1,2
+Face     3,4,5
+Face     5,4,3
+Face     6,7,8,9
+Face     9,8,7,6
+Color     192,0,0
+
+;podstawa pantografu
+
+[MeshBuilder]
+Vertex -0.4 ,  4.23 ,  4.1 
+Vertex  0.4 ,  4.23 ,  4.1 
+Vertex  0.4 ,  4.13 ,  4.1 
+Vertex -0.4 ,  4.13 ,  4.1 
+Face    0,1,2,3
+Face    3,2,1,0
+[Texture]
+Load    pant1.png
+Coordinates    0, 0, 0
+Coordinates    1, 1, 0
+Coordinates    2, 1, 1
+Coordinates    3, 0, 1
+
+[MeshBuilder]
+Vertex -0.4 ,  4.23 ,  5 
+Vertex  0.4 ,  4.23 ,  5 
+Vertex  0.4 ,  4.13 ,  5 
+Vertex -0.4 ,  4.13 ,  5 
+Face    0,1,2,3
+Face    3,2,1,0
+[Texture]
+Load    pant1.png
+Coordinates    0, 0, 0
+Coordinates    1, 1, 0
+Coordinates    2, 1, 1
+Coordinates    3, 0, 1
+
+[MeshBuilder]
+Vertex -0.4 ,  4.23 ,  5.2 
+Vertex -0.4 ,  4.23 ,  3.9 
+Vertex -0.4 ,  4.08 ,  3.9 
+Vertex -0.4 ,  4.08 ,  5.2 
+Face    0,1,2,3
+Face    3,2,1,0
+[Texture]
+Load    pant2.png
+Coordinates    0, 0, 0
+Coordinates    1, 1, 0
+Coordinates    2, 1, 1
+Coordinates    3, 0, 1
+Transparent       0,0,255
+
+[MeshBuilder]
+Vertex  0.4 ,  4.23 ,  3.9 
+Vertex  0.4 ,  4.23 ,  5.2 
+Vertex  0.4 ,  4.08 ,  5.2 
+Vertex  0.4 ,  4.08 ,  3.9 
+Face    0,1,2,3
+Face    3,2,1,0
+[Texture]
+Load    pant2.png
+Coordinates    0, 0, 0
+Coordinates    1, 1, 0
+Coordinates    2, 1, 1
+Coordinates    3, 0, 1
+Transparent       0,0,255
+
+;pantograf przedni podniesiony
+[MeshBuilder]
+Vertex -0.4 ,  4.98 , -6 
+Vertex -0.35 ,  4.98 , -6 
+Vertex -0.35 ,  4.18 , -5 
+Vertex -0.4 ,  4.18 , -5 
+Vertex  0.4 ,  4.98 , -6 
+Vertex  0.35 ,  4.98 , -6 
+Vertex  0.35 ,  4.18 , -5 
+Vertex  0.4 ,  4.18 , -5 
+Vertex  0.4 ,  5.78 , -4.6 
+Vertex  0.35 ,  5.78 , -4.6 
+Vertex  0.35 ,  4.98 , -6 
+Vertex  0.4 ,  4.98 , -6 
+Vertex -0.4 ,  5.78 , -4.6 
+Vertex -0.35 ,  5.78 , -4.6 
+Vertex -0.35 ,  4.98 , -6 
+Vertex -0.4 ,  4.98 , -6 
+Vertex -0.4 ,  5.78 , -4.6 
+Vertex -0.35 ,  5.78 , -4.6 
+Vertex  0.4 ,  4.98 , -6 
+Vertex  0.35 ,  4.98 , -6 
+Face     0,1,2,3
+Face     3,2,1,0
+Face     4,5,6,7
+Face     7,6,5,4
+Face     8,9,10,11
+Face     11,10,9,8
+Face     12,13,14,15
+Face     15,14,13,12
+Face     16,17,18,19
+Face     19,18,17,16
+Color     192,0,0
+
+[MeshBuilder]
+Vertex -0.4 ,  4.98 , -3.1 
+Vertex -0.35 ,  4.98 , -3.1 
+Vertex -0.35 ,  4.18 , -4.1 
+Vertex -0.4 ,  4.18 , -4.1 
+Vertex  0.4 ,  4.98 , -3.1 
+Vertex  0.35 ,  4.98 , -3.1 
+Vertex  0.35 ,  4.18 , -4.1 
+Vertex  0.4 ,  4.18 , -4.1 
+Vertex  0.35 ,  5.78 , -4.5 
+Vertex  0.4 ,  5.78 , -4.5 
+Vertex  0.4 ,  4.98 , -3.1 
+Vertex  0.35 ,  4.98 , -3.1 
+Vertex -0.35 ,  5.78 , -4.5 
+Vertex -0.4 ,  5.78 , -4.5 
+Vertex -0.4 ,  4.98 , -3.1 
+Vertex -0.35 ,  4.98 , -3.1 
+Vertex  0.35 ,  5.78 , -4.5 
+Vertex  0.4 ,  5.78 , -4.5 
+Vertex -0.35 ,  4.98 , -3.1 
+Vertex -0.4 ,  4.98 , -3.1 
+Face     0,1,2,3
+Face     3,2,1,0
+Face     4,5,6,7
+Face     7,6,5,4
+Face     8,9,10,11
+Face     11,10,9,8
+Face     12,13,14,15
+Face     15,14,13,12
+Face     16,17,18,19
+Face     19,18,17,16
+Color     192,0,0
+
+[MeshBuilder]
+Vertex -1 ,  5.48 , -4.5 
+Vertex -0.6 ,  5.78 , -4.4 
+Vertex -0.6 ,  5.78 , -4.6 
+Vertex  1 ,  5.48 , -4.5 
+Vertex  0.6 ,  5.78 , -4.4 
+Vertex  0.6 ,  5.78 , -4.6 
+Vertex -0.6 ,  5.78 , -4.4 
+Vertex  0.6 ,  5.78 , -4.4 
+Vertex  0.6 ,  5.78 , -4.6 
+Vertex -0.6 ,  5.78 , -4.6 
+Face     2,1,0
+Face     0,1,2
+Face     3,4,5
+Face     5,4,3
+Face     6,7,8,9
+Face     9,8,7,6
+Color     192,0,0
+
+
+;podstawa pantografu
+
+[MeshBuilder]
+Vertex -0.4 ,  4.23 , -5 
+Vertex  0.4 ,  4.23 , -5 
+Vertex  0.4 ,  4.13 , -5 
+Vertex -0.4 ,  4.13 , -5 
+Face    0,1,2,3
+Face    3,2,1,0
+[Texture]
+Load    pant1.png
+Coordinates    0, 0, 0
+Coordinates    1, 1, 0
+Coordinates    2, 1, 1
+Coordinates    3, 0, 1
+
+[MeshBuilder]
+Vertex -0.4 ,  4.23 , -4.1 
+Vertex  0.4 ,  4.23 , -4.1 
+Vertex  0.4 ,  4.13 , -4.1 
+Vertex -0.4 ,  4.13 , -4.1 
+Face    0,1,2,3
+Face    3,2,1,0
+[Texture]
+Load pant1.png
+Coordinates    0, 0, 0
+Coordinates    1, 1, 0
+Coordinates    2, 1, 1
+Coordinates    3, 0, 1
+
+[MeshBuilder]
+Vertex -0.4 ,  4.23 , -3.9 
+Vertex -0.4 ,  4.23 , -5.2 
+Vertex -0.4 ,  4.08 , -5.2 
+Vertex -0.4 ,  4.08 , -3.9 
+Face    0,1,2,3
+Face    3,2,1,0
+[Texture]
+Load pant2.png
+Coordinates    0, 0, 0
+Coordinates    1, 1, 0
+Coordinates    2, 1, 1
+Coordinates    3, 0, 1
+Transparent       0,0,255
+
+[MeshBuilder]
+Vertex  0.4 ,  4.23 , -5.2 
+Vertex  0.4 ,  4.23 , -3.9 
+Vertex  0.4 ,  4.08 , -3.9 
+Vertex  0.4 ,  4.08 , -5.2 
+Face    0,1,2,3
+Face    3,2,1,0
+[Texture]
+Load pant2.png
+Coordinates    0, 0, 0
+Coordinates    1, 1, 0
+Coordinates    2, 1, 1
+Coordinates    3, 0, 1
+Transparent       0,0,255
+;==============================================
+
+
+
+;============================================================================================================================================================
+;============================================================= T Y L ====================================================================================
+;============================================================================================================================================================
+
+;----- Syreny ---------
+[MeshBuilder]
+Cylinder   10, 0.01, 0.07, 0.1
+Rotate  0, 0, 1, 180,;This line added by BVE File Converter
+Rotate  1 ,  0 ,  0 ,-90 
+Translate  0.5 ,  3.95 , -8 
+Color  133,133,133
+[MeshBuilder]
+Cylinder   10, 0.02, 0.02, 0.3
+Rotate  0, 0, 1, 180,;This line added by BVE File Converter
+Rotate  1 ,  0 ,  0 ,-90 
+Translate  0.5 ,  3.95 , -7.85 
+Color  133,133,133
+[MeshBuilder]
+Cube   0.03, 0.07, 0.03
+Rotate  0, 0, 1, 180,;This line added by BVE File Converter
+Translate  0.5 ,  3.9 , -7.7 
+Color  133,133,133
+;---
+[MeshBuilder]
+Cylinder   10, 0.01, 0.07, 0.1
+Rotate  0, 0, 1, 180,;This line added by BVE File Converter
+Rotate  1 ,  0 ,  0 ,-90 
+Translate -0.5 ,  3.95 , -8 
+Color  133,133,133
+[MeshBuilder]
+Cylinder   10, 0.02, 0.02, 0.3
+Rotate  0, 0, 1, 180,;This line added by BVE File Converter
+Rotate  1 ,  0 ,  0 ,-90 
+Translate -0.5 ,  3.95 , -7.85 
+Color  133,133,133
+[MeshBuilder]
+Cube   0.03, 0.07, 0.03
+Rotate  0, 0, 1, 180,;This line added by BVE File Converter
+Translate -0.5 ,  3.9 , -7.7 
+Color  133,133,133
+;-----------------------------
+
+;----- schodki ------
+[MeshBuilder]
+Cube  0.2,0.08,0.01
+Color  178,68,15
+Rotate  0,0,0,90
+Translate  -1,1.25,-8.05
+[MeshBuilder]
+Cube  0.2,0.08,0.01
+Color  178,68,15
+Rotate  0,0,0,90
+Translate  -0.6,1.45,-8.05
+[MeshBuilder]
+Cube  0.2,0.08,0.01
+Color  178,68,15
+Rotate  0,0,0,90
+Translate  1,1.25,-8.05
+[MeshBuilder]
+Cube  0.2,0.08,0.01
+Color  178,68,15
+Rotate  0,0,0,90
+Translate  0.6,1.45,-8.05
+;--------------------
+[MeshBuilder]
+Cube  0.5,0.08,0.01
+Color  163,82,57
+Rotate  0,0,0,90
+Translate  0,1.9,-8.1
+[MeshBuilder]
+Vertex 0.5, 1.9101, -8.069
+Vertex 0.5, 1.9101, -8.18
+Vertex -0.5, 1.9101, -8.18
+Vertex -0.5, 1.9101, -8.069
+Face  3,2,1,0
+[Texture]
+Load  schodek.png
+Coordinates 0, 0, 1
+Coordinates 1, 0, 0
+Coordinates 2, 1, 0
+Coordinates 3, 1, 1
+;-------------------------
+
+
+;----- Okna --------
+[MeshBuilder]
+Vertex  1.437 ,  2.5 , -8.2 
+Vertex  1.337 ,  3.6 , -8 
+Vertex  0 ,  3.6 , -8 
+Vertex  0 ,  2.5 , -8.2 
+Face  3, 2, 1, 0, 
+
+Transparent   0,0,255
+[Texture]
+Load   okna.png
+Coordinates  0, 0.01, 0.99
+Coordinates  1, 0.01, 0.01
+Coordinates  2, 0.5, 0.01
+Coordinates  3, 0.5, 0.99
+;---
+[MeshBuilder]
+Vertex  0 ,  2.5 , -8.2 
+Vertex  0 ,  3.6 , -8 
+Vertex -1.337 ,  3.6 , -8 
+Vertex -1.437 ,  2.5 , -8.2 
+Face  3, 2, 1, 0, 
+
+Transparent   0,0,255
+[Texture]
+Load   okna.png
+Coordinates  0, 0.5, 0.99
+Coordinates  1, 0.5, 0.01
+Coordinates  2, 0.99, 0.01
+Coordinates  3, 0.99, 0.99
+;---------------------
+[MeshBuilder]
+Vertex  1.437 ,  2.5 , -8.2 
+Vertex  1.337 ,  3.6 , -8 
+Vertex  0 ,  3.6 , -8 
+Vertex  0 ,  2.5 , -8.2 
+Face  0, 1, 2, 3, 
+
+Transparent   0,0,255
+[Texture]
+Load   okna_wew.png
+Coordinates  0, 0.01, 0.99
+Coordinates  1, 0.01, 0.01
+Coordinates  2, 0.5, 0.01
+Coordinates  3, 0.5, 0.99
+;---
+[MeshBuilder]
+Vertex  0 ,  2.5 , -8.2 
+Vertex  0 ,  3.6 , -8 
+Vertex -1.337 ,  3.6 , -8 
+Vertex -1.437 ,  2.5 , -8.2 
+Face  0, 1, 2, 3, 
+
+Transparent   0,0,255
+[Texture]
+Load   okna_wew.png
+Coordinates  0, 0.5, 0.99
+Coordinates  1, 0.5, 0.01
+Coordinates  2, 0.99, 0.01
+Coordinates  3, 0.99, 0.99
+;----------------------
+
+;----- Przod ----------
+[MeshBuilder]
+Vertex  1.537 ,  1.6 , -8 
+Vertex  1.437 ,  2.5 , -8.2 
+Vertex -1.437 ,  2.5 , -8.2 
+Vertex -1.537 ,  1.6 , -8 
+Face  3, 2, 1, 0, 
+
+[Texture]
+Load   przod.png
+Coordinates  0, 1, 1
+Coordinates  1, 1, 0
+Coordinates  2, 0, 0
+Coordinates  3, 0, 1
+;----------------------
+
+;----- 850 kn ---------
+[MeshBuilder]
+Vertex  1.537 ,  0.9 , -8 
+Vertex  1.537 ,  1.6 , -8 
+Vertex -1.537 ,  1.6 , -8 
+Vertex -1.537 ,  0.9 , -8 
+Face2  0, 1, 2, 3, 
+
+[Texture]
+Load   850kn.png
+Coordinates  0, 1, 1
+Coordinates  1, 1, 0
+Coordinates  2, 0, 0
+Coordinates  3, 0, 1
+;----------------------
+
+[MeshBuilder]
+Vertex  1.537 ,  1.6 , -8 
+Vertex  1.537 ,  1.65 , -8 
+Vertex  1.437 ,  2.5 , -8.2 
+Face  2, 1, 0, 
+
+[Texture]
+Load  skos1.png
+Coordinates  0, 0,0
+Coordinates  1, 0,1
+Coordinates  2, 1,1
+[MeshBuilder]
+Vertex -1.537 ,  1.6 , -8 
+Vertex -1.537 ,  1.65 , -8 
+Vertex -1.437 ,  2.5 , -8.2 
+Face  0, 1, 2, 
+
+[Texture]
+Load  skos1.png
+Coordinates  0, 0,0
+Coordinates  1, 0,1
+Coordinates  2, 1,1
+
+;------- skos -------
+[MeshBuilder]
+Vertex  1.537 ,  1.65 , -8 
+Vertex  1.45 ,  2.5 , -8 
+Vertex  1.437 ,  2.5 , -8.2 
+Face  2, 1, 0, 
+
+[Texture]
+Load  skos1.png
+Coordinates  0, 0,0
+Coordinates  1, 0,1
+Coordinates  2, 1,1
+[MeshBuilder]
+Vertex -1.537 ,  1.6 , -8 
+Vertex -1.447 ,  2.5 , -8 
+Vertex -1.437 ,  2.5 , -8.2 
+Face  0, 1, 2, 
+
+[Texture]
+Load  skos1.png
+Coordinates  0, 0,0
+Coordinates  1, 0,1
+Coordinates  2, 1,1
+;---
+[MeshBuilder]
+Vertex  1.337 ,  3.6 , -8 
+Vertex  1.45 ,  2.5 , -8 
+Vertex  1.437 ,  2.5 , -8.2 
+Face  0, 1, 2, 
+
+[Texture]
+Load  skos2.png
+Coordinates  0, 0,0
+Coordinates  1, 0,1
+Coordinates  2, 1,1
+[MeshBuilder]
+Vertex -1.337 ,  3.6 , -8 
+Vertex -1.447 ,  2.5 , -8 
+Vertex -1.437 ,  2.5 , -8.2 
+Face  2, 1, 0, 
+
+[Texture]
+Load  skos2.png
+Coordinates  0, 0,0
+Coordinates  1, 0,1
+Coordinates  2, 1,1
+;=======================
+[MeshBuilder]
+Vertex  1.521 ,  1.6 , -8 
+Vertex  1.45 ,  2.5 , -8 
+Vertex  1.437 ,  2.5 , -8.2 
+Face  0, 1, 2, 
+
+[Texture]
+Load  skos3.png
+Coordinates  0, 0,0
+Coordinates  1, 0,1
+Coordinates  2, 1,1
+[MeshBuilder]
+Vertex -1.521 ,  1.6 , -8 
+Vertex -1.45 ,  2.5 , -8 
+Vertex -1.437 ,  2.5 , -8.2 
+Face  2, 1, 0, 
+
+[Texture]
+Load  skos3.png
+Coordinates  0, 0,0
+Coordinates  1, 0,1
+Coordinates  2, 1,1
+;---
+[MeshBuilder]
+Vertex  1.337 ,  3.6 , -8 
+Vertex  1.45 ,  2.5 , -8 
+Vertex  1.437 ,  2.5 , -8.2 
+Face  2, 1, 0, 
+
+[Texture]
+Load  skos3.png
+Coordinates  0, 0,0
+Coordinates  1, 0,1
+Coordinates  2, 1,1
+[MeshBuilder]
+Vertex -1.337 ,  3.6 , -8 
+Vertex -1.45 ,  2.5 , -8 
+Vertex -1.437 ,  2.5 , -8.2 
+Face  0, 1, 2, 
+
+[Texture]
+Load  skos3.png
+Coordinates  0, 0,0
+Coordinates  1, 0,1
+Coordinates  2, 1,1
+;-------------------------
+
+;----------- Plug -----------
+[MeshBuilder]
+Vertex  1.537 ,  0.17 , -7.9 
+Vertex  1.537 ,  0.9 , -7.7 
+Vertex  0 ,  0.9 , -7.5 
+Vertex -1.537 ,  0.9 , -7.7
+Vertex -1.537 ,  0.17 , -7.9 
+Vertex  0 ,  0.17 , -8.2 
+Vertex  1.537 ,  0.9 , -8 
+Vertex -1.537 ,  0.9 , -8 
+Face2  0, 1, 2, 5, 
+Face2  2, 3, 4, 5, 
+Face2  1, 6, 7, 3, 
+
+[Texture]
+Load  plug.png
+Coordinates  0, 0, 1
+Coordinates  1, 0, 0.3
+Coordinates  2, 0.5, 0.3
+Coordinates  3, 1, 0.3
+Coordinates  4, 1, 1
+Coordinates  5, 0.5, 1
+Coordinates  6, 0, 0
+Coordinates  7, 1, 0
+Transparent    0, 0, 255
+;------------------------------
+
+;---- SWIATLA --------
+[MeshBuilder]
+Cube   0.25,0.5,0.24
+Rotate  0, 0, 1, 180,;This line added by BVE File Converter
+Color  133,133,133
+Rotate  1 ,  0 ,  0 ,-90 
+Translate  0 ,  3.84 , -7.4999 
+
+[MeshBuilder]
+Vertex -0.25 ,  4.08 , -8.001 
+Vertex  0.25 ,  4.08 , -8.001 
+Vertex  0.25 ,  3.6 , -8.001 
+Vertex -0.25 ,  3.6 , -8.001 
+Face  0, 1, 2, 3, 
+
+[Texture]
+Load   swiatlo3.png, swiatlo2.png
+Coordinates   0,0,0
+Coordinates   1,1,0
+Coordinates   2,1,1
+Coordinates   3,0,1
+Transparent     255,255,255
+;-
+[MeshBuilder]
+Cylinder   24,0.25,0.25,0.2
+Rotate  0, 0, 1, 180,;This line added by BVE File Converter
+Color  142,74,55
+Rotate  1 ,  0 ,  0 ,-90 
+Translate  0.9 ,  1.88 , -8.1 
+
+[MeshBuilder]
+Vertex -1.15 ,  2.13 , -8.201 
+Vertex -0.65 ,  2.13 , -8.201 
+Vertex -0.65 ,  1.63 , -8.201 
+Vertex -1.15 ,  1.63 , -8.201 
+Face  0, 1, 2, 3, 
+
+[Texture]
+Load   swiatlo.png, swiatlo2.png
+Coordinates   0,0,0
+Coordinates   1,1,0
+Coordinates   2,1,1
+Coordinates   3,0,1
+Transparent     255,255,255
+;-
+[MeshBuilder]
+Cylinder   24,0.25,0.25,0.2
+Rotate  0, 0, 1, 180,;This line added by BVE File Converter
+Color  142,74,55
+Rotate  1 ,  0 ,  0 ,-90 
+Translate -0.911 ,  1.88 , -8.1 
+
+[MeshBuilder]
+Vertex  1.15 ,  2.13 , -8.201 
+Vertex  0.65 ,  2.13 , -8.201 
+Vertex  0.65 ,  1.63 , -8.201 
+Vertex  1.15 ,  1.63 , -8.201 
+Face  3, 2, 1, 0, 
+
+[Texture]
+Load   swiatlo.png, swiatlo2.png
+Coordinates   0,0,0
+Coordinates   1,1,0
+Coordinates   2,1,1
+Coordinates   3,0,1
+Transparent     255,255,255
+;-- KONIEC SWIATLA---
+
+;------------- zderzaki ------------------
+[MeshBuilder]
+Cube   0.22, 0.13, 0.04
+Rotate  0, 0, 1, 180,;This line added by BVE File Converter
+Translate -1 ,  1.05 , -8 
+Color  60, 60, 60
+
+[MeshBuilder]
+Cylinder   10, 0.1, 0.1, 0.4
+Rotate  0, 0, 1, 180,;This line added by BVE File Converter
+Rotate  1 ,  0 ,  0 ,-90 
+Translate -1 ,  1.05 , -8.23 
+Color  60, 60, 60
+
+[MeshBuilder]
+Cylinder   20, 0.11, 0.11, 0.4
+Rotate  0, 0, 1, 180,;This line added by BVE File Converter
+Rotate  1 ,  0 ,  0 ,-90 
+Translate -1 ,  1.05 , -8.1 
+Color  60, 60, 60
+
+[MeshBuilder]
+Vertex -0.7 ,  0.87 , -8.435 
+Vertex -0.7 ,  1.22 , -8.435 
+Vertex -1.34 ,  1.22 , -8.435 
+Vertex -1.34 ,  0.87 , -8.435 
+Face2  3, 2, 1, 0, 
+
+[Texture]
+Load  zderzak.png
+Coordinates  0, 0, 1
+Coordinates  1, 0, 0
+Coordinates  2, 1, 0
+Coordinates  3, 1, 1
+Transparent   0,0,255
+;---
+[MeshBuilder]
+Cube   0.22, 0.13, 0.04
+Rotate  0, 0, 1, 180,;This line added by BVE File Converter
+Translate  1 ,  1.05 , -8 
+Color  60, 60, 60
+
+[MeshBuilder]
+Cylinder   10, 0.1, 0.1, 0.4
+Rotate  0, 0, 1, 180,;This line added by BVE File Converter
+Rotate  1 ,  0 ,  0 ,-90 
+Translate  1 ,  1.05 , -8.23 
+Color  60, 60, 60
+
+[MeshBuilder]
+Cylinder   20, 0.11, 0.11, 0.4
+Rotate  0, 0, 1, 180,;This line added by BVE File Converter
+Rotate  1 ,  0 ,  0 ,-90 
+Translate  1 ,  1.05 , -8.1 
+Color  60, 60, 60
+
+[MeshBuilder]
+Vertex  0.7 ,  0.87 , -8.435 
+Vertex  0.7 ,  1.22 , -8.435 
+Vertex  1.34 ,  1.22 , -8.435 
+Vertex  1.34 ,  0.87 , -8.435 
+Face2  0, 1, 2, 3, 
+
+[Texture]
+Load  zderzak.png
+Coordinates  0, 0, 1
+Coordinates  1, 0, 0
+Coordinates  2, 1, 0
+Coordinates  3, 1, 1
+Transparent   0,0,255
+;--------------------------------
+
+;==========================================
+;============== K A B I N A ===============
+;==========================================
+
+;---- Sciana tyl --------------
+
+[MeshBuilder]
+Vertex  1.521 ,  1.8 , -6.2 
+Vertex  1.337 ,  3.6 , -6.2 
+Vertex  1.237 ,  3.6 , -6.2 
+Vertex  1.237 ,  1.8 , -6.2 
+Face2  3, 2, 1, 0, 
+
+[Texture]
+Load  skos3.png
+Coordinates  0, 0, 1
+Coordinates  1, 0, 0
+Coordinates  2, 1, 0
+Coordinates  3, 1, 1
+Transparent   0,0,255
+
+[MeshBuilder]
+Vertex  1.237 ,  1.8 , -6.2 
+Vertex  1.237 ,  3.6 , -6.2 
+Vertex -1.237 ,  3.6 , -6.2 
+Vertex -1.237 ,  1.8 , -6.2 
+Face2  3, 2, 1, 0, 
+
+[Texture]
+Load  sciana_tyl.png
+Coordinates  0, 1, 1
+Coordinates  1, 1, 0
+Coordinates  2, 0, 0
+Coordinates  3, 0, 1
+Transparent   0,0,255
+
+[MeshBuilder]
+Vertex -1.517 ,  1.8 , -6.2 
+Vertex -1.337 ,  3.6 , -6.2 
+Vertex -1.237 ,  3.6 , -6.2 
+Vertex -1.237 ,  1.8 , -6.2 
+Face2  0, 1, 2, 3, 
+
+[Texture]
+Load  skos3.png
+Coordinates  0, 0, 1
+Coordinates  1, 0, 0
+Coordinates  2, 1, 0
+Coordinates  3, 1, 1
+Transparent   0,0,255
+;------------------------------
+
+;------ Boki ------------
+[MeshBuilder]
+Vertex  1.521 ,  1.8 , -6.2 
+Vertex  1.337 ,  3.6 , -6.2 
+Vertex  1.337 ,  3.6 , -8 
+Vertex  1.521 ,  1.8 , -8 
+Face  0, 1, 2, 3, 
+
+[Texture]
+Load  bok_wew.png
+Coordinates  0, 0, 0.99
+Coordinates  1, 0, 0
+Coordinates  2, 0.99, 0
+Coordinates  3, 0.99, 0.99
+Transparent   0,0,255
+;-
+[MeshBuilder]
+Vertex -1.517 ,  1.8 , -6.2 
+Vertex -1.337 ,  3.6 , -6.2 
+Vertex -1.337 ,  3.6 , -8 
+Vertex -1.517 ,  1.8 , -8 
+Face  3, 2, 1, 0, 
+
+[Texture]
+Load  bok_wew.png
+Coordinates  0, 0, 0.99
+Coordinates  1, 0, 0
+Coordinates  2, 0.99, 0
+Coordinates  3, 0.99, 0.99
+Transparent   0,0,255
+;------------------------
+
+;-------- SZYBY ---------
+[MeshBuilder]
+Vertex  1.437 ,  2.5 , -8.199 
+Vertex  1.337 ,  3.6 , -7.999 
+Vertex -1.337 ,  3.6 , -7.999 
+Vertex -1.437 ,  2.5 , -8.199 
+Face  0, 1, 2, 3, 
+Color  100,100,100,100
+[MeshBuilder]
+Vertex  1.437 ,  2.5 , -8.199 
+Vertex  1.337 ,  3.6 , -7.999 
+Vertex -1.337 ,  3.6 , -7.999 
+Vertex -1.437 ,  2.5 , -8.199 
+Face  3, 2, 1, 0, 
+Color  100,100,100,100
+;---
+[MeshBuilder]
+Vertex  1.52 ,  1.8 , -6.2 
+Vertex  1.336 ,  3.6 , -6.2 
+Vertex  1.336 ,  3.6 , -8 
+Vertex  1.52 ,  1.8 , -8 
+Face2  3, 2, 1, 0, 
+Color   100,100,100,100
+[MeshBuilder]
+Vertex -1.517 ,  1.8 , -6.2 
+Vertex -1.336 ,  3.6 , -6.2 
+Vertex -1.336 ,  3.6 , -8 
+Vertex -1.517 ,  1.8 , -8 
+Face2  0, 1, 2, 3, 
+Color   100,100,100,100
+;---
+
+;------------------------
+
+[MeshBuilder]
+Vertex  1.437 ,  2.5 , -7.8 
+Vertex  1.437 ,  2.5 , -8.2 
+Vertex -1.437 ,  2.5 , -8.2 
+Vertex -1.437 ,  2.5 , -7.8 
+Face  0, 1, 2, 3, 
+
+[Texture]
+Load  skos3.png
+Coordinates  0, 0, 1
+Coordinates  1, 0, 0
+Coordinates  2, 1, 0
+Coordinates  3, 1, 1
+Transparent   0,0,255
+
+[MeshBuilder]
+Vertex  1.521 ,  1.8 , -7.8 
+Vertex  1.437 ,  2.5 , -7.8 
+Vertex -1.437 ,  2.5 , -7.8 
+Vertex -1.517 ,  1.8 , -7.8 
+Face  0, 1, 2, 3, 
+
+[Texture]
+Load  skos3.png
+Coordinates  0, 0, 1
+Coordinates  1, 0, 0
+Coordinates  2, 1, 0
+Coordinates  3, 1, 1
+Transparent   0,0,255
+;---------------------------

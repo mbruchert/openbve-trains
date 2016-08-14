@@ -1,0 +1,44 @@
+05N | 新05系 (ATS-P + CS-ATC)
+
+Tokyo Metro (Eidan) Tozai Line
+
+東京メトロ　(営団) 東西線
+
+10 cars - 10 両:
+
+Batch 8 - 8次車
+
+KuHa 「クハ」 05-100 (CT1)
+MoHa 「モハ」 05-200 (M1)◇
+SaHa 「サハ」 05-300 (T)
+MoHa 「モハ」 05-400 (M2)◇
+SaHa 「サハ」 05-500 (Tc1)
+SaHa 「サハ」 05-600 (Tc2)
+MoHa 「モハ」 05-700 (M1)◇
+MoHa 「モハ」 05-800 (M2)
+MoHa 「モハ」 05-900 (M1)◇
+KuHa 「クハ」 05-000 (CT2)
+
+Batch 11 - 11次車
+
+KuHa 「クハ」 05-100 (CT1)
+MoHa 「モハ」 05-200 (M1)<>
+MoHa 「モハ」 05-300 (M2)
+SaHa 「サハ」 05-400 (Tc)
+MoHa 「モハ」 05-500 (Mc1)>
+SaHa 「サハ」 05-600 (T)
+SaHa 「サハ」 05-700 (T)
+MoHa 「モハ」 05-800 (M1)<>
+MoHa 「モハ」 05-900 (M2)
+KuHa 「クハ」 05-000 (CT2)
+
+Electric Multiple Unit
+
+VVVF-IGBT Inverter System
+
+
+Exterior & interior (C) Charles Y. A.
+
+
+Balai Yasa BVE GM-MarKA
+Official factory of BVE Indonesia

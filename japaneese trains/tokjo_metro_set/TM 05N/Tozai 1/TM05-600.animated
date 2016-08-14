@@ -1,0 +1,84 @@
+; Animation by Charles Y.A. 
+; Numbering system by Charles
+
+;[Include]
+
+;straps_tc2.animated
+;Position=0,0,2.1
+
+[Object]
+Position = 0, 0, 0
+States = TM05-600.csv
+
+[object]
+Position = 0, 0.44, -8
+states=wheel.csv
+RotateXFunction = value + mod[(speedometer * delta),2.7] / 2.7 * 3.14 * 2
+
+[object]
+Position = 0, 0.44, -5.8
+states=wheel.csv
+RotateXFunction = value + mod[(speedometer * delta),2.7] / 2.7 * 3.14 * 2
+
+[object]
+Position = 0, 0.44, 7.9
+states=wheel.csv
+RotateXFunction = value + mod[(speedometer * delta),2.7] / 2.7 * 3.14 * 2
+
+[object]
+Position = 0, 0.44, 5.7
+states=wheel.csv
+RotateXFunction = value + mod[(speedometer * delta),2.7] / 2.7 * 3.14 * 2
+
+[Object]
+Position = 0, 0, 9.42
+States = door1.csv
+TranslateXDirection = 0, 0, 1
+TranslateXFunction = leftdoors * 0.7 
+
+[Object]
+Position = 0, 0, 9.42
+States = door1-2.csv
+TranslateXDirection = 0, 0, 1
+TranslateXFunction = rightdoors * 0.7 
+
+[Object]
+Position = 0, 0, 8.74
+States = door2.csv
+TranslateXDirection = 0, 0, -1
+TranslateXFunction = leftdoors * 0.7 
+
+[Object]
+Position = 0, 0, 8.74
+States = door2-2.csv
+TranslateXDirection = 0, 0, -1
+TranslateXFunction = rightdoors * 0.7
+
+[object]
+States = chair1.csv
+Position = 0,0,0.2
+StateFunction = pluginstate[53] & pluginstate[104]
+
+[Object]
+States = displayN.csv, displayL2.csv
+Position = 0,0,-0.05
+TextureShiftXFunction = 0.05 * time
+RefreshRate = 0.1
+StateFunction = if[doors == 0 | doors == 1, 1, 0]
+
+[Object]
+States = displayN.csv, displayR2.csv
+Position = 0,0,-0.05
+TextureShiftXFunction = -0.05 * time
+RefreshRate = 0.1
+StateFunction = if[doors == 0 | doors == 1, 1, 0]
+
+[Object]
+States = lamp_OFF.csv, lamp_ON.csv
+Position = 0,-0.03,10.01
+StateFunction = if[doors == 0, 0, 1]
+
+[Object]
+Position = 0,-0.09,13.1
+States = ikisaki1.csv
+StateFunction = pluginstate[151]

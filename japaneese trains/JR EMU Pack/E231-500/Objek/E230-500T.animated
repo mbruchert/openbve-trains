@@ -1,0 +1,124 @@
+[Object]
+Position = 0, 0, 0
+States = E230-500T.csv
+
+[Object]
+Position = 0, 0, 0
+States = vision2.csv
+
+[Object]
+Position = 0, 0, 0
+States = interior2.csv
+
+[Object]
+States = chair3.csv
+Position = 0, 0, 0
+StateFunction = pluginstate[53] & pluginstate[104]
+
+[Object]
+States = LCD1a.csv, LCD2a.csv, LCD3a.csv
+StateFunctionRPN = distance 300 > 0 0.25 time * 3 mod floor ?
+
+;=kiri=
+[Object]
+Position = 0, 0, -1.04
+States = door1a.csv
+TranslateXDirection = 0, 0, -1
+TranslateXFunction = leftdoors * 0.7 
+
+[Object]
+Position = 0, 0, 14.17
+States = door1-2a.csv
+TranslateXDirection = 0, 0, 1
+TranslateXFunction = leftdoors * 0.7 
+
+;
+[Object]
+Position = 0, 0, -5.36
+States = door1a.csv
+TranslateXDirection = 0, 0, -1
+TranslateXFunction = leftdoors * 0.7 
+
+[Object]
+Position = 0, 0, 9.85
+States = door1-2a.csv
+TranslateXDirection = 0, 0, 1
+TranslateXFunction = leftdoors * 0.7 
+
+;
+[Object]
+Position = 0, 0, -10.34
+States = door1a.csv
+TranslateXDirection = 0, 0, -1
+TranslateXFunction = leftdoors * 0.7 
+
+[Object]
+Position = 0, 0, 4.87
+States = door1-2a.csv
+TranslateXDirection = 0, 0, 1
+TranslateXFunction = leftdoors * 0.7 
+
+;
+[Object]
+Position = 0, 0, -15.33
+States = door1a.csv
+TranslateXDirection = 0, 0, -1
+TranslateXFunction = leftdoors * 0.7 
+
+[Object]
+Position = 0, 0, -0.12
+States = door1-2a.csv
+TranslateXDirection = 0, 0, 1
+TranslateXFunction = leftdoors * 0.7 
+
+;=kanan=
+[Object]
+Position = 0, 0, -1.04
+States = door2a.csv
+TranslateXDirection = 0, 0, -1
+TranslateXFunction = rightdoors * 0.7 
+
+[Object]
+Position = 0, 0, 14.17
+States = door2-2a.csv
+TranslateXDirection = 0, 0, 1
+TranslateXFunction = rightdoors * 0.7 
+
+;
+[Object]
+Position = 0, 0, -5.36
+States = door2a.csv
+TranslateXDirection = 0, 0, -1
+TranslateXFunction = rightdoors * 0.7 
+
+[Object]
+Position = 0, 0, 9.85
+States = door2-2a.csv
+TranslateXDirection = 0, 0, 1
+TranslateXFunction = rightdoors * 0.7 
+
+;
+[Object]
+Position = 0, 0, -10.34
+States = door2a.csv
+TranslateXDirection = 0, 0, -1
+TranslateXFunction = rightdoors * 0.7 
+
+[Object]
+Position = 0, 0, 4.87
+States = door2-2a.csv
+TranslateXDirection = 0, 0, 1
+TranslateXFunction = rightdoors * 0.7 
+
+;
+[Object]
+Position = 0, 0, -15.33
+States = door2a.csv
+TranslateXDirection = 0, 0, -1
+TranslateXFunction = rightdoors * 0.7 
+
+[Object]
+Position = 0, 0, -0.12
+States = door2-2a.csv
+TranslateXDirection = 0, 0, 1
+TranslateXFunction = rightdoors * 0.7 

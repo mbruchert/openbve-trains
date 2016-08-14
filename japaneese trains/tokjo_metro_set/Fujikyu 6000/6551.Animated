@@ -1,0 +1,90 @@
+; Animation by Charles Y.A.
+; Numbering system by Charles
+
+[Object]
+Position = 0, 0, 0
+States = 6551.csv
+
+[Object]
+Position = 0, 0.44, -8.3
+states=wheel.csv
+RotateXFunction = value + mod[(speedometer * delta),2.7] / 2.7 * 3.14 * 2
+
+[Object]
+Position = 0, 0.44, -6.2
+states=wheel.csv
+RotateXFunction = value + mod[(speedometer * delta),2.7] / 2.7 * 3.14 * 2
+
+[Object]
+Position = 0, 0.44, 7.8
+states=wheel.csv
+RotateXFunction = value + mod[(speedometer * delta),2.7] / 2.7 * 3.14 * 2
+
+[Object]
+Position = 0, 0.44, 5.7
+states=wheel.csv
+RotateXFunction = value + mod[(speedometer * delta),2.7] / 2.7 * 3.14 * 2
+
+
+[Object]
+Position = 0, 0, 9.525
+States = door1.csv
+TranslateXDirection = 0, 0, 1
+TranslateXFunction = leftdoors * 0.7 
+
+[Object]
+Position = 0, 0, 9.525
+States = door1-2.csv
+TranslateXDirection = 0, 0, 1
+TranslateXFunction = rightdoors * 0.7 
+
+[Object]
+Position = 0, 0, 8.845
+States = door2.csv
+TranslateXDirection = 0, 0, -1
+TranslateXFunction = leftdoors * 0.7 
+
+[Object]
+Position = 0, 0, 8.845
+States = door2-2.csv
+TranslateXDirection = 0, 0, -1
+TranslateXFunction = rightdoors * 0.7 
+
+[Object]
+States = chair.csv
+StateFunction = pluginstate[53] & pluginstate[104]
+
+[Object]
+States = lamp_OFF.csv, lamp_ON.csv
+Position = 0,-0.12,10.045
+StateFunction = if[doors == 0, 0, 1]
+
+; -----------
+; kendali rem
+; -----------
+
+[object]
+states = 3dcab\brake_mount.csv
+position = -0.5, 1.88, 9.05
+
+[object]
+states = 3dcab\brake_lever.csv
+position = -0.5, 1.88, 9.05
+rotateyfunction = (brakeNotchLinear / brakeNotchesLinear) * 1.5
+rotateydirection = 0, 1, 0
+rotateydamping = 20, 0.8
+
+; -----------
+; kendali traksi
+; -----------
+
+[object]
+states = 3dcab\brake_mount.csv
+position = -1.08, 1.88, 9.05
+
+[object]
+states = 3dcab\brake_lever.csv
+position = -1.08, 1.88, 9.05
+rotateyfunction = ((powerNotch / powerNotches) * 2) * 0.5 - 1
+rotateydirection = 0, 1, 0
+rotateydamping = 20, 0.8

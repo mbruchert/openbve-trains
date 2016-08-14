@@ -1,0 +1,43 @@
+﻿; Animation and Interior by Ajitaxakha
+; MoHa 200
+
+[Object]
+Position = 0, 0, 0
+States = 202M.csv
+
+[Object]
+Position = 0, 0, 0
+States = middle inside.csv
+
+[Object]
+Position = 0, 0, 0
+States = kaca tengah.csv
+
+[object]
+Position = 0,0,0
+States = chair1.csv
+StateFunction = pluginstate[53] & pluginstate[104]
+
+[Object]
+Position = 0, 0, 9.525
+States = door1.csv
+TranslateXDirection = 0, 0, 1
+TranslateXFunction = leftdoors * 0.7 
+
+[Object]
+Position = 0, 0, 9.525
+States = door1-2.csv
+TranslateXDirection = 0, 0, 1
+TranslateXFunction = rightdoors * 0.7 
+
+[Object]
+Position = 0, 0, 8.845
+States = door2.csv
+TranslateXDirection = 0, 0, -1
+TranslateXFunction = leftdoors * 0.7 
+
+[Object]
+Position = 0, 0, 8.845
+States = door2-2.csv
+TranslateXDirection = 0, 0, -1
+TranslateXFunction = rightdoors * 0.7 

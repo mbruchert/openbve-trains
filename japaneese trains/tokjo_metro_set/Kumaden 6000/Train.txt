@@ -1,0 +1,42 @@
+6000-6101A/6111A/6211A/6221A/6231A
+
+Toei (Tokyo Metropolitan Government, TMG) Mita Line - Kumamoto Electric Railway
+
+都営　（東京都交通局、TMG)　三田線　－　熊本電鉄
+
+2 cars - 2 両:
+
+6101A
+
+MoHa 「モハ」 6000 - 6108A (Mc2) - Hitachi (日立車輌)
+MoHa 「モハ」 6000 - 6101A (Mc1)◇ - Hitachi (日立車輌)
+
+6111A
+
+MoHa 「モハ」 6000 - 6118A (Mc2) - Hitachi (日立車輌)
+MoHa 「モハ」 6000 - 6111A (Mc1)◇ - Hitachi (日立車輌)
+
+6211A
+
+MoHa 「モハ」 6000 - 6218A (Mc2) - ALNA (アルナエ機)
+MoHa 「モハ」 6000 - 6211A (Mc1)◇ - ALNA (アルナエ機)
+
+6221A
+
+MoHa 「モハ」 6000 - 6228A (Mc2) - ALNA (アルナエ機)
+MoHa 「モハ」 6000 - 6221A (Mc1)◇ - ALNA (アルナエ機)
+
+6231A
+
+MoHa 「モハ」 6000 - 6238A (Mc2) - ALNA (アルナエ機)
+MoHa 「モハ」 6000 - 6231A (Mc1)◇ - ALNA (アルナエ機)
+-------------
+
+
+Electric Multiple Unit
+Rheostatic + Chopper
+
+(C) Charles Y.A.
+
+Balai Yasa BVE GM-MarKA
+Official factory of BVE Indonesia

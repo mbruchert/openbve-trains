@@ -1,0 +1,119 @@
+; Animation by Charles Y.A.
+; Numbering system by Charles
+
+[Object]
+Position = 0, 0, 0
+States = IKK8000-8010.csv
+
+[Object]
+Position = 0, 0.44, -8.2
+states=wheel.csv
+RotateXFunction = value + mod[(speedometer * delta),2.7] / 2.7 * 3.14 * 2
+
+[Object]
+Position = 0, 0.44, -6
+states=wheel.csv
+RotateXFunction = value + mod[(speedometer * delta),2.7] / 2.7 * 3.14 * 2
+
+[Object]
+Position = 0, 0.44, 7.7
+states=wheel.csv
+RotateXFunction = value + mod[(speedometer * delta),2.7] / 2.7 * 3.14 * 2
+
+[Object]
+Position = 0, 0.44, 5.5
+states=wheel.csv
+RotateXFunction = value + mod[(speedometer * delta),2.7] / 2.7 * 3.14 * 2
+
+
+[Object]
+Position = 0, 0, 9.525
+States = door1.csv
+TranslateXDirection = 0, 0, 1
+TranslateXFunction = leftdoors * 0.7  
+
+[Object]
+Position = 0, 0, 9.525
+States = door1-2.csv
+TranslateXDirection = 0, 0, 1
+TranslateXFunction = rightdoors * 0.7  
+
+[Object]
+Position = 0, 0, 8.845
+States = door2.csv
+TranslateXDirection = 0, 0, -1
+TranslateXFunction = leftdoors * 0.7  
+
+[Object]
+Position = 0, 0, 8.845
+States = door2-2.csv
+TranslateXDirection = 0, 0, -1
+TranslateXFunction = rightdoors * 0.7  
+
+[Object]
+States = chair.csv
+StateFunction = pluginstate[53] & pluginstate[104]
+
+[Object]
+;States = displayL.csv
+;Position=0,0,-0.242
+;TextureShiftXFunction = -0.05 * time
+;RefreshRate = 0.1
+
+[Object]
+;States = displayR.csv
+;Position=0,0,-0.242
+;TextureShiftXFunction = 0.05 * time
+;RefreshRate = 0.1
+
+[Object]
+States = frontdisplay.csv
+Position = 0.0035,0,0
+TextureShiftYFunction = 0.05 * time
+RefreshRate = 0.1
+
+[Object]
+States = ikisaki.csv
+
+[Object]
+States = lamp-T2C-OFF.csv, lamp-T2C-ON.csv
+Position = 0,0,1.42
+StateFunction = if[doors == 0, 0, 1]
+
+; -----------
+; Tongkat traksi/rem
+; -----------
+
+;[object]
+;states = 3dcab\power_mount.csv
+;position = -0.80, 1.77, 8.35
+
+[object]
+states = 3dcab\power_lever.csv
+position = -0.9265, 1.75, 9.015
+rotatexfunction = ((1.6*powerNotch - brakeNotchLinear - constSpeed / 1.6*powerNotches + brakeNotchesLinear + hasConstSpeed) * 2 - 17.5) * 0.045
+rotatexdirection = -1, 0, 0
+rotatexdamping = 10, 0.9
+
+; --------------
+; Tongkat kendali maju/mundur (reverser)
+; --------------
+
+[object]
+states = 3dcab\reverser_mount.csv
+position = -0.667, 1.73, 9.029
+
+[object]
+states = 3dcab\reverser_lever.csv
+position = -0.667, 1.73, 9.029
+rotatexfunction = 0.2 * reverserNotch
+rotatexdamping = 20, 0.8
+
+; ----------
+; Lampu indikator pintu
+; ----------
+
+[object]
+states = 3dcab\pilot_lamp.csv
+statefunction = ceiling[doors]
+position = -0.925, 1.868, 9.267

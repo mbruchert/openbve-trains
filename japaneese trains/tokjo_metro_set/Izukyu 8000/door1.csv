@@ -1,0 +1,166 @@
+;//Eksterior
+CreateMeshBuilder,,,,
+AddVertex    ,1.39,1,-17.7,
+AddVertex    ,1.39,3.14,-17.7,
+AddVertex    ,1.39,3.14,-17.0,
+AddVertex    ,1.39,1,-17.0,
+AddFace2,0,1,2,3
+GenerateNormals,,,,
+
+LoadTexture,door.bmp,,,
+SetTextureCoordinates,0,0,1,
+SetTextureCoordinates,1,0,0,
+SetTextureCoordinates,2,1,0,
+SetTextureCoordinates,3,1,1,
+SetDecalTransparentColor,0,0,0
+
+CreateMeshBuilder,,,,
+AddVertex    ,1.39,1,-12.82,
+AddVertex    ,1.39,3.14,-12.82,
+AddVertex    ,1.39,3.14,-12.12,
+AddVertex    ,1.39,1,-12.12,
+AddFace2,0,1,2,3
+GenerateNormals,,,,
+
+LoadTexture,door.bmp,,,
+SetTextureCoordinates,0,0,1,
+SetTextureCoordinates,1,0,0,
+SetTextureCoordinates,2,1,0,
+SetTextureCoordinates,3,1,1,
+SetDecalTransparentColor,0,0,0
+
+CreateMeshBuilder,,,,
+AddVertex    ,1.39,1,-7.99,
+AddVertex    ,1.39,3.14,-7.99,
+AddVertex    ,1.39,3.14,-7.29,
+AddVertex    ,1.39,1,-7.29,
+AddFace2,0,1,2,3
+GenerateNormals,,,,
+
+LoadTexture,door.bmp,,,
+SetTextureCoordinates,0,0,1,
+SetTextureCoordinates,1,0,0,
+SetTextureCoordinates,2,1,0,
+SetTextureCoordinates,3,1,1,
+SetDecalTransparentColor,0,0,0
+
+CreateMeshBuilder,,,,
+AddVertex    ,1.39,1,-3.13,
+AddVertex    ,1.39,3.14,-3.13,
+AddVertex    ,1.39,3.14,-2.43,
+AddVertex    ,1.39,1,-2.43,
+AddFace2,0,1,2,3
+GenerateNormals,,,,
+
+LoadTexture,door.bmp,,,
+SetTextureCoordinates,0,0,1,
+SetTextureCoordinates,1,0,0,
+SetTextureCoordinates,2,1,0,
+SetTextureCoordinates,3,1,1,
+SetDecalTransparentColor,0,0,0
+
+;//Interior
+CreateMeshBuilder,,,,
+AddVertex    ,1.383,1,-17.7,
+AddVertex    ,1.383,3.14,-17.7,
+AddVertex    ,1.383,3.14,-17.0,
+AddVertex    ,1.383,1,-17.0,
+AddFace2,0,1,2,3
+GenerateNormals,,,,
+
+LoadTexture,door2.bmp,,,
+SetTextureCoordinates,0,0,1,
+SetTextureCoordinates,1,0,0,
+SetTextureCoordinates,2,1,0,
+SetTextureCoordinates,3,1,1,
+SetDecalTransparentColor,0,0,0
+SetEmissiveColor,255,255,255
+
+CreateMeshBuilder,,,,
+AddVertex    ,1.383,1,-12.82,
+AddVertex    ,1.383,3.14,-12.82,
+AddVertex    ,1.383,3.14,-12.12,
+AddVertex    ,1.383,1,-12.12,
+AddFace2,0,1,2,3
+GenerateNormals,,,,
+
+LoadTexture,door2.bmp,,,
+SetTextureCoordinates,0,0,1,
+SetTextureCoordinates,1,0,0,
+SetTextureCoordinates,2,1,0,
+SetTextureCoordinates,3,1,1,
+SetDecalTransparentColor,0,0,0
+SetEmissiveColor,255,255,255
+
+CreateMeshBuilder,,,,
+AddVertex    ,1.383,1,-7.99,
+AddVertex    ,1.383,3.14,-7.99,
+AddVertex    ,1.383,3.14,-7.29,
+AddVertex    ,1.383,1,-7.29,
+AddFace2,0,1,2,3
+GenerateNormals,,,,
+
+LoadTexture,door2.bmp,,,
+SetTextureCoordinates,0,0,1,
+SetTextureCoordinates,1,0,0,
+SetTextureCoordinates,2,1,0,
+SetTextureCoordinates,3,1,1,
+SetDecalTransparentColor,0,0,0
+SetEmissiveColor,255,255,255
+
+CreateMeshBuilder,,,,
+AddVertex    ,1.383,1,-3.13,
+AddVertex    ,1.383,3.14,-3.13,
+AddVertex    ,1.383,3.14,-2.43,
+AddVertex    ,1.383,1,-2.43,
+AddFace2,0,1,2,3
+GenerateNormals,,,,
+
+LoadTexture,door2.bmp,,,
+SetTextureCoordinates,0,0,1,
+SetTextureCoordinates,1,0,0,
+SetTextureCoordinates,2,1,0,
+SetTextureCoordinates,3,1,1,
+SetDecalTransparentColor,0,0,0
+SetEmissiveColor,255,255,255
+
+; Kaca pintu
+
+;1
+CreateMeshBuilder,,,,
+AddVertex    ,1.386,1.7,-17.7,
+AddVertex    ,1.386,3.04,-17.7,
+AddVertex    ,1.386,3.04,-17.0,
+AddVertex    ,1.386,1.7,-17.0,
+AddFace2,0,1,2,3
+SetColor,80,80,160,90
+
+;2
+CreateMeshBuilder,,,,
+AddVertex    ,1.386,1.7,-12.82,
+AddVertex    ,1.386,3.04,-12.82,
+AddVertex    ,1.386,3.04,-12.12,
+AddVertex    ,1.386,1.7,-12.12,
+AddFace2,0,1,2,3
+SetColor,80,80,160,90
+
+;3
+CreateMeshBuilder,,,,
+AddVertex    ,1.386,1.7,-7.99,
+AddVertex    ,1.386,3.04,-7.99,
+AddVertex    ,1.386,3.04,-7.29,
+AddVertex    ,1.386,1.7,-7.29,
+AddFace2,0,1,2,3
+SetColor,80,80,160,90
+
+;4
+CreateMeshBuilder,,,,
+AddVertex    ,1.386,1.7,-3.13,
+AddVertex    ,1.386,3.04,-3.13,
+AddVertex    ,1.386,3.04,-2.43,
+AddVertex    ,1.386,1.7,-2.43,
+AddFace2,0,1,2,3
+SetColor,80,80,160,90
+
+RotateAll,0,1,0,180
+TranslateAll,0,0,-19.5,

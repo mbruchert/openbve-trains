@@ -1,0 +1,29 @@
+;Lampu indikator
+
+;Kiri
+CreateMeshBuilder,,;//¶‘¤“” 1,,
+Cylinder,16,0.055,0.055,0.025
+SetColor,0,0,0,
+Rotate,0,0,1,90
+Translate ,1.4,3.2,-10.58,
+
+CreateMeshBuilder,,;//¶‘¤“” 2,,
+Cylinder,16,0.055,0.055,0.025
+SetColor,0,0,0,
+Rotate,0,0,1,90
+Translate ,1.4,3.2,-0.83,
+
+;Kanan
+CreateMeshBuilder,,;//‰E‘¤“” 1,,
+Cylinder,16,0.055,0.055,0.025
+SetColor,0,0,0,
+Rotate,0,0,1,90
+Translate ,-1.4,3.2,-10.58
+
+CreateMeshBuilder,,;//¶‘¤“” 2,,
+Cylinder,16,0.055,0.055,0.025
+SetColor,0,0,0,
+Rotate,0,0,1,90
+Translate ,-1.4,3.2,-0.83,
+
+RotateAll,0,1,0,180

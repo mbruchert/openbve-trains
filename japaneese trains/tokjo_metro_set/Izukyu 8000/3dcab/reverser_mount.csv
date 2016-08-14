@@ -1,0 +1,9 @@
+﻿CreateMeshBuilder
+Cube, 0.015, 0.015, 0.050
+SetColor, 40, 40, 40
+
+CreateMeshbuilder
+Cylinder, 12, 0.02, 0.02, 0.02
+Rotate,0,0,1,90
+Translate, 0, 0, 0
+SetColor, 50, 50, 50

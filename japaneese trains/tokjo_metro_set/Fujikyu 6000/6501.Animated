@@ -1,0 +1,61 @@
+; Animation by Charles Y.A.
+; Numbering system by Charles
+
+[Object]
+Position = 0, 0, 0
+States = 6501.csv
+
+[object]
+Position = 0, 0.44, -8.0
+states=wheel.csv
+RotateXFunction = value + mod[(speedometer * delta),2.7] / 2.7 * 3.14 * 2
+
+[object]
+Position = 0, 0.44, -5.9
+states=wheel.csv
+RotateXFunction = value + mod[(speedometer * delta),2.7] / 2.7 * 3.14 * 2
+
+[object]
+Position = 0, 0.44, 8.1
+states=wheel.csv
+RotateXFunction = value + mod[(speedometer * delta),2.7] / 2.7 * 3.14 * 2
+
+[object]
+Position = 0, 0.44, 6.0
+states=wheel.csv
+RotateXFunction = value + mod[(speedometer * delta),2.7] / 2.7 * 3.14 * 2
+
+[Object]
+Position = 0, 0, 9.810
+States = door1.csv
+TranslateXDirection = 0, 0, 1
+TranslateXFunction = leftdoors * 0.7 
+
+[Object]
+Position = 0, 0, 9.810
+States = door1-2.csv
+TranslateXDirection = 0, 0, 1
+TranslateXFunction = rightdoors * 0.7 
+
+[Object]
+Position = 0, 0, 9.13
+States = door2.csv
+TranslateXDirection = 0, 0, -1
+TranslateXFunction = leftdoors * 0.7 
+
+[Object]
+Position = 0, 0, 9.13
+States = door2-2.csv
+TranslateXDirection = 0, 0, -1
+TranslateXFunction = rightdoors * 0.7 
+
+[Object]
+States = chair2.csv
+Position = 0,0,0.3
+StateFunction = pluginstate[53] & pluginstate[104]
+
+[Object]
+States = lamp_OFF.csv, lamp_ON.csv
+Position = 0,-0.12,9.15
+StateFunction = if[doors == 0, 0, 1]
+

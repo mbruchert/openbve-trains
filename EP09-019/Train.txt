@@ -1,0 +1,15 @@
+Electric Passenger locomotive EP09-019 openBVE
+v1.1 [16/02/10]
+by Rave
+
+Years of construction: 1986-1997 (Pafawag, Wroclaw - Poland)
+Wheel arrangement: B'2'
+Weight: 84 tonnes
+Engine type: LKa740
+Power: 2940 kW
+Max speed: 160 km/h
+
+Used on InterCity,EuroCity and Express routes.
+
+
+

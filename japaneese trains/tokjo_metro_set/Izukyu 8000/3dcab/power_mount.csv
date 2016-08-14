@@ -1,0 +1,12 @@
+﻿CreateMeshBuilder
+Cube, 0.025, 0.018, 0.11
+SetColor, 40, 40, 40
+Translate,0,0,0.01
+
+CreateMeshBuilder
+Cube, 0.024, 0.019, 0.111
+SetColor, 20, 20, 20
+Translate,0,0,0.01
+
+
+TranslateAll,0,-0.004,0
